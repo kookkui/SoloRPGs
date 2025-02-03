@@ -45,6 +45,7 @@ axp: 10
 Title4: 10 Pale Ghar claws  (20 jats ea.)
 Title5: One-Handed Sword
 Title6: Wolf Pelt (100 jats)
+Lightitem1: true
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  
@@ -167,7 +168,7 @@ Title6: Wolf Pelt (100 jats)
 >> ### Inventory
 >>| Slot |  |Light Item | Equipped?|
 >>| :-: | :---------------- |--------|--------|
->>| 1 | `INPUT[text:Title69]` |<input type="checkbox" checked>   |  <input type="checkbox">    | 
+>>| 1 | `INPUT[text:Title69]` |  `=this.lightitem1`   |  <input type="checkbox">    | 
 >>| 2 | `INPUT[text:Title1]` |<input type="checkbox">   |<input type="checkbox">   | 
 >>| 3 | `INPUT[text:Title2]` |<input type="checkbox">   |<input type="checkbox">   | 
 >>| 4 | `INPUT[text:Title3]` |<input type="checkbox">   |<input type="checkbox">   | 
