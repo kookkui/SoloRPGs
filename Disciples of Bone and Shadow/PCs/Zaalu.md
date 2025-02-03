@@ -45,7 +45,8 @@ axp: 10
 Title4: 10 Pale Ghar claws  (20 jats ea.)
 Title5: One-Handed Sword
 Title6: Wolf Pelt (100 jats)
-Lightitem1: true
+Lightitem1: false
+exampleProperty: false
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  
@@ -168,46 +169,46 @@ Lightitem1: true
 >> ### Inventory
 >>| Slot |  |Light Item | Equipped?|
 >>| :-: | :---------------- |--------|--------|
->>| 1 | `INPUT[text:Title69]` |  `=this.lightitem1`   |  <input type="checkbox">    | 
->>| 2 | `INPUT[text:Title1]` |<input type="checkbox">   |<input type="checkbox">   | 
->>| 3 | `INPUT[text:Title2]` |<input type="checkbox">   |<input type="checkbox">   | 
->>| 4 | `INPUT[text:Title3]` |<input type="checkbox">   |<input type="checkbox">   | 
->>| 5 | `INPUT[text:Title4]` |<input type="checkbox">   |<input type="checkbox">   | 
->>| 6 |`INPUT[text:Title5]` |<input type="checkbox">   |<input type="checkbox">   | 
->>| 7 | `INPUT[text:Title6]` |<input type="checkbox">   |<input type="checkbox">   | 
->>| 8 | `INPUT[text:Title7]` |<input type="checkbox">   |<input type="checkbox">   | 
->>| 9 | `INPUT[text:Title8]` |<input type="checkbox">   |<input type="checkbox">   | 
->>| 10 | `INPUT[text:Title9]` |<input type="checkbox">   |<input type="checkbox">   | 
->>| 11 | `INPUT[text:Title10]` |<input type="checkbox">   |<input type="checkbox">   | 
->>| 12 | `INPUT[text:Title11]` |<input type="checkbox">   |<input type="checkbox">   | 
->>| 13 | `INPUT[text:Title12]` |<input type="checkbox">   |<input type="checkbox">   | 
->>| 14 | `INPUT[text:Title13]` |<input type="checkbox">   |<input type="checkbox">   | 
->>| 15 | `INPUT[text:Title14]` |<input type="checkbox">   |<input type="checkbox">   | 
->>| 16 | `INPUT[text:Title1416]` |<input type="checkbox">   |<input type="checkbox">   | 
->>| 17 | `INPUT[text:Title1417]` |<input type="checkbox">   |<input type="checkbox">   | 
->>| 18 | `INPUT[text:Title1418]` |<input type="checkbox">   |<input type="checkbox">   | 
->>| 19 | `INPUT[text:Title1419]` |<input type="checkbox">   |<input type="checkbox">   | 
->>| 20 | `INPUT[text:Title1420]` |<input type="checkbox">   |<input type="checkbox">   | 
->>| 21 | `INPUT[text:Title1421]` |<input type="checkbox">   |<input type="checkbox">   | 
->>| 22 | `INPUT[text:Title1422]` |<input type="checkbox">   |<input type="checkbox">   | 
->>| 23 | `INPUT[text:Title143]` |<input type="checkbox">   |<input type="checkbox">   | 
->>| 24 | `INPUT[text:Title1424]` |<input type="checkbox">   |<input type="checkbox">   | 
->>| 25 | `INPUT[text:Title1425]` |<input type="checkbox">   |<input type="checkbox">   | 
->>| 26 | `INPUT[text:Title1426]` |<input type="checkbox">   |<input type="checkbox">   | 
->>| 27 | `INPUT[text:Title1427]` |<input type="checkbox">   |<input type="checkbox">   | 
->>| 28 | `INPUT[text:Title1428]` |<input type="checkbox">   |<input type="checkbox">   | 
->>| 29 | `INPUT[text:Title1431]` |<input type="checkbox">   |<input type="checkbox">   | 
->>| 30 | `INPUT[text:Title1430]` |<input type="checkbox">   |<input type="checkbox">   | 
->>| 31 | `INPUT[text:Title1432]` |<input type="checkbox">   |<input type="checkbox">   | 
->>| 32 | `INPUT[text:Title1433]` |<input type="checkbox">   |<input type="checkbox">   | 
->>| 33 | `INPUT[text:Title1434]` |<input type="checkbox">   |<input type="checkbox">   | 
->>| 34 | `INPUT[text:Title1435]` |<input type="checkbox">   |<input type="checkbox">   | 
->>| 35 | `INPUT[text:Title1436]` |<input type="checkbox">   |<input type="checkbox">   | 
->>| 36 | `INPUT[text:Title1437]` |<input type="checkbox">   |<input type="checkbox">   | 
->>| 37 | `INPUT[text:Title1438]` |<input type="checkbox">   |<input type="checkbox">   | 
->>| 38 | `INPUT[text:Title1439]` |<input type="checkbox">   |<input type="checkbox">   | 
->>| 39 | `INPUT[text:Title1440]` |<input type="checkbox">   |<input type="checkbox">   | 
->>| 40 | `INPUT[text:Title1441]` |<input type="checkbox">   |  <input type="checkbox">   |                                                                                         
+>>| 1 | `INPUT[text:Title69]` |  `INPUT[toggle:checkbox]`   |  `INPUT[toggle:checkbox]`    | 
+>>| 2 | `INPUT[text:Title1]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
+>>| 3 | `INPUT[text:Title2]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
+>>| 4 | `INPUT[text:Title3]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
+>>| 5 | `INPUT[text:Title4]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
+>>| 6 |`INPUT[text:Title5]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
+>>| 7 | `INPUT[text:Title6]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
+>>| 8 | `INPUT[text:Title7]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
+>>| 9 | `INPUT[text:Title8]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
+>>| 10 | `INPUT[text:Title9]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
+>>| 11 | `INPUT[text:Title10]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
+>>| 12 | `INPUT[text:Title11]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
+>>| 13 | `INPUT[text:Title12]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
+>>| 14 | `INPUT[text:Title13]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
+>>| 15 | `INPUT[text:Title14]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
+>>| 16 | `INPUT[text:Title1416]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
+>>| 17 | `INPUT[text:Title1417]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
+>>| 18 | `INPUT[text:Title1418]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
+>>| 19 | `INPUT[text:Title1419]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
+>>| 20 | `INPUT[text:Title1420]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
+>>| 21 | `INPUT[text:Title1421]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
+>>| 22 | `INPUT[text:Title1422]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
+>>| 23 | `INPUT[text:Title143]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
+>>| 24 | `INPUT[text:Title1424]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
+>>| 25 | `INPUT[text:Title1425]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
+>>| 26 | `INPUT[text:Title1426]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
+>>| 27 | `INPUT[text:Title1427]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
+>>| 28 | `INPUT[text:Title1428]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
+>>| 29 | `INPUT[text:Title1431]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
+>>| 30 | `INPUT[text:Title1430]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
+>>| 31 | `INPUT[text:Title1432]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
+>>| 32 | `INPUT[text:Title1433]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
+>>| 33 | `INPUT[text:Title1434]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
+>>| 34 | `INPUT[text:Title1435]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
+>>| 35 | `INPUT[text:Title1436]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
+>>| 36 | `INPUT[text:Title1437]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
+>>| 37 | `INPUT[text:Title1438]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
+>>| 38 | `INPUT[text:Title1439]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
+>>| 39 | `INPUT[text:Title1440]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
+>>| 40 | `INPUT[text:Title1441]` |`INPUT[toggle:checkbox]`   |  `INPUT[toggle:checkbox]`   |                                                                                         
 
 ```meta-bind-button
 label: Add
@@ -226,6 +227,8 @@ actions:
   value: getMetadata('xp') + getMetadata('axp')
 
 ```
+
+
 
 
 

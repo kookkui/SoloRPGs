@@ -491,3 +491,8 @@ Room 8
 
 **Encounter Check** 8
 
+###### Cave Exploration
+
+**Trap**. This room is trapped. Follow the standard trap rules and roll on the Traps table found on page 80
+
+
