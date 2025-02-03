@@ -487,7 +487,7 @@ Encounter check 4
 
 +1 Wolf Pelt (100 jats)
 
-Exits check 
+Room 8 
 
-Exits
-One
+**Encounter Check** 8
+
