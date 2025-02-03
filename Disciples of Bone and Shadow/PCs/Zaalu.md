@@ -167,7 +167,7 @@ Title6: Wolf Pelt (100 jats)
 >> ### Inventory
 >>| Slot |  |Light Item | Equipped?|
 >>| :-: | :---------------- |--------|--------|
->>| 1 | `INPUT[text:Title69]` |<input type="checkbox">   |  <input type="checkbox">    | 
+>>| 1 | `INPUT[text:Title69]` |<input type="checkbox" checked>   |  <input type="checkbox">    | 
 >>| 2 | `INPUT[text:Title1]` |<input type="checkbox">   |<input type="checkbox">   | 
 >>| 3 | `INPUT[text:Title2]` |<input type="checkbox">   |<input type="checkbox">   | 
 >>| 4 | `INPUT[text:Title3]` |<input type="checkbox">   |<input type="checkbox">   | 

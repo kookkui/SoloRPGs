@@ -11,7 +11,7 @@ tags: [excalidraw]
 
 ## Text Elements
 ## Embedded Files
-d3eb884832cbdb7cf957fccdb0538bf0e487da24: [[SoloRPGs/_ Assets/Disciples of Bone & Shadow - GM Screen_1.webp]]
+d3eb884832cbdb7cf957fccdb0538bf0e487da24: [[Disciples of Bone & Shadow - GM Screen_1.webp]]
 
 %%
 ## Drawing
