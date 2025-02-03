@@ -496,3 +496,5 @@ Room 8
 **Trap**. This room is trapped. Follow the standard trap rules and roll on the Traps table found on page 80
 
 
+
+**Perception** Check 30 

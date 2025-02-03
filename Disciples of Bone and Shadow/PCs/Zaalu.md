@@ -47,6 +47,21 @@ Title5: One-Handed Sword
 Title6: Wolf Pelt (100 jats)
 Lightitem1: false
 exampleProperty: false
+title1: 1x Healing Tincture
+title2: Rations
+title3: Torch x 10
+title4: Bandage x 5
+title5: 10 Pale Ghar claws  (20 jats ea.)
+title6: One-Handed Sword
+title7: Wolf Pelt (100 jats)
+checkbox1: true
+checkbox2: true
+checkbox3: true
+checkbox4: true
+checkbox5: true
+checkbox7: false
+equipped6: true
+equipped7: false
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  
@@ -169,46 +184,46 @@ exampleProperty: false
 >> ### Inventory
 >>| Slot |  |Light Item | Equipped?|
 >>| :-: | :---------------- |--------|--------|
->>| 1 | `INPUT[text:Title69]` |  `INPUT[toggle:checkbox]`   |  `INPUT[toggle:checkbox]`    | 
->>| 2 | `INPUT[text:Title1]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
->>| 3 | `INPUT[text:Title2]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
->>| 4 | `INPUT[text:Title3]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
->>| 5 | `INPUT[text:Title4]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
->>| 6 |`INPUT[text:Title5]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
->>| 7 | `INPUT[text:Title6]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
->>| 8 | `INPUT[text:Title7]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
->>| 9 | `INPUT[text:Title8]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
->>| 10 | `INPUT[text:Title9]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
->>| 11 | `INPUT[text:Title10]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
->>| 12 | `INPUT[text:Title11]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
->>| 13 | `INPUT[text:Title12]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
->>| 14 | `INPUT[text:Title13]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
->>| 15 | `INPUT[text:Title14]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
->>| 16 | `INPUT[text:Title1416]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
->>| 17 | `INPUT[text:Title1417]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
->>| 18 | `INPUT[text:Title1418]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
->>| 19 | `INPUT[text:Title1419]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
->>| 20 | `INPUT[text:Title1420]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
->>| 21 | `INPUT[text:Title1421]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
->>| 22 | `INPUT[text:Title1422]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
->>| 23 | `INPUT[text:Title143]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
->>| 24 | `INPUT[text:Title1424]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
->>| 25 | `INPUT[text:Title1425]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
->>| 26 | `INPUT[text:Title1426]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
->>| 27 | `INPUT[text:Title1427]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
->>| 28 | `INPUT[text:Title1428]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
->>| 29 | `INPUT[text:Title1431]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
->>| 30 | `INPUT[text:Title1430]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
->>| 31 | `INPUT[text:Title1432]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
->>| 32 | `INPUT[text:Title1433]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
->>| 33 | `INPUT[text:Title1434]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
->>| 34 | `INPUT[text:Title1435]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
->>| 35 | `INPUT[text:Title1436]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
->>| 36 | `INPUT[text:Title1437]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
->>| 37 | `INPUT[text:Title1438]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
->>| 38 | `INPUT[text:Title1439]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
->>| 39 | `INPUT[text:Title1440]` |`INPUT[toggle:checkbox]`   |`INPUT[toggle:checkbox]`   | 
->>| 40 | `INPUT[text:Title1441]` |`INPUT[toggle:checkbox]`   |  `INPUT[toggle:checkbox]`   |                                                                                         
+>>|1|`INPUT[text:title1]`|`INPUT[toggle:checkbox1]`|`INPUT[toggle:equipped1]`
+>>|2|`INPUT[text:title2]`|`INPUT[toggle:checkbox2]`|`INPUT[toggle:equipped2]`
+>>|3|`INPUT[text:title3]`|`INPUT[toggle:checkbox3]`|`INPUT[toggle:equipped3]`
+>>|4|`INPUT[text:title4]`|`INPUT[toggle:checkbox4]`|`INPUT[toggle:equipped4]`
+>>|5|`INPUT[text:title5]`|`INPUT[toggle:checkbox5]`|`INPUT[toggle:equipped5]`
+>>|6|`INPUT[text:title6]`|`INPUT[toggle:checkbox6]`|`INPUT[toggle:equipped6]`
+>>|7|`INPUT[text:title7]`|`INPUT[toggle:checkbox7]`|`INPUT[toggle:equipped7]`
+>>|8|`INPUT[text:title8]`|`INPUT[toggle:checkbox8]`|`INPUT[toggle:equipped8]`
+>>|9|`INPUT[text:title9]`|`INPUT[toggle:checkbox9]`|`INPUT[toggle:equipped9]`
+>>|10|`INPUT[text:title10]`|`INPUT[toggle:checkbox10]`|`INPUT[toggle:equipped10]`
+>>|11|`INPUT[text:title11]`|`INPUT[toggle:checkbox11]`|`INPUT[toggle:equipped11]`
+>>|12|`INPUT[text:title12]`|`INPUT[toggle:checkbox12]`|`INPUT[toggle:equipped12]`
+>>|13|`INPUT[text:title13]`|`INPUT[toggle:checkbox13]`|`INPUT[toggle:equipped13]`
+>>|14|`INPUT[text:title14]`|`INPUT[toggle:checkbox14]`|`INPUT[toggle:equipped14]`
+>>|15|`INPUT[text:title15]`|`INPUT[toggle:checkbox15]`|`INPUT[toggle:equipped15]`
+>>|16|`INPUT[text:title16]`|`INPUT[toggle:checkbox16]`|`INPUT[toggle:equipped16]`
+>>|17|`INPUT[text:title17]`|`INPUT[toggle:checkbox17]`|`INPUT[toggle:equipped17]`
+>>|18|`INPUT[text:title18]`|`INPUT[toggle:checkbox18]`|`INPUT[toggle:equipped18]`
+>>|19|`INPUT[text:title19]`|`INPUT[toggle:checkbox19]`|`INPUT[toggle:equipped19]`
+>>|20|`INPUT[text:title20]`|`INPUT[toggle:checkbox20]`|`INPUT[toggle:equipped20]`
+>>|21|`INPUT[text:title21]`|`INPUT[toggle:checkbox21]`|`INPUT[toggle:equipped21]`
+>>|22|`INPUT[text:title22]`|`INPUT[toggle:checkbox22]`|`INPUT[toggle:equipped22]`
+>>|23|`INPUT[text:title23]`|`INPUT[toggle:checkbox23]`|`INPUT[toggle:equipped23]`
+>>|24|`INPUT[text:title24]`|`INPUT[toggle:checkbox24]`|`INPUT[toggle:equipped24]`
+>>|25|`INPUT[text:title25]`|`INPUT[toggle:checkbox25]`|`INPUT[toggle:equipped25]`
+>>|26|`INPUT[text:title26]`|`INPUT[toggle:checkbox26]`|`INPUT[toggle:equipped26]`
+>>|27|`INPUT[text:title27]`|`INPUT[toggle:checkbox27]`|`INPUT[toggle:equipped27]`
+>>|28|`INPUT[text:title28]`|`INPUT[toggle:checkbox28]`|`INPUT[toggle:equipped28]`
+>>|29|`INPUT[text:title29]`|`INPUT[toggle:checkbox29]`|`INPUT[toggle:equipped29]`
+>>|30|`INPUT[text:title30]`|`INPUT[toggle:checkbox30]`|`INPUT[toggle:equipped30]`
+>>|31|`INPUT[text:title31]`|`INPUT[toggle:checkbox31]`|`INPUT[toggle:equipped31]`
+>>|32|`INPUT[text:title32]`|`INPUT[toggle:checkbox32]`|`INPUT[toggle:equipped32]`
+>>|33|`INPUT[text:title33]`|`INPUT[toggle:checkbox33]`|`INPUT[toggle:equipped33]`
+>>|34|`INPUT[text:title34]`|`INPUT[toggle:checkbox34]`|`INPUT[toggle:equipped34]`
+>>|35|`INPUT[text:title35]`|`INPUT[toggle:checkbox35]`|`INPUT[toggle:equipped35]`
+>>|36|`INPUT[text:title36]`|`INPUT[toggle:checkbox36]`|`INPUT[toggle:equipped36]`
+>>|37|`INPUT[text:title37]`|`INPUT[toggle:checkbox37]`|`INPUT[toggle:equipped37]`
+>>|38|`INPUT[text:title38]`|`INPUT[toggle:checkbox38]`|`INPUT[toggle:equipped38]`
+>>|39|`INPUT[text:title39]`|`INPUT[toggle:checkbox39]`|`INPUT[toggle:equipped39]`
+>>|40|`INPUT[text:title40]`|`INPUT[toggle:checkbox40]`|`INPUT[toggle:equipped40]`
 
 
 
