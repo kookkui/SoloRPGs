@@ -123,7 +123,7 @@ Spell1mem:
 >>| **Charisma**     | `=this.CHA` | 
 >>| **Max Gear Slots**     | `=(this.STR)` | 
 >> ### Skill Checks
->>| **Skill Name** | **Skill Level** |
+>>| <span style="color:rgb(182, 88, 254)">Skill Name</span> |<span style="color:rgb(182, 88, 254)"> Skill Level</span> |
 >>| ------------------------- | ----------- |
 >>| **Alchemy** | `30` |
 >>| **Animal Handling** (CHA `=this.CHA`) | `12` |
