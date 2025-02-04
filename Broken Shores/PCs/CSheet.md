@@ -3,13 +3,12 @@ Art: "![[Character Image Placholder]]"
 Level: 1
 Corruption: 0
 HP: 0
-GeSl: 0
-STR: 10
-DEX: 10
-CONST: 10
-WIL: 10
-INT: 10
-CHA: 10
+STR: 16
+DEX: 15
+CONST: 16
+WIL: 14
+INT: 13
+CHA: 12
 Weapon1: Placeholder
 Weapon1dmg: d6
 Weapon1notes: Its badass
@@ -25,8 +24,6 @@ Armorintegrity: D12
 Shield: Large
 ShieldPR: 30
 Shieldintegrity: D8
-DmgTkn: 0
-TempHP: 0
 Currency: 0
 Provisions: 0
 shards: 10
@@ -51,11 +48,11 @@ Spell1mem: false
 >> # `=this.file.name`
 >> ![[Character Image Placeholder]]
 >> ###### Stats
->>|     |     |
->> |--- | --- |
->>|**HP** | `=this.HP - this.DmgTkn + this.TempHP`|
->>|**Power Points** |  **Current:** `0` **Max:** `=this.WIL`|
->> |**Speed** |  **Walk:** `=this.DEX*2` **Run:** `=this.DEX*4` |
+>>|     |     | |
+>> |--- | --- | --- |
+>>|**HP** | **Current:** `0` |**Max:** `=this.CONST*2`|
+>>|**Power Points** |  **Current:** `0` | **Max:** `=this.WIL`|
+>> |**Speed** |  **Walk:** `=this.DEX*2` |  **Run:** `=this.DEX*4` |
 >> | **Max Gear Slots**     | `=(this.STR)+10` | 
  >> |**Armor** | `=this.Armor` |
 >>
