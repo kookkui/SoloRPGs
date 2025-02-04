@@ -41,6 +41,7 @@ Spell2pp: "10"
 Spell2idio: The spell cleanses a negative condition from the sorcerer
 Spell2des: "Range: 30 ft / Resisted: No / Duration: WIL turns In order to cast this spell, the sorcerer needs to sacrifice 3 HP. It takes 3 rounds to complete this spell, resulting in the summoning of a minor demon, as described on page 126. The demon is bound to the sorcerer until the spell duration is over, and will obey their commands."
 Spell1mem: false
+skill1: false
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  

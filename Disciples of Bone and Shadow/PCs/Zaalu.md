@@ -21,8 +21,6 @@ Weapon3:
 Weapon3dmg: 
 Weapon3notes: 
 Armor: 0
-DmgTkn: 0
-TempHP: 0
 currency: 125
 provisions: 10
 hregion: Akkar Strand
@@ -71,7 +69,7 @@ equipped7: false
 >>|     |     |
 >> |--- | --- |
 >>|   **Level**   |  `=this.level`   |
->>|**HP** | `=this.HP - this.DmgTkn + this.TempHP`|
+>>|**HP** | **Current:** `41` **Max:** `=this.CONST*3`|
 >> |**Corruption** | **Current:** `0` **Max:** `=this.Corruption`   |
 >> |**Armor** | `=this.Armor` |
 >> |**XP** | `VIEW[{xp}][text]`|
