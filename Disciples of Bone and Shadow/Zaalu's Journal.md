@@ -638,5 +638,21 @@ Resting for the night at the Inn Basic room w. meal (1 day) *-10 jats*
 
 Zaalu speaks with the Elder Fadar about any work or rumors.
 
-Five Hexes Away
+Fadar tells me that a sacred Temple that is used by the village Five Hexes Away and it has been over run by a Blessed One.  (6 Milestones)
+
+**Orientation** Test 41 1d%
+[49] Failed no twist
+
+Next Hex 
+**The Hag**. As you make progress through these lonely lands, you interrupt yourself when you see an old woman sitting by, looking at you. You approach her and she simply smiles at you and starts telling you about her lost nephew. For some reason you feel obliged to listen to her, but as her story progresses you start to feel uncomfortable, shadows flickering around you. Perform a WIL test, if you fail you earn 2 CP, but gain 2 points in Forbidden Lore. Either way, you pass out and when you wake up five minutes later the hag is gone
+
+Effortless +2
+WIL Test 17 Rolled 8 Passed
+
+
+**Orientation** Test 41 1d%
+[20] 
+
+
+
 

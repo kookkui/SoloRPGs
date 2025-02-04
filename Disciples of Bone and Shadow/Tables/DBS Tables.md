@@ -323,12 +323,39 @@
 
 | `dice: 1d8` | Random Difficulty |
 | ----------- | ----------------- |
-| 1-2         | Normal 0       |
-| 3           | Child’s Play +30 |
-| 4           | Effortless  +20      |
-| 5           | Easy +10            |
-| 6           | Demanding -10       |
-| 7           | Hard    -20      |
-| 8           | Insane     -30       |
+| 1-2         | Normal 0          |
+| 3           | Child’s Play +30  |
+| 4           | Effortless  +20   |
+| 5           | Easy +10          |
+| 6           | Demanding -10     |
+| 7           | Hard    -20       |
+| 8           | Insane     -30    |
 
 ^5baee1
+
+
+
+| `dice: 1d20` | Mission Complications                                                  |
+| ------------ | ---------------------------------------------------------------------- |
+| 1            | The Patron has a dark secret/ulterior motives                          |
+| 2            | The patron has been abducted                                           |
+| 3            | A band of savages invades the area                                     |
+| 4            | The patron's information is wrong                                      |
+| 5            | A person in a position of power intervenes in the mission              |
+| 6            | A natural disaster strikes the region                                  |
+| 7            | The patron hired other characters without the PCs knowing so           |
+| 8            | A rival group of NPCs are after the same goal                          |
+| 9            | Stalked by a dangerous beast                                           |
+| 10           | A bounty has been placed on the head of one of the PCs                 |
+| 11           | A mysterious new player offers to pay the PCs to abandon their mission |
+| 12           | An agent of the Primordial Ones is involved in the mission somehow     |
+| 13           | Unexpected alliance is required                                        |
+| 14           | Unwanted attention from criminal group                                 |
+| 15           | Someone in extreme need asks the PCs for help                          |
+| 16           | A PC suffers from a sudden, mysterious illness                         |
+| 17           | The PCs cross a Threshold and find themselves in a random Region       |
+| 18           | Ambushed                                                               |
+| 19           | PCs wrongly accused of a crime                                         |
+| 20           | The patron has been killed and there's no reward                       |
+
+^499ef9

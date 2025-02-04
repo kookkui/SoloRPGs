@@ -83,6 +83,7 @@ equipped13: false
 equipped5: true
 equipped9: true
 checkbox11: true
+Quests: Witchreef Elder Fadar tells me that a sacred Temple that is used by the village Five Hexes Away and it has been over run by a Blessed One. He wants me to retake the temple and destroy the Blessed One. (6 Milestones)
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  
@@ -146,14 +147,14 @@ checkbox11: true
 >>| **Disguise** (DEX `=this.DEX`) | `17` |
 >>| **Dodge** (DEX `=this.DEX` x 2) | `44` |
 >>|**First Aid** (20) | `40` |
->>| **Forbidden Lore** | `20` |
+>>| **Forbidden Lore** | `22` |
 >>| **Herb Lore** | `35` |
 >>| **Literacy** (INT `=this.INT`) | `35` |
 >>| **One-Handed Melee** (STR `=this.STR` + DEX `=this.DEX`) | `51` |
 >>| **Orientation** (20) | `41` |
 >>|**Outdoor Survival** (INT `=this.INT` + DEX `=this.DEX`) | `46` |
 >>| **Parry** (STR `=this.STR` + DEX `=this.DEX`) | `48` |
->>| **Perception** (20) | `30` |
+>>| **Perception** (20) | `31` |
 >>| **Persuasion** (CHA `=this.CHA`) | `12` |
 >>| **Pick Pockets** (DEX `=this.DEX`) | `17` |
 >>| **Ranged Weapons** (DEX `=this.DEX` x 2) | `44` |
@@ -199,6 +200,8 @@ checkbox11: true
 >>| 5 | `=this.archetype4` |
 >>| 6 |`=this.archetype5` |
 >>| 7 | `=this.archetype6` |
+>>##### Quests
+>>`INPUT[textArea:Quests]`
 >>##### Notes
 >>`INPUT[textArea:Other]`
 >

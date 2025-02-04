@@ -4,7 +4,9 @@
 >
 >######  Mark of Taint
 >`dice:[[DBS Tables#^769b4d]]`
-
+>
+>######  Mission Complication
+>`dice:[[DBS Tables#^499ef9]]`
 
 
 > [!table] Overworld Tables
