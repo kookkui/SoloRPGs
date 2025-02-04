@@ -60,6 +60,14 @@ checkbox5: true
 checkbox7: false
 equipped6: true
 equipped7: false
+Spell1: 
+Spell1cl: 
+Spell1idio: 
+Spell1des: 
+Spell2cl: 
+Spell2idio: 
+Spell2des: 
+Spell1mem: 
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  
@@ -72,8 +80,10 @@ equipped7: false
 >>|**HP** | **Current:** `41` **Max:** `=this.CONST*3`|
 >> |**Corruption** | **Current:** `0` **Max:** `=this.Corruption`   |
 >> |**Armor** | `=this.Armor` |
+>> |**EP**| `0` |
 >> |**XP** | `VIEW[{xp}][text]`|
 >>|**ADD XP :**| `INPUT[number:axp]` `BUTTON[exp]`|
+>>
 >>
 >> ###### Weapons
 >>| **Weapons** | **Damage** | **Notes** |
@@ -125,7 +135,7 @@ equipped7: false
 >>| **Forbidden Lore** | `20` |
 >>| **Herb Lore** | `35` |
 >>| **Literacy** (INT `=this.INT`) | `35` |
->>| **One-Handed Melee** (STR `=this.STR` + DEX `=this.DEX`) | `50` |
+>>| **One-Handed Melee** (STR `=this.STR` + DEX `=this.DEX`) | `51` |
 >>| **Orientation** (20) | `41` |
 >>|**Outdoor Survival** (INT `=this.INT` + DEX `=this.DEX`) | `46` |
 >>| **Parry** (STR `=this.STR` + DEX `=this.DEX`) | `48` |
@@ -222,6 +232,17 @@ equipped7: false
 >>|38|`INPUT[text:title38]`|`INPUT[toggle:checkbox38]`|`INPUT[toggle:equipped38]`
 >>|39|`INPUT[text:title39]`|`INPUT[toggle:checkbox39]`|`INPUT[toggle:equipped39]`
 >>|40|`INPUT[text:title40]`|`INPUT[toggle:checkbox40]`|`INPUT[toggle:equipped40]`
+>
+>>[!danger] %%FAKE TITLE HERE%%
+>>### Magic
+>>|     |     |
+>> |--- | --- |
+>>|**Name** | `=this.Spell1`|
+>>|**CL** |  `=this.Spell1cl`|
+>> | **Description**     | `=this.Spell1des` | 
+>>|**Name** | `=this.Spell2`|
+>>|**CL** |  `=this.Spell2cl`|
+>> | **Description**     | `=this.Spell2des` | 
 
 
 

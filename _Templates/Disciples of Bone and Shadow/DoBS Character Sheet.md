@@ -28,6 +28,14 @@ hregion: Place
 advantages: Good thing
 disadvantages: Bad thing
 flaws: Asshole
+Spell1: 
+Spell1cl: 
+Spell1idio: 
+Spell1des: 
+Spell2cl: 
+Spell2idio: 
+Spell2des: 
+Spell1mem:
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  
@@ -40,7 +48,9 @@ flaws: Asshole
 >>|**HP** | `=this.HP - this.DmgTkn + this.TempHP`|
 >> |**Corruption** | **Current:** `0` **Max:** `=this.Corruption`   |
 >> |**Armor** | `=this.Armor` |
+>> |**EP**| `0` |
 >> |**XP** | `VIEW[{xp}][text]`|
+>>|**ADD XP :**| `INPUT[number:axp]` `BUTTON[exp]`|
 >>
 >> ###### Weapons
 >>| **Weapons** | **Damage** | **Notes** |
@@ -197,8 +207,19 @@ flaws: Asshole
 >>|38|`INPUT[text:title38]`|`INPUT[toggle:checkbox38]`|`INPUT[toggle:equipped38]`
 >>|39|`INPUT[text:title39]`|`INPUT[toggle:checkbox39]`|`INPUT[toggle:equipped39]`
 >>|40|`INPUT[text:title40]`|`INPUT[toggle:checkbox40]`|`INPUT[toggle:equipped40]`
+>
+>>[!danger] %%FAKE TITLE HERE%%
+>>### Magic
+>>|     |     |
+>> |--- | --- |
+>>|**Name** | `=this.Spell1`|
+>>|**CL** |  `=this.Spell1cl`|
+>> | **Description**     | `=this.Spell1des` | 
+>>|**Name** | `=this.Spell2`|
+>>|**CL** |  `=this.Spell2cl`|
+>> | **Description**     | `=this.Spell2des` | 
 
-                         
+
 
 ```meta-bind-button
 label: Add

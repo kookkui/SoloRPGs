@@ -524,3 +524,50 @@ creature: Sabershadow
 
 
 Combat Encounter 
+
+Initiative check 1d20[20]
+
+```encounter
+creatures:
+  - Sabershadow
+players:
+  - Zaalu
+
+```
+
+Zaalu Turn
+
+**One-Handed Melee** Test 45 1d%
+[28] Passed
+
+Roll for Damage 5 
+
+Sabershadow turn
+
+**Parry** Test 53 1d%
+[80] Failed
+
+Damage to Zaalu 2 
+
+Zaalu turn 
+
+**One-Handed Melee** Test 45 
+1d%[6] CRIT
+
+Damage 6 = 12 Total 
+
+Skill up Test 50  1d%[61] Passed 
+
++1  **One-Handed Melee** (Total 51)
+
+Saber Turn
+
+**Parry** Test 53 1d%
+[56] Failed
+
+5 Damage to Zaalu (34 current)
+
+Zaalu Turn 
+
+**One-Handed Melee** Test 46 
+
