@@ -583,7 +583,14 @@ Zaalu Turn
 
 3 hours is spent skinning
 
+First Aid Check 40 1d%[10]
+
+Passed +5 HP to Zaalu
+
 Encounter check for lingering 4
+
+Leaving Cave to look for supplies
+
 
 
 

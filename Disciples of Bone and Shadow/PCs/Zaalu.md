@@ -47,7 +47,7 @@ Lightitem1: false
 exampleProperty: false
 title1: 1x Healing Tincture
 title2: Rations
-title3: Torch x 10
+title3: Torch
 title4: Bandage x 5
 title5: 10 Pale Ghar claws  (20 jats ea.)
 title6: One-Handed Sword
@@ -77,7 +77,7 @@ Spell1mem:
 >>|     |     |
 >> |--- | --- |
 >>|   **Level**   |  `=this.level`   |
->>|**HP** | **Current:** `41` **Max:** `=this.CONST*3`|
+>>|**HP** | **Current:** `39` **Max:** `=this.CONST*3`|
 >> |**Corruption** | **Current:** `0` **Max:** `=this.Corruption`   |
 >> |**Armor** | `=this.Armor` |
 >> |**EP**| `0` |
@@ -102,13 +102,10 @@ Spell1mem:
 >> |**Disadvantages** |`=this.disadvantages` |
 >>| **Character Flaws**   |  `=this.flaws`   |
 >>
->>  ###### Currency
+>>  ###### Supplies
 >>  | 
 >>---|---|
 >>**Currency**|`=this.currency` |
->> ###### Provisions
->>  | 
->>---|---|
 >>**Provisions**|`=this.provisions` |
 >
 >>[!infobox] %%FAKE TITLE HERE%%
