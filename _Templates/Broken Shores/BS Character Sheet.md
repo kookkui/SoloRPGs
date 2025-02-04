@@ -36,11 +36,10 @@ flaws: Asshole
 >> ###### Stats
 >>|     |     |
 >> |--- | --- |
->>|   **Level**   |  `=this.level`   |
 >>|**HP** | `=this.HP - this.DmgTkn + this.TempHP`|
->> |**Corruption** | **Current:** `0` **Max:** `=this.Corruption`   |
->> |**Armor** | `=this.Armor` |
->> |**XP** | `VIEW[{xp}][text]`|
+>>|**Power Points** |  **Current:** `0` **Max:** `=this.WIL`|
+>> |**Speed** |  **Walk:** `=this.DEX*2` **Run:** `=this.DEX*4` |
+ >> |**Armor** | `=this.Armor` |
 >>
 >> ###### Weapons
 >>| **Weapons** | **Damage** | **Notes** |
@@ -48,13 +47,13 @@ flaws: Asshole
 >>| `=this.Weapon1` | `=this.Weapon1dmg` | `=this.Weapon1notes` |
 >>| `=this.Weapon2` | `=this.Weapon2dmg` | `=this.Weapon2notes` |
 >>| `=this.Weapon3` | `=this.Weapon3dmg` | `=this.Weapon3notes` |
->>| | | |
+>>|`=this.Weapon4` |`=this.Weapon4dmg` | `=this.Weapon4notes` |
 >>| | | |
 >>
->>##### Character Traits
+>>##### Currency and Provisions
 >>|     |     |
 >> |--- | --- |
->>| **Home Region**   |  `=this.hregion`   |
+>>**Currency**|`=this.Currency` |
 >>|**Advantages** | `=this.advantages`|
 >> |**Disadvantages** |`=this.disadvantages` |
 >>| **Character Flaws**   |  `=this.flaws`   |
@@ -62,7 +61,7 @@ flaws: Asshole
 >>  ###### Currency
 >>  | 
 >>---|---|
->>**Currency**|`=this.Currency` |
+
 >> ###### Provisions
 >>  | 
 >>---|---|
@@ -70,25 +69,21 @@ flaws: Asshole
 >
 >>[!infobox] %%FAKE TITLE HERE%%
 >> ### Stats
->> |        |         |   
->>| ---- | ---- |
->>| **Strength**   | `=this.STR`  |
->>| **Dexterity**    | `=this.DEX` | 
->>| **Constitution** | `=this.CONST` |
->>| **Will**         |  `=this.WIL` | 
->>| **Intelligence** |  `=this.INT` | 
->>| **Charisma**     | `=this.CHA` | 
->>| **Max Gear Slots**     | `=this.GeSl` | 
->> ### Stats
->> |        |         |   
->>| ---- | ---- |
->>| **Strength**   | `=this.STR`  |
->>| **Dexterity**    | `=this.DEX` | 
->>| **Constitution** | `=this.CONST` |
->>| **Will**         |  `=this.WIL` | 
->>| **Intelligence** |  `=this.INT` | 
->>| **Charisma**     | `=this.CHA` | 
->>| **Max Gear Slots**     | `=(this.STR)` | 
+>> |        |         |   | |
+>>| ---- | ---- | ---- |---- |
+>>| **Strength**   | `=this.STR`  | **Brawn** | `=(this.STR)*5`|
+>> |    `0/10`   |         |   | |
+>>| **Dexterity**    | `=this.DEX` |**Coordination** | `=(this.DEX)*5`|
+>> |    `0/10`   |         |   | |
+>>| **Constitution** | `=this.CONST` | **Vitality**|`=(this.CONST)*5`|
+>> |    `0/10`   |         |   | |
+>>| **Will**         |  `=this.WIL` | **Tenacity**|`=(this.WIL)*5`|
+>> |    `0/10`   |         |   | |
+>>| **Intelligence** |  `=this.INT` | **Intellect**|`=(this.INT)*5`|
+>> |    `0/10`   |         |   | |
+>>| **Charisma**     | `=this.CHA` | **Charm**|`=(this.CHA)*5`|
+>> |    `0/10`   |         |   | |
+>>| **Max Gear Slots**     | `=(this.STR)` | |
 >> ### Skill Checks
 >>| **Skill Name** | **Skill Level** |
 >>| ------------------------- | ----------- |
