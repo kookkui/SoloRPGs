@@ -4,3 +4,18 @@
 - **Disarm**: As an action, a character can attempt to disarm their opponent by performing a Dexterity opposed check. 
 - **Wide Swing**: The character performs a standard attack modified by -20, attempting to hit not only the target but any other enemy combatant within 5 ft of them. Each targeted character may attempt to dodge or parry as normal, and the damage total is spread among all eligible targets.
 - **Disengage**: You attempt to disengage from melee combat, performing a Dodge check. If you fail, any opponent at melee distance can perform a free attack of opportunity.
+
+#### Settlement Services Prices
+
+**Inn**
+-  Basic room w. meal (1 day) *10 jats*
+- Fancy room w. meal (1 day) *30 jats*
+
+**Armorsmith** 
+ - Armor Fitting *200 jats*
+
+**Temple**
+- Heal D10 HP *25 jats*
+- Heal Full HP *500 jats*
+- Remove Condition *250 jats*
+

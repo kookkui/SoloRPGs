@@ -10,18 +10,18 @@ CONST: 16
 WIL: 15
 INT: 14
 CHA: 12
-xp: 70
-Weapon1: One-Handed Sword
-Weapon1dmg: d6
-Weapon1notes: +10 Parry
+xp: 76
+Weapon1: Two-Handed Sword
+Weapon1dmg: d10
+Weapon1notes: -10 to Defensive Skills
 Weapon2: 
 Weapon2dmg: 
 Weapon2notes: 
 Weapon3: 
 Weapon3dmg: 
 Weapon3notes: 
-Armor: 0
-currency: 625
+Armor: 2
+currency: 475
 provisions: 10
 hregion: Akkar Strand
 advantages: "Extreme Concentration: No matter what the circumstances are, you're capable of focusing on the task at hand, completely ignoring all distractions. This allows you to perform extremely well under stress in any circumstance (combat, running from danger, etc.)."
@@ -39,7 +39,7 @@ passive0: "**Marksmanship**: You may relinquish your turn to aim with a Ranged W
 passive1: "**Foraging (Archetype Exclusive)**: This character consumes half as many supplies per day, thanks to their ability to find sources of food and water in the wild."
 passive2: "**Inner Compass**: You may re-roll once any failed Orientation tests."
 archetype0: "**Hunter**: Foraging, Marksmanship"
-axp: 10
+axp: 
 Title4: 10 Pale Ghar claws  (20 jats ea.)
 Title5: One-Handed Sword
 Title6: Wolf Pelt (100 jats)
@@ -51,7 +51,7 @@ title3: Torch
 title4: Bandage x 5
 title5: 10 Pale Ghar claws  (20 jats ea.)
 title6: One-Handed Sword
-title7: Wolf Pelt (100 jats)
+title7: ""
 checkbox1: true
 checkbox2: true
 checkbox3: true
@@ -72,6 +72,14 @@ title8: Coins
 checkbox8: true
 title9: Coins
 checkbox9: true
+title10: Light Armor (+2)
+equipped10: true
+title11: Light Armor (+2)
+equipped11: true
+title12: Two-Handed Sword
+title13: Two-Handed Sword
+equipped12: true
+equipped13: true
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  

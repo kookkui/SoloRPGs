@@ -606,3 +606,24 @@ Encounter check on new hex 9
 
 Will loot the bodies  500 jats
 
+Encounter check 5
+
+**Settlement**. You stumble upon a small Blackclay settlement. Use the Settlement rules found on page 83
+
+**Settlement Name**: Witchreef
+**Impression**:  Guards patrol the street, wary of strangers
+**Settlement Government**: Elder
+**Settlement Problems**: String of ritual murders
+
+Zaalu goes to the Smith to buy some light armor
+
+- **Light Armor:** Armor (+2)  *-150 jats*
+- **Long Bow**: D6 damage  *-140 jats*
+- **Two-Handed Sword** D10 damage *-140 jats*
+
+
+Zaalu will sell various things to the different vendors in the small town.
+
+Selling
+- One-Handed Sword *+50 jats*
+- Wolf Pelt *+50 jats*

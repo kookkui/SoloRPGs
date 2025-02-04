@@ -11,7 +11,7 @@ tags: [excalidraw]
 
 ## Text Elements
 ## Embedded Files
-913a467fdaaf7519127220fa6aa5df072dc16fa3: [[IMG-20250204154119777.png]]
+913a467fdaaf7519127220fa6aa5df072dc16fa3: [[IMG-20250204155934543.png]]
 
 %%
 ## Drawing
