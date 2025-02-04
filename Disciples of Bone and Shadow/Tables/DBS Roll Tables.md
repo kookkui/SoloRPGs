@@ -62,9 +62,15 @@
 > [!danger] Monsters
 >###### Mark of Taint
 >`dice:[[DBS Tables#^769b4d]]`
-
-
+>
+>
 >[!dice] Loot
+>
+>###### Plants & Herbs
+>`dice:[[DBS Exploration Tables#^3ec88a]]`
+>
+>###### Random Loot
+>`dice:[[DBS Tables#^25e5a3]]`
 >
 >###### Common Finds
 >`dice:[[DBS Tables#^80c050]]`
@@ -75,7 +81,6 @@
 >######  Rare Finds
 >`dice:[[DBS Tables#^a381b4]]`
 >
->
 >###### Artifacts
 >`dice:[[DBS Tables#^25e5a3]]`
-
+>

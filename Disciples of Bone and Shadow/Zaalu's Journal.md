@@ -649,9 +649,39 @@ Next Hex
 Effortless +2
 WIL Test 17 Rolled 8 Passed
 
+**Orientation** Test 41 1d%
+[20] Passed No Twist
+
+This seems to be the correct direction, I will make camp for the night and keep heading this way in the morning.
+
+**Outdoor Survival** 66 1d%
+[63] Normal Success setting up camp
+
+Next day
+
+New Hex Forest 
+
+Encounter check 10 
+
+**Fog**. A sudden bank of fog surrounds you, quickly slowing your pace. For some strange reason though you start feeling extremely drowsy, to the point where you're having serious trouble keeping your eyes open. Pass a WIL test, otherwise, you fall asleep right on the spot and wake up a day later, tired and wet but with the fog nowhere to be seen
+
+Normal 0
+WIL Test 15 1d20
+[9] Passed
 
 **Orientation** Test 41 1d%
-[20] 
+[53] Failed no Twist
+
+**Herb Lore** Test 35 1d%
+[16] Passed
+
+
+
+
+
+
+
+
 
 
 

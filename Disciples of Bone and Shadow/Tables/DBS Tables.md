@@ -359,3 +359,10 @@
 | 20           | The patron has been killed and there's no reward                       |
 
 ^499ef9
+
+
+| `dice: d6` | Random Loot                   |
+| ---------- | ----------------------------- |
+| 1-3        | `dice:[[DBS Tables#^80c050]]` |
+| 4-5        | `dice:[[DBS Tables#^494166]]` |
+| 6          | `dice:[[DBS Tables#^a381b4]]` |

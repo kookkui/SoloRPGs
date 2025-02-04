@@ -133,3 +133,46 @@
 | 96-100      | Beast: White Stalker (Elite)           |
 
 ^2a3c84
+
+
+| `dice: 1d66%` | Plants & Herbs    |
+| ----------- | ----------------- |
+| 11          | Dwarf Yellowcress |
+| 12          | Bitterweed        |
+| 13          | Way Clover        |
+| 14          | Valley Roundleaf  |
+| 15          | Blue Fluxroot     |
+| 16          | Twilight Berry    |
+| 21          | Eastern Pear      |
+| 22          | Sandfern          |
+| 23          | Vesselbush        |
+| 24          | Nodding Nettle    |
+| 25          | Jukird            |
+| 26          | Arach             |
+| 31          | Crypt Tears       |
+| 32          | Nether            |
+| 33          | Gloom             |
+| 34          | Sanguine Dew      |
+| 35          | Sunroot           |
+| 36          | Tombwax           |
+| 41          | Violet Danae      |
+| 42          | Ambiros           |
+| 43          | Nimble Thorn      |
+| 44          | Hag's Scratch     |
+| 45          | Farvine           |
+| 46          | Nivyl             |
+| 51          | Viphis            |
+| 52          | Lost Embrace      |
+| 53          | Black Helveola    |
+| 54          | Ragged Lacaria    |
+| 55          | Swamp Webcap      |
+| 56          | Fog Lichen        |
+| 61          | Marsh Leaf        |
+| 62          | Grexal's Scourge  |
+| 63          | Kiammon           |
+| 64          | Black Ginger      |
+| 65          | Rime Grass        |
+| 66          | Feverbush         |
+
+^3ec88a
+
