@@ -570,4 +570,20 @@ Saber Turn
 Zaalu Turn 
 
 **One-Handed Melee** Test 46 
+1d%[32] Passed
+
+4 Damage to Sabershadow
+
+<span style="color:rgb(255, 105, 180)">Victory!!</span> 
+
++10 XP
+
+**Crafting** Test to harvest 38   1d%
+[36] Passed
+
+3 hours is spent skinning
+
+Encounter check for lingering 4
+
+
 

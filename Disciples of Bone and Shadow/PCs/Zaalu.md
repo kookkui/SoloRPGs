@@ -10,7 +10,7 @@ CONST: 16
 WIL: 15
 INT: 14
 CHA: 12
-xp: 60
+xp: 70
 Weapon1: One-Handed Sword
 Weapon1dmg: d6
 Weapon1notes: +10 Parry
