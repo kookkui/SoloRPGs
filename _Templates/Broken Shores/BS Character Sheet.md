@@ -36,6 +36,15 @@ water: 10
 Godshard: Axor, God of the Earth
 GodshardPassive: "**Inspiring Might.** Both you and any ally in a 10 ft radius receives +1 Armor. This ability is always active."
 GodshardActive1: "**Earthbound.** Cost: 4  Range: 20 ft  Resisted: No  Duration: Special You gain an amount of temporary HP equal to your STR. Choose a target: each time they receive damage, it is transferred to you instead, until you run out of temporary HP."
+Spell1: Enthrall
+Spell1pp: 5
+Spell1idio: This spell can only be cast at touch range
+Spell1des: "Range: 30 ft / Resisted: Yes / Duration: WIL turns \rThe target becomes Charmed. An ethereal rope shoots from the sorcerer’s head to the target’s heart, becoming invisible to all but the sorcerer."
+Spell2: Summon Minor Demon
+Spell2pp: "10"
+Spell2idio: The spell cleanses a negative condition from the sorcerer
+Spell2des: "Range: 30 ft / Resisted: No / Duration: WIL turns In order to cast this spell, the sorcerer needs to sacrifice 3 HP. It takes 3 rounds to complete this spell, resulting in the summoning of a minor demon, as described on page 126. The demon is bound to the sorcerer until the spell duration is over, and will obey their commands."
+Spell1mem: false
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  
@@ -92,33 +101,30 @@ GodshardActive1: "**Earthbound.** Cost: 4  Range: 20 ft  Resisted: No  Duration:
 >>| **Charisma**     | `=this.CHA` | **Charm**|`=(this.CHA)*5`|
 >> |    `0/10`   |         |   | |
 >> ### Skill Checks
->>| **Skill Name** | **Skill Level** |
->>| ------------------------- | ----------- |
->>| **Acrobatics**(DEX `=this.DEX`) | `0` |
->>| **Animal Handling** (CHA `=this.CHA`) | `0` |
->>| **Command Skills** (CHA `=this.CHA`) | `0` |
+>>| **Skill Name** | **Skill Level** | Level Up
+>>| ------------------------- | ----------- | ----------- |
+>>| **Acrobatics**(DEX `=this.DEX`) | `0` | `INPUT[toggle:skill1]`|
+>>| **Athletics** (STR `=this.STR`) | `0` | `INPUT[toggle:skill2]`|
+>>| **Animal Handling** (CHA `=this.CHA`) | `0` |`INPUT[toggle:skill3]`|
+>>| **Command** (CHA `=this.CHA`) | `0` |
 >>| **Crafting** (DEX `=this.DEX`) | `0` |
 >>| **Dodge** (DEX `=this.DEX` x 2) | `0` |
 >>| **Insight** (WIL `=this.WIL`) | `0` |
->>|**First Aid** (20) | `0` |
->>| **Forbidden Lore** | `0` |
->>| **Herb Lore** | `0` |
 >>| **Literacy** (INT `=this.INT`) | `0` |
->>| **One-Handed Melee** (STR `=this.STR` + DEX `=this.DEX`) | `0` |
->>| **Orientation** (20) | `0` |
->>|**Outdoor Survival** (INT `=this.INT` + DEX `=this.DEX`) | `0` |
->>| **Parry** (STR `=this.STR` + DEX `=this.DEX`) | `0` |
->>| **Perception** (20) | `0` |
->>| **Persuasion** (CHA `=this.CHA`) | `0` |
->>| **Pick Pockets** (DEX `=this.DEX`) | `0` |
->>| **Ranged Weapons** (DEX `=this.DEX` x 2) | `0` |
+>>|**Manipulation** (CHA `=this.CHA`) | `0` |
+>>| **Martial Weapons** (STR `=this.STR`) | `0` |
+>>| **Medicine** (INT `=this.INT`) | `0` |
+>>|**Nature** (INT `=this.INT`) | `0` |
+>>| **Perception** (WIL `=this.WIL`) | `0` |
+>>| **Performance** (CHA `=this.CHA`) | `0` |
+>>| **Ranged Weapons** (DEX `=this.DEX` ) | `0` |
 >>| **Sailing** (DEX `=this.DEX`) | `0` |
->>| **Sneaking** (DEX `=this.DEX` x 2) | `0` |
->>| **Throw** (STR `=this.STR` + DEX `=this.DEX`) | `0` |
->>| **Tracking** (INT `=this.INT` ) | `0` |
->>| **Traditional Lore** (20) | `0` |
->>| **Two-Handed Melee** (STR `=this.STR` x 2) | `0` |
->>| **Unarmed** (STR `=this.STR` + DEX `=this.DEX`) | `0` |
+>>| **Siege Weapons** (DEX `=this.DEX`) | `0` |
+>>| **Simple Melee Weapons** (STR `=this.STR`) | `0` |
+>>| **Sleight of Hand** (DEX `=this.DEX` ) | `0` |
+>>| **Stealth** (DEX `=this.DEX`) | `0` |
+>>| **Survival** (INT `=this.INT` ) | `0` |
+>>| **Unarmed** (STR `=this.STR`) | `0` |
 >
 >
 >>[!important] %%FAKE TITLE HERE%%
@@ -181,7 +187,22 @@ GodshardActive1: "**Earthbound.** Cost: 4  Range: 20 ft  Resisted: No  Duration:
 >>| 5 | `INPUT[text:Pskills4]` |13 | `INPUT[text:Pskills12]` |
 >>| 6 |`INPUT[text:Pskills5]` |14 | `INPUT[text:Pskills13]` |
 >>| 7 | `INPUT[text:Pskills6]` | 15 | `INPUT[text:Pskills14]` |
->>| 8 | `INPUT[text:Pskills7]` |
+>>| 8 | `INPUT[text:Pskills7]` |16 | `INPUT[text:Pskills15]` |
+>
+>>[!danger] %%FAKE TITLE HERE%%
+>>### Sorcery
+>>|     |     |
+>> |--- | --- |
+>>|**Name** | `=this.Spell1`|
+>>|**PP Cost** |  `=this.Spell1pp`|
+>>|**Memorized**  |  `INPUT[toggle:Spell1mem]` |
+>> |**Idiosyncrasy**  |  `=this.Spell1idio` |
+>> | **Description**     | `=this.Spell1des` | 
+>>|**Name** | `=this.Spell2`|
+>>|**PP Cost** |  `=this.Spell2pp`|
+>> |**Idiosyncrasy**  |  `INPUT[toggle:Spell2mem]` |
+>> | **Description**     | `=this.Spell2des` | 
+
 
 
 
@@ -203,3 +224,6 @@ actions:
   value: getMetadata('xp') + getMetadata('axp')
 
 ```
+
+
+
