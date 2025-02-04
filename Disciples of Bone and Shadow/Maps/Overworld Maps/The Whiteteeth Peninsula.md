@@ -11,7 +11,7 @@ tags: [excalidraw]
 
 ## Text Elements
 ## Embedded Files
-f935084eb2316d3131afd118f49c8c311d818045: [[The Whiteteeth Peninsula.webp]]
+f935084eb2316d3131afd118f49c8c311d818045: [[IMG-20250204154122043.webp]]
 
 %%
 ## Drawing

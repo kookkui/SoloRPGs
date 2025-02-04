@@ -591,6 +591,18 @@ Encounter check for lingering 4
 
 Leaving Cave to look for supplies
 
+Making camp for the night
 
+**Outdoor Survival** 46  1d%
+[29] Normal success 
 
+Resting for the night
+
++5 HP
+
+Encounter check on new hex 9
+
+**Open Burial Site**. In front of you lies a large slab of polished stone, surrounded by now extinguished bonfires. On top of it, you see the remains of several individuals, all of them partially mummified but still wearing traditional Blackclay garments and jewelry. This is holy ground for the blackclay tribes, and somehow not even the wild beasts seem to have approached the corpses. You may choose to loot the bodies, for a total of D10x100 jats
+
+Will loot the bodies  500 jats
 

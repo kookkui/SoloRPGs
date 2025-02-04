@@ -21,7 +21,7 @@ Weapon3:
 Weapon3dmg: 
 Weapon3notes: 
 Armor: 0
-currency: 125
+currency: 625
 provisions: 10
 hregion: Akkar Strand
 advantages: "Extreme Concentration: No matter what the circumstances are, you're capable of focusing on the task at hand, completely ignoring all distractions. This allows you to perform extremely well under stress in any circumstance (combat, running from danger, etc.)."
@@ -68,6 +68,10 @@ Spell2cl:
 Spell2idio: 
 Spell2des: 
 Spell1mem: 
+title8: Coins
+checkbox8: true
+title9: Coins
+checkbox9: true
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  
@@ -77,7 +81,7 @@ Spell1mem:
 >>|     |     |
 >> |--- | --- |
 >>|   **Level**   |  `=this.level`   |
->>|**HP** | **Current:** `39` **Max:** `=this.CONST*3`|
+>>|**HP** | **Current:** `44` **Max:** `=this.CONST*3`|
 >> |**Corruption** | **Current:** `0` **Max:** `=this.Corruption`   |
 >> |**Armor** | `=this.Armor` |
 >> |**EP**| `0` |
@@ -106,7 +110,9 @@ Spell1mem:
 >>  | 
 >>---|---|
 >>**Currency**|`=this.currency` |
->>**Provisions**|`=this.provisions` |
+>>**Provisions**|`10` |
+>>**Torches**|`9` |
+>>**Lamp Oil**|`0` |
 >
 >>[!infobox] %%FAKE TITLE HERE%%
 >> ### Stats

@@ -69,26 +69,15 @@ Spell1mem:
 >> |**Disadvantages** |`=this.disadvantages` |
 >>| **Character Flaws**   |  `=this.flaws`   |
 >>
->>  ###### Currency
+>>  ###### Supplies
 >>  | 
 >>---|---|
->>**Currency**|`=this.Currency` |
->> ###### Provisions
->>  | 
->>---|---|
->>**Provisions**|`=this.Provisions` |
+>>**Currency**|`=this.currency` |
+>>**Provisions**|`0` |
+>>**Torches**|`0` |
+>>**Lamp Oil**|`0` |
 >
 >>[!infobox] %%FAKE TITLE HERE%%
->> ### Stats
->> |        |         |   
->>| ---- | ---- |
->>| **Strength**   | `=this.STR`  |
->>| **Dexterity**    | `=this.DEX` | 
->>| **Constitution** | `=this.CONST` |
->>| **Will**         |  `=this.WIL` | 
->>| **Intelligence** |  `=this.INT` | 
->>| **Charisma**     | `=this.CHA` | 
->>| **Max Gear Slots**     | `=this.GeSl` | 
 >> ### Stats
 >> |        |         |   
 >>| ---- | ---- |
