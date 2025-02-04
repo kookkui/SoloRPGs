@@ -615,15 +615,28 @@ Encounter check 5
 **Settlement Government**: Elder
 **Settlement Problems**: String of ritual murders
 
+
 Zaalu goes to the Smith to buy some light armor
 
-- **Light Armor:** Armor (+2)  *-150 jats*
-- **Long Bow**: D6 damage  *-140 jats*
+- **Light Armor** Armor (+2)  *-150 jats*
+- **Long Bow** D6 damage  *-140 jats*
 - **Two-Handed Sword** D10 damage *-140 jats*
-
+- **Tears of the Mother** Remove all Conditions *-50 jats*
+- **Camping Gear** +20 Outdoor Survival when setting camp *-200 jats*
+- **Ration x 10** *-50 jats*
 
 Zaalu will sell various things to the different vendors in the small town.
 
 Selling
 - One-Handed Sword *+50 jats*
 - Wolf Pelt *+50 jats*
+- 10 Pale Ghar claws  (10 jats ea.) *+100 jats*
+
+Resting for the night at the Inn Basic room w. meal (1 day) *-10 jats*
+
++5 HP (48 Current HP)
+
+Zaalu speaks with the Elder Fadar about any work or rumors.
+
+Five Hexes Away
+

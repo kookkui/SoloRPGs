@@ -21,7 +21,7 @@ Weapon3:
 Weapon3dmg: 
 Weapon3notes: 
 Armor: 2
-currency: 475
+currency: 150
 provisions: 10
 hregion: Akkar Strand
 advantages: "Extreme Concentration: No matter what the circumstances are, you're capable of focusing on the task at hand, completely ignoring all distractions. This allows you to perform extremely well under stress in any circumstance (combat, running from danger, etc.)."
@@ -49,15 +49,15 @@ title1: 1x Healing Tincture
 title2: Rations
 title3: Torch
 title4: Bandage x 5
-title5: 10 Pale Ghar claws  (20 jats ea.)
-title6: One-Handed Sword
-title7: ""
+title5: Two-Handed Sword
+title6: Two-Handed Sword
+title7: Coins
 checkbox1: true
 checkbox2: true
 checkbox3: true
 checkbox4: true
-checkbox5: true
-checkbox7: false
+checkbox5: false
+checkbox7: true
 equipped6: true
 equipped7: false
 Spell1: 
@@ -70,16 +70,19 @@ Spell2des:
 Spell1mem: 
 title8: Coins
 checkbox8: true
-title9: Coins
-checkbox9: true
+title9: Light Armor (+2)
+checkbox9: false
 title10: Light Armor (+2)
 equipped10: true
-title11: Light Armor (+2)
-equipped11: true
-title12: Two-Handed Sword
-title13: Two-Handed Sword
-equipped12: true
-equipped13: true
+title11: Tears of the Mother Remove all Conditions
+equipped11: false
+title12: Camping Gear +20 Outdoor Survival when setting camp
+title13: Camping Gear
+equipped12: false
+equipped13: false
+equipped5: true
+equipped9: true
+checkbox11: true
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  
@@ -89,7 +92,7 @@ equipped13: true
 >>|     |     |
 >> |--- | --- |
 >>|   **Level**   |  `=this.level`   |
->>|**HP** | **Current:** `44` **Max:** `=this.CONST*3`|
+>>|**HP** | **Current:** `48` **Max:** `=this.CONST*3`|
 >> |**Corruption** | **Current:** `0` **Max:** `=this.Corruption`   |
 >> |**Armor** | `=this.Armor` |
 >> |**EP**| `0` |
