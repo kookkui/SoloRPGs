@@ -11,19 +11,19 @@ WIL: 10
 INT: 10
 CHA: 10
 Weapon1: Placeholder
-Weapon1dmg: 69
+Weapon1dmg: d6
 Weapon1notes: Its badass
 Weapon2: Placeholder
-Weapon2dmg: 69
+Weapon2dmg: d8
 Weapon2notes: Its badass
 Weapon3: Placeholder
-Weapon3dmg: 69
+Weapon3dmg: d10
 Weapon3notes: Its badass
 Armor: Plate Mail
 ArmorPR: D8+1
 Armorintegrity: D12
 Shield: Large
-ShieldPR: +30
+ShieldPR: 30
 Shieldintegrity: D8
 DmgTkn: 0
 TempHP: 0
@@ -33,6 +33,9 @@ shards: 10
 csupplies: 10
 rations: 10
 water: 10
+Godshard: Axor, God of the Earth
+GodshardPassive: "**Inspiring Might.** Both you and any ally in a 10 ft radius receives +1 Armor. This ability is always active."
+GodshardActive1: "**Earthbound.** Cost: 4  Range: 20 ft  Resisted: No  Duration: Special You gain an amount of temporary HP equal to your STR. Choose a target: each time they receive damage, it is transferred to you instead, until you run out of temporary HP."
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  
@@ -91,12 +94,12 @@ water: 10
 >> ### Skill Checks
 >>| **Skill Name** | **Skill Level** |
 >>| ------------------------- | ----------- |
->>| **Alchemy** | `0` |
+>>| **Acrobatics**(DEX `=this.DEX`) | `0` |
 >>| **Animal Handling** (CHA `=this.CHA`) | `0` |
 >>| **Command Skills** (CHA `=this.CHA`) | `0` |
 >>| **Crafting** (DEX `=this.DEX`) | `0` |
->>| **Disguise** (DEX `=this.DEX`) | `0` |
 >>| **Dodge** (DEX `=this.DEX` x 2) | `0` |
+>>| **Insight** (WIL `=this.WIL`) | `0` |
 >>|**First Aid** (20) | `0` |
 >>| **Forbidden Lore** | `0` |
 >>| **Herb Lore** | `0` |
@@ -116,8 +119,32 @@ water: 10
 >>| **Traditional Lore** (20) | `0` |
 >>| **Two-Handed Melee** (STR `=this.STR` x 2) | `0` |
 >>| **Unarmed** (STR `=this.STR` + DEX `=this.DEX`) | `0` |
->>
->>
+>
+>
+>>[!important] %%FAKE TITLE HERE%%
+>>##### Godshard
+>>|     |     |
+>> |--- | --- |
+>>|**Godshard** | `=this.Godshard`|
+>>|**Passive Ability** |  `=this.GodshardPassive`|
+>> |**Active Ability**  |  `=this.GodshardActive1` |
+>> | **Active Ability**     | `=this.GodshardActive2` | 
+>> |**Active Ability** | `=this.GodshardActive3` |
+>> |**Active Ability** | `=this.GodshardActive4` |
+>> |**Earth Essence** (+1 Armor) | `2/4` |
+>> |**Fire Essence** (+1 Damage) | `0/4` |
+>> |**Water Essence** (+2 HP) | `0/4` |
+>> |**Air Essence** (+2 PP) | `0/4` |
+>>##### Talents
+>> |        |         |   
+>>| :-: | :----- |
+>>| 1 | `=this.talent0` |
+>>| 2 | `=this.talent1` |
+>>| 3 | `=this.talent2` |
+>>| 4 | `=this.talent3` |
+>>| 5 | `=this.talent4` |
+>>| 6 |`=this.talent5` |
+>>| 7 | `=this.talent6` |
 >
 >>[!table] %%FAKE TITLE HERE%%
 >>### Inventory
@@ -144,38 +171,20 @@ water: 10
 >>|19|`INPUT[text:title19]`|39|`INPUT[text:title39]`|
 >>|20|`INPUT[text:title20]`|40|`INPUT[text:title40]`|
 >>
->> ### Passive Skills
->> |Slot| 
->>| :-: | :----------------------------------------------------------------------------------------------------------------------------------- |
->>| 1 | `INPUT[text:Pskills69]` |
->>| 2 | `INPUT[text:Pskills1]` |
->>| 3 | `INPUT[text:Pskills2]` |
->>| 4 | `INPUT[text:Pskills3]` |
->>| 5 | `INPUT[text:Pskills4]` |
->>| 6 |`INPUT[text:Pskills5]` |
->>| 7 | `INPUT[text:Pskills6]` |
+>> ### Non-Incumbering Items
+>> |Slot| Item |Slot| Item 
+>>| :-: | :---------------------------- |:-: | :---------------------------- |
+>>| 1 | `INPUT[text:Pskills69]` | 9 | `INPUT[text:Pskills8]` |
+>>| 2 | `INPUT[text:Pskills1]` | 10 | `INPUT[text:Pskills9]` |
+>>| 3 | `INPUT[text:Pskills2]` |11 | `INPUT[text:Pskills10]` |
+>>| 4 | `INPUT[text:Pskills3]` | 12 | `INPUT[text:Pskills11]` |
+>>| 5 | `INPUT[text:Pskills4]` |13 | `INPUT[text:Pskills12]` |
+>>| 6 |`INPUT[text:Pskills5]` |14 | `INPUT[text:Pskills13]` |
+>>| 7 | `INPUT[text:Pskills6]` | 15 | `INPUT[text:Pskills14]` |
 >>| 8 | `INPUT[text:Pskills7]` |
->>| 9 | `INPUT[text:Pskills8]` |
->>| 10 | `INPUT[text:Pskills9]` |
->>| 11 | `INPUT[text:Pskills10]` |
->>| 12 | `INPUT[text:Pskills11]` |
->>| 13 | `INPUT[text:Pskills12]` |
->>| 14 | `INPUT[text:Pskills13]` |
->>| 15 | `INPUT[text:Pskills14]` |
->
->>[!important] %%FAKE TITLE HERE%%
->>##### Archetypes
->> |        |         |   
->>| :-: | :----- |
->>| 1 | `=this.archetype0` |
->>| 2 | `=this.archetype1` |
->>| 3 | `=this.archetype2` |
->>| 4 | `=this.archetype3` |
->>| 5 | `=this.archetype4` |
->>| 6 |`=this.archetype5` |
->>| 7 | `=this.archetype6` |
 
-                         
+
+
 
 ```meta-bind-button
 label: Add
