@@ -53,7 +53,7 @@ Spell1mem: false
 >> ###### Stats
 >>|     |     |
 >> |--- | --- |
->>|**HP** | `=this.HP - this.DmgTkn + this.TempHP`|
+>>|**HP** | **Current:** `0` **Max:** `=this.CONST*2`|
 >>|**Power Points** |  **Current:** `0` **Max:** `=this.WIL`|
 >> |**Speed** |  **Walk:** `=this.DEX*2` **Run:** `=this.DEX*4` |
 >> | **Max Gear Slots**     | `=(this.STR)+10` | 

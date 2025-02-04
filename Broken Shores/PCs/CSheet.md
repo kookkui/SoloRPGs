@@ -25,11 +25,10 @@ Shield: Large
 ShieldPR: 30
 Shieldintegrity: D8
 Currency: 0
-Provisions: 0
-shards: 10
-csupplies: 10
-rations: 10
-water: 10
+shards: 0
+csupplies: 0
+rations: 0
+water: 0
 Godshard: Axor, God of the Earth
 GodshardPassive: "**Inspiring Might.** Both you and any ally in a 10 ft radius receives +1 Armor. This ability is always active."
 GodshardActive1: "**Earthbound.** Cost: 4  Range: 20 ft  Resisted: No  Duration: Special You gain an amount of temporary HP equal to your STR. Choose a target: each time they receive damage, it is transferred to you instead, until you run out of temporary HP."
@@ -48,11 +47,11 @@ Spell1mem: false
 >> # `=this.file.name`
 >> ![[Character Image Placeholder]]
 >> ###### Stats
->>|     |     | |
->> |--- | --- | --- |
->>|**HP** | **Current:** `0` |**Max:** `=this.CONST*2`|
->>|**Power Points** |  **Current:** `0` | **Max:** `=this.WIL`|
->> |**Speed** |  **Walk:** `=this.DEX*2` |  **Run:** `=this.DEX*4` |
+>>|     |     | 
+>> |--- | --- | 
+>>|**HP** | **Current:** `0` **Max:** `=this.CONST*2`|
+>>|**Power Points** |  **Current:** `0`  **Max:** `=this.WIL`|
+>> |**Speed** |  **Walk:** `=this.DEX*2`  **Run:** `=this.DEX*4` |
 >> | **Max Gear Slots**     | `=(this.STR)+10` | 
  >> |**Armor** | `=this.Armor` |
 >>
@@ -79,7 +78,7 @@ Spell1mem: false
 >>|**Shards** | `=this.advantages`|
 >> |**Crafting Supplies** |`=this.csupplies` |
 >>| **Rations**   |  `=this.rations`   |
->>| **Water**(Gal)   |  `=this.water`   |
+>>| **Water (Gal)** |  `=this.water`   |
 >
 >>[!infobox] %%FAKE TITLE HERE%%
 >> ### Stats
@@ -123,6 +122,9 @@ Spell1mem: false
 >>| **Survival** (INT `=this.INT` ) | `0` |`INPUT[toggle:skill21]`
 >>| **Unarmed** (STR `=this.STR`) | `0` |`INPUT[toggle:skill22]`
 >
+>>[!infobox] %%FAKE TITLE HERE%%
+>>#### Notes
+>>`INPUT[textArea:notes1]`
 >
 >>[!important] %%FAKE TITLE HERE%%
 >>##### Godshard
