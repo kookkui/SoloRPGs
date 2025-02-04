@@ -499,3 +499,16 @@ Room 8
 [37] Passed
 Effortless +20
 
+Will go to the next room
+
+Backtracking to Room 7 encounter check Rolled 2 
+
+Insect: Night Beetles (Vermin)
+
+```statblock
+creature: Night Beetles
+```
+
+
++10 XP
+
