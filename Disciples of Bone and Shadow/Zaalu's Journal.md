@@ -512,3 +512,15 @@ creature: Night Beetles
 
 +10 XP
 
+Room 9
+
+**Encounter Check** 1
+
+Beast: Sabershadow (Common)
+
+```statblock
+creature: Sabershadow
+```
+
+
+Combat Encounter 
