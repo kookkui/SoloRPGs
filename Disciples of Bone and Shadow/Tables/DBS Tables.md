@@ -321,3 +321,14 @@
 ^586f65
 
 
+| `dice: 1d8` | Random Difficulty |
+| ----------- | ----------------- |
+| 1-2         | Normal 0       |
+| 3           | Child’s Play +30 |
+| 4           | Effortless  +20      |
+| 5           | Easy +10            |
+| 6           | Demanding -10       |
+| 7           | Hard    -20      |
+| 8           | Insane     -30       |
+
+^5baee1
