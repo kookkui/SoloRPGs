@@ -1,3 +1,7 @@
+---
+plant69: Twilight Berry
+found69: Forests
+---
 >
 >>[!hint] %%FAKE TITLE HERE%%
 >> ### Passive Skills

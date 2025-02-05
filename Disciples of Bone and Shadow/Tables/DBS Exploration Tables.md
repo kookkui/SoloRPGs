@@ -135,7 +135,7 @@
 ^2a3c84
 
 
-| `dice: 1d66%` | Plants & Herbs    |
+| `dice:1d66%` | Plants & Herbs    |
 | ----------- | ----------------- |
 | 11          | Dwarf Yellowcress |
 | 12          | Bitterweed        |

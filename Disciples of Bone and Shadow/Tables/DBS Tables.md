@@ -366,3 +366,6 @@
 | 1-3        | `dice:[[DBS Tables#^80c050]]` |
 | 4-5        | `dice:[[DBS Tables#^494166]]` |
 | 6          | `dice:[[DBS Tables#^a381b4]]` |
+
+^bae025
+

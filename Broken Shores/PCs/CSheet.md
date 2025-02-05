@@ -1,6 +1,5 @@
 ---
 Art: "![[Character Image Placholder]]"
-Level: 1
 Corruption: 0
 HP: 0
 STR: 16
@@ -11,35 +10,34 @@ INT: 13
 CHA: 12
 Weapon1: Placeholder
 Weapon1dmg: d6
-Weapon1notes: Its badass
-Weapon2: Placeholder
-Weapon2dmg: d8
-Weapon2notes: Its badass
-Weapon3: Placeholder
-Weapon3dmg: d10
-Weapon3notes: Its badass
-Armor: Plate Mail
-ArmorPR: D8+1
-Armorintegrity: D12
-Shield: Large
-ShieldPR: 30
-Shieldintegrity: D8
+Weapon1notes: 
+Weapon2: 
+Weapon2dmg: 
+Weapon2notes: 
+Weapon3: 
+Weapon3dmg: 
+Weapon3notes:
+Armor: 
+ArmorPR: 
+Armorintegrity: 
+Shield: 
+ShieldPR: 
+Shieldintegrity: 
 Currency: 0
 shards: 0
 csupplies: 0
 rations: 0
 water: 0
-Godshard: Axor, God of the Earth
-GodshardPassive: "**Inspiring Might.** Both you and any ally in a 10 ft radius receives +1 Armor. This ability is always active."
-GodshardActive1: "**Earthbound.** Cost: 4  Range: 20 ft  Resisted: No  Duration: Special You gain an amount of temporary HP equal to your STR. Choose a target: each time they receive damage, it is transferred to you instead, until you run out of temporary HP."
-Spell1: Enthrall
-Spell1pp: 5
-Spell1idio: This spell can only be cast at touch range
-Spell1des: "Range: 30 ft / Resisted: Yes / Duration: WIL turns \rThe target becomes Charmed. An ethereal rope shoots from the sorcerer’s head to the target’s heart, becoming invisible to all but the sorcerer."
-Spell2: Summon Minor Demon
-Spell2pp: "10"
-Spell2idio: The spell cleanses a negative condition from the sorcerer
-Spell2des: "Range: 30 ft / Resisted: No / Duration: WIL turns In order to cast this spell, the sorcerer needs to sacrifice 3 HP. It takes 3 rounds to complete this spell, resulting in the summoning of a minor demon, as described on page 126. The demon is bound to the sorcerer until the spell duration is over, and will obey their commands."
+Godshard: 
+GodshardPassive: 
+GodshardActive1: 
+Spell1: 
+Spell1pp: 
+Spell1idio: 
+Spell1des: 
+Spell2pp: 
+Spell2idio: 
+Spell2des:
 Spell1mem: false
 skill1: false
 ---
@@ -86,7 +84,7 @@ skill1: false
 >> |        |         |   | |
 >>| ---- | ---- | ---- |---- |
 >>| **Strength**   | `=this.STR`  | **Brawn** | `=(this.STR)*5`|
->> |    `0/10`   |         |   | |
+>> |      `0/10` |         |    | |
 >>| **Dexterity**    | `=this.DEX` |**Coordination** | `=(this.DEX)*5`|
 >> |    `0/10`   |         |   | |
 >>| **Constitution** | `=this.CONST` | **Vitality**|`=(this.CONST)*5`|
@@ -97,31 +95,33 @@ skill1: false
 >> |    `0/10`   |         |   | |
 >>| **Charisma**     | `=this.CHA` | **Charm**|`=(this.CHA)*5`|
 >> |    `0/10`   |         |   | |
+>>
+>>
 >> ### Skill Checks
 >>| **Skill Name** | **Skill Level** | Level Up
 >>| ------------------------- | ----------- | ----------- |
->>| **Acrobatics**(DEX `=this.DEX`) | `0` | `INPUT[toggle:skill1]`|
->>| **Athletics** (STR `=this.STR`) | `0` | `INPUT[toggle:skill2]`|
->>| **Animal Handling** (CHA `=this.CHA`) | `0` |`INPUT[toggle:skill3]`|
->>| **Command** (CHA `=this.CHA`) | `0` |`INPUT[toggle:skill4]`|
->>| **Crafting** (DEX `=this.DEX`) | `0` |`INPUT[toggle:skill5]`|
->>| **Dodge** (DEX `=this.DEX` x 2) | `0` |`INPUT[toggle:skill6]`|
->>| **Insight** (WIL `=this.WIL`) | `0` |`INPUT[toggle:skill7]`|
->>| **Literacy** (INT `=this.INT`) | `0` |`INPUT[toggle:skill8]`|
->>|**Manipulation** (CHA `=this.CHA`) | `0` | `INPUT[toggle:skill9]`|
->>| **Martial Weapons** (STR `=this.STR`) | `0` |`INPUT[toggle:skill10]`
->>| **Medicine** (INT `=this.INT`) | `0` |`INPUT[toggle:skill11]`
->>|**Nature** (INT `=this.INT`) | `0` |`INPUT[toggle:skill12]`
->>| **Perception** (WIL `=this.WIL`) | `0` |`INPUT[toggle:skill13]`
->>| **Performance** (CHA `=this.CHA`) | `0` |`INPUT[toggle:skill14]`
->>| **Ranged Weapons** (DEX `=this.DEX` ) | `0` |`INPUT[toggle:skill15]`
->>| **Sailing** (DEX `=this.DEX`) | `0` |`INPUT[toggle:skill16]`
->>| **Siege Weapons** (DEX `=this.DEX`) | `0` |`INPUT[toggle:skill17]`
->>| **Simple Melee Weapons** (STR `=this.STR`) | `0` |`INPUT[toggle:skill18]`
->>| **Sleight of Hand** (DEX `=this.DEX` ) | `0` |`INPUT[toggle:skill19]`
->>| **Stealth** (DEX `=this.DEX`) | `0` |`INPUT[toggle:skill20]`
->>| **Survival** (INT `=this.INT` ) | `0` |`INPUT[toggle:skill21]`
->>| **Unarmed** (STR `=this.STR`) | `0` |`INPUT[toggle:skill22]`
+>>| **Acrobatics**(DEX `=this.DEX`) | `15` | `INPUT[toggle:skill1]`|
+>>| **Athletics** (STR `=this.STR`) | `56` | `INPUT[toggle:skill2]`|
+>>| **Animal Handling** (CHA `=this.CHA`) | `12` |`INPUT[toggle:skill3]`|
+>>| **Command** (CHA `=this.CHA`) | `12` |`INPUT[toggle:skill4]`|
+>>| **Crafting** (DEX `=this.DEX`) | `55` |`INPUT[toggle:skill5]`|
+>>| **Dodge** (DEX `=this.DEX` ) | `55` |`INPUT[toggle:skill6]`|
+>>| **Insight** (WIL `=this.WIL`) | `14` |`INPUT[toggle:skill7]`|
+>>| **Literacy** (INT `=this.INT`) | `73` |`INPUT[toggle:skill8]`|
+>>|**Manipulation** (CHA `=this.CHA`) | `12` | `INPUT[toggle:skill9]`|
+>>| **Martial Weapons** (STR `=this.STR`) | `56` |`INPUT[toggle:skill10]`
+>>| **Medicine** (INT `=this.INT`) | `23` |`INPUT[toggle:skill11]`
+>>|**Nature** (INT `=this.INT`) | `23` |`INPUT[toggle:skill12]`
+>>| **Perception** (WIL `=this.WIL`) | `34` |`INPUT[toggle:skill13]`
+>>| **Performance** (CHA `=this.CHA`) | `12` |`INPUT[toggle:skill14]`
+>>| **Ranged Weapons** (DEX `=this.DEX` ) | `35` |`INPUT[toggle:skill15]`
+>>| **Sailing** (DEX `=this.DEX`) | `35` |`INPUT[toggle:skill16]`
+>>| **Siege Weapons** (DEX `=this.DEX`) | `15` |`INPUT[toggle:skill17]`
+>>| **Simple Melee Weapons** (STR `=this.STR`) | `16` |`INPUT[toggle:skill18]`
+>>| **Sleight of Hand** (DEX `=this.DEX` ) | `15` |`INPUT[toggle:skill19]`
+>>| **Stealth** (DEX `=this.DEX`) | `35` |`INPUT[toggle:skill20]`
+>>| **Survival** (INT `=this.INT` ) | `33` |`INPUT[toggle:skill21]`
+>>| **Unarmed** (STR `=this.STR`) | `16` |`INPUT[toggle:skill22]`
 >
 >>[!infobox] %%FAKE TITLE HERE%%
 >>#### Notes
@@ -137,7 +137,7 @@ skill1: false
 >> | **Active Ability**     | `=this.GodshardActive2` | 
 >> |**Active Ability** | `=this.GodshardActive3` |
 >> |**Active Ability** | `=this.GodshardActive4` |
->> |**Earth Essence** (+1 Armor) | `2/4` |
+>> |**Earth Essence** (+1 Armor) | `0/4` |
 >> |**Fire Essence** (+1 Damage) | `0/4` |
 >> |**Water Essence** (+2 HP) | `0/4` |
 >> |**Air Essence** (+2 PP) | `0/4` |

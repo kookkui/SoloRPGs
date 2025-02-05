@@ -100,31 +100,33 @@ Spell1mem: false
 >> |    `0/10`   |         |   | |
 >>| **Charisma**     | `=this.CHA` | **Charm**|`=(this.CHA)*5`|
 >> |    `0/10`   |         |   | |
+>>
+>>
 >> ### Skill Checks
 >>| **Skill Name** | **Skill Level** | Level Up
 >>| ------------------------- | ----------- | ----------- |
->>| **Acrobatics**(DEX `=this.DEX`) | `0` | `INPUT[toggle:skill1]`|
->>| **Athletics** (STR `=this.STR`) | `0` | `INPUT[toggle:skill2]`|
->>| **Animal Handling** (CHA `=this.CHA`) | `0` |`INPUT[toggle:skill3]`|
->>| **Command** (CHA `=this.CHA`) | `0` |`INPUT[toggle:skill4]`|
->>| **Crafting** (DEX `=this.DEX`) | `0` |`INPUT[toggle:skill5]`|
->>| **Dodge** (DEX `=this.DEX` x 2) | `0` |`INPUT[toggle:skill6]`|
->>| **Insight** (WIL `=this.WIL`) | `0` |`INPUT[toggle:skill7]`|
->>| **Literacy** (INT `=this.INT`) | `0` |`INPUT[toggle:skill8]`|
->>|**Manipulation** (CHA `=this.CHA`) | `0` | `INPUT[toggle:skill9]`|
->>| **Martial Weapons** (STR `=this.STR`) | `0` |`INPUT[toggle:skill10]`
->>| **Medicine** (INT `=this.INT`) | `0` |`INPUT[toggle:skill11]`
->>|**Nature** (INT `=this.INT`) | `0` |`INPUT[toggle:skill12]`
->>| **Perception** (WIL `=this.WIL`) | `0` |`INPUT[toggle:skill13]`
->>| **Performance** (CHA `=this.CHA`) | `0` |`INPUT[toggle:skill14]`
->>| **Ranged Weapons** (DEX `=this.DEX` ) | `0` |`INPUT[toggle:skill15]`
->>| **Sailing** (DEX `=this.DEX`) | `0` |`INPUT[toggle:skill16]`
->>| **Siege Weapons** (DEX `=this.DEX`) | `0` |`INPUT[toggle:skill17]`
->>| **Simple Melee Weapons** (STR `=this.STR`) | `0` |`INPUT[toggle:skill18]`
->>| **Sleight of Hand** (DEX `=this.DEX` ) | `0` |`INPUT[toggle:skill19]`
->>| **Stealth** (DEX `=this.DEX`) | `0` |`INPUT[toggle:skill20]`
->>| **Survival** (INT `=this.INT` ) | `0` |`INPUT[toggle:skill21]`
->>| **Unarmed** (STR `=this.STR`) | `0` |`INPUT[toggle:skill22]`
+>>| **Acrobatics**(DEX `=this.DEX`) | `10` | `INPUT[toggle:skill1]`|
+>>| **Athletics** (STR `=this.STR`) | `10` | `INPUT[toggle:skill2]`|
+>>| **Animal Handling** (CHA `=this.CHA`) | `10` |`INPUT[toggle:skill3]`|
+>>| **Command** (CHA `=this.CHA`) | `10` |`INPUT[toggle:skill4]`|
+>>| **Crafting** (DEX `=this.DEX`) | `10` |`INPUT[toggle:skill5]`|
+>>| **Dodge** (DEX `=this.DEX` ) | `10` |`INPUT[toggle:skill6]`|
+>>| **Insight** (WIL `=this.WIL`) | `10` |`INPUT[toggle:skill7]`|
+>>| **Literacy** (INT `=this.INT`) | `10` |`INPUT[toggle:skill8]`|
+>>|**Manipulation** (CHA `=this.CHA`) | `10` | `INPUT[toggle:skill9]`|
+>>| **Martial Weapons** (STR `=this.STR`) | `10` |`INPUT[toggle:skill10]`
+>>| **Medicine** (INT `=this.INT`) | `10` |`INPUT[toggle:skill11]`
+>>|**Nature** (INT `=this.INT`) | `10` |`INPUT[toggle:skill12]`
+>>| **Perception** (WIL `=this.WIL`) | `10` |`INPUT[toggle:skill13]`
+>>| **Performance** (CHA `=this.CHA`) | `10` |`INPUT[toggle:skill14]`
+>>| **Ranged Weapons** (DEX `=this.DEX` ) | `10` |`INPUT[toggle:skill15]`
+>>| **Sailing** (DEX `=this.DEX`) | `10` |`INPUT[toggle:skill16]`
+>>| **Siege Weapons** (DEX `=this.DEX`) | `10` |`INPUT[toggle:skill17]`
+>>| **Simple Melee Weapons** (STR `=this.STR`) | `10` |`INPUT[toggle:skill18]`
+>>| **Sleight of Hand** (DEX `=this.DEX` ) | `10` |`INPUT[toggle:skill19]`
+>>| **Stealth** (DEX `=this.DEX`) | `10` |`INPUT[toggle:skill20]`
+>>| **Survival** (INT `=this.INT` ) | `10` |`INPUT[toggle:skill21]`
+>>| **Unarmed** (STR `=this.STR`) | `10` |`INPUT[toggle:skill22]`
 >
 >
 >>[!important] %%FAKE TITLE HERE%%

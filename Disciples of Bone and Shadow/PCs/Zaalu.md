@@ -69,7 +69,7 @@ Spell2idio:
 Spell2des: 
 Spell1mem: 
 quest1: Witchreef Elder Fadar tells me that a sacred Temple that is used by the village Five Hexes Away and it has been over run by a Blessed One. He wants me to retake the temple and destroy the Blessed One.
-quest2:
+quest2: 
 title8: Coins
 checkbox8: true
 title9: Light Armor (+2)
@@ -85,6 +85,8 @@ equipped13: false
 equipped5: true
 equipped9: true
 checkbox11: true
+title14: Twilight Berry x 10
+checkbox14: true
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  
