@@ -17,9 +17,10 @@ Weapon2notes:
 Weapon3: 
 Weapon3dmg: 
 Weapon3notes: 
-Armor: 
-ArmorPR: 
-Armorintegrity: 
+Armor: Half Plate
+ArmorPR: D8+1
+Armorintegrity: D12
+Armornote1: -20 Stealth
 Shield: 
 ShieldPR: 
 Shieldintegrity: 
@@ -63,7 +64,6 @@ title4: Fishing Rod
 >>|**Power Points** |  **Current:** `14`  **Max:** `=this.WIL`|
 >> |**Speed** |  **Walk:** `=this.DEX*2`  **Run:** `=this.DEX*4` |
 >> | **Max Gear Slots**     | `=(this.STR)+10` | 
- >> |**Armor** | `=this.Armor` |
 >>
 >> ###### Weapons
 >>| **Weapons** | **Damage** | **Notes** |

@@ -56,8 +56,8 @@ Overcast
 Encounter check 9
 
 You stumble upon a hidden cave, no more than a few feet deep. Inside, you find some crates. Roll on the Valuable Loot table
-
-
+###### Loot - Valuable Loot
+Half Plate 3,000 D8+1 Heavy D12 -20 Stealth
 
 
 

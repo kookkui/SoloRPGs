@@ -7,6 +7,8 @@
 | 16-18 | Sumptuous - 5D100Ҁ |
 | 19-20 | Extravagant - 6D100Ҁ |
 
+^5eeac3
+
 
 | `dice:d6` | Loot - Manuals |
 | --- | ---------------------- |
@@ -16,6 +18,8 @@
 | 4 | Medicine Manual |
 | 5 | Nature Manual |
 | 6 | Survival Manual |
+
+^bbd85d
 
 | `dice:d20` | Loot - Minor Magic Item |
 | ---------- | ------------------------------------------------------------------------------------------------------ |
@@ -35,6 +39,8 @@
 | 14 | Earing that grants +10 Perception |
 | 15 | Candle that is never spent and illuminates a 30 ft radius |
 | 16-20 | Bracelet that can cast a spell once a day. Determine which spell randomly when first finding this item |
+
+^edbd7f
 
 | `dice:d20` | Loot - Mundane Loot |
 | --- | ---------------------------------- |
@@ -57,7 +63,9 @@
 | 17 | Rare set of divination runes 100c |
 | 18 | Coins 200c |
 | 19 | Thieves’ tools |
-| 20 | @Loot - Valuable Loot |
+| 20 | `dice:[[General Tables#^f7349d]]` |
+
+^54d33c
 
 
 | `dice:d20` | Loot - Potions |
@@ -73,6 +81,8 @@
 | 9 | Spirit. You gain 10 temporary PP. These last until spent. |
 | 10 | Waterlungs. For the next hour you can breathe water, but only water. |
 
+^75b0e4
+
 
 | `dice:d20` | Loot - Precious Loot |
 | ----- | ------------------------------------------------------------------------------------------------------- |
@@ -87,7 +97,9 @@
 | 13-15 | Elemental essence |
 | 16-18 | Minor magic item |
 | 19 | Godshard |
-| 20 | @Loot - Artifacts |
+| 20 | `dice:[[General Tables#^19af82]]` |
+
+^3ac5be
 
 | `dice:d12` | Loot - Random Armor |
 | ---------- | ------------------- |
@@ -104,57 +116,90 @@
 | 11         | Half Plate          |
 | 12         | Full Plate          |
 
+^5277a8
 
 
-1-4 	Club
 
-5-8 	Dagger
+| `dice:d100` | Loot - Random Weapon |
+| ----------- | -------------------- |
+| 1-4         | Club                 |
+| 5-8         | Dagger               |
+| 9-12        | Greatclub            |
+| 13-16       | Handaxe              |
+| 17-20       | Mace                 |
+| 21-24       | Quarterstaff         |
+| 25-28       | Spear                |
+| 29-32       | Bow                  |
+| 33-36       | Dart                 |
+| 37-40       | Javelin              |
+| 41-44       | Net                  |
+| 45-50       | Sling                |
+| 51-54       | Throwing Knife       |
+| 55-58       | Battleaxe            |
+| 59-62       | Flail                |
+| 63-66       | Glaive               |
+| 67-70       | Greatsword           |
+| 71-74       | Lance                |
+| 75-78       | Longsword            |
+| 79-82       | Maul                 |
+| 83-86       | Morningstar          |
+| 87-90       | Scimitar             |
+| 91-94       | Shortsword           |
+| 95-96       | Trident              |
+| 97-98       | War Pick             |
+| 99-100      | Whip                 |
 
-9-12 	Greatclub
+^958917
 
-13-16	Handaxe
 
-17-20	Mace
+| `dice:d6` | Loot - Seeds                                                                                                                                                                                                                                                       |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1          | Abaya: A fast growing fruit that can provide enough food for a ration, when combined with enough fresh water. When planted, it produces 1xAbaya each 3 days. Requires 1 cup of water each two days.                                                                |
+| 2          | Citric Melon:This lemon-flavored fruit offers little nutrition but wards of scurvy when consumed once a month. When planted, it produces 1xCitric Melon each week. Requires 1 cup of water a week.                                                                 |
+| 3          | Custard Cherry: These creamy, sweet cherry-like fruits cause the immediate recovery of 1 PP. When planted, it produces 1xCustard Cherry every week. It requires 1 cup of water a month.                                                                            |
+| 4          | Dajn: A strong-smelling fruit that when ingested immediately removes the effects of stun or charm. When planted, it produces 1xDajn each week. Requires 1 cup of water a week                                                                                      |
+| 5          | Harrian Apple: A golden, small apple like fruit that heals all poisons when ingested. When planted, it produces 1xHarrian Apple each two weeks. Requires 1 cup of water a week                                                                                     |
+| 6          | Healberries: As their name says, these tiny dark berries can heal a wound when combined with good care. Increases a character’s daily healing rate by +1. When planted, it produces enough healberries for 1 application. Requires 1 cup of water each three days. |
 
-21-24	Quarterstaff
+ 
+|`dice:d20`|Loot - Valuable Loot|
+|---|---|
+|1-2|`dice:[[General Tables#^958917]]`|
+| 3-7   | `dice:[[General Tables#^5eeac3]]`                           |
+| 8-9   | `dice:[[General Tables#^5277a8]]`                               |
+| 10    | Rolled painting depicting some forgotten hero 250c |
+| 11    | Perfume vial 250c                                  |
+| 12    | Tapestry 300c                                      |
+| 13    | Ivory statuette 400                                |
+| 14-15 | `dice:[[General Tables#^75b0e4]]`                                    |
+| 16    |`dice:[[General Tables#^bbd85d]]`                                   |
+| 17    | Random, finely crafted weapon (+1 damage)          |
+| 18-19 | Scroll with a random spell                         |
+| 20    | `dice:[[General Tables#^3ac5be]]`                             |
 
-25-28 	Spear
+^f7349d
 
-29-32 	Bow
 
-33-36	Dart
+| `dice:d20` | Loot - Random Loot    |
+| --- | --------------------- |
+| 1-3 | `dice:[[General Tables#^54d33c]]`  |
+| 4-5 | `dice:[[General Tables#^f7349d]]` |
+| 6   | `dice:[[General Tables#^3ac5be]]` |
 
-37-40	Javelin
+^a898b8
 
-41-44 	Net
+|`dice:d20`|Loot - Artifacts|
+|---|---|
+|1|Blades of Death|
+| 2   | Diadem of Arcane Power      |
+| 3   | Glassblade of Athuna        |
+| 4   | Goblet of Puri􀀴ication      |
+| 5   | Kathena’s Eye               |
+| 6   | Moonstone                   |
+| 7   | Robe of Illusion            |
+| 8   | Soul Gem                    |
+| 9   | Spellshield                 |
+| 10  | Wand of Elemental Summoning |
 
-45-50 	Sling
-
-51-54 	Throwing Knife
-
-55-58 	Battleaxe
-
-59-62	Flail
-
-63-66 	Glaive
-
-67-70 	Greatsword
-
-71-74 	Lance
-
-75-78	Longsword
-
-79-82 	Maul
-
-83-86 	Morningstar
-
-87-90	Scimitar
-
-91-94 	Shortsword
-
-95-96 	Trident
-
-97-98	War Pick
-
-99-100	Whip
+^19af82
 

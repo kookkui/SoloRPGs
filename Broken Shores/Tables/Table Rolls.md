@@ -41,4 +41,37 @@
 >
 >###### Island Exploration - Island Weather
 >`dice:[[Exploration Tables#^528012]]`
+
+> [!gather] Loot Tables
+> ###### Loot - Random Loot
+>`dice:[[General Tables#^a898b8]]`
 >
+> ###### Loot - Mundane Loot
+>`dice:[[General Tables#^54d33c]]`
+>
+>###### Loot - Valuable Loot
+>`dice:[[General Tables#^f7349d]]`
+>
+>###### Loot - Precious Loot
+>`dice:[[General Tables#^3ac5be]]`
+>
+>###### Loot - Random Weapon
+>`dice:[[General Tables#^958917]]`
+>
+>###### Loot - Random Armor
+>`dice:[[General Tables#^5277a8]]`
+>
+>###### Loot - Potions
+>`dice:[[General Tables#^75b0e4]]`
+>
+>###### Loot - Manuals 
+>`dice:[[General Tables#^bbd85d]]`
+>
+>###### Loot - Gems & Jewelry 
+>`dice:[[General Tables#^5eeac3]]`
+>
+>###### Loot - Artifacts
+>`dice:[[General Tables#^19af82]]`
+>
+>###### Loot - Minor Magic Item
+>`dice:[[General Tables#^edbd7f]]`
