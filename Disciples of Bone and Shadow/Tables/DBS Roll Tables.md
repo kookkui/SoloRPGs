@@ -24,6 +24,9 @@
 
 
 >[!tldr] Interior Exploration
+>###### Interior Locations Special Conditions
+>`dice:[[DBS Exploration Tables#^027a32]]`
+>
 >###### Random Direction
 >`dice:[[DBS Tables#^c137e4]]`
 >
@@ -44,11 +47,19 @@
 >
 >###### Artifice Effect
 >`dice:[[DBS Tables#^819548]]`
+
+>[!seealso] Ruins
+>###### Ruins - Original Purpose
+>`dice:[[DBS Exploration Tables#^197210]]`
 >
->###### Ruin or Cave Size
->`dice:[[DBS Tables#^586f65]]`
-
-
+>###### Ruins - Cause of Demise
+>`dice:[[DBS Exploration Tables#^8b6f8f]]`
+>
+>###### Ruin Exploration
+>`dice:[[DBS Exploration Tables#^985a68]]`
+>
+>###### Ruin Encounters
+>`dice:[[DBS Exploration Tables#^be082e]]`
 
 
 > [!gather] Caves

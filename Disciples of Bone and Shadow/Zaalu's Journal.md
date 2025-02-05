@@ -698,6 +698,11 @@ Next Day
 Akkar Strand Hex Exploration
 **Ruins**. You come across the abandoned remnants of a bygone era. If you choose to explore it use the Indoor Location generation rules
 
+###### Ruins - Original Purpose
+Tomb
+###### Ruins - Cause of Demise
+Perished during a flood
+
 
 
 

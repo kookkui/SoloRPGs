@@ -176,3 +176,79 @@
 
 ^3ec88a
 
+| `dice:D10`  | Ruins - Original Purpose |
+| ---- | ----------------------- |
+| 1-2  | Temple                  |
+| 3-4  | Stronghold              |
+| 5-6  | Small City              |
+| 7-8  | Prison                  |
+| 9-10 | Tomb                    |
+
+^197210
+
+
+| `dice:D6`  | Ruins - Cause of Demise              |
+| --- | ------------------------------------ |
+| 1   | Ravaged by disease                   |
+| 2   | Perished during a flood              |
+| 3   | Builders died of hunger              |
+| 4   | Builders wiped out by Invaders       |
+| 5   | Abandoned due to dwindling resources |
+| 6   | Lost after internal strife           |
+
+^8b6f8f
+
+
+| `dice:1d10`   | Ruin Encounters                    |
+| ------ | ---------------------------------- |
+| 1-5    | Insect: Giant Mosquitoes (Vermin)  |
+| 6-10   | Beast: Madari rats (Vermin)        |
+| 11-15  | Insect: Night Beetles (Vermin)     |
+| 16-20  | Insect: Centipede (Vermin)         |
+| 21-25  | Beast: Tundra Rats (Vermin)        |
+| 26-32  | Beast: Fire Bats (Vermin)          |
+| 33-40  | Beast: Sabershadow (Common)        |
+| 41-45  | Beast: Crawler (Common)            |
+| 46-50  | Beast: Pale Ghar (Common)          |
+| 51-60  | Undead: Risen (Common)             |
+| 61-70  | Human                              |
+| 71-75  | Beast: Giant Snake (Elite)         |
+| 76-80  | Beast: Giant Spider (Elite)        |
+| 81-85  | Abomination: Crog (Elite)          |
+| 86-90  | Humanoid: White Hag (Elite)        |
+| 91-95  | Abomination: Crystal Ghoul (Elite) |
+| 96-100 | Beast: White Stalker (Elite)       |
+
+^be082e
+
+
+| `dice:d20` | Ruin Exploration                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |     |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
+| 1-5        | Encounter. Roll on the Ruins Encounter table                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |     |
+| 6-10       | Nothing of interest. This section of the ruins is empty and has nothing of interest                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |     |
+| 11-12      | Artifice. A strange item or situation placed here to trick or confuse the PCs. Use the Artifice tables to determine its nature                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |     |
+| 13         | Trap. This room is trapped. Follow the standard trap rules and roll on the Traps table found on page 80                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |     |
+| 14         | Loot. You come across something of value. Roll on the Loot table                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |     |
+| 15         | Alchemy Lab. This room is filled with bottles, pipettes, and other tools that an alchemist would need. Everything here is covered in a thick layer of dust, but you find some notes that grant you +1 Alchemy if you spend a few hours studying them                                                                                                                                                                                                                                                                                                                                              |     |
+| 16         | Library. This room was previously some sort of library. Now piles of half- rotten tomes gather dust in every corner, collapsed shelves creating a landscape of lost knowledge. The party may spend a whole day here sifting through the books, hoping on even the slightest odds that there is something of worth. They must first pass a Literacy roll; if they do so roll a `dice:d6` : 1-2 a tome describing the terrors of an ancient civilization that worshiped the Primordial Ones. You gain +1 Forbidden Lore; 3-4 a random spell; 5-6 a treatise on local plants and herbs. +1 Herb Lore |     |
+| 17         | Intriguing mural. A once vivid and colorful mural covers the whole wall in front of you. You immediately notice there's something off about it; some pieces seem to be out of place. To your surprise, you can easily slide them around and set them on what you believe to be the right place. Each character may attempt a Traditional Lore test to remember details about the story depicted in the mural and solve it. Solving the puzzle causes a small hidden compartment to open, revealing a small cache of jewels worth 100 jats                                                         |     |
+| 18         | Doorway. As you advance through the ruins, your progress is halted due to a locked doorway. This profusely decorated archway is made of solid stone and has a series of carvings and frescoes on it, describing different scenes. Roll `dice:1d4`: 1 – The doorway will only open if heat is applied to it; 2 – The doorway will only open if the name of an ancient ruler written on it is spoken out loud. This requires a Literacy test; 3 – By casting a healing spell on it; 4 – By spilling fresh blood on it (2 HP)                                                                        |     |
+| 19         | Viewing Crystal. A large, roughly shaped crystal stands on top of a pedestal. If touched, it will glow, revealing images of a strange place, filled with twisting spirals, skies carved in obsidian and raging oceans as black as the night sky. All characters present must pass a WIL test to avoid being enthralled by the vision, losing 1 CP                                                                                                                                                                                                                                                 |     |
+| 20         | Mysterious Figure. As you progress through the ruins you can't help but feel observed. It's a nagging sensation in the back of your head that you can't get rid of. Your suspicions come to life though when you catch a glimpse of a hooded shadow several feet behind you, simply staring at you. Immediately after realizing it's been made though it quickly runs away. Any attempts at finding it again are completely futile; there's no trace of it to be found                                                                                                                            |     |
+
+^985a68
+
+
+| `dice:d8` | Interior Locations Special Conditions                                                                                                                          |
+| --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1         | Tyrannical – Elite Foes have 50% more health                                                                                                                   |
+| 2         | Unstable – Every 4 rooms explored, the ground shakes. All characters lose `dice:D20` HP from the falling rubble, but so do enemies at the start of each combat |
+| 3         | Empowered – All enemies deal an extra 1 damage per attack                                                                                                      |
+| 4         | Fearless – Enemies encountered here will never flee due to low numbers                                                                                         |
+| 5         | Toxic Blood – When slain, fiends and foes splash the player characters with toxic blood. Pass a CON Test or lose 1 HP per enemy killed                         |
+| 6         | Bolstered – When an opponent dies it enrages the other members of its group, who deal an extra 5 damage per attack                                             |
+| 7         | Necrotic – Successful enemy attacks infect the players with a necrotic disease that reduces all healing received during combat by 50%                           |
+| 8         | Armored – All enemies here have suffered a mutation that covers them in armored plates, which grants them Armor (1)                                            |
+
+^027a32
+
