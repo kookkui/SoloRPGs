@@ -679,6 +679,20 @@ WIL Test 15 1d20
 
 Twilight Berry x 10
 
+Making Camp
+**Camping Gear** +20 Outdoor Survival
+###### Random Difficulty
+Easy +10
+**Outdoor Survival** check  76 1d%[17]
+DoS Incredible!
+
+Found d4 rations while making camp 
++2 Rations
+
+Resting
+
+Next Day
+
 
 
 

@@ -30,15 +30,15 @@ flaws: Bad Tempered I
 Head: Hunter (Foraging, Marksmanship)
 Title69: 1x Healing Tincture
 Title1: Rations
-Pskills69: Marksmanship You may relinquish your turn to aim with a Ranged Weapon, doubling the damage of your next attack.
-Pskills1: Foraging (Archetype Exclusive) This character consumes half as many supplies per day, thanks to their ability to find sources of food and water in the wild.
+Pskills69: "Marksmanship: You may relinquish your turn to aim with a Ranged Weapon, doubling the damage of your next attack."
+Pskills1: "Foraging (Archetype Exclusive): This character consumes half as many supplies per day, thanks to their ability to find sources of food and water in the wild."
 Title2: Torch x 10
 Title3: Bandage x 5
 Pskills2: "Inner Compass (1 EP): You may re-roll once any failed Orientation tests."
-passive0: "**Marksmanship** You may relinquish your turn to aim with a Ranged Weapon, doubling the damage of your next attack."
-passive1: "**Foraging (Archetype Exclusive)** This character consumes half as many supplies per day, thanks to their ability to find sources of food and water in the wild."
-passive2: "**Inner Compass** You may re-roll once any failed Orientation tests."
-archetype0: "**Hunter** Foraging, Marksmanship"
+passive0: "**Marksmanship**: You may relinquish your turn to aim with a Ranged Weapon, doubling the damage of your next attack."
+passive1: "**Foraging (Archetype Exclusive)**: This character consumes half as many supplies per day, thanks to their ability to find sources of food and water in the wild."
+passive2: "**Inner Compass**: You may re-roll once any failed Orientation tests."
+archetype0: "**Hunter**: Foraging, Marksmanship"
 axp: 
 Title4: 10 Pale Ghar claws  (20 jats ea.)
 Title5: One-Handed Sword
@@ -60,11 +60,6 @@ checkbox5: false
 checkbox7: true
 equipped6: true
 equipped7: false
-mod0: "**Camping Gear** +20 Outdoor Survival when setting camp"
-mod1: 
-mod2: 
-mod3: 
-mod4: 
 Spell1: 
 Spell1cl: 
 Spell1idio: 
@@ -92,11 +87,6 @@ equipped9: true
 checkbox11: true
 title14: Twilight Berry x 10
 checkbox14: true
-plant69: Twilight Berry
-found69: Forests
-effect69: Unknown
-combined69: Unknown
-produces69: Unknown
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  
@@ -135,7 +125,7 @@ produces69: Unknown
 >>  | 
 >>---|---|
 >>**Currency**|`=this.currency` |
->>**Provisions**|`12` |
+>>**Provisions**|`10` |
 >>**Torches**|`9` |
 >>**Lamp Oil**|`0` |
 
@@ -152,7 +142,7 @@ produces69: Unknown
 >>| **Charisma**     | `=this.CHA` | 
 >>| **Max Gear Slots**     | `=(this.STR)` | 
 >> ### Skill Checks
->>| <span style="color:rgb(129, 216, 208)">Skill Name</span>|<span style="color:rgb(129, 216, 208)"> Skill Level</span> |
+>>| <span style="color:rgb(182, 88, 254)">Skill Name</span> |<span style="color:rgb(182, 88, 254)"> Skill Level</span> |
 >>| ------------------------- | ----------- |
 >>| **Alchemy** | `30` |
 >>| **Animal Handling** (CHA `=this.CHA`) | `12` |
@@ -182,18 +172,6 @@ produces69: Unknown
 >>
 >
 >>[!tldr] %%FAKE TITLE HERE%%
->> ### Modifiers
->> |        |         |   
->>| :-: | :----- |
->>| 1 | `=this.mod0` |
->>| 2 | `=this.mod1` |
->>| 3 | `=this.mod2` |
->>| 4 | `=this.mod3` |
->>| 5 | `=this.mod4` |
->>| 6 |`=this.mod5` |
->>| 7 | `=this.mod6` |
->
->>[!tldr] %%FAKE TITLE HERE%%
 >> ### Passive Skills
 >> |        |         |   
 >>| :-: | :----------------------------------------- |
@@ -215,8 +193,7 @@ produces69: Unknown
 >>| 16 | `=this.passive1416` |
 >>| 17 | `=this.passive1417` |
 >>| 18 | `=this.passive1418`
->
->>[!tldr] %%FAKE TITLE HERE%%
+>>
 >>##### Archetypes
 >> |        |         |   
 >>| :-: | :----- |
@@ -337,8 +314,3 @@ actions:
   value: getMetadata('xp') + getMetadata('axp')
 
 ```
-
-
-
-
-
