@@ -252,3 +252,29 @@
 
 ^027a32
 
+
+| `dice:d20` | Ruins Name Generation |
+| ---------- | ---------------------------- |
+| 1          | … of Death                   |
+| 2          | … of Doom                    |
+| 3          | … of Evil                    |
+| 4          | Black …                      |
+| 5          | Bloody …                     |
+| 6          | Crumbling …                  |
+| 7          | Deadly …                     |
+| 8          | Desolated …                  |
+| 9          | Destroyed …                  |
+| 10         | Forgotten …                  |
+| 11         | Haunted …                    |
+| 12         | Hellish …                    |
+| 13         | Infernal …                   |
+| 14         | Mossy …                      |
+| 15         | Mourning …                   |
+| 16         | Overgrown …                  |
+| 17         | Scarlet …                    |
+| 18         | Secret …                     |
+| 19         | Twilight …                   |
+| 20         | Unholy …                     |
+
+^f3225c
+

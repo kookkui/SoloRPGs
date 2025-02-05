@@ -187,15 +187,15 @@
 | 7         | **Necrotic** – Successful enemy attacks infect the players with a necrotic disease that reduces all healing received during combat by 50%                   |
 | 8         | **Armored** – All enemies here have suffered a mutation that covers them in armored plates, which grants them Armor (1)                                     |
 
-| `dice:d10` | Doors                                                                                                                                                                                                                                                                    |
-| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 1-2        | A standard wooden door braced with hardened branches. Unlocked                                                                                                                                                                                                           |
-| 3          | An empty doorway. It may be trapped with a spell; roll D10: 1-6 No trap, 7-10 trapped. A party member (whoever crossed first) suffers D10 damage unless they pass a Perception skill test to detect the trap. Pass an INT test to disable the trap without triggering it |
-| 4-5        | A wooden door, locked. The characters will have to bash it in or pick the lock                                                                                                                                                                                           |
-| 6          | A portcullis is in your way, but luckily there's a level on this side of the room. Perform a STR or Lockpicking test in order to activate it                                                                                                                             |
-| 7-8        | An empty archway with no door                                                                                                                                                                                                                                            |
-| 9          | An unlocked wood and bone door, but trapped. A party member (whoever crossed first) suffers D10 damage as a stone falls on them unless they pass a Perception skill test to detect the trap. Pass a DEX test or use the Disarm Traps skill to disable it                 |
-| 10         | A locked stone door. Pass a STR test (-2) or a Lockpicking test in order to get through it                                                                                                                                                                               |
+| `dice:d10` | Doors                                                                                                                                                                                                                                                                            |
+| ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-2        | Door - A standard wooden door braced with hardened branches. Unlocked                                                                                                                                                                                                            |
+| 3          | Door -  An empty doorway. It may be trapped with a spell; roll D10: 1-6 No trap, 7-10 trapped. A party member (whoever crossed first) suffers D10 damage unless they pass a Perception skill test to detect the trap. Pass an INT test to disable the trap without triggering it |
+| 4-5        | Door - A wooden door, locked. The characters will have to bash it in or pick the lock                                                                                                                                                                                            |
+| 6          | Door - A portcullis is in your way, but luckily there's a level on this side of the room. Perform a STR or Lockpicking test in order to activate it                                                                                                                              |
+| 7-8        | Door - An empty archway with no door                                                                                                                                                                                                                                             |
+| 9          | Door - An unlocked wood and bone door, but trapped. A party member (whoever crossed first) suffers D10 damage as a stone falls on them unless they pass a Perception skill test to detect the trap. Pass a DEX test or use the Disarm Traps skill to disable it                  |
+| 10         | Door - A locked stone door. Pass a STR test (-2) or a Lockpicking test in order to get through it                                                                                                                                                                                |
 
 ^e7d45c
 
@@ -369,3 +369,10 @@
 
 ^bae025
 
+
+| `dice:1D10` | Encounter Check              |
+| ----------- | ---------------------------- |
+| 1-2         | Encounter Check - Encounter! |
+| 3-10        | Encounter Check - None       |
+
+^894799

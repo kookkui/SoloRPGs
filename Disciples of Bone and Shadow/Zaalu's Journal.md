@@ -702,15 +702,22 @@ Akkar Strand Hex Exploration
 Tomb
 ###### Ruins - Cause of Demise
 Perished during a flood
+###### Ruins Name Generation
+Haunted …
 
+Haunted Tomb
 
+Entrance
 
+Door - A standard wooden door braced with hardened branches. Unlocked
 
+Corridor
 
+Encounter Check - None
 
+Door - A standard wooden door braced with hardened branches. Unlocked
 
-
-
+Room 2
 
 
 

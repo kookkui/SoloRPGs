@@ -21,14 +21,14 @@
 >
 >###### Travel Complications
 >`dice:[[DBS Tables#^442cac]]`
+>
+>###### Encounter Check
+>`dice:[[DBS Tables#^894799]]`
 
 
 >[!tldr] Interior Exploration
->###### Interior Locations Special Conditions
->`dice:[[DBS Exploration Tables#^027a32]]`
->
->###### Random Direction
->`dice:[[DBS Tables#^c137e4]]`
+>###### Encounter Check
+>`dice:[[DBS Tables#^894799]]`
 >
 >###### Interior Exploration
 >`dice:[[DBS Tables#^63f2a8]]`
@@ -47,19 +47,25 @@
 >
 >###### Artifice Effect
 >`dice:[[DBS Tables#^819548]]`
+>
+>###### Interior Locations Special Conditions
+>`dice:[[DBS Exploration Tables#^027a32]]`
 
 >[!seealso] Ruins
->###### Ruins - Original Purpose
->`dice:[[DBS Exploration Tables#^197210]]`
->
->###### Ruins - Cause of Demise
->`dice:[[DBS Exploration Tables#^8b6f8f]]`
->
 >###### Ruin Exploration
 >`dice:[[DBS Exploration Tables#^985a68]]`
 >
 >###### Ruin Encounters
 >`dice:[[DBS Exploration Tables#^be082e]]`
+>
+>###### Ruins - Original Purpose
+>`dice:[[DBS Exploration Tables#^197210]]`
+>
+>###### Ruins Name Generation
+>`dice:[[DBS Exploration Tables#^f3225c]]`
+>
+>###### Ruins - Cause of Demise
+>`dice:[[DBS Exploration Tables#^8b6f8f]]`
 
 
 > [!gather] Caves
