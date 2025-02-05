@@ -24,7 +24,7 @@ Shield:
 ShieldPR: 
 Shieldintegrity: 
 Currency: 51
-shards: 0
+shards: 12
 csupplies: 0
 rations: 9
 water: 0
@@ -49,6 +49,8 @@ notes1: |-
 title1: Coins
 title21: ""
 title2: Rations
+title3: Shards x 12
+title4: Fishing Rod
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  

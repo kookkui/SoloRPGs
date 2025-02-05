@@ -1,6 +1,6 @@
 > [!dice] General Tables
 > ###### Random Difficulty
->`dice:[[DBS Tables#^5baee1]]]`
+>`dice:[[DBS Tables#^5baee1]]`
 >
 >######  Mark of Taint
 >`dice:[[DBS Tables#^769b4d]]`

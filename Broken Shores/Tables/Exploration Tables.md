@@ -3,6 +3,8 @@
 | 1-2        | Island                       |
 | 3-10       | Ocean                        |
 
+^3b0677
+
 
 
 | `dice:d100` | Ocean Exploration - Findings                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
@@ -37,6 +39,8 @@
 | 97-99       | The ocean is completely still, the water looking and behaving like oil. There doesn’t seem to be anything alive around you.                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | 100         | A meteor shower bombards the area. A random improvement in our raft is destroyed, but you find a Godshard among the rubble.                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 
+^f50f30
+
 
 | `dice:d20` | Ocean Exploration - Precipitation          |
 | ---------- | ------------------------------------------ |
@@ -46,9 +50,87 @@
 
 
 
-|`dice:d4`|Ocean Exploration - Unusual Precipitation
-|---|---|
-|1|Heavy rain|
-|2|Thick fog|
-|3|Hail|
-|4|Snow|
+| `dice:d4` | Ocean Exploration - Unusual Precipitation |
+| --------- | ----------------------------------------- |
+| 1         | Heavy rain                                |
+| 2         | Thick fog                                 |
+| 3         | Hail                                      |
+| 4         | Snow                                      |
+
+
+
+| `dice:d100` | Ocean Exploration - Wind Strength        |
+| ----------- | ---------------------------------------- |
+| 1-50        | Calm                                     |
+| 51-65       | Breeze - Strength: 5 Damage: D4          |
+| 66-80       | Moderate Wind - Strength: 10  Damage: D6 |
+| 81-90       | Strong Wind - Strength: 20 Damage: D6+2  |
+| 91-99       | Gale - Strength: 40 Damage: D10+5        |
+| 100         | Hurricane - Strength: 80 Damage: 3D6+10  |
+
+^ab6451
+
+
+
+| `dice:d12` | Ocean Exploration - Encounter Check   |
+| ---------- | ------------------------------------- |
+| 1-2        | `dice:[[Exploration Tables#^d4f804]]` |
+| 3-12       | Nothing                               |
+
+^5b02fa
+
+| `dice:d20` | Ocean Exploration - Encounters                                                                                                                                                                                                                                                                                                |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-10       | `dice:[[Exploration Tables#^1cdfed]]`                                                                                                                                                                                                                                                                                         |
+| 11         | A merchant vessel, with many armed men protecting it. They are willing to trade.                                                                                                                                                                                                                                              |
+| 12         | Another Drifter                                                                                                                                                                                                                                                                                                               |
+| 13         | An Atharri family clan                                                                                                                                                                                                                                                                                                        |
+| 14         | A group of hunters, chasing after a dangerous mistbringer.                                                                                                                                                                                                                                                                    |
+| 15         | A group of travelers who swear to know where to find a safe port in these waters.                                                                                                                                                                                                                                             |
+| 16         | A group of desperate, starving runaway slaves aboard a raft that can barely hold all of them.                                                                                                                                                                                                                                 |
+| 17         | A large creature with a long, scaly body that hovers a few feet above the water approaches you. Its deep green eyes stare at you, and you can see the spark of intelligence in them. There’s no doubt about it, this must be a sea dragon. After looking at you for a while it leaves, the water undisturbed as it submerges. |
+| 18         | A group of pilgrims, trying to find the lost shrine of Tumus.                                                                                                                                                                                                                                                                 |
+| 19         | Emissaries from the House of Egress, their slow and baroque ship dwarfing yours. They want to interrogate you about any clues interrogate you about any clues regarding their lost kingdom.                                                                                                                                   |
+| 20         | A floating temple. They are approaching you but don’t seem aggressive.                                                                                                                                                                                                                                                        |
+
+^d4f804
+
+| `dice:d12` | Ocean Exploration - Combat Encounters |
+| ---------- | ------------------------------------- |
+| 1          | Combat - Afrana                       |
+| 2          | Combat - Cannibals                    |
+| 3          | Combat - Crimson Cormorant            |
+| 4          | Combat - Cult Fanatics                |
+| 5          | Combat - Dunress                      |
+| 6          | Combat - Ebon Fin                     |
+| 7          | Combat - Giant Octopus                |
+| 8          | Combat - Grey Ooze                    |
+| 9          | Combat - Krothok                      |
+| 10         | Combat - Mistbringer                  |
+| 11         | Combat - Raiders                      |
+| 12         | Combat - Water Elemental              |
+
+^1cdfed
+
+
+
+
+
+| `dice:d100` | Ocean Exploration - Complication                                                                                                                                                                                                                                                              |
+| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-10        | Rats! Rats have snuck onto your vessel and eaten D4 rations.                                                                                                                                                                                                                                  |
+| 11-20       | Broken part. Something has broken and it must be repaired. Until you do so, reduce your vessel’s Hull by D6 and half its speed. Repairing it requires 3xCrafting Supplies                                                                                                                     |
+| 21-30       | Leak. You are treading water; it’s not urgent but if the vessel is not repaired in the next 48 hours, it will be lost. Repairs take D4xCrafting Supplies.                                                                                                                                     |
+| 31-40       | Torn sail. The sail is torn and must be fixed. Until then, you move at half the usual speed. Repairs take 1xCrafting Supplies.                                                                                                                                                                |
+| 41-50       | Ebon Fin hatchlings. Those damn creatures like attaching themselves to vessels of any type and while they themselves pose no threat, they attract the adults. Removing them requires a successful Athletics check, otherwise the vessel is attacked by an Ebon Fin.                           |
+| 51-70       | Reef. Perform a Sailing check successfully or your vessel suffers D6 damage.                                                                                                                                                                                                                  |
+| 71-80       | Giant Wave. A wave the size of a mountain threatens to turn your vessel into splinters. Perform a successful Sailing check to ride it, or your vessel receives D20 damage.                                                                                                                    |
+| 81-90       | Sandbar. Your vessel becomes grounded on a shallow part of the sea, unless you succeed at a Sailing check. If grounded, you must wait D6 hours for the tide to rise and be free.                                                                                                              |
+| 91-95       | Sea Monster. An abomination from the depths has taken an interest in your vessel. Set a Timer to D6 and make a timer check every round. If you haven’t dealt 20 damage to the creature (enough to show the beast you’re not an easy meal) before the time runs out, your vessel is destroyed. |
+| 96-100      | Whirlpool. Furious, spinning waters lie ahead. Set a timer to D6 and make a check every round. If you haven’t succeed at 5 Sailing checks before the time runs out, the vessel is gone, and so are you.                                                                                       |
+
+^009dc2
+
+
+
+
