@@ -53,6 +53,10 @@ Hex 1 Jungle
 
 Overcast
 
+Encounter check 9
+
+You stumble upon a hidden cave, no more than a few feet deep. Inside, you find some crates. Roll on the Valuable Loot table
+
 
 
 
