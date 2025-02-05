@@ -25,7 +25,7 @@ ShieldPR:
 Shieldintegrity: 
 Currency: 51
 shards: 12
-csupplies: 0
+csupplies: 12
 rations: 9
 water: 0
 talent0: "**Sorcerer:** Start the game knowing an extra spell of your choice. Only new characters may pick this Talent."
@@ -59,8 +59,8 @@ title4: Fishing Rod
 >> ###### Stats
 >>|     |     | 
 >> |--- | --- | 
->>|**HP** | **Current:** `0` **Max:** `=this.CONST*2`|
->>|**Power Points** |  **Current:** `0`  **Max:** `=this.WIL`|
+>>|**HP** | **Current:** `32` **Max:** `=this.CONST*2`|
+>>|**Power Points** |  **Current:** `14`  **Max:** `=this.WIL`|
 >> |**Speed** |  **Walk:** `=this.DEX*2`  **Run:** `=this.DEX*4` |
 >> | **Max Gear Slots**     | `=(this.STR)+10` | 
  >> |**Armor** | `=this.Armor` |
@@ -87,7 +87,7 @@ title4: Fishing Rod
 >>|**Coins (Ҁ)** |`=this.Currency` |
 >>|**Shards** | `=this.shards`|
 >> |**Crafting Supplies** |`=this.csupplies` |
->>| **Rations**   |  `=this.rations`   |
+>>| **Rations**   |  `8`   |
 >>| **Water (Gal)** |  `=this.water`   |
 >
 >>[!infobox] %%FAKE TITLE HERE%%

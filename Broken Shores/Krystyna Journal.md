@@ -18,6 +18,31 @@ Encounter check 7
 
 Hex encounter check 12
 
+Will sail for the rest of the day.
 
+Day 2
+
+###### Ocean Exploration - Wind Strength
+Calm
+###### Ocean Exploration - Findings
+The remains of a wreckage fill the area. You recover D10+5 Crafting Supplies
+
++11 Crafting Supplies
+
+###### Ocean Exploration - Encounter Check
+Nothing
+
+Sailing and Resting for the rest of the of the day.
+
+-1 Ration
+
+Day 3 
+###### Ocean Exploration - Hex Type
+Island
+
+Check if Island is Egress (1-50) or Random Island (51-100)1d%
+[76]
+
+Random Island
 
 
