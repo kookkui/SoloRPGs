@@ -132,5 +132,107 @@
 ^009dc2
 
 
+### Island Exploration
+
+| `dice:d12` | Island Exploration - Combat Encounters |
+| ---------- | -------------------------------------- |
+| 1          | Cannibals                              |
+| 2          | Crimson Cormorant                      |
+| 3          | Cult Fanatics                          |
+| 4          | Deathless Guardian                     |
+| 5          | Deathless Sorcerer                     |
+| 6          | Drifter                                |
+| 7          | Dunress                                |
+| 8          | Earth Elemental                        |
+| 9          | Krothok                                |
+| 10         | Possessed                              |
+| 11         | Raiders                                |
+| 12         | Tidal Troll                            |
 
 
+
+| `dice:d20` | Island Exploration - Encounters |
+| ---- | -------------------------------------------------------------------------------- |
+| 1-10 | @Island Exploration - Combat Encounters |
+| 11 | A castaway, stranded here |
+| 12 | A headhunter, searching for someone |
+| 13 | A trader with their retinue, searching the island for things to sell |
+| 14 | A group of travelers, resting here for a while |
+| 15 | A camp of wounded Krothok |
+| 16 | Slavers, gathering up new slaves and setting camp |
+| 17 | A group of people, attempting to build some sort of permanent refuge |
+| 18 | A herd of shambling creatures, unaware of your presence |
+| 19 | A group of pilgrims |
+| 20 | A Vaala (seeress), sitting in front of a fire. Her blind eyes stare right at you |
+
+^d9ff13
+
+
+|`dice:d100`| Island Exploration - Findings                                                                                                                                                                                                                             |     |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
+| 1-10   | Nothing of interest                                                                                                                                                                                                                                       |     |
+| 11-20  | You come across some sort of hazard or obstacle. Roll on the Hazards & Obstacles table                                                                                                                                                                    |     |
+| 21-30  | The terrain is impassable here, you must go around this hex                                                                                                                                                                                               |     |
+| 31-36  | You find a small lake with drinkable water. You can fill up any containers you have                                                                                                                                                                       |     |
+| 37-40  | You stumble upon a hidden cave, no more than a few feet deep. Inside, you find some crates. Roll on the Valuable Loot table                                                                                                                               |     |
+| 41-45  | Magic in the area behaves strangely. Roll D6: 1-3 +30 to Spell Effect rolls, 4-6 -30 to Spell Effect rolls                                                                                                                                                |     |
+| 46-60  | You see the remains of an old wreckage, rotten wood and rusted scraps of metal spread around what’s left of the ship’s hull. You find D6 Crafting Supplies.                                                                                               |     |
+| 61-66  | Strange fruit trees tempt you with their glistening, juicy-looking fruits. If you risk taking one, roll D4: A result of 1-2 means that the fruit is actually poisonous, and you suffer D10 damage. Otherwise it’s good to eat, and you gather D10 Rations |     |
+| 67-70  | A distinctive landmark. Roll on the Landmark tables to generate one                                                                                                                                                                                       |     |
+| 71-80  | You find a settlement                                                                                                                                                                                                                                     |     |
+| 81-100 | You find some ancient ruins. Use the Ruin generation rules if you decide to explore them                                                                                                                                                                  |     |
+
+^42f4c3
+
+
+| `dice:d6` | Island Exploration - Geological Hazards |
+| --------- | --------------------------------------- |
+| 1         | Large holes (obstacle)                  |
+| 2         | Falling debris (hazard)                 |
+| 3         | Geyser (obstacle)                       |
+| 4         | Landslide (hazard)                      |
+| 5         | Quicksand (obstacle)                    |
+| 6         | Sinkhole (hazard)                       |
+
+^387b98
+
+
+
+
+| `dice:d10` | Island Exploration - Hazards & Obstacles |
+| ---------- | ---------------------------------------- |
+| 1-4        | `dice:[[Exploration Tables#^387b98]]` |
+| 5-7        | `dice:[[Exploration Tables#^ea3db6]]`   |
+| 8-10       | `dice:[[Exploration Tables#^ea3db6]]`     |
+
+^a883c1
+
+
+| `dice:2d6` | Island Exploration - Island Weather |
+| ---------- | ----------------------------------- |
+| 2-3        | Hot                                 |
+| 4-6        | Clear                               |
+| 7-9        | Overcast                            |
+| 10         | Light rain                          |
+| 11         | Rain                                |
+| 12         | Storm                               |
+
+^528012
+
+| `dice:1d4`  | Island Exploration - Man-Made Hazards |
+| --- | ------------------------------------- |
+| 1   | Magic trap (hazard)                   |
+| 2   | Excavated pit (hazard                 |
+| 3   | Deadfall (hazard)                     |
+| 4   | Snare (hazard)                        |
+
+^ea3db6
+
+|`dice:1d6`|Island Exploration - Other Hazards|
+|---|---|
+|1|Sorcerous storm (hazard)|
+|2|Flash flood (hazard)|
+|3|Poisonous plants (obstacle)|
+|4|Thorns (obstacle)|
+|5|Tornado (hazard)|
+|6|Wildfire (obstacle)|

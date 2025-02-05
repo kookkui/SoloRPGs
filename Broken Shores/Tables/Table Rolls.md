@@ -19,3 +19,26 @@
 >
 >###### Ocean Exploration - Complication
 >`dice:[[Exploration Tables#^009dc2]]]`
+
+> [!success] Island Exploration Tables
+> ###### Island Exploration - Encounters
+>`dice:[[Exploration Tables#^d9ff13]]`
+>
+>###### Island Exploration - Findings
+>`dice:[[Exploration Tables#^42f4c3]]`
+>
+>###### Island Exploration - Hazards & Obstacles
+>`dice:[[Exploration Tables#^a883c1]]`
+>
+>###### Island Exploration - Geological Hazards
+>`dice:[[Exploration Tables#^387b98]]`
+>
+>###### Island Exploration - Man-Made Hazards
+>`dice:[[Exploration Tables#^ea3db6]]`
+>
+>###### Island Exploration - Other Hazards
+>`dice:[[Exploration Tables#^ea3db6]]`
+>
+>###### Island Exploration - Island Weather
+>`dice:[[Exploration Tables#^528012]]`
+>

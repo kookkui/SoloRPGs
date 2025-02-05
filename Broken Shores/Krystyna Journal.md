@@ -47,5 +47,14 @@ Holbrook Island
 
 Island Size 24 Hexes
 
-Hex 1
+Hex 1 Jungle
+
+###### Island Exploration - Island Weather
+
+Overcast
+
+
+
+
+
 
