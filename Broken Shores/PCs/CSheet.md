@@ -8,38 +8,44 @@ CONST: 16
 WIL: 14
 INT: 13
 CHA: 12
-Weapon1: Placeholder
-Weapon1dmg: d6
-Weapon1notes: 
+Weapon1: Longsword
+Weapon1dmg: D8+1 Slashing
+Weapon1notes: Parry, Versatile (d10)
 Weapon2: 
 Weapon2dmg: 
 Weapon2notes: 
 Weapon3: 
 Weapon3dmg: 
-Weapon3notes:
+Weapon3notes: 
 Armor: 
 ArmorPR: 
 Armorintegrity: 
 Shield: 
 ShieldPR: 
 Shieldintegrity: 
-Currency: 0
+Currency: 51
 shards: 0
 csupplies: 0
-rations: 0
+rations: 9
 water: 0
+talent0: "**Sorcerer:** Start the game knowing an extra spell of your choice. Only new characters may pick this Talent."
+talent1: "**Gifted - Dexterity:** You may re-roll any failed skill up rolls for skills associated with DEX."
 Godshard: 
 GodshardPassive: 
 GodshardActive1: 
-Spell1: 
-Spell1pp: 
-Spell1idio: 
-Spell1des: 
+Spell1: Stitch Wound
+Spell1pp: 4
+Spell1idio: The spell’s effects are doubled, if applicable.
+Spell1des: "Range: Touch / Resisted: No / Duration: Permanent \rThe target heals D6+5 HP.\r *Blood emerges from the sorcerer’s fingertips in the shape of a red thread, stitching up the target’s wounds.*"
 Spell2pp: 
 Spell2idio: 
-Spell2des:
-Spell1mem: false
+Spell2des: 
+Spell1mem: true
 skill1: false
+notes1: |-
+  Captured by Nirena's Emissaries because "Our cause requires blood". After a year, I saw an opportunity and I took it to escape.
+
+  I saw an opportunity and I took it (+5 Perception)
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  
@@ -65,16 +71,16 @@ skill1: false
 >> ###### Armor
 >>| **Name** | **Protection Rate** | **Integrity** | **Notes**|
 >>| ---------------------- | --------------- | ------------- | ------------- |
->>| `=this.Armor` | `=this.ArmorPR` | `=this.Armorintegrity` | `INPUT[text:Armornote1]`
->>| `=this.Shield` | `=this.ShieldPR` | `=this.Shieldintegrity` |`INPUT[text:Armornote2]`
->>| `=this.Helmet` | `=this.HelmetPR` | `=this.Helmetintegrity` |`INPUT[text:Armornote3]`
+>>| `=this.Armor` | `=this.ArmorPR` | `=this.Armorintegrity` | `=this.Armornote1`
+>>| `=this.Shield` | `=this.ShieldPR` | `=this.Shieldintegrity` |`=this.Armornote2`
+>>| `=this.Helmet` | `=this.HelmetPR` | `=this.Helmetintegrity` |`=this.Armornote3`
 >>| | | |
 >>
 >>##### Currency and Provisions
 >>|     |     |
 >> |--- | --- |
 >>|**Coins (Ҁ)** |`=this.Currency` |
->>|**Shards** | `=this.advantages`|
+>>|**Shards** | `=this.shards`|
 >> |**Crafting Supplies** |`=this.csupplies` |
 >>| **Rations**   |  `=this.rations`   |
 >>| **Water (Gal)** |  `=this.water`   |
@@ -112,7 +118,7 @@ skill1: false
 >>| **Martial Weapons** (STR `=this.STR`) | `56` |`INPUT[toggle:skill10]`
 >>| **Medicine** (INT `=this.INT`) | `23` |`INPUT[toggle:skill11]`
 >>|**Nature** (INT `=this.INT`) | `23` |`INPUT[toggle:skill12]`
->>| **Perception** (WIL `=this.WIL`) | `34` |`INPUT[toggle:skill13]`
+>>| **Perception** (WIL `=this.WIL`) | `39` |`INPUT[toggle:skill13]`
 >>| **Performance** (CHA `=this.CHA`) | `12` |`INPUT[toggle:skill14]`
 >>| **Ranged Weapons** (DEX `=this.DEX` ) | `35` |`INPUT[toggle:skill15]`
 >>| **Sailing** (DEX `=this.DEX`) | `35` |`INPUT[toggle:skill16]`
