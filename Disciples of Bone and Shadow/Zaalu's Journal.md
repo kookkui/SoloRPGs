@@ -750,3 +750,16 @@ creature: Risen (Drowned One)
 
 Initiative 14
 
+Zaalu Turn
+
+**One-Handed Melee** Test 51 1d%
+[5] CRIT HIT
+
+Damage 6 x 2 = 12 total to Risen 1
+
+Risen 1 turn
+
+**Parry** Test  33
+1d%[10]
+Passed
+
