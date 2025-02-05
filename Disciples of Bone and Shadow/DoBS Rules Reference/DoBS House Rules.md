@@ -19,3 +19,6 @@
 - Heal Full HP *500 jats*
 - Remove Condition *250 jats*
 
+#### Ruins Exploration
+
+- Can bash doors more than once but must do encounter check after each one.

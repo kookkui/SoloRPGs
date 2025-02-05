@@ -40,7 +40,7 @@
 >`dice:[[DBS Tables#^432bd3]]`
 >
 >###### Traps
->`dice:[[DBS Exploration Tables#^2a3c84]]`
+>`dice:[[DBS Tables#^e563c4]]`
 >
 >###### Artifice Type
 >`dice:[[DBS Tables#^4f9f58]]`
@@ -77,6 +77,9 @@
 
 
 > [!danger] Monsters
+>###### Random Encounter's by Category 
+>`dice:[[DBS Encounter Tables#^d12cea]]`
+>
 >###### Mark of Taint
 >`dice:[[DBS Tables#^769b4d]]`
 

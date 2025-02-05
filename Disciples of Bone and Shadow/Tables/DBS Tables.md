@@ -231,16 +231,18 @@
 | 9           | **Net Trap.** A net falls from the ceiling, pulling the characters into the air unless they pass a DEX Test. If they are trapped, they must roll a successful DEX (-5) Test to cut down the net. After each failed release attempt, roll a D10. On a 1 or 2 a wandering enemy hears the commotion, and attacks. The characters will be automatically hit (no Parrying allowed) by the enemy until they can free themselves.      |
 | 10          | **Fire Trap.** Huge flames roar from the walls the moment the characters step into this room. Roll a DEX Test to avoid the flames or lose D10 HP and gain the Burning condition. You fight with a -20 to your attack skills until the wounds caused by the fire are healed.                                                                                                                                                      |
 
+^e563c4
 
 
-| `dice:1D6` | Artifice Type |
-| ---------- | ------------- |
-| 1          | Fountain      |
-| 2          | Statue        |
-| 3          | Fresco        |
-| 4          | Altar         |
-| 5          | Brazier       |
-| 6          | Shrine/Idol   |
+
+| `dice:d6` | Artifice Type          |
+| ---------- | ---------------------- |
+| 1          | Artifice - Fountain    |
+| 2          | Artifice - Statue      |
+| 3          | Artifice - Fresco      |
+| 4          | Artifice - Altar       |
+| 5          | Artifice - Brazier     |
+| 6          | Artifice - Shrine/Idol |
 
 ^4f9f58
 

@@ -160,7 +160,7 @@ produces69: Unknown
 >>| **Crafting** (DEX `=this.DEX`) | `38` |
 >>| **Disguise** (DEX `=this.DEX`) | `17` |
 >>| **Dodge** (DEX `=this.DEX` x 2) | `44` |
->>|**First Aid** (20) | `40` |
+>>|**First Aid** (20) | `50` |
 >>| **Forbidden Lore** | `22` |
 >>| **Herb Lore** | `35` |
 >>| **Literacy** (INT `=this.INT`) | `35` |

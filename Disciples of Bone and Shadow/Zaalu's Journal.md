@@ -719,6 +719,28 @@ Door - A standard wooden door braced with hardened branches. Unlocked
 
 Room 2
 
+Encounter Check - None
+
+Artifice - Brazier
+
+Grants/takes 10 points from a random skill
+
+Touch the Brazier 
+1d%[47]
+
++10 First Aid (50 Total)
+
+Door - A wooden door, locked. The characters will have to bash it in or pick the lock
+
+Normal 0
+
+STR Test 3 Passed
+
+The door opens
+
+Corridor
+
+Encounter Check - Encounter!
 
 
 
