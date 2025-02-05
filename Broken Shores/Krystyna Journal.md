@@ -43,6 +43,9 @@ Island
 Check if Island is Egress (1-50) or Random Island (51-100)1d%
 [76]
 
-Random Island
+Holbrook Island
 
+Island Size 24 Hexes
+
+Hex 1
 
