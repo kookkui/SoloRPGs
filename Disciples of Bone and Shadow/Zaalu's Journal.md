@@ -659,7 +659,7 @@ This seems to be the correct direction, I will make camp for the night and keep 
 
 Next day
 
-New Hex Forest 
+New Forest Hex  
 
 Encounter check 10 
 
@@ -678,6 +678,8 @@ WIL Test 15 1d20
 ###### Plants & Herbs
 
 Twilight Berry x 10
+
+
 
 
 
