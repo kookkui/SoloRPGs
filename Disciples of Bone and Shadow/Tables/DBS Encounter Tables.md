@@ -54,3 +54,20 @@
 | 93-100      | Elite - White Stalker (Beast)           |
 
 ^e5bf91
+
+
+| `dice:D10` | Combat - Defensive Moves                                                                                                                                              |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1          | Defensive Move - Your next attack receives an extra +10                                                                                                               |
+| 2          | Defensive Move - Reduce your opponent’s Armor by -1                                                                                                                   |
+| 3          | Defensive Move - Your opponent receives the Bleeding (1) condition                                                                                                    |
+| 4          | Defensive Move - If you were Prone, Paralyzed, Stunned, or some other similar condition, you automatically recover. Otherwise, your next attack receives an extra +10 |
+| 5          | Defensive Move - Your opponent immediately suffers D4 damage that ignores armor                                                                                       |
+| 6          | Defensive Move - You may attempt to disarm your opponent. If the opponent cannot be disarmed, your next attack receives an extra +10                                  |
+| 7          | Defensive Move - Increase your chances at a critical strike on your next attack to 01-20                                                                              |
+| 8          | Defensive Move - You press your advantage, reducing your opponent’s DEF for the next roll by -5                                                                       |
+| 9          | Defensive Move - If you so choose, you can disengage from combat without consequences. Otherwise, your next attack receives an extra +10                              |
+| 10         | Defensive Move - You can cast a spell or use an item in your possession for free. Otherwise, your next attack receives an extra +20                                   |
+
+^879efa
+

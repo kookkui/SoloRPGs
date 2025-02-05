@@ -77,11 +77,15 @@
 
 
 > [!danger] Monsters
+>###### Combat - Defensive Moves
+>`dice:[[DBS Encounter Tables#^879efa]]`
+>
 >###### Random Encounter's by Category 
 >`dice:[[DBS Encounter Tables#^d12cea]]`
 >
 >###### Mark of Taint
 >`dice:[[DBS Tables#^769b4d]]`
+
 
 
 >[!dice] Loot

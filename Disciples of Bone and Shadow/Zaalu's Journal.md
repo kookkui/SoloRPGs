@@ -757,9 +757,44 @@ Zaalu Turn
 
 Damage 6 x 2 = 12 total to Risen 1
 
+Skill up test 51 1d%
+[76] Skill up +1 
+
 Risen 1 turn
 
 **Parry** Test  33
 1d%[10]
 Passed
+
+Skill up test Parry 48 
+1d%[29] Failed.
+
+Defensive Move - If you so choose, you can disengage from combat without consequences. Otherwise, your next attack receives an extra +10
+
+Risen 2 turn
+
+**Parry** Test  33 
+1d%[2] CRIT Parry 
+
+Full free attack 7 Damage to Risen 2
+
+Zaalu Turn
+
+**One-Handed Melee** Test 51 1d%
+[30] Hit
+
+5 Damage to Risen 1 (Ded)
+
+Risen 2 Turn
+
+**Parry** Test  33 1d%
+[56] Failed
+
+7 Damage to Zaalu
+
+Zaalu Turn
+
+**One-Handed Melee** Test 521d%
+[81] Missed
+
 

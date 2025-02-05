@@ -106,7 +106,7 @@ produces69: Unknown
 >>|     |     |
 >> |--- | --- |
 >>|   **Level**   |  `=this.level`   |
->>|**HP** | **Current:** `48` **Max:** `=this.CONST*3`|
+>>|**HP** | **Current:** `41` **Max:** `=this.CONST*3`|
 >> |**Corruption** | **Current:** `0` **Max:** `=this.Corruption`   |
 >> |**Armor** | `=this.Armor` |
 >> |**EP**| `0` |
@@ -164,7 +164,7 @@ produces69: Unknown
 >>| **Forbidden Lore** | `22` |
 >>| **Herb Lore** | `35` |
 >>| **Literacy** (INT `=this.INT`) | `35` |
->>| **One-Handed Melee** (STR `=this.STR` + DEX `=this.DEX`) | `51` |
+>>| **One-Handed Melee** (STR `=this.STR` + DEX `=this.DEX`) | `52` |
 >>| **Orientation** (20) | `41` |
 >>|**Outdoor Survival** (INT `=this.INT` + DEX `=this.DEX`) | `46` |
 >>| **Parry** (STR `=this.STR` + DEX `=this.DEX`) | `48` |
