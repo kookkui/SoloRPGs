@@ -742,5 +742,11 @@ Corridor
 
 Encounter Check - Encounter!
 
+Common - Drowned One/Risen (Undead) x 2
 
+```statblock
+creature: Risen (Drowned One)
+```
+
+Initiative 14
 

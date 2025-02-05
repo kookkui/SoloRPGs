@@ -21,20 +21,20 @@
 ^1672f8
 
 
-|`dice:D100`|Common Foes Encounters|
-|---|---|
-|1-20|Common - Human (Humanoid)|
-| 21-28  | Common - Sabershadow (Beast)        |
-| 29-35  | Common - Shadow Hound (Abomination) |
-| 36-42  | Common - Wolf (Beast)               |
-| 43-49  | Common - Crawler (Beast)            |
-| 50-56  | Common -Pale Ghar (Beast)          |
-| 57-63  | Common -Steel Deer (Beast)         |
-| 64-70  | Common -Skeba (Beast)              |
-| 71-77  | Common - Predatory Vine (Plant)    |
-| 78-85  | Common -Drowned One/Risen (Undead  |
-| 86-92  | Common -Deathrot Crocodile (Beast  |
-| 93-100 | Common -Wild Ghaln (Beast)         |
+| `dice:D100` | Common Foes Encounters              |
+| ----------- | ----------------------------------- |
+| 1-20        | Common - Human (Humanoid)           |
+| 21-28       | Common - Sabershadow (Beast)        |
+| 29-35       | Common - Shadow Hound (Abomination) |
+| 36-42       | Common - Wolf (Beast)               |
+| 43-49       | Common - Crawler (Beast)            |
+| 50-56       | Common - Pale Ghar (Beast)          |
+| 57-63       | Common - Steel Deer (Beast)         |
+| 64-70       | Common - Skeba (Beast)              |
+| 71-77       | Common - Predatory Vine (Plant)     |
+| 78-85       | Common - Drowned One/Risen (Undead) |
+| 86-92       | Common - Deathrot Crocodile (Beast) |
+| 93-100      | Common - Wild Ghaln (Beast)         |
 
 ^cfe8ee
 
@@ -54,6 +54,3 @@
 | 93-100      | Elite - White Stalker (Beast)           |
 
 ^e5bf91
-
-
-`dice:[[DBS Encounter Tables#^e5bf91]]`
