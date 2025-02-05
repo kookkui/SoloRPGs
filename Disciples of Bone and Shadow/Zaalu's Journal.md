@@ -693,6 +693,10 @@ Resting
 
 Next Day
 
+**Encounter Check** 4
+
+Akkar Strand Hex Exploration
+**Ruins**. You come across the abandoned remnants of a bygone era. If you choose to explore it use the Indoor Location generation rules
 
 
 
