@@ -46,11 +46,14 @@ notes1: |-
   Captured by Nirena's Emissaries because "Our cause requires blood". After a year, I saw an opportunity and I took it to escape.
 
   I saw an opportunity and I took it (+5 Perception)
+title1: Coins
+title21: ""
+title2: Rations
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  
 >> # `=this.file.name`
->> ![[Character Image Placeholder]]
+>> ![[Krystyna_pic.webp]]
 >> ###### Stats
 >>|     |     | 
 >> |--- | --- | 
