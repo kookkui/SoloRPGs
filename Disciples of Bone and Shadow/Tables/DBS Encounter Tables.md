@@ -1,8 +1,8 @@
-| `dice:D10`  | Random Encounter's by Category |
-| ---- | ------------------ |
-| 1-3  |`dice:[[DBS Encounter Tables#^1672f8]]`|
-| 4-8  |`dice:[[DBS Encounter Tables#^cfe8ee]]`|
-| 9-10 |`dice:[[DBS Encounter Tables#^e5bf91]]`|
+| `dice:D10` | Random Encounter's by Category          |
+| ---------- | --------------------------------------- |
+| 1-3        | `dice:[[DBS Encounter Tables#^1672f8]]` |
+| 4-8        | `dice:[[DBS Encounter Tables#^cfe8ee]]` |
+| 9-10       | `dice:[[DBS Encounter Tables#^e5bf91]]` |
 
 ^d12cea
 

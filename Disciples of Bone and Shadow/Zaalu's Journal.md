@@ -797,4 +797,30 @@ Zaalu Turn
 **One-Handed Melee** Test 521d%
 [81] Missed
 
+Risen 2 Turn 
+
+**Parry** Test  33 1d%
+[74] Hit
+
+6 Damage to Zaalu
+
+Zaalu Turn
+
+**One-Handed Melee** Test 51 1d%[29]
+Hit
+
+6 Damage 
+
+
+Risen 2 Turn 
+
+**Parry** Test  331d%
+[33] CRIT
+
+Full hit 1d10
+[6] 6 damage 
+
+<span style="color:rgb(241, 91, 181)">Victory!</span> 
+
++20 XP
 

@@ -10,7 +10,7 @@ CONST: 16
 WIL: 15
 INT: 14
 CHA: 12
-xp: 76
+xp: 96
 Weapon1: Two-Handed Sword
 Weapon1dmg: d10
 Weapon1notes: -10 to Defensive Skills
@@ -39,7 +39,7 @@ passive0: "**Marksmanship** You may relinquish your turn to aim with a Ranged We
 passive1: "**Foraging (Archetype Exclusive)** This character consumes half as many supplies per day, thanks to their ability to find sources of food and water in the wild."
 passive2: "**Inner Compass** You may re-roll once any failed Orientation tests."
 archetype0: "**Hunter** Foraging, Marksmanship"
-axp: 
+axp: 20
 Title4: 10 Pale Ghar claws  (20 jats ea.)
 Title5: One-Handed Sword
 Title6: Wolf Pelt (100 jats)
