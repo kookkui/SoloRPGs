@@ -10,8 +10,8 @@ CONST: 16
 WIL: 15
 INT: 14
 CHA: 12
-xp: 116
-axp: 
+xp: 126
+axp: 10
 Weapon1: Two-Handed Sword
 Weapon1dmg: D10
 Weapon1notes: -10 to Defensive Skills
@@ -99,6 +99,8 @@ found69: Forests
 effect69: Unknown
 combined69: Unknown
 produces69: Unknown
+title15: Crawler Fangs x 6 (25 jats)
+checkbox15: true
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  
@@ -168,8 +170,8 @@ produces69: Unknown
 >>|**First Aid** (20) | `50` |
 >>| **Forbidden Lore** | `22` |
 >>| **Herb Lore** | `36` |
->>| **Literacy** (INT `=this.INT`) | `35` |
->>| **One-Handed Melee** (STR `=this.STR` + DEX `=this.DEX`) | `52` |
+>>| **Literacy** (INT `=this.INT`) | `45` |
+>>| **One-Handed Melee** (STR `=this.STR` + DEX `=this.DEX`) | `53` |
 >>| **Orientation** (20) | `41` |
 >>|**Outdoor Survival** (INT `=this.INT` + DEX `=this.DEX`) | `46` |
 >>| **Parry** (STR `=this.STR` + DEX `=this.DEX`) | `49` |

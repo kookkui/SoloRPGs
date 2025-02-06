@@ -1009,5 +1009,78 @@ Grants/takes 10 points from a random skill
 Zaalu Touches the Idol...
 1d%[16] Grants 
 
-<span style="color:rgb(249, 132, 74)">+10 Literacy</span> 
+<span style="color:rgb(249, 132, 74)">+10 Literacy</span>  (45)
+
+Door - A wooden door, locked. The characters will have to bash it in or pick the lock
+
+Difficulty - Easy +1
+
+STR Check 19
+1d20[3] 3 Passed
+Door explodes into shards.
+
+Room 8
+
+Tainted Encounter!
+**Berserk**. Upon reaching 25% remaining health points (rounding up), they deal 2 extra damage per attack but receive a -10 to their Defense
+A Tainted enemy grants +25 XP.
+
+Common - Crawler (Beast)
+
+```statblock
+creature: Crawlers
+```
+
+
+Combat!
+
+Zaalu Turn
+
+**One-Handed Melee** 42 1d%
+[10] Crit Hit
+
+Rolled 7 = 14 Damage to Crawler
+
+Skill up check on **One-Handed Melee** 42 1d%
+[86]
+
+Skill up +1 **One-Handed Melee** (53)
+
+Crawler Turn
+
+**Parry** 49 1d%[38]
+Passed
+
+Defensive Move - You press your advantage, reducing your opponent’s DEF for the next roll by -5
+
+**One-Handed Melee** 47 1d%[24]
+
+Hit
+
+6 Damage to Crawler (Ded)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span> 
++10 XP
+
+Crafting Check 38 1d%[27]
+Success 
+
+Will harvest 6 fangs 2 hours
+
+Encounter Check - None
+
+Door - A locked stone door. Pass a STR test (-2) or a Lockpicking test in order to get through it 
+
+STR test (-2) 16 1d20[6]
+6 passed!
+
+The stone door begins to crumble.
+
+Room 9
+Encounter Check - None
+
+Nothing of interest. This section of the ruins is empty and has nothing of interest
+
+Door - An empty archway with no door
+
 

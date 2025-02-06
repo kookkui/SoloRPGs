@@ -53,16 +53,16 @@
 | 6          | Leather Belt `dice:3D6`                                                               |
 | 7          | Drinking Horn `dice:3D6`                                                              |
 | 8          | Leather Gloves `dice:3D6`                                                             |
-| 9          | `dice:D4` Bandages 5/Bandage                                                          |
-| 10         | `dice:D4` Lock-picks 10/Pick, Light                                                   |
+| 9          | `dice:D4` Bandages 5 jats per Bandage                                                          |
+| 10         | `dice:D4` Lock-picks 10 jats per Pick                                                   |
 | 11         | Rations, 5/Ration                                                                     |
 | 12         | Rope (5') 10                                                                          |
 | 13         | Nicely carved Bone Flute `dice:D10+5`                                                 |
 | 14         | Necklace with tiny silver bead `dice:D10+10`                                          |
 | 15         | Blank Scroll 15                                                                       |
-| 16         | D4 Empty Vials 10/Vial                                                                |
+| 16         | `dice:D4` Empty Vials 10 jats per Vial                                                                |
 | 17         | Gemstone `dice:D20+10`                                                                |
-| 18         | Pouch with `dice:D10 `Random Herbs 5/Herb                                             |
+| 18         | Pouch with `dice:D10 `Random Herbs 5 jats per Herb                                             |
 | 19         | Lantern 20                                                                            |
 | 20         | A One-Handed Weapon. Roll a `dice:D4`: 1 Sword, 2 Hammer or Mace, 3 Axe, 4 Dagger 100 |
 
