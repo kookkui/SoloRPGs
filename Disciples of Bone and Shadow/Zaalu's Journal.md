@@ -965,11 +965,46 @@ Room 5
 Artifice - Fountain
 Conceals/Reveals
 
+1d%[94] Reveals a trap 
 
+**Noxious Gas.** A wall closes behind the party, and toxic gas is released in the room. Characters immediately lose 2 HP, and they lose another 1 HP each time they fail to disable the trap using the Disarm Traps skill or a DEX (-6) Skill Test until a successful attempt is made, disabling the trap.
 
+DEX (-6) Skill Test 11
+1d20[11] 11 Passed
 
+-2 HP (44)
 
+Door - An empty archway with no door
 
+Room 6
 
+Encounter Check - None
 
+**Alchemy Lab.** This room is filled with bottles, pipettes, and other tools that an alchemist would need. Everything here is covered in a thick layer of dust, but you find some notes that grant you +1 Alchemy if you spend a few hours studying them
 
+Zaalu studies as much as she can while in the room.
+
++1 Alchemy (31)
+
+Encounter check because of lingering for so long.
+
+Encounter Check - None
+
+Back to Room 5 
+
+Encounter Check - None
+
+to Room 7
+Door - A standard wooden door braced with hardened branches. Unlocked
+
+Room 7
+
+Encounter Check - None
+
+Artifice - **Shrine/Idol**
+
+Grants/takes 10 points from a random skill
+1-50/51-100
+
+Zaalu Touches the Idol...
+1d%[16] Grants 

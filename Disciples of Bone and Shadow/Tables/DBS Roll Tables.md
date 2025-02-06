@@ -112,9 +112,9 @@
 >
 >###### Artifacts
 >`dice:[[DBS Tables#^25e5a3]]`
->
 
->[!bug] M Emulation
+
+>[!NPC] GM Emulation
 >
 >###### GM Emulation - Actions
 >`dice:[[DBS GM Emulation#^35c59e]]`

@@ -235,14 +235,14 @@
 
 
 
-| `dice:d6` | Artifice Type          |
-| ---------- | ---------------------- |
-| 1          | Artifice - Fountain    |
-| 2          | Artifice - Statue      |
-| 3          | Artifice - Fresco      |
-| 4          | Artifice - Altar       |
-| 5          | Artifice - Brazier     |
-| 6          | Artifice - Shrine/Idol |
+| `dice:d6` | Artifice Type              |
+| --------- | -------------------------- |
+| 1         | Artifice - **Fountain**    |
+| 2         | Artifice - **Statue**      |
+| 3         | Artifice - **Fresco**      |
+| 4         | Artifice - **Altar**       |
+| 5         | Artifice - **Brazier**     |
+| 6         | Artifice - **Shrine/Idol** |
 
 ^4f9f58
 
@@ -382,7 +382,7 @@
 
 | `dice:1D10` | Taint Check            |
 | ----------- | ---------------------- |
-| 1-2         | Tainted Encounter!     |
+| 1-3         | Tainted Encounter!     |
 | 3-10        | Basic Bitch Encounter! |
 
 ^afb9a4

@@ -108,7 +108,7 @@ produces69: Unknown
 >>|     |     |
 >> |--- | --- |
 >>|   **Level**   |  `=this.level`   |
->>|**HP** | **Current:** `46` **Max:** `=this.CONST*3`|
+>>|**HP** | **Current:** `44` **Max:** `=this.CONST*3`|
 >> |**Corruption** | **Current:** `0` **Max:** `=this.Corruption`   |
 >> |**Armor** | `=this.Armor` |
 >> |**EP**| `0` |
@@ -159,7 +159,7 @@ produces69: Unknown
 >> ### Skill Checks
 >>| <span style="color:rgb(129, 216, 208)">Skill Name</span>|<span style="color:rgb(129, 216, 208)"> Skill Level</span> |
 >>| ------------------------- | ----------- |
->>| **Alchemy** | `30` |
+>>| **Alchemy** | `31` |
 >>| **Animal Handling** (CHA `=this.CHA`) | `12` |
 >>| **Command Skills** (CHA `=this.CHA`) | `12` |
 >>| **Crafting** (DEX `=this.DEX`) | `38` |
