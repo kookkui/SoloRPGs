@@ -411,3 +411,35 @@
 |12|The NPC attacks with a feint, causing their opponent to suffer a -20 to their defensive skills|
 
 ^6e0cdd
+
+
+| `dice:1d24` | Random Skill     |
+| ---- | ---------------- |
+| 1    | Alchemy          |
+| 2    | Animal Handling  |
+| 3    | Command Skills   |
+| 4    | Crafting         |
+| 5    | Disguise         |
+| 6    | Dodge            |
+| 7    | First Aid        |
+| 8    | Forbidden Lore   |
+| 9    | Herb Lore        |
+| 10   | Literacy         |
+| 11   | One-Handed Melee |
+| 12   | Outdoor Survival |
+| 13   | Parry            |
+| 14   | Perception       |
+| 15   | Persuasion       |
+| 16   | Pick Pockets     |
+| 17   | Ranged Weapons   |
+| 18   | Sailing          |
+| 19   | Sneaking         |
+| 20   | Throw            |
+| 21   | Tracking         |
+| 22   | Traditional Lore |
+| 23   | Two-Handed Melee |
+| 24   | Unarmed          |
+
+^c0428d
+
+

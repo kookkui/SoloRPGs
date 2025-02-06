@@ -1008,3 +1008,6 @@ Grants/takes 10 points from a random skill
 
 Zaalu Touches the Idol...
 1d%[16] Grants 
+
+<span style="color:rgb(249, 132, 74)">+10 Literacy</span> 
+

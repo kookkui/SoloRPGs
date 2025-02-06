@@ -13,6 +13,9 @@
 >
 >######  Combat Maneuver
 >`dice:[[DBS Tables#^6e0cdd]]`
+>
+>##### Random Skill
+>`dice:[[DBS Tables#^c0428d]]`
 
 > [!table] Overworld Tables
 > ###### Terrain Type
