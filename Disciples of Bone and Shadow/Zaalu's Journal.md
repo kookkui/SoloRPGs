@@ -1060,7 +1060,7 @@ Hit
 6 Damage to Crawler (Ded)
 
 <span style="color:rgb(241, 91, 181)">Victory!</span> 
-+10 XP
++35 XP
 
 Crafting Check 38 1d%[27]
 Success 
@@ -1083,4 +1083,17 @@ Nothing of interest. This section of the ruins is empty and has nothing of inter
 
 Door - An empty archway with no door
 
+Room 10 
+
+Encounter Check - None
+
+**Intriguing mural.** A once vivid and colorful mural covers the whole wall in front of you. You immediately notice there's something off about it; some pieces seem to be out of place. To your surprise, you can easily slide them around and set them on what you believe to be the right place. Each character may attempt a Traditional Lore test to remember details about the story depicted in the mural and solve it. Solving the puzzle causes a small hidden compartment to open, revealing a small cache of jewels worth 100 jats
+
+
+**Traditional Lore** 20 1d%
+[81] Failed
+
+<span style="color:rgb(255, 178, 208)">Level up! 
+-150XP
++2 EP</span>
 

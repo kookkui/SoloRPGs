@@ -10,8 +10,8 @@ CONST: 16
 WIL: 15
 INT: 14
 CHA: 12
-xp: 126
-axp: 10
+xp: 1
+axp: 
 Weapon1: Two-Handed Sword
 Weapon1dmg: D10
 Weapon1notes: -10 to Defensive Skills
@@ -113,7 +113,7 @@ checkbox15: true
 >>|**HP** | **Current:** `44` **Max:** `=this.CONST*3`|
 >> |**Corruption** | **Current:** `0` **Max:** `=this.Corruption`   |
 >> |**Armor** | `=this.Armor` |
->> |**EP**| `0` |
+>> |**EP**| `2` |
 >> |**XP** | `VIEW[{xp}][text]`|
 >>|**ADD XP**| `INPUT[number:axp]` `BUTTON[exp]`|
 >>
