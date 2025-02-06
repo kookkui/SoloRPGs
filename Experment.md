@@ -21,7 +21,7 @@ Weapon3:
 Weapon3dmg: 
 Weapon3notes: 
 Armor: 2
-currency: 150
+currency: 210
 provisions: 10
 hregion: Akkar Strand
 advantages: "Extreme Concentration: No matter what the circumstances are, you're capable of focusing on the task at hand, completely ignoring all distractions. This allows you to perform extremely well under stress in any circumstance (combat, running from danger, etc.)."
@@ -97,6 +97,7 @@ found69: Forests
 effect69: Unknown
 combined69: Unknown
 produces69: Unknown
+ajats: 100
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  
@@ -111,7 +112,7 @@ produces69: Unknown
 >> |**Armor** | `=this.Armor` |
 >> |**EP**| `0` |
 >> |**XP** | `VIEW[{xp}][text]`|
->>|**ADD XP**| `INPUT[number:axp]` `BUTTON[exp]`|
+>>|**ADD XP :**| `INPUT[number:axp]` `BUTTON[exp]`|
 >>
 >>
 >> ###### Weapons
@@ -138,7 +139,6 @@ produces69: Unknown
 >>**Provisions**|`12` |
 >>**Torches**|`8` |
 >>**Lamp Oil**|`0` |
->>**Sellsword jats**|  `INPUT[number:ajats]` `BUTTON[pjats]`|
 
 >[!tldr] %%FAKE TITLE HERE%%
 >>[!tldr] %%FAKE TITLE HERE%%
@@ -339,6 +339,21 @@ actions:
 
 ```
 
+
+
+ `INPUT[number:ajats]` `BUTTON[pjats]`
+
+
+
+
+
+```
+('f = typed({"number": f(x) = x ^ 2 - 5})')
+```
+
+
+
+
 ```meta-bind-button
 label: Add Jats
 icon: ""
@@ -356,7 +371,3 @@ actions:
   value: getMetadata('ajats') * '0.6' + getMetadata('currency')
 
 ```
-
-
-
-

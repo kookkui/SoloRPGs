@@ -386,3 +386,24 @@
 | 3-10        | Basic Bitch Encounter! |
 
 ^afb9a4
+
+
+
+| `dice:1D10`  | NPC Combat Behavior                              |
+| ---- | ------------------------------------------------ |
+| 1-5  | Attack                                           |
+| 6-7  | Use special skill if available, otherwise attack |
+| 8-10 | Roll on the Combat Maneuver table                |
+
+
+|`dice:2D6`|Combat Maneuver|
+|---|---|
+|2|The NPC panics and attempts to flee|
+|3|The NPC throws down their weapons and appeals to mercy|
+|4|The NPC attempts to negotiate (bribe, threat, plea) with the PCs|
+|5|The NPC begins to retreat slightly, focusing on defense. +20 DEF, no attack|
+|6|The NPC attacks cautiously. +10 DEF, -10 OFF|
+|7-9|The NPC attacks normally|
+|10|The NPC uses a special skill. If none are available they attack normally|
+|11|The NPC attacks taunting their opponent, who must pass a WIL test or suffer a -20 to their defensive skills|
+|12|The NPC attacks with a feint, causing their opponent to suffer a -20 to their defensive skills|
