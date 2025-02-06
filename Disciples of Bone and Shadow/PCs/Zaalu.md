@@ -290,7 +290,7 @@ produces69: Unknown
 >>##### Quests
 >>Description  | Milestones |
 >>---|---|
->>`=this.quest1`|`1/6` |
+>>`=this.quest1`|`2/6` |
 >>`=this.quest2`| |
 >>
 >>##### Notes
