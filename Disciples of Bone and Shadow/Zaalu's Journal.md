@@ -941,6 +941,33 @@ Hound 1 Ded.
 <span style="color:rgb(241, 91, 181)">Victory!</span> 
 +20 XP
 
+First Aid Check 50 1d%[6]
+Crit heals
+
+d6 * 2 = +12 HP (46)
+
+Back to room 3 Encounter Check - None
+
+Door - A wooden door, locked. The characters will have to bash it in or pick the lock
+Difficulty - Effortless +2
+
+STR Test 20 Passed
+
+Room 4
+
+Encounter Check - None
+
+Mysterious Figure. As you progress through the ruins you can't help but feel observed. It's a nagging sensation in the back of your head that you can't get rid of. Your suspicions come to life though when you catch a glimpse of a hooded shadow several feet behind you, simply staring at you. Immediately after realizing it's been made though it quickly runs away. Any attempts at finding it again are completely futile; there's no trace of it to be found
+
+Door - A standard wooden door braced with hardened branches. Unlocked
+
+Room 5
+Artifice - Fountain
+Conceals/Reveals
+
+
+
+
 
 
 

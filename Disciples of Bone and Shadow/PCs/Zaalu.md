@@ -11,7 +11,7 @@ WIL: 15
 INT: 14
 CHA: 12
 xp: 116
-axp: 20
+axp: 
 Weapon1: Two-Handed Sword
 Weapon1dmg: D10
 Weapon1notes: -10 to Defensive Skills
@@ -108,7 +108,7 @@ produces69: Unknown
 >>|     |     |
 >> |--- | --- |
 >>|   **Level**   |  `=this.level`   |
->>|**HP** | **Current:** `41` **Max:** `=this.CONST*3`|
+>>|**HP** | **Current:** `46` **Max:** `=this.CONST*3`|
 >> |**Corruption** | **Current:** `0` **Max:** `=this.Corruption`   |
 >> |**Armor** | `=this.Armor` |
 >> |**EP**| `0` |
