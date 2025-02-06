@@ -936,7 +936,7 @@ Shadow Hound 1 Turn
 
 Defensive Move - Your opponent immediately suffers 2 damage that ignores armor
 
-Hound 1 DEd
+Hound 1 Ded.
 
 <span style="color:rgb(241, 91, 181)">Victory!</span> 
 +20 XP
