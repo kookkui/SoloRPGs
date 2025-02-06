@@ -824,3 +824,26 @@ Full hit 1d10
 
 +20 XP
 
+Short Bow 120 
+
+Door - An empty archway with no door
+
+Room 3 
+
+Encounter Check - None
+
+Library. This room was previously some sort of library. Now piles of half- rotten tomes gather dust in every corner, collapsed shelves creating a landscape of lost knowledge. The party may spend a whole day here sifting through the books, hoping on even the slightest odds that there is something of worth. They must first pass a Literacy roll; if they do so roll a 5 : 1-2 a tome describing the terrors of an ancient civilization that worshiped the Primordial Ones. You gain +1 Forbidden Lore; 3-4 a random spell; 5-6 a treatise on local plants and herbs. +1 Herb Lore
+
+<span style="color:rgb(249, 132, 74)">A treatise on local plants and herbs. +1 Herb Lore</span>  (36 Herb Lore)
+
+Door - A portcullis is in your way, but luckily there's a level on this side of the room. Perform a STR or Lockpicking test in order to activate it
+
+STR Test Difficulty - Child’s Play +3
+Rolled 4 Passed
+
+Encounter Check - Encounter!
+
+Common - Shadow Hound (Abomination)
+
+
+

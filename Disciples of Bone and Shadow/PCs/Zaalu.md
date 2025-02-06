@@ -12,11 +12,11 @@ INT: 14
 CHA: 12
 xp: 96
 Weapon1: Two-Handed Sword
-Weapon1dmg: d10
+Weapon1dmg: D10
 Weapon1notes: -10 to Defensive Skills
-Weapon2: 
-Weapon2dmg: 
-Weapon2notes: 
+Weapon2: Short Bow
+Weapon2dmg: D6
+Weapon2notes: -10 Ranged Combat
 Weapon3: 
 Weapon3dmg: 
 Weapon3notes: 
@@ -136,7 +136,7 @@ produces69: Unknown
 >>---|---|
 >>**Currency**|`=this.currency` |
 >>**Provisions**|`12` |
->>**Torches**|`9` |
+>>**Torches**|`8` |
 >>**Lamp Oil**|`0` |
 
 >[!tldr] %%FAKE TITLE HERE%%
@@ -162,7 +162,7 @@ produces69: Unknown
 >>| **Dodge** (DEX `=this.DEX` x 2) | `44` |
 >>|**First Aid** (20) | `50` |
 >>| **Forbidden Lore** | `22` |
->>| **Herb Lore** | `35` |
+>>| **Herb Lore** | `36` |
 >>| **Literacy** (INT `=this.INT`) | `35` |
 >>| **One-Handed Melee** (STR `=this.STR` + DEX `=this.DEX`) | `52` |
 >>| **Orientation** (20) | `41` |

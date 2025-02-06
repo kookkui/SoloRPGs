@@ -43,81 +43,81 @@
 
 
 
-| `dice:d20` | Common Finds                                                                         |
-| ---------- | ------------------------------------------------------------------------------------ |
-| 1          | 2D6 jats                                                                             |
-| 2          | Carved Bone Statuette, 2D6 Light                                                     |
-| 3          | Ceramic Ring D10, Light                                                              |
-| 4          | Amber Earring D20, Light                                                             |
-| 5          | Bone Dice 2D6, Light                                                                 |
-| 6          | Leather Belt 3D6, Light                                                              |
-| 7          | Drinking Horn 3D6, Light                                                             |
-| 8          | Leather Gloves 3D6, Light                                                            |
-| 9          | D4 Bandages 5/Bandage, Light                                                         |
-| 10         | D4 Lock-picks 10/Pick, Light                                                         |
-| 11         | Rations, 5/Ration                                                                    |
-| 12         | Rope (5') 10, 1 GS                                                                   |
-| 13         | Nicely carved Bone Flute D10+5, Light                                                |
-| 14         | Necklace with tiny silver bead D10+10, Light                                         |
-| 15         | Blank Scroll 15, Light                                                               |
-| 16         | D4 Empty Vials 10/Vial, Light                                                        |
-| 17         | Gemstone D20+10, Light                                                               |
-| 18         | Pouch with D10 Random Herbs 5/Herb, Light                                            |
-| 19         | Lantern 20, 1 GS                                                                     |
-| 20         | A One-Handed Weapon. Roll a D4: 1 Sword, 2 Hammer or Mace, 3 Axe, 4 Dagger 100, 1 GS |
+| `dice:d20` | Common Finds                                                                          |
+| ---------- | ------------------------------------------------------------------------------------- |
+| 1          | `dice:2D6` jats                                                                       |
+| 2          | Carved Bone Statuette, `dice:2D6`                                                     |
+| 3          | Ceramic Ring `dice:D10`                                                               |
+| 4          | Amber Earring `dice:D20`                                                              |
+| 5          | Bone Dice `dice:2D6`                                                                  |
+| 6          | Leather Belt `dice:3D6`                                                               |
+| 7          | Drinking Horn `dice:3D6`                                                              |
+| 8          | Leather Gloves `dice:3D6`                                                             |
+| 9          | `dice:D4` Bandages 5/Bandage                                                          |
+| 10         | `dice:D4` Lock-picks 10/Pick, Light                                                   |
+| 11         | Rations, 5/Ration                                                                     |
+| 12         | Rope (5') 10                                                                          |
+| 13         | Nicely carved Bone Flute `dice:D10+5`                                                 |
+| 14         | Necklace with tiny silver bead `dice:D10+10`                                          |
+| 15         | Blank Scroll 15                                                                       |
+| 16         | D4 Empty Vials 10/Vial                                                                |
+| 17         | Gemstone `dice:D20+10`                                                                |
+| 18         | Pouch with `dice:D10 `Random Herbs 5/Herb                                             |
+| 19         | Lantern 20                                                                            |
+| 20         | A One-Handed Weapon. Roll a `dice:D4`: 1 Sword, 2 Hammer or Mace, 3 Axe, 4 Dagger 100 |
 
 ^80c050
 
 
 
-| `dice:d20` | Valuable Finds                                                                         |
-| ---------- | -------------------------------------------------------------------------------------- |
-| 1          | Delicate Hourglass 50, Light                                                           |
-| 2          | 3D20 jats                                                                              |
-| 3          | D4 Pearls D20/Pear                                                                     |
-| 4          | Ancient Ghaln Drinking Horn 1 100, Light                                               |
-| 5          | Ornate Cloak 1 100, 1 GS GS                                                            |
-| 6          | Shield 1 100, 1 GS                                                                     |
-| 7          | Short Bow 1 120, 1 GS                                                                  |
-| 8          | Long Bow 1 140, 1 GS                                                                   |
-| 9          | Two-Handed Weapon. Roll a D4: 1 GS Sword, 2 Hammer or Mace, 3 Axe, 4 Staff, 1 GS40 2   |
-| 10         | Piece of Light Armor 1 150 2                                                           |
-| 11         | Silver Ring 1 180 Light                                                                |
-| 12         | Large Gemstone 200 Light                                                               |
-| 13         | Gold Pendant 250 Light                                                                 |
-| 14         | Heavy Shield 1 150 2                                                                   |
-| 15         | SA One-Handed Iron Weapon. Roll a D4: 1 Sword, 2 Hammer or Mace, 3 Axe, 4 Dagger 500 2 |
-| 16         | A Two-Handed Iron Weapon. Roll a D4: 1 Sword, 2 Hammer or Mace, 3 Axe, 4 Staff 600 3   |
-| 17         | Bronze Mirror 700 Light                                                                |
-| 18         | A Piece of Mail Armor 800 3                                                            |
-| 19         | Ornate Helmet 800 1 GS                                                                 |
-| 20         | Tome of Herbal Tradition 200 Light                                                     |
+| `dice:d20` | Valuable Finds                                                                                    |
+| ---------- | ------------------------------------------------------------------------------------------------- |
+| 1          | Delicate Hourglass (50 jats )                                                                     |
+| 2          | `dice:3D20` jats                                                                                  |
+| 3          | `dice:D4` Pearls `dice:D20`jats Per Pearl                                                         |
+| 4          | Ancient Ghaln Drinking Horn (100 jats)                                                            |
+| 5          | Ornate Cloak  (100 jats)                                                                          |
+| 6          | Shield (100 jats)                                                                                 |
+| 7          | Short Bow (120 jats)                                                                              |
+| 8          | Long Bow  (140 jats)                                                                              |
+| 9          | Two-Handed Weapon. Roll a `dice:D4`: 1 GS Sword, 2 Hammer or Mace, 3 Axe, 4 Staff (140 jats)      |
+| 10         | Piece of Light Armor (150 jats)                                                                   |
+| 11         | Silver Ring (180 jats)                                                                            |
+| 12         | Large Gemstone (200 jats)                                                                         |
+| 13         | Gold Pendant (250 jats)                                                                           |
+| 14         | Heavy Shield (150 jats)                                                                           |
+| 15         | A One-Handed Iron Weapon. Roll a `dice:D4`: 1 Sword, 2 Hammer or Mace, 3 Axe, 4 Dagger (500 jats) |
+| 16         | A Two-Handed Iron Weapon. Roll a `dice:D4`: 1 Sword, 2 Hammer or Mace, 3 Axe, 4 Staff (600 jats)  |
+| 17         | Bronze Mirror (700 jats)                                                                          |
+| 18         | A Piece of Mail Armor (800 jats)                                                                  |
+| 19         | Ornate Helmet (800 jats)                                                                          |
+| 20         | Tome of Herbal Tradition (200 jats)                                                               |
 
 ^494166
 
 
-| `dice:d20` | Rare Finds                                     |
-| ---------- | ---------------------------------------------- |
-| 1          | Alchemy Treatise 300 Light                     |
-| 2          | Tome of Forbidden Lore 300 Light               |
-| 3          | D10 Ancient Gold Coins 100/Coin --             |
-| 4          | D4 Tears of the Mother 50/Tear Light           |
-| 5          | D10 Firedust 100/Dose Light                    |
-| 6          | Random Spell Scroll 500 Light                  |
-| 7          | Iron Combat Claws 600 1 GS                     |
-| 8          | Compass 400 Light                              |
-| 9          | Gold Ring with Gemstone 500 Light              |
-| 10         | Gold Goblet 600 Light                          |
-| 11         | Statuette made of Gold and Gemstones 700 Light |
-| 12         | Healing Tincture 300 Light                     |
-| 13         | Ornamental Shield 800 1 GS                     |
-| 14         | Scepter 800 1 GS                               |
-| 15         | Iron Helmet 1,000 2 GS                         |
-| 16         | Steel Scale Armor 1,200 4 GS                   |
-| 17         | Suth Marble 500 Light                          |
-| 18         | Darkness Well 50 Light                         |
-| 19         | One-Handed Shalvan Wood Weapon 1,500 1 GS      |
-| 20         | `dice:[[DBS Tables#^25e5a3]]`                  |
+| `dice:d20` | Rare Finds                               |
+| ---------- | ---------------------------------------- |
+| 1          | Alchemy Treatise 300                     |
+| 2          | Tome of Forbidden Lore 300               |
+| 3          | D10 Ancient Gold Coins 100/Coin          |
+| 4          | D4 Tears of the Mother 50/Tear           |
+| 5          | D10 Firedust 100/Dose                    |
+| 6          | Random Spell Scroll 500                  |
+| 7          | Iron Combat Claws 600                    |
+| 8          | Compass 400                              |
+| 9          | Gold Ring with Gemstone 500              |
+| 10         | Gold Goblet 600                          |
+| 11         | Statuette made of Gold and Gemstones 700 |
+| 12         | Healing Tincture 300                     |
+| 13         | Ornamental Shield 800                    |
+| 14         | Scepter 800                              |
+| 15         | Iron Helmet 1,000                        |
+| 16         | Steel Scale Armor 1,200                  |
+| 17         | Suth Marble 500                          |
+| 18         | Darkness Well 50                         |
+| 19         | One-Handed Shalvan Wood Weapon 1,500     |
+| 20         | `dice:[[DBS Tables#^25e5a3]]`            |
 
 ^a381b4
 
@@ -323,15 +323,15 @@
 ^586f65
 
 
-| `dice: 1d8` | Random Difficulty |
-| ----------- | ----------------- |
-| 1-2         | Normal 0          |
-| 3           | Child’s Play +30  |
-| 4           | Effortless  +20   |
-| 5           | Easy +10          |
-| 6           | Demanding -10     |
-| 7           | Hard    -20       |
-| 8           | Insane     -30    |
+| `dice: 1d8` | Random Difficulty             |
+| ----------- | ----------------------------- |
+| 1-2         | Difficulty - Normal 0         |
+| 3           | Difficulty - Child’s Play +30 |
+| 4           | Difficulty - Effortless  +20  |
+| 5           | Difficulty - Easy +10         |
+| 6           | Difficulty - Demanding -10    |
+| 7           | Difficulty - Hard    -20      |
+| 8           | Difficulty - Insane     -30   |
 
 ^5baee1
 
@@ -372,9 +372,17 @@
 ^bae025
 
 
-| `dice:1D10` | Encounter Check              |
-| ----------- | ---------------------------- |
-| 1-2         | Encounter Check - Encounter! |
-| 3-10        | Encounter Check - None       |
+| `dice:1D10` | Encounter Check               |
+| ----------- | ----------------------------- |
+| 1-2         | `dice:[[DBS Tables#^afb9a4]]` |
+| 3-10        | Encounter Check - None        |
 
 ^894799
+
+
+| `dice:1D10` | Taint Check            |
+| ----------- | ---------------------- |
+| 1-2         | Tainted Encounter!     |
+| 3-10        | Basic Bitch Encounter! |
+
+^afb9a4
