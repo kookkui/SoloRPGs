@@ -10,7 +10,7 @@ CONST: 16
 WIL: 15
 INT: 14
 CHA: 12
-xp: 96
+xp: 116
 Weapon1: Two-Handed Sword
 Weapon1dmg: D10
 Weapon1notes: -10 to Defensive Skills
@@ -167,7 +167,7 @@ produces69: Unknown
 >>| **One-Handed Melee** (STR `=this.STR` + DEX `=this.DEX`) | `52` |
 >>| **Orientation** (20) | `41` |
 >>|**Outdoor Survival** (INT `=this.INT` + DEX `=this.DEX`) | `46` |
->>| **Parry** (STR `=this.STR` + DEX `=this.DEX`) | `48` |
+>>| **Parry** (STR `=this.STR` + DEX `=this.DEX`) | `49` |
 >>| **Perception** (20) | `31` |
 >>| **Persuasion** (CHA `=this.CHA`) | `12` |
 >>| **Pick Pockets** (DEX `=this.DEX`) | `17` |

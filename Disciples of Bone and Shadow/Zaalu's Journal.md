@@ -841,9 +841,108 @@ Door - A portcullis is in your way, but luckily there's a level on this side of 
 STR Test Difficulty - Child’s Play +3
 Rolled 4 Passed
 
+First Aid Check 50 1d%
+[47] Passed 1d6
+[6] +6 HP
+
+
 Encounter Check - Encounter!
 
 Common - Shadow Hound (Abomination)
+
+```statblock
+creature: Shadow Hound
+```
+
+
+Battle!
+
+Shadow Hound 1 Turn
+
+**Parry** Test  33 1d%
+[2] CRIT 
+
+Skill up check 48 1d%
+[76] +1 to Parry 49
+
+Full damage Roll 10 to Shadow Hound 1
+
+Shadow Hound 2 Turn
+
+**Parry** Test  34 1d% [17]
+Passed
+
+Defensive Move - Your opponent immediately suffers `dice:D4` damage that ignores armor
+
+4 damage to Shadow Hound 2 
+
+Zaalu Turn
+
+**One-Handed Melee** Test 47 1d%
+[41] Hit
+
+9 Damage to Shadow Hound 1
+
+Morale Test on Shadow Hound 1 (18) 13
+
+Zaalu (15) 7
+
+Passed
+
+Shadow Hound 1 Turn
+**Parry** Test  34 1d%
+[39] Failed
+
+5 Damage to Zaalu
+
+Shadow Hound 2 Turn
+
+**Parry** Test  34 1d%
+[67] Failed
+
+2 Damage to Zaalu
+
+Zaalu turn 
+
+**One-Handed Melee** Test 47 1d%
+[18]
+
+6 Damage to Shadow Hound 2
+
+Shadow Hound 1 Turn
+
+**Parry** Test 34 1d%
+[12] Passed
+
+Defensive Move - You can cast a spell or use an item in your possession for free. Otherwise, your next attack receives an extra +20
+
+Shadow Hound 2 Turn
+
+**Parry** Test 341d%
+[8] Crit
+
+Full Attack  6 damage to Hound 2 
+
+Zaalu Turn
+
+**One-Handed Melee** Test 67 1d%
+[11] CRIT
+
+9 Damage to Hound 2 (Ded)
+
+Shadow Hound 1 Turn 
+**Parry** Test 34 1d%
+[16] Passed
+
+Defensive Move - Your opponent immediately suffers 2 damage that ignores armor
+
+Hound 1 DEd
+
+<span style="color:rgb(241, 91, 181)">Victory!</span> 
++20 XP
+
+
+
 
 
 

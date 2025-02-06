@@ -4,7 +4,7 @@ name: "Shadow Hound"
 
 layout: DBS 
 
-type: "Bad Dude"
+type: "Abomination"
 
 loot: "No Loot"
 
@@ -12,29 +12,19 @@ DEF: TL5
 
 OFF: TL5
 
-damage: " 1+TL1"
+damage: "1+TL1"
 
-hp: "12+TL20"
+hp: "18+TL2"
 
-awareness: 18
+awareness: 25
 
-initiative: 14
+initiative: 18
 
-traits:
-  - name: 'Special I:'
-    desc: "Stuff and things."
-  - name: 'Special II:'
-    desc: "(Stuff and things)+d20"
+stats: [14, 18, 18, 18, 16, 0]
 
-stats: [10, 12, 12, 20, 18, 10]
+number: "1+TL1"
 
-number: 1
-
-skills: "Alchemy 50, Command Skills 25, Disguise 40, Forbidden Lore 70, Literacy 80, Persuasion 40, Perception 50"
-
-gear: "G-string" 
-
-description: "Couple of guys started making trouble in my neghborhood. My mom got scared and said you movin to your aunty and uncles house in a town called Bel Air."
+description: "Shadow Hounds are terrible servants of the Tyrants, unleashed upon the world to do their bidding. Sometimes they are seen dragging their victims back to a Fortress other times they simply tear to pieces anything that crosses their path. With their bluish hue and smooth, eyeless face, these beasts are clearly foreign to this world."
 
 ```
 
