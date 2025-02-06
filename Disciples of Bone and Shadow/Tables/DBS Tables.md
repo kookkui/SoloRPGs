@@ -393,7 +393,9 @@
 | ---- | ------------------------------------------------ |
 | 1-5  | Attack                                           |
 | 6-7  | Use special skill if available, otherwise attack |
-| 8-10 | Roll on the Combat Maneuver table                |
+| 8-10 | `dice:[[DBS Tables#^6e0cdd]]`                |
+
+^a7c333
 
 
 |`dice:2D6`|Combat Maneuver|
@@ -407,3 +409,5 @@
 |10|The NPC uses a special skill. If none are available they attack normally|
 |11|The NPC attacks taunting their opponent, who must pass a WIL test or suffer a -20 to their defensive skills|
 |12|The NPC attacks with a feint, causing their opponent to suffer a -20 to their defensive skills|
+
+^6e0cdd

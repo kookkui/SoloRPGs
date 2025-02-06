@@ -11,6 +11,7 @@ WIL: 15
 INT: 14
 CHA: 12
 xp: 116
+axp: 20
 Weapon1: Two-Handed Sword
 Weapon1dmg: D10
 Weapon1notes: -10 to Defensive Skills
@@ -22,6 +23,8 @@ Weapon3dmg:
 Weapon3notes: 
 Armor: 2
 currency: 150
+ajats: 
+merc: ".6"
 provisions: 10
 hregion: Akkar Strand
 advantages: "Extreme Concentration: No matter what the circumstances are, you're capable of focusing on the task at hand, completely ignoring all distractions. This allows you to perform extremely well under stress in any circumstance (combat, running from danger, etc.)."
@@ -39,7 +42,6 @@ passive0: "**Marksmanship** You may relinquish your turn to aim with a Ranged We
 passive1: "**Foraging (Archetype Exclusive)** This character consumes half as many supplies per day, thanks to their ability to find sources of food and water in the wild."
 passive2: "**Inner Compass** You may re-roll once any failed Orientation tests."
 archetype0: "**Hunter** Foraging, Marksmanship"
-axp: 20
 Title4: 10 Pale Ghar claws  (20 jats ea.)
 Title5: One-Handed Sword
 Title6: Wolf Pelt (100 jats)
@@ -135,10 +137,12 @@ produces69: Unknown
 >>  | 
 >>---|---|
 >>**Currency**|`=this.currency` |
+>>**Sellsword Cut**| `VIEW[{ajats} * {merc}]`
 >>**Provisions**|`12` |
 >>**Torches**|`8` |
 >>**Lamp Oil**|`0` |
 >>**Sellsword jats**|  `INPUT[number:ajats]` `BUTTON[pjats]`|
+
 
 >[!tldr] %%FAKE TITLE HERE%%
 >>[!tldr] %%FAKE TITLE HERE%%
@@ -356,6 +360,9 @@ actions:
   value: getMetadata('ajats') * '0.6' + getMetadata('currency')
 
 ```
+
+
+
 
 
 

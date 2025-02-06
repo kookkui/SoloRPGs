@@ -22,6 +22,8 @@ Weapon3dmg:
 Weapon3notes: 
 Armor: 2
 currency: 150
+ajats: 
+merc: ".6"
 provisions: 10
 hregion: Akkar Strand
 advantages: "Extreme Concentration: No matter what the circumstances are, you're capable of focusing on the task at hand, completely ignoring all distractions. This allows you to perform extremely well under stress in any circumstance (combat, running from danger, etc.)."
@@ -125,9 +127,11 @@ checkbox14: true
 >>  | 
 >>---|---|
 >>**Currency**|`=this.currency` |
+>>**Sellsword Cut**| `VIEW[{ajats} * {merc}]`
 >>**Provisions**|`10` |
 >>**Torches**|`9` |
 >>**Lamp Oil**|`0` |
+>>**Sellsword jats**|  `INPUT[number:ajats]` `BUTTON[pjats]`|
 
 >[!tldr] %%FAKE TITLE HERE%%
 >>[!tldr] %%FAKE TITLE HERE%%
@@ -312,5 +316,23 @@ actions:
   bindTarget: xp
   evaluate: True
   value: getMetadata('xp') + getMetadata('axp')
+
+```
+
+```meta-bind-button
+label: Add Jats
+icon: ""
+style: primary
+class: ""
+cssStyle: ""
+backgroundImage: ""
+tooltip: ""
+id: pjats
+hidden: True
+actions:
+- type: updateMetadata
+  bindTarget: currency
+  evaluate: True
+  value: getMetadata('ajats') * '0.6' + getMetadata('currency')
 
 ```

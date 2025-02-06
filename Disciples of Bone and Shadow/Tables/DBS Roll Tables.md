@@ -7,7 +7,12 @@
 >
 >######  Mission Complication
 >`dice:[[DBS Tables#^499ef9]]`
-
+>
+>######  NPC Combat Behavior
+>`dice:[[DBS Tables#^a7c333]]`
+>
+>######  Combat Maneuver
+>`dice:[[DBS Tables#^6e0cdd]]`
 
 > [!table] Overworld Tables
 > ###### Terrain Type
