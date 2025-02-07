@@ -38,14 +38,14 @@
 
 | `dice:1d10` | Executioner Actions                                                                                                                                      |
 | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1           | Performs a standard attack with their weapon, dealing D6+2 Piercing damage                                                                               |
+| 1           | Performs a standard attack with their weapon, dealing `dice:D6+2` Piercing damage                                                                               |
 | 2           | Performs a standard attack. If successful, a friendly character can perform a free attack against the same target                                        |
-| 3           | Deals D4+1 Slashing damage to all enemies within a 10 m. radius                                                                                          |
+| 3           | Deals `dice:D4+1` Slashing damage to all enemies within a 10 m. radius                                                                                          |
 | 4-5         | Performs a standard attack that cannot be defended in anyway, dealing D6 Piercing damage                                                                 |
 | 6           | Performs a standard attack. If successful, the target is Blinded for D4+1 rounds                                                                         |
 | 7           | Performs a standard attack. The Companion gains +20 Dodge until their next turn                                                                          |
 | 8           | Removes all harmful Conditions and status effects they are currently suffering from. If not suffering from any, the Companion performs a standard attack |
-| 9-10        | Heals D6 Health. If at max Health, they perform a standard attack                                                                                        |
+| 9-10        | Heals `dice:D6` Health. If at max Health, they perform a standard attack                                                                                        |
 
 ^ef44a5
 
@@ -76,15 +76,16 @@
 ^4ced03
 
 
-| `dice:1d10` | Bulwark Actions                                                                                                                                                                                                                       |
-| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1           | Performs a standard attack with their weapon, dealing D8+2 Bludgeoning damage                                                                                                                                                         |
-| 2           | Performs a standard attack with their weapon against a target that is in melee combat with an ally. Said ally can freely disengage from combat                                                                                        |
-| 3           | They strike their target with their shield, dealing D8 damage and increasing their Parry by +10 until the end of combat                                                                                                               |
-| 4-5         | For the next D4+1 rounds, target suffers -20 to all attacks that do not include this Companion as a target. This effect is not cumulative, but it can be refreshed                                                                    |
-| 6           | Performs a standard attack check with their weapon that can only be dodged. The attack deals D8+5 Bludgeoning damage                                                                                                                  |
-| 7           | Performs a standard attack with their weapon. If successful, they perform a secondary free attack with their shield that deals D6 damage 8 All targets within a 20 m. range are forced to attack this Companion until their next turn |
-| 9-10        | Heals D6 Health. If at max Health, they perform a standard attack                                                                                                                                                                     |
+| `dice:1d10` | Bulwark Actions                                                                                                                                                           |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1           | Performs a standard attack with their weapon, dealing `dice:D8+2` Bludgeoning damage                                                                                      |
+| 2           | Performs a standard attack with their weapon against a target that is in melee combat with an ally. Said ally can freely disengage from combat                            |
+| 3           | They strike their target with their shield, dealing D8 damage and increasing their Parry by +10 until the end of combat                                                   |
+| 4-5         | For the next `dice:D4+1` rounds, target suffers -20 to all attacks that do not include this Companion as a target. This effect is not cumulative, but it can be refreshed |
+| 6           | Performs a standard attack check with their weapon that can only be dodged. The attack deals `dice:D8+5` Bludgeoning damage                                                      |
+| 7           | Performs a standard attack with their weapon. If successful, they perform a secondary free attack with their shield that deals `D6` damage                                  |
+| 8           | All targets within a 20 m. range are forced to attack this Companion until their next turn                                                                                |
+| 9-10        | Heals `dice:D6` Health. If at max Health, they perform a standard attack                                                                                                  |
 
 ^2bfe1b
 
