@@ -13,7 +13,7 @@ CON: 18
 INT: 12
 WIL: 11
 CHA: 14
-Per1: 
+PER: 65
 Proficiencies: |-
   Weapons: Longbow, Scimitar
   Armor: Soft Leather
@@ -78,7 +78,7 @@ Title10: Aetheryte
 Title11: "Stoneskin Potion. For the next hour you have +1 Armor, but your Dodge and Acrobatics skills are reduced by -10. Aspects: Stone, Boon"
 Title12: Aetheryte
 a-N: "355"
-pre1: 12.5
+pre1: 62.5
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  
@@ -90,7 +90,7 @@ pre1: 12.5
 >> **Rank** |`INPUT[suggester(option(Novice), option(Apprentice), option(Veteran), option(Master)):exampleProperty]` |
 >>  **Title** |`INPUT[text:Title]` |
 >> **Reputation** | `3` |
->>  **HP** | **Current:**`32` **Max:** `=this.CON*3
+>>  **HP** | **Current:**`32` **Max:** `=this.CON*3`
 >> **Aether** | `31` /31 |
 >> **Stamina** | `29` /29 |
 >> **Armor** | <span style="color:rgb(255, 128, 31)">D4+3</span>  |
@@ -136,7 +136,7 @@ pre1: 12.5
 >>| **Charisma**     | `=this.CHA` | **Charm**        | `=this.CHA*5` |
 >>| **STR Damage**   |   | **DEX Damage**   |+4  |
 >>| **Luck**        | 5 |  **WIL Damage**  | +1 |
->>|     **Speed**   | 15/30| **Persistence** |65| 
+>>|     **Speed**   | 15/30| **Persistence** |`=this.PER`| 
 >> ### Skill Checks
 >>| **Skill Name**                | **Skill Level** |
 >>| ------------------------- | ----------- |
@@ -256,11 +256,6 @@ actions:
 ```
 
 
-`VIEW[({CHA} + {WIL})/2][math:pre1]`
-
-`VIEW[({CHA} + {WIL})/2][math:pre1]`
 
 
-````
-```meta-bind-js-view{bind_target} as var1{other_note#bind_target} as var2---return `${context.bound.var1 * context.bound.var2} km`;```
-````
+
