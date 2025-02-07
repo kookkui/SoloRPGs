@@ -13,7 +13,7 @@ CON: 18
 INT: 12
 WIL: 11
 CHA: 14
-Per1:
+Per1: 
 Proficiencies: |-
   Weapons: Longbow, Scimitar
   Armor: Soft Leather
@@ -78,6 +78,7 @@ Title10: Aetheryte
 Title11: "Stoneskin Potion. For the next hour you have +1 Armor, but your Dodge and Acrobatics skills are reduced by -10. Aspects: Stone, Boon"
 Title12: Aetheryte
 a-N: "355"
+pre1: 12.5
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  
@@ -255,13 +256,11 @@ actions:
 ```
 
 
+`VIEW[({CHA} + {WIL})/2][math:pre1]`
+
+`VIEW[({CHA} + {WIL})/2][math:pre1]`
 
 
-
-`INPUT[({CHA} + {WIL})/2*5]`
-
-
-```meta-bind-embed
-[[Note A]]
-```
-
+````
+```meta-bind-js-view{bind_target} as var1{other_note#bind_target} as var2---return `${context.bound.var1 * context.bound.var2} km`;```
+````
