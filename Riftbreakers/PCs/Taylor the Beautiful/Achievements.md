@@ -1,9 +1,18 @@
 ---
-Exterminator: 62
+Exterminator: 65
 money: "600"
 cheevo1: false
+ExterminatorAdd: 
+monster1: true
+monster2: true
+monster3: true
+monster4: true
+monster5: true
+monster6: true
+monster7: true
+cheevo7: true
 ---
-
+>[!thing] %%FAKE TITLE HERE%%
 >>[!travel]  #### Adventurer `INPUT[toggle:cheevo1]`
 >>
 >>`2/50`
@@ -11,55 +20,71 @@ cheevo1: false
 >>&nbsp;
 >>*Complete 50 Quests.* 
 >>*Reward: Title -"Adventurer". Increase all quest rewards by 50%.*
-
----
+>>
+>>---
 >>[!table] #### Alchemist `INPUT[toggle:cheevo2]`
 >>
 >>`0/50`
 >>
 >>&nbsp;
 >>*Craft 50 Potions. Reward: 100 XP. 100 A* 
+>>
+---
+>>[!done] #### Master Alchemist `INPUT[toggle:cheevo3]`
+>>
+>>`0/100`
+>>
+>>&nbsp;
+>>*Craft 100 Potions. Reward: 300 XP. 300 A* 
+>>
+---
+>>[!example] #### Master Crafter `INPUT[toggle:cheevo4]`
+>>`0/100`
+>>
+>>&nbsp;
+>>*Craft 100 Items. Reward:100 XP. 100 A And one magic item.*
+>>
+---
+>>[!bug] #### Pest Control `INPUT[toggle:cheevo5]`
+>>`62/100`
+>>
+>>&nbsp;
+>>*Defeat 100 Monsters. Reward: 100 XP, 100A And one magic item.*
+>>
+---
+>>[!crafting] #### Exterminator `INPUT[toggle:cheevo6]`
+>>```meta-bind
+>>INPUT[progressBar(maxValue(500)):Exterminator]
+>>```
+>>
+>>&nbsp;
+>>`INPUT[number:ExterminatorAdd]` `BUTTON[exp]`
+>>
+>>&nbsp;
+>>*Defeat 500 Monsters.* 
+>>*Reward: Title -"Exterminator". Deal +5 damage.* 
+>>
+---
+>>[!gear] #### Master Hunter `INPUT[toggle:cheevo7]`
+>>Defeat one monster of each type.
+>>`INPUT[toggle:monster1]` Astral
+>>`INPUT[toggle:monster2]` Plant
+>>`INPUT[toggle:monster3]`Demon
+>>`INPUT[toggle:monster4]` Elemental
+>>`INPUT[toggle:monster5]` Undead
+>>`INPUT[toggle:monster6]` Humanoid
+>>`INPUT[toggle:monster7]`Construct
+>>
+>>&nbsp
+>>*Reward: 100 XP 100A*
 
 ---
-#### Master Alchemist
-`0/100`
-*Craft 100 Potions. Reward: 300 XP. 300 A* 
-
----
-#### Master Crafter 
-`0/100`
-*Craft 100 Items. Reward:100 XP. 100 A And one magic item.*
-
----
-#### Pest Control
-`62/100`
-Defeat 100 Monsters. *Reward: 100 XP, 100 A And one magic item.*
-
----
-```meta-bind
-INPUT[progressBar(title(Exterminator), maxValue(500)):Exterminator]
-``` 
-*Defeat 500 Monsters.* 
-*Reward: Title -"Exterminator". Deal +5 damage.* 
-
----
-#### Master Hunter
-Defeat one monster of each type.
-- [x] Animal
-- [x] Astral
-- [x] Plant
-- [x] Demon
-- [x] Elemental
-- [x] Undead
-- [x] Humanoid
-- [x] Construct 
-*Reward:100 	XP. 100 A* 
-
----
-#### Climbing the Ladder
-- [ ] Reach Apprentice Rank.
-*Reward: Title - "Apprentice". Increase your Stamina and Aether pools by +2.*
-
+>>[!table] #### Climbing the Ladder `INPUT[toggle:cheevo8]`
+>>`INPUT[toggle:apprentice]` Reach Apprentice Rank.
+>>
+>>&nbsp
+>>*Reward: Title - "Apprentice". Increase your Stamina and Aether pools by +2.*
+>>
 ---
 #### Merchant Prince
 `INPUT[text:money]`/10000 
@@ -137,3 +162,26 @@ Unlock all 20 Abilities.
 *Reward: Title -"Master" Increase your Health by +10.* 
  
 
+```meta-bind-button
+label: Add
+icon: ""
+style: primary
+class: ""
+cssStyle: ""
+backgroundImage: ""
+tooltip: ""
+id: exp
+hidden: True
+actions:
+- type: updateMetadata
+  bindTarget: Exterminator
+  evaluate: True
+  value: getMetadata('Exterminator') + getMetadata('ExterminatorAdd')
+
+```
+
+
+
+```meta-bind
+INPUT[progressBar:exampleProperty]
+```
