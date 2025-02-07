@@ -124,32 +124,43 @@ Heart4: Ritual
 >>  **HP** | **Current:**`32` **Max:** `=this.CON*3`
 >> **Aether** | `31` /`VIEW[{WIL} + {INT} + 8]` |
 >> **Stamina** | `36` /`VIEW[{STR} + {CON}+ 8]` |
->> **Armor** | `=this.Armor` |
+>> **Armor Rating** | `=this.Armor` |
 >> **XP** | `VIEW[{xp}][text]`
->>**ADD XP :** `INPUT[number:axp]` `BUTTON[exp]`
+>>
+>>---
+>> **ADD XP:** `INPUT[number:axp]` `BUTTON[exp]`
+>>
+>>
+>> &nbsp;
 >>
 >> ###### Weapons
 >>| **Weapons** | **Type** | **Damage** | **Notes** |
->>| --------------- | ------------ | --------------- | --------------------- |
->>| `=this.Weapon1` | `=this.Weapon1type` |  `=this.Weapon1dmg` |`=this.Weapon1notes` |
+>>| ------ | :-: | :-: | --------- |
+>>| `=this.Weapon1` | `=this.Weapon1type` | `=this.Weapon1dmg` |`=this.Weapon1notes` |
 >>| `=this.Weapon2` | `=this.Weapon2type` |`=this.Weapon2dmg` | `=this.Weapon2notes` |
 >>| `=this.Weapon3` | `=this.Weapon3type`|`=this.Weapon3dmg` | `=this.Weapon3notes` |
 >>| | | |
 >>| | | |
+>> &nbsp;
+>>
 >> ###### Crafting Aspects
->>| Air   | Bane | Boon | Chaos | Dark  | Death |
->>| ----- | ---- | ---- | ----- | ----- | ----- |
+>>| **Air**   | **Bane** | **Boon** | **Chaos** | **Dark**  | **Death** |
+>>| :-: | :-: | :-: | :-: | :-: | :-: |
 >>| `0`   | `0`  | `1`  | `10`   | `21`   | `1`   |
->>| Earth | Fire | Life | Light | Power | Water |
+>>| **Earth** | **Fire** | **Life** | **Light** | **Power** | **Water** |
 >| `1`   | `11`  | `0`  | `10`   | `11`   | `10`   |
+>> &nbsp;
+>>
 >>###### Minerals
 >>
->>| Coal | Iron | Silver | Aglite |
->>| ---- | ---- | ------ | ------ |
+>>| **Coal** | **Iron** | **Silver** | **Aglite** |
+>>| :-: | :-: | :-: | :-: |
 >>| `21`  | `3`  | `1`    | `4`    |
+>> &nbsp;
+>>
 >>  ###### Currency
 >>| **⟑-N** | **⟑-A**   |
->>| ------- | --------- |
+>>| :-: | :-: |
 >>|`=this.a-N`|`=this.a-a`|
 >>| **⟑-V** | **⟑-M**   |
 >>|`=this.a-V`|`=this.a-M`|
@@ -201,12 +212,9 @@ Heart4: Ritual
 >>|:-:| :---: |
 >>| `=this.proficiency1` | `=this.proficiency2` |
 >>| `=this.proficiency3` | `=this.proficiency4` |
->>| `=this.proficiency4` | `=this.proficiency5` |
->>| **4** |  |
->>| **5** |  |
->>| **6** |`=this.proficiency6` |
->>| **7** | `=this.proficiency7` |
->>
+>>| `=this.proficiency5` | `=this.proficiency6` |
+>>| `=this.proficiency7` | `=this.proficiency8` |
+
 
 ---
 

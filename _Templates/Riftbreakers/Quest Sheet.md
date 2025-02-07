@@ -22,7 +22,7 @@ quest10:
 >>[!travel] %%FAKE TITLE HERE%%
 >>### Quests
 >>| | | |
->> |--- | --- | --------- |
+>> |:---: | --- | :---------: |
 >>|**Quest Description** | **Completed** | **Timer/Counter**
 >>| `=this.quest1` | `INPUT[toggle:quest1t]` | `7/14`
 >> |`=this.quest2` |`INPUT[toggle:quest2t]` | `0/22`

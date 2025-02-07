@@ -5034,7 +5034,7 @@ Loot:  10 units of a Random Alchemical ingredient
 
 Using Title power to teleport back to [[Kar Helos]]
 
-Turning in [[Quest Journal#^621c8f]] 
+Turning in [[Taylor the Beautiful Quest Journal#^621c8f]] 
 
 Rewards
 100 XP
@@ -5175,7 +5175,7 @@ A blinding glow appears from within the target’s chest, only to
 disappear seconds later.
 
 
-Next quest [[Quest Journal#^0066b3]]
+Next quest [[Taylor the Beautiful Quest Journal#^0066b3]]
 
 Heading out [[Keathor Overworld Map]]
 
