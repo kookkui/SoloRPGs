@@ -59,7 +59,12 @@ beltnotes:
 pantsname: 
 pantsmagic: 
 pantsquirk: 
-pantsnotes: 
+pantsnotes:
+glovesname:
+glovesmagic:
+glovesquirk:
+glovesrank:
+glovesnotes:
 bootname: Victorious Gloves of the Whisper
 bootmagic: Constitution +1 Charisma +1
 bootquirk: Smells like rotten flesh
@@ -281,7 +286,7 @@ Heart4: Ritual
 >>&nbsp;
 >>### Chest
 >>| | |
->>|--- | --- |
+>>|:-:|:-:|
 >>|**Name** | `=this.chestname`|
 >>|**Magic** | `=this.chestmagic`|
 >>|**Quirk** | `=this.chestquirk`|
@@ -291,7 +296,7 @@ Heart4: Ritual
 >>
 >>### Belt
 >>| | |
->>|--- | --- |
+>>|:-:|:-:|
 >>|**Name** | `=this.beltname`|
 >>|**Magic** | `=this.beltmagic`|
 >>|**Quirk** | `=this.beltquirk`|
@@ -301,7 +306,7 @@ Heart4: Ritual
 >>
 >>### Pants
 >>| | |
->>|--- | --- |
+>>|:-:|:-:|
 >>|**Name** | `=this.pantsname`|
 >>|**Magic** | `=this.pantsmagic`|
 >>|**Quirk** | `=this.pantsquirk`|
@@ -311,17 +316,17 @@ Heart4: Ritual
 >>
 >>### Gloves
 >>| | |
->>|--- | --- |
+>>|:-:|:-:|
 >>|**Name** | `=this.glovesname`|
 >>|**Magic** | `=this.glovesmagic`|
 >>|**Quirk** | `=this.glovesquirk`|
->>| **Rank** | `=this.glovesrank` |
->>| **Notes** | `=this.glovesnotes` |
+>>|**Rank** | `=this.glovesrank` |
+>>|**Notes** | `=this.glovesnotes` |
 >> &nbsp;
 >>
 >>### Boots
 >>| | |
->>|--- | --- |
+>>|:-:|:-:|
 >>|**Name** | `=this.bootname`|
 >>|**Magic** | `=this.bootmagic`|
 >>|**Quirk** | `=this.bootquirk`|
@@ -331,7 +336,7 @@ Heart4: Ritual
 >>
 >>### Ring 1
 >>| | |
->>|--- | --- |
+>>|:-:|:-:|
 >>|**Name** | `=this.ring1name`|
 >>|**Magic** | `=this.ring1magic`|
 >>|**Quirk** | `=this.ring1quirk`|
@@ -341,7 +346,7 @@ Heart4: Ritual
 >>
 >>### Ring 2
 >>| | |
->>|--- | --- |
+>>|:-:|:-:|
 >>|**Name** | `=this.ring2name`|
 >>|**Magic** | `=this.ring2magic`|
 >>|**Quirk** | `=this.ring2quirk`|
@@ -351,7 +356,7 @@ Heart4: Ritual
 >>
 >>### Pendant
 >>| | |
->>|--- | --- |
+>>|:-:|:-:|
 >>|**Name** | `=this.pendantgearname`|
 >>|**Magic** | `=this.pendantgearmagic`|
 >>|**Quirk** | `=this.pendantgearquirk`|
@@ -487,11 +492,11 @@ Heart4: Ritual
 >>
 >>&nbsp
 >>
->>| Ability Name |Identify Magic Item | Type | Arcane, Utility |
+>>| **Ability Name** |Identify Magic Item | **Type** | Arcane, Utility |
 >>| :----------: | :-------------: | :---: | :-------------: |
->>| Rank | Novice | XP | |
->>| Cost | 2 MP | Heart | Talent, Ritual |
->>| Actions | 1 Required | Range | Touch |
+>>| **Rank** | Novice | **XP** | |
+>>| **Cost** | 2 MP | **Heart** | Talent, Ritual |
+>>| **Actions** | 1 Required | **Range** | Touch |
 >>
 >>&nbsp
 >> You learn the powers of an item, allowing you to use it. You close your eyes, concentrating on the item’s aura and learning all its secrets.
@@ -506,11 +511,11 @@ Heart4: Ritual
 >>
 >>&nbsp
 >>
->>| Ability Name | Portal | Type | Arcane, Utility |
+>>| **Ability Name** | Portal | **Type** | Arcane, Utility |
 >>| :----------: | :-----: | :---: | :-------------: |
->>| Rank | Novice | XP | |
->>| Cost | 10 MP | Heart | Prime, Ritual |
->>| Actions | 2 Required | Range | 5 Travel Days |
+>>| **Rank** | Novice | **XP** | |
+>>| **Cost** | 10 MP | **Heart** | Prime, Ritual |
+>>| **Actions** | 2 Required | **Range** | 5 Travel Days |
 >>
 >>&nbsp
 >>Creates linked teleportation portals that remain open for 1 min. The destination portal can be set to appear on a place the caster is familiar with, or within their line of sight.
@@ -531,14 +536,14 @@ Heart4: Ritual
 >>
 >>&nbsp
 >>
->>| Ability Name | Bless| Type | Holy, Support |
+>>| **Ability Name** | Bless| **Type** | Holy, Support |
 >>| :----------: | :-------: | :---: | :------------: |
->>| Rank | Novice | XP | |
->>| Cost | 4 MP | Heart | Power, Restore |
->>| Actions | 1 Required | Range | 30 m. |
+>>| **Rank** | Novice | **XP** | |
+>>| **Cost** | 4 MP | **Heart** | Power, Restore |
+>>| **Actions** | 1 Required | **Range** | 30 m. |
 >>
 >>&nbsp
->>Description: Increase a target’s Brawn by +20 and Dodge by +10 for D4+2 rounds.
+>>Increase a target’s Brawn by +20 and Dodge by +10 for D4+2 rounds.
 >>
 >>&nbsp
 >>

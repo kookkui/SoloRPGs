@@ -5698,3 +5698,8 @@ Coordination Check 70 1d%
 
 
 
+glovesname:
+glovesmagic:
+glovesquirk:
+glovesrank:
+glovesnotes:
