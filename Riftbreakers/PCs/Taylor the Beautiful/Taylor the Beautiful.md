@@ -89,7 +89,7 @@ a-N: "355"
 >> **Rank** |`INPUT[suggester(option(Novice), option(Apprentice), option(Veteran), option(Master)):exampleProperty]` |
 >>  **Title** |`INPUT[text:Title]` |
 >> **Reputation** | `3` |
->>  **HP** | **Current:**`32` **Max:** `=this.CONST*3
+>>  **HP** | **Current:**`32` **Max:** `=this.CON*3
 >> **Aether** | `31` /31 |
 >> **Stamina** | `29` /29 |
 >> **Armor** | <span style="color:rgb(255, 128, 31)">D4+3</span>  |
@@ -258,4 +258,10 @@ actions:
 
 
 
-`VIEW[({CHA} + {WIL})/2*5][math]`
+`INPUT[({CHA} + {WIL})/2*5]`
+
+
+```meta-bind-embed
+[[Note A]]
+```
+
