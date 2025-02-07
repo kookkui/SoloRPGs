@@ -353,8 +353,8 @@ Heart4: Ritual
 >>| 10 | `=this.passive9` |
 >>
 
->[!thing] %%FAKE TITLE HERE%%
->>[!gear]  %%FAKE TITLE HERE%%
+>[!warning] %%FAKE TITLE HERE%%
+>>[!npc]  %%FAKE TITLE HERE%%
 >>### Heart Abilities
 >>
 >>| **Ability Name** | Life Bolt  | **Type**  | Holy, Attack, Support |

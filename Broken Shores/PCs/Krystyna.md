@@ -109,7 +109,7 @@ title4: Fishing Rod
 >>
 >>
 >> ### Skill Checks
->>| **Skill Name** | **Skill Level** | Level Up
+>>| **Skill Name** | **Skill Level** | **Level Up**
 >>| ------------------------- | ----------- | ----------- |
 >>| **Acrobatics**(DEX `=this.DEX`) | `15` | `INPUT[toggle:skill1]`|
 >>| **Athletics** (STR `=this.STR`) | `56` | `INPUT[toggle:skill2]`|
