@@ -5715,4 +5715,27 @@ creature: Sun Reaper
 ```
 
 
+```encounter
+players:
+  - Taylor the Beautiful
+  - Segard the Bulwark Character Sheet
+creatures:
+  - Sun Reaper
+```
+
+
+Combat begins
+
+Taylor turn
+
+Readiness check 45
+1d%[60] Failed
+
+Casting Bless on Segard
+
+-4 MP Increase a target’s Brawn by +20 and Dodge by +10 for 5  rounds.
+
+Segard Turn 
+
+Performs a standard attack check with their weapon that can only be dodged. The attack deals 13 Bludgeoning damage
 

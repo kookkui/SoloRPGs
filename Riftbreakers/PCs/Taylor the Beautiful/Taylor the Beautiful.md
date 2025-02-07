@@ -127,7 +127,7 @@ Heart4: Ritual
 >>  **Title** |`=this.Title` |
 >> **Reputation** | `3` |
 >>  **HP** | **Current:**`36` **Max:** `=this.CON*3`
->> **Aether** | `31` /`VIEW[{WIL} + {INT} + 8]` |
+>> **Aether** | `27` /`VIEW[{WIL} + {INT} + 8]` |
 >> **Stamina** | `36` /`VIEW[{STR} + {CON}+ 8]` |
 >> **Armor Rating** | `=this.Armor` |
 >> **XP** | `VIEW[{xp}][text]`
