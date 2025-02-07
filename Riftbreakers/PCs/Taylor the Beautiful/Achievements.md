@@ -1,16 +1,24 @@
 ---
 Exterminator: 62
 money: "600"
+cheevo1: false
 ---
-#### Adventurer 
-`2/50`
-*Complete 50 Quests.* 
-*Reward: Title -"Adventurer". Increase all quest rewards by 50%.*
+
+>>[!travel]  #### Adventurer `INPUT[toggle:cheevo1]`
+>>
+>>`2/50`
+>>
+>>&nbsp;
+>>*Complete 50 Quests.* 
+>>*Reward: Title -"Adventurer". Increase all quest rewards by 50%.*
 
 ---
-#### Alchemist
-`0/50`
-*Craft 50 Potions. Reward: 100 XP. 100 A* 
+>>[!table] #### Alchemist `INPUT[toggle:cheevo2]`
+>>
+>>`0/50`
+>>
+>>&nbsp;
+>>*Craft 50 Potions. Reward: 100 XP. 100 A* 
 
 ---
 #### Master Alchemist

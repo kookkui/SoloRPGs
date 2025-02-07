@@ -165,7 +165,7 @@ title4: Fishing Rod
 >
 >>[!table] %%FAKE TITLE HERE%%
 >>### Inventory
->>| Slot | Encumbering Items | Slot | Encumbering Items 
+>>| **Slot** | **Encumbering Items** | **Slot** | **Encumbering Items** 
 >>| :-: | :---------------- |--------|--------|
 >>|1|`INPUT[text:title1]` |21|`INPUT[text:title21]`|
 >>|2|`INPUT[text:title2]`|22|`INPUT[text:title22]`|
@@ -189,7 +189,7 @@ title4: Fishing Rod
 >>|20|`INPUT[text:title20]`|40|`INPUT[text:title40]`|
 >>
 >> ### Non-Incumbering Items
->> |Slot| Item |Slot| Item 
+>> |**Slot**| **Item** |**Slot**| **Item** 
 >>| :-: | :---------------------------- |:-: | :---------------------------- |
 >>| 1 | `INPUT[text:Pskills69]` | 9 | `INPUT[text:Pskills8]` |
 >>| 2 | `INPUT[text:Pskills1]` | 10 | `INPUT[text:Pskills9]` |
