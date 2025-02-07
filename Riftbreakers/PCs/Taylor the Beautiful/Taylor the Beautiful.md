@@ -29,47 +29,64 @@ a-N: "355"
 a-a: 
 a-V: 
 a-M: 
+quest1: "**Rift Closure:** Travel 14 days and close the marked rift. (Sky Islets)."
+quest1t: false
+quest2: "**Escort:** Escort a caravan - distance is 22 travel days."
+quest2t: 
+quest3: "**Patrol:** Patrol the perimeter and wilds for 17 days. Mark any rifts found with a beacon. Roll a d10 each day, on a 1 or 2, there is a rift."
+quest3t: 
+quest4: "**Delivery:** Collect and deliver - 22 Chitinous Plate."
+quest4t: 
+quest5: "**Rift Closure:** Travel 14 days and close the marked rift. (Timeworn Ruins)."
+quest5t: 
+quest6: "**Patrol:** Patrol the perimeter and wilds for 11 days. Mark any rifts found with a beacon. Roll a d10 each day, on a 1 or 2, there is a rift."
+quest6t: 
+quest7: "**Delivery:** Collect and deliver - 13 Fiery Ember."
+quest7t: 
+quest8: "**Escort:** Escort a caravan - distance is 21 travel days."
+quest9: "**Monster Hunt:** Travel 7 days and search for the monster. The type of monster is determined by the region."
+quest10: 
 gear1name: 
-gear1magic:
-gear1magic2:
-gear1quirk:
-gear1notes:
+gear1magic: 
+gear1magic2: 
+gear1quirk: 
+gear1notes: 
 gear2name: 
-gear2magic:
-gear2magic2:
-gear2quirk:
-gear2notes:
+gear2magic: 
+gear2magic2: 
+gear2quirk: 
+gear2notes: 
 gear3name: 
-gear3magic:
-gear3magic3:
-gear3quirk:
-gear3notes:
+gear3magic: 
+gear3magic3: 
+gear3quirk: 
+gear3notes: 
 gear4name: 
-gear4magic:
-gear4magic4:
-gear4quirk:
-gear4notes:
+gear4magic: 
+gear4magic4: 
+gear4quirk: 
+gear4notes: 
 gear6name: Victorious Gloves of the Whisper
 gear6magic: Constitution +1 Charisma +1
-gear6magic6:
+gear6magic6: 
 gear6quirk: Smells like rotten flesh
 gear6rank: Novice
 gear6notes: 200A, Air Earth
 gear7name: Champion's Ring of the Snake
-gear7magic: Dexterity +1, Reduce your Stamina pool by 5 (26), but increase your Aether pool by 8 (23). 
-gear7magic7: You no longer need to eat or drink.
+gear7magic: Dexterity +1, Reduce your Stamina pool by 5 (26), but increase your Aether pool by 8 (23). You no longer need to eat or drink.
+gear7magic7: 
 gear7quirk: It's always pristine
 gear7rank: Novice
 gear7notes: 300A Air Life 2x Boon Bane
 gear8name: Mage's Wonderful Ring
-gear8magic: Stamina +8, On command, this item works as a source of light.
-gear8magic8: Illuminates in a 20 m. radius.
+gear8magic: Stamina +8, On command, this item works as a source of light. Illuminates in a 20 m. radius.
+gear8magic8: 
 gear8quirk: It's always covered in a layer of mucus
 gear8rank: Novice
 gear8notes: 300A Fire 2xPower Light
 gear9name: Knight's Glass Stone
-gear9magic: You can detect all living beings in a 20 m. radius.
-gear9magic9: Increase your luck by +5
+gear9magic: You can detect all living beings in a 20 m. radius. Increase your luck by +5
+gear9magic9: 
 gear9quirk: It appears to be completely made of glass. It doesn't make it more fragile than it should be though
 gear9rank: Novice
 gear9notes: Chaos Life Boon Light 200A  Rarity:Uncommon
@@ -104,8 +121,8 @@ Heart2: Elemental
 Heart3: Restoration
 Heart4: Ritual
 ---
->[!dice] %%FAKE TITLE HERE%%
->> [!dice] %%FAKE TITLE HERE%%  
+>[!note] %%FAKE TITLE HERE%%
+>>[!gear] %%FAKE TITLE HERE%% 
 >> # `=this.file.name`
 >> ![[IMG-20250129190024669.webp]]
 >> ###### Stats
@@ -147,8 +164,10 @@ Heart4: Ritual
 >>| **⟑-V** | **⟑-M**   |
 >>|`=this.a-V`|`=this.a-M`|
 
->[!important] %%FAKE TITLE HERE%%
->>[!travel] %%FAKE TITLE HERE%%
+---
+
+>[!dice] %%FAKE TITLE HERE%%
+>>[!dice] %%FAKE TITLE HERE%%
 >> ### Stats
 >> | | | | |
 >>| ---- | ---- | ------ | ------ |
@@ -162,7 +181,7 @@ Heart4: Ritual
 >>| **Luck** | 5 | **WIL Damage** | +1 |
 >>| **Speed** | `=this.DEX`/`=this.DEX*2`| **Persistence** |`=this.PER`|
 >
->>[!travel] %%FAKE TITLE HERE%%
+>>[!dice] %%FAKE TITLE HERE%%
 >> ### Skill Checks
 >>| **Skill Name** | **Skill Level** |
 >>| ------------------------- | ----------- |
@@ -186,7 +205,7 @@ Heart4: Ritual
 >>| **Stealth** (DEX) | `38` |
 >>| **Survival** (INT) | `53` |
 >
->>[!travel] %%FAKE TITLE HERE%%
+>>[!dice] %%FAKE TITLE HERE%%
 >>##### Proficiencies
 >> |        |         |   
 >>| :-: | :----- |
@@ -198,6 +217,27 @@ Heart4: Ritual
 >>| 6 |`=this.proficiency6` |
 >>| 7 | `=this.proficiency7` |
 >>
+
+---
+
+>[!travel] %%FAKE TITLE HERE%%
+>>[!travel] %%FAKE TITLE HERE%%
+>>### Quests
+>>| | | |
+>> |--- | --- | --------- |
+>>|**Quest Description** | **Completed** | **Timer/Counter**
+>>| `=this.quest1` | `INPUT[toggle:quest1t]` | `7/14`
+>> |`=this.quest2` |`INPUT[toggle:quest2t]` | `0/22`
+>>| `=this.quest3` | `INPUT[toggle:quest3t]` | `0/17`
+>> |`=this.quest4` |`INPUT[toggle:quest4t]` | `0/22`
+>>| `=this.quest5` | `INPUT[toggle:quest5t]` | `0/14`
+>> |`=this.quest6` |`INPUT[toggle:quest6t]` | `0/11`
+>>| `=this.quest7` | `INPUT[toggle:ques71t]` | `0/13`
+>> |`=this.quest8` |`INPUT[toggle:quest8t]` | `0/21`
+>>| `=this.quest9` | `INPUT[toggle:ques91t]` | `0/7`
+>> |`=this.quest10` |`INPUT[toggle:quest10t]` |
+
+---
 
 >[!table] %%FAKE TITLE HERE%%
 >>[!table] %%FAKE TITLE HERE%%
@@ -225,6 +265,8 @@ Heart4: Ritual
 >>|19|`INPUT[text:title19]`|39|`INPUT[text:title39]`|
 >>|20|`INPUT[text:title20]`|40|`INPUT[text:title40]`| 
 
+---
+
 >[!travel] %%FAKE TITLE HERE%%
 >>[!travel] %%FAKE TITLE HERE%%
 >>## Gear
@@ -235,18 +277,16 @@ Heart4: Ritual
 >>|--- | --- |
 >>|**Name** | `=this.gear1name`|
 >>|**Magic** |  `=this.gear1magic`|
->>|   | `=this.gear1magic2` | 
 >>|**Quirk** |  `=this.gear1quirk`|
 >>| **Rank**     | `=this.gear1rank` | 
 >>| **Notes**     | `=this.gear1notes` | 
->> 
->> &nbsp;
+>>
+>>&nbsp;
 >>### Chest
 >>|     |     |
 >>|--- | --- |
 >>|**Name** | `=this.gear2name`|
 >>|**Magic** |  `=this.gear2magic`|
->>|   | `=this.gear2magic2` | 
 >>|**Quirk** |  `=this.gear2quirk`|
 >>| **Rank**     | `=this.gear2rank` | 
 >>| **Notes**     | `=this.gear2notes` | 
@@ -257,7 +297,6 @@ Heart4: Ritual
 >>|--- | --- |
 >>|**Name** | `=this.gear3name`|
 >>|**Magic** |  `=this.gear3magic`|
->>|   | `=this.gear3magic3` | 
 >>|**Quirk** |  `=this.gear3quirk`|
 >>| **Rank**     | `=this.gear3rank` | 
 >>| **Notes**     | `=this.gear3notes` | 
@@ -268,7 +307,6 @@ Heart4: Ritual
 >>|--- | --- |
 >>|**Name** | `=this.gear4name`|
 >>|**Magic** |  `=this.gear4magic`|
->>|   | `=this.gear4magic4` | 
 >>|**Quirk** |  `=this.gear4quirk`|
 >>| **Rank**     | `=this.gear4rank` | 
 >>| **Notes**     | `=this.gear4notes` | 
@@ -279,7 +317,6 @@ Heart4: Ritual
 >>|--- | --- |
 >>|**Name** | `=this.gear6name`|
 >>|**Magic** |  `=this.gear6magic`|
->>|   | `=this.gear6magic6` | 
 >>|**Quirk** |  `=this.gear6quirk`|
 >>| **Rank**     | `=this.gear6rank` | 
 >>| **Notes**     | `=this.gear6notes` | 
@@ -290,7 +327,6 @@ Heart4: Ritual
 >>|--- | --- |
 >>|**Name** | `=this.gear5name`|
 >>|**Magic** |  `=this.gear5magic`|
->>|   | `=this.gear5magic5` | 
 >>|**Quirk** |  `=this.gear5quirk`|
 >>| **Rank**     | `=this.gear5rank` | 
 >>| **Notes**     | `=this.gear5notes` | 
@@ -301,7 +337,6 @@ Heart4: Ritual
 >>|--- | --- |
 >>|**Name** | `=this.gear7name`|
 >>|**Magic** | `=this.gear7magic`|
->>| | `=this.gear7magic7` |
 >>|**Quirk** | `=this.gear7quirk`|
 >>| **Rank** | `=this.gear7rank` |
 >>| **Notes** | `=this.gear7notes` |
@@ -312,7 +347,6 @@ Heart4: Ritual
 >>|--- | --- |
 >>|**Name** | `=this.gear8name`|
 >>|**Magic** | `=this.gear8magic`|
->>| | `=this.gear8magic8` |
 >>|**Quirk** | `=this.gear8quirk`|
 >>| **Rank** | `=this.gear8rank` |
 >>| **Notes** | `=this.gear8notes` |
@@ -323,13 +357,14 @@ Heart4: Ritual
 >>|--- | --- |
 >>|**Name** | `=this.gear9name`|
 >>|**Magic** | `=this.gear9magic`|
->>| | `=this.gear9magic9` |
 >>|**Quirk** | `=this.gear9quirk`|
 >>| **Rank** | `=this.gear9rank` |
 >>| **Notes** | `=this.gear9notes` |
 
->[!dice] %%FAKE TITLE HERE%%
->>[!dice] %%FAKE TITLE HERE%%
+---
+
+>[!gather] %%FAKE TITLE HERE%%
+>>[!gather] %%FAKE TITLE HERE%%
 >>## Hearts
 >> |        |     |   
 >>| :-: | :----- |
@@ -338,6 +373,7 @@ Heart4: Ritual
 >>| 3 |  `INPUT[inlineSelect(option(Arcane), option(Arrow), option(Bastion), option(Blade), option(Elemental), option(Might), option(Restoration), option(Ritual), option(Shadow)):Heart3]` |
 >>| 4 |  `INPUT[inlineSelect(option(Arcane), option(Arrow), option(Bastion), option(Blade), option(Elemental), option(Might), option(Restoration), option(Ritual), option(Shadow)):Heart4]` |
 >>
+>>&nbsp;
 >> #### Passive Skills
 >> |        |         |   
 >>| :-: | :------------- |
@@ -352,6 +388,8 @@ Heart4: Ritual
 >>| 9 | `=this.passive8` |
 >>| 10 | `=this.passive9` |
 >>
+
+---
 
 >[!warning] %%FAKE TITLE HERE%%
 >>[!npc]  %%FAKE TITLE HERE%%

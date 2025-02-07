@@ -35,7 +35,8 @@ cheevo15: true
 >>`0/50`
 >>
 >>&nbsp;
->>*Craft 50 Potions Reward: 100 XP, 100A* 
+>>*Craft 50 Potions* 
+>>*Reward: 100 XP, 100A* 
 >>
 ---
 >>[!done] #### Master Alchemist `INPUT[toggle:cheevo3]`
@@ -43,21 +44,24 @@ cheevo15: true
 >>`0/100`
 >>
 >>&nbsp;
->>*Craft 100 Potions Reward: 300 XP, 300A* 
+>>*Craft 100 Potions* 
+>>*Reward: 300 XP, 300A* 
 >>
 ---
 >>[!example] #### Master Crafter `INPUT[toggle:cheevo4]`
 >>`0/100`
 >>
 >>&nbsp;
->>*Craft 100 Items. Reward: 100 XP, 100A And one magic item.*
+>>*Craft 100 Items.* 
+>>*Reward: 100 XP, 100A And one magic item.*
 >>
 ---
 >>[!bug] #### Pest Control `INPUT[toggle:cheevo5]`
 >>`62/100`
 >>
 >>&nbsp;
->>*Defeat 100 Monsters. Reward: 100 XP, 100A And one magic item.*
+>>*Defeat 100 Monsters.* 
+>>*Reward: 100 XP, 100A And one magic item.*
 >>
 ---
 >>[!crafting] #### Exterminator `INPUT[toggle:cheevo6]`
@@ -101,14 +105,16 @@ cheevo15: true
 >>`INPUT[number:moneyAdd]` `BUTTON[bling]`
 >>
 >>&nbsp
->>*Obtain a total of 10,000 Aetheryte. regardless of its Rank. Reward: Sell items for 60% of their value, instead of 50%.*
+>>*Obtain a total of 10,000 Aetheryte regardless of its Rank.*
+>>*Reward: Sell items for 60% of their value, instead of 50%.*
 >>
 ---
 >>[!crafting] #### Crafter `INPUT[toggle:cheevo10]`
 >>`0/50`
 >>
 >>&nbsp
->>*Craft 50 Items. Reward: 100 XP, 100A*
+>>*Craft 50 Items.* 
+>>*Reward: 100 XP, 100A*
 
 ---
 >>[!gather] #### Miner `INPUT[toggle:cheevo10]`
@@ -134,20 +140,23 @@ cheevo15: true
 >>
 ---
 >>[!dice] #### Healer `INPUT[toggle:cheevo13]`
->> ## `VIEW[{heals}][text]`/10000
+>> ## `VIEW[{heals}][text]`/10000 
+>> 
 >>
 >>&nbsp
 >>`INPUT[number:healsAdd]` `BUTTON[life]`
 >>
 >>&nbsp
->> *Heal other characters for a total of 1,000 Health. Reward: Title -"Healer". Increase your healing effects by +1.* 
+>>*Heal other characters for a total of 1,000 Health.*
+>>*Reward: Title -"Healer". Increase your healing effects by +1.* 
 >>
 ---
 >>[!check] #### Herbalist `INPUT[toggle:cheevo14]`
 >>`12/50`
 >>
 >>&nbsp
->>*Obtain 50 ingredients via gathering. Reward: Title -"Herbalist". Repeat a failed roll when attempting to find ingredients.*
+>>*Obtain 50 ingredients via gathering.* 
+>>*Reward: Title -"Herbalist". Repeat a failed roll when attempting to find ingredients.*
 
 ---
 >>[!note] #### Riftbreaker `INPUT[toggle:cheevo15]`
@@ -161,36 +170,44 @@ cheevo15: true
 >>`3/100`
 >>
 >>&nbsp
->>*Complete 100 Quests. Reward: Title -"Hero". Increase all quest rewards by 100%.*
+>>*Complete 100 Quests.* 
+>>*Reward: Title -"Hero". Increase all quest rewards by 100%.*
 >>
 ---
 >>[!crafting] #### Riftbane `INPUT[toggle:cheevo17]`
 >> `3/20` 
 >>
 >>&nbsp
->>*Successfully close 20 Rifts. Reward: Title -"Riftbane". While in a Rift. +20 attack skills, +2 damage dealt.* 
+>>*Successfully close 20 Rifts.*
+>>*Reward: Title -"Riftbane". While in a Rift. +20 attack skills, +2 damage dealt.* 
 >>
 ---
 >>[!table] #### I Have the Power `INPUT[toggle:cheevo18]`
 >>`7/20`
 >>
 >>&nbsp
->>*Unlock all 20 Abilities. Reward: Title - "Powerful". Re-roll any failed check once each 24 hours.*
+>>*Unlock all 20 Abilities.*
+>>*Reward: Title - "Powerful". Re-roll any failed check once each 24 hours.*
 
 ---
->>[!table] #### Skilled `INPUT[toggle:cheevo19]`
-- [ ] Reach 100 with one skill. 
-*Reward: 400 XP* 
+>>[!dice] #### Skilled `INPUT[toggle:cheevo19]`
+>>`INPUT[toggle:skilled]` Reach 100 with one skill. 
+>>
+>>&nbsp
+>>*Reward: 400 XP* 
 
 ---
-#### Legendary 
-- [ ] Obtain a Legendary Item. 
-*Reward: 300A*
-
+>>[!npa] #### Legendary `INPUT[toggle:cheevo20]`
+>>`INPUT[toggle:legendary]` Obtain a Legendary Item.
+>>
+>>&nbsp
+>>*Reward: 300A*
 ---
-#### Top of the Mountain 
-- [ ] Reach Master Rank. 
-*Reward: Title -"Master" Increase your Health by +10.* 
+>>[!gear] #### Top of the Mountain 
+>>`INPUT[toggle:mounter]` Reach Master Rank.
+>>
+>>&nbsp
+>>*Reward: Title -"Master" Increase your Health by +10.* 
  
 
 ```meta-bind-button
