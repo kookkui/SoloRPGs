@@ -239,7 +239,7 @@ Heart4: Ritual
 >[!table] %%FAKE TITLE HERE%%
 >>[!table] %%FAKE TITLE HERE%%
 >>### Inventory
->>| Slot | Encumbering Items | Slot | Encumbering Items 
+>>| <span style="color:rgb(129, 216, 208)">Slot</span> | <span style="color:rgb(129, 216, 208)">Encumbering Items</span> | <span style="color:rgb(129, 216, 208)">Slot</span> | <span style="color:rgb(129, 216, 208)">Encumbering Items</span> 
 >>| :-: | :---------------- |--------|--------|
 >>|1|`INPUT[text:title1]` |21|`INPUT[text:title21]`|
 >>|2|`INPUT[text:title2]`|22|`INPUT[text:title22]`|

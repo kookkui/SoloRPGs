@@ -1,6 +1,3 @@
----
-AncEnt: 112
----
 Around 1 hour has gone by. It is now 18:39 Thu 22-Jan-1525...Log Start for Taylor the Beautiful
 
 Quest: Break Rift Underground Cave System
@@ -5032,7 +5029,7 @@ Loot:  10 units of a Random Alchemical ingredient
 
 10 x Blackroot (Aspect: Dark)
 
-Using Title power to teleport back to [[Kar Helos]]
+Using Title power to teleport back to [[Kar Helos City Map]]
 
 Turning in [[Taylor the Beautiful Quest Journal#^621c8f]] 
 
@@ -5614,7 +5611,7 @@ CRIT on the second hit
 +25 XP 
  Completed Master Hunter Achievement
 
-  Reward  Reward:100 XP  100 A
+  Reward  Reward: 100 XP  100 A
 
 1d%[38]
 
@@ -5698,4 +5695,6 @@ Coordination Check 70 1d%
 <span style="color:rgb(255, 105, 180)">Victory! </span> 
 +25 XP
 +50⟑
+
+
 

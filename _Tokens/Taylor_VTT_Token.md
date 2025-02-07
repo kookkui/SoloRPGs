@@ -11,7 +11,7 @@ tags: [excalidraw]
 
 ## Text Elements
 ## Embedded Files
-3e9a8c0e09bbe1852b9b23db3e82e466ee47f019: [[Taylor_VTT_Token.webp]]
+3e9a8c0e09bbe1852b9b23db3e82e466ee47f019: [[IMG-20250207144740380.webp]]
 
 %%
 ## Drawing
