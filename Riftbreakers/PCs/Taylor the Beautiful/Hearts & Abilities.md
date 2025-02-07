@@ -3,39 +3,61 @@ Hearts:
   - Restoration
   - Arrow
   - Ritual
-passives: |-
-  Restoration Heart
-  Passive: Dampening Aura. Reduce all 
-  incoming damage by -1 to all allies in a 10 m radius.
-
-  Arrow Heart
-  Passive: Marksman You suffer no penalty from firing a ranged weapon at melee range. Increase the range of your equipped ranged weapons by +50 m.
-
-  Ritual Heart
-  Passive: Arcane Storage. You can summon a chest that has 10 item slots. This power gains +10 item slots per rank.
+  - Elemental
+passive0: "**Restoration Heart**: *Dampening Aura* Reduce all incoming damage by -1 to all allies in a 10 m radius."
+passive1: "**Arrow Heart**: *Marksman* You suffer no penalty from firing a ranged weapon at melee range. Increase the range of your equipped ranged weapons by +50 m."
+passive2: "**Ritual Heart**: *Arcane Storage* You can summon a chest that has 10 item slots. This power gains +10 item slots per rank."
+Heart1: Arrow
+Heart2: Elemental
+Heart3: Restoration
+Heart4: Ritual
 ---
-## Hearts
-```meta-bind
-INPUT[multiSelect(option(Arcane), option(Arrow), option(Bastion), option(Blade), option(Elemental), option(Might), option(Restoration), option(Ritual), option(Shadow)):Hearts]
-```
-### Passives
-`INPUT[textArea:passives]`
-## Heart Abilities
+>[!tldr] %%FAKE TITLE HERE%%
+>>[!tldr] %%FAKE TITLE HERE%%
+>>## Hearts
+>> |        |     |   
+>>| :-: | :----- |
+>>| 1 | `INPUT[inlineSelect(option(Arcane), option(Arrow), option(Bastion), option(Blade), option(Elemental), option(Might), option(Restoration), option(Ritual), option(Shadow)):Heart1]` |
+>>| 2 |  `INPUT[inlineSelect(option(Arcane), option(Arrow), option(Bastion), option(Blade), option(Elemental), option(Might), option(Restoration), option(Ritual), option(Shadow)):Heart2]` |
+>>| 3 |  `INPUT[inlineSelect(option(Arcane), option(Arrow), option(Bastion), option(Blade), option(Elemental), option(Might), option(Restoration), option(Ritual), option(Shadow)):Heart3]` |
+>>| 4 |  `INPUT[inlineSelect(option(Arcane), option(Arrow), option(Bastion), option(Blade), option(Elemental), option(Might), option(Restoration), option(Ritual), option(Shadow)):Heart4]` |
+>>
+>> #### Passive Skills
+>> |        |         |   
+>>| :-: | :------------- |
+>>| 1 | `=this.passive0` |
+>>| 2 | `=this.passive1` |
+>>| 3 | `=this.passive2` |
+>>| 4 | `=this.passive3` |
+>>| 5 | `=this.passive4` |
+>>| 6 |`=this.passive5` |
+>>| 7 | `=this.passive6` |
+>>| 8 | `=this.passive7` |
+>>| 9 | `=this.passive8` |
+>>| 10 | `=this.passive9` |
+>>
 
-| Ability Name | Life Bolt  | Type  | Holy, Attack, Support |
-|:------------:|:----------:|:-----:|:---------------------:|
-|     Rank     |   Novice   |  XP   |                       |
-|     Cost     |    2 MP    | Heart |  Talent, Restoration  |
-|   Actions    | 1 Required | Range |         30 m          |
-Description: Target is healed for D6+DM Health. If the target is undead, it deals damage instead.
+>[!table] %%FAKE TITLE HERE%%
+>>[!table] %%FAKE TITLE HERE%%
+>>### Heart Abilities
+>>
+>>| Ability Name | Life Bolt  | Type  | Holy, Attack, Support |
+>>|:------------:|:----------:|:-----:|:---------------------:|
+>>|     Rank     |   Novice   |  XP   |                       |
+>>|     Cost     |    2 MP    | Heart |  Talent, Restoration  |
+>>|   Actions    | 1 Required | Range |         30 m          |
+>>|:------------:|:----------:|:-----:|:---------------------:|
+>>
+>>
+>>Target is healed for D6+DM Health. If the target is undead, it deals damage instead.
+>>
+>>**Apprentice Rank:** Amount increased to 2D6+DM 
+>>**Veteran Rank:** Amount increased to 3D6+DM 
+>>**Master Rank:** Amount increased to 4D6+DM
+>>
+>>*You gather divine energy in your hand, shooting off a beam of bright light.*
+>>
 
-**Apprentice Rank:** Amount increased to 2D6+DM 
-**Veteran Rank:** Amount increased to 3D6+DM 
-**Master Rank:** Amount increased to 4D6+DM
-
-*You gather divine energy in your hand, shooting off a beam of bright light.*
-
----
 
 | **Ability Name** | Twin Shots | **Type**  | Martial, Attack |
 | ---------------- | ---------- | --------- | --------------- |
@@ -152,3 +174,10 @@ Description:
 | Cost         |     | Heart |     |
 | Actions      |     | Range |     |
 Description:
+
+
+
+
+
+
+
