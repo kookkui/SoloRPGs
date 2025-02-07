@@ -1,8 +1,5 @@
 ---
-Art: "![[Character Image Placholder]]"
-HP: 0
-HitDice: d0
-Speed: 0
+Title: Protector of Kar Helos
 STR: 10
 DEX: 16
 CON: 18
@@ -13,21 +10,25 @@ PER: 65
 Proficiencies: |-
   Weapons: Longbow, Scimitar
   Armor: Soft Leather
-Resistances:
-  - NONE
-Languages:
-  - NONE
-DmgTkn: 0
-TempHP: 0
-Copper: 0
-Silver: 0
-Electrum: 0
-Gold: 0
-Platinum: 0
+Weapon1: Holy Longbow of the Bear
+Weapon1dmg: 2D6+4
+Weapon1type: Piercing
+Weapon1notes: Two-handed, Holy, Arrows UD12, Range 115 m
+Weapon2: Scimitar
+Weapon2dmg: D8+4
+Weapon2type: Slashing
+Weapon2notes: Parry, Finesse
+Weapon3: 
+Weapon3type:
+Weapon3dmg:
+Weapon3notes: 
 exampleProperty: Apprentice
-Title: Protector of Kar Helos
 axp: 100
 xp: 1575
+a-N: "355"
+a-a:
+a-V:
+a-M:
 Ring1: |
   Name: Champion's Ring of the Snake
   Magic: Dexterity +1, Reduce your Stamina pool by 5 (26), but increase your Aether pool by 8 (23). You no longer need to eat or drink.
@@ -61,20 +62,19 @@ Other: |-
   Aspects: Chaos Life Boon Light
   Quirk: It appears to be completely made of glass. It doesn't make it more fragile than it should be though
 
-Title1: Quiver
-Title2: Torch Ud10
-Title3: Bandage Ud12
-Title4: Arrows Ud12
-Title5: Rations x 2
-Title6: Rough Leather x 10
-Title7: Extra-Dimensional bag x 0
-Title8: Ascended Essence (Prime)
-Title9: Lantern
-Title10: Aetheryte
-Title11: "Stoneskin Potion. For the next hour you have +1 Armor, but your Dodge and Acrobatics skills are reduced by -10. Aspects: Stone, Boon"
-Title12: Aetheryte
-Title13: Backpack
-a-N: "355"
+title1: Quiver
+title2: Torch Ud10
+title3: Bandage Ud12
+title4: arrows ud12
+title5: rations x 2
+title6: rough leather x 10
+title7: extra-dimensional bag x 0
+title8: ascended essence (prime)
+title9: lantern
+title10: aetheryte
+title11: "stoneskin potion. for the next hour you have +1 armor, but your dodge and acrobatics skills are reduced by -10. aspects: stone, boon"
+title12: aetheryte
+title13: backpack
 proficiency1: "**Weapon:** Longbow"
 proficiency2: "**Weapon:** Scimitar"
 proficiency3: "**Armor:** Soft Leather"
@@ -87,23 +87,23 @@ proficiency3: "**Armor:** Soft Leather"
 >>  |
 >> ---|---|
 >> **Rank** |`INPUT[suggester(option(Novice), option(Apprentice), option(Veteran), option(Master)):exampleProperty]` |
->>  **Title** |`INPUT[text:Title]` |
+>>  **Title** |`=this.Title` |
 >> **Reputation** | `3` |
 >>  **HP** | **Current:**`32` **Max:** `=this.CON*3`
->> **Aether** | `31` /`VIEW[{WIL} + {INT}]` |
->> **Stamina** | `29` /29 |
+>> **Aether** | `24` /`VIEW[{WIL} + {INT}]` |
+>> **Stamina** | `28` /`VIEW[{STR} + {CON}]` |
 >> **Armor** | <span style="color:rgb(255, 128, 31)">D4+3</span>  |
 >> **XP** | `VIEW[{xp}][text]`
 >>**ADD XP :** `INPUT[number:axp]` `BUTTON[exp]`
 >>
 >> ###### Weapons
 >>| **Weapons** | **Type** | **Damage** | **Notes** |
->>| --------------- | ------------ | --------------- | ------------- |
->>| Holy Longbow of the Bear | Piercing |2D6+4 | Two-handed, Holy, Arrows UD12, Range 115 m |
->>| Scimitar | Slashing | D8+4 | Parry, Finesse |
->>| | | | |
->>| | | | |
->>| | | | |
+>>| --------------- | ------------ | --------------- | --------------------- |
+>>| `=this.Weapon1` | `=this.Weapon1type` |  `=this.Weapon1dmg` |`=this.Weapon1notes` |
+>>| `=this.Weapon2` | `=this.Weapon2type` |`=this.Weapon2dmg` | `=this.Weapon2notes` |
+>>| `=this.Weapon3` | `=this.Weapon3type`|`=this.Weapon3dmg` | `=this.Weapon3notes` |
+>>| | | |
+>>| | | |
 >> ###### Crafting Aspects
 >>| Air   | Bane | Boon | Chaos | Dark  | Death |
 >>| ----- | ---- | ---- | ----- | ----- | ----- |
@@ -118,9 +118,9 @@ proficiency3: "**Armor:** Soft Leather"
 >>  ###### Currency
 >>| **⟑-N** | **⟑-A**   |
 >>| ------- | --------- |
->>|`INPUT[text:a-N]`|`INPUT[text:a-a]`|
+>>|`=this.a-N`|`=this.a-a`|
 >>| **⟑-V** | **⟑-M**   |
->>|`INPUT[text:a-v]`|`INPUT[text:a-m]`|
+>>|`=this.a-V`|`=this.a-M`|
 >
 >
 >>[!infobox] %%FAKE TITLE HERE%%
