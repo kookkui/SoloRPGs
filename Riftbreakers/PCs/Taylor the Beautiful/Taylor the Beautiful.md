@@ -189,27 +189,18 @@ Heart4: Ritual
 >
 >>[!dice] %%FAKE TITLE HERE%%
 >> ### Skill Checks
->>| **Skill Name** | **Skill Level** |
->>| :-: | :-: |
->>| **Alchemy** (INT) | `34` |
->>| **Acrobatics** (DEX) | `15` |
->>| **Animal Handling** (CHA) | `14` |
->>| **Athletics** (STR) | `33` |
->>| **Blacksmithing** (DEX) | `35` |
->>| **Command** (CHA) | `14` |
->>| **Gathering** (DEX) | `57` |
->>|**Nature** (INT) | `31` |
->>| **Manipulation** (CHA) | `14` |
+>>| **Skill Name** | **Skill Level** | **Skill Name** | **Skill Level** |
+>>| :-: | :-: |:-: | :-: |
+>>| **Alchemy** (INT) | `34` | **Leatherworking** (DEX) | `38`|
+>>| **Acrobatics** (DEX) | `15` | **Insight** (WIL) | `15` |
+>>| **Animal Handling** (CHA) | `14` | **Dodge** (DEX) | `75` |
+>>| **Athletics** (STR) | `33` | **Perception** (WIL) | `32` |
+>>| **Blacksmithing** (DEX) | `35` |**Performance** (CHA)|`14`|
+>>| **Command** (CHA) | `14` | **Sailing** (DEX) | `15` |
+>>| **Gathering** (DEX) | `57` | **Sailing** (DEX) | `15` |
+>>| **Nature** (INT) | `31` | **Stealth** (DEX) | `38` |
+>>| **Manipulation** (CHA) | `14` | **Survival** (INT) | `54` |
 >>| **Medicine** (INT) | `11` |
->>| **Leatherworking** (DEX) | `38` |
->>| **Insight** (WIL) | `15` |
->>| **Dodge** (DEX) | `75` |
->>| **Perception** (WIL) | `32` |
->>| **Performance** (CHA) | `14` |
->>| **Sailing** (DEX) | `15` |
->>| **Sleight of Hand** (DEX) | `25` |
->>| **Stealth** (DEX) | `38` |
->>| **Survival** (INT) | `53` |
 >
 >>[!dice] %%FAKE TITLE HERE%%
 >>##### Proficiencies

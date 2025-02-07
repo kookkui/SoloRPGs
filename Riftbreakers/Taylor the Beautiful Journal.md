@@ -5700,3 +5700,19 @@ Casting Life Bolt on self
 
 +4 HP 
 
+Resting 
+1d10 [3]
+
+**Survival Check** 53 1d%[22] Crit 
++1 **Survival Check** (54)
+
+Going East
+
+**The Violet Sand - Dangerous Encounters**  Sun Reaper
+
+```statblock
+creature: Sun Reaper
+```
+
+
+
