@@ -160,7 +160,7 @@ checkbox15: true
 >>| **Max Gear Slots**     | `=(this.STR)` | 
 >> ### Skill Checks
 >>| <span style="color:rgb(129, 216, 208)">Skill Name</span>|<span style="color:rgb(129, 216, 208)"> Skill Level</span> |
->>| ------------------------- | ----------- |
+>>| ------------ | ----------- |
 >>| **Alchemy** | `31` |
 >>| **Animal Handling** (CHA `=this.CHA`) | `12` |
 >>| **Command Skills** (CHA `=this.CHA`) | `12` |

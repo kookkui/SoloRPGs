@@ -1,9 +1,5 @@
 ---
-Type: Player
 Art: "![[Character Image Placholder]]"
-Level: 0
-AC: 0
-Prof: 
 HP: 0
 HitDice: d0
 Speed: 0
@@ -64,7 +60,7 @@ Other: |-
   Value: 200A
   Aspects: Chaos Life Boon Light
   Quirk: It appears to be completely made of glass. It doesn't make it more fragile than it should be though
-Title69: Backpack
+
 Title1: Quiver
 Title2: Torch Ud10
 Title3: Bandage Ud12
@@ -77,8 +73,11 @@ Title9: Lantern
 Title10: Aetheryte
 Title11: "Stoneskin Potion. For the next hour you have +1 Armor, but your Dodge and Acrobatics skills are reduced by -10. Aspects: Stone, Boon"
 Title12: Aetheryte
+Title13: Backpack
 a-N: "355"
-pre1: 62.5
+proficiency1: "**Weapon:** Longbow"
+proficiency2: "**Weapon:** Scimitar"
+proficiency3: "**Armor:** Soft Leather"
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  
@@ -91,7 +90,7 @@ pre1: 62.5
 >>  **Title** |`INPUT[text:Title]` |
 >> **Reputation** | `3` |
 >>  **HP** | **Current:**`32` **Max:** `=this.CON*3`
->> **Aether** | `31` /31 |
+>> **Aether** | `31` /`VIEW[{WIL} + {INT}]` |
 >> **Stamina** | `29` /29 |
 >> **Armor** | <span style="color:rgb(255, 128, 31)">D4+3</span>  |
 >> **XP** | `VIEW[{xp}][text]`
@@ -99,12 +98,12 @@ pre1: 62.5
 >>
 >> ###### Weapons
 >>| **Weapons** | **Type** | **Damage** | **Notes** |
->>| ---------------------- | ---------------- | --------------- | ------------- |
->>| Holy Longbow of the Bear  | Piercing                |2D6+4           | Two-handed, Holy, Arrows UD12, Range 115 m              |
->>| Scimitar                 | Slashing                |      D8+4        | Parry, Finesse            |
->>|            |             |            |               |
->>|                        |                  |                 |                 |
->>|                        |                  |                 |                 |
+>>| --------------- | ------------ | --------------- | ------------- |
+>>| Holy Longbow of the Bear | Piercing |2D6+4 | Two-handed, Holy, Arrows UD12, Range 115 m |
+>>| Scimitar | Slashing | D8+4 | Parry, Finesse |
+>>| | | | |
+>>| | | | |
+>>| | | | |
 >> ###### Crafting Aspects
 >>| Air   | Bane | Boon | Chaos | Dark  | Death |
 >>| ----- | ---- | ---- | ----- | ----- | ----- |
@@ -126,85 +125,74 @@ pre1: 62.5
 >
 >>[!infobox] %%FAKE TITLE HERE%%
 >> ### Stats
->> |        |         |            |            |
+>> | | | | |
 >>| ---- | ---- | ------ | ------ |
->>| **Strength**     | `=this.STR` | **Brawn**        | `=this.STR*5` |
->>| **Dexterity**    | `=this.DEX`| **Coordination** | `=this.DEX*5` |
->>| **Constitution** |`=this.CON` | **Vitality**     |`=this.CON*5` |
+>>| **Strength** | `=this.STR` | **Brawn** | `=this.STR*5` |
+>>| **Dexterity** | `=this.DEX`| **Coordination** | `=this.DEX*5` |
+>>| **Constitution** |`=this.CON` | **Vitality** |`=this.CON*5` |
 >>| **Will** | `=this.WIL` | **Tenacity** |`=this.WIL*5` |
->>| **Intelligence** | `=this.INT` | **Intellect**    | `=this.INT*5`  |
->>| **Charisma**     | `=this.CHA` | **Charm**        | `=this.CHA*5` |
->>| **STR Damage**   |   | **DEX Damage**   |+4  |
->>| **Luck**        | 5 |  **WIL Damage**  | +1 |
->>|     **Speed**   | 15/30| **Persistence** |`=this.PER`| 
+>>| **Intelligence** | `=this.INT` | **Intellect** | `=this.INT*5` |
+>>| **Charisma** | `=this.CHA` | **Charm** | `=this.CHA*5` |
+>>| **STR Damage** | | **DEX Damage** |+4 |
+>>| **Luck** | 5 | **WIL Damage** | +1 |
+>>| **Speed** | `=this.DEX`/`=this.DEX*2`| **Persistence** |`=this.PER`|
 >> ### Skill Checks
 >>| **Skill Name**                | **Skill Level** |
 >>| ------------------------- | ----------- |
->>| **Alchemy** (INT)         | `34`           |
->>| **Acrobatics** (DEX)      | `15`           |
->>| **Animal Handling** (CHA) | `14`           |
->>| **Athletics** (STR)       | `33`           |
->>| **Blacksmithing** (DEX)   | `35`           |
->>| **Command** (CHA)         | `14`           |
->>| **Gathering** (DEX)       | `57`           |
->>|**Nature** (INT)          | `31`           |
->>| **Manipulation** (CHA)    | `14`           |
->>| **Medicine** (INT)        | `11`           |
->>| **Leatherworking** (DEX)  | `38`           |
->>| **Insight** (WIL)         | `15`           |
->>| **Dodge** (DEX)           | `75`           |
->>| **Perception** (WIL)      | `32`           |
->>| **Performance** (CHA)     | `14`           |
->>| **Sailing** (DEX)         | `15`           |
->>| **Sleight of Hand** (DEX) | `25`           |
->>| **Stealth** (DEX)         | `38`           |
->>| **Survival** (INT)        | `53`           |
+>>| **Alchemy** (INT) | `34` |
+>>| **Acrobatics** (DEX) | `15` |
+>>| **Animal Handling** (CHA) | `14` |
+>>| **Athletics** (STR) | `33` |
+>>| **Blacksmithing** (DEX) | `35` |
+>>| **Command** (CHA) | `14` |
+>>| **Gathering** (DEX) | `57` |
+>>|**Nature** (INT) | `31` |
+>>| **Manipulation** (CHA) | `14` |
+>>| **Medicine** (INT) | `11` |
+>>| **Leatherworking** (DEX) | `38` |
+>>| **Insight** (WIL) | `15` |
+>>| **Dodge** (DEX) | `75` |
+>>| **Perception** (WIL) | `32` |
+>>| **Performance** (CHA) | `14` |
+>>| **Sailing** (DEX) | `15` |
+>>| **Sleight of Hand** (DEX) | `25` |
+>>| **Stealth** (DEX) | `38` |
+>>| **Survival** (INT) | `53` |
 >>##### Proficiencies
->>`INPUT[textArea:Proficiencies]`
+>> |        |         |   
+>>| :-: | :----- |
+>>| 1 | `=this.proficiency1` |
+>>| 2 | `=this.proficiency2` |
+>>| 3 | `=this.proficiency3` |
+>>| 4 | `=this.proficiency4` |
+>>| 5 | `=this.proficiency5` |
+>>| 6 |`=this.proficiency6` |
+>>| 7 | `=this.proficiency7` |
 >
 >>[!table] %%FAKE TITLE HERE%%
->> ### Inventory
->>|  1  | `INPUT[text:Title69]`                                                                                                                             |
->>| :-: | :----------------------------------------------------------------------------------------------------------------------------------- |
->>|  2  | `INPUT[text:Title1]`                                                                                                                  |
->>|  3  | `INPUT[text:Title2]`                                                                                                                   |
->>|  4  | `INPUT[text:Title3]`                                                                                                                  |
->>|  5  | `INPUT[text:Title4]`                                                                                                                   |
->>|  6  |`INPUT[text:Title5]`                                                                                                                  |
->>|  7  | `INPUT[text:Title6]`                                                                                                                   |
->>|  8  | `INPUT[text:Title7]`                                                                                                           |
->>|  9  | `INPUT[text:Title8]`                                                                                                             |
->>| 10  | `INPUT[text:Title9]`                                                                                                                |
->>| 11  | `INPUT[text:Title10]`                                                                                                                 |
->>| 12  | `INPUT[text:Title11]`                                                                                                             |
->>| 13  | `INPUT[text:Title12]`                                                                        |
->>| 14  | `INPUT[text:Title13]`                                                                                                             |
->>| 15  |  `INPUT[text:Title14]`                                                                                                                |
->>| 16  |  `INPUT[text:Title1416]`                                                                                                                |
->>| 17  |  `INPUT[text:Title1417]`                                                                                                                   |
->>| 18  |   `INPUT[text:Title1418]`                                                                                                                   |
->>| 19  |    `INPUT[text:Title1419]`                                                                                                                 |
->>| 20  |    `INPUT[text:Title1420]`                                                                                                                 |
->>| 21  |    `INPUT[text:Title1421]`                                                                                                                |
->>| 22  |     `INPUT[text:Title1422]`                                                                                                                   |
->>| 23  |      `INPUT[text:Title143]`                                                                                                                               |
->>| 24  |    `INPUT[text:Title1424]`                                                                                                                                  |
->>| 25  |   `INPUT[text:Title1425]`                                                                                                                                  |
->>| 26  |   `INPUT[text:Title1426]`                                                                                                                                   |
->>| 27  |   `INPUT[text:Title1427]`                                                                                                                                   |
->>| 28  |    `INPUT[text:Title1428]`                                                                                                                                  |
->>| 29  |    `INPUT[text:Title1431]`                                                                                                                                  |
->>| 30  |    `INPUT[text:Title1430]`                                                                                                                                 |
->>| 31  |    `INPUT[text:Title1432]`                                                                                                                                  |
->>| 32  |   `INPUT[text:Title1433]`                                                                                                                                   |
->>| 33  |    `INPUT[text:Title1434]`                                                                                                                                  |
->>| 34  |    `INPUT[text:Title1435]`                                                                                                                                  |
->>| 35  |    `INPUT[text:Title1436]`                                                                                                                                  |
->>| 36  |    `INPUT[text:Title1437]`                                                                                                                                  |
->>| 37  |     `INPUT[text:Title1438]`                                                                                                                                 |
->>| 38  |     `INPUT[text:Title1439]`                                                                                                                                 |
->>| 39  |       `INPUT[text:Title1440]`                                                                                                                               |
->>| 40  |         `INPUT[text:Title1441]`                                                                                                                                                                       
+>>### Inventory
+>>| Slot | Encumbering Items | Slot | Encumbering Items 
+>>| :-: | :---------------- |--------|--------|
+>>|1|`INPUT[text:title1]` |21|`INPUT[text:title21]`|
+>>|2|`INPUT[text:title2]`|22|`INPUT[text:title22]`|
+>>|3|`INPUT[text:title3]`|23|`INPUT[text:title23]`|
+>>|4|`INPUT[text:title4]`|24|`INPUT[text:title24]`|
+>>|5|`INPUT[text:title5]`|25|`INPUT[text:title25]`|
+>>|6|`INPUT[text:title6]`|26|`INPUT[text:title26]`|
+>>|7|`INPUT[text:title7]`|27|`INPUT[text:title27]`|
+>>|8|`INPUT[text:title8]`|28|`INPUT[text:title28]`|
+>>|9|`INPUT[text:title9]`|29|`INPUT[text:title29]`
+>>|10|`INPUT[text:title10]`|30|`INPUT[text:title30]`|
+>>|11|`INPUT[text:title11]`|31|`INPUT[text:title31]`|
+>>|12|`INPUT[text:title12]`|32|`INPUT[text:title32]`|
+>>|13|`INPUT[text:title13]`|33|`INPUT[text:title33]`|
+>>|14|`INPUT[text:title14]`|34|`INPUT[text:title34]`|
+>>|15|`INPUT[text:title15]`|35|`INPUT[text:title35]`|
+>>|16|`INPUT[text:title16]`|36|`INPUT[text:title36]`|
+>>|17|`INPUT[text:title17]`|37|`INPUT[text:title37]`|
+>>|18|`INPUT[text:title18]`|38|`INPUT[text:title38]`|
+>>|19|`INPUT[text:title19]`|39|`INPUT[text:title39]`|
+>>|20|`INPUT[text:title20]`|40|`INPUT[text:title40]`| 
 
 >[!seealso] %%FAKE TITLE HERE%%
 >>[!important] %%FAKE TITLE HERE%%
