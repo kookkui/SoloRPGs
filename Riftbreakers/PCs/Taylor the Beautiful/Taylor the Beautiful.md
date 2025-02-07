@@ -7,29 +7,13 @@ Prof:
 HP: 0
 HitDice: d0
 Speed: 0
-STR: 0
-DEX: 0
-CONST: 0
-INT: 0
-WIS: 0
-CHA: 0
-Race: RaceName
-Alignment: NONE
-Gender: GenderName
-Age: "0"
-Location: NONE
-Class: ClassName
-Subclass: SubClassName
-AssociatedGroup: NONE
-Likes: NONE
-Dislikes: NONE
-Pronouns: NONE
-PersonalityTrait:
-  - NONE
-SocialTrait:
-  - NONE
-MentalTrait:
-  - NONE
+STR: 10
+DEX: 16
+CON: 18
+INT: 12
+WIL: 11
+CHA: 14
+Per1:
 Proficiencies: |-
   Weapons: Longbow, Scimitar
   Armor: Soft Leather
@@ -105,7 +89,7 @@ a-N: "355"
 >> **Rank** |`INPUT[suggester(option(Novice), option(Apprentice), option(Veteran), option(Master)):exampleProperty]` |
 >>  **Title** |`INPUT[text:Title]` |
 >> **Reputation** | `3` |
->>  **HP** | `32` /32
+>>  **HP** | **Current:**`32` **Max:** `=this.CONST*3
 >> **Aether** | `31` /31 |
 >> **Stamina** | `29` /29 |
 >> **Armor** | <span style="color:rgb(255, 128, 31)">D4+3</span>  |
@@ -143,15 +127,15 @@ a-N: "355"
 >> ### Stats
 >> |        |         |            |            |
 >>| ---- | ---- | ------ | ------ |
->>| **Strength**     | 10 | **Brawn**        | 50 |
->>| **Dexterity**    | 16 | **Coordination** | 80 |
->>| **Constitution** | 18 | **Vitality**     | 90 |
->>| **Will**         | 12 | **Tenacity**     |60|
->>| **Intelligence** | 11 | **Intellect**    | 55 |
->>| **Charisma**     | 14 | **Charm**        | 70 |
+>>| **Strength**     | `=this.STR` | **Brawn**        | `=this.STR*5` |
+>>| **Dexterity**    | `=this.DEX`| **Coordination** | `=this.DEX*5` |
+>>| **Constitution** |`=this.CON` | **Vitality**     |`=this.CON*5` |
+>>| **Will** | `=this.WIL` | **Tenacity** |`=this.WIL*5` |
+>>| **Intelligence** | `=this.INT` | **Intellect**    | `=this.INT*5`  |
+>>| **Charisma**     | `=this.CHA` | **Charm**        | `=this.CHA*5` |
 >>| **STR Damage**   |   | **DEX Damage**   |+4  |
 >>| **Luck**        | 5 |  **WIL Damage**  | +1 |
->>|     **Speed**   | 15/30| **Persistence** | 65|
+>>|     **Speed**   | 15/30| **Persistence** |65| 
 >> ### Skill Checks
 >>| **Skill Name**                | **Skill Level** |
 >>| ------------------------- | ----------- |
@@ -269,3 +253,9 @@ actions:
   value: getMetadata('xp') + getMetadata('axp')
 
 ```
+
+
+
+
+
+`VIEW[({CHA} + {WIL})/2*5][math]`
