@@ -5696,10 +5696,7 @@ Coordination Check 70 1d%
 +25 XP
 +50⟑
 
+Casting Life Bolt on self 
 
++4 HP 
 
-glovesname:
-glovesmagic:
-glovesquirk:
-glovesrank:
-glovesnotes:

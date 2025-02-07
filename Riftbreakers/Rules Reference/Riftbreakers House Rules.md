@@ -26,7 +26,7 @@
 
 ## Overland:
 
-- When traveling overland each a **Survival check** must be preformed to be able to pick a direction. Failure results in having to use the [[SoloRPGs/Riftbreakers/Tables/General Tables#^c0cced]] table.
+- When traveling overland each a **Survival check** must be preformed to be able to pick a direction. Failure results in having to use the `dice:[[SoloRPGs/Riftbreakers/Tables/General Tables#^c0cced]]` table.
 
 - Resting requires a D10 check. On 7+ (6+ in a Rift) the rest is interrupted and an encounter is rolled. After the encounter, +1 fatigue is applied.
 

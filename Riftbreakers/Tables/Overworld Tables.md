@@ -1,31 +1,31 @@
-| dice: 1d10 | Travel - Interesting Location                                                                                                                                                                                                                                                                                                                                                                                                    |
-| ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1          | Lost Ruins. The party stumbles upon a crumbling complex of ruins, long forgotten by any civilization. The mossy walls and collapsed roofs suggest that the place has been abandoned for centuries. The ruins are actually an entrance to a pocket dimension. If the party decides to explore it, use the Timeworn Ruins Rift generation rules and tables                                                                         |
-| 2          | Mysterious Cave. The party finds a small cave that seems to lead deep into the earth. The walls are slick and damp, and the air is cool and musty. The cave seems to go on forever, with no end in sight. This cave is actually an entrance to a pocket dimension. If the party decides to explore it, use the Underground Cave System Rift generation rules and tables                                                          |
-| 3          | Deserted Village. A village, once bustling with life, now stands empty and abandoned. The buildings are in disrepair, and the streets are littered with debris. The only sounds are the distant howls of wolves. A character can perform a Perception check; if they succeed, they find a trapped adventurer inside a collapsed building. The party can hire the adventurer as a Follower                                        |
-| 4          | Elemental Nexus. The players stumble upon a place where the elemental energies of the world converge. The nexus is a dangerous place, full of unpredictable and volatile magic. A party member can make a Perception check; if successful, they find a Clarity Essence                                                                                                                                                           |
-| 5          | Traveling Market. The party comes across a heavily guarded market, set up there so that locals can come and trade their goods, They can buy or sell any goods, as if they were in Kar Helos                                                                                                                                                                                                                                      |
-| 6          | Crystal Cavern. A natural cavern illuminated by large, glowing crystals that sprout from the walls and ceiling. The crystals pulsate with energy, bathing the cavern in a multicolored light. Strange noises can be heard emanating from the depths of the cavern. This cave is actually an entrance to a pocket dimension. If the party decides to explore it, use the Underground Cave System Rift generation rules and tables |
-| 7          | Memory Tree. A massive, ancient tree that has the power to read and share memories. The tree is guarded by sentient plant-beings who make sure the intentions of those who approach the tree are pure. PCs must make a Persuasion check to convince the guardians, if they do so, they are allowed access to the tree, earning 50 XP as a surge of strange memories and experiences becomes theirs                               |
-| 8          | Frozen Well. A deep well that has frozen over from the bottom up. Strange patterns and symbols can be seen etched into the ice. A successful Literacy charges the character who read it, granting them +10 temporary Stamina and Aether. Once spent, this extra power is gone                                                                                                                                                    |
-| 9          | Stone Circle. A circle of standing stones that emit a strange energy, making the party members feel either at ease or extremely jittery. Each PC rolls D6: 1-3 they act with +5 for the next 24 hours; 4-6 they act with -5 for the next 24 hours                                                                                                                                                                                |
-| 10         | Shortcut. The party finds a shortcut that reduces their travel time by half                                                                                                                                                                                                                                                                                                                                                      |
+| `dice:1d10` | Travel - Interesting Location |
+| :-: | :-: |
+| 1 | Lost Ruins. The party stumbles upon a crumbling complex of ruins, long forgotten by any civilization. The mossy walls and collapsed roofs suggest that the place has been abandoned for centuries. The ruins are actually an entrance to a pocket dimension. If the party decides to explore it, use the Timeworn Ruins Rift generation rules and tables |
+| 2 | Mysterious Cave. The party finds a small cave that seems to lead deep into the earth. The walls are slick and damp, and the air is cool and musty. The cave seems to go on forever, with no end in sight. This cave is actually an entrance to a pocket dimension. If the party decides to explore it, use the Underground Cave System Rift generation rules and tables |
+| 3 | Deserted Village. A village, once bustling with life, now stands empty and abandoned. The buildings are in disrepair, and the streets are littered with debris. The only sounds are the distant howls of wolves. A character can perform a Perception check; if they succeed, they find a trapped adventurer inside a collapsed building. The party can hire the adventurer as a Follower |
+| 4 | Elemental Nexus. The players stumble upon a place where the elemental energies of the world converge. The nexus is a dangerous place, full of unpredictable and volatile magic. A party member can make a Perception check; if successful, they find a Clarity Essence |
+| 5 | Traveling Market. The party comes across a heavily guarded market, set up there so that locals can come and trade their goods, They can buy or sell any goods, as if they were in Kar Helos |
+| 6 | Crystal Cavern. A natural cavern illuminated by large, glowing crystals that sprout from the walls and ceiling. The crystals pulsate with energy, bathing the cavern in a multicolored light. Strange noises can be heard emanating from the depths of the cavern. This cave is actually an entrance to a pocket dimension. If the party decides to explore it, use the Underground Cave System Rift generation rules and tables |
+| 7 | Memory Tree. A massive, ancient tree that has the power to read and share memories. The tree is guarded by sentient plant-beings who make sure the intentions of those who approach the tree are pure. PCs must make a Persuasion check to convince the guardians, if they do so, they are allowed access to the tree, earning 50 XP as a surge of strange memories and experiences becomes theirs |
+| 8 | Frozen Well. A deep well that has frozen over from the bottom up. Strange patterns and symbols can be seen etched into the ice. A successful Literacy charges the character who read it, granting them +10 temporary Stamina and Aether. Once spent, this extra power is gone |
+| 9 | Stone Circle. A circle of standing stones that emit a strange energy, making the party members feel either at ease or extremely jittery. Each PC rolls D6: 1-3 they act with +5 for the next 24 hours; 4-6 they act with -5 for the next 24 hours |
+| 10 | Shortcut. The party finds a shortcut that reduces their travel time by half                                                                                                                                                                                                                                                                                                                                                    |
 
 ^8d63ce
 
 
-| dice: D20 | Novice - Random Enemy Rank |
-| --------- | -------------------------- |
-| 1-15      | Novice                     |
-| 16-17     | Apprentice                 |
-| 18-19     | Veteran                    |
-| 20        | Master                     |
+| `dice:d20` | Novice - Random Enemy Rank |
+| :-: | :-: |
+| 1-15     | Novice                     |
+| 16-17    | Apprentice                 |
+| 18-19    | Veteran                    |
+| 20       | Master                     |
 
 ^166f52
 
 
-| dice: D20 | Apprentice - Random Enemy Rank |
-| --------- | ------------------------------ |
+| `dice:d20` | Apprentice - Random Enemy Rank |
+| :-: | :-: |
 | 1-15      | Apprentice                     |
 | 16-17     | Veteran                        |
 | 18-19     | Novice                         |
@@ -33,7 +33,7 @@
 
 
 
-| dice: D20 | Veteran - Random Enemy Rank |
+| `dice:d20` | Veteran - Random Enemy Rank |
 | --------- | --------------------------- |
 | 1-15      | Veteran                     |
 | 16-17     | Master                      |
@@ -41,14 +41,14 @@
 | 20        | Novice                      |
 
 
-| dice: D20 | Master - Random Enemy Rank |
+| `dice:d20` | Master - Random Enemy Rank |
 | --------- | -------------------------- |
 | 1-15      | Master                     |
 | 16-17     | Veteran                    |
 | 18-19     | Apprentice                 |
 | 20        | Novice                     |
 
-| dice: 1d20 | Travel - Arenmist Forest: Intersting Finds and Encounters                                                                    |
+| `dice:d20` | Travel - Arenmist Forest: Intersting Finds and Encounters                                                                    |
 | ---------- | ---------------------------------------------------------------------------------------------------------------------------- |
 | 1          | A hidden glade filled with bioluminescent mushrooms                                                                          |
 | 2          | A small, hidden stream surrounded by fruit-bearing trees                                                                     |
@@ -72,7 +72,7 @@
 
 ^81f9c6
 
-| dice: 1d10 | Travel - Arenmist Forest: Dangerous Encounters |
+| `dice:d10` | Travel - Arenmist Forest: Dangerous Encounters |
 | ---------- | ---------------------------------------------- |
 | 1-10       | Bandits                                        |
 | 11         | Ancient Ent                                    |
@@ -86,7 +86,7 @@
 | 19         | Thorn Beast                                    |
 | 20         | Spirit Bear                                    |
 
-| dice: 1d10 | Travel - Kar Helos: Dangerous Encounters |
+| `dice:d10` | Travel - Kar Helos: Dangerous Encounters |
 | ---------- | ---------------------------------------- |
 | 1-10       | Bandits                                  |
 | 11-20      | Cutpurses                                |
@@ -95,7 +95,7 @@
 
 
 
-| dice: 1d20 | Travel - Kar Helos: Intersting Finds and Encounters                                                                                                |
+| `dice:d20` | Travel - Kar Helos: Intersting Finds and Encounters                                                                                                |
 | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1          | A street performer putting on an impromptu show                                                                                                    |
 | 2          | You stumble upon a community fair or festival being held in the farmlands                                                                          |

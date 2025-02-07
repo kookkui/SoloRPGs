@@ -59,12 +59,12 @@ beltnotes:
 pantsname: 
 pantsmagic: 
 pantsquirk: 
-pantsnotes:
-glovesname:
-glovesmagic:
-glovesquirk:
-glovesrank:
-glovesnotes:
+pantsnotes: 
+glovesname: 
+glovesmagic: 
+glovesquirk: 
+glovesrank: 
+glovesnotes: 
 bootname: Victorious Gloves of the Whisper
 bootmagic: Constitution +1 Charisma +1
 bootquirk: Smells like rotten flesh
@@ -126,7 +126,7 @@ Heart4: Ritual
 >> **Rank** |`INPUT[suggester(option(Novice), option(Apprentice), option(Veteran), option(Master)):rank]` |
 >>  **Title** |`=this.Title` |
 >> **Reputation** | `3` |
->>  **HP** | **Current:**`32` **Max:** `=this.CON*3`
+>>  **HP** | **Current:**`36` **Max:** `=this.CON*3`
 >> **Aether** | `31` /`VIEW[{WIL} + {INT} + 8]` |
 >> **Stamina** | `36` /`VIEW[{STR} + {CON}+ 8]` |
 >> **Armor Rating** | `=this.Armor` |
@@ -190,7 +190,7 @@ Heart4: Ritual
 >>[!dice] %%FAKE TITLE HERE%%
 >> ### Skill Checks
 >>| **Skill Name** | **Skill Level** |
->>| ------------------------- | ----------- |
+>>| :-: | :-: |
 >>| **Alchemy** (INT) | `34` |
 >>| **Acrobatics** (DEX) | `15` |
 >>| **Animal Handling** (CHA) | `14` |
@@ -397,11 +397,11 @@ Heart4: Ritual
 >>[!npc]  %%FAKE TITLE HERE%%
 >>### Heart Abilities
 >>
->>| **Ability Name** | Life Bolt  | **Type**  | Holy, Attack, Support |
->>|:------------:|:----------:|:-----:|:---------------------:|
->>|     **Rank**     |   Novice   |  **XP**   |                       |
->>|     **Cost**     |    2 MP    | **Heart** |  Talent, Restoration  |
->>|   **Actions**    | 1 Required | **Range** |         30 m          |  
+>>| **Ability Name** | Life Bolt | **Type** | Holy, Attack, Support |
+>>|:-:|:----------:|:-----:|:---------------------:|
+>>| **Rank** | Novice | **XP** | |
+>>| **Cost** | 2 MP | **Heart** | Talent, Restoration |
+>>| **Actions** | 1 Required | **Range** | 30 m        |  
 >>&nbsp;
 >> 
 >>
@@ -420,11 +420,11 @@ Heart4: Ritual
 >>
 >>&nbsp
 >>
->>| **Ability Name** | Twin Shots | **Type**  | Martial, Attack |
->>| ---------------- | ---------- | --------- | --------------- |
->>| **Rank**         | Novice     | **XP**    |                 |
->>| **Cost**         | 4 ST       | **Heart** | Talent, Arrow   |
->>| **Actions**      | 1 Required | **Range** | Weapon's Range  |
+>>| **Ability Name** | Twin Shots | **Type** | Martial, Attack |
+>>| :-: | :-: | :-: | :-: |
+>>| **Rank** | Novice | **XP** | |
+>>| **Cost** | 4 ST | **Heart** | Talent, Arrow |
+>>| **Actions** | 1 Required | **Range** | Weapon's Range |
 >>
 >>&nbsp
 >>You can perform two ranged attacks with a single Standard Action against the same target, each one suffering -10 to the attack check.
