@@ -19,16 +19,21 @@ Weapon2dmg: D8+4
 Weapon2type: Slashing
 Weapon2notes: Parry, Finesse
 Weapon3: 
-Weapon3type:
-Weapon3dmg:
+Weapon3type: 
+Weapon3dmg: 
 Weapon3notes: 
 exampleProperty: Apprentice
 axp: 100
 xp: 1575
 a-N: "355"
-a-a:
-a-V:
-a-M:
+a-a: 
+a-V: 
+a-M: 
+gear1name: Champion's Ring of the Snake 
+gear1magic: Dexterity +1, Reduce your Stamina pool by 5 (26), but increase your Aether pool by 8 (23)
+gear1magic2: You no longer need to eat or drink.
+gear1quirk: It's always pristine
+gear1notes: Air Life 2x Boon Bane 300A
 Ring1: |
   Name: Champion's Ring of the Snake
   Magic: Dexterity +1, Reduce your Stamina pool by 5 (26), but increase your Aether pool by 8 (23). You no longer need to eat or drink.
@@ -61,23 +66,24 @@ Other: |-
   Value: 200A
   Aspects: Chaos Life Boon Light
   Quirk: It appears to be completely made of glass. It doesn't make it more fragile than it should be though
-
-title1: Quiver
-title2: Torch Ud10
-title3: Bandage Ud12
-title4: arrows ud12
-title5: rations x 2
-title6: rough leather x 10
-title7: extra-dimensional bag x 0
-title8: ascended essence (prime)
-title9: lantern
-title10: aetheryte
-title11: "stoneskin potion. for the next hour you have +1 armor, but your dodge and acrobatics skills are reduced by -10. aspects: stone, boon"
-title12: aetheryte
-title13: backpack
+title1: Backpack
+title2: Extra-Dimensional bag x 0
+title3: Quiver
+title4: Bandage Ud12
+title5: Arrows ud12
+title6: Rations x 2
+title7: Torch Ud10
+title8: Ascended Essence (prime)
+title9: Lantern
+title10: Aetheryte
+title11: "Stoneskin Potion. for the next hour you have +1 armor, but your dodge and acrobatics skills are reduced by -10. aspects: stone, boon"
+title12: Aetheryte
+title13: Rough Eather x 10
 proficiency1: "**Weapon:** Longbow"
 proficiency2: "**Weapon:** Scimitar"
 proficiency3: "**Armor:** Soft Leather"
+title21: ""
+title15: ""
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  
@@ -121,9 +127,9 @@ proficiency3: "**Armor:** Soft Leather"
 >>|`=this.a-N`|`=this.a-a`|
 >>| **⟑-V** | **⟑-M**   |
 >>|`=this.a-V`|`=this.a-M`|
->
->
->>[!infobox] %%FAKE TITLE HERE%%
+
+>[!important] %%FAKE TITLE HERE%%
+>>[!important] %%FAKE TITLE HERE%%
 >> ### Stats
 >> | | | | |
 >>| ---- | ---- | ------ | ------ |
@@ -136,8 +142,10 @@ proficiency3: "**Armor:** Soft Leather"
 >>| **STR Damage** | | **DEX Damage** |+4 |
 >>| **Luck** | 5 | **WIL Damage** | +1 |
 >>| **Speed** | `=this.DEX`/`=this.DEX*2`| **Persistence** |`=this.PER`|
+>
+>>[!important] %%FAKE TITLE HERE%%
 >> ### Skill Checks
->>| **Skill Name**                | **Skill Level** |
+>>| **Skill Name** | **Skill Level** |
 >>| ------------------------- | ----------- |
 >>| **Alchemy** (INT) | `34` |
 >>| **Acrobatics** (DEX) | `15` |
@@ -158,6 +166,8 @@ proficiency3: "**Armor:** Soft Leather"
 >>| **Sleight of Hand** (DEX) | `25` |
 >>| **Stealth** (DEX) | `38` |
 >>| **Survival** (INT) | `53` |
+>
+>>[!infobox] %%FAKE TITLE HERE%%
 >>##### Proficiencies
 >> |        |         |   
 >>| :-: | :----- |
@@ -168,7 +178,9 @@ proficiency3: "**Armor:** Soft Leather"
 >>| 5 | `=this.proficiency5` |
 >>| 6 |`=this.proficiency6` |
 >>| 7 | `=this.proficiency7` |
->
+>>
+
+>[!table] %%FAKE TITLE HERE%%
 >>[!table] %%FAKE TITLE HERE%%
 >>### Inventory
 >>| Slot | Encumbering Items | Slot | Encumbering Items 
@@ -181,7 +193,7 @@ proficiency3: "**Armor:** Soft Leather"
 >>|6|`INPUT[text:title6]`|26|`INPUT[text:title26]`|
 >>|7|`INPUT[text:title7]`|27|`INPUT[text:title27]`|
 >>|8|`INPUT[text:title8]`|28|`INPUT[text:title28]`|
->>|9|`INPUT[text:title9]`|29|`INPUT[text:title29]`
+>>|9|`INPUT[text:title9]`|29|`INPUT[text:title29]`|
 >>|10|`INPUT[text:title10]`|30|`INPUT[text:title30]`|
 >>|11|`INPUT[text:title11]`|31|`INPUT[text:title31]`|
 >>|12|`INPUT[text:title12]`|32|`INPUT[text:title32]`|
@@ -193,6 +205,33 @@ proficiency3: "**Armor:** Soft Leather"
 >>|18|`INPUT[text:title18]`|38|`INPUT[text:title38]`|
 >>|19|`INPUT[text:title19]`|39|`INPUT[text:title39]`|
 >>|20|`INPUT[text:title20]`|40|`INPUT[text:title40]`| 
+
+>[!failure] %%FAKE TITLE HERE%%
+>>[!failure] %%FAKE TITLE HERE%%
+>>## Gear
+>> &nbsp;
+>>
+>>### Head
+>>|     |     |
+>>|--- | --- |
+>>|**Name** | `=this.gear1name`|
+>>|**Magic** |  `=this.gear1magic`|
+>>|   | `=this.gear1magic2` | 
+>>|**Quirk** |  `=this.gear1quirk`|
+>>| **Rank**     | `=this.gear1rank` | 
+>>| **Rank**     | `=this.gear1notes` | 
+>> 
+>> &nbsp;
+>>### Head
+>>|     |     |
+>>|--- | --- |
+>>|**Name** | `=this.gear1name`|
+>>|**Magic** |  `=this.gear1magic`|
+>>|   | `=this.gear1magic2` | 
+>>|**Quirk** |  `=this.gear1quirk`|
+>>| **Rank**     | `=this.gear1rank` | 
+>>| **Rank**     | `=this.gear1notes` | 
+
 
 >[!seealso] %%FAKE TITLE HERE%%
 >>[!important] %%FAKE TITLE HERE%%
