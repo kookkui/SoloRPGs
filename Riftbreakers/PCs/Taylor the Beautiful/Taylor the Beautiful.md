@@ -225,8 +225,8 @@ Heart4: Ritual
 >>|19|`INPUT[text:title19]`|39|`INPUT[text:title39]`|
 >>|20|`INPUT[text:title20]`|40|`INPUT[text:title40]`| 
 
->[!table] %%FAKE TITLE HERE%%
->>[!dice] [!table]%%FAKE TITLE HERE%%
+>[!travel] %%FAKE TITLE HERE%%
+>>[!travel] %%FAKE TITLE HERE%%
 >>## Gear
 >> &nbsp;
 >>
@@ -328,8 +328,8 @@ Heart4: Ritual
 >>| **Rank** | `=this.gear9rank` |
 >>| **Notes** | `=this.gear9notes` |
 
->[!gear] %%FAKE TITLE HERE%%
->>[!travel] %%FAKE TITLE HERE%%
+>[!dice] %%FAKE TITLE HERE%%
+>>[!dice] %%FAKE TITLE HERE%%
 >>## Hearts
 >> |        |     |   
 >>| :-: | :----- |
@@ -353,8 +353,8 @@ Heart4: Ritual
 >>| 10 | `=this.passive9` |
 >>
 
->[!travel] %%FAKE TITLE HERE%%
->>[!travel] %%FAKE TITLE HERE%%
+>[!thing] %%FAKE TITLE HERE%%
+>>[!gear]  %%FAKE TITLE HERE%%
 >>### Heart Abilities
 >>
 >>| **Ability Name** | Life Bolt  | **Type**  | Holy, Attack, Support |
