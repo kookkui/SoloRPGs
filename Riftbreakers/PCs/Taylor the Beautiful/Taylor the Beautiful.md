@@ -7,9 +7,7 @@ INT: 12
 WIL: 11
 CHA: 14
 PER: 65
-Proficiencies: |-
-  Weapons: Longbow, Scimitar
-  Armor: Soft Leather
+Armor: D4+3
 Weapon1: Holy Longbow of the Bear
 Weapon1dmg: 2D6+4
 Weapon1type: Piercing
@@ -22,7 +20,7 @@ Weapon3:
 Weapon3type: 
 Weapon3dmg: 
 Weapon3notes: 
-exampleProperty: Apprentice
+rank: Apprentice
 axp: 100
 xp: 1575
 a-N: "355"
@@ -31,65 +29,57 @@ a-V:
 a-M: 
 quest1: "**Rift Closure:** Travel 14 days and close the marked rift. (Sky Islets)."
 quest1t: false
-quest2: "**Escort:** Escort a caravan - distance is 22 travel days."
+quest2: "**Escort:** a caravan distance is 22 travel days."
 quest2t: 
 quest3: "**Patrol:** Patrol the perimeter and wilds for 17 days. Mark any rifts found with a beacon. Roll a d10 each day, on a 1 or 2, there is a rift."
 quest3t: 
-quest4: "**Delivery:** Collect and deliver - 22 Chitinous Plate."
+quest4: "**Collect:** deliver 22 Chitinous Plate."
 quest4t: 
 quest5: "**Rift Closure:** Travel 14 days and close the marked rift. (Timeworn Ruins)."
 quest5t: 
-quest6: "**Patrol:** Patrol the perimeter and wilds for 11 days. Mark any rifts found with a beacon. Roll a d10 each day, on a 1 or 2, there is a rift."
+quest6: "**Patrol:**the perimeter and wilds for 11 days. Mark any rifts found with a beacon. Roll a d10 each day, on a 1 or 2, there is a rift."
 quest6t: 
-quest7: "**Delivery:** Collect and deliver - 13 Fiery Ember."
+quest7: "**Collect:** deliver 13 Fiery Ember."
 quest7t: 
-quest8: "**Escort:** Escort a caravan - distance is 21 travel days."
+quest8: "**Escort:** a caravan distance is 21 travel days."
 quest9: "**Monster Hunt:** Travel 7 days and search for the monster. The type of monster is determined by the region."
 quest10: 
-gear1name: 
-gear1magic: 
-gear1magic2: 
-gear1quirk: 
-gear1notes: 
-gear2name: 
-gear2magic: 
-gear2magic2: 
-gear2quirk: 
-gear2notes: 
-gear3name: 
-gear3magic: 
-gear3magic3: 
-gear3quirk: 
-gear3notes: 
-gear4name: 
-gear4magic: 
-gear4magic4: 
-gear4quirk: 
-gear4notes: 
-gear6name: Victorious Gloves of the Whisper
-gear6magic: Constitution +1 Charisma +1
-gear6magic6: 
-gear6quirk: Smells like rotten flesh
-gear6rank: Novice
-gear6notes: 200A, Air Earth
-gear7name: Champion's Ring of the Snake
-gear7magic: Dexterity +1, Reduce your Stamina pool by 5 (26), but increase your Aether pool by 8 (23). You no longer need to eat or drink.
-gear7magic7: 
-gear7quirk: It's always pristine
-gear7rank: Novice
-gear7notes: 300A Air Life 2x Boon Bane
-gear8name: Mage's Wonderful Ring
-gear8magic: Stamina +8, On command, this item works as a source of light. Illuminates in a 20 m. radius.
-gear8magic8: 
-gear8quirk: It's always covered in a layer of mucus
-gear8rank: Novice
-gear8notes: 300A Fire 2xPower Light
-gear9name: Knight's Glass Stone
-gear9magic: You can detect all living beings in a 20 m. radius. Increase your luck by +5
-gear9magic9: 
-gear9quirk: It appears to be completely made of glass. It doesn't make it more fragile than it should be though
-gear9rank: Novice
-gear9notes: Chaos Life Boon Light 200A  Rarity:Uncommon
+headname: 
+headmagic: 
+headquirk: 
+headnotes: 
+chestname: 
+chestmagic: 
+chestquirk: 
+chestnotes: 
+beltname: 
+beltmagic: 
+beltquirk: 
+beltnotes: 
+pantsname: 
+pantsmagic: 
+pantsquirk: 
+pantsnotes: 
+bootname: Victorious Gloves of the Whisper
+bootmagic: Constitution +1 Charisma +1
+bootquirk: Smells like rotten flesh
+bootrank: Novice
+bootnotes: 200A, Air Earth
+ring1name: Champion's Ring of the Snake
+ring1magic: Dexterity +1, Reduce your Stamina pool by 5 (26), but increase your Aether pool by 8 (23). You no longer need to eat or drink.
+ring1quirk: It's always pristine
+ring1rank: Novice
+ring1notes: 300A Air Life 2x Boon Bane
+ring2name: Mage's Wonderful Ring
+ring2magic: Stamina +8, On command, this item works as a source of light. Illuminates in a 20 m. radius.
+ring2quirk: It's always covered in a layer of mucus
+ring2rank: Novice
+ring2notes: 300A Fire 2xPower Light
+pendantgearname: Knight's Glass Stone
+pendantgearmagic: You can detect all living beings in a 20 m. radius. Increase your luck by +5
+pendantgearquirk: It appears to be completely made of glass. It doesn't make it more fragile than it should be though
+pendantgearrank: Novice
+pendantgearnotes: Chaos Life Boon Light 200A  Rarity:Uncommon
 title1: Backpack
 title2: Extra-Dimensional bag x 0
 title3: Quiver
@@ -103,9 +93,9 @@ title10: Aetheryte
 title11: "Stoneskin Potion. for the next hour you have +1 armor, but your dodge and acrobatics skills are reduced by -10. aspects: stone, boon"
 title12: Aetheryte
 title13: Rough Eather x 10
-proficiency1: "**Weapon:** Longbow"
-proficiency2: "**Weapon:** Scimitar"
-proficiency3: "**Armor:** Soft Leather"
+proficiency1: Longbow
+proficiency2: Scimitar
+proficiency3: Soft Leather
 title21: ""
 title15: ""
 Hearts:
@@ -128,13 +118,13 @@ Heart4: Ritual
 >> ###### Stats
 >>  |
 >> ---|---|
->> **Rank** |`INPUT[suggester(option(Novice), option(Apprentice), option(Veteran), option(Master)):exampleProperty]` |
+>> **Rank** |`INPUT[suggester(option(Novice), option(Apprentice), option(Veteran), option(Master)):rank]` |
 >>  **Title** |`=this.Title` |
 >> **Reputation** | `3` |
 >>  **HP** | **Current:**`32` **Max:** `=this.CON*3`
 >> **Aether** | `31` /`VIEW[{WIL} + {INT} + 8]` |
 >> **Stamina** | `36` /`VIEW[{STR} + {CON}+ 8]` |
->> **Armor** | <span style="color:rgb(255, 128, 31)">D4+3</span>  |
+>> **Armor** | `=this.Armor` |
 >> **XP** | `VIEW[{xp}][text]`
 >>**ADD XP :** `INPUT[number:axp]` `BUTTON[exp]`
 >>
@@ -207,15 +197,15 @@ Heart4: Ritual
 >
 >>[!dice] %%FAKE TITLE HERE%%
 >>##### Proficiencies
->> |        |         |   
->>| :-: | :----- |
->>| 1 | `=this.proficiency1` |
->>| 2 | `=this.proficiency2` |
->>| 3 | `=this.proficiency3` |
->>| 4 | `=this.proficiency4` |
->>| 5 | `=this.proficiency5` |
->>| 6 |`=this.proficiency6` |
->>| 7 | `=this.proficiency7` |
+>> | | |
+>>|:-:| :---: |
+>>| `=this.proficiency1` | `=this.proficiency2` |
+>>| `=this.proficiency3` | `=this.proficiency4` |
+>>| `=this.proficiency4` | `=this.proficiency5` |
+>>| **4** |  |
+>>| **5** |  |
+>>| **6** |`=this.proficiency6` |
+>>| **7** | `=this.proficiency7` |
 >>
 
 ---
@@ -223,9 +213,8 @@ Heart4: Ritual
 >[!travel] %%FAKE TITLE HERE%%
 >>[!travel] %%FAKE TITLE HERE%%
 >>### Quests
->>| | | |
->> |--- | --- | --------- |
->>|**Quest Description** | **Completed** | **Timer/Counter**
+>>|**Quest Description** |**Completed** | **Timer/Counter**|
+>> |:---: | --- | :---------: |
 >>| `=this.quest1` | `INPUT[toggle:quest1t]` | `7/14`
 >> |`=this.quest2` |`INPUT[toggle:quest2t]` | `0/22`
 >>| `=this.quest3` | `INPUT[toggle:quest3t]` | `0/17`
@@ -273,93 +262,93 @@ Heart4: Ritual
 >> &nbsp;
 >>
 >>### Head
->>|     |     |
+>>| | |
 >>|--- | --- |
->>|**Name** | `=this.gear1name`|
->>|**Magic** |  `=this.gear1magic`|
->>|**Quirk** |  `=this.gear1quirk`|
->>| **Rank**     | `=this.gear1rank` | 
->>| **Notes**     | `=this.gear1notes` | 
+>>|**Name** | `=this.headname`|
+>>|**Magic** | `=this.headmagic`|
+>>|**Quirk** | `=this.headquirk`|
+>>| **Rank** | `=this.headrank` |
+>>| **Notes** | `=this.headnotes` |
 >>
 >>&nbsp;
 >>### Chest
->>|     |     |
+>>| | |
 >>|--- | --- |
->>|**Name** | `=this.gear2name`|
->>|**Magic** |  `=this.gear2magic`|
->>|**Quirk** |  `=this.gear2quirk`|
->>| **Rank**     | `=this.gear2rank` | 
->>| **Notes**     | `=this.gear2notes` | 
+>>|**Name** | `=this.chestname`|
+>>|**Magic** | `=this.chestmagic`|
+>>|**Quirk** | `=this.chestquirk`|
+>>| **Rank** | `=this.chestrank` |
+>>| **Notes** | `=this.chestnotes` |
 >> &nbsp;
->> 
+>>
 >>### Belt
->>|     |     |
+>>| | |
 >>|--- | --- |
->>|**Name** | `=this.gear3name`|
->>|**Magic** |  `=this.gear3magic`|
->>|**Quirk** |  `=this.gear3quirk`|
->>| **Rank**     | `=this.gear3rank` | 
->>| **Notes**     | `=this.gear3notes` | 
+>>|**Name** | `=this.beltname`|
+>>|**Magic** | `=this.beltmagic`|
+>>|**Quirk** | `=this.beltquirk`|
+>>| **Rank** | `=this.beltrank` |
+>>| **Notes** | `=this.beltnotes` |
 >> &nbsp;
->> 
+>>
 >>### Pants
->>|     |     |
+>>| | |
 >>|--- | --- |
->>|**Name** | `=this.gear4name`|
->>|**Magic** |  `=this.gear4magic`|
->>|**Quirk** |  `=this.gear4quirk`|
->>| **Rank**     | `=this.gear4rank` | 
->>| **Notes**     | `=this.gear4notes` | 
+>>|**Name** | `=this.pantsname`|
+>>|**Magic** | `=this.pantsmagic`|
+>>|**Quirk** | `=this.pantsquirk`|
+>>| **Rank** | `=this.pantsrank` |
+>>| **Notes** | `=this.pantsnotes` |
 >> &nbsp;
 >>
 >>### Gloves
->>|     |     |
+>>| | |
 >>|--- | --- |
->>|**Name** | `=this.gear6name`|
->>|**Magic** |  `=this.gear6magic`|
->>|**Quirk** |  `=this.gear6quirk`|
->>| **Rank**     | `=this.gear6rank` | 
->>| **Notes**     | `=this.gear6notes` | 
->> &nbsp;
->> 
->>### Boots
->>|     |     |
->>|--- | --- |
->>|**Name** | `=this.gear5name`|
->>|**Magic** |  `=this.gear5magic`|
->>|**Quirk** |  `=this.gear5quirk`|
->>| **Rank**     | `=this.gear5rank` | 
->>| **Notes**     | `=this.gear5notes` | 
->> &nbsp;
->> 
->>### Ring 1
->>|     |     |
->>|--- | --- |
->>|**Name** | `=this.gear7name`|
->>|**Magic** | `=this.gear7magic`|
->>|**Quirk** | `=this.gear7quirk`|
->>| **Rank** | `=this.gear7rank` |
->>| **Notes** | `=this.gear7notes` |
->> &nbsp;
->> 
->>### Ring 2
->>|     |     |
->>|--- | --- |
->>|**Name** | `=this.gear8name`|
->>|**Magic** | `=this.gear8magic`|
->>|**Quirk** | `=this.gear8quirk`|
->>| **Rank** | `=this.gear8rank` |
->>| **Notes** | `=this.gear8notes` |
+>>|**Name** | `=this.glovesname`|
+>>|**Magic** | `=this.glovesmagic`|
+>>|**Quirk** | `=this.glovesquirk`|
+>>| **Rank** | `=this.glovesrank` |
+>>| **Notes** | `=this.glovesnotes` |
 >> &nbsp;
 >>
->>### Other
->>|     |     |
+>>### Boots
+>>| | |
 >>|--- | --- |
->>|**Name** | `=this.gear9name`|
->>|**Magic** | `=this.gear9magic`|
->>|**Quirk** | `=this.gear9quirk`|
->>| **Rank** | `=this.gear9rank` |
->>| **Notes** | `=this.gear9notes` |
+>>|**Name** | `=this.bootname`|
+>>|**Magic** | `=this.bootmagic`|
+>>|**Quirk** | `=this.bootquirk`|
+>>| **Rank** | `=this.bootrank` |
+>>| **Notes** | `=this.bootnotes` |
+>> &nbsp;
+>>
+>>### Ring 1
+>>| | |
+>>|--- | --- |
+>>|**Name** | `=this.ring1name`|
+>>|**Magic** | `=this.ring1magic`|
+>>|**Quirk** | `=this.ring1quirk`|
+>>| **Rank** | `=this.ring1rank` |
+>>| **Notes** | `=this.ring1notes` |
+>> &nbsp;
+>>
+>>### Ring 2
+>>| | |
+>>|--- | --- |
+>>|**Name** | `=this.ring2name`|
+>>|**Magic** | `=this.ring2magic`|
+>>|**Quirk** | `=this.ring2quirk`|
+>>| **Rank** | `=this.ring2rank` |
+>>| **Notes** | `=this.ring2notes` |
+>> &nbsp;
+>>
+>>### Pendant
+>>| | |
+>>|--- | --- |
+>>|**Name** | `=this.pendantgearname`|
+>>|**Magic** | `=this.pendantgearmagic`|
+>>|**Quirk** | `=this.pendantgearquirk`|
+>>| **Rank** | `=this.pendantgearrank` |
+>>| **Notes** | `=this.pendantgearnotes` |
 
 ---
 
