@@ -5784,6 +5784,28 @@ Book of Skill - Blacksmithing
 Passed +3 **Literacy** (57)
 
 Looking to see if gathering available 1d%
-[44] Nothing
+[44] Nothing 
 
+Resting, Camp check 10
+
+<span style="color:rgb(249, 132, 74)">Day 8</span> 
+
+**Survival Check** 541d%
+[71]
+
+Northwest
+
+Travel die check, Dangerous Encounters
+Sand Goliath
+Your same Rank
+
+
+```statblock
+creature: Sand Goliath
+```
+
+
+BATTLE BEGIN
+
+Segard turn
 
