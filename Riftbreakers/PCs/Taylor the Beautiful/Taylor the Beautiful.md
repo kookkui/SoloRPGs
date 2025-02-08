@@ -21,8 +21,8 @@ Weapon3type:
 Weapon3dmg: 
 Weapon3notes: 
 rank: Apprentice
-axp: 100
-xp: 1575
+axp: 75
+xp: 1650
 a-N: "355"
 a-a: 
 a-V: 
@@ -192,15 +192,15 @@ Heart4: Ritual
 >>| **Skill Name** | **Skill Level** | **Skill Name** | **Skill Level** |
 >>| :-: | :-: |:-: | :-: |
 >>| **Alchemy** (INT) | `34` | **Leatherworking** (DEX) | `38`|
->>| **Acrobatics** (DEX) | `15` | **Insight** (WIL) | `15` |
->>| **Animal Handling** (CHA) | `14` | **Dodge** (DEX) | `75` |
->>| **Athletics** (STR) | `33` | **Perception** (WIL) | `32` |
->>| **Blacksmithing** (DEX) | `35` |**Performance** (CHA)|`14`|
->>| **Command** (CHA) | `14` | **Sailing** (DEX) | `15` |
->>| **Gathering** (DEX) | `57` | **Sailing** (DEX) | `15` |
->>| **Nature** (INT) | `31` | **Stealth** (DEX) | `38` |
->>| **Manipulation** (CHA) | `14` | **Survival** (INT) | `54` |
->>| **Medicine** (INT) | `11` |
+>>| **Acrobatics** (DEX) | `15` |**Literacy** (INT) | `54` |
+>>| **Animal Handling** (CHA) | `14` |**Insight** (WIL) | `15` |
+>>| **Athletics** (STR) | `33` | **Dodge** (DEX) | `75` |
+>>| **Blacksmithing** (DEX) | `35` |**Perception** (WIL) | `32`|
+>>| **Command** (CHA) | `14` | **Performance** (CHA)|`14`|
+>>| **Gathering** (DEX) | `57` |**Sailing** (DEX) | `15` |
+>>| **Nature** (INT) | `31` |  **Sailing** (DEX) | `15` |
+>>| **Manipulation** (CHA) | `14` | **Stealth** (DEX) | `38` |
+>>| **Medicine** (INT) | `11` |**Survival** (INT) | `54` |
 >
 >>[!dice] %%FAKE TITLE HERE%%
 >>##### Proficiencies

@@ -23,7 +23,7 @@ INPUT[progressBar(class(green-progress-bar), maxValue(32), title(HP)):CompanionH
 #### Quest Completed
 `2/5`
 
-| Strength         | 14  | Brawn            | 70  | **Max Health** |  32   |
+| **Strength**         | 14  | **Brawn**            | 70  | **Max Health** |  32   |
 | ---------------- |:---:| ---------------- |:---:|:--------------:|:-----:|
 | **Dexterity**    | 10  | **Coordination** | 50  |   **Armor**    |  D8   |
 | **Constitution** | 16  | **Vitality**     | 80  |   **Dodge**    |  70   |

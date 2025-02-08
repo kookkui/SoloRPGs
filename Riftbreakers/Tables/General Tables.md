@@ -89,7 +89,7 @@
 
 ^2bfe1b
 
-| dice: 1d20 | Gathering - Type of Mineral Deposit Found |
+| `dice: 1d20` | Gathering - Type of Mineral Deposit Found |
 | ---------- | ----------------------------------------- |
 | 1-4        | Coal                                      |
 | 5-11       | Iron                                      |
@@ -138,3 +138,27 @@
 
 
 
+|`dice:1d20`|Random Skill|
+|---|---|
+|1|Alchemy|
+|2|Acrobatics|
+|3|Animal Handling|
+|4|Athletics|
+|5|Blacksmithing|
+|6|Command|
+|7|Gathering|
+|8|Dodge|
+|9|Insight|
+|10|Leatherworking|
+|11|Literacy|
+|12|Manipulation|
+|13|Medicine|
+|14|Nature|
+|15|Perception|
+|16|Performance|
+|17|Sailing|
+|18|Sleight of Hand|
+|19|Stealth|
+|20|Survival|
+
+^2b1d66

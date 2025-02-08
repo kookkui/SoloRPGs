@@ -23,6 +23,13 @@
 >
 >**Travel - Interesting Location**
 > `dice:[[Overworld Tables#^8d63ce]]`
+> 
+>**Kar Helos: Dangerous Encounters**
+>`dice:[[Overworld Tables#^d86726]]`
+>
+>**The Violet Sand - Dangerous Encounters**
+> `dice:[[Overworld Tables#^0fd971]]`
+
 
 >[!gather] Gathering Tables
 >
@@ -40,14 +47,19 @@
 >**Bulwark Actions**
 >`dice:[[General Tables#^2bfe1b]]`
 
->[!tldr] Travel - Kar Helos
->**Travel - Kar Helos: Dangerous Encounters**
->`dice:[[Overworld Tables#^d86726]]`
-
->[!dice] Travel - The Violet Sands
->**The Violet Sand - Dangerous Encounters**
-> `dice:[[Overworld Tables#^0fd971]]`
-
+>[!table] Loot
+>
+>**Random Skill**
+>`dice:[[General Tables#^2b1d66]]`
+>
+>**Random Heart**
+>`dice:[[General Tables#^4ced03]]`
+>
+>**Potion & Unguents**
+>`dice:[[Loot Table#^663f5f]]`
+>
+>**Random Essence**
+>`dice:[[Loot Table#^87d9e3]]`
 
 
 

@@ -5733,9 +5733,49 @@ Readiness check 45
 
 Casting Bless on Segard
 
--4 MP Increase a target’s Brawn by +20 and Dodge by +10 for 5  rounds.
+-4 MP<span style="color:rgb(255, 255, 184)"> Increase a target’s Brawn by +20 and Dodge by +10 for 5  rounds.</span>
 
 Segard Turn 
 
 Performs a standard attack check with their weapon that can only be dodged. The attack deals 13 Bludgeoning damage
+
+Brawn 70 1d% [66]
+CRIT
+
+13 Bludgeoning damage = 26 total damage to Sun Reaper 1 (Ded)
+
+Sun Reaper 2 Turn
+
+The monster targets the character that attacked them most recently. If none, determine randomly
+
+Heat Wave: The sun reaper channels intense heat in a cone-shaped area up to 10 m long, forcing all creatures caught in it to make a Vitality check or take D6 Fire damage and be Blinded for one round.
+
+Segard Parry Check 90 1d%[6]
+
+Parry 
+
+Sun Reaper 3 Turn
+
+The monster targets the nearest character. If the potential targets are placed at the same distance, determine randomly
+
+Heat Wave: The sun reaper channels intense heat in a cone-shaped area up to 10 m long, forcing all creatures caught in it to make a Vitality check or take D6 Fire damage and be Blinded for one round.
+
+Segard Dodge 75 1d%[20]
+
+Dodged
+
+Taylor Turn
+
+Twin Shot  65, 55
+1d%[1]
+1d%[44]
+CRIT CITY
+
+9 Damage = 18 Damage to Sun Reaper 2 (Dead)
+12 Damage =  24 Damage to Sun Reaper 3  (Dead)
+
+<span style="color:rgb(255, 105, 180)">Victory! </span> 
++75 XP
+
+Book of Skill - Blacksmithing
 
