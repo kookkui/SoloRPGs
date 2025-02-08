@@ -192,7 +192,7 @@ Heart4: Ritual
 >>| **Skill Name** | **Skill Level** | **Skill Name** | **Skill Level** |
 >>| :-: | :-: |:-: | :-: |
 >>| **Alchemy** (INT) | `34` | **Leatherworking** (DEX) | `38`|
->>| **Acrobatics** (DEX) | `15` |**Literacy** (INT) | `54` |
+>>| **Acrobatics** (DEX) | `15` |**Literacy** (INT) | `57` |
 >>| **Animal Handling** (CHA) | `14` |**Insight** (WIL) | `15` |
 >>| **Athletics** (STR) | `33` | **Dodge** (DEX) | `75` |
 >>| **Blacksmithing** (DEX) | `35` |**Perception** (WIL) | `32`|
@@ -219,7 +219,7 @@ Heart4: Ritual
 >>### Quests
 >>|**Quest Description** |**Completed** | **Timer/Counter**|
 >> |:---: | --- | :---------: |
->>| `=this.quest1` | `INPUT[toggle:quest1t]` | `7/14`
+>>| `=this.quest1` | `INPUT[toggle:quest1t]` | `8/14`
 >> |`=this.quest2` |`INPUT[toggle:quest2t]` | `0/22`
 >>| `=this.quest3` | `INPUT[toggle:quest3t]` | `0/17`
 >> |`=this.quest4` |`INPUT[toggle:quest4t]` | `0/22`

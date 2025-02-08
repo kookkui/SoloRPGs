@@ -5779,3 +5779,11 @@ CRIT CITY
 
 Book of Skill - Blacksmithing
 
+**Literacy** Check Effortless (+20) 74 1d%[17]
+
+Passed +3 **Literacy** (57)
+
+Looking to see if gathering available 1d%
+[44] Nothing
+
+
