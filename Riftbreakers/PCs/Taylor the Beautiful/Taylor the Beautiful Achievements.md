@@ -1,5 +1,5 @@
 ---
-Exterminator: 65
+Exterminator: 67
 money: 650
 moneyAdd: 50
 cheevo1: false
@@ -57,7 +57,7 @@ cheevo15: true
 >>
 ---
 >>[!bug] #### Pest Control `INPUT[toggle:cheevo5]`
->>`62/100`
+>>`64/100`
 >>
 >>&nbsp;
 >>*Defeat 100 Monsters.* 

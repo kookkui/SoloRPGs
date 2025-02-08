@@ -21,8 +21,8 @@ Weapon3type:
 Weapon3dmg: 
 Weapon3notes: 
 rank: Apprentice
-axp: 75
-xp: 1650
+axp: 25
+xp: 1675
 a-N: "355"
 a-a: 
 a-V: 
@@ -48,7 +48,7 @@ headname:
 headmagic: 
 headquirk: 
 headnotes: 
-chestname: 
+chestname: Soft Leather Armor
 chestmagic: 
 chestquirk: 
 chestnotes: 
@@ -115,6 +115,7 @@ Heart1: Arrow
 Heart2: Elemental
 Heart3: Restoration
 Heart4: Ritual
+title14: "Potion of Rest. Reduce your Fatigue by 1. Aspects: Stone, Life"
 ---
 >[!note] %%FAKE TITLE HERE%%
 >>[!gear] %%FAKE TITLE HERE%% 

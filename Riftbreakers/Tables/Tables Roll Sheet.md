@@ -11,7 +11,7 @@
 >**Random Difficulty**
 >`dice:[[General Tables#^35d049]]`
 
-> [!travel] Overland Travel Tables
+> [!crafting] Overland Travel Tables
 >**d10 Travel Die**
 >`dice:[[Overworld Tables#^319324]]`
 >
@@ -31,7 +31,7 @@
 > `dice:[[Overworld Tables#^0fd971]]`
 
 
->[!gather] Gathering Tables
+>[!npc] Gathering Tables
 >
 >**Gathering - Type of Mineral Deposit Found**
 >`dice:[[General Tables#^052746]]`

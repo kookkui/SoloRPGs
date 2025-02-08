@@ -5809,3 +5809,66 @@ BATTLE BEGIN
 
 Segard turn
 
+All targets within a 20 m. range are forced to attack this Companion until their next turn
+
+Taylor Turn 
+
+Readiness check 45 1d%[13]
+Opener: Increase your next attack's damage by D4
+
+**Coordination** Check 70 1d%[26]
+
+Hit 7 Damage to Sand Goliath
+
+Sand Goliath Turn
+
+**Sand Blast:** The goliath launches a powerful blast of sand at its target, dealing 5 Bludgeoning damage and Blinding them for 1 round unless they pass a Vitality check.
+
+Segard Parry check 70 1d%[69]
+
+Passed
+
+Segard Turn
+
+Heals 4 Health. If at max Health, they perform a standard attack
+
+Standard Attack
+
+**Brawn** Check 60 1d%[55] Crit!
+
+Rolled 4 Damage = 8 total damage to the Sand Goliath
+
+Taylor turn
+
+**Coordination** Check 70 1d%[48]
+10 Damage to the Sand Goliath
+
+Sand Goliath Turn 
+
+**Sandstorm:** The sand goliath creates a fierce sandstorm that deals 4(D6+1) Earth damage to all creatures within a 10 m radius. Targets caught in the storm must make a Brawn check or be pushed back 5 meters and knocked Prone.
+
+Segard dodge check 60 rolled 1
+CRIT
+
+Rolled 4 Damage = 8 total damage to the Sand Goliath
+
+Taylor Turn 
+
+**Coordination** Check 70 1d%[67]
+
+Damage 5 to Sand Goliath
+
+Sand Goliath Turn
+
+**Sand Blast:** The goliath launches a powerful blast of sand at its target, dealing 7(D8+2) Bludgeoning damage and Blinding them for 1 round unless they pass a Vitality check.
+
+Segard dodge check 60 
+1d%[26]
+
+3 Damage to the Sand Goliath(Ded)
+
+<span style="color:rgb(255, 105, 180)">Victory! </span> 
++25 XP
+
+<span style="color:rgb(241, 91, 181)">Potion of Rest. Reduce your Fatigue by 1. Aspects: Stone, Life</span> 
+
