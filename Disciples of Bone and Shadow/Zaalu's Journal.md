@@ -1094,6 +1094,84 @@ Encounter Check - None
 [81] Failed
 
 <span style="color:rgb(255, 178, 208)">Level up! 
--150XP
++150XP
 +2 EP</span>
 
+Back to Room 9 
+
+**Encounter Check** 5
+
+Door - An unlocked wood and bone door, but trapped. A party member (whoever crossed first) suffers 9 damage as a stone falls on them unless they pass a Perception skill test to detect the trap. Pass a DEX test or use the Disarm Traps skill to disable it
+Difficulty - Normal 0
+**Perception** test 31 1d%[46] Failed
+
+Zaalu suffers 9 damage (35)
+
+Room 11
+
+Encounter Check - None
+
+```statblock
+creature: Steel Deer
+```
+
+
+
+Combat with a strange Steel Deer
+
+```encounter
+players:
+  - Zaalu
+creatures:
+  - Steel Deer, 18, 5
+
+```
+
+
+Combat begins
+
+Steel Deer turn
+
+Parry 34 1d%[43]
+Hit
+
+2 Damage to Zaalu 
+
+
+Zaalu Turn
+
+**One-Handed Melee** Test 48 1d%[27]
+
+Hit
+
+1d10 [10] 10 Damage to Deer
+
+Steel Deer turn
+
+Parry 34 1d%[7] Crit!
+
+Full damage 1d10[5]
+5 Damage to Steel Deer (3)
+
+Zaalu Turn 
+
+**One-Handed Melee** Test 48 1d%
+[9]
+Hit
+
+10 Damage to Steel Deer (Ded)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>  
++10XP
+Difficulty - Easy +10
+**Crafting** Test 48 1d%[32]
+ to harvest the Antlers(300 jats)
+Passed
+Spend 1 hour harvesting the Antlers
+
++ Steel Deer Antlers
+
+Back to Room 9 
+**Encounter Check** Basic Bitch Encounter!
+Human
+Hostile Human Encounter: Nomad

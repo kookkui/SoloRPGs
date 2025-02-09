@@ -199,7 +199,7 @@
 ^8b6f8f
 
 
-| `dice:1d10`   | Ruin Encounters                    |
+| `dice:d100`   | Ruin Encounters                    |
 | ------ | ---------------------------------- |
 | 1-5    | Insect: Giant Mosquitoes (Vermin)  |
 | 6-10   | Beast: Madari rats (Vermin)        |

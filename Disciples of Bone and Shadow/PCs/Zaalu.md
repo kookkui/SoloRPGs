@@ -10,8 +10,8 @@ CONST: 16
 WIL: 15
 INT: 14
 CHA: 12
-xp: 1
-axp: 
+xp: 11
+axp: 10
 Weapon1: Two-Handed Sword
 Weapon1dmg: D10
 Weapon1notes: -10 to Defensive Skills
@@ -23,7 +23,7 @@ Weapon3dmg:
 Weapon3notes: 
 Armor: 2
 currency: 150
-ajats: 
+ajats: 1
 merc: ".6"
 provisions: 10
 hregion: Akkar Strand
@@ -101,6 +101,7 @@ combined69: Unknown
 produces69: Unknown
 title15: Crawler Fangs x 6 (25 jats)
 checkbox15: true
+title16: Steel Deer Antlers (300 jats)
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  
@@ -110,7 +111,7 @@ checkbox15: true
 >>|     |     |
 >> |--- | --- |
 >>|   **Level**   |  `=this.level`   |
->>|**HP** | **Current:** `44` **Max:** `=this.CONST*3`|
+>>|**HP** | **Current:** `32` **Max:** `=this.CONST*3`|
 >> |**Corruption** | **Current:** `0` **Max:** `=this.Corruption`   |
 >> |**Armor** | `=this.Armor` |
 >> |**EP**| `2` |

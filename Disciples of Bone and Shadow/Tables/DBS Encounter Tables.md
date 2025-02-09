@@ -71,3 +71,13 @@
 
 ^879efa
 
+|`dice:D6`|Hostile Human Encounter|
+|---|---|
+|1|Cannibal|
+|2|Soldier|
+|3|Nomad|
+|4|Mercenary|
+|5|Outlaw|
+|6|Acolyte|
+
+^2aea04
