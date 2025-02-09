@@ -1173,5 +1173,79 @@ Spend 1 hour harvesting the Antlers
 
 Back to Room 9 
 **Encounter Check** Basic Bitch Encounter!
-Human
+Human = Hostile Roll
 Hostile Human Encounter: Nomad
+
+```statblock
+creature: Nomad
+```
+
+
+Battle!
+
+Zaalu Turn
+
+**One-Handed Melee** 48 1d%[26]
+
+Hit!
+
+1d10 [10] 10 Damage to the Nomad
+
+Nomad Turn
+
+**Parry** 34 1d%[27] 
+Success 
+
+Defensive Move - Your opponent immediately suffers 4 damage that ignores armor
+
+Zaalu Turn
+
+**One-Handed Melee** 48 1d%[24]
+
+Hit!
+
+1d6[4] 4 Damage to Nomad 
+
+Nomad Turn
+
+Morale Test on Nomad 
+WIL: 13 1d20 [18] Failed
+
+Nomad is fleeing, Zaalu tries to finish him off
+
+**One-Handed Melee** 48 1d%[19] Hit!
+
+1d6[6] 6 Damage to Nomad (Ded)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>  
++10XP
+
+Check if NPC was carrying a Bow(50%) 1d%[45] 
+Nomad was carrying a bow after all.
+
+Nomad Loot:
+- Long Bow
+- Light Leather Armor
+- Knife
+- 4 Rations, 5 jats per Ration
+
+Room 9 to 8
+
+Encounter Check - None
+
+Door - A locked stone door. Pass a STR test (-2) or a Lockpicking test in order to get through it
+Difficulty - Normal 0
+STR Test 18 1d20[7]
+
+The door smashes open
+
+Room 12
+
+Encounter Check - None
+
+**Library.** This room was previously some sort of library. Now piles of half- rotten tomes gather dust in every corner, collapsed shelves creating a landscape of lost knowledge. The party may spend a whole day here sifting through the books, hoping on even the slightest odds that there is something of worth. They must first pass a Literacy roll; if they do so roll a 6 : 1-2 a tome describing the terrors of an ancient civilization that worshiped the Primordial Ones. You gain +1 Forbidden Lore; 3-4 a random spell; 5-6 a treatise on local plants and herbs. +1 Herb Lore
+
+<span style="color:rgb(129, 216, 208)">+1 Herb Lore</span>  (37)
+
+
+

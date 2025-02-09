@@ -315,3 +315,33 @@
 
 ^1dbade
 
+| `dice:d10` |                                   Random NPCs You May Find While Traveling                                   |
+| :--------: | :----------------------------------------------------------------------------------------------------------: |
+|     1      |                              A recruiter for the Congregation of the Four Gods                               |
+|     2      |                                      A spy for the Tyrant in the region                                      |
+|     3      |                         A madman (or woman) following whispers they hear on the wind                         |
+|     4      |           A disfigured woman that swears that she just got back from the Land of the Conquered Sun           |
+|     5      |                   A man missing both legs, claiming he lost a bet with Thurnay the Jester                    |
+|     6      | A blind seer and his train of disciples who have taken a vow of silence to better contemplate his holy words |
+|     7      |               A penitent nomad who mutters constantly about the sins for which they mustatone                |
+|     8      |            The traumatized survivor of some beast's attack, their skin a horrific quilt of scars             |
+|     9      |                             An old hermit convinced he can befriend wild beasts                              |
+|     10     |                    A woman with a baby. She silently nods while the baby pronounces omens                    |
+
+^02bb26
+
+
+|`dice:d10`|Interesting or Forgotten Places You Would Find Wandering|
+|:-:|:-:|
+|1|**Sand Geyser** - Identifiable by the characteristic lines of glass that crunch underfoot, like a hundred discarded pipettes. Get your distance when you hear what sounds at first like shifting sand, but is actually hissing, escaping from deep underground pockets of super-heated air, preparing to burst forth in a pillar of super-heated sand which quickly cools and falls to the earth in invisible spears of glass|
+|2|**The Organ Pit** - Amidst a tumble of broken basalt columns, a worn trail leads down to a nearly perfectly circular pit. The air is choked by flies and the sound of skittering vermin is everywhere. A peak over the edge reveals it's contents. How'd it all get there? And why does it seem fresh?|
+|3|You come across a pile of stones, recently assembled. A bright red scarf has been pinned to it, gently waving in the breeze. You then remember the local custom of marking tombs with stones in this very way, and an unexpected wave of melancholy invades you. You move on|
+|4|You venture across a mostly-overgrown battlefield, strewn with the moss- covered bones of the dead. Though you search, little to none of the bone is worth much. You do find a curious relic: a rusted metal blade. When you try to claim it, however, it crumbles to dust. You move on|
+|5|In the distance, nestled among a tangle of long dead standing trees, their trunks bleached by the unrelenting sun, you see an odd pile of rocks. Moving closer to it, you realize it was once a well. Mouth dry, you walk towards it, hopeful for a drink. Approaching the well you find it full of a shining black dust unlike anything you've seen before. Standing before this well of dust you are suddenly filled with a deep sense of dread and move on as quickly as you can|
+|6|Hidden between the dunes you come across a huge arch made of black stone with strange engraved symbols. When you look through either side of it, the surroundings appear to be covered by a thick gray coat of ashes|
+|7|**Wind eroded rock formation** - a dozen of gold-orange sand rocks that nature has sculpted over the centuries, some of them having little holes in their structure, a perfect place to hide something small|
+|8|You find the ruins of a village, long since picked clean of any supplies. Most of the buildings are rubble, but what structures still stand are scored with huge claw marks. You wonder what beast could have made them, and if it, or something like it, still lurks nearby...|
+|9|You turn to glance behind you and see a strange, four-sided obelisk with a pyramid top that wasn't there before. Its featureless, polished black stone betrays no hints of its purpose, or where it came from. Unnerved, you resume your journey, but when you turn to glance behind once again, the obelisk is gone|
+|10|A crackling in the air in front of you stops you on your tracks. Suddenly, a vertical line of darkness appears, as a fissure in mid air. From it, a screaming man surges, his eyes popping out in fear, tears running down his cheeks. Before he can come close to you though, a single tentacle emerges from the fissure in space, dragging the man back inside before he even realizes what's going on. The fissure closes seconds later, and the world around you returns to normal as if nothing had happened|
+
+^3f95ee

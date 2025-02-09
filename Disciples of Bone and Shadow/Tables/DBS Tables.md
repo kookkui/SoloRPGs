@@ -55,14 +55,14 @@
 | 8          | Leather Gloves `dice:3D6`                                                             |
 | 9          | `dice:D4` Bandages 5 jats per Bandage                                                          |
 | 10         | `dice:D4` Lock-picks 10 jats per Pick                                                   |
-| 11         | Rations, 5/Ration                                                                     |
+| 11         | `dice:D4` Rations, 5 jats per Ration                                                                     |
 | 12         | Rope (5') 10                                                                          |
 | 13         | Nicely carved Bone Flute `dice:D10+5`                                                 |
 | 14         | Necklace with tiny silver bead `dice:D10+10`                                          |
 | 15         | Blank Scroll 15                                                                       |
 | 16         | `dice:D4` Empty Vials 10 jats per Vial                                                                |
 | 17         | Gemstone `dice:D20+10`                                                                |
-| 18         | Pouch with `dice:D10 `Random Herbs 5 jats per Herb                                             |
+| 18         | Pouch with `dice:D10` Random Herbs 5 jats per Herb                                             |
 | 19         | Lantern 20                                                                            |
 | 20         | A One-Handed Weapon. Roll a `dice:D4`: 1 Sword, 2 Hammer or Mace, 3 Axe, 4 Dagger 100 |
 
@@ -389,11 +389,11 @@
 
 
 
-| `dice:1D10`  | NPC Combat Behavior                              |
-| ---- | ------------------------------------------------ |
-| 1-5  | Attack                                           |
-| 6-7  | Use special skill if available, otherwise attack |
-| 8-10 | `dice:[[DBS Tables#^6e0cdd]]`                |
+| `dice:1D10` | NPC Combat Behavior                              |
+| ----------- | ------------------------------------------------ |
+| 1-5         | Attack                                           |
+| 6-7         | Use special skill if available, otherwise attack |
+| 8-10        | `dice:[[DBS Tables#^6e0cdd]]`                    |
 
 ^a7c333
 
@@ -443,3 +443,57 @@
 ^c0428d
 
 
+| `dice:1D10` |                                                                                                                    Items Found Within an Ancient Sarcophagus                                                                                                                     |
+| :---------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|      1      |                                                                                                 A serrated blade that eats away at the armor it hits, reducing its efficacy by 1                                                                                                 |
+|      2      |                                                                                                                           Mummy wrappings but no body                                                                                                                            |
+|      3      |                                                                        The molted skin of a giant snake. When worn as a cloak, it makes the wearer cold-blooded, with all of its benefits and weaknesses                                                                         |
+|      4      |                                                                                                  A vial of poison that turns to noxious gas when broken to deter grave robbers                                                                                                   |
+|      5      | A medium-sized cloud of grasshoppers-looking creatures emerges from the sarcophagus; if you are over half your max corruption (rounded down), they deal `dice:1D6` damage regardless of armor; if under half your max corruption (rounded down), they heal you for `dice:1D6` HP |
+|      6      |                                                                         Thick black sludge about 5 inches deep, probably the remnants of a long ago botched mummification. Could be useful if collected                                                                          |
+|      7      |                                                                                 A small jar of honey, left behind to feed the entombed spirit after life. Acts as Healing Tincture when consumed                                                                                 |
+|      8      |                                               A palm-sized sphere of glass with an elaborate, teardrop-shaped needle suspended in the center. The needle always seems to point to the ground beneath you, deeper into the abyss...                                               |
+|      9      |                                                      A bracelet of `dice:1D10`prayer beads that remove 1 CP with a successful WIL test. May only be used once a week. With each attempt, a bead loses its luster and cracks                                                      |
+|     10      |                                                                                           A beautiful funerary mask, made in bronze. It's probably pretty worthy by the metal alone...                                                                                           |
+
+
+| `dice:D20` | Injury Severity                                       |
+|:----------:| ----------------------------------------------------- |
+|     1      | Wound to the head, instantly killing you. You’re dead |
+|    2-6     | `dice:[[DBS Tables#^a1384c]]`                            |
+|    7-18    | `dice:[[DBS Tables#^fab6f7]]`                           |
+|     19     | You are Stunned, but otherwise unharmed               |
+|     20     | You somehow avoided all damage                        |
+
+^dee425
+
+
+| `dice:D10` | Minor Injuries                                                                   |
+|:----------:| -------------------------------------------------------------------------------- |
+|     1      | **Minor Injury - Bruised Chest.** Reduce your CON by 1                                          |
+|     2      | **Minor Injury - Damaged Leg.** -1 DEX, you always lose Initiative                              |
+|     3      | **Minor Injury - Impaired Arm.** -10 to all actions                                             |
+|     4      | **Minor Injury - Slashed Fingers.** -20 to all combat actions                                   |
+|     5      | **Minor Injury - Shock to the head.** Reduce your INT by 1                                      |
+|     6      | **Minor Injury - Slashed ear.** -20 Perception                                                  |
+|     7      | **Minor Injury - Deep cut.** -1 HP/turn                                                         |
+|     8      | **Minor Injury - Weakened.** Your attacks deal -2 damage                                        |
+|     9      | **Minor Injury - Concussion.** You may not earn XP                                              |
+|     10     | The blow was savage but somehow it only hit your armor, completely destroying it |
+
+^fab6f7
+
+|`dice:D10`|Major Injuries|
+|---|---|
+|1|**Major Injury - Brain Damage.** Lose 200 XP|
+|2|**Major Injury - Trauma.** Each time you confront the type of enemy that caused this, you must pass a WIL (-5) test or run away|
+|3|**Major Injury - Damaged Nerves.** Roll a D6 every turn, a roll of 1 means you cannot act during your turn|
+|4|**Major Injury - Lost eye.** -20 to Ranged combat, -10 to Perception|
+|5|**Major Injury - Lost arm.** -1 DEX, cannot use two-handed weapons|
+|6|**Major Injury - Damaged Lung.** -1 CON|
+|7|**Major Injury - Lost Leg.** -1 DEX, always loses initiative|
+|8|**Major Injury - Terrible scarring.** -1 CHA|
+|9|**Major Injury - Damaged Tendons.** -1 STR|
+|10|**Major Injury - Weakened Constitution.** +1 to all damage received from now on|
+
+^a1384c

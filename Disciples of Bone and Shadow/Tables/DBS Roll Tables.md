@@ -11,7 +11,7 @@
 >#####  NPC Combat Behavior
 >`dice:[[DBS Tables#^a7c333]]`
 >
->#####  Combat Maneuver
+>#####  NPC Combat Maneuver
 >`dice:[[DBS Tables#^6e0cdd]]`
 >
 >##### Random Skill
@@ -131,3 +131,15 @@
 >
 >##### GM Emulation - NPC Motivations
 >`dice:[[DBS GM Emulation#^1dbade]]`
+>
+>##### Injury Severity
+>`dice:[[DBS Tables#^dee425]]`
+>
+>##### Random NPCs You May Find While Traveling
+>`dice:[[DBS GM Emulation#^02bb26]]`
+>
+>##### Interesting or Forgotten Places You Would Find Wandering
+>`dice:[[DBS GM Emulation#^3f95ee]]`
+
+
+

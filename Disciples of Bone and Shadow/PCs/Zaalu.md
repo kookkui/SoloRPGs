@@ -1,6 +1,6 @@
 ---
 Art: "![[Character Image Placholder]]"
-Level: 1
+Level: 2
 Corruption: 10
 HP: 41
 GeSl: 0
@@ -10,25 +10,25 @@ CONST: 16
 WIL: 15
 INT: 14
 CHA: 12
-xp: 11
-axp: 10
-Weapon1: Two-Handed Sword
-Weapon1dmg: D10
-Weapon1notes: -10 to Defensive Skills
-Weapon2: Short Bow
-Weapon2dmg: D6
-Weapon2notes: -10 Ranged Combat
-Weapon3: 
-Weapon3dmg: 
+xp: 29
+axp: 
+Weapon1: One-Handed Sword
+Weapon1dmg: D6
+Weapon1notes: +10 Parry
+Weapon2: Two-Handed Sword
+Weapon2dmg: D10
+Weapon2notes: -10 to Defensive Skills
+Weapon3: Long Bow
+Weapon3dmg: D6
 Weapon3notes: 
 Armor: 2
 currency: 150
-ajats: 1
+ajats: 
 merc: ".6"
 provisions: 10
 hregion: Akkar Strand
-advantages: "Extreme Concentration: No matter what the circumstances are, you're capable of focusing on the task at hand, completely ignoring all distractions. This allows you to perform extremely well under stress in any circumstance (combat, running from danger, etc.)."
-disadvantages: "Violent: Maybe you were beaten up as a child, or belong to a tribe that strongly believed in “might is right”; whatever the case, you always tend to solve all problems with violence, unless it is completely evident that you will not fare well. To be clear, you are not suicidal, you simply think that violence is the answer to all questions."
+advantages: "**Extreme Concentration:** This allows you to perform extremely well under stress in any circumstance (combat, running from danger, etc.)."
+disadvantages: "**Violent:** You simply think that violence is the answer to all questions."
 flaws: Bad Tempered I
 Head: Hunter (Foraging, Marksmanship)
 Title69: 1x Healing Tincture
@@ -102,6 +102,12 @@ produces69: Unknown
 title15: Crawler Fangs x 6 (25 jats)
 checkbox15: true
 title16: Steel Deer Antlers (300 jats)
+title17: Short Bow
+title18: Long Bow
+equipped18: true
+title19: "One-Handed Sword "
+equipped19: true
+title20: Knife
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  
@@ -170,7 +176,7 @@ title16: Steel Deer Antlers (300 jats)
 >>| **Dodge** (DEX `=this.DEX` x 2) | `44` |
 >>|**First Aid** (20) | `50` |
 >>| **Forbidden Lore** | `22` |
->>| **Herb Lore** | `36` |
+>>| **Herb Lore** | `37` |
 >>| **Literacy** (INT `=this.INT`) | `45` |
 >>| **One-Handed Melee** (STR `=this.STR` + DEX `=this.DEX`) | `53` |
 >>| **Orientation** (20) | `41` |
