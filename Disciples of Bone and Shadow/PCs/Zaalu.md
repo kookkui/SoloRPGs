@@ -10,7 +10,7 @@ CONST: 16
 WIL: 15
 INT: 14
 CHA: 12
-xp: 29
+xp: 34
 axp: 
 Weapon1: One-Handed Sword
 Weapon1dmg: D6
@@ -117,7 +117,7 @@ title20: Knife
 >>|     |     |
 >> |--- | --- |
 >>|   **Level**   |  `=this.level`   |
->>|**HP** | **Current:** `32` **Max:** `=this.CONST*3`|
+>>|**HP** | **Current:** `37` **Max:** `=this.CONST*3`|
 >> |**Corruption** | **Current:** `0` **Max:** `=this.Corruption`   |
 >> |**Armor** | `=this.Armor` |
 >> |**EP**| `2` |

@@ -1247,5 +1247,58 @@ Encounter Check - None
 
 <span style="color:rgb(129, 216, 208)">+1 Herb Lore</span>  (37)
 
+Door - An empty archway with no door
+
+Corridor 
+Basic Bitch Encounter!
+Insect: Night Beetles (Vermin)
+
+```encounter
+players:
+  - Zaalu
+creatures:
+  - Night Beetles
+  - Night Beetles 2, 3, 5
+
+
+```
+
+```statblock
+creature: Night Beetles
+```
+
+
+Battle begins
+
+Zaalu Turn
+
+**One-Handed Melee** 48 
+Rolled 30
+Success
+
+3 Damage to Beetle 2 (Ded)
+
+Beetle 1 turn
+
+**Parry** 54 1d%[18]
+
+Defensive Move - You may attempt to disarm your opponent. If the opponent cannot be disarmed, your next attack receives an extra +10
+
+ Zaalu Turn
+
+**One-Handed Melee** 58 1d%[13]
+
+
+1d6[6] 6 Damage to Beetle 1 (Ded)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>  
++5 XP
+
+First aid check 50 1d% [28] 
++4 HP (37)
+
+
+
+
 
 
