@@ -4,7 +4,7 @@ name: "placeholder"
 
 layout: DBS 
 
-type: "Bad Dude"
+type: "type"
 
 loot: "No Loot"
 
@@ -12,9 +12,9 @@ DEF: TL5
 
 OFF: TL5
 
-damage: " 1+TL1"
+damage: "dam"
 
-hp: "12+TL20"
+hp: "hp"
 
 awareness: 18
 
@@ -22,9 +22,9 @@ initiative: 14
 
 traits:
   - name: 'Special I:'
-    desc: "Stuff and things."
+    desc: "Stuff"
   - name: 'Special II:'
-    desc: "(Stuff and things)+d20"
+    desc: "Stuff"
 
 stats: [10, 12, 12, 20, 18, 10]
 
@@ -34,7 +34,7 @@ skills: "Alchemy 50, Command Skills 25, Disguise 40, Forbidden Lore 70, Literacy
 
 gear: "G-string" 
 
-description: "Couple of guys started making trouble in my neghborhood. My mom got scared and said you movin to your aunty and uncles house in a town called Bel Air."
+description: "description"
 
 ```
 
