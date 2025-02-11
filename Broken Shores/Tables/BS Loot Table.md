@@ -63,12 +63,12 @@
 | 17 | Rare set of divination runes 100c |
 | 18 | Coins 200c |
 | 19 | Thieves’ tools |
-| 20 | `dice:[[General Tables#^f7349d]]` |
+| 20 | `dice:[[BS Loot Table#^f7349d]]` |
 
 ^54d33c
 
 
-| `dice:d20` | Loot - Potions |
+| `dice:d10` | Loot - Potions |
 | ---------- | --------- |
 | 1 | Antidote. Remove the effects of poison. |
 | 2 | Frenzy. For the next D6 rounds you deal +5 damage, but you’re unable to defend in any way. |
@@ -97,9 +97,11 @@
 | 13-15 | Elemental essence |
 | 16-18 | Minor magic item |
 | 19 | Godshard |
-| 20 | `dice:[[General Tables#^19af82]]` |
+| 20 | `dice:[[BS Loot Table#^19af82]]` |
 
-^3ac5be
+^48ee33
+
+
 
 | `dice:d12` | Loot - Random Armor |
 | ---------- | ------------------- |
@@ -164,27 +166,27 @@
  
 |`dice:d20`|Loot - Valuable Loot|
 |---|---|
-|1-2|`dice:[[General Tables#^958917]]`|
-| 3-7   | `dice:[[General Tables#^5eeac3]]`                           |
-| 8-9   | `dice:[[General Tables#^5277a8]]`                               |
-| 10    | Rolled painting depicting some forgotten hero 250c |
-| 11    | Perfume vial 250c                                  |
-| 12    | Tapestry 300c                                      |
-| 13    | Ivory statuette 400                                |
-| 14-15 | `dice:[[General Tables#^75b0e4]]`                                    |
-| 16    |`dice:[[General Tables#^bbd85d]]`                                   |
-| 17    | Random, finely crafted weapon (+1 damage)          |
-| 18-19 | Scroll with a random spell                         |
-| 20    | `dice:[[General Tables#^3ac5be]]`                             |
+|1-2|`dice:[[BS Loot Table#^958917]]`|
+| 3-7 | `dice:[[BS Loot Table#^5eeac3]]` |
+| 8-9 | `dice:[[BS Loot Table#^5277a8]]` |
+| 10 | Rolled painting depicting some forgotten hero 250c |
+| 11 | Perfume vial 250c |
+| 12 | Tapestry 300c |
+| 13 | Ivory statuette 400 |
+| 14-15 | `dice:[[BS Loot Table#^75b0e4]]` |
+| 16 |`dice:[[BS Loot Table#^bbd85d]]` |
+| 17 | Random, finely crafted weapon (+1 damage) |
+| 18-19 | Scroll with a random spell |
+| 20 | `dice:[[BS Loot Table#^3ac5be]]` |
 
 ^f7349d
 
 
-| `dice:d20` | Loot - Random Loot    |
+| `dice:d6` | Loot - Random Loot    |
 | --- | --------------------- |
-| 1-3 | `dice:[[General Tables#^54d33c]]`  |
-| 4-5 | `dice:[[General Tables#^f7349d]]` |
-| 6   | `dice:[[General Tables#^3ac5be]]` |
+| 1-3 | `dice:[[BS Loot Table#^54d33c]]`  |
+| 4-5 | `dice:[[BS Loot Table#^f7349d]]` |
+| 6   | `dice:[[BS Loot Table#^48ee33]]` |
 
 ^a898b8
 
@@ -203,3 +205,36 @@
 
 ^19af82
 
+| `dice:d10` | Smith Skill Level   |
+| ---------- | ------------------- |
+| 1-5        | Journeyman (+1 Max) |
+| 6-8        | Expert (+2 Max)     |
+| 9-10       | Master (+3 Max)     |
+
+^864a52
+
+
+
+|2d10|Random Skill|
+|:---:|:---:|
+|2|Acrobatics|
+|3|Athletics|
+|4|Animal|
+|5|Command|
+|6|Crafting|
+|7|Dodge|
+|8|Insight|
+|9|Literacy|
+|10|Manipulation|
+|11|Medicine|
+|12|Nature|
+|13|Perception|
+|14|Performance|
+|15|Sailing|
+|16|Siege Weapons|
+|17|Sleight of Hand|
+|18|Stealth|
+|19|Survival|
+|20|Unarmed|
+
+^080820

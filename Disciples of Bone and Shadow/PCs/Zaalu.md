@@ -110,7 +110,7 @@ equipped19: true
 title20: Knife
 ---
 >[!dice] %%FAKE TITLE HERE%%
->> [!dice] %%FAKE TITLE HERE%%  
+>> [!dice] %%FAKE TITLE HERE%%
 >> # `=this.file.name`
 >> ![[Zaalu_Non_AI.webp]]
 >> ###### Stats

@@ -44,10 +44,10 @@
 
 > [!gather] Loot Tables
 > ###### Loot - Random Loot
->`dice:[[General Tables#^a898b8]]`
+>`dice:[[BS Loot Table#^a898b8]]`
 >
 > ###### Loot - Mundane Loot
->`dice:[[General Tables#^54d33c]]`
+>`dice:[[BS Loot Table#^54d33c]]`
 >
 >###### Loot - Valuable Loot
 >`dice:[[General Tables#^f7349d]]`
@@ -65,7 +65,7 @@
 >`dice:[[General Tables#^75b0e4]]`
 >
 >###### Loot - Manuals 
->`dice:[[General Tables#^bbd85d]]`
+>`dice:[[Loot Tables#^080820]]`
 >
 >###### Loot - Gems & Jewelry 
 >`dice:[[General Tables#^5eeac3]]`
@@ -75,3 +75,11 @@
 >
 >###### Loot - Minor Magic Item
 >`dice:[[General Tables#^edbd7f]]`
+
+
+
+
+> [!crafting] Settlement Tables
+> 
+> ###### Smith Skill Level
+>`dice:[[General Tables#^864a52]]`
