@@ -9,18 +9,6 @@
 
 ^5eeac3
 
-
-| `dice:d6` | Loot - Manuals |
-| --- | ---------------------- |
-| 1 | Crafting Manual |
-| 2 | Manipulation Manual |
-| 3 | Martial Weapons Manual |
-| 4 | Medicine Manual |
-| 5 | Nature Manual |
-| 6 | Survival Manual |
-
-^bbd85d
-
 | `dice:d20` | Loot - Minor Magic Item |
 | ---------- | ------------------------------------------------------------------------------------------------------ |
 | 1 | A random weapon that is Light instead of Normal |
@@ -177,7 +165,7 @@
 | 16 |`dice:[[BS Loot Table#^bbd85d]]` |
 | 17 | Random, finely crafted weapon (+1 damage) |
 | 18-19 | Scroll with a random spell |
-| 20 | `dice:[[BS Loot Table#^3ac5be]]` |
+| 20 | `dice:[[BS Loot Table#^19af82]]` |
 
 ^f7349d
 
@@ -190,12 +178,12 @@
 
 ^a898b8
 
-|`dice:d20`|Loot - Artifacts|
+|`dice:d10`|Loot - Artifacts|
 |---|---|
 |1|Blades of Death|
 | 2   | Diadem of Arcane Power      |
 | 3   | Glassblade of Athuna        |
-| 4   | Goblet of Puri􀀴ication      |
+| 4   | Goblet of Purification      |
 | 5   | Kathena’s Eye               |
 | 6   | Moonstone                   |
 | 7   | Robe of Illusion            |
@@ -212,8 +200,6 @@
 | 9-10       | Master (+3 Max)     |
 
 ^864a52
-
-
 
 |2d10|Random Skill|
 |:---:|:---:|
@@ -238,3 +224,68 @@
 |20|Unarmed|
 
 ^080820
+
+
+
+## Magic Item Generation
+
+|`dice:d8`|Magic Item Generation Item Table|
+|---|---|
+|1|@Random Weapon|
+|2|@Random Armor|
+|3|Trinket(Small Stone, Key or Button)|
+|4|Boots|
+|5|Earing|
+|6|Necklace/Pendant|
+|7-8|Ring|
+
+|`dice:d10`|Magic Item Rarity|
+|---|---|
+|1-5|<span style="color:rgb(152, 255, 152)">Uncommon:</span> 1 Magic Property|
+|6-8|<span style="color:rgb(249, 132, 74)">Rare:</span> 2 Magic Properties|
+|9-10|<span style="color:rgb(155, 93, 229)">Epic:</span> 3 Magic Properties|
+
+
+
+|`dice:d20`|Armor Magic Properites|
+|---|---|
+|1-4|This armor grants you damage reduction based on the armor’s rarity: +1 uncommon, +2 rare, +3 epic|
+|5|This armor grants you Magic Resistance based on the armor’s rarity: +10 uncommon, +20 rare, +30 epic|
+|6|Reduce your max PP by 5, but increase your max HP by 10|
+|7|Reduce your max HP by 5, but increase your max PP by 10|
+|8|Roll on the Damage Type table. You are Resistant to that damage type|
+|9|Increase your Dodge by 20|
+|10|Opponents have their Attack Skills reduced by 10 when attacking you|
+|11|Enemies that damage you suffer 1 Piercing damage that cannot be avoided in any way|
+|12|On command, this armor works as a source of light|
+|13|Increase your carrying capacity by 10 Increase your carrying capacity by 10|
+|14|Reroll any check once per camp rest|
+|15|Heal one target once per camp rest. The amount of wounds healed depends on this item’s rarity: D6+2 uncommon, D6+3 rare, D6+4 epic. This is a Standard Action|
+|16|After defeating a combat encounter, roll D6: a result of 1-3 means that you immediately recover D4 HP|
+|17|You’re immune to Stun|
+|18|You’re immune to Fear|
+|19|Add +1Ud to the intergity of this armor|
+|20|Self healing, if armor is damaged you may roll a d10 on 1-2 the armor repairs itself by 1Ud of intergity.|
+
+|`dice:d20`|Trinkets Magic Properties|
+|---|---|
+|1|Roll on the Damage Type table. This item grants you damage eduction based on its rarity: +1 uncommon, +2 rare, +3 epic|
+|2|This item grants you PP based on its rarity: +3 uncommon, +4 rare, +5 epic|
+|3|This item grants you Spell Effect check bonus based on its rarity: +10 uncommon, +20 rare, +30 epic|
+|4|Increase your carrying capacity by 10|
+|5|Reroll any check once per camp rest|
+|6|Allows the user to cast a spell for free once a day|
+|7|Grants +1 Armor|
+|8|+5 HP|
+|9|After defeating a combat encounter, roll D6: a result of 1-3 means that ou immediately recover D4 HP|
+|10|You’re immune to Stun|
+|11|You’re immune to Fear|
+|12|+10 Ranged Weapons|
+|13|+1 damage to all attacks|
+|14|Stop any bleeding once a day|
+|15|Once per day you resist Courruption|
+|16|+10 Perception|
+|17|Reroll any failed Sleight of Hand checks while attempting to open a lock|
+|18|Reroll any failed Sleight of Hand checks while attempting to dismantle a trap|
+|19|On command, this item works as a source of light and illuminates a 30 ft radius|
+|20|This item can cast a spell once a day. Determine which spell randomly when first finding this item|

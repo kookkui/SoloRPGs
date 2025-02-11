@@ -59,8 +59,22 @@ You stumble upon a hidden cave, no more than a few feet deep. Inside, you find s
 ##### Loot - Valuable Loot
 Half Plate 3,000 D8+1 Heavy D12 -20 Stealth
 
+Making camp 
 
+Survival Check  1d%[11]
+Critical Success 
 
+-1 Crafting Supply due to crit
 
+Skill up check 33 1d%[67] 
+Success
++1 to **Survival** (34)
+
+Sleeping for the night
+-1 Ration
+
+Hex 7
+
+Elite: +5 HP, +1 damage, Roll _once_ on the Broken Shores Creature Modifier Table
 
 

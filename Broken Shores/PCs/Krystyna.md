@@ -24,6 +24,7 @@ Armornote1: -20 Stealth
 Shield: 
 ShieldPR: 
 Shieldintegrity: 
+trinketslot: 
 Currency: 51
 shards: 12
 csupplies: 12
@@ -52,11 +53,13 @@ title21: ""
 title2: Rations
 title3: Shards x 12
 title4: Fishing Rod
+skill21: false
+lightsource: None
 ---
 >[!dice] %%FAKE TITLE HERE%%
->> [!dice] %%FAKE TITLE HERE%%  
+>>[!dice] %%FAKE TITLE HERE%%  
 >> # `=this.file.name`
->> ![[Krystyna_pic.webp]]
+>> ![[Krystyna.png]]
 >> ###### Stats
 >>|     |     | 
 >> |--- | --- | 
@@ -83,34 +86,37 @@ title4: Fishing Rod
 >>
 >>##### Currency and Provisions
 >>|     |     |
->> |--- | --- |
+>> |:---: | :---: |
 >>|**Coins (Ҁ)** |`=this.Currency` |
 >>|**Shards** | `=this.shards`|
->> |**Crafting Supplies** |`=this.csupplies` |
->>| **Rations**   |  `8`   |
+>> |**Crafting Supplies** |`11` |
+>>| **Rations**   |  `7`   |
 >>| **Water (Gal)** |  `=this.water`   |
->
->>[!infobox] %%FAKE TITLE HERE%%
->> ### Stats
->> |        |         |   | |
->>| ---- | ---- | ---- |---- |
->>| **Strength**   | `=this.STR`  | **Brawn** | `=(this.STR)*5`|
->> |      `0/10` |         |    | |
->>| **Dexterity**    | `=this.DEX` |**Coordination** | `=(this.DEX)*5`|
->> |    `0/10`   |         |   | |
+>>| **Light Source Remaining** |`INPUT[suggester(option(None), option(Ud4), option(Ud6), option(Ud8), option(Ud10), option(Ud12)):lightsource]` |   |
+
+>[!todo] %%FAKE TITLE HERE%%
+>>[!todo] %%FAKE TITLE HERE%%
+>> #### Stats
+>> | | | | |
+>>| :----: | :----: | :----: :----: |
+>>| **Strength** | `=this.STR` | **Brawn** | `=(this.STR)*5`|
+>> | `0/10` | | | |
+>>| **Dexterity** | `=this.DEX` |**Coordination** | `=(this.DEX)*5`|
+>> | `0/10` | | | |
 >>| **Constitution** | `=this.CONST` | **Vitality**|`=(this.CONST)*5`|
->> |    `0/10`   |         |   | |
->>| **Will**         |  `=this.WIL` | **Tenacity**|`=(this.WIL)*5`|
->> |    `0/10`   |         |   | |
->>| **Intelligence** |  `=this.INT` | **Intellect**|`=(this.INT)*5`|
->> |    `0/10`   |         |   | |
->>| **Charisma**     | `=this.CHA` | **Charm**|`=(this.CHA)*5`|
->> |    `0/10`   |         |   | |
+>> | `0/10` | | | |
+>>| **Will** | `=this.WIL` | **Tenacity**|`=(this.WIL)*5`|
+>> | `0/10` | | | |
+>>| **Intelligence** | `=this.INT` | **Intellect**|`=(this.INT)*5`|
+>> | `0/10` | | | |
+>>| **Charisma** | `=this.CHA` | **Charm**|`=(this.CHA)*5`|
+>> | `0/10` | | | |
 >>
+>>&nbsp;
 >>
->> ### Skill Checks
+>> #### Skill Checks
 >>| **Skill Name** | **Skill Level** | **Level Up**
->>| ------------------------- | ----------- | ----------- |
+>>| --------------------- | ----------- | ----------- |
 >>| **Acrobatics**(DEX `=this.DEX`) | `15` | `INPUT[toggle:skill1]`|
 >>| **Athletics** (STR `=this.STR`) | `56` | `INPUT[toggle:skill2]`|
 >>| **Animal Handling** (CHA `=this.CHA`) | `12` |`INPUT[toggle:skill3]`|
@@ -131,13 +137,15 @@ title4: Fishing Rod
 >>| **Simple Melee Weapons** (STR `=this.STR`) | `16` |`INPUT[toggle:skill18]`
 >>| **Sleight of Hand** (DEX `=this.DEX` ) | `15` |`INPUT[toggle:skill19]`
 >>| **Stealth** (DEX `=this.DEX`) | `35` |`INPUT[toggle:skill20]`
->>| **Survival** (INT `=this.INT` ) | `33` |`INPUT[toggle:skill21]`
+>>| **Survival** (INT `=this.INT` ) | `34` |`INPUT[toggle:skill21]`
 >>| **Unarmed** (STR `=this.STR`) | `16` |`INPUT[toggle:skill22]`
->
->>[!infobox] %%FAKE TITLE HERE%%
+>>
+>>&nbsp;
+>>
 >>#### Notes
 >>`INPUT[textArea:notes1]`
->
+
+>[!important] %%FAKE TITLE HERE%%
 >>[!important] %%FAKE TITLE HERE%%
 >>##### Godshard
 >>|     |     |
@@ -152,6 +160,21 @@ title4: Fishing Rod
 >> |**Fire Essence** (+1 Damage) | `0/4` |
 >> |**Water Essence** (+2 HP) | `0/4` |
 >> |**Air Essence** (+2 PP) | `0/4` |
+>>
+>>&nbsp;
+>>
+>>##### Misc. Gear
+>> |        |         |   
+>>| :-: | :-----: |
+>>| **Trinket** | `=this.trinketslot` |
+>>| **Boots** | `=this.bootsslot` |
+>>| **Earing** | `=this.earingslot` |
+>>| **Necklace/Pendant** | `=this.necklaceslot` |
+>>| **Ring 1**| `=this.ring1` |
+>>| **Ring 2**|`=this.ring1` |
+>>
+>>&nbsp;
+>>
 >>##### Talents
 >> |        |         |   
 >>| :-: | :----- |
@@ -162,7 +185,9 @@ title4: Fishing Rod
 >>| 5 | `=this.talent4` |
 >>| 6 |`=this.talent5` |
 >>| 7 | `=this.talent6` |
->
+>>
+
+>[!table] %%FAKE TITLE HERE%%
 >>[!table] %%FAKE TITLE HERE%%
 >>### Inventory
 >>| **Slot** | **Encumbering Items** | **Slot** | **Encumbering Items** 

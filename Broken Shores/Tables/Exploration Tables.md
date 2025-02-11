@@ -149,6 +149,8 @@
 | 11         | Raiders                                |
 | 12         | Tidal Troll                            |
 
+^0b18e6
+
 
 
 | `dice:d20` | Island Exploration - Encounters |
