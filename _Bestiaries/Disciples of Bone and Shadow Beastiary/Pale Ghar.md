@@ -21,7 +21,7 @@ awareness: 10
 initiative: 18
 
 traits:
-  - name: 'Special I:'
+  - name: 'Special:'
     desc: "Their bite applies a poison that deals D4 damage every turn (nonstackable) unless a CON (-5) test is passed"
 
 stats: [12, 22, 15, 10, 2, 0]

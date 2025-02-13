@@ -1321,3 +1321,23 @@ Combat Begins
 
 Ghar Turn
 
+**Parry** Test 39 1d% [67] Hit
+
+1 Damage to Zaalu 
+
+Pale Ghar at max HP
+
+ CON (-5) test 11 1d20[9]
+
+9 Passed
+
+Zaalu Turn
+
+**One-Handed Melee** 53 1d%[28]
+Hit
+
+5 Damage to Ghar 
+
+
+Ghar Turn
+
