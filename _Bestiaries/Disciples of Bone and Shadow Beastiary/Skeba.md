@@ -4,7 +4,7 @@ name: "Skeba"
 
 layout: DBS 
 
-type: "Beast"
+type: "Beast (Common)"
 
 loot: "No Loot"
 

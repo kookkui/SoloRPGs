@@ -4,9 +4,9 @@ name: "Pale Ghar"
 
 layout: DBS 
 
-type: "Beast"
+type: "Beast (Common)"
 
-loot: "No Loot, D10 claws that sell for 20 jats each"
+loot: "No Loot, `dice:D10` claws that sell for 20 jats each"
 
 DEF: 0
 

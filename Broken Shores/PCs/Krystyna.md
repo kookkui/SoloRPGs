@@ -59,7 +59,10 @@ lightsource: None
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] %%FAKE TITLE HERE%%  
 >> # `=this.file.name`
->> ![[Krystyna.png]]
+>> 
+>>
+>>![[Krystyna.jpg|400]]
+>> 
 >> ###### Stats
 >>|     |     | 
 >> |--- | --- | 

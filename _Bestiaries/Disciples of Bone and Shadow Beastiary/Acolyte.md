@@ -4,7 +4,7 @@ name: "Acolyte"
 
 layout: DBS 
 
-type: "Humanoid"
+type: "Humanoid (Common/Elite)"
 
 loot: "Valuable loot"
 

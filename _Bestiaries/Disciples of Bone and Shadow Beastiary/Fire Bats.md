@@ -1,7 +1,7 @@
 ```statblock
 name: Fire Bats
 layout: DBS
-type: Beast
+type: Beast (Vermin)
 loot: No Loot
 DEF: 0
 OFF: TL10

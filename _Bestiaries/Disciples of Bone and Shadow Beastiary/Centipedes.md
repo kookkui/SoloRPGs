@@ -1,16 +1,28 @@
 ```statblock
 
 name: Centipedes
+
 layout: DBS
-type: Beast
+
+type: Beast (Vermin)
+
 loot: No Loot
+
 DEF: 0
+
 OFF: TL10
+
 Damage: D6+TL1
+
 hp: 15+TL10
+
 awareness: 18
+
 initiative: 18
+
 number: 1+TL1
+
+stats: [3, 12, 5, 6, 2, 0]
 
 traits:
 - Special I: Their bite applies a poison that deals D4 damage every turn (nonstackable) unless a CON (-5) test is passed.

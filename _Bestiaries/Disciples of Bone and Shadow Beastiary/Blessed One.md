@@ -4,7 +4,7 @@ name: "Blessed One"
 
 layout: DBS 
 
-type: "Humanoid"
+type: "Humanoid (Elite)"
 
 loot: "Rare +5"
 

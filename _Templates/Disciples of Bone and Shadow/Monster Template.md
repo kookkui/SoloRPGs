@@ -4,21 +4,25 @@ name: "placeholder"
 
 layout: DBS 
 
-type: "type"
+hp: "HP"
 
-loot: "No Loot"
+awareness: 10
+
+initiative: 10
 
 DEF: TL5
 
 OFF: TL5
 
-damage: "dam"
+damage: "2+TL2"
 
-hp: "hp"
+type: "type"
 
-awareness: 18
+loot: "No Loot"
 
-initiative: 14
+stats: [NA]
+
+number: 1
 
 traits:
   - name: 'Special I:'
@@ -26,15 +30,10 @@ traits:
   - name: 'Special II:'
     desc: "Stuff"
 
-stats: [10, 12, 12, 20, 18, 10]
-
-number: 1
-
 skills: "Alchemy 50, Command Skills 25, Disguise 40, Forbidden Lore 70, Literacy 80, Persuasion 40, Perception 50"
 
-gear: "G-string" 
+gear: "gear" 
 
 description: "description"
 
 ```
-

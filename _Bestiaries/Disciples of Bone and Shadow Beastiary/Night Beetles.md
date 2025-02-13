@@ -4,7 +4,7 @@ name: "Night Beetles"
 
 layout: DBS 
 
-type: "Insect"
+type: "Insect (Vermin)"
 
 loot: "No Loot"
 

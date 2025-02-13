@@ -4,7 +4,7 @@ name: "Madari Rats"
 
 layout: DBS 
 
-type: "Beast Morale -1"
+type: "Beast Morale -1 (Vermin)"
 
 loot: "No Loot"
 

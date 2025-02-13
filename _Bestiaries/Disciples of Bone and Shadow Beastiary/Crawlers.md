@@ -4,9 +4,9 @@ name: "Crawlers"
 
 layout: DBS 
 
-type: "Beast"
+type: "Beast (Common)"
 
-loot: "No loot, `dice:D6` fangs that sell for 25 jats each"
+loot: "Harvest, `dice:D6` fangs that sell for 25 jats each"
 
 DEF: TL10
 

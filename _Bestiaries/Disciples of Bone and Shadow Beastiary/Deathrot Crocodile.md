@@ -3,9 +3,9 @@ name: "Deathrot Crocodile"
 
 layout: DBS 
 
-type: "Beast"
+type: "Beast (Common)"
 
-loot: "No Loot, D10 claws that sell for 20 jats each"
+loot: "Harvest, `dice:D10` claws that sell for 20 jats each"
 
 DEF: 0
 
@@ -20,9 +20,9 @@ awareness: 10
 initiative: 18
 
 traits:
-  - name: 'Bite'
+  - name: 'Bite:'
     desc: "Their powerful bite deals damage and applies a poison that deals D4 damage every turn (nonstackable) unless a CON (-5) test is passed."
-  - name: 'Armor Penetration (1)'
+  - name: 'Armor Penetration (1):'
     desc: "Their bite has a chance to ignore armor, dealing additional damage."
 
 stats: [12, 22, 15, 10, 2, 0]

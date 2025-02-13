@@ -12,16 +12,16 @@ INT: 14
 CHA: 12
 xp: 34
 axp: 
-Weapon1: One-Handed Sword
-Weapon1dmg: D6
-Weapon1notes: +10 Parry
-Weapon2: Two-Handed Sword
-Weapon2dmg: D10
+Weapon1: Longsword
+Weapon1dmg: D8+1
+Weapon1notes: Versatile (D10)
+Weapon2: Greatsword
+Weapon2dmg: 2D8
 Weapon2notes: -10 to Defensive Skills
 Weapon3: Long Bow
 Weapon3dmg: D6
 Weapon3notes: 
-Armor: 2
+Armor: 1
 currency: 150
 ajats: 
 merc: ".6"
@@ -51,9 +51,9 @@ title1: 1x Healing Tincture
 title2: Rations
 title3: Torch
 title4: Bandage x 5
-title5: Two-Handed Sword
-title6: Two-Handed Sword
-title7: Coins
+title5: Great Sword
+title6: Great Sword
+title7: Jats
 checkbox1: true
 checkbox2: true
 checkbox3: true
@@ -77,7 +77,7 @@ Spell2des:
 Spell1mem: 
 quest1: Witchreef Elder Fadar tells me that a sacred Temple that is used by the village Five Hexes Away and it has been over run by a Blessed One. He wants me to retake the temple and destroy the Blessed One.
 quest2: 
-title8: Coins
+title8: Jats
 checkbox8: true
 title9: Light Armor (+2)
 checkbox9: false
@@ -105,14 +105,14 @@ title16: Steel Deer Antlers (300 jats)
 title17: Short Bow
 title18: Long Bow
 equipped18: true
-title19: "One-Handed Sword "
+title19: Longsword
 equipped19: true
 title20: Knife
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%
 >> # `=this.file.name`
->> ![[Zaalu_Non_AI.webp]]
+>> ![[zaalu_non_ai.jpg|700]]
 >> ###### Stats
 >>|     |     |
 >> |--- | --- |
@@ -124,6 +124,7 @@ title20: Knife
 >> |**XP** | `VIEW[{xp}][text]`|
 >>|**ADD XP**| `INPUT[number:axp]` `BUTTON[exp]`|
 >>
+>>&nbsp;
 >>
 >> ###### Weapons
 >>| **Weapons** | **Damage** | **Notes** |
@@ -134,6 +135,8 @@ title20: Knife
 >>| | | |
 >>| | | |
 >>
+>>&nbsp;
+>>
 >> ##### Character Traits
 >>|     |     |
 >> |--- | --- |
@@ -141,6 +144,8 @@ title20: Knife
 >>|**Advantages** | `=this.advantages`|
 >> |**Disadvantages** |`=this.disadvantages` |
 >>| **Character Flaws**   |  `=this.flaws`   |
+>>
+>>&nbsp;
 >>
 >> ###### Supplies
 >>  | 
@@ -165,6 +170,8 @@ title20: Knife
 >>| **Intelligence** |  `=this.INT` | 
 >>| **Charisma**     | `=this.CHA` | 
 >>| **Max Gear Slots**     | `=(this.STR)` | 
+>>---
+>>&nbsp;
 >> ### Skill Checks
 >>| <span style="color:rgb(129, 216, 208)">Skill Name</span>|<span style="color:rgb(129, 216, 208)"> Skill Level</span> |
 >>| ------------ | ----------- |

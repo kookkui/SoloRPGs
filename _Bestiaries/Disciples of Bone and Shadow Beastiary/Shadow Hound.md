@@ -4,7 +4,7 @@ name: "Shadow Hound"
 
 layout: DBS 
 
-type: "Abomination"
+type: "Abomination (Common)"
 
 loot: "No Loot"
 

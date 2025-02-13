@@ -77,4 +77,20 @@ Hex 7
 
 Elite: +5 HP, +1 damage, Roll _once_ on the Broken Shores Creature Modifier Table
 
+```statblock
+creature: Deathless Guardian
+```
 
+**Detonating:** When defeated, this creature explodes. Characters must pass a Tenacity check or take D8+1 fire damage. +20% Loot chance.
+
+```encounter
+players:
+  - Krystyna
+creatures:
+  - Deathless Guardian 1, 15, 8
+```
+
+Krystyna turn
+
+
+![[image-2.png]]

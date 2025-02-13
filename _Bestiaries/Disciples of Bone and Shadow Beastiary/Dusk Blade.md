@@ -4,7 +4,7 @@ name: "Dusk Blade"
 
 layout: DBS 
 
-type: "Humanoid"
+type: "Humanoid (Common/Elite)"
 
 loot: "Common loot +5"
 

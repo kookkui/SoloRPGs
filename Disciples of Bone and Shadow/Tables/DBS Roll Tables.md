@@ -2,9 +2,6 @@
 > ##### Random Difficulty
 >`dice:[[DBS Tables#^5baee1]]`
 >
->#####  Mark of Taint
->`dice:[[DBS Tables#^769b4d]]`
->
 >#####  Mission Complication
 >`dice:[[DBS Tables#^499ef9]]`
 >
@@ -21,6 +18,9 @@
 > ##### Terrain Type
 >`dice:[[DBS Tables#^84401e]]`
 >
+>##### Encounter Check
+>`dice:[[DBS Tables#^894799]]`
+>
 >#####  Akkar Strand Hex Exploration
 >`dice:[[DBS Exploration Tables#^a00248]]`
 >
@@ -30,16 +30,15 @@
 >##### Travel Complications
 >`dice:[[DBS Tables#^442cac]]`
 >
->##### Encounter Check
->`dice:[[DBS Tables#^894799]]`
+
 
 
 >[!tldr] Interior Exploration
 >##### Encounter Check
 >`dice:[[DBS Tables#^894799]]`
 >
->##### Interior Exploration
->`dice:[[DBS Tables#^63f2a8]]`
+>##### Taint Check
+>`dice:[[DBS Tables#^afb9a4]]`
 >
 >##### Doors
 >`dice:[[DBS Tables#^e7d45c]]`
@@ -94,9 +93,8 @@
 >##### Random Encounter's by Category 
 >`dice:[[DBS Encounter Tables#^d12cea]]`
 >
->
 >##### Mark of Taint
->`dice:[[DBS Tables#^769b4d]]`
+>`dice:[[DBS Encounter Tables#^89024c]]`
 >
 
 
@@ -106,19 +104,19 @@
 >`dice:[[DBS Exploration Tables#^3ec88a]]`
 >
 >##### Random Loot
->`dice:[[DBS Tables#^bae025]]`
+>`dice:[[DBS Loot Tables#^bae025]]`
 >
 >##### Common Finds
->`dice:[[DBS Tables#^80c050]]`
+>`dice:[[DBS Loot Tables#^80c050]]`
 >
 >##### Valuable Finds
->`dice:[[DBS Tables#^494166]]`
+>`dice:[[DBS Loot Tables#^494166]]`
 >
 >#####  Rare Finds
->`dice:[[DBS Tables#^a381b4]]`
+>`dice:[[DBS Loot Tables#^a381b4]]`
 >
 >##### Artifacts
->`dice:[[DBS Tables#^25e5a3]]`
+>`dice:[[DBS Loot Tables#^25e5a3]]`
 
 
 >[!NPC] GM Emulation

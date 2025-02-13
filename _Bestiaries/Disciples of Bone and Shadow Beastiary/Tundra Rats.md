@@ -1,7 +1,7 @@
 ```statblock
 name: Tundra Rats
 layout: DBS  
-type: Beast  
+type: Beast (Common)
 loot: No Loot  
 DEF: 0  
 OFF: TL10  

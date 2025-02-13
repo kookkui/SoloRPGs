@@ -4,7 +4,7 @@ name: "Sabershadow"
 
 layout: DBS 
 
-type: "Beast"
+type: "Beast (Common)"
 
 loot: "No loot. Pelt sells for 200 jats"
 

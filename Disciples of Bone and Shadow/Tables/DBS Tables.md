@@ -42,112 +42,6 @@
 | 10         | Complete whiteout |
 
 
-
-| `dice:d20` | Common Finds                                                                          |
-| ---------- | ------------------------------------------------------------------------------------- |
-| 1          | `dice:2D6` jats                                                                       |
-| 2          | Carved Bone Statuette, `dice:2D6`                                                     |
-| 3          | Ceramic Ring `dice:D10`                                                               |
-| 4          | Amber Earring `dice:D20`                                                              |
-| 5          | Bone Dice `dice:2D6`                                                                  |
-| 6          | Leather Belt `dice:3D6`                                                               |
-| 7          | Drinking Horn `dice:3D6`                                                              |
-| 8          | Leather Gloves `dice:3D6`                                                             |
-| 9          | `dice:D4` Bandages 5 jats per Bandage                                                          |
-| 10         | `dice:D4` Lock-picks 10 jats per Pick                                                   |
-| 11         | `dice:D4` Rations, 5 jats per Ration                                                                     |
-| 12         | Rope (5') 10                                                                          |
-| 13         | Nicely carved Bone Flute `dice:D10+5`                                                 |
-| 14         | Necklace with tiny silver bead `dice:D10+10`                                          |
-| 15         | Blank Scroll 15                                                                       |
-| 16         | `dice:D4` Empty Vials 10 jats per Vial                                                                |
-| 17         | Gemstone `dice:D20+10`                                                                |
-| 18         | Pouch with `dice:D10` Random Herbs 5 jats per Herb                                             |
-| 19         | Lantern 20                                                                            |
-| 20         | A One-Handed Weapon. Roll a `dice:D4`: 1 Sword, 2 Hammer or Mace, 3 Axe, 4 Dagger 100 |
-
-^80c050
-
-
-
-| `dice:d20` | Valuable Finds                                                                                    |
-| ---------- | ------------------------------------------------------------------------------------------------- |
-| 1          | Delicate Hourglass (50 jats )                                                                     |
-| 2          | `dice:3D20` jats                                                                                  |
-| 3          | `dice:D4` Pearls `dice:D20`jats Per Pearl                                                         |
-| 4          | Ancient Ghaln Drinking Horn (100 jats)                                                            |
-| 5          | Ornate Cloak  (100 jats)                                                                          |
-| 6          | Shield (100 jats)                                                                                 |
-| 7          | Short Bow (120 jats)                                                                              |
-| 8          | Long Bow  (140 jats)                                                                              |
-| 9          | Two-Handed Weapon. Roll a `dice:D4`: 1 GS Sword, 2 Hammer or Mace, 3 Axe, 4 Staff (140 jats)      |
-| 10         | Piece of Light Armor (150 jats)                                                                   |
-| 11         | Silver Ring (180 jats)                                                                            |
-| 12         | Large Gemstone (200 jats)                                                                         |
-| 13         | Gold Pendant (250 jats)                                                                           |
-| 14         | Heavy Shield (150 jats)                                                                           |
-| 15         | A One-Handed Iron Weapon. Roll a `dice:D4`: 1 Sword, 2 Hammer or Mace, 3 Axe, 4 Dagger (500 jats) |
-| 16         | A Two-Handed Iron Weapon. Roll a `dice:D4`: 1 Sword, 2 Hammer or Mace, 3 Axe, 4 Staff (600 jats)  |
-| 17         | Bronze Mirror (700 jats)                                                                          |
-| 18         | A Piece of Mail Armor (800 jats)                                                                  |
-| 19         | Ornate Helmet (800 jats)                                                                          |
-| 20         | Tome of Herbal Tradition (200 jats)                                                               |
-
-^494166
-
-
-| `dice:d20` | Rare Finds                               |
-| ---------- | ---------------------------------------- |
-| 1          | Alchemy Treatise 300                     |
-| 2          | Tome of Forbidden Lore 300               |
-| 3          | D10 Ancient Gold Coins 100/Coin          |
-| 4          | D4 Tears of the Mother 50/Tear           |
-| 5          | D10 Firedust 100/Dose                    |
-| 6          | Random Spell Scroll 500                  |
-| 7          | Iron Combat Claws 600                    |
-| 8          | Compass 400                              |
-| 9          | Gold Ring with Gemstone 500              |
-| 10         | Gold Goblet 600                          |
-| 11         | Statuette made of Gold and Gemstones 700 |
-| 12         | Healing Tincture 300                     |
-| 13         | Ornamental Shield 800                    |
-| 14         | Scepter 800                              |
-| 15         | Iron Helmet 1,000                        |
-| 16         | Steel Scale Armor 1,200                  |
-| 17         | Suth Marble 500                          |
-| 18         | Darkness Well 50                         |
-| 19         | One-Handed Shalvan Wood Weapon 1,500     |
-| 20         | `dice:[[DBS Tables#^25e5a3]]`            |
-
-^a381b4
-
-
-| `dice:d20` | Artifacts                            |
-| ---------- | ------------------------------------ |
-| 1          | Beastreaver (unique)                 |
-| 2          | Thorn of Burden                      |
-| 3          | Ronhok's Eye (unique)                |
-| 4          | Rotfang                              |
-| 5          | Rod of Pain                          |
-| 6          | Spear of Crimson Flow (unique)       |
-| 7          | Lost Coin of the Xizerian Empire     |
-| 8          | Boots of the Thief                   |
-| 9          | Scepter of Hannun (unique)           |
-| 10         | Mantle of Multitudes (unique)        |
-| 11         | Horse Figurine                       |
-| 12         | Amulet of Vythrhos (unique)          |
-| 13         | Maw of Vhozha (unique)               |
-| 14         | The Sineater (unique)                |
-| 15         | Rod of Shrath (unique)               |
-| 16         | The Everlasting Shadows              |
-| 17         | Feather of Kul'Pheg (unique)         |
-| 18         | Taintnut                             |
-| 19         | Crystallized Ice of Alnavis (unique) |
-| 20         | Staff of Scars                       |
-
-^25e5a3
-
-
 | `dice:d10` | Setting Camp Mishap                                                                                                                                                                              |
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 1          | You set camp over a wet patch of land, without realizing it. You wake up wet and uncomfortable, with damp clothes and gear. -1 to all CON tests for the next day, as you feel tired and unrested |
@@ -269,32 +163,6 @@
 ^819548
 
 
-| `dice:d20` | Mark of Taint                                                                                                                                                                                                             |
-| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1          | **Fear**. Each character must perform a WIL Test every turn. If they fail, they suffer a -20 penalty to all actions that turn                                                                                             |
-| 2          | **Transfixing Stare**. The characters may not run away from this creature                                                                                                                                                 |
-| 3          | **Incombustible**. Immune to Burning                                                                                                                                                                                      |
-| 4          | **Snake Blood.** Immune to Poisoned                                                                                                                                                                                       |
-| 5          | **Southern Kin**. Immune to Chilled                                                                                                                                                                                       |
-| 6          | **Bloodless**. Immune to Bleeding                                                                                                                                                                                         |
-| 7          | **Thick Skull.** Immune to Stunned                                                                                                                                                                                        |
-| 8          | **Vampiric**. This creature heals 2 HP each time it deals damage                                                                                                                                                          |
-| 9          | **Berserk**. Upon reaching 25% remaining health points (rounding up), they deal 2 extra damage per attack but receive a -10 to their Defense                                                                              |
-| 10         | **Negate Death.** Ignore all damage caused by an attack that would otherwise be fatal. Only works once                                                                                                                    |
-| 11         | **Fire Affinity.** All damage inflicted by this creature has a 50% chance (roll with each attack) to cause the Burning condition                                                                                          |
-| 12         | **Heart-Stopping Aura**. This creature applies the Chilled condition to all characters in its proximity                                                                                                                   |
-| 13         | **Toxic**. All damage inflicted by this Veteran has a 50% chance (roll with each attack) to cause the Poisoned condition                                                                                                  |
-| 14         | **Regeneration**. This creature heals 1 HP automatically each turn                                                                                                                                                        |
-| 15         | **Armored**. This creature is protected by a thick skin that grants it Armor (1)                                                                                                                                          |
-| 16         | **Shroud of Darkness.** This creature is surrounded by a permanent cloud of darkness. All characters (except the creature itself) suffer the effects of the Blinded condition unless they have some light source or spell |
-| 17         | **Repelling Force Nimbus**. This creature is immune to ranged weapons attacks, thanks to a constant field surrounding it that stops all projectiles                                                                       |
-| 18         | **Disarming Tentacles.** Once per turn, the characters must perform a DEX Test to avoid being disarmed. If failed, they lose their weapon and must spend a turn recovering it                                             |
-| 19         | **Thorns**. If fighting in melee range, the player must perform a DEX Testevery turn or suffer 2 damage                                                                                                                   |
-| 20         | **Endurance**. This creature may lose no more than 5 HP per attack                                                                                                                                                        |
-
-^769b4d
-
-
 
 | `dice: 1d8` | Random Direction |
 | --------- | ---------------- |
@@ -363,19 +231,13 @@
 ^499ef9
 
 
-| `dice: d6` | Random Loot                   |
-| ---------- | ----------------------------- |
-| 1-3        | `dice:[[DBS Tables#^80c050]]` |
-| 4-5        | `dice:[[DBS Tables#^494166]]` |
-| 6          | `dice:[[DBS Tables#^a381b4]]` |
 
-^bae025
 
 
 | `dice:1D10` | Encounter Check               |
 | ----------- | ----------------------------- |
-| 1-2         | `dice:[[DBS Tables#^afb9a4]]` |
-| 3-10        | Encounter Check - None        |
+| 1-3  | `dice:[[DBS Tables#^afb9a4]]` |
+| 4-10        | Encounter Check - None        |
 
 ^894799
 
@@ -443,18 +305,18 @@
 ^c0428d
 
 
-| `dice:1D10` |                                                                                                                    Items Found Within an Ancient Sarcophagus                                                                                                                     |
-| :---------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|      1      |                                                                                                 A serrated blade that eats away at the armor it hits, reducing its efficacy by 1                                                                                                 |
-|      2      |                                                                                                                           Mummy wrappings but no body                                                                                                                            |
-|      3      |                                                                        The molted skin of a giant snake. When worn as a cloak, it makes the wearer cold-blooded, with all of its benefits and weaknesses                                                                         |
-|      4      |                                                                                                  A vial of poison that turns to noxious gas when broken to deter grave robbers                                                                                                   |
-|      5      | A medium-sized cloud of grasshoppers-looking creatures emerges from the sarcophagus; if you are over half your max corruption (rounded down), they deal `dice:1D6` damage regardless of armor; if under half your max corruption (rounded down), they heal you for `dice:1D6` HP |
-|      6      |                                                                         Thick black sludge about 5 inches deep, probably the remnants of a long ago botched mummification. Could be useful if collected                                                                          |
-|      7      |                                                                                 A small jar of honey, left behind to feed the entombed spirit after life. Acts as Healing Tincture when consumed                                                                                 |
-|      8      |                                               A palm-sized sphere of glass with an elaborate, teardrop-shaped needle suspended in the center. The needle always seems to point to the ground beneath you, deeper into the abyss...                                               |
-|      9      |                                                      A bracelet of `dice:1D10`prayer beads that remove 1 CP with a successful WIL test. May only be used once a week. With each attempt, a bead loses its luster and cracks                                                      |
-|     10      |                                                                                           A beautiful funerary mask, made in bronze. It's probably pretty worthy by the metal alone...                                                                                           |
+| `dice:1D10` | Items Found Within an Ancient Sarcophagus |
+| :---------: | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1 | A serrated blade that eats away at the armor it hits, reducing its efficacy by 1 |
+| 2 | Mummy wrappings but no body |
+| 3 | The molted skin of a giant snake. When worn as a cloak, it makes the wearer cold-blooded, with all of its benefits and weaknesses |
+| 4 | A vial of poison that turns to noxious gas when broken to deter grave robbers |
+| 5 | A medium-sized cloud of grasshoppers-looking creatures emerges from the sarcophagus; if you are over half your max corruption (rounded down), they deal `dice:1D6` damage regardless of armor; if under half your max corruption (rounded down), they heal you for `dice:1D6` HP |
+| 6 | Thick black sludge about 5 inches deep, probably the remnants of a long ago botched mummification. Could be useful if collected |
+| 7 | A small jar of honey, left behind to feed the entombed spirit after life. Acts as Healing Tincture when consumed |
+| 8 | A palm-sized sphere of glass with an elaborate, teardrop-shaped needle suspended in the center. The needle always seems to point to the ground beneath you, deeper into the abyss... |
+| 9 | A bracelet of `dice:1D10`prayer beads that remove 1 CP with a successful WIL test. May only be used once a week. With each attempt, a bead loses its luster and cracks |
+| 10 | A beautiful funerary mask, made in bronze. It's probably pretty worthy by the metal alone... |
 
 
 | `dice:D20` | Injury Severity                                       |

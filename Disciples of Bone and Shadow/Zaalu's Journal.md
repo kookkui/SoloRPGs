@@ -1297,8 +1297,27 @@ Defensive Move - You may attempt to disarm your opponent. If the opponent cannot
 First aid check 50 1d% [28] 
 +4 HP (37)
 
+Door - An empty doorway. It may be trapped with a spell; roll 6: 1-6 **No trap**, 7-10 trapped. A party member (whoever crossed first) suffers D10 damage unless they pass a Perception skill test to detect the trap. Pass an INT test to disable the trap without triggering it
+
+Ruin Exploration - Beast: Pale Ghar (Common)
+
+```statblock
+creature: Pale Ghar
+```
+Tainted Encounter 
+**Vampiric:** The creature recovers D4 HP each time it deals damage.
+
+
+```encounter
+players: Zaalu
+creatures:
+  - Pale Ghar 1, 25, 18
+
+```
 
 
 
+Combat Begins
 
+Ghar Turn
 

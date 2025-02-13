@@ -4,7 +4,7 @@ name: "Steel Deer"
 
 layout: DBS 
 
-type: "Beast"
+type: "Beast (Common)"
 
 loot: "No loot. Antlers sell for 300 jats"
 

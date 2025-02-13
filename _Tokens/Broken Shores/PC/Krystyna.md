@@ -1,0 +1,34 @@
+---
+excalidraw-plugin: parsed
+tags:
+  - excalidraw
+ac: "9"
+hp: 30
+level: 1
+modifier: 0
+---
+==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: 'Decompress current Excalidraw file'. For more info check in plugin settings under 'Saving'
+
+
+# Excalidraw Data
+
+## Text Elements
+## Embedded Files
+8f40353c40a08217aac70754d174062d6fd576ba: [[SoloRPGs/_ Assets/SoloRPGs/_Tokens/Broken Shores/PC/Krystyna/Krystyna.webp]]
+
+%%
+## Drawing
+```compressed-json
+N4KAkARALgngDgUwgLgAQQQDwMYEMA2AlgCYBOuA7hADTgQBuCpAzoQPYB2KqATLZMzYBXUtiRoIACyhQ4zZAHoFAc0JRJQgEYA6bGwC2CgF7N6hbEcK4OCtptbErHALRY8RMpWdx8Q1TdIEfARcZgRmBShcZQUebQAObQBmGjoghH0EDihmbgBtcDBQMBKIEm4IACF8HiFiAA0AGQA5VJLIWEQKwn1opH5SzG5nAEYkgHZtAAYR8fGpmYBOAFYk
+
+kZ5lgcgYYaT4xYT4pIA2eJ4NqcXx4+XjrYgKEnVuJKm45fjT8aSJniSV+Lje6SBCEZTSbjLcYAFm0qx4Uz2U2h8Xiyx4i3u1mUwW4U3uzCgpDYAGsEABhNj4NikCpE6zMOC4QLZNqlTS4bAk5TEoQcYiU6m0iT0jiM5lZKBsyAAM0I+HwAGVYLiJJJORpAtKIITiWSAOpPSTcEYEomkhDKmCq9CCDza3ngjjhXJoU2FSBsJnYNQ7N0Le68/nO5iu
+
+1AcIQKgkIBDEF48eLQ/EehhMVicbiLO4pxgsdgcZqcMQm44wtGLc7xe5CODEXBQWMm76LJJ/ZFJkbJ9plZgAEXSDbjaBlBDC9x5wjgAEliGG8gBde6aYT8gCiwUy2Tni5TRA4JO4Eaju7YXMbaCJQgQ9zlwRnFXiMqTSVW2CTuCmZ1muE583Gy2hYhZiTY4eGIY4ZWIKFjg5bVmHccRUAKdowHdFCRg9Hdu0IfksAqD8IEKABfcAsIgXA4DgZV60
+
+Q4oOhBTIKjrUgDwGBhCAQChKk5bkgwFKkaQqABiGVRLEtkIGwEQWSgKcG30ZU9QpAThXQISRgQDSNIkqTSBkuSMm4rkJz5fihTpcgxSZGSdOkyUDP0AAxeUlRVRCdSpco2N0/T5MUi1DWIZ40D4QpJLs7IHP8skrRtDz7W8iLZPkgAlYQnRdE1Er0+z5IAeW9X0TQDMKfNyjJHM4KBHNwfR5T9VBNlKpKHMq7JFUIIxEIRbLfIyAAVLAoAAQSIZQ
+
+uAkYIZSlXryoUqJSBGvS2AoEFcCHcNI3wWbIvk1d+WG5bVpCDbyKO2yct2jJDuJCh+vgdy+Ik+DiQVepIXmOEZnRD5xn2KZQLYl6qXwABNbhSxGbQeGhVZjjGBN1ia0ojDYAxuDoyB6AIK8TWInbkoyNLTJDMMICetieRIDquu4Hqwqp4hlQQOBIUp0gSAAWTYYgEH23BNGCDaR3wMcGY5szBLQTGqipU7SGUDkAAoeFmaheDVjWgVQKY4QASm1F
+
+KEGUSNmQqBXlbbdWrd4V51d15YDfx5rLqgaKEAKqB8zDI9trCmVyEyI3cI5jhlAxlMsgFoXuEva8U2wIhWYvUgr3uDhasQuP7mEKA9yz1OEGd0o7AAKwQbAckVDO4G53n+cF89UBFsXSk5L3GH6tH8Aj7tOncsJgkr/NtSkwkDHuro0F9+5qTPYXR3j7t8FCEbh877vDy24jwCI/gIFvcIMZIoigA===
+```
+%%

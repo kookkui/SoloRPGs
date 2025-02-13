@@ -1,1 +1,0 @@
-![[Krystyna.png]]

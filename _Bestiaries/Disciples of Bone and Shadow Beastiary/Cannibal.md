@@ -1,6 +1,6 @@
 ```statblock
 
-name: "Cannibal"
+name: "Cannibal (Common)"
 
 layout: DBS 
 
