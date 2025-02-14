@@ -1338,6 +1338,48 @@ Hit
 
 5 Damage to Ghar 
 
-
 Ghar Turn
+
+**Parry** Test 39 1d%[17] 
+Pass
+
+Defensive Move - You can cast a spell or use an item in your possession for free. Otherwise, your next attack receives an extra +20
+
+Zaalu Turn
+
+**One-Handed Melee** 53 1d%[42]
+
+Hit
+
+6 Damage to Ghar
+
+Pale Ghar Turn
+
+**Parry** Test 39 1d%[28]
+
+Defensive Move - Your next attack receives an extra +10
+
+Zaalu Turn
+
+Two handing Longsword
+
+**Two-Handed Melee** 46 1d%[26]
+
+6 damage
+
+Pale Ghar Turn
+
+Morale check 
+WIL Test for Ghar 10 Rolled 5
+Zaalu 15 Rolled 14 Win
+
+Zaalu Turn
+
+Trying to hit running Ghar +20 to attack
+
+**One-Handed Melee** 73 1d%[68]
+Hit 8 Damage to Pale Ghar (Ded)
+
+<span style="color:rgb(241, 91, 181)">Victory! </span> 
++30 XP
 

@@ -10,8 +10,8 @@ CONST: 16
 WIL: 15
 INT: 14
 CHA: 12
-xp: 34
-axp: 
+xp: 64
+axp: 30
 Weapon1: Longsword
 Weapon1dmg: D8+1
 Weapon1notes: Versatile (D10)
@@ -112,7 +112,7 @@ title20: Knife
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%
 >> # `=this.file.name`
->> ![[zaalu_non_ai.jpg|700]]
+>> ![[SoloRPGs/_ Assets/Zaalu_P.jpg|600]]
 >> ###### Stats
 >>|     |     |
 >> |--- | --- |
