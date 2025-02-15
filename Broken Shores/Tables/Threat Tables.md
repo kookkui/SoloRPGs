@@ -54,7 +54,7 @@
 | `dice:d10` | Encounter Check |
 | ---------- | --------------- |
 | 1-2        | `dice:[[Threat Tables#^b06939]]`|
-| 3-10       | No Encounter    |
+| 3-10       | Encounter Check - No Encounter    |
 
 ^0074ab
 

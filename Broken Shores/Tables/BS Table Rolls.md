@@ -39,11 +39,11 @@
 > ##### Encounters
 >`dice:[[Exploration Tables#^d9ff13]]`
 >
->##### Combat Encounters
->`dice:[[Exploration Tables#^0b18e6]]`
->
 >##### Findings
 >`dice:[[Exploration Tables#^42f4c3]]`
+>
+>##### Combat Encounters
+>`dice:[[Exploration Tables#^0b18e6]]`
 >
 >##### Hazards & Obstacles
 >`dice:[[Exploration Tables#^a883c1]]`
@@ -146,8 +146,20 @@
 >`dice:[[BS Loot Table#^edbd7f]]`
 
 
-> [!crafting] ### Settlement Tables
+> [!crafting] ### GM Emulation
 > 
+>##### GM Emulation - Actions
+>`dice:[[DBS GM Emulation#^35c59e]]`
+>
+>##### GM Emulation - Themes
+>`dice:[[DBS GM Emulation#^416b0d]]`
+>
+>##### GM Emulation - NPC Motivations
+>`dice:[[DBS GM Emulation#^1dbade]]`
+>
+>##### Loot - Minor Magic Item
+>`dice:[[BS Loot Table#^edbd7f]]`
+>
 > ##### Smith Skill Level
 >`dice:[[BS Loot Table#^864a52]]`
 

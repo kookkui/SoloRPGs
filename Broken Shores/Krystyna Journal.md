@@ -139,10 +139,30 @@ Scimitar +1   D8+2 Slashing
 
 Hex Check - Swamp 
 
+Hex 6 
 
+Encounter Check - No Encounter
 
+You find a settlement
 
+## The Settlement of Brinemoor
 
+How do they feel about outsiders? Must prove themselves first.
 
+Seems their main industry is hunting and gathering.
 
+Smith is <font color="#A100F2">Master (+3 Max)</font>
+
+They probably have issues with the creatures that welcomed me to the island.
+
+The person in charge is an Overlord named **Bohr**.
+
+Speaking with Bohr I must prove myself before being trusted by him and the village. 
+
+Sophisticated labyrinth
+Destroy Religious artifact
+
+Bohr has tasked me with destroying a artifact in a nearby temple of a cult most likely. 
+
+It will take me 6 milestones to get to the location of the temple.
 
