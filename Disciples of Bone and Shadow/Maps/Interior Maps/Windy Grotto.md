@@ -51,7 +51,7 @@ a1ec0cbfd1eba62e2ca22f93edb42367b5666178: [[Ker Nethalas Map Generation Deck-202
 
 559d3a859633353cc16333f703c840cf596d3be4: [[Ker Nethalas Map Generation Deck-20250203145728150.webp]]
 
-84e95a21f603bcc8f4c32eb8ef952f067007da7f: [[Stairs1x1_01.png]]
+84e95a21f603bcc8f4c32eb8ef952f067007da7f: [[IMG-20250215002349540.png]]
 
 %%
 ## Drawing

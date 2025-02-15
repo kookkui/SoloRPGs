@@ -72,6 +72,9 @@
 >##### Events
 >`dice:[[Exploration Tables#^4a129e]]`
 >
+>##### Is there a Door?
+>`dice:[[Exploration Tables#^80f35d]]`
+>
 >##### Room Details & Content
 >`dice:[[Exploration Tables#^9339e2]]`
 >

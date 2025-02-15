@@ -54,7 +54,9 @@ title2: Rations
 title3: Shards x 12
 title4: Fishing Rod
 skill21: false
-lightsource: None
+lightsource: Ud6
+title5: Torch
+skill10: true
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] %%FAKE TITLE HERE%%  

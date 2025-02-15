@@ -490,3 +490,15 @@
 | 12         | Overgrown Vegetation. This place is full of plant life, which makes it difficult to see or find anything. Searching a room takes 2 ET, instead of 1                                                                                                                         |
 
 ^c51290
+
+
+|`dice:d20`|Exploration - Is there a Door?|
+|---|---|
+|1-4|Yes|
+|5-8|Yes, and it's Locked|
+| 9-10  | Yes, and it’s trapped            |
+| 11-12 | Yes, and it’s locked and trapped |
+| 13-20 | No                               |
+
+^80f35d
+

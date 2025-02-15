@@ -161,8 +161,101 @@ Speaking with Bohr I must prove myself before being trusted by him and the villa
 
 Sophisticated labyrinth
 Destroy Religious artifact
-
+### Quest to Destroy Cultists' Tome
 Bohr has tasked me with destroying a artifact in a nearby temple of a cult most likely. 
 
 It will take me 6 milestones to get to the location of the temple.
+
+Hex 1 
+
+Encounter Check - No Encounter
+
+You find some ancient ruins. Use the Ruin generation rules if you decide to explore them
+
+#### Ancient Fortress
+
+As you trudge through the foul smelling swamp an ancient Fortress nestled deep in the bog. You decide to investigate possible treasures, a chill runs up your spine as you make your way inside.
+
+Medium (D8) for size of the fortress. 
+
+Magically Unstable. Sparks of magic energy can be seen lighting the room around you. Each time a spell is cast, roll D4: a result of 1-2 means that you must add +30 to the Spell Effect roll, whereas a result of 3-4 means you must subtract -30 to the Spell Effect roll
+
+**Standard:** No changes
+
+
+
+```statblock
+creature: Giant Spider
+```
+
+
+Combat Encounters - Giant Spider x 2
+
+```encounter
+players:
+  - Krystyna
+creatures:
+  - Giant Spider 1, 20, 0
+  - Giant Spider 2, 20, 0
+```
+
+
+Giant Spider 1 Turn
+
+**Parry Check** 56 1d%[40]
+Passed
+
+You press your advantage, reducing your opponent’s next defensive roll by -20
+
+Krystyna Turn
+
+**Martial Weapons** 56 1d%[48]
+
+Hit  7 damage to the Giant Spider 1
+
+Giant Spider 2 turn
+
+**Dodge** 55 1d%[14]
+
+Dove out of the way
+
+Giant Spider 1 Turn 
+
+**Parry Check** 56 1d% [29]
+
+Increase your chances at a critical strike on your next attack to 01-10
+
+Krystyna Turn
+
+**Martial Weapons** 56 1d% [18]
+
+Hit  7 damage to the Giant Spider 1
+
+Giant Spider 2 
+
+**Dodge** 55 1d% [29]
+
+Wiff
+
+Giant Spider 1 Turn
+
+**Parry Check** 56 1d%[81]
+
+Hit
+Demanding -10
+**Vitality** check 70 1d%[18]
+Passed
+
+Damage -5 (lol)
+
+Krystyna Turn
+
+**Martial Weapons** 56 1d% [6] CRIT
+
+Rolled 6 = 12 damage to Giant Spider 1 (ded)
+
+Giant Spider 2  turn
+
+**Parry Check** 56 1d%[40]
+
 
