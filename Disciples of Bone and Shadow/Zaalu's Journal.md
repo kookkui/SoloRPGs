@@ -1383,3 +1383,39 @@ Hit 8 Damage to Pale Ghar (Ded)
 <span style="color:rgb(241, 91, 181)">Victory! </span> 
 +30 XP
 
+**Crafting** Check to try and harvest the claws 38 1d% [44] Failed but skill up chance.
+
+Skill up check 38 
+Rolled 95 passed 
++1 **Crafting** (39)
+
+Room 13 
+
+Encounter Check - None
+
+Artifice - **Fountain**
+
+Drink from the fountain Heals 8 HP(45) (only once)
+
+Door - A wooden door, locked. The characters will have to bash it in or pick the lock
+
+Difficulty - Easy +1
+
+STR Check 19 1d20[6]
+
+Door slams thunderously to the ground, "that might get some attention"
+
+Encounter Check - None
+
+You wait for any kind of response but all is silent, you feel more uneasy about the silence. This may be the calm before a storm or worse.
+
+Room 14 
+
+Encounter Check - None
+
+Ruin Exploration Common - Skeba (Beast)
+
+```statblock
+creature: Skeba
+```
+

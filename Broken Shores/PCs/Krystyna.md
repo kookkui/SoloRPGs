@@ -11,9 +11,9 @@ CHA: 12
 Weapon1: Longsword
 Weapon1dmg: D8+1 Slashing
 Weapon1notes: Parry, Versatile (d10)
-Weapon2: 
-Weapon2dmg: 
-Weapon2notes: 
+Weapon2: Scimitar
+Weapon2dmg: " D8+2 Slashing"
+Weapon2notes: Parry
 Weapon3: 
 Weapon3dmg: 
 Weapon3notes: 
@@ -61,7 +61,7 @@ lightsource: None
 >> # `=this.file.name`
 >> 
 >>
->>![[Krystyna.jpg|400]]
+>>![[KrystynaN.jpg|500]]
 >> 
 >> ###### Stats
 >>|     |     | 
@@ -101,7 +101,7 @@ lightsource: None
 >>[!todo] %%FAKE TITLE HERE%%
 >> #### Stats
 >> | | | | |
->>| :----: | :----: | :----: :----: |
+>>| --- | --- | :--: | :---: |
 >>| **Strength** | `=this.STR` | **Brawn** | `=(this.STR)*5`|
 >> | `0/10` | | | |
 >>| **Dexterity** | `=this.DEX` |**Coordination** | `=(this.DEX)*5`|
@@ -243,7 +243,7 @@ lightsource: None
 >> | **Description**     | `=this.Spell2des` | 
 
 
-
+`=(this.STR)*5`
 
 
 ```meta-bind-button

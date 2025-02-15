@@ -117,7 +117,7 @@ title20: Knife
 >>|     |     |
 >> |--- | --- |
 >>|   **Level**   |  `=this.level`   |
->>|**HP** | **Current:** `37` **Max:** `=this.CONST*3`|
+>>|**HP** | **Current:** `45` **Max:** `=this.CONST*3`|
 >> |**Corruption** | **Current:** `0` **Max:** `=this.Corruption`   |
 >> |**Armor** | `=this.Armor` |
 >> |**EP**| `2` |
@@ -150,7 +150,7 @@ title20: Knife
 >> ###### Supplies
 >>  | 
 >>---|---|
->>**Currency**|`=this.currency` |
+>>**Jats**|`=this.currency` |
 >>**Sellsword Cut**| `VIEW[{ajats} * {merc}]`
 >>**Provisions**|`12` |
 >>**Torches**|`8` |
@@ -178,7 +178,7 @@ title20: Knife
 >>| **Alchemy** | `31` |
 >>| **Animal Handling** (CHA `=this.CHA`) | `12` |
 >>| **Command Skills** (CHA `=this.CHA`) | `12` |
->>| **Crafting** (DEX `=this.DEX`) | `38` |
+>>| **Crafting** (DEX `=this.DEX`) | `39` |
 >>| **Disguise** (DEX `=this.DEX`) | `17` |
 >>| **Dodge** (DEX `=this.DEX` x 2) | `44` |
 >>|**First Aid** (20) | `50` |

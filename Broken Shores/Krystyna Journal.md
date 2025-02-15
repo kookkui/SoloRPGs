@@ -92,5 +92,57 @@ creatures:
 
 Krystyna turn
 
+**Martial Weapons** check 56 1d%[19] Passed
+Deathless Guardian 1d% [41] Failed
 
-![[image-2.png]]
+6 Damage to Deathless Guardian 
+
+Deathless Guardian turn
+
+Standard Attack 50% 1d%[17]
+
+Parry check 56 1d%[23] Success
+
+Your next attack receives an extra +10
+
+Krystyna turn 
+
+**Martial Weapons** check 56 1d%[34]
+
+Hit  4 damage to the Guardian 
+
+Deathless Guardian turn
+
+Standard Attack 50% 1d%[21]
+Parry check 56  1d%[47]
+Success
+
+If you were Prone, Paralyzed, Stunned, or some other similar condition, you automatically recover. Otherwise, your next attack receives an extra +10
+
+Krystyna turn 
+
+**Martial Weapons** check 66 1d%[35]
+
+Hit 5 damage to Deathless Guardian
+
+The Guardian turns bright white as explodes, Tenacity check 70 to avoid taking damage. 1d%[17]
+Passed!
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
+
+
+70% chance of dropping Valuable loot 1d%[42]
+
+Random, finely crafted weapon (+1 damage)
+
+Scimitar +1   D8+2 Slashing
+
+Hex Check - Swamp 
+
+
+
+
+
+
+
+

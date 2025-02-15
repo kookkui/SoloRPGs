@@ -58,3 +58,53 @@
 
 ^0074ab
 
+
+
+| `dice:d10` | Creature Combat Actions at Full Health                   |
+| --------- | -------------------------------------------------------- |
+| 1-3       | Standard Attack                                          |
+| 4-6       | Special attack/skill (if any, otherwise standard attack) |
+| 7         | Attempt to corner                                        |
+| 8         | Attempt to disarm                                        |
+| 9         | If not engaged in combat, attempt to sneak and ambush    |
+| 10        | Attempt to leverage the terrain/position                 |
+
+^d7b5ed
+
+| `dice:d10` | Creature Combat Actions at 50% Health                                                                                |
+| ---------- | -------------------------------------------------------------------------------------------------------------------- |
+| 1-2        | Standard attack                                                                                                      |
+| 3-4        | Special attack/skill (if any, otherwise standard attack)                                                             |
+| 5          | Coordinate with allies (if any, otherwise standard attack)                                                           |
+| 6-7        | Defend/take cover                                                                                                    |
+| 8          | Use defensive/beneficial item or ability (healing item, spell, etc.). If none available, attempt to sneak and ambush |
+| 9          | Call for help/summon reinforcements; if none are available then fall back                                            |
+| 10         | Flee                                                                                                                 |
+
+^673c98
+
+
+
+| `dice:d10` | Creature Combat Actions at 25% or Less Health                                                   |
+| ---------- | ----------------------------------------------------------------------------------------------- |
+| 1-2        | Desperate attack (-20 attack skill, +3 damage)                                                  |
+| 3-4        | Fall back                                                                                       |
+| 5-6        | Use defensive/beneficial item or ability (healing item, spell, etc.). If none, desperate attack |
+| 7-10       | Flee                                                                                            |
+
+^17c9c6
+
+|`dice:d10`|Defensive Moves|
+|---|---|
+|1|Your next attack receives an extra +10|
+|2|Reduce your opponent’s Armor by -1|
+|3|Your opponent receives the Bleeding (1) condition|
+|4|If you were Prone, Paralyzed, Stunned, or some other similar condition, you automatically recover. Otherwise, your next attack receives an extra +10|
+|5|Your opponent immediately suffers D4 damage that ignores armor|
+|6|You may attempt to disarm your opponent, as described on Broken Shores, page 25. If the opponent cannot be disarmed, your next attack receives an extra +10|
+|7|Increase your chances at a critical strike on your next attack to 01-10|
+|8|You press your advantage, reducing your opponent’s next defensive roll by -20|
+|9|If you so choose, you can disengage from combat without consequences. Otherwise, your next attack receives an extra +10|
+|10|You can cast a spell or use an item in your possession for free. Otherwise, your next attack receives an extra +10|
+
+^7f2fb1

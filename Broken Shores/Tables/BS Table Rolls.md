@@ -1,3 +1,18 @@
+
+> [!gather] ### General Tables
+> ##### Random Difficulty
+>`dice:[[Broken Shores General Tables#^1d7a95]]`
+>
+>##### Status - Fatigue
+>`dice:[[Broken Shores General Tables#^0847a3]]`
+>
+>##### Scurvy Effect
+>`dice:[[Broken Shores General Tables#^1a236a]]`
+>
+>##### GM Emulation - What is the NPC doing?
+>`dice:[[Broken Shores General Tables#^56fa55]]`
+
+
 > [!note] ### Ocean Exploration Tables
 > ##### Ocean Exploration - Hex Type
 >`dice:[[Exploration Tables#^3b0677]]`
@@ -45,12 +60,52 @@
 >##### Island Weather
 >`dice:[[Exploration Tables#^528012]]`
 
+
+
+> [!dice] ### Ruin Exploration Tables
+> ##### Encounter/Event Check
+>`dice:[[Exploration Tables#^ff3dcc]]`
+>
+>##### Combat Encounters
+>`dice:[[Exploration Tables#^6c2cff]]`
+>
+>##### Events
+>`dice:[[Exploration Tables#^4a129e]]`
+>
+>##### Room Details & Content
+>`dice:[[Exploration Tables#^9339e2]]`
+>
+>##### Interesting Finds
+>`dice:[[Exploration Tables#^c1abcc]]`
+>
+>##### Ruins Size
+>`dice:[[Exploration Tables#^fadf23]]`
+>
+>##### Original Purpose
+>`dice:[[Exploration Tables#^63ca87]]`
+>
+>##### Peculiarity
+>`dice:[[Exploration Tables#^c51290]]`
+
+
 > [!bug] ### Combat Tables
 > ##### Encounter Check
 >`dice:[[Threat Tables#^0074ab]]`
 >
 > ##### Encounter Difficulty
 >`dice:[[Threat Tables#^b06939]]`
+>
+> ##### Defensive Moves
+>`dice:[[Threat Tables#^7f2fb1]]`
+>
+> ##### Creature Combat Actions at Full Health
+>`dice:[[Threat Tables#^d7b5ed]]`
+>
+> ##### Creature Combat Actions at 50% or Less Health
+>`dice:[[Threat Tables#^673c98]]`
+>
+> ##### Creature Combat Actions at 25% or Less Health
+>`dice:[[Threat Tables#^17c9c6]]`
 >
 > ##### Creature Modifier
 >`dice:[[Threat Tables#^55c908]]`
@@ -95,3 +150,7 @@
 > 
 > ##### Smith Skill Level
 >`dice:[[BS Loot Table#^864a52]]`
+
+## [[Sorcery]]
+
+
