@@ -92,14 +92,14 @@
 
 
 > [!bug] ### Combat Tables
+> ##### Defensive Moves
+>`dice:[[Threat Tables#^7f2fb1]]`
+>
 > ##### Encounter Check
 >`dice:[[Threat Tables#^0074ab]]`
 >
 > ##### Encounter Difficulty
 >`dice:[[Threat Tables#^b06939]]`
->
-> ##### Defensive Moves
->`dice:[[Threat Tables#^7f2fb1]]`
 >
 > ##### Creature Combat Actions at Full Health
 >`dice:[[Threat Tables#^d7b5ed]]`

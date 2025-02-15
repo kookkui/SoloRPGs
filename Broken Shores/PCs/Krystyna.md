@@ -105,7 +105,7 @@ skill10: true
 >> | | | | |
 >>| --- | --- | :--: | :---: |
 >>| **Strength** | `=this.STR` | **Brawn** | `=(this.STR)*5`|
->> | `0/10` | | | |
+>> | `1/10` | | | |
 >>| **Dexterity** | `=this.DEX` |**Coordination** | `=(this.DEX)*5`|
 >> | `0/10` | | | |
 >>| **Constitution** | `=this.CONST` | **Vitality**|`=(this.CONST)*5`|
