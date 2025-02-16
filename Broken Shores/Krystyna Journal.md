@@ -297,4 +297,5 @@ creature: Monstrous Frog
 
 **Standard:** No changes
 
-Monstrous Frog 
+Monstrous Frog x 2 
+
