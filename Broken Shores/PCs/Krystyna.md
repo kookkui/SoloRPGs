@@ -63,7 +63,7 @@ skill10: true
 >> # `=this.file.name`
 >> 
 >>
->>![[KrystynaN.jpg|500]]
+>>![[KrystynaN.jpg]]
 >> 
 >> ###### Stats
 >>|     |     | 

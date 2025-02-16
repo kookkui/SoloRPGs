@@ -266,3 +266,15 @@ Krystyna Turn
 
 ###### +1 to STR?
 
+Rolled 8 Damage + crit 16 total damage to Spider 2 
+
+
+Giant Spider 2 turn
+
+Giant Spider 2 FLEES
+
+<font color="#f15bb5">Victory!</font>
+
+Loot roll 1d%[3] 3 passed!
+
+
