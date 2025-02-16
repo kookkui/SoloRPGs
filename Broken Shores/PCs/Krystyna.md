@@ -69,7 +69,7 @@ title6: Skill Manual - Perception
 >> ###### Stats
 >>|     |     | 
 >> |--- | --- | 
->>|**HP** | **Current:** `32` **Max:** `=this.CONST*2`|
+>>|**HP** | **Current:** `29` **Max:** `=this.CONST*2`|
 >>|**Power Points** |  **Current:** `14`  **Max:** `=this.WIL`|
 >> |**Speed** |  **Walk:** `=this.DEX*2`  **Run:** `=this.DEX*4` |
 >> | **Max Gear Slots**     | `=(this.STR)+10` | 

@@ -94,17 +94,17 @@
 
 ^17c9c6
 
-|`dice:d10`|Defensive Moves|
-|---|---|
-|1|Your next attack receives an extra +10|
-|2|Reduce your opponent’s Armor by -1|
-|3|Your opponent receives the Bleeding (1) condition|
-|4|If you were Prone, Paralyzed, Stunned, or some other similar condition, you automatically recover. Otherwise, your next attack receives an extra +10|
-|5|Your opponent immediately suffers D4 damage that ignores armor|
-|6|You may attempt to disarm your opponent, as described on Broken Shores, page 25. If the opponent cannot be disarmed, your next attack receives an extra +10|
-|7|Increase your chances at a critical strike on your next attack to 01-10|
-|8|You press your advantage, reducing your opponent’s next defensive roll by -20|
-|9|If you so choose, you can disengage from combat without consequences. Otherwise, your next attack receives an extra +10|
-|10|You can cast a spell or use an item in your possession for free. Otherwise, your next attack receives an extra +10|
+| `dice:d10` | Defensive Moves                                                                                                                                             |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1          | Your next attack receives an extra +10                                                                                                                      |
+| 2          | Reduce your opponent’s Armor by -1                                                                                                                          |
+| 3          | Your opponent receives the Bleeding (1) condition                                                                                                           |
+| 4          | If you were Prone, Paralyzed, Stunned, or some other similar condition, you automatically recover. Otherwise, your next attack receives an extra +10        |
+| 5          | Your opponent immediately suffers `dice:D4` damage that ignores armor                                                                                       |
+| 6          | You may attempt to disarm your opponent, as described on Broken Shores, page 25. If the opponent cannot be disarmed, your next attack receives an extra +10 |
+| 7          | Increase your chances at a critical strike on your next attack to 01-10                                                                                     |
+| 8          | You press your advantage, reducing your opponent’s next defensive roll by -20                                                                               |
+| 9          | If you so choose, you can disengage from combat without consequences. Otherwise, your next attack receives an extra +10                                     |
+| 10         | You can cast a spell or use an item in your possession for free. Otherwise, your next attack receives an extra +10                                          |
 
 ^7f2fb1
