@@ -48,16 +48,18 @@ notes1: |-
   Captured by Nirena's Emissaries because "Our cause requires blood". After a year, I saw an opportunity and I took it to escape.
 
   I saw an opportunity and I took it (+5 Perception)
-title1: Coins
+title1: Sturdy backpack
 title21: ""
-title2: Rations
-title3: Shards x 12
+title2: Coins
+title3: Rations
 title4: Fishing Rod
 skill21: false
 lightsource: Ud6
 title5: Torch
 skill10: true
 title6: Skill Manual - Perception
+title7: Shards x 12
+title8: ""
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] %%FAKE TITLE HERE%%  
@@ -106,7 +108,7 @@ title6: Skill Manual - Perception
 >> | | | | |
 >>| --- | --- | :--: | :---: |
 >>| **Strength** | `=this.STR` | **Brawn** | `=(this.STR)*5`|
->> | `1/10` | | | |
+>> | `2/10` | | | |
 >>| **Dexterity** | `=this.DEX` |**Coordination** | `=(this.DEX)*5`|
 >> | `0/10` | | | |
 >>| **Constitution** | `=this.CONST` | **Vitality**|`=(this.CONST)*5`|
@@ -195,6 +197,12 @@ title6: Skill Manual - Perception
 
 >[!table] %%FAKE TITLE HERE%%
 >>[!table] %%FAKE TITLE HERE%%
+>>|     |     |
+>> |--- | --- |
+>>|**Max Gear Slots**|`=(this.STR)+10`|
+>>
+>>&nbsp;
+>>---
 >>### Inventory
 >>| **Slot** | **Encumbering Items** | **Slot** | **Encumbering Items** 
 >>| :-: | :---------------- |--------|--------|
@@ -244,9 +252,6 @@ title6: Skill Manual - Perception
 >>|**PP Cost** |  `=this.Spell2pp`|
 >> |**Idiosyncrasy**  |  `INPUT[toggle:Spell2mem]` |
 >> | **Description**     | `=this.Spell2des` | 
-
-
-`=(this.STR)*5`
 
 
 ```meta-bind-button
