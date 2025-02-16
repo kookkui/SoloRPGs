@@ -2,8 +2,8 @@
 excalidraw-plugin: parsed
 tags:
   - excalidraw
-ac: "9"
-hp: 30
+ac: "0"
+hp: 32
 level: 1
 modifier: 0
 ---

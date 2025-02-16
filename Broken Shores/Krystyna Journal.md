@@ -297,5 +297,22 @@ creature: Monstrous Frog
 
 **Standard:** No changes
 
-Monstrous Frog x 2 
+Monstrous Frog x 3
+
+
+
+```encounter 
+players:
+  - Krystyna
+creatures:
+  - Monstrous Frog 1, 15, 0
+  - Monstrous Frog 2, 15, 0
+  - Monstrous Frog 3, 15, 0
+
+```
+
+Monstrous frog 1 turn
+
+Parry check 56 1d%[56]
+Pass
 
