@@ -278,3 +278,23 @@ Giant Spider 2 FLEES
 Loot roll 1d%[3] 3 passed!
 
 
+<font color="#ffaad4">Skill Manual - Perception</font>
+
+Light check - 5
+
+Corridor 30 1d%[52] No encounter
+
+Room check 8
+
+Encounter!
+
+Combat Encounters - Monstrous Frog
+
+
+```statblock
+creature: Monstrous Frog
+```
+
+**Standard:** No changes
+
+Monstrous Frog 

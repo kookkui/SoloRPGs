@@ -14,25 +14,25 @@
 
 
 > [!note] ### Ocean Exploration Tables
-> ##### Ocean Exploration - Hex Type
+> ##### Hex Type
 >`dice:[[Exploration Tables#^3b0677]]`
 >
->##### Ocean Exploration - Wind Strength
+>##### Wind Strength
 >`dice:[[Exploration Tables#^ab6451]]`
 >
->##### Ocean Exploration - Findings
+>##### Findings
 >`dice:[[Exploration Tables#^f50f30]]`
 >
->##### Ocean Exploration - Encounter Check
+>##### Encounter Check
 >`dice:[[Exploration Tables#^5b02fa]]`
 >
->##### Ocean Exploration - Encounters
+>##### Encounters
 >`dice:[[Exploration Tables#^d4f804]]`
 >
->##### Ocean Exploration - Combat Encounters
+>##### Combat Encounters
 >`dice:[[Exploration Tables#^1cdfed]]`
 >
->##### Ocean Exploration - Complication
+>##### Complication
 >`dice:[[Exploration Tables#^009dc2]]]`
 
 > [!success] ### Island Exploration Tables
@@ -115,37 +115,40 @@
 
 
 > [!gather] ### Loot Tables
-> ##### Loot - Random Loot
+> ##### Random Loot
 >`dice:[[BS Loot Table#^a898b8]]`
 >
-> ##### Loot - Mundane Loot
+> ##### Mundane Loot
 >`dice:[[BS Loot Table#^54d33c]]`
 >
->##### Loot - Valuable Loot
+>##### Valuable Loot
 >`dice:[[BS Loot Table#^f7349d]]`
 >
->##### Loot - Precious Loot
+>##### Precious Loot
 >`dice:[[BS Loot Table#^48ee33]]`
 >
->##### Loot - Random Weapon
+>##### Random Weapon
 >`dice:[[BS Loot Table#^958917]]`
 >
->##### Loot - Random Armor
+>##### Random Armor
 >`dice:[[BS Loot Table#^5277a8]]`
 >
->##### Loot - Potions
+>##### Potions
 >`dice:[[BS Loot Table#^75b0e4]]`
 >
->##### Loot - Manuals 
+>##### Manuals 
 >`dice:[[BS Loot Table#^080820]]`
 >
->##### Loot - Gems & Jewelry 
+>##### Gems & Jewelry 
 >`dice:[[BS Loot Table#^5eeac3]]`
 >
->##### Loot - Artifacts
+>##### Artifacts
 >`dice:[[BS Loot Table#^19af82]]`
 >
->##### Loot - Minor Magic Item
+>##### Seeds
+>`dice:[[BS Loot Table#^ad8003]]`
+>
+>##### Minor Magic Item
 >`dice:[[BS Loot Table#^edbd7f]]`
 
 
@@ -160,7 +163,7 @@
 >##### GM Emulation - NPC Motivations
 >`dice:[[DBS GM Emulation#^1dbade]]`
 >
->##### Loot - Minor Magic Item
+>##### Minor Magic Item
 >`dice:[[BS Loot Table#^edbd7f]]`
 >
 > ##### Smith Skill Level

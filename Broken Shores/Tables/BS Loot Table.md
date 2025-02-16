@@ -9,25 +9,28 @@
 
 ^5eeac3
 
-| `dice:d10` | Loot - Potions                                                                                                                                                                                                         |
+| `dice:d20` | Loot - Potions                                                                                                                                                                                                         |
 | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1          | Antidote. Remove the effects of poison.                                                                                                                                                                                |
 | 2          | Potion of Frenzy. For the next D6 rounds you deal +5 damage, but you’re unable to defend in any way.                                                                                                                   |
 | 3          | Mending Potion. Heal D8 HP, at a rate of 1 HP/round.                                                                                                                                                                   |
 | 4          | Potion of Purge. Removes the effects of one instance of demonic corruption.                                                                                                                                            |
 | 5          | Potion of Long Rest. Reduce your Fatigue by 1.                                                                                                                                                                         |
-| 6          | Satiation Potion. Counts as a daily ration,                                                                                                                                                                            |
+| 6          | Satiation Potion. Counts as a daily ration.                                                                                                                                                                            |
 | 7          | Potion of Soul. When administered to a character reduced to 0 HP they immediately stand up, ready to fight. They remain at 0 HP and are in no way healed, collapsing once they are struck again or the combat is over. |
 | 8          | Potion of Stoneskin. For the next hour you have +1 Armor, but your Dodge and Acrobatics skills are reduced by -10.                                                                                                     |
 | 9          | Spirit Potion. You gain 10 temporary PP. These last until spent.                                                                                                                                                       |
 | 10         | Potion of Waterlungs. For the next hour you can breathe water, but only water.                                                                                                                                         |
 | 11         | Potion of Cure Moderate Wounds. Heal D10 HP. May be used in combat, takes a standard action.                                                                                                                           |
-| 12         | +10 to all STR based skills for the next 24 hours                                                                                                                                                                      |
-| 13         | +10 to all CHA based skills for the next 24 hours                                                                                                                                                                      |
-| 14         | +10 to all CON based skills for the next 24 hours                                                                                                                                                                      |
-| 15         | +10 to all INT based skills for the next 24 hours                                                                                                                                                                      |
-| 16         | +10 to all DEX based skills for the next 24 hours                                                                                                                                                                      |
-| 17         |                                                                                                                                                                                                                        |
+| 12         | Potion of STR Boost. +10 to all STR based skills for the next 24 hours                                                                                                                                                 |
+| 13         | Potion of CHA Boost. +10 to all CHA based skills for the next 24 hours                                                                                                                                                 |
+| 14         | Potion of CON Boost. +10 to all CON based skills for the next 24 hours                                                                                                                                                 |
+| 15         | Potion of INTBoost. +10 to all INT based skills for the next 24 hours                                                                                                                                                  |
+| 16         | Potion of DEX Boost. +10 to all DEX based skills for the next 24 hours                                                                                                                                                 |
+| 17         | Cat's Eye Potion. Allows the character to see in the dark for the next 24 hours                                                                                                                                        |
+| 18         | Potion of Wolverine Essence. Enhances the character's senses, granting a +20 to any tracking tests they perform until next camp.                                                                                       |
+| 19         | Potion of Strong Back and Weak Mind. +20 item slots and -2 INT for the next 24 hours.                                                                                                                                  |
+| 20         | Potion of Divine Healing. Removes all conditions and heals all wounds. Will remove ONE Major Injury.                                                                                                                   |
 
 ^75b0e4
 
@@ -58,61 +61,61 @@
 
 
 
-|`dice:d20`|Loot - Valuable Loot|
-|---|---|
-|1-2|`dice:[[BS Loot Table#^958917]]`|
-| 3-7 | `dice:[[BS Loot Table#^5eeac3]]` |
-| 8-9 | `dice:[[BS Loot Table#^5277a8]]` |
-| 10 | Rolled painting depicting some forgotten hero 250c |
-| 11 | Perfume vial 250c |
-| 12 | Tapestry 300c |
-| 13 | Ivory statuette 400 |
-| 14-15 | `dice:[[BS Loot Table#^75b0e4]]` |
-| 16 | Skill Manual, roll on `dice:[[BS Loot Table#^080820]]` |
-| 17 | Random, finely crafted weapon (+1 damage) |
-| 18-19 | Scroll with a random spell |
-| 20 | Roll on Precious Loot |
+| `dice:d20` | Loot - Valuable Loot                                   |
+| ---------- | ------------------------------------------------------ |
+| 1-2        | `dice:[[BS Loot Table#^958917]]`                       |
+| 3-7        | `dice:[[BS Loot Table#^5eeac3]]`                       |
+| 8-9        | `dice:[[BS Loot Table#^5277a8]]`                       |
+| 10         | Rolled painting depicting some forgotten hero 250c     |
+| 11         | Perfume vial 250c                                      |
+| 12         | Tapestry 300c                                          |
+| 13         | Ivory statuette 400                                    |
+| 14-15      | `dice:[[BS Loot Table#^75b0e4]]`                       |
+| 16         | Skill Manual, roll on `dice:[[BS Loot Table#^080820]]` |
+| 17         | Random, finely crafted weapon (+1 damage)              |
+| 18-19      | Scroll with a random spell                             |
+| 20         | Roll on Precious Loot                                  |
 
 ^f7349d
 
 
 
-| `dice:d20` | Loot - Precious Loot |
-| ----- | ------------------------------------------------------------------------------------------------------- |
-| 1-5 | Coins `dice:8D100` |
-| 6 | Roll twice on Gems & Jewelry |
-| 7 | Roll twice on Potions |
-| 8 | Azure drop: Creates 1 gallon of fresh water when dropped inside a container. 10 uses |
-| 9 | Egan Rose: When crushed, this delicate flower allows the user to automatically pass a Charm check 1 use |
-| 10 | Havak Key: Allows the holder to automatically pass a Vitality check. Becomes a normal key after 1 use |
-| 11 | Arnak Ring: Heals 1 HP. Becomes a regular ring after 20 uses |
-| 12 | Grimoire with D4 random spells |
-| 13-15 | Elemental essence |
-| 16-18 | `dice:[[BS Loot Table#^edbd7f]]` |
-| 19 | Godshard |
-| 20 | `dice:[[BS Loot Table#^19af82]]` |
+| `dice:d20` | Loot - Precious Loot                                                                                    |
+| ---------- | ------------------------------------------------------------------------------------------------------- |
+| 1-5        | Coins `dice:8D100`                                                                                      |
+| 6          | Roll twice on Gems & Jewelry                                                                            |
+| 7          | Roll twice on Potions                                                                                   |
+| 8          | Azure drop: Creates 1 gallon of fresh water when dropped inside a container. 10 uses                    |
+| 9          | Egan Rose: When crushed, this delicate flower allows the user to automatically pass a Charm check 1 use |
+| 10         | Havak Key: Allows the holder to automatically pass a Vitality check. Becomes a normal key after 1 use   |
+| 11         | Arnak Ring: Heals 1 HP. Becomes a regular ring after 20 uses                                            |
+| 12         | Grimoire with D4 random spells                                                                          |
+| 13-15      | Elemental essence                                                                                       |
+| 16-18      | `dice:[[BS Loot Table#^edbd7f]]`                                                                        |
+| 19         | Godshard                                                                                                |
+| 20         | `dice:[[BS Loot Table#^19af82]]`                                                                        |
 
 ^48ee33
 
 
-| `dice:d20` | Loot - Minor Magic Item |
-| ---------- | ------------------------------------------------------------------------------------------------------ |
-| 1 | Minor magic item - A random weapon that is Light instead of Normal |
-| 2 | Minor magic item - Ring that grants +10 Spell Effect check |
-| 3 | Minor magic item - Diadem that grants +3 PP |
-| 4 | Minor magic item - Pendant that grants +3 HP |
-| 5 | Minor magic item - Semi-precious stone that grants +1 Armor |
-| 6 | Minor magic item - Lockpick that never breaks |
-| 7 | Minor magic item - Ring that grants +10 Ranged Weapons |
-| 8 | Minor magic item - Earing that allows the user to cast a spell for free once a day |
-| 9 | Minor magic item - Necklace that grants +1 damage to all attacks |
-| 10 | Minor magic item - A random +5 weapon |
-| 11 | Minor magic item - Cloak that grants +10 Stealth |
-| 12 | Minor magic item - Stone that can stop any bleeding once a day |
-| 13 | Minor magic item - Ring that grants immunity to 􀀴ire |
-| 14 | Minor magic item - Earing that grants +10 Perception |
-| 15 | Minor magic item - Candle that is never spent and illuminates a 30 ft radius |
-| 16-20 | Magic Item Generation Table |
+| `dice:d20` | Loot - Minor Magic Item                                                            |
+| ---------- | ---------------------------------------------------------------------------------- |
+| 1          | Minor magic item - A random weapon that is Light instead of Normal                 |
+| 2          | Minor magic item - Ring that grants +10 Spell Effect check                         |
+| 3          | Minor magic item - Diadem that grants +3 PP                                        |
+| 4          | Minor magic item - Pendant that grants +3 HP                                       |
+| 5          | Minor magic item - Semi-precious stone that grants +1 Armor                        |
+| 6          | Minor magic item - Lockpick that never breaks                                      |
+| 7          | Minor magic item - Ring that grants +10 Ranged Weapons                             |
+| 8          | Minor magic item - Earing that allows the user to cast a spell for free once a day |
+| 9          | Minor magic item - Necklace that grants +1 damage to all attacks                   |
+| 10         | Minor magic item - A random +5 weapon                                              |
+| 11         | Minor magic item - Cloak that grants +10 Stealth                                   |
+| 12         | Minor magic item - Stone that can stop any bleeding once a day                     |
+| 13         | Minor magic item - Ring that grants immunity to fire                               |
+| 14         | Minor magic item - Earing that grants +10 Perception                               |
+| 15         | Minor magic item - Candle that is never spent and illuminates a 30 ft radius       |
+| 16-20      | Magic Item Generation Table                                                        |
 
 ^edbd7f
 
@@ -177,6 +180,8 @@
 | 5          | Harrian Apple: A golden, small apple like fruit that heals all poisons when ingested. When planted, it produces 1xHarrian Apple each two weeks. Requires 1 cup of water a week                                                                                     |
 | 6          | Healberries: As their name says, these tiny dark berries can heal a wound when combined with good care. Increases a character’s daily healing rate by +1. When planted, it produces enough healberries for 1 application. Requires 1 cup of water each three days. |
 
+^ad8003
+
  
 
 
@@ -239,15 +244,15 @@
 
 ## Magic Item Generation
 
-|`dice:d8`|Magic Item Generation Item Table|
-|---|---|
-|1|`dice:[[BS Loot Table#^958917]]`|
-|2|@Random Armor|
-|3|Trinket(Small Stone, Key or Button)|
-|4|Boots|
-|5|Earing|
-|6|Necklace/Pendant|
-|7-8|Ring|
+| `dice:d8` | Magic Item Generation Item Table    |
+| --------- | ----------------------------------- |
+| 1         | `dice:[[BS Loot Table#^958917]]`    |
+| 2         | `dice:[[BS Loot Table#^5277a8]]`    |
+| 3         | Trinket(Small Stone, Key or Button) |
+| 4         | Boots                               |
+| 5         | Earing                              |
+| 6         | Necklace/Pendant                    |
+| 7-8       | Ring                                |
 
 |`dice:d10`|Magic Item Rarity|
 |---|---|

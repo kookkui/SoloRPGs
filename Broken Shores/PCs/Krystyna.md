@@ -57,6 +57,7 @@ skill21: false
 lightsource: Ud6
 title5: Torch
 skill10: true
+title6: Skill Manual - Perception
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] %%FAKE TITLE HERE%%  
