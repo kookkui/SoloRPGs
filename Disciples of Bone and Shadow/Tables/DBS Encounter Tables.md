@@ -46,12 +46,13 @@
 | 26-33       | Elite - Blessed One (Humanoid)          |
 | 34-42       | Elite - Giant Snake (Beast)             |
 | 43-51       | Elite - Giant Spider (Beast)            |
-| 52-59       | Elite - Crystal Ghoul (Abomination      |
+| 52-59       | Elite - Crystal Ghoul (Abomination)      |
 | 60-67       | Elite - Archelon (Beast)                |
 | 68-76       | Elite - Agrix (Abomination)             |
 | 77-84       | Elite - Crog (Abomination)              |
-| 85-92       | Elite - White Hag (Humanoid)            |
-| 93-100      | Elite - White Stalker (Beast)           |
+| 85-89       | Elite - White Hag (Humanoid)            |
+| 90-94       | Elite - Demon (Abomination)           |
+| 95-100      | Elite - White Stalker (Beast)           |
 
 ^e5bf91
 
@@ -137,3 +138,26 @@
 |8|**Cautious:** Has -5 to Offense|
 |9|**Bold:** Has -5 to Defense, but +5 to Offense|
 |10|**Fearful:** Has +10 Defense, retreats at 75% health (consider it defeated)|
+
+
+| `dice:D10` | Demon Category     |
+| ---------- | ------------------ |
+| 1-2        | Minor: 1 Power     |
+| 3-8        | Standard: 2 Powers |
+| 9-10       | Major: 3 Powers    |
+
+
+| `dice:D10` | Demonic Powers                                                                                                                                |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1          | Anti-missile Aura: A strong wind seems to surround the demon at all times, causing all incoming projectiles to suffer -40 to the attack roll. |
+| 2          | Acid Blood: Characters damaging the demon suffer D4 damage.                                                                                   |
+| 3          | Burning: Characters attacking the demon with melee suffer 1 damage.                                                                           |
+| 4          | Chitin Armor: The demon possesses a layer of chitin scales, grating it +D4 Armor.                                                             |
+| 5          | Dazzle: As an action, the demon blinds its target, stunning them for D4 rounds.                                                               |
+| 6          | Taint Soul: Characters damaged by the demon Roll once on the Mark of Taint table.                                                             |
+| 7          | Fast: The demon acts twice per round.                                                                                                         |
+| 8          | Powerful: The demon deals an extra D4 damage when it attacks.                                                                                 |
+| 9          | Rot: Successful attacks cause Rot (1). Stackable                                                                                              |
+| 10         | Regeneration: The demon heals 1 HP/round.                                                                                                     |
+| 11         | Bleeding: Successful attacks cause Bleeding (1). Stackable                                                                                    |
+| 12         | Vampiric: The demon regenerates D4 HP each time it deals damage.                                                                              |

@@ -4,7 +4,7 @@ name: "Wolf"
 
 layout: DBS
 
-type: "Beast"
+type: "Beast (Common)"
 
 loot: "No loot. Pelt sells for 100 jats"
 
