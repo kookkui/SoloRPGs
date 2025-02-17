@@ -396,3 +396,53 @@ Skill up check 57 1d%[98] Pass
 
 **Martial Weapons** (58)
 
+Light check 4
+
+The exit has a door and it's Locked.
+
+**Brawn** Check to break the door down, Child's play +30 
+1d%[23]
+Success!
+
+Encounter check since that made so much noise.
+
+Encounter!
+Combat Encounters - Ghast
+
+Krystyna Turn
+
+Stealth 35 1d%[3] Crit
+vs Preception 50 1d%[42] 
+
+**Martial Weapons** check 68 1d%[54] Hit
+
+6 damage to the Ghast
+
+Ghast Turn stunned by suprise.
+
+Krystyna turn 
+
+**Martial Weapons** check 68 1d% [46]
+
+4 damage to Ghast 
+
+Ghast turn
+
+Special attack/skill (if any, otherwise standard attack)
+
+Ghast tries to bite Krystyna 50 1d%[99]
+
+Parry check 58 1d%[37] Win
+
+If you were Prone, Paralyzed, Stunned, or some other similar condition, you automatically recover. Otherwise, your next attack receives an extra +10
+
+Krystyna turn 
+
+**Martial Weapons** check 78 1d% [44] CRIT
+
+Rolled 7 damage + Crit = 14 Damage to Ghast(Ded)!
+
+50% Valuable Loot Drop 1d%[13] 
+
+
+

@@ -8,10 +8,8 @@ hp: "20"
 number: "1"
 
 traits:
-  - name: "Attack I:"
+  - name: "Attack:"
     desc: "Tentacle 80% (D4+1 bludgeoning damage)"
-  - name: "Attack II:"
-    desc: "AttackII"
   - name: "Special:"
     desc: "Attacks twice per round. After each attack the victim must pass a Vitality Check or become paralyzed for D6 rounds."
 

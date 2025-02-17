@@ -56,10 +56,11 @@ title4: Fishing Rod
 skill21: false
 lightsource: Ud6
 title5: Torch
-skill10: false
+skill10: true
 title6: Skill Manual - Perception
 title7: Shards x 12
 title8: ""
+skill20: true
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] %%FAKE TITLE HERE%%  

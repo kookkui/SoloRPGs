@@ -304,3 +304,23 @@
 |18|Reroll any failed Sleight of Hand checks while attempting to dismantle a trap|
 |19|On command, this item works as a source of light and illuminates a 30 ft radius|
 |20|This item can cast a spell once a day. Determine which spell randomly when first finding this item|
+
+|`dice:d10`|Magic - Spells and Rarity|
+|---|---|
+|1-5|@Magic - Common Spells|
+|6-8|@Magic - Uncommon Spells|
+|9-10|@Magic - Rare Spells|
+
+| `dice:d10` | Magic - Common Spells             |
+| ---------- | --------------------------------- |
+| 1          | Common Spell - Accelerate         |
+| 2          | Common Spell - Birdsight          |
+| 3          | Common Spell - Calm Wind          |
+| 4          | Common Spell - Cloak of Shadows   |
+| 5          | Common Spell - Dispel Sorcery     |
+| 6          | Common Spell - Purify Water       |
+| 7          | Common Spell - Stitch Wound       |
+| 8          | Common Spell - Stun               |
+| 9          | Common Spell - Unnatural Reflexes |
+| 10         | Common Spell - Waterlung          |
+
