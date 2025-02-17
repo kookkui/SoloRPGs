@@ -451,3 +451,4 @@ to use  Skill Manual - Perception
 
 +3 Perception Skill (42)
 
+Perception check to search the room 

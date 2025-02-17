@@ -11,11 +11,11 @@ tags: [excalidraw]
 
 ## Text Elements
 ## Embedded Files
-43354ba76345fb2c752b2cbae6f58950a1132251: [[broken_shores_summary_2.png]]
+43354ba76345fb2c752b2cbae6f58950a1132251: [[broken_shores_summary_2.webp]]
 
-9d53a79d9c95319bcf0c84295abbad2e1e684afb: [[broken_shores_summary_1.png]]
+9d53a79d9c95319bcf0c84295abbad2e1e684afb: [[broken_shores_summary_1.webp]]
 
-5116ee0eed4bbcc1bca9a8715fe0988a9f40ecb3: [[IslandTerrainBS.png]]
+5116ee0eed4bbcc1bca9a8715fe0988a9f40ecb3: [[IslandTerrainBS.webp]]
 
 %%
 ## Drawing

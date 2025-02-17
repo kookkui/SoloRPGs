@@ -35,15 +35,15 @@ efbe47882a1115cb792b42a98a28dd91c3fb9a58: [[Cave Token.webp]]
 
 61910045514d09c8e7cbf83719c12dfc2e4c8e2d: [[IMG-20250204155934919.png]]
 
-952cbf6ef80603adb535cf43b326b13dde0a8057: [[Human Town 2.png]]
+952cbf6ef80603adb535cf43b326b13dde0a8057: [[Human Town 2.webp]]
 
 1509952b4f71a66296f1253647feed9dfa00f4da: [[IMG-20250204155934433.webp]]
 
-bb55efe287a6a13b37516e1fd7b6fa471b561af2: [[Hex - Hills (lush) 2.png]]
+bb55efe287a6a13b37516e1fd7b6fa471b561af2: [[Hex - Hills (lush) 2.webp]]
 
-682202091e2d2978459ae2a361ed1286f7f48d22: [[Hex - Forest, conifer (lush).png]]
+682202091e2d2978459ae2a361ed1286f7f48d22: [[Hex - Forest, conifer (lush).webp]]
 
-52cf812596b38b4a5a3344eedd0764da8900b366: [[Hex - Hills (lush) 3.png]]
+52cf812596b38b4a5a3344eedd0764da8900b366: [[Hex - Hills (lush) 3.webp]]
 
 ad61021127eaa8557f036eafaa538e09797a233e: [[Keep.png]]
 

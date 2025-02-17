@@ -112,7 +112,7 @@ title20: Knife
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%
 >> # `=this.file.name`
->> ![[SoloRPGs/_ Assets/Zaalu_P.jpg|600]]
+>> ![[Zaalu_P.webp|600]]
 >> ###### Stats
 >>|     |     |
 >> |--- | --- |

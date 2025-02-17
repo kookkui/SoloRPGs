@@ -13,7 +13,7 @@ tags: [excalidraw]
 ## Embedded Files
 ea54fa5f6464fdb3e588f6c41e922c507c054fab: [[Water-6.png]]
 
-f0cd057f4c131010d126f7d8ec0f1d30cde6242b: [[Catamaran-Sail-Token-1x1.png]]
+f0cd057f4c131010d126f7d8ec0f1d30cde6242b: [[Catamaran-Sail-Token-1x1.webp]]
 
 3fc0b9abe84d7090a2a28d0a63a13464ddf7ed09: [[Island-1.png]]
 

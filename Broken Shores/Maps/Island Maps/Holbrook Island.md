@@ -22,17 +22,17 @@ c84f21faeae0d53e97bb27e50584e98f830c8432: [[IMG-20250215002349699.png]]
 
 22285a663ff0b204d1ba90d06bee3135732a1eb2: [[Cave Token.webp]]
 
-27c8edf43d159b2881020ec95ed3193eb86a0a0f: [[Hex - Plains (lush) 1.png]]
+27c8edf43d159b2881020ec95ed3193eb86a0a0f: [[Hex - Plains (lush) 1.webp]]
 
-237e7f2e355b7cdc81fe304cd97ff5efb400d245: [[Hex - Plains (lush) 3.png]]
+237e7f2e355b7cdc81fe304cd97ff5efb400d245: [[Hex - Plains (lush) 3.webp]]
 
-61910045514d09c8e7cbf83719c12dfc2e4c8e2d: [[Hex - Wetlands (damp) 1.png]]
+61910045514d09c8e7cbf83719c12dfc2e4c8e2d: [[Hex - Wetlands (damp) 1.webp]]
 
-52cf812596b38b4a5a3344eedd0764da8900b366: [[Hex - Hills (lush) 3.png]]
+52cf812596b38b4a5a3344eedd0764da8900b366: [[Hex - Hills (lush) 3.webp]]
 
-312ba9f5721cd96d34b448363a6b50f160d09a1e: [[Foliage - Tree, palm 1 (bright).png]]
+312ba9f5721cd96d34b448363a6b50f160d09a1e: [[Foliage - Tree, palm 1 (bright).webp]]
 
-15f4125d6408000f410e45243ed6ba93c2120a72: [[Foliage - Tree, palm 2 (bright).png]]
+15f4125d6408000f410e45243ed6ba93c2120a72: [[Foliage - Tree, palm 2 (bright).webp]]
 
 90af974232ed5abe12b95911b3db5d42f0935067: [[Structures - Tent (tarp).png]]
 

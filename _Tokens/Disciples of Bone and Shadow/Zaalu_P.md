@@ -11,7 +11,7 @@ tags: [excalidraw]
 
 ## Text Elements
 ## Embedded Files
-73c07d16edb5f7404d3cb93dcc56c2abdc943975: [[SoloRPGs/_ Assets/Zaalu_P.jpg]]
+73c07d16edb5f7404d3cb93dcc56c2abdc943975: [[Zaalu_P.webp]]
 
 %%
 ## Drawing

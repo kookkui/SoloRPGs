@@ -11,7 +11,7 @@ tags: [excalidraw]
 
 ## Text Elements
 ## Embedded Files
-140c40c63fb6f6d0b0a060174de24ac044a20e6e: [[Desert Battlemap 2.jpg]]
+140c40c63fb6f6d0b0a060174de24ac044a20e6e: [[SoloRPGs/_ Assets/Desert Battlemap 2.webp]]
 
 %%
 ## Drawing

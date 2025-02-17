@@ -148,7 +148,7 @@
 
 ![[Window1x1.png]]
 
-![[Altar1x1.png]]
+![[Altar1x1.webp]]
 
 ![[Arrow1x1.png]]
 

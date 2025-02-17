@@ -123,11 +123,10 @@ skill8: true
 >> | `0/10` | | | |
 >>
 >>&nbsp;
->>
->> #### Skill Checks
->>| **Skill Name** | **Skill Level** | **Level Up**
->>| --------------------- | ----------- | ----------- |
->>| **Acrobatics**(DEX `=this.DEX`) | `15` | `INPUT[toggle:skill1]`|
+>> ### Skill Checks
+>>| **Skill Name** | **Skill Level**|  **Level Up** | **Skill Name** | **Skill Level** | **Level Up**
+>>| - | :-: |:-: | - |:-: | :-: |
+>>| **Acrobatics**(DEX `=this.DEX`) | `15` | `INPUT[toggle:skill1]`|**Nature** (INT `=this.INT`) | `23` |`INPUT[toggle:skill12]`
 >>| **Athletics** (STR `=this.STR`) | `56` | `INPUT[toggle:skill2]`|
 >>| **Animal Handling** (CHA `=this.CHA`) | `12` |`INPUT[toggle:skill3]`|
 >>| **Command** (CHA `=this.CHA`) | `12` |`INPUT[toggle:skill4]`|
@@ -138,7 +137,7 @@ skill8: true
 >>|**Manipulation** (CHA `=this.CHA`) | `12` | `INPUT[toggle:skill9]`|
 >>| **Martial Weapons** (STR `=this.STR`) | `58` |`INPUT[toggle:skill10]`
 >>| **Medicine** (INT `=this.INT`) | `23` |`INPUT[toggle:skill11]`
->>|**Nature** (INT `=this.INT`) | `23` |`INPUT[toggle:skill12]`
+>>
 >>| **Perception** (WIL `=this.WIL`) | `42` |`INPUT[toggle:skill13]`
 >>| **Performance** (CHA `=this.CHA`) | `12` |`INPUT[toggle:skill14]`
 >>| **Ranged Weapons** (DEX `=this.DEX` ) | `35` |`INPUT[toggle:skill15]`
