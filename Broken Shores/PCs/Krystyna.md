@@ -57,11 +57,12 @@ skill21: false
 lightsource: Ud6
 title5: Torch
 skill10: true
-title6: Skill Manual - Perception
+title6: Potion of Frenzy. For the next D6 rounds you deal +5 damage, but you’re unable to defend in any way.
 title7: Shards x 12
 title8: Scroll of Empower
 skill20: true
 skill8: true
+title9: ""
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] %%FAKE TITLE HERE%%  
@@ -123,21 +124,22 @@ skill8: true
 >> | `0/10` | | | |
 >>
 >>&nbsp;
->> ### Skill Checks
->>| **Skill Name** | **Skill Level**|  **Level Up** | **Skill Name** | **Skill Level** | **Level Up**
->>| - | :-: |:-: | - |:-: | :-: |
->>| **Acrobatics**(DEX `=this.DEX`) | `15` | `INPUT[toggle:skill1]`|**Nature** (INT `=this.INT`) | `23` |`INPUT[toggle:skill12]`
+>>
+>> #### Skill Checks
+>>| **Skill Name** | **Skill Level** | **Level Up**
+>>| --------------------- | ----------- | ----------- |
+>>| **Acrobatics**(DEX `=this.DEX`) | `15` | `INPUT[toggle:skill1]`|
 >>| **Athletics** (STR `=this.STR`) | `56` | `INPUT[toggle:skill2]`|
 >>| **Animal Handling** (CHA `=this.CHA`) | `12` |`INPUT[toggle:skill3]`|
 >>| **Command** (CHA `=this.CHA`) | `12` |`INPUT[toggle:skill4]`|
 >>| **Crafting** (DEX `=this.DEX`) | `55` |`INPUT[toggle:skill5]`|
 >>| **Dodge** (DEX `=this.DEX` ) | `55` |`INPUT[toggle:skill6]`|
->>| **Insight** (WIL `=this.WIL`) | `14` |`INPUT[toggle:skill7]`|
+>>| **Insight** (WIL `=this.WIL`) | `15` |`INPUT[toggle:skill7]`|
 >>| **Literacy** (INT `=this.INT`) | `73` |`INPUT[toggle:skill8]`|
 >>|**Manipulation** (CHA `=this.CHA`) | `12` | `INPUT[toggle:skill9]`|
 >>| **Martial Weapons** (STR `=this.STR`) | `58` |`INPUT[toggle:skill10]`
 >>| **Medicine** (INT `=this.INT`) | `23` |`INPUT[toggle:skill11]`
->>
+>>|**Nature** (INT `=this.INT`) | `23` |`INPUT[toggle:skill12]`
 >>| **Perception** (WIL `=this.WIL`) | `42` |`INPUT[toggle:skill13]`
 >>| **Performance** (CHA `=this.CHA`) | `12` |`INPUT[toggle:skill14]`
 >>| **Ranged Weapons** (DEX `=this.DEX` ) | `35` |`INPUT[toggle:skill15]`

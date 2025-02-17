@@ -264,7 +264,7 @@ Krystyna Turn
 
 **Martial Weapons** 56 1d% [9] Crit!!
 
-###### +1 to STR?
+ +1 to STR?
 
 Rolled 8 Damage + crit 16 total damage to Spider 2 
 
@@ -451,4 +451,10 @@ to use  Skill Manual - Perception
 
 +3 Perception Skill (42)
 
-Perception check to search the room 
+Perception check to search the room  42 1d%[19]  Success
+
+Found <font color="#f15bb5">Potion of Frenzy. For the next D6 rounds you deal +5 damage, but you’re unable to defend in any way.</font>
+
+Room 3 
+
+

@@ -75,19 +75,22 @@
 >##### Is there a Door?
 >`dice:[[Exploration Tables#^80f35d]]`
 >
->##### Room Details & Content
->`dice:[[Exploration Tables#^9339e2]]`
->
 >##### Interesting Finds
 >`dice:[[Exploration Tables#^c1abcc]]`
 >
+>##### Room Details & Content
+>`dice:[[Exploration Tables#^9339e2]]`
+
+
+
+> [!npc] ### Ruin Generation
 >##### Ruins Size
 >`dice:[[Exploration Tables#^fadf23]]`
 >
->##### Original Purpose
+>##### Ruins Original Purpose
 >`dice:[[Exploration Tables#^63ca87]]`
 >
->##### Peculiarity
+>##### Ruins Peculiarity
 >`dice:[[Exploration Tables#^c51290]]`
 
 
