@@ -444,5 +444,10 @@ Rolled 7 damage + Crit = 14 Damage to Ghast(Ded)!
 
 50% Valuable Loot Drop 1d%[13] 
 
+<font color="#f15bb5">Scroll of Empower</font>
 
+**Literacy** Check 73 1d%[66] CRITICAL READING
+to use  Skill Manual - Perception 
+
++3 Perception Skill (42)
 

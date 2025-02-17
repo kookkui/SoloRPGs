@@ -59,8 +59,9 @@ title5: Torch
 skill10: true
 title6: Skill Manual - Perception
 title7: Shards x 12
-title8: ""
+title8: Scroll of Empower
 skill20: true
+skill8: true
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] %%FAKE TITLE HERE%%  
@@ -138,7 +139,7 @@ skill20: true
 >>| **Martial Weapons** (STR `=this.STR`) | `58` |`INPUT[toggle:skill10]`
 >>| **Medicine** (INT `=this.INT`) | `23` |`INPUT[toggle:skill11]`
 >>|**Nature** (INT `=this.INT`) | `23` |`INPUT[toggle:skill12]`
->>| **Perception** (WIL `=this.WIL`) | `39` |`INPUT[toggle:skill13]`
+>>| **Perception** (WIL `=this.WIL`) | `42` |`INPUT[toggle:skill13]`
 >>| **Performance** (CHA `=this.CHA`) | `12` |`INPUT[toggle:skill14]`
 >>| **Ranged Weapons** (DEX `=this.DEX` ) | `35` |`INPUT[toggle:skill15]`
 >>| **Sailing** (DEX `=this.DEX`) | `35` |`INPUT[toggle:skill16]`

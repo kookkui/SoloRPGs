@@ -152,6 +152,18 @@
 >`dice:[[BS Loot Table#^edbd7f]]`
 
 
+> [!thing] ### Magic Tables
+> ##### Spells and Rarity
+>`dice:[[BS Loot Table#^cbf4d6]]`
+>
+>##### Spell Effect
+>`dice:[[BS Loot Table#^499dcc]]`
+>
+>##### Spell idiosyncrasy
+>`dice:[[BS Loot Table#^92382b]]`
+
+
+
 > [!crafting] ### GM Emulation
 > 
 >##### GM Emulation - Actions

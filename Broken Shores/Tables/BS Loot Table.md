@@ -216,27 +216,27 @@
 
 ^864a52
 
-|2d10|Random Skill|
-|:---:|:---:|
-|2|Acrobatics|
-|3|Athletics|
-|4|Animal|
-|5|Command|
-|6|Crafting|
-|7|Dodge|
-|8|Insight|
-|9|Literacy|
-|10|Manipulation|
-|11|Medicine|
-|12|Nature|
-|13|Perception|
-|14|Performance|
-|15|Sailing|
-|16|Siege Weapons|
-|17|Sleight of Hand|
-|18|Stealth|
-|19|Survival|
-|20|Unarmed|
+| `dice:2d10` |  Random Skill   |
+| :----------: | :-------------: |
+|      2       |   Acrobatics    |
+|      3       |    Athletics    |
+|      4       |     Animal      |
+|      5       |     Command     |
+|      6       |    Crafting     |
+|      7       |      Dodge      |
+|      8       |     Insight     |
+|      9       |    Literacy     |
+|      10      |  Manipulation   |
+|      11      |    Medicine     |
+|      12      |     Nature      |
+|      13      |   Perception    |
+|      14      |   Performance   |
+|      15      |     Sailing     |
+|      16      |  Siege Weapons  |
+|      17      | Sleight of Hand |
+|      18      |     Stealth     |
+|      19      |    Survival     |
+|      20      |     Unarmed     |
 
 ^080820
 
@@ -305,11 +305,13 @@
 |19|On command, this item works as a source of light and illuminates a 30 ft radius|
 |20|This item can cast a spell once a day. Determine which spell randomly when first finding this item|
 
-|`dice:d10`|Magic - Spells and Rarity|
-|---|---|
-|1-5|@Magic - Common Spells|
-|6-8|@Magic - Uncommon Spells|
-|9-10|@Magic - Rare Spells|
+| `dice:d10` | Magic - Spells and Rarity        |
+| ---------- | -------------------------------- |
+| 1-5        | `dice:[[BS Loot Table#^4f8265]]` |
+| 6-8        | `dice:[[BS Loot Table#^2ddda9]]` |
+| 9-10       | `dice:[[BS Loot Table#^6a021e]]`|
+
+^cbf4d6
 
 | `dice:d10` | Magic - Common Spells             |
 | ---------- | --------------------------------- |
@@ -323,4 +325,114 @@
 | 8          | Common Spell - Stun               |
 | 9          | Common Spell - Unnatural Reflexes |
 | 10         | Common Spell - Waterlung          |
+
+^4f8265
+
+| `dice:d10` | Magic - Uncommon Spells             |
+| ---------- | ----------------------------------- |
+| 1          | Uncommon Spell - Air Bubble         |
+| 2          | Uncommon Spell - Akrana’s Grasp     |
+| 3          | Uncommon Spell - Animal Friendship  |
+| 4          | Uncommon Spell - Cleanse Corruption |
+| 5          | Uncommon Spell - Coral skin         |
+| 6          | Uncommon Spell - Corrupt Weapon     |
+| 7          | Uncommon Spell - Create Illusion    |
+| 8          | Uncommon Spell - Flaming Hand       |
+| 9          | Uncommon Spell - Inflict Corruption |
+| 10         | Uncommon Spell - Summon Elemental   |
+
+^2ddda9
+
+
+| `dice:d10` | Magic - Rare Spells             |
+| ---------- | ------------------------------- |
+| 1          | Rare Spell - Animate Dead       |
+| 2          | Rare Spell - Blind              |
+| 3          | Rare Spell - Clumsiness         |
+| 4          | Rare Spell - Drown              |
+| 5          | Rare Spell - Empower            |
+| 6          | Rare Spell - Enthrall           |
+| 7          | Rare Spell - Heal Major Wound   |
+| 8          | Rare Spell - Power Nexus        |
+| 9          | Rare Spell - Purify             |
+| 10         | Rare Spell - Summon Minor Demon |
+
+^6a021e
+
+
+
+
+| `dice:d100` | Magic - Spell Effect                                                                                                                                                     |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1-2         | You implode, spraying everyone and everything around you with Gore.                                                                                                      |
+| 3-4         | You lose 1 random attribute point, permanently. The spell fails,                                                                                                         |
+| 5-6         | A random limb rots and falls. The whole process takes D4 hours so it might be stopped somehow. The spell fails,                                                          |
+| 7-8         | An enraged demon appears, immediately attacking you. The spell fails                                                                                                     |
+| 9-10        | You lose control of your character for the next D10 minutes, attacking anyone and anything around you. The spell fails,                                                  |
+| 11-12       | For the next week, each time you perform an Athletics check you regurgitate worms, The spell fails.                                                                      |
+| 13-14       | You become enraged, attacking your enemies blindly, -20 to attack skills, you will not defend in any way, but you deal +D4 damage, The spell fails.                      |
+| 15-16       | You become ravenous, and eat every single ration you can get your hands on, the spell fails.                                                                             |
+| 17-18       | You constantly weep blood and are unable to speak for D4 days, The spell fails.                                                                                          |
+| 19-20       | Your chest is torn, as if an invisible beast had clawed you. You suffer D8 damage and the spell fails.                                                                   |
+| 21-22       | You forget all your spells, requiring you to study and memorize them again. The spell fails.                                                                             |
+| 23-24       | You suffer the effects of Fear when in the presence of any beast for the next D20 days, The spell fails.                                                                 |
+| 25-26       | Your jaw distends and spreads in an unnatural way, -1 CHA permanently, and the spell fails.                                                                              |
+| 27-28       | You lose all your PP and are Stunned for D4 rounds, The spell fails.                                                                                                     |
+| 29-30       | A random character or creature in the vicinity bursts into flames, receiving D4 damage/round. The spell fails.                                                           |
+| 31-32       | You lose all sense of direction, and are unable to succeed at any orientation checks or find your way back to any place you know for the next D10 days, The spell fails. |
+| 33-34       | Your sweat becomes thick as tar, giving off a smell of rotten flesh for the next D4 days. The spell fails.                                                               |
+| 35-36       | Your lips fuse together for D20 hours. The spell fails.                                                                                                                  |
+| 37-38       | You forget a random spell, and are unable to re-learn it for D10 days. The spell fails.                                                                                  |
+| 39-40       | Small open flames such as candles and torches are automatically extinguished within 30 feet of you. The effect lasts D10 weeks. The spell fails.                         |
+| 41-42       | All your body hair falls. The spell fails.                                                                                                                               |
+| 43-44       | A random part of your body turns a deep black, permanently. The spell fails.                                                                                             |
+| 45-46       | Each time someone appears to be sad around you or shares something intimate with you, you cackle maniacally. This is permanent. The spell fails.                         |
+| 47-78       | You cast a random spell from all the ones present in this book. There is a 50% chance the spell targets you or is centered on you, if applicable.                        |
+| 79-80       | The spell’s idiosyncrasy is ignored, and it’s cast as intended.                                                                                                          |
+| 81-95       | The spell is cast as intended.                                                                                                                                           |
+| 96-100      | The spell’s effects are doubled, if applicable.                                                                                                                          |
+
+^499dcc
+
+
+| `dice:1d66%` | Magic - Spell idiosyncrasy                                                                                                                                                   |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 11          | Each time the spell is cast, the sorcerer loses 1 HP                                                                                                                         |
+| 12          | After this spell is cast, any spell cast in a 20 ft. radius suffers -20 to the Spell Effect roll                                                                             |
+| 13          | Casting this spell is taxing, causing the sorcerer to act with -10 during the next D4 rounds                                                                                 |
+| 14          | The spell is tainted with demonic influences. If the caster doesn’t pass Vitality check, they must roll on the Demonic Corruption table                                      |
+| 15          | A living creature must be sacrificed in order to cast this spell                                                                                                             |
+| 16          | The spell requires twice as usual PP to be cast                                                                                                                              |
+| 21          | The spell is so exhausting that the character must pass a Vitality check or be forced to rest for D4 rounds after casting it. During this time they can only defend themself |
+| 22          | The spell requires a cup of fresh water to be spilled before casting                                                                                                         |
+| 23          | This spell is more dif�icult to cast than others. -10 Tenacity when casting it                                                                                               |
+| 24          | The spell cannot be used on humanoids                                                                                                                                        |
+| 25          | After casting the spell, there’s a 50% chance the sorcerer will forget it                                                                                                    |
+| 26          | Animals are terrified by this spell. This doesn’t include large, aggressive beasts                                                                                           |
+| 31          | This spell can only be cast at touch range                                                                                                                                   |
+| 32          | Each time this spell is cast, a random ally suffers D4 damage                                                                                                                |
+| 33          | +10 to the Spell Effect check if the spell is cast during the day, -10 if it’s cast during the night                                                                         |
+| 34          | Each time this spell is cast a thunder can be heard in the distance                                                                                                          |
+| 35          | Nearby vegetation withers when the spell is cast                                                                                                                             |
+| 36          | The sorcerer’s hands turn progressively blacker each time this spell is cast, permanently                                                                                    |
+| 41          | The sorcerer sweats blood each time this spell is cast, although they suffer no harm                                                                                         |
+| 42          | A bright light emerges from the sorcerer’s hand during the next D4 rounds after casting this spell                                                                           |
+| 43          | The spell can be shared with another friendly sorcerer who can choose to assist, granting +20 to the Spell Effect check                                                      |
+| 44          | The spell cleanses a negative condition from the sorcerer                                                                                                                    |
+| 45          | If the sorcerer so chooses, the spell consumes a single precious stone in their possession, allowing for the spell to be cast without a Spell Effect check                   |
+| 46          | The sorcerer can move an extra 10 ft. the next round after casting this spell                                                                                                |
+| 51          | The sorcerer can choose another willing target to deliver the spell in their stead                                                                                           |
+| 52          | If using a shard to cast this spell, there’s a 50% chance the shard is not consumed by it                                                                                    |
+| 53          | Casting this spell plunges the surrounding 10 ft. area into absolute darkness during the next D4 rounds. The sorcerer is unaffected by it and can see perfectly              |
+| 54          | Successive casts of this spell (as in turn after turn) grant a cumulative +10 to the Spell Effect check                                                                      |
+| 55          | This spell is cast instantaneously                                                                                                                                           |
+| 56          | The sorcerer phases out of reality for a few seconds, gaining +20 Dodge for the whole round                                                                                  |
+| 61          | The sorcerer becomes a terrifying visage while casting this spell, forcing all enemies to pass a Tenacity check or lose their next turn                                      |
+| 62          | Casting this spell grants the sorcerer +D4 temporary HP                                                                                                                      |
+| 63          | The sorcerer is allowed to roll twice on the Spell Effect table, choosing the highest roll                                                                                   |
+| 64          | This spell has its PP cost reduced by half (rounding up)                                                                                                                     |
+| 65          | This spell is uniquely stable, granting +20 to the Spell Effect check                                                                                                        |
+| 66          | Casting this spell surrounds the sorcerer with an aura of fire that deals D4 damage to anyone who attacks them during the next D4 rounds                                     |
+
+^92382b
 
