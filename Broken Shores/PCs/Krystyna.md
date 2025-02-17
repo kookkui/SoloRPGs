@@ -56,7 +56,7 @@ title4: Fishing Rod
 skill21: false
 lightsource: Ud6
 title5: Torch
-skill10: true
+skill10: false
 title6: Skill Manual - Perception
 title7: Shards x 12
 title8: ""
@@ -74,7 +74,6 @@ title8: ""
 >>|**HP** | **Current:** `29` **Max:** `=this.CONST*2`|
 >>|**Power Points** |  **Current:** `14`  **Max:** `=this.WIL`|
 >> |**Speed** |  **Walk:** `=this.DEX*2`  **Run:** `=this.DEX*4` |
->> | **Max Gear Slots**     | `=(this.STR)+10` | 
 >>
 >> ###### Weapons
 >>| **Weapons** | **Damage** | **Notes** |
@@ -101,6 +100,7 @@ title8: ""
 >>| **Rations**   |  `7`   |
 >>| **Water (Gal)** |  `=this.water`   |
 >>| **Light Source Remaining** |`INPUT[suggester(option(None), option(Ud4), option(Ud6), option(Ud8), option(Ud10), option(Ud12)):lightsource]` |   |
+>>| **Max Gear Slots**     | `=(this.STR)+10` | 
 
 >[!todo] %%FAKE TITLE HERE%%
 >>[!todo] %%FAKE TITLE HERE%%
@@ -134,7 +134,7 @@ title8: ""
 >>| **Insight** (WIL `=this.WIL`) | `14` |`INPUT[toggle:skill7]`|
 >>| **Literacy** (INT `=this.INT`) | `73` |`INPUT[toggle:skill8]`|
 >>|**Manipulation** (CHA `=this.CHA`) | `12` | `INPUT[toggle:skill9]`|
->>| **Martial Weapons** (STR `=this.STR`) | `56` |`INPUT[toggle:skill10]`
+>>| **Martial Weapons** (STR `=this.STR`) | `58` |`INPUT[toggle:skill10]`
 >>| **Medicine** (INT `=this.INT`) | `23` |`INPUT[toggle:skill11]`
 >>|**Nature** (INT `=this.INT`) | `23` |`INPUT[toggle:skill12]`
 >>| **Perception** (WIL `=this.WIL`) | `39` |`INPUT[toggle:skill13]`
@@ -197,12 +197,6 @@ title8: ""
 
 >[!table] %%FAKE TITLE HERE%%
 >>[!table] %%FAKE TITLE HERE%%
->>|     |     |
->> |--- | --- |
->>|**Max Gear Slots**|`=(this.STR)+10`|
->>
->>&nbsp;
->>---
 >>### Inventory
 >>| **Slot** | **Encumbering Items** | **Slot** | **Encumbering Items** 
 >>| :-: | :---------------- |--------|--------|

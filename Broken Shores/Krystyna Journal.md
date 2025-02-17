@@ -390,3 +390,9 @@ Rolled 9 + Crit = 18 Damage
 
 <font color="#ffaad4">Sturdy backpack!</font>
 
+Skill up check 56 1d%[57] Pass
+
+Skill up check 57 1d%[98] Pass
+
+**Martial Weapons** (58)
+
