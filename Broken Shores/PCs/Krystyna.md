@@ -68,7 +68,7 @@ skill8: true
 >> # `=this.file.name`
 >> 
 >>
->>![[KrystynaN.jpg]]
+>>![[SoloRPGs/_ Assets/SoloRPGs/Broken Shores/PCs/Krystyna/KrystynaN.jpg]]
 >> 
 >> ###### Stats
 >>|     |     | 
