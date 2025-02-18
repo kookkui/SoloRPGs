@@ -404,6 +404,8 @@ The exit has a door and it's Locked.
 1d%[23]
 Success!
 
+##### Room 2
+
 Encounter check since that made so much noise.
 
 Encounter!
@@ -455,6 +457,116 @@ Perception check to search the room  42 1d%[19]  Success
 
 Found <font color="#f15bb5">Potion of Frenzy. For the next D6 rounds you deal +5 damage, but you’re unable to defend in any way.</font>
 
-Room 3 
+##### Room 3 
+
+Encounter/Event Check Nothing
+
+**Junk Room:** Contains trash and lost items from all over. You can do a perception check and on success roll on Mundane Loot table. You can do multiple Perception Check but because of the noise searching you must do an encounter check each time to you do whether you pass or fail.
+
+Perception check 42 1d%[11] Crit  
+
+Loot: Lantern
+
+Encounter Check 3
+
+Perception check 42  1d%[32]
+
+Loot: <font color="#f15bb5">Potion of Purge. Removes the effects of one instance of demonic corruption.</font>
+
+Encounter Check 6 
+
+Skill up check **Literacy** 73 1d%[95]
+Passed +1 Literacy (74)
+
+Skill up check Stealth 35 1d%[77] 
+Passed +1 Stealth (36) and DEX!
+
+Skill up check **Perception** 42 1d%[71]
+Passed +1 **Perception** (43)
+
+Skill up check Martial Weapons 58 1d%[87]
+Passed +1 Martial Weapons (59)
+
+ Is there a Door?
+No
+
+##### Room 4
 
 
+Combat Encounters - Fire Elemental
+
+
+```encounter
+players:
+  - Krystyna
+creatures:
+  - Fire Elemental, 20, 4, 16
+
+```
+
+
+```statblock
+creature: Fire Elemental
+```
+
+
+<font color="#e36c09">Elite:</font> +5 HP, +1 damage, Roll _once_ on the Broken Shores Creature Modifier Table
+
+**Corrosive:** Every time the creature strikes its target on an armored body part, it triggers an Integrity check. +20% Loot chance.
+
+ Krystyna Turn 
+
+**Martial Weapons** 69 1d%[49] Win
+
+Elemental Dodge: 50% 1d%[64]
+
+5 Damage to Fire Elemental
+
+Fire Elemental Turn 
+
+Special attack/skill (if any, otherwise standard attack)
+
+Flaming Fist 60% (D6+2 fire damage) 1d%[90] 
+
+**Parry** 59 1d%[50]
+
+Reduce your opponent’s Armor by -1
+
+ Krystyna Turn 
+
+**Martial Weapons** 69 1d%[36] Win
+
+Elemental Dodge: 50%1d%[25]
+
+6 Damage to Elemental
+
+Fire Elemental Turn 
+
+Standard attack
+
+Flaming Fist 60% 1d%[30]Win
+
+**Parry** 59 1d%[89]  
+
+5 damage to Krystyna
+
+Krystyna Turn 
+
+**Martial Weapons** 69 1d%[15] Crit 
+
+8 Damage + Crit = 13 damage to Fire Elemental(Dead)
+
+<font color="#f15bb5">Victory!</font>
+
+**Martial Weapons** 59 1d%[98]
++1 Martial Weapons (60) and 1 to STR
+
+30% Fire Elemental Essence Loot Drop1d%[16]
+
+<font color="#e36c09">+1 Fire Elemental Essence</font>
+
+**Perception** 43 1d%[25]
+
+Bones or remains, with some jewelry still on them. Roll on the Gems & Jewelry table
+
+Sumptuous - 5D100Ҁ

@@ -1,11 +1,11 @@
-| `dice:d20`| Loot - Gems & Jewelry |
-| ----- | ---------------------- |
-| 1-2 | Ornamental - D100Ҁ |
-| 3-6 | Semi-precious - 2D100Ҁ |
-| 7-11 | Precious - 3D100Ҁ |
-| 12-15 | Lavish - 4D100Ҁ |
-| 16-18 | Sumptuous - 5D100Ҁ |
-| 19-20 | Extravagant - 6D100Ҁ |
+| `dice:d20` | Loot - Gems & Jewelry         |
+| ---------- | ----------------------------- |
+| 1-2        | Ornamental - `dice:D100`Ҁ     |
+| 3-6        | Semi-precious - `dice:2D100`Ҁ |
+| 7-11       | Precious - `dice:3D100`Ҁ      |
+| 12-15      | Lavish - `dice:4D100`Ҁ        |
+| 16-18      | Sumptuous - `dice:5D100`Ҁ     |
+| 19-20      | Extravagant - 6D100Ҁ          |
 
 ^5eeac3
 

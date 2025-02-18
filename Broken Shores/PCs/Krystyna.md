@@ -56,13 +56,17 @@ title4: Fishing Rod
 skill21: false
 lightsource: Ud6
 title5: Torch
-skill10: true
+skill10: false
 title6: Potion of Frenzy. For the next D6 rounds you deal +5 damage, but you’re unable to defend in any way.
 title7: Shards x 12
 title8: Scroll of Empower
-skill20: true
-skill8: true
-title9: ""
+skill20: false
+skill8: false
+title9: Lantern
+skill13: false
+title10: Potion of Purge. Removes the effects of one instance of demonic corruption.
+skill5: false
+title11: Fire Elemental Essence x1
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] %%FAKE TITLE HERE%%  
@@ -74,7 +78,7 @@ title9: ""
 >> ###### Stats
 >>|     |     | 
 >> |--- | --- | 
->>|**HP** | **Current:** `29` **Max:** `=this.CONST*2`|
+>>|**HP** | **Current:** `24` **Max:** `=this.CONST*2`|
 >>|**Power Points** |  **Current:** `14`  **Max:** `=this.WIL`|
 >> |**Speed** |  **Walk:** `=this.DEX*2`  **Run:** `=this.DEX*4` |
 >>
@@ -111,9 +115,9 @@ title9: ""
 >> | | | | |
 >>| --- | --- | :--: | :---: |
 >>| **Strength** | `=this.STR` | **Brawn** | `=(this.STR)*5`|
->> | `2/10` | | | |
+>> | `3/10` | | | |
 >>| **Dexterity** | `=this.DEX` |**Coordination** | `=(this.DEX)*5`|
->> | `0/10` | | | |
+>> | `1/10` | | | |
 >>| **Constitution** | `=this.CONST` | **Vitality**|`=(this.CONST)*5`|
 >> | `0/10` | | | |
 >>| **Will** | `=this.WIL` | **Tenacity**|`=(this.WIL)*5`|
@@ -135,19 +139,19 @@ title9: ""
 >>| **Crafting** (DEX `=this.DEX`) | `55` |`INPUT[toggle:skill5]`|
 >>| **Dodge** (DEX `=this.DEX` ) | `55` |`INPUT[toggle:skill6]`|
 >>| **Insight** (WIL `=this.WIL`) | `15` |`INPUT[toggle:skill7]`|
->>| **Literacy** (INT `=this.INT`) | `73` |`INPUT[toggle:skill8]`|
+>>| **Literacy** (INT `=this.INT`) | `74` |`INPUT[toggle:skill8]`|
 >>|**Manipulation** (CHA `=this.CHA`) | `12` | `INPUT[toggle:skill9]`|
->>| **Martial Weapons** (STR `=this.STR`) | `58` |`INPUT[toggle:skill10]`
+>>| **Martial Weapons** (STR `=this.STR`) | `60` |`INPUT[toggle:skill10]`
 >>| **Medicine** (INT `=this.INT`) | `23` |`INPUT[toggle:skill11]`
 >>|**Nature** (INT `=this.INT`) | `23` |`INPUT[toggle:skill12]`
->>| **Perception** (WIL `=this.WIL`) | `42` |`INPUT[toggle:skill13]`
+>>| **Perception** (WIL `=this.WIL`) | `43` |`INPUT[toggle:skill13]`
 >>| **Performance** (CHA `=this.CHA`) | `12` |`INPUT[toggle:skill14]`
 >>| **Ranged Weapons** (DEX `=this.DEX` ) | `35` |`INPUT[toggle:skill15]`
 >>| **Sailing** (DEX `=this.DEX`) | `35` |`INPUT[toggle:skill16]`
 >>| **Siege Weapons** (DEX `=this.DEX`) | `15` |`INPUT[toggle:skill17]`
 >>| **Simple Melee Weapons** (STR `=this.STR`) | `16` |`INPUT[toggle:skill18]`
 >>| **Sleight of Hand** (DEX `=this.DEX` ) | `15` |`INPUT[toggle:skill19]`
->>| **Stealth** (DEX `=this.DEX`) | `35` |`INPUT[toggle:skill20]`
+>>| **Stealth** (DEX `=this.DEX`) | `36` |`INPUT[toggle:skill20]`
 >>| **Survival** (INT `=this.INT` ) | `34` |`INPUT[toggle:skill21]`
 >>| **Unarmed** (STR `=this.STR`) | `16` |`INPUT[toggle:skill22]`
 >>
