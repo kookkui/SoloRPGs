@@ -5,7 +5,7 @@
 | 7-11       | Precious - `dice:3D100`Ҁ      |
 | 12-15      | Lavish - `dice:4D100`Ҁ        |
 | 16-18      | Sumptuous - `dice:5D100`Ҁ     |
-| 19-20      | Extravagant - 6D100Ҁ          |
+| 19-20      | Extravagant - `dice:6D100`Ҁ   |
 
 ^5eeac3
 

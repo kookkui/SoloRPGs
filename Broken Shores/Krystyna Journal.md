@@ -569,4 +569,12 @@ Krystyna Turn
 
 Bones or remains, with some jewelry still on them. Roll on the Gems & Jewelry table
 
-Sumptuous - 5D100Ҁ
+Lavish Gem - 282Ҁ
+
+
+Tenacity check to cast Stich Wound on myself. 70 1d%[33] Passed
+
+-1 Shard (11)
+
+11 x 2 = 22 HP healed (32 HP)
+

@@ -26,7 +26,7 @@ ShieldPR:
 Shieldintegrity: 
 trinketslot: 
 Currency: 51
-shards: 12
+shards: 11
 csupplies: 12
 rations: 9
 water: 0
@@ -58,7 +58,7 @@ lightsource: Ud6
 title5: Torch
 skill10: false
 title6: Potion of Frenzy. For the next D6 rounds you deal +5 damage, but you’re unable to defend in any way.
-title7: Shards x 12
+title7: Shards
 title8: Scroll of Empower
 skill20: false
 skill8: false
@@ -67,6 +67,8 @@ skill13: false
 title10: Potion of Purge. Removes the effects of one instance of demonic corruption.
 skill5: false
 title11: Fire Elemental Essence x1
+title12: Gems x1
+Pskills69: Lavish Gem - 282Ҁ
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] %%FAKE TITLE HERE%%  
@@ -78,7 +80,7 @@ title11: Fire Elemental Essence x1
 >> ###### Stats
 >>|     |     | 
 >> |--- | --- | 
->>|**HP** | **Current:** `24` **Max:** `=this.CONST*2`|
+>>|**HP** | **Current:** `32` **Max:** `=this.CONST*2`|
 >>|**Power Points** |  **Current:** `14`  **Max:** `=this.WIL`|
 >> |**Speed** |  **Walk:** `=this.DEX*2`  **Run:** `=this.DEX*4` |
 >>
