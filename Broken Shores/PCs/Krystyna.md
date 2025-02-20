@@ -11,12 +11,12 @@ CHA: 12
 Weapon1: Longsword
 Weapon1dmg: D8+1 Slashing
 Weapon1notes: Parry, Versatile (d10)
-Weapon2: Scimitar
+Weapon2: Scimitar +1
 Weapon2dmg: " D8+2 Slashing"
 Weapon2notes: Parry
-Weapon3: 
-Weapon3dmg: 
-Weapon3notes: 
+Weapon3: Bow +1
+Weapon3dmg: D6+2 Piercing
+Weapon3notes: Range 320', Two-Handed
 Armor: Half Plate
 ArmorPR: D8+1
 Armorintegrity: D12
@@ -57,7 +57,7 @@ skill21: false
 lightsource: Ud6
 title5: Torch
 skill10: false
-title6: Potion of Frenzy. For the next D6 rounds you deal +5 damage, but you’re unable to defend in any way.
+title6: Thieves’ tools
 title7: Shards
 title8: Scroll of Empower
 skill20: false
@@ -67,8 +67,14 @@ skill13: false
 title10: Potion of Purge. Removes the effects of one instance of demonic corruption.
 skill5: false
 title11: Fire Elemental Essence x1
-title12: Gems x1
+title12: Gems x2
 Pskills69: Lavish Gem - 282Ҁ
+title13: Tapestry 300c
+Pskills1: Lavish Gem - 152Ҁ
+title14: Potion of Frenzy. For the next D6 rounds you deal +5 damage, but you’re unable to defend in any way.
+title15: Elemental essence
+title16: Seeds x3
+ring1: Ring of Insulation that grants immunity to fire
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] %%FAKE TITLE HERE%%  
@@ -110,6 +116,7 @@ Pskills69: Lavish Gem - 282Ҁ
 >>| **Water (Gal)** |  `=this.water`   |
 >>| **Light Source Remaining** |`INPUT[suggester(option(None), option(Ud4), option(Ud6), option(Ud8), option(Ud10), option(Ud12)):lightsource]` |   |
 >>| **Max Gear Slots**     | `=(this.STR)+10` | 
+ >>|**Exploration Time**|`4/10`|
 
 >[!todo] %%FAKE TITLE HERE%%
 >>[!todo] %%FAKE TITLE HERE%%
@@ -117,11 +124,11 @@ Pskills69: Lavish Gem - 282Ҁ
 >> | | | | |
 >>| --- | --- | :--: | :---: |
 >>| **Strength** | `=this.STR` | **Brawn** | `=(this.STR)*5`|
->> | `3/10` | | | |
+>> | `4/10` | | | |
 >>| **Dexterity** | `=this.DEX` |**Coordination** | `=(this.DEX)*5`|
 >> | `1/10` | | | |
 >>| **Constitution** | `=this.CONST` | **Vitality**|`=(this.CONST)*5`|
->> | `0/10` | | | |
+>> | `1/10` | | | |
 >>| **Will** | `=this.WIL` | **Tenacity**|`=(this.WIL)*5`|
 >> | `0/10` | | | |
 >>| **Intelligence** | `=this.INT` | **Intellect**|`=(this.INT)*5`|
@@ -142,11 +149,11 @@ Pskills69: Lavish Gem - 282Ҁ
 >>| **Dodge** (DEX `=this.DEX` ) | `55` |`INPUT[toggle:skill6]`|
 >>| **Insight** (WIL `=this.WIL`) | `15` |`INPUT[toggle:skill7]`|
 >>| **Literacy** (INT `=this.INT`) | `74` |`INPUT[toggle:skill8]`|
->>|**Manipulation** (CHA `=this.CHA`) | `12` | `INPUT[toggle:skill9]`|
->>| **Martial Weapons** (STR `=this.STR`) | `60` |`INPUT[toggle:skill10]`
+>>|**Manipulation** (CHA `=this.CHA`) | `14` | `INPUT[toggle:skill9]`|
+>>| **Martial Weapons** (STR `=this.STR`) | `61` |`INPUT[toggle:skill10]`
 >>| **Medicine** (INT `=this.INT`) | `23` |`INPUT[toggle:skill11]`
 >>|**Nature** (INT `=this.INT`) | `23` |`INPUT[toggle:skill12]`
->>| **Perception** (WIL `=this.WIL`) | `43` |`INPUT[toggle:skill13]`
+>>| **Perception** (WIL `=this.WIL`) | `44` |`INPUT[toggle:skill13]`
 >>| **Performance** (CHA `=this.CHA`) | `12` |`INPUT[toggle:skill14]`
 >>| **Ranged Weapons** (DEX `=this.DEX` ) | `35` |`INPUT[toggle:skill15]`
 >>| **Sailing** (DEX `=this.DEX`) | `35` |`INPUT[toggle:skill16]`
@@ -188,7 +195,7 @@ Pskills69: Lavish Gem - 282Ҁ
 >>| **Earing** | `=this.earingslot` |
 >>| **Necklace/Pendant** | `=this.necklaceslot` |
 >>| **Ring 1**| `=this.ring1` |
->>| **Ring 2**|`=this.ring1` |
+>>| **Ring 2**|`=this.ring2` |
 >>
 >>&nbsp;
 >>

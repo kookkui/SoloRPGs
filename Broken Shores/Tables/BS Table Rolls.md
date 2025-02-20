@@ -69,9 +69,6 @@
 >##### Combat Encounters
 >`dice:[[Exploration Tables#^6c2cff]]`
 >
->##### Events
->`dice:[[Exploration Tables#^4a129e]]`
->
 >##### Is there a Door?
 >`dice:[[Exploration Tables#^80f35d]]`
 >
@@ -80,10 +77,17 @@
 >
 >##### Room Details & Content
 >`dice:[[Exploration Tables#^9339e2]]`
+>
+>##### Feature Effect
+>`dice:[[Exploration Tables#^ef4944]]`
+>
 
 
 
 > [!npc] ### Ruin Generation
+>##### Events
+>`dice:[[Exploration Tables#^4a129e]]`
+>
 >##### Ruins Size
 >`dice:[[Exploration Tables#^fadf23]]`
 >

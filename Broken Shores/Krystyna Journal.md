@@ -164,7 +164,7 @@ Destroy Religious artifact
 ### Quest to Destroy Cultists' Tome
 Bohr has tasked me with destroying a artifact in a nearby temple of a cult most likely. 
 
-It will take me 6 milestones to get to the location of the temple.
+It will take me 6 hexes to get to the location of the temple.
 
 Hex 1 
 
@@ -577,4 +577,212 @@ Tenacity check to cast Stich Wound on myself. 70 1d%[33] Passed
 -1 Shard (11)
 
 11 x 2 = 22 HP healed (32 HP)
+
+
+
+Door no
+
+Corridor 1d%[77]
+
+Light source check 3
+
+Door, Yes, and it's Locked
+
+Brawn check to break the door down 80 1d%[37] Passed
+
+The door shatters into splinters.
+
+Encounter check Nothing
+
+##### Room 5
+
+**Intriguing mural:** A once vivid and colorful mural covers the whole wall in front of you. You immediately notice there's something off about it; some pieces seem to be out of place. To your surprise, you can easily slide them around and set them on what you believe to be the right place. Each character may attempt a Intellect check to remember details about the story depicted in the mural and solve it. Solving the puzzle causes a small hidden compartment to open, revealing a cache roll on Valuable Loot.
+
+Normal Difficulty
+
+**Intellect** 65 1d%[30] Passed
+
+<span style="color:rgb(249, 132, 74)">Tapestry 300c</span> 
+
+Perception check 431d%[40] 
+
+Lavish Gem - 152Ҁ 
+
+No door
+
+##### Room 6 
+
+Encounter Nothing
+
+Feature - Shrine/Idol 
+Restores all PP lost (only once)
+ 
+Perception check 43 1d%[12] 
+
+<font color="#f15bb5">Thieves’ tools</font>
+
+Locked door will brawn to break it down 80 Hard -20 1d%[68] 
+The door took a few hits but it finally came crashing down.
+
+1d10[1] Encounter!
+
+Combat Encounters - Deathless Warrior
+
+```statblock
+creature: Deathless Warrior
+```
+
+Elite: +5 HP, +1 damage, Roll _once_ on the Broken Shores Creature Modifier Table
+
+**Pious:** Add d4 Holy damage to all the creatures attacks. Creature is now immune to Holy damage. +15% Loot chance.
+
+Krystyna turn
+
+**Martial Weapons** 60 1d[52]
+
+Hit 3 damage to Deathless 
+
+Deathless turn 
+
+Attack 60 1d%[36]
+
+Parry 60 1d%[41] Win
+
+Reduce your opponent’s Armor by -1
+
+PC turn
+
+**Martial Weapons** 60 1d[38] Win
+
+Dodge 50  1d%[94]
+
+7 Damage to Deathless 
+
+Deathless turn
+
+Attack 60  1d% [95]
+
+Parry 60 1d%[39] Win
+
+Your next attack receives an extra +10
+
+PC turn
+
+**Martial Weapons** 70 1d%[22] Crit
+
+Dodge 50 auto lose
+
+4 damage + Crit = 8 damage to Deathless 
+
+<span style="color:rgb(241, 91, 181)">Victory! </span> 
+
+95% Valuable Loot Drop 1d%[90]
+
+Random, finely crafted weapon (+1 damage)
+
+Bow +1 D6+2  Piercing 320 Normal Two-handed
+
+
+Resting one ET 
+
+##### Room 7
+
+Encounter check 3
+
+Nothing
+
+Room Details & Content Empty
+
+**Perception** 43 1d%[6]
+
+<font color="#f15bb5">Elemental essence</font>
+
+##### Room 8
+
+Combat Encounters - Possessed
+
+```statblock
+creature: Possessed
+```
+
+**Standard:** No changes
+
+PC Turn
+
+**Martial Weapons** 60 1d%[59]Win
+Dodge 40 1d%[26] 
+
+4 Damage to Possessed
+
+Possessed Turn 
+
+Pummel 60 1d%[39]
+Parry 60 1d%[51] Win
+
+Your next attack receives an extra +10 
+
+PC Turn
+
+**Martial Weapons** 60 1d%[5] CRIT
+Dodge 40 Auto Loss
+
+Rolled 3 + Crit = 6 damage to possessed
+
+Possessed Turn 
+
+Desperate attack (-20 attack skill, +3 damage)
+
+Pummel 40 1d%[59]
+Parry 60 1d%[34] Win
+ 
+You can cast a spell or use an item in your possession for free. Otherwise, your next attack receives an extra +10
+
+PC turn 
+**Martial Weapons** 70 37 Win
+Dodge 40 1d%[45]
+
+7 Damage to possessed (ded)
+
+<span style="color:rgb(241, 91, 181)">Victory! </span> 
+
+40% Valuable Loot Drop 1d%[18]
+
+Skill Manual, roll on Manipulation
+
+Manipulation Skill Manual
+
+Effortless +20
+**Literacy** Check 94 1d%[60]
+
++2 Manipulation (14)
+
+**Perception** 43 (22) Passed
+
+<font color="#f4a261">+3 Seeds</font>
+
+##### Room 9
+
+Empty
+
+Perception 43 1d%[29]
+
+Minor magic item - Ring that grants immunity to fire
+
+##### Room 10
+
+Skill up check **Martial Weapons** 60 1d%[68] Success
++1 **Martial Weapons** (61) +1 STR
+
+Skill up check **Perception** 43 1d%[68] Success 
++1 **Perception** (44) +1 WIL
+
+**Perception** Check to search room 44 1d%[71] Failed
+
+
+#### Back out to the Island 
+
+
+Hex 20 found the cult Temple 
+
+### Temple of the Cult
 

@@ -34,28 +34,28 @@
 
 ^75b0e4
 
-| `dice:d20` | Loot - Mundane Loot |
-| --- | ---------------------------------- |
-| 1 | Bone clasp D4 |
-| 2 | Bone dice D4 |
-| 3 | Linen pouch filled with tobacco D6 |
-| 4 | Amber earring10c |
-| 5 | Leather belt 3D6 |
-| 6 | D4 Crafting Supplies |
-| 7 | Sturdy backpack |
-| 8 | Coral pendant 3D10 |
-| 9 | Necklace of ebon fin teeth 3D10 |
-| 10 | +1UD Bandages |
-| 11 | +1UD Lockpicks |
-| 12 | D4 Empty Flasks |
-| 13 | Lantern |
-| 14 | Rope |
-| 15 | +1UD Arrows |
-| 16 | D4 Seeds |
-| 17 | Rare set of divination runes 100c |
-| 18 | Coins 200c |
-| 19 | Thieves’ tools |
-| 20 | `dice:[[BS Loot Table#^f7349d]]` |
+| `dice:d20` | Loot - Mundane Loot                |
+| ---------- | ---------------------------------- |
+| 1          | Bone clasp D4                      |
+| 2          | Bone dice D4                       |
+| 3          | Linen pouch filled with tobacco D6 |
+| 4          | Amber earring10c                   |
+| 5          | Leather belt 3D6                   |
+| 6          | D4 Crafting Supplies               |
+| 7          | Sturdy backpack                    |
+| 8          | Coral pendant 3D10                 |
+| 9          | Necklace of ebon fin teeth 3D10    |
+| 10         | +1UD Bandages                      |
+| 11         | +1UD Lockpicks                     |
+| 12         | D4 Empty Flasks                    |
+| 13         | Lantern                            |
+| 14         | Rope                               |
+| 15         | +1UD Arrows                        |
+| 16         | `dice:D4` Seeds                    |
+| 17         | Rare set of divination runes 100c  |
+| 18         | Coins 200c                         |
+| 19         | Thieves’ tools                     |
+| 20         | `dice:[[BS Loot Table#^f7349d]]`   |
 
 ^54d33c
 
