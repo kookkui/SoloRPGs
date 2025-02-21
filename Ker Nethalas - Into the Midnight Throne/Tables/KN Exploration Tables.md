@@ -73,3 +73,176 @@
 |     98      |                                                                                                                                                                                       This narrow chamber is filled with sharp iron pieces that stick from all surfaces, their purpose completely unknown to you. In order to cross the room safely, you must pass an Acrobatics check: if you fail, you are Bleeding.                                                                                                                                                                                       |
 |     99      |                                                                                                                                                                                                                                     The room must be passing near some sort of volcanic chamber, because the heat here is completely unbearable. You gain D6 Exhaustion.                                                                                                                                                                                                                                     |
 |     100     |                                                                                                                                             The ancient spirit of a Vaelorian necrolord appears in front of you, rushing towards you as it grabs your head from both sides. Make a Resolve check: if you pass it, you gain 100 XP, as it fills your mind with forbidden knowledge. If you fail, your mind can’t take it, and you must roll on the Madness table.                                                                                                                                             |
+
+
+| `dice:d100`  | Growing Darkness  |
+|---|---|
+|1-2|A choir of howls fills the air. All Animal opponents receive +10 Combat Skill.|
+|3-4|The shadows grow longer around you. Make a Resolve check.  If you fail, you lose 1 Sanity per each active Event.|
+|5-6|The gravity of your wounds resonates within your very being. If you aren’t fully healed, you receive D6 Psychic damage.|
+|7-8|You’re slowly losing your grip over your own mind. If your Sanity is not at its maximum, you automatically lose 1 Sanity.|
+|9-10|You feel your spirit drained. Reduce your max Aether by D4.|
+|11-12|The very air you breathe is conspiring against your survival. Reduce our max Toughness by D6.|
+|13-14|You hear a distant rumbling and feel a chilling gust of wind. All elemental opponents receive +10 Combat Skill.ess by D6.|
+|15-16|Did you hear that? They’re coming for you. Whenever you Take a Breather you not only reduce the Tension Die by one stage, you must also immediately make a Tension Die check.|
+|17-18|Your hands are shaking too much. Reduce your Camp check roll by 1.|
+|19-20|Regardless of how hard you try to concentrate, you just can’t. You can no longer Attune at camp.|
+|21-22|Your spirit feels weaker. Reduce your Magic Resistance by 5.|
+|23-24|There’s a shift in the astral currents. All Astral opponents receive +10 Combat Skill.|
+|25-26|You turned too suddenly and smashed your hip against a corner. Make a Belt check.|
+|27-28|This place… it knows, and it watches you. Make a Resolve check. If you ail, you lose D4 Sanity.|
+|29-30|You need a break. You can barely keep your eyes open. The next time ou are attacked, your opponent surprises you.|
+|31-32|An oppressive, dark will sets its sights upon your party. Roll D6 for each Companion you have. A result of 1 means they are destroyed. If you have no Companions you suffer D20 Psychic damage.|
+|33-34|A crescendo of cries and screams suddenly fills the halls. Dismiss all other effects in play caused by Growing Darkness. For each effect dismissed this way you lose 1 Sanity and 1 Health.|
+|35-36|Vines and roots seem to suddenly grow all around you. All Plant opponents receive +10 Combat Skill.|
+|37-50|You are ambushed! Roll on the Combat Encounter table. Your opponents surprise you.|
+|51-52|All Demon opponents receive +10 Combat Skill.|
+|53-54|A suffocating mist surrounds you. Make an Endurance check to avoid receiving 3D4 Poison damage.|
+|55-56|A weakness seems to seep into your very bones. Whenever you receive damage from any source, you receive +1 damage.|
+|57-58|Confusion suddenly fills your mind, and you have trouble remembering your actions these last few days. Reduce a skill of your choosing by 10.|
+|59-60|The ever-present chill of the grave becomes even more tangible. All Undead opponents receive +10 Combat Skill.|
+|61-62|Your mental wounds are starting to leave physical marks. Anytime you lose Sanity, make an Endurance check. If you fail, you suffer D6 Psychic damage.|
+|63-64|A swarm of hellbats surrounds you. Make a successful combat check, if you pass it you receive 10 XP, if you fail you suffer D10 Slashing damage.|
+|65-66|You hear the faint sound of orders being shouted in the distance. All Humanoid opponents receive +10 Combat Skill.|
+|67-68|You blink a few times, snapping out of it; how long have you been staring at nothing? Reduce your Lightsource by D4.|
+|69-70|The darkness seems to grow thicker and denser. Reduce your lightsource by 2 instead of 1 each time you enter a room.|
+|71-72|You are swarmed by the spirits of the angry dead. Make a Resolve check, if you pass it you earn 20 XP. If you fail you lose D4 Sanity.|
+|73-74|Your mind becomes dull and you have problems recalling things. All non-combat skill checks increase their difficulty and are considered Demanding (-10).|
+|75-76|Your mind is suddenly assaulted from within. You suffer D6 Psychic damage per each Madness you have.|
+|77-78|The ground trembles, and it feels like each step you take is heavier. All Construct opponents receive +10 Combat Skill.|
+|79-80|The ground shakes and debris falls from above. Make a successful Dodge check or receive 3D6 Bludgeoning damage.|
+|81-100|An inhuman voice screams, whispers and yells; somehow, you know that’s an Overseer. Roll on the Overseer Influence table. All opponents from this Domain benefit from the result, but they also grant +10 XP.|
+
+
+|`dice:d10`|Overseer Influence|
+|---|---|
+|1|Tough: Immune to critical hits|
+|2|Vital: +D4 Health/5⅃|
+|3|Frenzied: +2 damage|
+|4|Skilled: +10 Combat Skill|
+|5|Magebane: +10 Magic Resistance|
+|6|Resistant: Resistant to 1 random type of damage. Roll on the spoils table on page 206|
+|7|Corrupting: Each time the creature deals 3+ damage on a single attack, the target must make a Resolve check or lose 1 Sanity|
+|8|Unstable: Deals D8 Arcane damage when killed|
+|9|Alert: +20 Awareness|
+|10|Piercing: Gains the Penetrating (1) Trait. This can stack with other instances of the same trait|
+
+|`dice:d100`|Room Description|
+|---|---|
+|1|Rusty iron shackles hang from the walls, and the floor is littered with the remains of those who suffered unspeakable agony.|
+|2|This regal hall is filled with shattered marble thrones, a stark reminder of the empire's fallen rulers and the broken legacy they left behind.|
+|3|Eerie whispers fill the air in this dimly lit crypt, where the tormented spirits of the empire's cursed rulers still roam in eternal restlessness.|
+|4|The stone altar in the center of the room is covered in dried blood, a chilling testament to the dark rituals that once took place here.|
+|5|A vast network of burial niches houses the remains of countless orgotten souls, their existence erased from history.|
+|6|Chains of all sizes hang from the ceiling, the clinking sound echoing like a haunting melody in this hall of imprisonment.|
+|7|Sculptures of mournful figures adorn the walls, each seemingly caught in an eternal state of sorrow and despair.|
+|8|The room is perpetually shrouded in darkness, where even torches struggle to dispel the oppressive gloom.|
+|9|Tombstones and coffins line the walls, bearing the names of lovers separated by death, forever longing for each other's embrace.|
+|10|Useless trinkets and baubles lie scattered about, remnants of the once-great Vaelorian Ascendancy now reduced to forgotten relics|
+|11|This room seems to have been blasted by a source of water for millenia, since all the surfaces are smooth and slippery.|
+|12|An opulent throne sits empty in the center of this chamber, surrounded by dust and decay, a symbol of the empire's fallen glory.|
+|13|Echoes of anguished cries reverberate through this room, as if the walls themsevles are weeping for the tragedies that unfolded within.|
+|14|Foul, withered plants and skeletal trees twist and reach for sunlight that will never touch them.|
+|15|A pitch-black room that gives the illusion of extending infinitely downward, leaving those who enter with an overwhelming sense of dread.|
+|16|This crypt room holds the remains of those cursed to eternal damnation, their souls forever trapped in this unholy place.|
+|17|A massive, ominous statue looms over the room, depicting a malevolent deity once worshiped by the empire's rulers.|
+|18|Ghostly apparitions drift through these halls, their faint whispers offering cryptic warnings and messages.|
+|19|An ancient stone altar dominates the room, surrounded by blood- stained grooves where countless offerings met their end.|
+|20|This room houses the remains of traitors and turncoats, eternally damned for their betrayal of the empire.|
+|21|Dark, arcane symbols cover the walls, hinting at the dark rituals once conducted within these unhallowed grounds.|
+|22|The bones of the empire's most wicked are piled high in this macabre display of death's inevitability.|
+|23|An eerie ticking fills the air as an ancient, enchanted clock counts down the minutes to oblivion.|
+|24|Any sound uttered within this hall fades into nothingness, as if the room devours all noise.|
+|25|Broken vials, shattered beakers, and rotting experiments reveal an alchemist's ill-fated pursuit of forbidden knowledge.|
+|26|Ancient scrolls and tomes rest on dust-covered shelves. Touching any of them quickly turns them into piles of dust.|
+|27|The stench of death hangs heavy in this room. Judging by some carvings, the Vaelorians disposed of their enemies in mass graves right here.|
+|28|A morbid altar stands before a statue of a martyr who endured unimaginable pain in the name of faith.|
+|29|The remains of a once-grand spire lie in ruin, a monument to a forgotten hero of the Vaelorian Ascendancy.The remains of a once-grand spire lie in ruin, a monument to a forgotten hero of the Vaelorian Ascendancy.|
+|30|As you enter this room, haunting visions and terrifying illusions assault you.|
+|31|Dark rituals once performed here have left an indelible mark on the walls, perpetually tainted by the essence of necromancy.|
+|32|The shadows of tormented souls replay their darkest moments in an eternal loop, forever haunted by their past actions.|
+|33|Ancient weapons and armor line the walls, too old and brittle to be of any use to you.|
+|34|The walls bear ghostly imprints of anguished faces, as if the room captures the final moments of those who met a tragic end.|
+|35|Shadows move independently from their sources, dancing across the walls like malevolent spirits.|
+|36|A still, black pool reflects the darkest aspects of one's soul, showing the horrors hidden within.|
+|37|Mirrors shattered into jagged pieces create a disorienting effect, distorting reality and re�lecting haunting images.|
+|38|An eerie aura permeates this room, where the empire once sought answers from a cryptic and enigmatic oracle.|
+|39|Statues of macabre figures surround a central platform, where dark ceremonies once called upon malevolent powers.|
+|40|A large crack in the room’s �loor reveals a deep, dark abysm.|
+|41|This room holds within it an unholy shrine dedicated to dark forces.|
+|42|No sound can be heard in this room, not even the slightest whisper, creating an unsettling atmosphere of absolute quiet.|
+|43|This seems to be the �inal resting place of an emperor who history has orgotten, his name erased from all records.|
+|44|Broken chandeliers hang from the ceiling, and tattered banners once heralded celebrations now lay in ruin.|
+|45|Heat emanates from this room, and you can see the glow of lava in a corner, the viscous material dripping from a crack on the wall.|
+|46|An eerie, dim light filters through an enchanted glass ceiling, casting an otherworldly twilight over the room.|
+|47|Mirrors made from dark, reflective obsidian distort your reflection, your lightsource casting haunting shadows.|
+|48|Shrines to deities long abandoned by worshippers now stand in silence, their names etched into forgotten prayer tablets.|
+|49|Ancient telescopes and stargazing instruments remain untouched, though the stars they once observed have long changed.|
+|50|A once-powerful empress was buried here, her empty sarcophagus adorned with gilded glyphs.|
+|51|The room is plagued by an unnatural, freezing chill that numbs the bones as soon as you enter.|
+|52|Broken vials and failed experiments litter the room, reminders of the desperate and deadly alchemical pursuits.|
+|53|An overgrown courtyard now serves as a graveyard, with tombstones dotting the landscape where once joyous celebrations took place.|
+|54|Twisted and grotesque sculptures rest on pedestals, each epresenting the artist's descent into madness.|
+|55|The apparitions of those who died seeking revenge are trapped in this room, their anger seething for eternity.|
+|56|Taxidermy displays of long-extinct creatures and monstrous beasts line the walls, their glass eyes seemingly alive.|
+|57|The faint sounds of mournful music fill the air, emanating from unseen instruments in this haunted room.|
+|58|This chamber once housed the living quarters of a family of servants. aint children’s drawings can be seen of the walls|
+|59|This room houses a shrine dedicated to a lunar deity. Its worshipers once performed heinous acts under the cursed moon's glow.|
+|60|A large crypt, where the sound of mourning and weeping echoes endlessly.|
+|61|A chamber once dedicated to studying the stars, now abandoned and covered in dust.|
+|62|Phantom weapons float in the air, suspended in an unsettling display of ethereal power.|
+|63|Plans for grand structures, some never built, while others bore terrible secrets, now rest here with the remains of their creator.|
+|64|Statues of once-lovely nymphs are now twisted and grotesque, surrounded by thorns and brambles.|
+|65|This once-imposing chamber is now decayed and crumbling, a symbol of the empire's decline.|
+|66|A series of arcane symbols that you’ve never encountered before cover the walls of this chamber.|
+|67|Phantom wails fill the air, as the spirits of wronged women lament their tragic fates.|
+|68|An ancient, corrupted forge where weapons were crafted from the souls of the fallen.|
+|69|The statues of weeping angels line this hall, their faces eternally frozen in grief.|
+|70|The resting place of an heir to the empire, whose lineage has been lost to history.|
+|71|The walls are adorned with eerie petrified faces that seem to whisper secrets to those who listen.|
+|72|This chamber is made entirely of black stone, and any light that enters is quickly swallowed by its darkness.|
+|73|An ornate stone chalice sits on an altar. It appears to have been fused to it by some extreme heat.|
+|74|This room’s walls are covered with the tattered remains of ancient heraldic banners.|
+|75|At the center of this room, a seemingly bottomless pit drops into the darkness, its true depth a mystery that strikes fear into your heart.|
+|76|An otherworldly mist fills the room, giving glimpses of fleeting, orgotten dreams from the past.|
+|77|A cursed oracle once dwelt here, their prophecies leading to doom and despair for those who sought answers.|
+|78|A dark and foreboding courtyard where twisted shadows play tricks on the mind.|
+|79|The room is filled with the remains of lovers forever entwined in death, their skeletal hands locked in an eternal embrace.|
+|80|An otherworldly chamber where the boundaries between dimensions blur, allowing glimpses into distant realms.|
+|81|Horrifying paintings and sculptures depict scenes of unimaginable suffering and torment.|
+|82|This room has a well on a corner, but the water within it is clearly tainted with an eerie glow.|
+|83|This chamber is completely covered in fungi and mold of all kinds, making every step feel as if you’re walking on a thick rug.|
+|84|Small, empty cells line the walls of this room.|
+|85|The walls are adorned with macabre paintings depicting brutal executions and violent sacrifices.|
+|86|Sealed off for centuries, this room contains unspeakable horrors that were best left undisturbed.|
+|87|An eerie fountain still trickling water is at the center of the room, a peaceful, almost out of place view.|
+|88|Disorienting illusions assault you momentarily as you step into this room, showing you images of your past.|
+|89|This room was once a treasure vault Filled with riches, but it has long since been ransacked.|
+|90|A once-lavish parlor now lies in ruin, its grandeur replaced by decay and the stench of death.|
+|91|Rotten piles of furniture and rusted utensils are all you can see in this room.|
+|92|The walls are covered in soot and fire marks, clearly indicating that a great fire took place here.|
+|93|This room is completely empty, except for a thick layer of dust. A set of human footprints can be seen across the room.|
+|94|As you enter this hall you feel an overwhelming sense of hopelessness, as if all optimism is slowly being drained from your heart.|
+|95|A chamber adorned with gold and jewels. A closer look reveals them to be just paint and glass.|
+|96|A once-revered shrine now stands in darkness, forgotten by all but malevolent entities.|
+|97|Statues of ancient warriors stand guard, their once-pristine surfaces now marred by crimson stains.|
+|98|Old iron ingots are piled in a corner of this room, each one of them marked with the seal of an ancient house.|
+|99|An unnatural wind seems to be constantly coming out of this room, violently flapping your clothes and gear around you.|
+|100|An unquenchable, ghostly flame flickers and dances, casting eerie shadows on the walls, forever burning but never consuming.|
+
+
+|`dice:d20`|Scavenging|
+|---|---|
+|1|You uncover some grisly remains. Make a successful Resolve check or lose 1 Sanity|
+|2|You find nothing of interest|
+|3|You discover `dice:D20`₵|
+|4-11| `dice:D4` Crafting Supplies|
+|12|You discover `dice:2D20`₵|
+|13-18|`dice:D4` Cooking Supplies|
+|19|You discover `dice:D100`₵|
+|20|@Loot - spoils|
+
+|`dice:d10`|Trap Check|
+|---|---|
+|1-6|Not trapped|
+|7-10|Trapped!|
