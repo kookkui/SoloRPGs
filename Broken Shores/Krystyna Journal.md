@@ -786,3 +786,8 @@ Hex 20 found the cult Temple
 
 ### Temple of the Cult
 
+#### Ruin Size D6, Quest Timer D8
+
+Hallowed. A sense of calmness invites you here, helping you concentrate. +10 to all checks
+
+

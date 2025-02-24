@@ -267,10 +267,8 @@
 |13-16|@Loot - Fragment|
 |17-20|Magic Item|
 
-|   |   |
-|---|---|
- 
 |`dice:d20`|Weapon Magic Properties|
+|---|---|
 |1|Roll on the Damage Type table. This weapon deals an extra D4 damage of that type|
 |2|+10 to initiative checks|
 |3|When you deal a critical hit with this weapon, you deal the maximum damage possible|
@@ -291,3 +289,48 @@
 |18|You can choose to deal an extra D8 damage each time you deal damage with this weapon. If you do so, you receive the same amount of damage|
 |19|When you deal damage with this weapon, gain +10 parry until your next turn|
 |20|Target gains Burning each time you deal damage to them with this weapon|
+
+
+| `dice:d20` | Gloves Magic Properites                                                                                                                                                     |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1          | Roll on the Damage Type table. This item grants you damage reduction based on its rarity: +1 uncommon, +2 rare, +3 epic                                                     |
+| 2          | This item grants you Magic Resistance based on its rarity: +10 uncommon, +20 rare, +30 epic                                                                                 |
+| 3          | Reroll any check once per camp rest                                                                                                                                         |
+| 4          | Increase a skill of your choosing by 20                                                                                                                                     |
+| 5          | Increase your Exhaustion Resistance by an amount based on this item’s rarity: +1 uncommon, +2 rare, +3 epic                                                                 |
+| 6          | You have Advantage on Athletics checks                                                                                                                                      |
+| 7          | Increase your Unarmed Combat & Fist Weapons skill by 30                                                                                                                     |
+| 8          | Reroll any failed Thievery checks while attempting to open a lock                                                                                                           |
+| 9          | Reroll any failed Thievery checks while attempting to dismantle a trap                                                                                                      |
+| 10         | Once per encounter, you can make a special punch attack that deals 3D10 Bludgeoning damage. This is a Standard Action that requires an Unarmed Combat &  Fist Weapons check |
+| 11         | You have Advantage on Scavenge checks                                                                                                                                       |
+| 12         | After rolling on the Scavenging table (page 103), you can choose to increase the die roll by D4                                                                             |
+| 13         | Increase your arms armor by 1                                                                                                                                               |
+| 14         | Increase your attack skill by 10 when attempting to parry an attack                                                                                                         |
+| 15         | Increase your max Aether by D10                                                                                                                                             |
+| 16         | Once per encounter you can use a magic Ability without spending any Aether                                                                                                  |
+| 17         | Your weapon attacks deal +1 damage                                                                                                                                          |
+| 18         | Roll on the Damage Type table. You can choose to deal that damage type with your weapon attacks                                                                             |
+| 19         | Heal 1 Toughness each time you defeat an opponent                                                                                                                           |
+| 20         | Increase your max Toughness by D10                                                                                                                                          |
+| `dice:d20` | Ring Magic Properties                                                                                                                                                       |
+| 1          | Roll on the Damage Type table. This item grants you damage reduction based on its rarity: +1 uncommon, +2 rare, +3 epic                                                     |
+| 2          | This item grants you Magic Resistance based on its rarity: +10 uncommon, +20 rare, +30 epic                                                                                 |
+| 3          | Reroll any check once per camp rest                                                                                                                                         |
+| 4          | Increase a skill of your choosing by 10                                                                                                                                     |
+| 5          | Increase your Exhaustion Resistance by an amount based on this item’s rarity: +1 uncommon, +2 rare, +3 epic                                                                 |
+| 6          | When Taking a Breather, you don’t reduce the Tension Die                                                                                                                    |
+| 7          | Increase your maximum Sanity by 5                                                                                                                                           |
+| 8          | Reroll any failed Thievery checks while attempting to open a lock                                                                                                           |
+| 9          | Reroll any failed Thievery checks while attempting to dismantle a trap                                                                                                      |
+| 10         | Increase your maximum Health by 5                                                                                                                                           |
+| 11         | Once per rest you can heal D10 Wounds                                                                                                                                       |
+| 12         | After rolling on the Scavenging table (page 103), you can choose to increase the die roll by D4                                                                             |
+| 13         | Increase the amount of Health you recover after setting camp by D4                                                                                                          |
+| 14         | Increase the amount of Sanity you recover after setting camp by D4                                                                                                          |
+| 15         | Ignore the effects of a single Madness you’re currently affected by                                                                                                         |
+| 16         | Increase your maximum Toughness by 5                                                                                                                                        |
+| 17         | Once per encounter you can use a magic Ability without spending any Aether                                                                                                  |
+| 18         | You have Advantage on Scavenge checks                                                                                                                                       |
+| 19         | You can reroll your Growing Darkness rolls. The second roll is final                                                                                                        |
+| 20         | Ignore the effects of a fumble once per camp rest                                                                                                                           |
