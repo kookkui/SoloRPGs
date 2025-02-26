@@ -852,5 +852,50 @@ Standard Demon 2 powers
 creature: Demon (BS)
 ```
 
-Acid Blood: Characters damaging the demon suffer D4 damage.
-Drain Soul: Characters damaged by the demon lose D4 PP.
+<font color="#ff0000">Acid Blood: Characters damaging the demon suffer D4 damage.</font>
+<font color="#ff0000">Drain Soul: Characters damaged by the demon lose D4 PP.</font>
+
+**Stealth** 36 1d%[19] Win
+
+Perception: 30 1d%[71]
+
+```encounter
+creatures:
+  - Demon (BS) 1, 12, 4
+```
+
+
+Krystyna successfully sneaks up on the Demonic Brute
+
+Krystyna Turn 
+
+**Martial Weapons** 71 1d%[64]
+
+4 Damage to the demon
+1 Damage from the acid blood to Krystyna
+
+Demon Stunned
+
+Krystyna Turn again
+
+**Martial Weapons** 71 1d%[62] Win
+vs
+Dodge: 40 1d%[65]
+
+4 Damage to the demon
+1 Damage from the acid blood to Krystyna
+
+Demon Turn
+
+Standard attack
+
+ Fist 80 1d%[46] Win
+vs
+**Parry** 61  1d%[45]
+
+7 Damage to Krystyna 
+-3 PP 
+
+Krystyna Turn
+
+**Martial Weapons** 71 

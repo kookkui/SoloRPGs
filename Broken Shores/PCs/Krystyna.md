@@ -88,8 +88,8 @@ Pskills2: Lavish Gem - 318Ҁ
 >> ###### Stats
 >>|     |     | 
 >> |--- | --- | 
->>|**HP** | **Current:** `32` **Max:** `=this.CONST*2`|
->>|**Power Points** |  **Current:** `14`  **Max:** `=this.WIL`|
+>>|**HP** | **Current:** `23` **Max:** `=this.CONST*2`|
+>>|**Power Points** |  **Current:** `13`  **Max:** `=this.WIL`|
 >> |**Speed** |  **Walk:** `=this.DEX*2`  **Run:** `=this.DEX*4` |
 >>
 >> ###### Weapons
