@@ -790,4 +790,5 @@ Hex 20 found the cult Temple
 
 Hallowed. A sense of calmness invites you here, helping you concentrate. +10 to all checks
 
+Room 1 
 
