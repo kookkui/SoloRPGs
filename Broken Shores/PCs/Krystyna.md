@@ -67,14 +67,16 @@ skill13: false
 title10: Potion of Purge. Removes the effects of one instance of demonic corruption.
 skill5: false
 title11: Fire Elemental Essence x1
-title12: Gems x2
+title12: Gems x3
 Pskills69: Lavish Gem - 282Ҁ
 title13: Tapestry 300c
 Pskills1: Lavish Gem - 152Ҁ
 title14: Potion of Frenzy. For the next D6 rounds you deal +5 damage, but you’re unable to defend in any way.
 title15: Elemental essence
 title16: Seeds x3
+necklaceslot: Earing that grants +10 Perception
 ring1: Ring of Insulation that grants immunity to fire
+Pskills2: Lavish Gem - 318Ҁ
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] %%FAKE TITLE HERE%%  
@@ -116,7 +118,7 @@ ring1: Ring of Insulation that grants immunity to fire
 >>| **Water (Gal)** |  `=this.water`   |
 >>| **Light Source Remaining** |`INPUT[suggester(option(None), option(Ud4), option(Ud6), option(Ud8), option(Ud10), option(Ud12)):lightsource]` |   |
 >>| **Max Gear Slots**     | `=(this.STR)+10` | 
- >>|**Exploration Time**|`4/10`|
+ >>|**Exploration Time**|`1/10`|
 
 >[!todo] %%FAKE TITLE HERE%%
 >>[!todo] %%FAKE TITLE HERE%%
@@ -153,7 +155,7 @@ ring1: Ring of Insulation that grants immunity to fire
 >>| **Martial Weapons** (STR `=this.STR`) | `61` |`INPUT[toggle:skill10]`
 >>| **Medicine** (INT `=this.INT`) | `23` |`INPUT[toggle:skill11]`
 >>|**Nature** (INT `=this.INT`) | `23` |`INPUT[toggle:skill12]`
->>| **Perception** (WIL `=this.WIL`) | `44` |`INPUT[toggle:skill13]`
+>>| **Perception** (WIL `=this.WIL`) (<font color="#FF00CC">+10</font>) | `44` |`INPUT[toggle:skill13]`
 >>| **Performance** (CHA `=this.CHA`) | `12` |`INPUT[toggle:skill14]`
 >>| **Ranged Weapons** (DEX `=this.DEX` ) | `35` |`INPUT[toggle:skill15]`
 >>| **Sailing** (DEX `=this.DEX`) | `35` |`INPUT[toggle:skill16]`

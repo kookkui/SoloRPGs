@@ -790,5 +790,51 @@ Hex 20 found the cult Temple
 
 Hallowed. A sense of calmness invites you here, helping you concentrate. +10 to all checks
 
-Room 1 
+##### Room 1 
+
+Encounter check Nothing
+
+**Perception** Check 44 1d%[78]
+Failed
+
+##### Room 2
+
+Combat Encounters - Skeleton x 2
+
+```encounter
+creatures:
+  - Skeleton 1, 5, 4
+  - Skeleton 2, 5, 4
+  
+```
+
+Krystyna turn
+
+**Martial Weapons** 61 1d%[46] Win
+
+Dodge 40 1d%[58]
+
+6 Damage to Skeleton 1 (Ded)
+
+Skeleton 2 turn
+
+Rusty Blade 40 1d%[55] LETS GET READY TO FUMBLE
+
+**Parry** 61 Win
+
+If you so choose, you can disengage from combat without consequences. Otherwise, your next attack receives an extra +10
+
+**Martial Weapons** 61 1d%[32]
+
+7 Damage to Skeleton 2 (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory! </span> 
+
+40% Valuable Loot Drop 1d%[4]
+
+<font color="#f15bb5">Minor magic item - Earing that grants +10 Perception</font>
+
+**Perception** 54 1d%[49]
+Lavish Gem - 318Ҁ
+
 
