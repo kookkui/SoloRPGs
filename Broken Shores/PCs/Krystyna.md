@@ -118,7 +118,7 @@ Pskills2: Lavish Gem - 318Ҁ
 >>| **Water (Gal)** |  `=this.water`   |
 >>| **Light Source Remaining** |`INPUT[suggester(option(None), option(Ud4), option(Ud6), option(Ud8), option(Ud10), option(Ud12)):lightsource]` |   |
 >>| **Max Gear Slots**     | `=(this.STR)+10` | 
- >>|**Exploration Time**|`1/10`|
+ >>|**Exploration Time**|`2/10`|
 
 >[!todo] %%FAKE TITLE HERE%%
 >>[!todo] %%FAKE TITLE HERE%%

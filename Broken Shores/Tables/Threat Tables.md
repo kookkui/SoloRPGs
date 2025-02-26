@@ -108,3 +108,21 @@
 | 10         | You can cast a spell or use an item in your possession for free. Otherwise, your next attack receives an extra +10                                          |
 
 ^7f2fb1
+
+
+| `dice:d12` | Demonic Powers                                                                                                                                |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1          | Anti-missile Aura: A strong wind seems to surround the demon at all times, causing all incoming projectiles to suffer -60 to the attack roll. |
+| 2          | Acid Blood: Characters damaging the demon suffer D4 damage.                                                                                   |
+| 3          | Burning: Characters in melee range of the demon suffer 1 damage/round.                                                                        |
+| 4          | Chitin Armor: The demon possesses a layer of chitin scales, grating it +D4 Armor.                                                             |
+| 5          | Dazzle: As an action, the demon blinds its target, stunning them for D4 rounds.                                                               |
+| 6          | Drain Soul: Characters damaged by the demon lose D4 PP.                                                                                       |
+| 7          | Fast: The demon acts twice per round.                                                                                                         |
+| 8          | Powerful: The demon deals an extra D4 damage when it attacks.                                                                                 |
+| 9          | Quills: The demon can shoot quills as a ranged attack (60%, D6+1 damage)                                                                      |
+| 10         | Regeneration: The demon heals 1 HP/round.                                                                                                     |
+| 11         | Shroud of Darkness: The demon is permanently surrounded by a 10 ft. area of absolute darkness.                                                |
+| 12         | Vampiric: The demon regenerates D4 HP each time it deals damage.                                                                              |
+
+^67bc7c

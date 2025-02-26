@@ -119,6 +119,9 @@
 >
 > ##### Creature Modifier
 >`dice:[[Threat Tables#^55c908]]`
+>
+> ##### Demonic Powers
+>`dice:[[Threat Tables#^67bc7c]]`
 
 
 > [!gather] ### Loot Tables

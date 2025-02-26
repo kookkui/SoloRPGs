@@ -786,7 +786,7 @@ Hex 20 found the cult Temple
 
 ### Temple of the Cult
 
-#### Ruin Size D6, Quest Timer D8
+#### Ruin Size/Quest Timer D6
 
 Hallowed. A sense of calmness invites you here, helping you concentrate. +10 to all checks
 
@@ -837,4 +837,20 @@ If you so choose, you can disengage from combat without consequences. Otherwise,
 **Perception** 54 1d%[49]
 Lavish Gem - 318Ҁ
 
+Encounter check 6
 
+##### Room 3
+
+Quest Timer D6
+
+Combat Encounters - Demon
+
+Standard Demon 2 powers 
+**Standard:** No changes
+
+```statblock
+creature: Demon (BS)
+```
+
+Acid Blood: Characters damaging the demon suffer D4 damage.
+Drain Soul: Characters damaged by the demon lose D4 PP.
