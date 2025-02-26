@@ -26,7 +26,7 @@ ShieldPR:
 Shieldintegrity: 
 trinketslot: 
 Currency: 51
-shards: 11
+shards: 10
 csupplies: 12
 rations: 9
 water: 0
@@ -56,7 +56,7 @@ title4: Fishing Rod
 skill21: false
 lightsource: Ud6
 title5: Torch
-skill10: false
+skill10: true
 title6: Thieves’ tools
 title7: Shards
 title8: Scroll of Empower
@@ -67,7 +67,7 @@ skill13: false
 title10: Potion of Purge. Removes the effects of one instance of demonic corruption.
 skill5: false
 title11: Fire Elemental Essence x1
-title12: Gems x3
+title12: Gems x4
 Pskills69: Lavish Gem - 282Ҁ
 title13: Tapestry 300c
 Pskills1: Lavish Gem - 152Ҁ
@@ -77,6 +77,10 @@ title16: Seeds x3
 necklaceslot: Earing that grants +10 Perception
 ring1: Ring of Insulation that grants immunity to fire
 Pskills2: Lavish Gem - 318Ҁ
+title17: Tapestry 300c
+title18: Arrows Ud8
+Pskills3: Precious Gem - 118Ҁ
+title19: Mail 1500Ҁ D8
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] %%FAKE TITLE HERE%%  
@@ -88,8 +92,8 @@ Pskills2: Lavish Gem - 318Ҁ
 >> ###### Stats
 >>|     |     | 
 >> |--- | --- | 
->>|**HP** | **Current:** `23` **Max:** `=this.CONST*2`|
->>|**Power Points** |  **Current:** `13`  **Max:** `=this.WIL`|
+>>|**HP** | **Current:** `32` **Max:** `=this.CONST*2`|
+>>|**Power Points** |  **Current:** `14`  **Max:** `=this.WIL`|
 >> |**Speed** |  **Walk:** `=this.DEX*2`  **Run:** `=this.DEX*4` |
 >>
 >> ###### Weapons
@@ -118,7 +122,7 @@ Pskills2: Lavish Gem - 318Ҁ
 >>| **Water (Gal)** |  `=this.water`   |
 >>| **Light Source Remaining** |`INPUT[suggester(option(None), option(Ud4), option(Ud6), option(Ud8), option(Ud10), option(Ud12)):lightsource]` |   |
 >>| **Max Gear Slots**     | `=(this.STR)+10` | 
- >>|**Exploration Time**|`2/10`|
+ >>|**Exploration Time**|`3/10`|
 
 >[!todo] %%FAKE TITLE HERE%%
 >>[!todo] %%FAKE TITLE HERE%%

@@ -59,3 +59,69 @@
 |20|Talking to themself|
 
 ^56fa55
+
+
+| `dice:d10` | Critical Hit - Slashing                                                                                               |
+| ---------- | --------------------------------------------------------------------------------------------------------------------- |
+| 1          | Cracked Skull: The target is stunned and cannot act for 3 rounds                                                      |
+| 2          | Low Blow: The target is sickened and suffers -20 to all actions until healed                                          |
+| 3          | Knockback: The target is pushed back D4x5 ft                                                                          |
+| 4          | Strike to the Leg: The target moves at half speed until healed                                                        |
+| 5          | Dented Armor: The target’s armor protection is reduced by D4 until repaired                                           |
+| 6          | Strike to the knee: The target falls prone                                                                            |
+| 7          | Wide Swing: The attacker can make an additional attack to the nearest enemy                                           |
+| 8          | Split Open: The target bleeds, losing 1 HP/round                                                                      |
+| 9          | Failed Parry: The target drops the weapon they’re wielding. If not wielding a weapon, they receive an extra D6 damage |
+| 10         | Crushing Blow: The target dies                                                                                        |
+
+^5d43ae
+
+| `dice:d10` | Critical Hit - Piercing                                                                                                   |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------- |
+| 1          | Surprise Opening: The attacker receives an extra action this round                                                        |
+| 2          | Two for One: The attacker automatically deals normal damage to a second nearby target                                     |
+| 3          | Nerve Damage: the target is stunned and cannot act for D6 rounds                                                          |
+| 4          | Strike to the Leg: The target moves at half speed until healed                                                            |
+| 5          | Damaged Armor: The target’s armor is reduced by D4 until repaired                                                         |
+| 6          | Deep Wound: The target loses 1 HP/round                                                                                   |
+| 7          | Forearm Piercing: The target drops the weapon they’re wielding. If not wielding a weapon, they receive an extra D6 damage |
+| 8          | Brutal Poke: The target receives -20 to all actions                                                                       |
+| 9          | Impaled: The target receives triple damage, instead of double                                                             |
+| 10         | Wound to the Neck: The target dies                                                                                        |
+
+^758f60
+
+
+| `dice:d10` | Critical Hit - Bludgeoning                                                                                            |
+| ---------- | --------------------------------------------------------------------------------------------------------------------- |
+| 1          | Cracked Skull: The target is stunned and cannot act for 3 rounds                                                      |
+| 2          | Low Blow: The target is sickened and suffers -20 to all actions until healed                                          |
+| 3          | Knockback: The target is pushed back D4x5 ft                                                                          |
+| 4          | Strike to the Leg: The target moves at half speed until healed                                                        |
+| 5          | Dented Armor: The target’s armor protection is reduced by D4 until repaired                                           |
+| 6          | Strike to the knee: The target falls prone                                                                            |
+| 7          | Wide Swing: The attacker can make an additional attack to the nearest enemy                                           |
+| 8          | Split Open: The target bleeds, losing 1 HP/round                                                                      |
+| 9          | Failed Parry: The target drops the weapon they’re wielding. If not wielding a weapon, they receive an extra D6 damage |
+| 10         | Crushing Blow: The target dies                                                                                        |
+
+^ff1377
+
+
+
+| `dice:d10` | Critical Hit - Sorcery                                                                                                |
+| ---------- | --------------------------------------------------------------------------------------------------------------------- |
+| 1          | Petrified: The target must pass a Tenacity check or be paralyzed for 10 min                                           |
+| 2          | Vulnerable: the target’s receives double damage when targeted by this same type of attack                             |
+| 3          | Dazzled: The target is stunned and cannot act for D10 rounds                                                          |
+| 4          | Knockback: The target is pushed back 20 ft                                                                            |
+| 5          | Echoing Force: Another target suffers the spell’s effects                                                             |
+| 6          | Gush: The target bleeds, losing 1 HP/Round                                                                            |
+| 7          | Concussive Push: The target is launched upwards, falling down moments later. Receives +1D6 damage, is stunned 1 round |
+| 8          | Nerve Damage: The target receives triple damage, instead of double                                                    |
+| 9          | Savage Damage: the target must roll on the Permanent Wound table                                                      |
+| 10         | Disintegrated: The target dies                                                                                        |
+
+^2de1bd
+
+

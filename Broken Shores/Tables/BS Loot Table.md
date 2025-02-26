@@ -193,18 +193,18 @@
 
 ^a898b8
 
-|`dice:d10`|Loot - Artifacts|
-|---|---|
-|1|Blades of Death|
-| 2   | Diadem of Arcane Power      |
-| 3   | Glassblade of Athuna        |
-| 4   | Goblet of Purification      |
-| 5   | Kathena’s Eye               |
-| 6   | Moonstone                   |
-| 7   | Robe of Illusion            |
-| 8   | Soul Gem                    |
-| 9   | Spellshield                 |
-| 10  | Wand of Elemental Summoning |
+| `dice:d10` | Loot - Artifacts                       |
+| ---------- | -------------------------------------- |
+| 1          | Artifact - Blades of Death             |
+| 2          | Artifact - Diadem of Arcane Power      |
+| 3          | Artifact - Glassblade of Athuna        |
+| 4          | Artifact - Goblet of Purification      |
+| 5          | Artifact - Kathena’s Eye               |
+| 6          | Artifact - Moonstone                   |
+| 7          | Artifact - Robe of Illusion            |
+| 8          | Artifact - Soul Gem                    |
+| 9          | Artifact - Spellshield                 |
+| 10         | Artifact - Wand of Elemental Summoning |
 
 ^19af82
 

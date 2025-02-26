@@ -123,6 +123,19 @@
 > ##### Demonic Powers
 >`dice:[[Threat Tables#^67bc7c]]`
 
+> [!fail] ### Critical Hit Tables
+> ##### Bludgeoning
+>`dice:[[Broken Shores General Tables#^ff1377]]`
+>
+> ##### Slashing
+>`dice:[[Broken Shores General Tables#^5d43ae]]`
+>
+> ##### Piercing
+>`dice:[[Broken Shores General Tables#^758f60]]`
+>
+> ##### Sorcery
+>`dice:[[Broken Shores General Tables#^2de1bd]]`
+
 
 > [!gather] ### Loot Tables
 > ##### Random Loot

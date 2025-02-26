@@ -786,7 +786,7 @@ Hex 20 found the cult Temple
 
 ### Temple of the Cult
 
-#### Ruin Size/Quest Timer D6
+#### Ruin Size/Quest Timer D6 > D4
 
 Hallowed. A sense of calmness invites you here, helping you concentrate. +10 to all checks
 
@@ -898,4 +898,64 @@ vs
 
 Krystyna Turn
 
-**Martial Weapons** 71 
+**Martial Weapons** 71 1d%[10] CRIT
+
+6 Damage + Crit = 12 Damage to Demon (Dead)
+1 Damage from the acid blood to Krystyna
+
+<span style="color:rgb(241, 91, 181)">Victory! </span> 
+
+Casting Stitch Wound
+-1 Shard (10)
+
+11 HP + Idiosyncrasy = 22 HP (32 back to max)
+
+70% Valuable Loot Drop 1d%[62]
+
+<font color="#e36c09">Tapestry 300c</font>
+
+No Door
+
+**Perception** Check 54 1d%[34] Passed
+
+<font color="#ff0000">+1UD Arrows</font>
+
+##### Room 4
+Ruin Size/Quest Timer D4
+
+Encounter/Event check
+Nothing
+
+ Room Details & Content Empty
+ 
+**Perception** Check 54  1d%[23] Passed
+
+<font color="#f79646">Precious Gem - 118Ҁ</font>
+
+Light Check 3
+
+##### Room 5
+
+Combat Encounters - Deathless Sorcerer
+Elite: +5 HP, +1 damage, Roll _once_ on the Broken Shores Creature Modifier Table
+**Resistant:** The creature only receives half damage from nonmagical attacks. +15% Loot chance.
+
+
+```encounter
+creatures:
+  - Deathless Sorcerer 1, 17, 1
+```
+
+Krystyna Turn
+
+**Martial Weapons** 71 Roll 11 CRIT
+
+Rolled 9 + Crit = 18 (Dead)
+Strike to the knee: The target falls prone
+
+<span style="color:rgb(241, 91, 181)">Victory! </span> 
+
+85% Valuable Loot Drop 1d%[50] 
+
+<font color="#ff0000">Mail 1500Ҁ D8</font> 
+
