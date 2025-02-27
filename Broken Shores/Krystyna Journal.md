@@ -1077,3 +1077,15 @@ Back to room 4
 
 ##### Room 7
 
+Room check 6
+
+E. Check none.
+
+**Slightly different floor:** The character falls into a hole, disguised by a trap door. The hole is full of water, and the character must pass an Athletics check to climb out
+
+Athletics Check 56 1d%[17] Passed
+
+**Perception** Check 55 1d%[48] Passed
+
+<font color="#f79646">Full Shield 300Ҁ, +20 Parry, Normal, D8</font>
+
