@@ -61,20 +61,20 @@
 
 
 
-| `dice:d20` | Loot - Valuable Loot                                   |
-| ---------- | ------------------------------------------------------ |
-| 1-2        | `dice:[[BS Loot Table#^958917]]`                       |
-| 3-7        | `dice:[[BS Loot Table#^5eeac3]]`                       |
-| 8-9        | `dice:[[BS Loot Table#^5277a8]]`                       |
-| 10         | Rolled painting depicting some forgotten hero 250c     |
-| 11         | Perfume vial 250c                                      |
-| 12         | Tapestry 300c                                          |
-| 13         | Ivory statuette 400                                    |
-| 14-15      | `dice:[[BS Loot Table#^75b0e4]]`                       |
-| 16         | Skill Manual, roll on `dice:[[BS Loot Table#^080820]]` |
-| 17         | Random, finely crafted weapon (+1 damage)              |
-| 18-19      | Scroll with a random spell                             |
-| 20         | Roll on Precious Loot                                  |
+| `dice:d20` | Loot - Valuable Loot                               |
+| ---------- | -------------------------------------------------- |
+| 1-2        | `dice:[[BS Loot Table#^958917]]`                   |
+| 3-7        | `dice:[[BS Loot Table#^5eeac3]]`                   |
+| 8-9        | `dice:[[BS Loot Table#^5277a8]]`                   |
+| 10         | Rolled painting depicting some forgotten hero 250c |
+| 11         | Perfume vial 250c                                  |
+| 12         | Tapestry 300c                                      |
+| 13         | Ivory statuette 400                                |
+| 14-15      | `dice:[[BS Loot Table#^75b0e4]]`                   |
+| 16         | Skill Manual - `dice:[[BS Loot Table#^080820]]`    |
+| 17         | Random, finely crafted weapon (+1 damage)          |
+| 18-19      | Scroll with a random spell                         |
+| 20         | Roll on Precious Loot                              |
 
 ^f7349d
 

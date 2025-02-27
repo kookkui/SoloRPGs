@@ -959,3 +959,121 @@ Strike to the knee: The target falls prone
 
 <font color="#ff0000">Mail 1500Ҁ D8</font> 
 
+Room check 3
+
+**Perception** Check 54 1d%[4] CRIT
+
+Coins 394
+
+Door check, Yes, and it's Locked
+Effortless +20
+
+Brawn 80 1d%[45]
+
+Door shatters.
+
+Encounter check, none.
+
+Skill ups, 
+**Martial Weapons** 61 1d%[94] Passed
+**Perception** 44 1d%[100] Passed
+
++1 STR (5)
++1 **Martial Weapons** (62)
+
++1 WIL(1)
++1 **Perception** (45)
+
+##### Room 6
+
+Room check 3
+
+Combat Encounters - Deathless Guardian x1 
+
+Elite: +5 HP, +1 damage, Roll _once_ on the Broken Shores Creature Modifier Table
+
+**Impenetrable:** Immune to piercing damage. Vulnerable to Bludgeoning damage. +15% Loot chance.
+
+```statblock
+creature: Deathless Guardian
+```
+
+
+```encounter
+creatures:
+  - Deathless Guardian 1, 20, 8
+```
+
+
+Krystyna Turn
+
+**Martial Weapons** 62 1d%[32] Win
+vs
+Dodge 40 1d%[100]
+
+7 Damage to Deathless
+
+Deathless turn
+
+War Pick 50 1d%[32]
+vs
+**Parry** 62 1d%[8] CRIT
+
+Your next attack receives an extra +10
+
+Krystyna Turn
+
+**Martial Weapons** 82 1d%[61] Win
+vs
+Dodge 40 1d%[40] 
+
+3 Damage to Deathless
+
+Deathless turn 
+
+War Pick 50 1d%[40]
+vs
+**Parry** 62 1d%[5] CRIT
+
+You press your advantage, reducing your opponent’s next defensive roll by -20
+
+Krystyna Turn
+
+**Martial Weapons** 72 1d%[71] WIN
+vs
+Dodge 20 1d%[13]
+
+7 Damage to Deathless 
+
+Deathless turn 
+
+War Pick 50 1d%[17]
+vs
+**Parry** 62 1d%[46] Win
+
+You press your advantage, reducing your opponent’s next defensive roll by -20
+
+Krystyna Turn
+
+**Martial Weapons** 72 1d%[30] Win
+vs
+Dodge 20 1d%[41] 
+
+4 Damage to Deathless (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory! </span> 
+
+65% Valuable Loot Drop 1d%[48] 
+
+<font color="#FF00CC">Skill Manual - Crafting</font>
+
+**Literacy** Check 74 1d%[36] Passed
+
++2 Crafting (57)
+
+E. Check none
+
+Back to room 4 
+
+##### Room 7
+

@@ -25,7 +25,7 @@ Shield:
 ShieldPR: 
 Shieldintegrity: 
 trinketslot: 
-Currency: 51
+Currency: 445
 shards: 10
 csupplies: 12
 rations: 9
@@ -49,7 +49,7 @@ notes1: |-
 
   I saw an opportunity and I took it (+5 Perception)
 title1: Sturdy backpack
-title21: ""
+title21: Coins
 title2: Coins
 title3: Rations
 title4: Fishing Rod
@@ -81,6 +81,8 @@ title17: Tapestry 300c
 title18: Arrows Ud8
 Pskills3: Precious Gem - 118Ҁ
 title19: Mail 1500Ҁ D8
+title20: Coins
+title22: Skill Manual - Crafting
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] %%FAKE TITLE HERE%%  
@@ -130,13 +132,13 @@ title19: Mail 1500Ҁ D8
 >> | | | | |
 >>| --- | --- | :--: | :---: |
 >>| **Strength** | `=this.STR` | **Brawn** | `=(this.STR)*5`|
->> | `4/10` | | | |
+>> | `5/10` | | | |
 >>| **Dexterity** | `=this.DEX` |**Coordination** | `=(this.DEX)*5`|
 >> | `1/10` | | | |
 >>| **Constitution** | `=this.CONST` | **Vitality**|`=(this.CONST)*5`|
 >> | `1/10` | | | |
 >>| **Will** | `=this.WIL` | **Tenacity**|`=(this.WIL)*5`|
->> | `0/10` | | | |
+>> | `1/10` | | | |
 >>| **Intelligence** | `=this.INT` | **Intellect**|`=(this.INT)*5`|
 >> | `0/10` | | | |
 >>| **Charisma** | `=this.CHA` | **Charm**|`=(this.CHA)*5`|
@@ -151,15 +153,15 @@ title19: Mail 1500Ҁ D8
 >>| **Athletics** (STR `=this.STR`) | `56` | `INPUT[toggle:skill2]`|
 >>| **Animal Handling** (CHA `=this.CHA`) | `12` |`INPUT[toggle:skill3]`|
 >>| **Command** (CHA `=this.CHA`) | `12` |`INPUT[toggle:skill4]`|
->>| **Crafting** (DEX `=this.DEX`) | `55` |`INPUT[toggle:skill5]`|
+>>| **Crafting** (DEX `=this.DEX`) | `57` |`INPUT[toggle:skill5]`|
 >>| **Dodge** (DEX `=this.DEX` ) | `55` |`INPUT[toggle:skill6]`|
 >>| **Insight** (WIL `=this.WIL`) | `15` |`INPUT[toggle:skill7]`|
 >>| **Literacy** (INT `=this.INT`) | `74` |`INPUT[toggle:skill8]`|
 >>|**Manipulation** (CHA `=this.CHA`) | `14` | `INPUT[toggle:skill9]`|
->>| **Martial Weapons** (STR `=this.STR`) | `61` |`INPUT[toggle:skill10]`
+>>| **Martial Weapons** (STR `=this.STR`) | `62` |`INPUT[toggle:skill10]`
 >>| **Medicine** (INT `=this.INT`) | `23` |`INPUT[toggle:skill11]`
 >>|**Nature** (INT `=this.INT`) | `23` |`INPUT[toggle:skill12]`
->>| **Perception** (WIL `=this.WIL`) (<font color="#FF00CC">+10</font>) | `44` |`INPUT[toggle:skill13]`
+>>| **Perception** (WIL `=this.WIL`) (<font color="#FF00CC">+10</font>) | `45` |`INPUT[toggle:skill13]`
 >>| **Performance** (CHA `=this.CHA`) | `12` |`INPUT[toggle:skill14]`
 >>| **Ranged Weapons** (DEX `=this.DEX` ) | `35` |`INPUT[toggle:skill15]`
 >>| **Sailing** (DEX `=this.DEX`) | `35` |`INPUT[toggle:skill16]`
