@@ -162,7 +162,7 @@ title23: Full Shield 300Ҁ
 >>| **Martial Weapons** (STR `=this.STR`) | `62` |`INPUT[toggle:skill10]`
 >>| **Medicine** (INT `=this.INT`) | `23` |`INPUT[toggle:skill11]`
 >>|**Nature** (INT `=this.INT`) | `23` |`INPUT[toggle:skill12]`
->>| **Perception** (WIL `=this.WIL`) (<font color="#FF00CC">+10</font>) | `45` |`INPUT[toggle:skill13]`
+>>| **Perception** (WIL `=this.WIL`) (<font color="#FF00CC">+10</font>) | `46` |`INPUT[toggle:skill13]`
 >>| **Performance** (CHA `=this.CHA`) | `12` |`INPUT[toggle:skill14]`
 >>| **Ranged Weapons** (DEX `=this.DEX` ) | `35` |`INPUT[toggle:skill15]`
 >>| **Sailing** (DEX `=this.DEX`) | `35` |`INPUT[toggle:skill16]`

@@ -1089,3 +1089,26 @@ Athletics Check 56 1d%[17] Passed
 
 <font color="#f79646">Full Shield 300Ҁ, +20 Parry, Normal, D8</font>
 
+##### Room 8
+
+E.Check None
+## Quest Die Reached 
+
+**Perception** Check to find the Artifact 56 1d%[47] Passed
+
+Normal Difficulty
+Intellect to see if I can figure out how to destroy this artifact. 65 1d%[12] Passed
+
+Artifact Destroyed!
+
+Returning to entrance 
+
+No encounters.
+
+# Back to Island
+
+##### Hex 13
+
+Encounter check 1, ENCOUNTER
+
+Combat Encounters - Krothok
