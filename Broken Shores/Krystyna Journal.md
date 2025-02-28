@@ -1239,4 +1239,41 @@ E. Check 6
 I spoke with Bohr and showed him the remnants of the Cultists' Tome that has been destroyed.
 
 I am now welcome to the village and I make my way to the trader alley.
+##### Merchant - How much will they pay?
+100%
+##### What is the Trader Willing to Purchase?
+Everything
+
+##### Stock
+- Crafting Supplies x7
+- Rations x7
+
+###### Selling
+- Tapestry 300Ҁ
+- Ivory statuette 400Ҁ
+- Lavish Gem - 282Ҁ
+- Lavish Gem - 152Ҁ
+- Lavish Gem - 318Ҁ
+- Precious Gem - 118Ҁ
+- Mail 1500Ҁ D8
+
+Total: 3,070Ҁ
+
+###### Buying
+- Quiver -50Ҁ
+- Oil Ud12 -30Ҁ
+- Lockpicks Ud12 -60Ҁ
+- Rope 50' -10Ҁ
+- Tent -20Ҁ
+- Crafting Supplies x7 -105Ҁ
+- Rations x7  -105Ҁ
+- Bandages Ud12 -30Ҁ
+
+Total: 400Ҁ
+
+Having the Smith fit my **Half Plate** armor for me. -200Ҁ
+
+Will rest in the Inn until fully healed. 
+Fancy room w. meal (1 day) 30 Ҁ x 3 days *90Ҁ*
+
 

@@ -16,6 +16,11 @@
 >> - Armor Fitting *200 Ҁ*
 >> - Armor Repair *100 Ҁ per dice chain level*
 >
+>> [!crafting] %%FAKE TITLE HERE%%
+>> #### Merchants
+>> - Roll D10 to see how many **Crafting Supplies** are stocked.
+>> - Roll D20 to see how many **Rations** are stocked.
+>
 >> [!npc] %%FAKE TITLE HERE%%
 >> #### Temple/Healer
 >> - Heal D10 HP *50 Ҁ*

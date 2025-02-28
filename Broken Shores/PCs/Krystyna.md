@@ -25,7 +25,7 @@ Shield:
 ShieldPR: 
 Shieldintegrity: 
 trinketslot: 
-Currency: 445
+Currency: 2915
 shards: 10
 csupplies: 12
 rations: 9
@@ -49,42 +49,42 @@ notes1: |-
 
   I saw an opportunity and I took it (+5 Perception)
 title1: Sturdy backpack
-title21: Coins
+title21: ""
 title2: Coins
 title3: Rations
 title4: Fishing Rod
 skill21: false
-lightsource: Ud6
-title5: Torch
+lightsource: Ud12
+title5: Thieves’ tools
 skill10: true
-title6: Thieves’ tools
-title7: Shards
-title8: Scroll of Empower
+title6: Shards
+title7: Lantern
+title8: Arrows Ud12
 skill20: false
 skill8: false
-title9: Lantern
+title9: Quiver
 skill13: false
-title10: Potion of Purge. Removes the effects of one instance of demonic corruption.
+title10: Oil Ud12
 skill5: false
-title11: Fire Elemental Essence x1
-title12: Gems x4
-Pskills69: Lavish Gem - 282Ҁ
-title13: Tapestry 300c
-Pskills1: Lavish Gem - 152Ҁ
-title14: Potion of Frenzy. For the next D6 rounds you deal +5 damage, but you’re unable to defend in any way.
-title15: Elemental essence
-title16: Seeds x3
+title11: Lockpicks Ud12
+title12: Full Shield 300Ҁ
+Pskills69: ""
+title13: Potion of Frenzy 500Ҁ For the next D6 rounds you deal +5 damage, but you’re unable to defend in any way.
+Pskills1: ""
+title14: Rope 50'
+title15: Tent
+title16: Crafting Supplies x7
 necklaceslot: Earing that grants +10 Perception
 ring1: Ring of Insulation that grants immunity to fire
-Pskills2: Lavish Gem - 318Ҁ
-title17: Tapestry 300c
-title18: Arrows Ud8
-Pskills3: Precious Gem - 118Ҁ
-title19: Mail 1500Ҁ D8
-title20: Coins
-title22: Skill Manual - Crafting
-title23: Full Shield 300Ҁ
-title24: Ivory statuette 400Ҁ
+Pskills2: ""
+title17: ""
+title18: ""
+Pskills3: ""
+title19: ""
+title20: ""
+title22: ""
+title23: ""
+title24: ""
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] %%FAKE TITLE HERE%%  
@@ -121,12 +121,12 @@ title24: Ivory statuette 400Ҁ
 >> |:---: | :---: |
 >>|**Coins (Ҁ)** |`=this.Currency` |
 >>|**Shards** | `=this.shards`|
->> |**Crafting Supplies** |`11` |
->>| **Rations**   |  `7`   |
+>> |**Crafting Supplies** |`18` |
+>>| **Rations**   |  `10`   |
 >>| **Water (Gal)** |  `=this.water`   |
 >>| **Light Source Remaining** |`INPUT[suggester(option(None), option(Ud4), option(Ud6), option(Ud8), option(Ud10), option(Ud12)):lightsource]` |   |
 >>| **Max Gear Slots**     | `=(this.STR)+10` | 
- >>|**Exploration Time**|`3/10`|
+ >>|**Exploration Time**|`0/10`|
 
 >[!todo] %%FAKE TITLE HERE%%
 >>[!todo] %%FAKE TITLE HERE%%
@@ -291,6 +291,5 @@ actions:
   value: getMetadata('xp') + getMetadata('axp')
 
 ```
-
 
 

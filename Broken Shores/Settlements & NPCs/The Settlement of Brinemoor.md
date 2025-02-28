@@ -10,3 +10,7 @@
 
 - Speaking with Bohr I must prove myself before being trusted by him and the village. 
 
+##### Merchant - How much will they pay?
+150%
+##### What is the Trader Willing to Purchase?
+Everything

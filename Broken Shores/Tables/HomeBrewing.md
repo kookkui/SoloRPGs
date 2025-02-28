@@ -197,3 +197,40 @@
 | 18         | You can choose to deal an extra D8 damage each time you deal damage with this weapon. If you do so, you receive the same amount of damage                                                                                                                                       |
 | 19         | When you deal damage with this weapon, gain +10 parry until your next turn                                                                                                                                                                                                      |
 | 20         | Target gains Burning each time you deal damage to them with this weapon                                                                                                                                                                                                         |
+
+
+| `dice:d10` | Smith Skill Level   |
+| ---------- | ------------------- |
+| 1-5        | Journeyman (+1 Max) |
+| 6-8        | Expert (+2 Max)     |
+| 9-10       | Master (+3 Max)     |
+
+^864a52
+
+| `dice:d10` | Merchant - How much will they pay? |
+| ---------- | ---------------------------------- |
+| 1-2        | 25%                                |
+| 3-6        | 50%                                |
+| 7-8        | Standard Price                     |
+| 9          | 125%                               |
+| 10         | 150%                               |
+
+^e8648a
+
+| `dice:d4` | Types of Wares  |
+| --------- | --------------- |
+| 1         | Weapons & Armor |
+| 2         | Mundane Loot    |
+| 3         | Valuable Loot   |
+| 4         | Precious Loot   |
+
+^d1b3bb
+
+| `dice:d6` | What is the Trader Willing to Purchase? |
+| --------- | --------------------------------------- |
+| 1-3       | Everything                              |
+| 4-5       | Everything except one type              |
+| 6         | Only one type                           |
+
+^bda5a4
+

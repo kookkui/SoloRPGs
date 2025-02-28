@@ -202,7 +202,16 @@
 >`dice:[[BS Loot Table#^edbd7f]]`
 >
 > ##### Smith Skill Level
->`dice:[[BS Loot Table#^864a52]]`
+>`dice:[[HomeBrewing#^864a52]]`
+>
+> ##### What is the Trader Willing to Purchase?
+>`dice:[[HomeBrewing#^bda5a4]]`
+>
+> ##### Merchant - How much will they pay?
+>`dice:[[HomeBrewing#^e8648a]]`
+>
+> ##### Merchant - Types of Wares
+>`dice:[[HomeBrewing#^d1b3bb]]`
 
 ## [[Sorcery]]
 

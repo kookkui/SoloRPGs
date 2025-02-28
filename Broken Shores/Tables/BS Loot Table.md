@@ -208,13 +208,7 @@
 
 ^19af82
 
-| `dice:d10` | Smith Skill Level   |
-| ---------- | ------------------- |
-| 1-5        | Journeyman (+1 Max) |
-| 6-8        | Expert (+2 Max)     |
-| 9-10       | Master (+3 Max)     |
 
-^864a52
 
 | `dice:2d10` |  Random Skill   |
 | :----------: | :-------------: |
