@@ -84,6 +84,7 @@ title19: Mail 1500Ҁ D8
 title20: Coins
 title22: Skill Manual - Crafting
 title23: Full Shield 300Ҁ
+title24: Ivory statuette 400Ҁ
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] %%FAKE TITLE HERE%%  

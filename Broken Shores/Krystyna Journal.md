@@ -1111,4 +1111,122 @@ No encounters.
 
 Encounter check 1, ENCOUNTER
 
-Combat Encounters - Krothok
+Combat Encounters - Krothok x4
+
+```statblock
+creature: Krothok
+```
+
+
+```encounter
+creatures:
+  - Krothok 1, 15, 4
+  - Krothok 2, 15, 4
+  - Krothok 3, 15, 4
+  - Krothok 4, 15, 4
+```
+
+
+Krystyna Turn
+
+**Martial Weapons** 72 1d%[13] WIn
+vs
+Dodge: 50 1d%[93]
+
+5 Damage to Krothok 3
+
+Krothok 3 Turn
+
+**Parry** 72 1d%[17] Win
+vs
+Spear 50  1d% [93] 
+
+If you were Prone, Paralyzed, Stunned, or some other similar condition, you automatically recover. Otherwise, your next attack receives an extra +10
+
+Krothok 1 Turn
+
+**Dodge** 62 1d%[42] Win
+vs
+Spear 50 1d%[63]
+
+Krothok 2 Turn
+
+**Dodge** 32 1d%[60]
+vs
+Spear 50 1d%[40] Win
+
+6 Damage to Krystyna
+
+Krothok 4 Turn
+
+**Dodge** 32 1d%[49]
+vs
+Spear 50 1d%[65]
+
+Krystyna Turn
+
+Wide Swing 52 1d%[45] Win
+vs
+Dodge: 50 1d%[17]
+
+6 Damage to all Krothoks
+
+Krothok 3 Turn
+
+Desperate attack (-20 attack skill, +3 damage)
+
+**Parry** 62 1d%[54]Win
+vs
+Spear 30 1d%[74]
+
+You may attempt to disarm your opponent, as described on Broken Shores, page 25. If the opponent cannot be disarmed, your next attack receives an extra +10
+
+Krothok 1 Turn
+
+**Dodge** 62 1d%[75]
+vs
+Spear 50  1d%[77]
+
+Krothok 2 Turn
+
+**Dodge** 55  1d%[40] Win
+vs
+Spear 50 1d%[56]
+
+Krothok 4 Turn
+
+**Dodge** 32 1d%[84]
+vs
+Spear 50 1d%[9] Win
+
+Damage 1 to Krystyna
+
+Krystyna Turn
+
+Wide Swing 52 1d%[30] Win
+vs
+Dodge: 50 1d[76] 
+
+7 Damage to all Krothok
+
+Krothok 1 Turn 
+
+ Creature Combat Actions at 25% or Less Health
+Flee
+
+Krothok 2 Turn
+
+ Creature Combat Actions at 25% or Less Health
+Flee
+
+Krothok 4 Turn
+
+ Creature Combat Actions at 25% or Less Health
+Flee
+
+<span style="color:rgb(241, 91, 181)">Victory! </span> 
+
+60% Mundane Loot Drop  1d%[54]
+
+<font color="#f79646">Ivory statuette 400Ҁ</font>
+
