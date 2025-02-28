@@ -1229,4 +1229,14 @@ Flee
 60% Mundane Loot Drop  1d%[54]
 
 <font color="#f79646">Ivory statuette 400Ҁ</font>
+##### Hex 12
+
+E. Check 6
+
+## Return to The Settlement of Brinemoor
+[[The Settlement of Brinemoor]]
+
+I spoke with Bohr and showed him the remnants of the Cultists' Tome that has been destroyed.
+
+I am now welcome to the village and I make my way to the trader alley.
 
