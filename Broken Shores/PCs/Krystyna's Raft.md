@@ -4,9 +4,18 @@ raft0:
 title1: Scroll of Empower 500Ҁ
 title2: Potion of Purge 500Ҁ Removes the effects of one instance of demonic corruption.
 title3: Fire Elemental Essence x1
-title4: ""
+title4: Rations x 4
 title5: Elemental essence
 title6: Seeds x3
+title7: Full Shield 300Ҁ
+title8: Coins x 700Ҁ
+title9: Coins
+title10: Coins
+title11: Coins
+title12: Coins
+title13: Coins
+title14: Coins
+title15: ""
 ---
 
 >[!dice] %%FAKE TITLE HERE%%

@@ -25,8 +25,8 @@ Shield:
 ShieldPR: 
 Shieldintegrity: 
 trinketslot: 
-Currency: 2915
-shards: 10
+Currency: 215
+shards: 110
 csupplies: 12
 rations: 9
 water: 0
@@ -67,17 +67,17 @@ skill13: false
 title10: Oil Ud12
 skill5: false
 title11: Lockpicks Ud12
-title12: Full Shield 300Ҁ
+title12: Tent
 Pskills69: ""
 title13: Potion of Frenzy 500Ҁ For the next D6 rounds you deal +5 damage, but you’re unable to defend in any way.
 Pskills1: ""
 title14: Rope 50'
-title15: Tent
-title16: Crafting Supplies x7
+title15: Crafting Supplies
+title16: Crafting Supplies
 necklaceslot: Earing that grants +10 Perception
 ring1: Ring of Insulation that grants immunity to fire
 Pskills2: ""
-title17: ""
+title17: Shards
 title18: ""
 Pskills3: ""
 title19: ""
@@ -291,5 +291,6 @@ actions:
   value: getMetadata('xp') + getMetadata('axp')
 
 ```
+
 
 
