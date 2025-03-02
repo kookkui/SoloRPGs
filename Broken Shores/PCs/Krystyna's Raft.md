@@ -1,6 +1,12 @@
 ---
 HullMax: 20
-raft0: 
+raft0:  
+title1: Scroll of Empower 500Ҁ
+title2: Potion of Purge 500Ҁ Removes the effects of one instance of demonic corruption.
+title3: Fire Elemental Essence x1
+title4: ""
+title5: Elemental essence
+title6: Seeds x3
 title1: Scroll of Empower 500Ҁ
 title2: Potion of Purge 500Ҁ Removes the effects of one instance of demonic corruption.
 title3: Fire Elemental Essence x1
