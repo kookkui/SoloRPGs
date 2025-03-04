@@ -34,7 +34,7 @@ tags: [excalidraw]
 
 c9d4c26e381258eaabd0112e8618dc3b73a8aff9: [[StairSpiralSquareBig2x2.png]]
 
-c84f21faeae0d53e97bb27e50584e98f830c8432: [[IMG-20250215002349699.png]]
+c84f21faeae0d53e97bb27e50584e98f830c8432: [[IMG-20250304153225159.png]]
 
 87cd048650d6cd01173f41e2941a1682a6130c77: [[D100 - Ker Nethalas - Map Generation Deck - (OEF, 2024-01-10)_009.webp]]
 

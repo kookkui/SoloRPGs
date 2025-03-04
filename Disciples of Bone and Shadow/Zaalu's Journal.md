@@ -9,8 +9,11 @@ A sacred relic from my village was stolen, by whom and where it was taken is unk
 **Orientation Check** 40  1d%[6]
 Critical on Orientation +1 to skill
 
-### Akkar Strand Hex Exploration
-**Cave.** A half-visible trail leads the party to a seemingly natural cave. If the
+ Akkar Strand Hex Exploration
+
+### Cave
+
+A half-visible trail leads the party to a seemingly natural cave. If the
 party decides to explore it, use the Indoor Location generation rules
 
 #### Room 2 
