@@ -2240,5 +2240,12 @@ Will rest in the Inn until fully healed.
 Fancy room w. meal (1 day) 30 Ҁ x 3 days *90Ҁ*
 
 
+##### Day 5
+
+###### Hex 12
+Thicket
+
+
+
 
 
