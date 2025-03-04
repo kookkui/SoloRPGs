@@ -9,11 +9,11 @@ A sacred relic from my village was stolen, by whom and where it was taken is unk
 **Orientation Check** 40  1d%[6]
 Critical on Orientation +1 to skill
 
-###### Akkar Strand Hex Exploration
+### Akkar Strand Hex Exploration
 **Cave.** A half-visible trail leads the party to a seemingly natural cave. If the
 party decides to explore it, use the Indoor Location generation rules
 
-Room 2 
+#### Room 2 
 A standard wooden door braced with hardened branches. Unlocked
 
 **Nothing of interest.** This section of the cave is empty and has nothing of interest
@@ -22,8 +22,8 @@ Encounter Check 5
 
 Room check 12
 
-Room 3 
-###### Cave Exploration
+##### Room 3 
+#### Cave Exploration
 
 **Tremors**. The ground and walls suddenly begin to shake, causing debris to fall all around you. Perform a Dodge test to avoid being hit by falling rock; if you fail you lose D4 HP
 
@@ -31,7 +31,7 @@ Dodge check 44
 1d%[35]
 Success
 
-Room 4
+##### Room 4
 
 Encounter Check 2 Encounter!
 
@@ -200,7 +200,7 @@ Literacy Check 34 1d%
 
 d12 check 5
 
-Room 5 
+##### Room 5 
 
 Encounter check 4
 
@@ -212,7 +212,7 @@ Back through room 4 encounter check 5
 
 Room 2 check 4
 
-Room 6 
+##### Room 6 
 
 E Check 5
 
@@ -394,11 +394,10 @@ First aid check 40
 
 Zaalu is able to patch herself up and regain 6 HP
 
-Room 6 
+##### Room 6 
 ###### Exits
 Two
-
-Room 7
+##### Room 7
 
 E Check 10
 
@@ -487,7 +486,7 @@ Encounter check 4
 
 +1 Wolf Pelt (100 jats)
 
-Room 8 
+##### Room 8 
 
 **Encounter Check** 8
 
@@ -512,7 +511,7 @@ creature: Night Beetles
 
 +10 XP
 
-Room 9
+##### Room 9
 
 **Encounter Check** 1
 
@@ -643,7 +642,7 @@ Fadar tells me that a sacred Temple that is used by the village Five Hexes Away 
 **Orientation** Test 41 1d%
 [49] Failed no twist
 
-Next Hex 
+##### Next Hex 
 **The Hag**. As you make progress through these lonely lands, you interrupt yourself when you see an old woman sitting by, looking at you. You approach her and she simply smiles at you and starts telling you about her lost nephew. For some reason you feel obliged to listen to her, but as her story progresses you start to feel uncomfortable, shadows flickering around you. Perform a WIL test, if you fail you earn 2 CP, but gain 2 points in Forbidden Lore. Either way, you pass out and when you wake up five minutes later the hag is gone
 
 Effortless +2
@@ -698,6 +697,7 @@ Next Day
 Akkar Strand Hex Exploration
 **Ruins**. You come across the abandoned remnants of a bygone era. If you choose to explore it use the Indoor Location generation rules
 
+### Haunted Tomb
 ###### Ruins - Original Purpose
 Tomb
 ###### Ruins - Cause of Demise
@@ -705,7 +705,7 @@ Perished during a flood
 ###### Ruins Name Generation
 Haunted …
 
-Haunted Tomb
+
 
 Entrance
 
@@ -717,7 +717,7 @@ Encounter Check - None
 
 Door - A standard wooden door braced with hardened branches. Unlocked
 
-Room 2
+##### Room 2
 
 Encounter Check - None
 
@@ -828,7 +828,7 @@ Short Bow 120
 
 Door - An empty archway with no door
 
-Room 3 
+##### Room 3 
 
 Encounter Check - None
 
@@ -952,8 +952,7 @@ Door - A wooden door, locked. The characters will have to bash it in or pick the
 Difficulty - Effortless +2
 
 STR Test 20 Passed
-
-Room 4
+##### Room 4
 
 Encounter Check - None
 
@@ -961,7 +960,7 @@ Mysterious Figure. As you progress through the ruins you can't help but feel obs
 
 Door - A standard wooden door braced with hardened branches. Unlocked
 
-Room 5
+##### Room 5
 Artifice - Fountain
 Conceals/Reveals
 
@@ -976,7 +975,7 @@ DEX (-6) Skill Test 11
 
 Door - An empty archway with no door
 
-Room 6
+##### Room 6
 
 Encounter Check - None
 
@@ -997,7 +996,7 @@ Encounter Check - None
 to Room 7
 Door - A standard wooden door braced with hardened branches. Unlocked
 
-Room 7
+##### Room 7
 
 Encounter Check - None
 
@@ -1019,7 +1018,7 @@ STR Check 19
 1d20[3] 3 Passed
 Door explodes into shards.
 
-Room 8
+##### Room 8
 
 Tainted Encounter!
 **Berserk**. Upon reaching 25% remaining health points (rounding up), they deal 2 extra damage per attack but receive a -10 to their Defense
@@ -1076,14 +1075,14 @@ STR test (-2) 16 1d20[6]
 
 The stone door begins to crumble.
 
-Room 9
+##### Room 9
 Encounter Check - None
 
 Nothing of interest. This section of the ruins is empty and has nothing of interest
 
 Door - An empty archway with no door
 
-Room 10 
+##### Room 10 
 
 Encounter Check - None
 
@@ -1097,7 +1096,7 @@ Encounter Check - None
 +150XP
 +2 EP</span>
 
-Back to Room 9 
+##### Back to Room 9 
 
 **Encounter Check** 5
 
@@ -1107,7 +1106,7 @@ Difficulty - Normal 0
 
 Zaalu suffers 9 damage (35)
 
-Room 11
+##### Room 11
 
 Encounter Check - None
 
@@ -1239,7 +1238,7 @@ STR Test 18 1d20[7]
 
 The door smashes open
 
-Room 12
+##### Room 12
 
 Encounter Check - None
 
@@ -1409,7 +1408,7 @@ Encounter Check - None
 
 You wait for any kind of response but all is silent, you feel more uneasy about the silence. This may be the calm before a storm or worse.
 
-Room 14 
+##### Room 14 
 
 Encounter Check - None
 
