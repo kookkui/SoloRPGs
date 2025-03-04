@@ -121,7 +121,7 @@ title24: ""
 >> |:---: | :---: |
 >>|**Coins (Ҁ)** |`=this.Currency` |
 >>|**Shards** | `=this.shards`|
->> |**Crafting Supplies** |`18` |
+>> |**Crafting Supplies** |`2` |
 >>| **Rations**   |  `10`   |
 >>| **Water (Gal)** |  `=this.water`   |
 >>| **Light Source Remaining** |`INPUT[suggester(option(None), option(Ud4), option(Ud6), option(Ud8), option(Ud10), option(Ud12)):lightsource]` |   |

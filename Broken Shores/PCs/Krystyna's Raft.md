@@ -1,6 +1,6 @@
 ---
 HullMax: 20
-raft0:  
+raft0: Crafting Station  
 title1: Scroll of Empower 500Ҁ
 title2: Potion of Purge 500Ҁ Removes the effects of one instance of demonic corruption.
 title3: Fire Elemental Essence x1
@@ -58,7 +58,7 @@ title15: ""
 >>[!table] %%FAKE TITLE HERE%%
 >>##### Raft Upgrades
 >> |        |         |   
->>| :-: | :----- |
+>>| :-: | :-----: |
 >>| 1 | `=this.raft0` |
 >>| 2 | `=this.raft1` |
 >>| 3 | `=this.raft2` |
