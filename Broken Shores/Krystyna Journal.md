@@ -2233,11 +2233,12 @@ Total: 400Ҁ
 
 Converting 2000Ҁ to 100 Shards 
 
-
 Having the Smith fit my **Half Plate** armor for me. -200Ҁ
 And upgrade my Longsword into a Finely Crafted Longsword -1000Ҁ
 
 Will rest in the Inn until fully healed. 
 Fancy room w. meal (1 day) 30 Ҁ x 3 days *90Ҁ*
+
+
 
 
