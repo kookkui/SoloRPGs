@@ -1421,3 +1421,58 @@ Ruin Exploration Common - Skeba (Beast)
 creature: Skeba
 ```
 
+
+
+```encounter
+players:
+  - Zaalu
+creatures:
+  - Skeba 1, 15, 5
+  - Skeba 2, 15, 5
+```
+
+
+Combat Start
+
+Zaalu Turn
+
+**Marksmanship** Skill
+
+Skeba 1 Turn
+
+Out of range
+
+Skeba 2 Turn
+
+Out of range
+
+Zaalu Turn
+
+**Ranged Weapon** 44 1d%[20] 
+Success
+
+3 Damage + **Marksmanship** = 6 Damage to Skeba 1
+
+Skeba 1 Turn
+
+**Parry** 44 1d%[27]
+
+Pass
+
+Defensive Move - If you were Prone, Paralyzed, Stunned, or some other similar condition, you automatically recover. Otherwise, your next attack receives an extra +10
+
+Skeba 2 Turn
+
+**Dodge** 39 1d%[90]
+Failed
+
+2 Damage to Zaalu 
+
+Zaalu Turn 
+
+**One-Handed Melee** 58 1d%[34]
+
+Passed
+
+5 Damage to Skeba 1
+

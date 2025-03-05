@@ -1,6 +1,7 @@
 ---
 Art: "![[Character Image Placholder]]"
 Level: 2
+CurrentCorruption: 0
 Corruption: 10
 HP: 41
 GeSl: 0
@@ -11,7 +12,7 @@ WIL: 15
 INT: 14
 CHA: 12
 xp: 64
-axp: 30
+axp: 
 Weapon1: Longsword
 Weapon1dmg: D8+1
 Weapon1notes: Versatile (D10)
@@ -117,8 +118,9 @@ title20: Knife
 >>|     |     |
 >> |--- | --- |
 >>|   **Level**   |  `=this.level`   |
->>|**HP** | **Current:** `45` **Max:** `=this.CONST*3`|
->> |**Corruption** | **Current:** `0` **Max:** `=this.Corruption`   |
+>>|**HP** | **Current:** `43` **Max:** `=this.CONST*3`|
+>> |**Corruption** | **Current:** `=this.CurrentCorruption` **Max:** `=this.Corruption`   |
+>> |**Taint Threshold** | `=this.CurrentCorruption*10` |
 >> |**Armor** | `=this.Armor` |
 >> |**EP**| `2` |
 >> |**XP** | `VIEW[{xp}][text]`|
