@@ -11,8 +11,8 @@ CONST: 16
 WIL: 15
 INT: 14
 CHA: 12
-xp: 64
-axp: 
+xp: 84
+axp: 20
 Weapon1: Longsword
 Weapon1dmg: D8+1
 Weapon1notes: Versatile (D10)

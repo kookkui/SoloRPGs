@@ -1476,3 +1476,55 @@ Passed
 
 5 Damage to Skeba 1
 
+Skeba 1 Turn
+Action: Flee
+
+Skeba 2 Turn
+
+**Parry** 44 1d%[15]
+Passed
+
+Defensive Move - Your next attack receives an extra +10
+
+Zaalu Turn 
+
+Skeba 1 is running one last attack
+
+**One-Handed Melee** 49 
+Missed
+
+Skeba 1 Fled
+
+
+Skeba 2 Turn
+
+**Parry** 44 1d%[19]
+Passed
+
+Defensive Move - You can cast a spell or use an item in your possession for free. Otherwise, your next attack receives an extra +20
+
+Zaalu Turn 
+
+**One-Handed Melee** 68 1d%[7] CRIT
+
+Damage 7 + Crit = 14 
+
+Skeba 2 Turn
+
+Flee
+
+Zaalu lets the bird fly away.
+
+<span style="color:rgb(241, 91, 181)">Victory! </span> 
++20 XP (84)
+
+Door - An empty archway with no door
+
+##### Room 15
+
+Viewing Crystal. A large, roughly shaped crystal stands on top of a pedestal. If touched, it will glow, revealing images of a strange place, filled with twisting spirals, skies carved in obsidian and raging oceans as black as the night sky. All characters present must pass a WIL test to avoid being enthralled by the vision, losing 1 CP
+
+
+
+
+

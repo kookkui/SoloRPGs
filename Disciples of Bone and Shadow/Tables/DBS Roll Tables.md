@@ -96,6 +96,11 @@
 >##### Mark of Taint
 >`dice:[[DBS Encounter Tables#^89024c]]`
 >
+> ##### Creature Combat Actions at 50% or Less Health
+>`dice:[[Threat Tables#^673c98]]`
+>
+> ##### Creature Combat Actions at 25% or Less Health
+>`dice:[[Threat Tables#^17c9c6]]`
 
 
 >[!dice] Loot
