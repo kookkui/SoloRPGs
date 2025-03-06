@@ -1529,7 +1529,9 @@ WIL Test 16 1d20[8]
 
 Passed.
 
-Perception Check 31 
+Perception Check 31 1d%[77]
+Failed but Skill up check 1d%[89] 
+Passed +1  **Perception** 32
 
 ##### Room 16
 

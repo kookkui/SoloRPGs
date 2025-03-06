@@ -191,7 +191,7 @@ title20: Knife
 >>| **Orientation** (20) | `41` |
 >>|**Outdoor Survival** (INT `=this.INT` + DEX `=this.DEX`) | `46` |
 >>| **Parry** (STR `=this.STR` + DEX `=this.DEX`) | `49` |
->>| **Perception** (20) | `31` |
+>>| **Perception** (20) | `32` |
 >>| **Persuasion** (CHA `=this.CHA`) | `12` |
 >>| **Pick Pockets** (DEX `=this.DEX`) | `17` |
 >>| **Ranged Weapons** (DEX `=this.DEX` x 2) | `44` |
