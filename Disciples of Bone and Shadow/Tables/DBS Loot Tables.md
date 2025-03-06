@@ -62,28 +62,28 @@
 
 
 
-| `dice:d20` | Valuable Finds |
-| ---------- | ------------------------------------------------------------------------------------------------- |
-| 1 | Delicate Hourglass (50 jats ) |
-| 2 | `dice:3D20` jats |
-| 3 | `dice:D4` Pearls `dice:D20`jats Per Pearl |
-| 4 | Ancient Ghaln Drinking Horn (100 jats) |
-| 5 | Ornate Cloak (100 jats) |
-| 6 | Shield (100 jats) |
-| 7 | Short Bow (120 jats) |
-| 8 | Long Bow (140 jats) |
-| 9 | `dice:[[DBS Loot Tables#^1bf632]]`|
-| 10 | Piece of Light Armor (150 jats) |
-| 11 | Heavy Shield (150 jats) |
-| 12 | Large Gemstone (200 jats) |
-| 13 | Gold Pendant (250 jats) |
-| 14 | A Two-Handed Iron Weapon. (600 jats) |
-| 15 | A One-Handed Iron Weapon. (500 jats) |
-| 16 | Bronze Mirror (700 jats) |
-| 17 | A Piece of Mail Armor (800 jats) |
-| 18 | Ornate Helmet (800 jats) |
-| 19 | Tome of Herbal Tradition (200 jats) |
-| 20 | `dice:[[DBS Loot Tables#^a381b4]]`|
+| `dice:d20` | Valuable Finds                            |
+| ---------- | ----------------------------------------- |
+| 1          | Delicate Hourglass (50 jats )             |
+| 2          | `dice:3D20` jats                          |
+| 3          | `dice:D4` Pearls `dice:D20`jats Per Pearl |
+| 4          | Ancient Ghaln Drinking Horn (100 jats)    |
+| 5          | Ornate Cloak (100 jats)                   |
+| 6          | Shield (100 jats)                         |
+| 7          | Short Bow (120 jats)                      |
+| 8          | Long Bow (140 jats)                       |
+| 9          | `dice:[[DBS Loot Tables#^1bf632]]`        |
+| 10         | Piece of Light Armor (150 jats)           |
+| 11         | Heavy Shield (150 jats)                   |
+| 12         | Large Gemstone (200 jats)                 |
+| 13         | Gold Pendant (250 jats)                   |
+| 14         | A Two-Handed Iron Weapon. (600 jats)      |
+| 15         | A One-Handed Iron Weapon. (500 jats)      |
+| 16         | Bronze Mirror (700 jats)                  |
+| 17         | A Piece of Mail Armor (800 jats)          |
+| 18         | Ornate Helmet (800 jats)                  |
+| 19         | Tome of Herbal Tradition (200 jats)       |
+| 20         | `dice:[[DBS Loot Tables#^a381b4]]`        |
 
 ^494166
 
@@ -110,7 +110,8 @@
 | 17         | Suth Marble 500                          |
 | 18         | Darkness Well 50                         |
 | 19         | One-Handed Shalvan Wood Weapon 1,500     |
-| 20         | `dice:[[DBS Tables#^25e5a3]]`            |
+| 20         | `dice:[[DBS Loot Tables#^25e5a3]]`       |
+
 
 ^a381b4
 
@@ -141,4 +142,15 @@
 
 ^25e5a3
 
+
+| `dice:d10` | Ruins - Interesting Finds                                                                                  |
+| ---------- | ---------------------------------------------------------------------------------------------------------- |
+| 1-2        | You thought you found something valuable but you’re wrong, it’s just  rubbish                              |
+| 3          | Bones or remains, with some jewelry still on them. Roll on the Gems & Jewelry table                        |
+| 4-7        | `dice:[[DBS Loot Tables#^80c050]]]`                                                                        |
+| 8          | `dice:[[DBS Loot Tables#^494166]]]`                                                                        |
+| 9          | `dice:[[DBS Loot Tables#^a381b4]]]`                                                                        |
+| 10         | There’s a hidden passage that connects this room to another one. Add an extra door (now open) to this room |
+
+^19703a
 

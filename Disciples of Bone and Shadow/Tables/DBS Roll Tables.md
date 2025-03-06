@@ -65,6 +65,9 @@
 >##### Ruin Encounters
 >`dice:[[DBS Exploration Tables#^be082e]]`
 >
+>##### Ruins - Interesting Finds
+>`dice:[[DBS Loot Tables#^19703a]]`
+>
 >##### Ruins - Original Purpose
 >`dice:[[DBS Exploration Tables#^197210]]`
 >
