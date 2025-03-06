@@ -1522,8 +1522,12 @@ Door - An empty archway with no door
 
 ##### Room 15
 
-Viewing Crystal. A large, roughly shaped crystal stands on top of a pedestal. If touched, it will glow, revealing images of a strange place, filled with twisting spirals, skies carved in obsidian and raging oceans as black as the night sky. All characters present must pass a WIL test to avoid being enthralled by the vision, losing 1 CP
+Viewing Crystal. A large, roughly shaped crystal stands on top of a pedestal. If touched, it will glow, revealing images of a strange place, filled with twisting spirals, skies carved in obsidian and raging oceans as black as the night sky. All characters present must pass a WIL test to avoid being enthralled by the vision, gaining 1 CP
 
+Difficulty - Easy +1
+WIL Test 16 1d20[8]
+
+Passed.
 
 
 
