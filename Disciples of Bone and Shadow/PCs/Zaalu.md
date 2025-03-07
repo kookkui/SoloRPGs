@@ -11,8 +11,8 @@ CONST: 16
 WIL: 15
 INT: 14
 CHA: 12
-xp: 84
-axp: 
+xp: 94
+axp: 10
 Weapon1: Longsword
 Weapon1dmg: D8+1
 Weapon1notes: Versatile (D10)
@@ -109,6 +109,8 @@ equipped18: true
 title19: Longsword
 equipped19: true
 title20: Knife
+title21: Sabershadow Pelt (200 jats)
+checkbox21: false
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%
@@ -187,7 +189,7 @@ title20: Knife
 >>| **Forbidden Lore** | `22` |
 >>| **Herb Lore** | `37` |
 >>| **Literacy** (INT `=this.INT`) | `45` |
->>| **One-Handed Melee** (STR `=this.STR` + DEX `=this.DEX`) | `53` |
+>>| **One-Handed Melee** (STR `=this.STR` + DEX `=this.DEX`) | `54` |
 >>| **Orientation** (20) | `41` |
 >>|**Outdoor Survival** (INT `=this.INT` + DEX `=this.DEX`) | `46` |
 >>| **Parry** (STR `=this.STR` + DEX `=this.DEX`) | `49` |

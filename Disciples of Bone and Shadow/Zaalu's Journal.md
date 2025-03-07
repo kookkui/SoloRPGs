@@ -1535,6 +1535,56 @@ Passed +1  **Perception** 32
 
 ##### Room 16
 
+E. Check - Tainted Encounter!
+
+Beast: Sabershadow (Common)
+```statblock
+creature: Sabershadow
+```
 
 
+
+```encounter
+players:
+  - Zaalu
+creatures:
+  - Sabershadow, 20, 0
+```
+
+
+Combat 
+
+Sabershadow Turn
+
+**Dodge** 39 1d%[27]
+
+Defensive Move - If you so choose, you can disengage from combat without consequences. Otherwise, your next attack receives an extra +10
+
+Zaalu turn
+
+**One-Handed Melee** 63  1d%[3] CRIT
+
+Damage 8 + CRIT = 16 damage to Sabershadow
+
+Skill up check **One-Handed Melee** 53 1d%[62]
++1 to **One-Handed Melee** (54)
+
+
+Sabershadow Turn
+
+Fall back, the sabershadow begins to back away...
+
+Zaalu turn 
+
+**One-Handed Melee** 54 1d%[47]
+5 Damage to Sabershadow (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory! </span> 
++10 XP (94)
+
+**Crafting** Check 39 1d%[27]
+
+Skinned Sabershadow 
+
+<font color="#e36c09">+1 Sabershadow Pelt (200 jats)</font>
 
