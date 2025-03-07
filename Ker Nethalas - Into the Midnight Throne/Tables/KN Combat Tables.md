@@ -103,16 +103,16 @@
 |9|You manage to strike yourself with a normal attack.|
 |10|You somehow manage to hurt yourself badly with your own weapon. You receive a critical hit|
 
+|`dice:d20`|Hit Location - Player/Humaniod/Demon|
+|---|---|
+|1-3|Right Leg|
+|4-6|Left Leg|
+|7-9|Abdomen|
+|10-12|Chest|
+|13-15|Left Arm/Wing|
+|16-18|Right Arm/Wing|
+|19-20|Head|
 
-| `dice:d20` | Hit Location - Human |
-| ---------- | -------------------- |
-| 1-3        | Right Leg            |
-| 4-6        | Left Leg             |
-| 7-9        | Abdomen              |
-| 10-12      | Chest                |
-| 13-15      | Left Arm             |
-| 16-18      | Right Arm            |
-| 19-20      | Head                 |
 
 |`dice:d20`|Hit Location - Insectoid/Arachnid|
 |---|---|
@@ -125,3 +125,18 @@
 |14|Right Front Leg|
 |15|Left Front Leg|
 |16-20|Head/Cepholothroax|
+
+|`dice:d20`|Hit Location - Serpentoid|
+|---|---|
+|1-17|Body|
+|18-20|Head|
+
+|`dice:d20`|Hit Location - Quadruped|
+|---|---|
+|1-3|Right Hind Leg|
+|4-6|Left Hind Leg|
+|7-9|Hindquarters|
+|10-12|Forequarters|
+|13-15|Right Front Leg|
+|16-18|Left Front Leg|
+|19-20|Head|
