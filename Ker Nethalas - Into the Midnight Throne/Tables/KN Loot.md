@@ -444,6 +444,7 @@
 |19|Wraithspawn|
 |20|Zealot|
 
+
 ### Random Potion
 
 
@@ -466,3 +467,43 @@
 |18|Stoneskin. For the next D10 rooms you have +1 Armor, but your Dodge and Acrobatics skills are reduced by 10.|
 |19|Strength. Increase your Resilience and Athletics by +10 for the next D10 rooms.|
 |20|Vitality. Increase your max Toughness by D10. Taking more than one of these while still under its effects causes D10 damage.|
+
+
+### Random Weapon
+
+
+|`dice:d100`|Random Weapon|
+|---|---|
+|1-3|Bardiche|
+|4-6|Bastward Sword|
+|7-9|Billhook|
+|10-12|Claw|
+|13-15|Club|
+|16-18|Dagger|
+|19-21|Flail|
+|22-24|Glaive|
+|25-27|Great Axe|
+|28-30|Greatclub|
+|31-33|Great Sword|
+|34-36|Halberd|
+|37-39|Hatchet|
+|40-42|Harpoon|
+|43-45|Improvised Weapon|
+|46-48|Knuckles|
+|49-51|Light Hammer|
+|52-54|Longsword|
+|55-57|Maul|
+|58-60|Mace|
+|61-63|Morningstar|
+|64-66|Pike|
+|67-69|Pilum|
+|70-72|Quarterstaff|
+|73-75|Rapier|
+|76-78|Saber|
+|79-81|Scimitar|
+|82-84|Shiv|
+|85-87|Shortsword|
+|88-90|Spear|
+|91-93|Warhammer|
+|94-96|War Pick|
+|97-100|Magic Weapon|

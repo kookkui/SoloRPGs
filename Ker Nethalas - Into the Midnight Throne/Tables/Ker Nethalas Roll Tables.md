@@ -1,9 +1,12 @@
 > [!dice] Exploration Tables
-> ##### Exploration Events
+>##### Exploration Events
 >`dice:[[KN Exploration Tables#^dc89d9]]`
 >
 >##### Room Description
 >`dice:[[KN Exploration Tables#^3a3b68]]`
+>
+>##### Corridor Description
+>`dice:[[KN Exploration Tables#^79e00e]]`
 >
 >##### Scavenging
 >`dice:[[KN Exploration Tables#^68a7df]]`
@@ -13,25 +16,23 @@
 >
 >##### Growing Darkness
 >`dice:[[KN Exploration Tables#^4b3d51]]`
->
->##### Growing Darkness
->`dice:[[DBS Tables#^c0428d]]`
 
-> [!table] Overworld Tables
-> ##### Terrain Type
->`dice:[[DBS Tables#^84401e]]`
->
+
+> [!table] Combat Tables
 >##### Encounter Check
->`dice:[[DBS Tables#^894799]]`
+>`dice:[[KN Combat Tables#^81d782]]`
 >
->#####  Akkar Strand Hex Exploration
->`dice:[[DBS Exploration Tables#^a00248]]`
+>##### Defensive Move
+>`dice:[[KN Combat Tables#^4306af]]`
 >
->#####  Madari Hex Exploration
->`dice:[[DBS Exploration Tables#^f7274d]]`
+>##### Fumbles
+>`dice:[[KN Combat Tables#^81d782]]`
 >
->##### Travel Complications
->`dice:[[DBS Tables#^442cac]]`
+>##### Creature Defensive Move
+>`dice:[[KN Combat Tables#^c4c498]]`
+>
+>##### Creature Fumbles
+>`dice:[[KN Combat Tables#^d77833]]`
 >
 
 >[!tldr] Interior Exploration
