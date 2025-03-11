@@ -74,6 +74,8 @@
 | 65           | Unblockable: The creature's attacks deal damage straight to the PC's Health, ignoring Toughness. +50 XP.                                                                          |
 | 66           | Legendary: Roll twice on this tab e a apply both modifiers.                                                                                                                       |
 
+^0d86e6
+
 ### Defensive Move
 
 | `dice:d10` | Defensive Move                                                                                                                                                                                |
@@ -98,7 +100,7 @@
 | 1-9        | No encounter                            |
 | 10-14      | Room: Encounter; Corridor: No Encounter |
 | 15-19      | Encounter                               |
-| 20         | @Combat - Creature Modifier             |
+| 20         | `dice:[[KN Combat Tables#^0d86e6]]`     |
 
 ^81d782
 
@@ -117,7 +119,7 @@
 | 9          | You manage to strike yourself with a normal attack.                                                                                                                                                                                           |
 | 10         | You somehow manage to hurt yourself badly with your own weapon. You receive a critical hit                                                                                                                                                    |
 
-### Hit Location - Player/Humaniod/Demon
+### Hit Location - Player/Humanoid/Demon
 
 | `dice:d20` | Hit Location - Player/Humaniod/Demon |
 | ---------- | ------------------------------------ |
@@ -128,6 +130,8 @@
 | 13-15      | Left Arm/Wing                        |
 | 16-18      | Right Arm/Wing                       |
 | 19-20      | Head                                 |
+
+^7db8e8
 
 ### Hit Location - Insectoid/Arachnid
 
@@ -143,12 +147,16 @@
 | 15         | Left Front Leg                    |
 | 16-20      | Head/Cepholothroax                |
 
+^f56da0
+
 ### Hit Location - Serpentoid
 
 | `dice:d20` | Hit Location - Serpentoid |
 | ---------- | ------------------------- |
 | 1-17       | Body                      |
 | 18-20      | Head                      |
+
+^c8effa
 
 ### Hit Location - Quadruped
 
@@ -161,3 +169,6 @@
 | 13-15      | Right Front Leg          |
 | 16-18      | Left Front Leg           |
 | 19-20      | Head                     |
+
+^98e3ed
+

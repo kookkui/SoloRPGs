@@ -78,6 +78,8 @@
 | 19         | A ring with a gorgeous amethyst that grants you 2D10 temporary toughness.                                                                                                                                                                                              |
 | 20         | A sinister hourglass that, when turned over, temporarily slows time or everyone except you. All enemies lose their next D4 action                                                                                                                                      |
 
+^556c3c
+
 ### Full Suit Armor
 
 | `dice:d100` | Full Suit Armor         |
@@ -93,6 +95,8 @@
 | 81-90       | Plate Full Suit         |
 | 91-100      | Magic Armor Full Suit   |
 
+^8fa520
+
 ### Gems & Jewelry
 
 |`dice:d20`|Gems & Jewelry|
@@ -104,7 +108,9 @@
 |16-18|Sumptuous - `dice:5D100`₵|
 |19-20|Extravagant - `dice:6D100`₵|
 
-### Gloves Magic Properites
+^5fb83b
+
+### Gloves Magic Properties
 
 | `dice:d20` | Gloves Magic Properites                                                                                                                                                     |
 | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -129,23 +135,17 @@
 | 19         | Heal 1 Toughness each time you defeat an opponent                                                                                                                           |
 | 20         | Increase your max Toughness by D10                                                                                                                                          |
 
-### Greaves
+### Vambraces, Greaves & Helmets
 
 
-| `dice:d100` | Greaves        |
+| `dice:d100` | Vambraces, Greaves & Helmets|
 | ----------- | -------------- |
-| 01-33       | Light Greaves  |
-| 34-66       | Medium Greaves |
-| 67-100      | Heavy Greaves  |
+| 01-33       | Light |
+| 34-66       | Medium |
+| 67-100      | Heavy  |
 
-### Helmets
+^f5da1e
 
-
-| `dice:d100` | Helmets       |
-| ----------- | ------------- |
-| 01-33       | Light Helmet  |
-| 34-66       | Medium Helmet |
-| 67-100      | Heavy Helmet  |
 
 ### Item Rarity
 
@@ -160,8 +160,8 @@
 
 | `dice:d8` | Magic Item Generation Item Table |
 | --------- | -------------------------------- |
-| 1         | @Random Weapon                   |
-| 2         | @Random Armor                    |
+| 1         | `dice:[[KN Loot Tables#^eb9dfa]]`   |
+| 2         | `dice:[[KN Loot Tables#^68548c]]`  |
 | 3         | Belt                             |
 | 4         | Boots                            |
 | 5         | Gloves                           |
@@ -183,21 +183,25 @@
 | 41-45       | Lore book                    |
 | 46-50       | Crowbar                      |
 | 51-55       | Flare                        |
-| 56-60       | @Loot - Gems & Jewelry       |
+| 56-60       | `dice:[[KN Loot Tables#^5fb83b]]`       |
 | 61-65       | Lamp                         |
 | 66-70       | 1x Lamp Oil                  |
 | 71-75       | 1x Lockpick                  |
 | 76-80       | Pouch                        |
-| 81-85       | @Random Armor                |
+| 81-85       |  `dice:[[KN Loot Tables#^68548c]]`            |
 | 86-90       | @Random Weapon               |
 | 91-100      | `dice:D4` Ritual Ingredients |
+
+^27230a
 
 ### Precious Items
 
 | `dice:d20` | Precious Items |
 | ---------- | -------------- |
 | 1-15       | Magic item     |
-| 16-20      | @Loot - Relics |
+| 16-20      | `dice:[[KN Loot Tables#^d95ba5]]` |
+
+^fc04e6
 
 ### Relics
 
@@ -224,6 +228,8 @@
 | 19         | Relic - Voidclasp Gauntlets           |
 | 20         | Relic - Wyrmfang                      |
 
+^d95ba5
+
 ### Resources
 
 | `dice:d10` | Resources                     |
@@ -231,6 +237,8 @@
 | 1-2        | You find nothing of value     |
 | 3-6        | You find 1x Cooking Supplies  |
 | 7-10       | You find 1x Crafting Supplies |
+
+^dbb417
 
 
 ### Ring Magic Properties
@@ -281,6 +289,8 @@
 | 19         | Vial of Potency - Magic Resistance |
 | 20         | Vial of Potency - Sanity           |
 
+^697e77
+
 ### Shield
 
 | `dice:d100` | Shield        |
@@ -290,22 +300,28 @@
 | 51-75       | Full Shield   |
 | 76-100      | Wall Shield   |
 
+^d0f2ab
+
 ### Spoils
 
-| `dice:d6` | Spoils                 |
-| --------- | ---------------------- |
-| 1-3       | @Loot - mundane items  |
-| 4-5       | @Loot - valuable items |
-| 6         | @Loot - precious items |
+| `dice:d6` | Spoils                            |
+| --------- | --------------------------------- |
+| 1-3       | `dice:[[KN Loot Tables#^27230a]]` |
+| 4-5       | `dice:[[KN Loot Tables#^475186]]` |
+| 6         | `dice:[[KN Loot Tables#^fc04e6]]` |
+
+^d0b8e5
 
 ### Valuable Items
 
-| `dice:d20` | Valuable Items     |
-| ---------- | ------------------ |
-| 1-5        | @Random Potion     |
-| 6-12       | Attunement Crystal |
-| 13-16      | @Loot - Fragment   |
-| 17-20      | Magic Item         |
+| `dice:d20` | Valuable Items                    |
+| ---------- | --------------------------------- |
+| 1-5        | `dice:[[KN Loot Tables#^2f9f14]]` |
+| 6-12       | Attunement Crystal                |
+| 13-16      | `dice:[[KN Loot Tables#^556c3c]]` |
+| 17-20      | Magic Item                        |
+
+^475186
 
 ### Weapon Magic Properties
 
@@ -360,28 +376,28 @@
 
 ### Ring Magic Properites
 
-| `dice:d20` | Ring Magic Properties                                                                                                                                                       |
-| --- | --- |
-| 1          | Roll on the Damage Type table. This item grants you damage reduction based on its rarity: +1 uncommon, +2 rare, +3 epic                                                     |
-| 2          | This item grants you Magic Resistance based on its rarity: +10 uncommon, +20 rare, +30 epic                                                                                 |
-| 3          | Reroll any check once per camp rest                                                                                                                                         |
-| 4          | Increase a skill of your choosing by 10                                                                                                                                     |
-| 5          | Increase your Exhaustion Resistance by an amount based on this item’s rarity: +1 uncommon, +2 rare, +3 epic                                                                 |
-| 6          | When Taking a Breather, you don’t reduce the Tension Die                                                                                                                    |
-| 7          | Increase your maximum Sanity by 5                                                                                                                                           |
-| 8          | Reroll any failed Thievery checks while attempting to open a lock                                                                                                           |
-| 9          | Reroll any failed Thievery checks while attempting to dismantle a trap                                                                                                      |
-| 10         | Increase your maximum Health by 5                                                                                                                                           |
-| 11         | Once per rest you can heal D10 Wounds                                                                                                                                       |
-| 12         | After rolling on the Scavenging table (page 103), you can choose to increase the die roll by D4                                                                             |
-| 13         | Increase the amount of Health you recover after setting camp by D4                                                                                                          |
-| 14         | Increase the amount of Sanity you recover after setting camp by D4                                                                                                          |
-| 15         | Ignore the effects of a single Madness you’re currently affected by                                                                                                         |
-| 16         | Increase your maximum Toughness by 5                                                                                                                                        |
-| 17         | Once per encounter you can use a magic Ability without spending any Aether                                                                                                  |
-| 18         | You have Advantage on Scavenge checks                                                                                                                                       |
-| 19         | You can reroll your Growing Darkness rolls. The second roll is final                                                                                                        |
-| 20         | Ignore the effects of a fumble once per camp rest                                                                                                                           |
+| `dice:d20` | Ring Magic Properties                                                                                                   |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------- |
+| 1          | Roll on the Damage Type table. This item grants you damage reduction based on its rarity: +1 uncommon, +2 rare, +3 epic |
+| 2          | This item grants you Magic Resistance based on its rarity: +10 uncommon, +20 rare, +30 epic                             |
+| 3          | Reroll any check once per camp rest                                                                                     |
+| 4          | Increase a skill of your choosing by 10                                                                                 |
+| 5          | Increase your Exhaustion Resistance by an amount based on this item’s rarity: +1 uncommon, +2 rare, +3 epic             |
+| 6          | When Taking a Breather, you don’t reduce the Tension Die                                                                |
+| 7          | Increase your maximum Sanity by 5                                                                                       |
+| 8          | Reroll any failed Thievery checks while attempting to open a lock                                                       |
+| 9          | Reroll any failed Thievery checks while attempting to dismantle a trap                                                  |
+| 10         | Increase your maximum Health by 5                                                                                       |
+| 11         | Once per rest you can heal D10 Wounds                                                                                   |
+| 12         | After rolling on the Scavenging table (page 103), you can choose to increase the die roll by D4                         |
+| 13         | Increase the amount of Health you recover after setting camp by D4                                                      |
+| 14         | Increase the amount of Sanity you recover after setting camp by D4                                                      |
+| 15         | Ignore the effects of a single Madness you’re currently affected by                                                     |
+| 16         | Increase your maximum Toughness by 5                                                                                    |
+| 17         | Once per encounter you can use a magic Ability without spending any Aether                                              |
+| 18         | You have Advantage on Scavenge checks                                                                                   |
+| 19         | You can reroll your Growing Darkness rolls. The second roll is final                                                    |
+| 20         | Ignore the effects of a fumble once per camp rest                                                                       |
 
 
 ### Torso Armor
@@ -399,25 +415,20 @@
 |81-90|Plate Torso Armor|
 |91-100|Magic Armor Torso|
 
-### Valuable Items
-
-|`dice:d20`|Valuable Items|
-|---|---|
-|1-5|@Random Potion|
-|6-12|Attunement Crystal|
-|13-16|@Loot - Fragment|
-|17-20|Magic Item|
+^236463
 
 ### Random Armor
 
 | `dice:d20` | Random Armor |
 | ---------- | ------------ |
-| 1-2        | @Full Suit   |
-| 3-7        | @Torso       |
-| 8-12       | @Vambraces   |
-| 13-17      | @Greaves     |
-| 18         | @Helmet      |
-| 19-20      | @Shield      |
+| 1-2 | `dice:[[KN Loot Tables#^8fa520]]` |
+| 3-7 | `dice:[[KN Loot Tables#^236463]]` |
+| 8-12 | `dice:[[KN Loot Tables#^f5da1e]]` Vambraces|
+| 13-17 | `dice:[[KN Loot Tables#^f5da1e]]` Greaves |
+| 18 | `dice:[[KN Loot Tables#^f5da1e]]` Helmet |
+| 19-20 | `dice:[[KN Loot Tables#^d0f2ab]]` |
+
+^68548c
 
 ### Random Mastery
 
@@ -468,6 +479,8 @@
 |19|Strength. Increase your Resilience and Athletics by +10 for the next D10 rooms.|
 |20|Vitality. Increase your max Toughness by D10. Taking more than one of these while still under its effects causes D10 damage.|
 
+^2f9f14
+
 
 ### Random Weapon
 
@@ -507,3 +520,6 @@
 |91-93|Warhammer|
 |94-96|War Pick|
 |97-100|Magic Weapon|
+
+^eb9dfa
+

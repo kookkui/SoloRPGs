@@ -34,59 +34,72 @@
 >##### Creature Fumbles
 >`dice:[[KN Combat Tables#^d77833]]`
 >
+>##### Creature Modifier
+>`dice:[[KN Combat Tables#^0d86e6]]`
+>
 
->[!tldr] Interior Exploration
->##### Encounter Check
->`dice:[[DBS Tables#^894799]]`
+>[!tldr] Hit Location
+>##### Player/Humanoid/Demon
+>`dice:[[KN Combat Tables#^7db8e8]]`
 >
->##### Taint Check
->`dice:[[DBS Tables#^afb9a4]]`
+>##### Insectoid/Arachnid
+>`dice:[[KN Combat Tables#^f56da0]]`
 >
->##### Doors
->`dice:[[DBS Tables#^e7d45c]]`
+>##### Serpentoid
+>`dice:[[KN Combat Tables#^c8effa]]`
 >
->##### Exits
->`dice:[[DBS Tables#^432bd3]]`
+>##### Quadruped
+>`dice:[[KN Combat Tables#^98e3ed]]`
 >
->##### Traps
->`dice:[[DBS Tables#^e563c4]]`
->
->##### Artifice Type
->`dice:[[DBS Tables#^4f9f58]]`
->
->##### Artifice Effect
->`dice:[[DBS Tables#^819548]]`
->
->##### Interior Locations Special Conditions
->`dice:[[DBS Exploration Tables#^027a32]]`
-
->[!seealso] Ruins
->##### Ruin Exploration
->`dice:[[DBS Exploration Tables#^985a68]]`
->
->##### Ruin Encounters
->`dice:[[DBS Exploration Tables#^be082e]]`
->
->##### Ruins - Interesting Finds
->`dice:[[DBS Loot Tables#^19703a]]`
->
->##### Ruins - Original Purpose
->`dice:[[DBS Exploration Tables#^197210]]`
->
->##### Ruins Name Generation
->`dice:[[DBS Exploration Tables#^f3225c]]`
->
->##### Ruins - Cause of Demise
->`dice:[[DBS Exploration Tables#^8b6f8f]]`
 
 
-> [!gather] Caves
->##### Cave Exploration
->`dice:[[DBS Exploration Tables#^9d5567]]`
+>[!seealso] Loot
+>##### Spoils
+>`dice:[[KN Loot Tables#^d0b8e5]]`
 >
->##### Cave Encounters
->`dice:[[DBS Exploration Tables#^2a3c84]]`
+>##### Mundane Items
+>`dice:[[KN Loot Tables#^27230a]]`
+>
+>##### Valuable Items
+>`dice:[[KN Loot Tables#^475186]]`
+>
+>##### Precious Items
+>`dice:[[KN Loot Tables#^fc04e6]]`
+>
+>##### Resources
+>`dice:[[KN Loot Tables#^dbb417]]`
+>
+>##### Scavenged Container Loot
+>`dice:[[KN Loot Tables#^697e77]]`
+>
+>##### Fragment
+>`dice:[[KN Loot Tables#^556c3c]]`
+>
+>##### Gems & Jewelry
+>`dice:[[KN Loot Tables#^5fb83b]]`
+>
+>##### Relics
+>`dice:[[KN Loot Tables#^d95ba5]]`
 
+
+> [!gather] Magic Item Generation
+>##### Spoils
+>`dice:[[KN Loot Tables#^d0b8e5]]`
+>
+>##### Mundane Items
+>`dice:[[KN Loot Tables#^27230a]]`
+>
+>##### Valuable Items
+>`dice:[[KN Loot Tables#^475186]]`
+>
+>##### Precious Items
+>`dice:[[KN Loot Tables#^fc04e6]]`
+>
+>##### Relics
+>`dice:[[KN Loot Tables#^d95ba5]]`
+>
+>##### Scavenged Container Loot
+>`dice:[[KN Loot Tables#^697e77]]`
 
 > [!danger] Monsters
 >##### Combat - Defensive Moves
@@ -148,3 +161,11 @@
 >
 >##### Interesting or Forgotten Places You Would Find Wandering
 >`dice:[[DBS GM Emulation#^3f95ee]]`
+
+
+>##### Mundane Items
+>`dice:[[KN Loot Tables#^2f9f14]]`
+
+
+Vambraces, Greaves & 
+Helmets
