@@ -8,6 +8,9 @@
 >##### Corridor Description
 >`dice:[[KN Exploration Tables#^79e00e]]`
 >
+>##### Trap Check 
+>`dice:[[KN Exploration Tables#^c2248f]]`
+>
 >##### Scavenging
 >`dice:[[KN Exploration Tables#^68a7df]]`
 >
@@ -38,7 +41,7 @@
 >`dice:[[KN Combat Tables#^0d86e6]]`
 >
 
->[!tldr] Hit Location
+>[!bug] Hit Location
 >##### Player/Humanoid/Demon
 >`dice:[[KN Combat Tables#^7db8e8]]`
 >
@@ -51,7 +54,6 @@
 >##### Quadruped
 >`dice:[[KN Combat Tables#^98e3ed]]`
 >
-
 
 >[!seealso] Loot
 >##### Spoils
@@ -82,90 +84,35 @@
 >`dice:[[KN Loot Tables#^d95ba5]]`
 
 
-> [!gather] Magic Item Generation
->##### Spoils
->`dice:[[KN Loot Tables#^d0b8e5]]`
+> [!crafting] Magic Item Generation
+>##### Magic Item Generation Item Table
+>`dice:[[KN Loot Tables#^6e04dc]]`
 >
->##### Mundane Items
->`dice:[[KN Loot Tables#^27230a]]`
+>##### Item Rarity
+>`dice:[[KN Loot Tables#^99efd8]]`
 >
->##### Valuable Items
->`dice:[[KN Loot Tables#^475186]]`
+>##### Damage Type
+>`dice:[[KN Loot Tables#^21b8b4]]`
 >
->##### Precious Items
->`dice:[[KN Loot Tables#^fc04e6]]`
+>##### Enemy Type
+>`dice:[[KN Loot Tables#^4c1240]]`
 >
->##### Relics
->`dice:[[KN Loot Tables#^d95ba5]]`
+>##### Armor Magic Properties
+>`dice:[[KN Loot Tables#^d91f89]]`
 >
->##### Scavenged Container Loot
->`dice:[[KN Loot Tables#^697e77]]`
-
-> [!danger] Monsters
->##### Combat - Defensive Moves
->`dice:[[DBS Encounter Tables#^879efa]]`
+>##### Belt Magic Properties
+>`dice:[[KN Loot Tables#^8f1059]]`
 >
->##### Hostile Human Encounter
->`dice:[[DBS Encounter Tables#^2aea04]]`
+>##### Boots Magic Properties
+>`dice:[[KN Loot Tables#^48825c]]`
 >
->##### Random Encounter's by Category 
->`dice:[[DBS Encounter Tables#^d12cea]]`
+>##### Gloves Magic Properties
+>`dice:[[KN Loot Tables#^e49772]]`
 >
->##### Mark of Taint
->`dice:[[DBS Encounter Tables#^89024c]]`
+>##### Ring Magic Properties
+>`dice:[[KN Loot Tables#^e49772]]`
 >
-> ##### Creature Combat Actions at 50% or Less Health
->`dice:[[Threat Tables#^673c98]]`
->
-> ##### Creature Combat Actions at 25% or Less Health
->`dice:[[Threat Tables#^17c9c6]]`
+>##### Weapon Magic Properties
+>`dice:[[KN Loot Tables#^718939]]`
 
 
->[!dice] Loot
->
->##### Plants & Herbs
->`dice:[[DBS Exploration Tables#^3ec88a]]`
->
->##### Random Loot
->`dice:[[DBS Loot Tables#^bae025]]`
->
->##### Common Finds
->`dice:[[DBS Loot Tables#^80c050]]`
->
->##### Valuable Finds
->`dice:[[DBS Loot Tables#^494166]]`
->
->#####  Rare Finds
->`dice:[[DBS Loot Tables#^a381b4]]`
->
->##### Artifacts
->`dice:[[DBS Loot Tables#^25e5a3]]`
-
-
->[!NPC] GM Emulation
->
->##### GM Emulation - Actions
->`dice:[[DBS GM Emulation#^35c59e]]`
->
->##### GM Emulation - Themes
->`dice:[[DBS GM Emulation#^416b0d]]`
->
->##### GM Emulation - NPC Motivations
->`dice:[[DBS GM Emulation#^1dbade]]`
->
->##### Injury Severity
->`dice:[[DBS Tables#^dee425]]`
->
->##### Random NPCs You May Find While Traveling
->`dice:[[DBS GM Emulation#^02bb26]]`
->
->##### Interesting or Forgotten Places You Would Find Wandering
->`dice:[[DBS GM Emulation#^3f95ee]]`
-
-
->##### Mundane Items
->`dice:[[KN Loot Tables#^2f9f14]]`
-
-
-Vambraces, Greaves & 
-Helmets

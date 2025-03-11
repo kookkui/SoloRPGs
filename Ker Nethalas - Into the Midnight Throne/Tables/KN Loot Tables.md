@@ -1,6 +1,6 @@
-### Armor Magic Properites
+### Armor Magic Properties
 
-| `dice:d20` | Armor Magic Properites                                                                                                                                           |
+| `dice:d20` | Armor Magic Properties                                                                                                                                           |
 | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1-4        | Roll on the Damage Type table. This armor grants you damage reduction based on the armor’s rarity: +1 uncommon, +2 rare, +3 epic                                 |
 | 5          | This armor grants you Magic Resistance based on the armor’s rarity: +10 uncommon, +20 rare, +30 epic                                                             |
@@ -19,6 +19,8 @@
 | 18         | You’re immune to Fear                                                                                                                                            |
 | 19         | Once per camp rest you can make vines sprout out of the armor, Entangling one target                                                                             |
 | 20         | Once per Domain you can become your own shadow for D6+1 rounds. You can only be damaged by Arcane damage while in your shadow form                               |
+
+^d91f89
 
 ### Damage Type
 
@@ -40,6 +42,8 @@
 | 18-19      | Slashing    |
 | 20         | Water       |
 
+^21b8b4
+
 ### Enemy Type
 
 | `dice:d8` | Enemy Type |
@@ -52,6 +56,8 @@
 | 6         | Undead     |
 | 7         | Humanoid   |
 | 8         | Construct  |
+
+^4c1240
 
 ### Fragment
 
@@ -135,6 +141,8 @@
 | 19         | Heal 1 Toughness each time you defeat an opponent                                                                                                                           |
 | 20         | Increase your max Toughness by D10                                                                                                                                          |
 
+^e49772
+
 ### Vambraces, Greaves & Helmets
 
 
@@ -155,6 +163,8 @@
 | 6-8        | Rare: 2 Magic Properties   |
 | 9-10       | Epic: 3 Magic Properties   |
 
+^99efd8
+
 ### Magic Item Generation Item Table
 
 
@@ -168,29 +178,31 @@
 | 6         | Amulet                           |
 | 7-8       | Ring                             |
 
+^6e04dc
+
 ### Mundane Items
 
-| `dice:d100` | Mundane Items                |
+| `dice:d100` | Mundane Items                     |
 | ----------- | ---------------------------- |
-| 1-5         | `dice:D4` Crafting Supplies  |
-| 6-10        | `dice:D4` Cooking Supplies   |
-| 11-15       | Backpack                     |
-| 16-20       | 1x Bandage                   |
-| 21-25       | Bedroll                      |
-| 26-30       | Belt                         |
-| 31-35       | Belt Lamp                    |
-| 36-40       | 1x Candle                    |
-| 41-45       | Lore book                    |
-| 46-50       | Crowbar                      |
-| 51-55       | Flare                        |
-| 56-60       | `dice:[[KN Loot Tables#^5fb83b]]`       |
-| 61-65       | Lamp                         |
-| 66-70       | 1x Lamp Oil                  |
-| 71-75       | 1x Lockpick                  |
-| 76-80       | Pouch                        |
-| 81-85       |  `dice:[[KN Loot Tables#^68548c]]`            |
-| 86-90       | @Random Weapon               |
-| 91-100      | `dice:D4` Ritual Ingredients |
+| 1-5         | `dice:D4` Crafting Supplies       |
+| 6-10        | `dice:D4` Cooking Supplies        |
+| 11-15       | Backpack                          |
+| 16-20       | 1x Bandage                        |
+| 21-25       | Bedroll                           |
+| 26-30       | Belt                              |
+| 31-35       | Belt Lamp                         |
+| 36-40       | 1x Candle                         |
+| 41-45       | Lore book                         |
+| 46-50       | Crowbar                           |
+| 51-55       | Flare                             |
+| 56-60       | `dice:[[KN Loot Tables#^5fb83b]]` |
+| 61-65       | Lamp                              |
+| 66-70       | 1x Lamp Oil                       |
+| 71-75       | 1x Lockpick                       |
+| 76-80       | Pouch                             |
+| 81-85       | `dice:[[KN Loot Tables#^68548c]]` |
+| 86-90       | `dice:[[KN Loot Tables#^eb9dfa]]` |
+| 91-100      | `dice:D4` Ritual Ingredients      |
 
 ^27230a
 
@@ -274,7 +286,7 @@
 | 3          | `dice:D4` Crafting Supplies        |
 | 4          | D4 Candles                         |
 | 5          | Lore Book                          |
-| 6-7        | @Loot - Gems & Jewelry             |
+| 6-7        | `dice:[[KN Loot Tables#^5fb83b]]`            |
 | 8          | Pouch                              |
 | 9          | D4 Flares                          |
 | 10         | D10 Ritual Ingredients             |
@@ -347,6 +359,8 @@
 | 18         | You can choose to deal an extra D8 damage each time you deal damage with this weapon. If you do so, you receive the same amount of damage                                                                                                                                               |
 | 19         | When you deal damage with this weapon, gain +10 parry until your next turn                                                                                                                                                                                                              |
 | 20         | Target gains Burning each time you deal damage to them with this weapon                                                                                                                                                                                                                 |
+
+^718939
 
 
 ### Gloves Magic Properites
@@ -459,25 +473,25 @@
 ### Random Potion
 
 
-|`dice:d20`|Random Potion|
-|---|---|
-|1|Aether. You immediately recover 5 Aether.|
-|2|Antidote. Immediately removes the Poisoned condition.|
-|3|Coagulate. Immediately removes the Bleeding condition.|
-|4|Courage. Immediately removes the Frightened condition.|
-|5|Flaming. When applied to a weapon, it deals +D4 Fire damage during  rounds|
-|6|Frenzy. For the next D6 rounds you deal +2D10 damage, but you’re unable to defend in any way.|
-|7-8|Heal. You immediately heal D6+2 Wounds.|
-|9|Regeneration. Heal D10+5 Wounds, at a rate of 1 Wound/round.|
-|10|Frenzy. For the next D6 rounds you deal +2D10 damage, but you’re unable to defend in any way. Poison. When applied to a weapon, the next successful attack applies the Poisoned (1) condition.|
-|11|Purge. Immediately removes the Cursed condition.|
-|12-13|Rest. Reduce your Exhaustion by D4.|
-|14|Satiation. Counts as a ration.|
-|15|Recovery. Heal 1 Sanity.|
-|16-17|Speed. Grants 1 free Standard Action.|
-|18|Stoneskin. For the next D10 rooms you have +1 Armor, but your Dodge and Acrobatics skills are reduced by 10.|
-|19|Strength. Increase your Resilience and Athletics by +10 for the next D10 rooms.|
-|20|Vitality. Increase your max Toughness by D10. Taking more than one of these while still under its effects causes D10 damage.|
+| `dice:d20` | Random Potion                                                                                                                                                                                  |
+| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1          | Aether. You immediately recover 5 Aether.                                                                                                                                                      |
+| 2          | Antidote. Immediately removes the Poisoned condition.                                                                                                                                          |
+| 3          | Coagulate. Immediately removes the Bleeding condition.                                                                                                                                         |
+| 4          | Courage. Immediately removes the Frightened condition.                                                                                                                                         |
+| 5          | Flaming. When applied to a weapon, it deals +D4 Fire damage during  rounds                                                                                                                     |
+| 6          | Frenzy. For the next D6 rounds you deal +2D10 damage, but you’re unable to defend in any way.                                                                                                  |
+| 7-8        | Heal. You immediately heal D6+2 Wounds.                                                                                                                                                        |
+| 9          | Regeneration. Heal D10+5 Wounds, at a rate of 1 Wound/round.                                                                                                                                   |
+| 10         | Frenzy. For the next D6 rounds you deal +2D10 damage, but you’re unable to defend in any way. Poison. When applied to a weapon, the next successful attack applies the Poisoned (1) condition. |
+| 11         | Purge. Immediately removes the Cursed condition.                                                                                                                                               |
+| 12-13      | Rest. Reduce your Exhaustion by D4.                                                                                                                                                            |
+| 14         | Satiation. Counts as a ration.                                                                                                                                                                 |
+| 15         | Recovery. Heal 1 Sanity.                                                                                                                                                                       |
+| 16-17      | Speed. Grants 1 free Standard Action.                                                                                                                                                          |
+| 18         | Stoneskin. For the next D10 rooms you have +1 Armor, but your Dodge and Acrobatics skills are reduced by 10.                                                                                   |
+| 19         | Strength. Increase your Resilience and Athletics by +10 for the next D10 rooms.                                                                                                                |
+| 20         | Vitality. Increase your max Toughness by D10. Taking more than one of these while still under its effects causes D10 damage.                                                                   |
 
 ^2f9f14
 
@@ -523,3 +537,55 @@
 
 ^eb9dfa
 
+
+### Belt Magic Properites
+
+|`dice:d20`|Belt Magic Properites|
+|---|---|
+|1|Roll on the Damage Type table. This item grants you damage reduction based on its rarity: +1 uncommon, +2 rare, +3 epic|
+|2|This item grants you Magic Resistance based on its rarity: +10 uncommon, +20 rare, +30 epic|
+|3|Roll on the Damage Type table. You are Resistant to that damage type|
+|4|Increase your carrying capacity by 10|
+|5|Reroll any check once per camp rest|
+|6-8|Items stored in this belt are immune to damage caused by belt checks|
+|9|After defeating a combat encounter, roll D6: a result of 1-3 means that you immediately recover D4 Toughness|
+|10|You’re immune to Stun|
+|11|You’re immune to Fear|
+|12|Increase a skill of your choosing by 20|
+|13|Increase the amount of Health you recover after setting camp by D4|
+|14|Increase the amount of Sanity you recover after setting camp by D4|
+|15|Ignore the effects of a single Madness you’re currently affected by|
+|16|Increase your Exhaustion Resistance by an amount based on this item’s rarity: +1 uncommon, +2 rare, +3 epic|
+|17|Reroll any failed Thievery checks while attempting to open a lock|
+|18|Reroll any failed Thievery checks while attempting to dismantle a trap|
+|19|On command, this item works as a source of light|
+|20|Once per rest you can recover D10 Wounds|
+
+^8f1059
+
+### Boots Magic Properties
+
+|`dice:d20`|Boots Magic Properties|
+|---|---|
+|1|Roll on the Damage Type table. This item grants you damage reduction based on its rarity: +1 uncommon, +2 rare, +3 epic|
+|2|This item grants you Magic Resistance based on its rarity: +10 uncommon, +20 rare, +30 epic|
+|3|Reroll any check once per camp rest|
+|4|You’re immune to Stun|
+|5|You’re immune to Entangled|
+|6|Increase a skill of your choosing by 20|
+|7|Increase your Exhaustion Resistance by an amount based on this item’s rarity: +1 uncommon, +2 rare, +3 epic|
+|8|Reroll any failed Thievery checks while attempting to open a lock|
+|9|Reroll any failed Thievery checks while attempting to dismantle a trap|
+|10|You have Advantage on Acrobatics checks|
+|11|You have Advantage on Stealth checks|
+|12|Ignore the effects of a fumble once per camp rest|
+|13|Double the amount of Crafting Supplies you find|
+|14|ou have Advantage on Scavenge checks|
+|15|After rolling on the Scavenging table (page 103), you can choose to increase the die roll by D4|
+|16|Increase your legs armor by 1|
+|17|Once per room you can reroll a failed Dodge check|
+|18|Once per encounter, you can make a special kick attack that deals 3D10 Bludgeoning damage. This is a Standard Action that requires an Unarmed Combat & Fist Weapons check|
+|19|You gain a free Reaction per round|
+|20|You're immune to Paralysis|
+
+^48825c
