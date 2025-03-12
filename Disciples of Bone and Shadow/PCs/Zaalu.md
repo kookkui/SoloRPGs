@@ -173,7 +173,7 @@ checkbox21: false
 >>| **Will**         |  `=this.WIL` | 
 >>| **Intelligence** |  `=this.INT` | 
 >>| **Charisma**     | `=this.CHA` | 
->>| **Max Gear Slots**     | `=(this.STR)` | 
+>>| **Max Gear Slots**     | `=(this.STR)+10` | 
 >>---
 >>&nbsp;
 >> ### Skill Checks
