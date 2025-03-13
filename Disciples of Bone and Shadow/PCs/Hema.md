@@ -22,7 +22,12 @@ Weapon2notes:
 Weapon3: 
 Weapon3dmg: 
 Weapon3notes: 
-Armor: 2
+Armor1: Light Armor
+Armor1rate: 2
+Armor1notes: Armor (2)
+Armor2: Helmet
+Armor2rate: 1
+Armor2notes: Armor (1). -20 Perception
 currency: 110
 ajats: 
 merc: ".6"
@@ -128,7 +133,7 @@ checkbox21: false
 >>|**HP** | **Current:** `30` **Max:** `=this.CONST*3`|
 >> |**Corruption** | **Current:** `=this.CurrentCorruption` **Max:** `=this.Corruption`   |
 >> |**Taint Threshold** | `=this.CurrentCorruption*10` |
->> |**Armor** | `=this.Armor` |
+>> |**Armor** |  |
 >> |**EP**| `0` |
 >> |**XP** | `VIEW[{xp}][text]`|
 >>|**ADD XP**| `INPUT[number:axp]` `BUTTON[exp]`|
@@ -142,6 +147,17 @@ checkbox21: false
 >>| `=this.Weapon2` | `=this.Weapon2dmg` | `=this.Weapon2notes` |
 >>| `=this.Weapon3` | `=this.Weapon3dmg` | `=this.Weapon3notes` |
 >>| | | |
+>>| | | |
+>>
+>>&nbsp;
+>>
+>> ###### Armor
+>>| **Armor** | **Armor Rating** | **Notes** |
+>>| ---------------------- | --------------- | ------------- |
+>>| `=this.Armor1` | `=this.Armor1rate` | `=this.Armor1notes` |
+>>| `=this.Armor2` | `=this.Armor2rate` | `=this.Armor2notes` |
+>>| `=this.Armor3` | `=this.Armor3rate` | `=this.Armor3notes` |
+>>| **Total Armor**|(`=this.Armor1rate` + `=this.Armor2rate` + `=this.Armor3rate`)| |
 >>| | | |
 >>&nbsp;
 >>
