@@ -1,5 +1,5 @@
 ---
-Art: "![[IMG-20250312190202505.webp|600]]"
+Art: "![[Hema.webp|600]]"
 Level: 1
 CurrentCorruption: 0
 Corruption: 10
@@ -13,9 +13,9 @@ INT: 18
 CHA: 10
 xp: 0
 axp: 0
-Weapon1: Longsword
-Weapon1dmg: D8+1
-Weapon1notes: Versatile (D10)
+Weapon1: Bone Battleaxe
+Weapon1dmg: 3D6
+Weapon1notes: Parry, Two-handed
 Weapon2: 
 Weapon2dmg: 
 Weapon2notes: 
@@ -23,7 +23,7 @@ Weapon3:
 Weapon3dmg: 
 Weapon3notes: 
 Armor: 2
-currency: 150
+currency: 110
 ajats: 
 merc: ".6"
 provisions: 10
@@ -31,7 +31,7 @@ hregion: Madari
 poccupation: "**Mercenaries.** Your parents lived by the sword, killing for the best bidder and moving on when the jats dried up."
 Fevent: Your hunger for forbidden magic caused a terrible tragedy in your past, forcing you to leave your home. Maybe you injured someone accidentally with a spell, or you killed someone in order to get your hands on a grimoire; the fact is, you let your ambition get the best of you. Do you repent, or will you continue down this path?
 Sevent: You saved a group of people from certain death.
-flaws: Bad Tempered I
+flaws:
 Head: 
 Title69: 1x Healing Tincture
 Title1: Rations
@@ -40,25 +40,25 @@ Pskills1:
 Title2: Torch x 10
 Title3: Bandage x 5
 Pskills2: "Inner Compass (1 EP): You may re-roll once any failed Orientation tests."
-passive0: "**Marksmanship** You may relinquish your turn to aim with a Ranged Weapon, doubling the damage of your next attack."
-passive1: "**Foraging (Archetype Exclusive)** This character consumes half as many supplies per day, thanks to their ability to find sources of food and water in the wild."
-passive2: "**Inner Compass** You may re-roll once any failed Orientation tests."
+passive0: 
+passive1: 
+passive2: 
 archetype0: "**Vitalist.** You’ve seen the world struggling to survive, and you’ve chosen compassion. You do your best to ameliorate the pain in others through whatever means, even if the price is your own sanity."
 Title4: 10 Pale Ghar claws  (20 jats ea.)
 Title5: One-Handed Sword
 Title6: Wolf Pelt (100 jats)
 Lightitem1: false
 exampleProperty: false
-title1: ""
-title2: Light Armor
-title3: ""
-title4: ""
-title5: ""
-title6: ""
-title7: ""
-checkbox1: false
+title1: Bone Battleaxe
+title2: Bone Battleaxe
+title3: Light Armor
+title4: Rations
+title5: Lantern
+title6: Lamp Oil x5
+title7: Bandage x5
+checkbox1: true
 checkbox2: true
-checkbox3: false
+checkbox3: true
 checkbox4: false
 checkbox5: false
 checkbox7: false
@@ -83,7 +83,7 @@ Spell4cl: 4
 Spell4des: Remove the poisoned effect from one character.
 quest1: Placeholder Quest
 quest2: 
-title8: ""
+title8: "Healing Tincture x1 "
 checkbox8: false
 title9: ""
 checkbox9: false
@@ -150,9 +150,9 @@ checkbox21: false
 >>---|---|
 >>**Jats**|`=this.currency` |
 >>**Sellsword Cut**| `VIEW[{ajats} * {merc}]`
->>**Provisions**|`12` |
->>**Torches**|`8` |
->>**Lamp Oil**|`0` |
+>>**Provisions**|`10` |
+>>**Torches**|`0` |
+>>**Lamp Oil**|`5` |
 >>**Sellsword jats**|  `INPUT[number:ajats]` `BUTTON[pjats]`|
 >>
 >>&nbsp;
@@ -189,27 +189,27 @@ checkbox21: false
 >>| **Animal Handling** (CHA `=this.CHA`) | `22` |
 >>| **Command Skills** (CHA `=this.CHA`) | `10` |
 >>| **Crafting** (DEX `=this.DEX`) | `22` |
->>| **Disguise** (DEX `=this.DEX`) | `17` |
->>| **Dodge** (DEX `=this.DEX` x 2) | `44` |
->>|**First Aid** (20) | `25` |
+>>| **Disguise** (DEX `=this.DEX`) | `12` |
+>>| **Dodge** (DEX `=this.DEX` x 2) | `48` |
+>>|**First Aid** (20) | `45` |
 >>| **Forbidden Lore** | `10` |
 >>| **Herb Lore** | `30` |
->>| **Literacy** (INT `=this.INT`) | `30` |
->>| **One-Handed Melee** (STR `=this.STR` + DEX `=this.DEX`) | `10` |
+>>| **Literacy** (INT `=this.INT`) | `45` |
+>>| **One-Handed Melee** (STR `=this.STR` + DEX `=this.DEX`) | `44` |
 >>| **Orientation** (20) | `41` |
->>|**Outdoor Survival** (INT `=this.INT` + DEX `=this.DEX`) | `10` |
->>| **Parry** (STR `=this.STR` + DEX `=this.DEX`) | `20` |
->>| **Perception** (20) | `32` |
+>>|**Outdoor Survival** (INT `=this.INT` + DEX `=this.DEX`) | `40` |
+>>| **Parry** (STR `=this.STR` + DEX `=this.DEX`) | `44` |
+>>| **Perception** (20) | `35` |
 >>| **Persuasion** (CHA `=this.CHA`) | `20` |
->>| **Pick Pockets** (DEX `=this.DEX`) | `17` |
->>| **Ranged Weapons** (DEX `=this.DEX` x 2) | `44` |
->>| **Sailing** (DEX `=this.DEX`) | `17` |
->>| **Sneaking** (DEX `=this.DEX` x 2) | `20` |
->>| **Throw** (STR `=this.STR` + DEX `=this.DEX`) | `35` |
->>| **Tracking** (INT `=this.INT` ) | `29` |
->>| **Traditional Lore** (20) | `10` |
->>| **Two-Handed Melee** (STR `=this.STR` x 2) | `46` |
->>| **Unarmed** (STR `=this.STR` + DEX `=this.DEX`) | `35` |
+>>| **Pick Pockets** (DEX `=this.DEX`) | `12` |
+>>| **Ranged Weapons** (DEX `=this.DEX` x 2) | `24` |
+>>| **Sailing** (DEX `=this.DEX`) | `12` |
+>>| **Sneaking** (DEX `=this.DEX` x 2) | `40` |
+>>| **Throw** (STR `=this.STR` + DEX `=this.DEX`) | `24` |
+>>| **Tracking** (INT `=this.INT` ) | `40` |
+>>| **Traditional Lore** (20) | `30` |
+>>| **Two-Handed Melee** (STR `=this.STR` x 2) | `41` |
+>>| **Unarmed** (STR `=this.STR` + DEX `=this.DEX`) | `24` |
 >>
 >
 >>[!tldr] %%FAKE TITLE HERE%%

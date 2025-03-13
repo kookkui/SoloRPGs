@@ -115,7 +115,7 @@ checkbox21: false
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%
 >> # `=this.file.name`
->> ![[IMG-20250312190202505.webp|600]]
+>> ![[IMG-20250312225958350.webp|600]]
 >> ###### Stats
 >>|     |     |
 >> |--- | --- |
