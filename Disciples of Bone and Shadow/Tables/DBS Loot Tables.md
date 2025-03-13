@@ -1,3 +1,4 @@
+
 | `dice:d8` | Random One-Handed Weapon |
 | --------- | ------------------------ |
 | 1         | Spear (D6+1)             |
@@ -77,8 +78,8 @@
 | 11         | Heavy Shield (150 jats)                   |
 | 12         | Large Gemstone (200 jats)                 |
 | 13         | Gold Pendant (250 jats)                   |
-| 14         | A Two-Handed Iron Weapon. (600 jats)      |
-| 15         | A One-Handed Iron Weapon. (500 jats)      |
+| 14         | A Iron `dice:[[DBS Loot Tables#^d03cbd]]`. (+600 jats)      |
+| 15         | A Iron `dice:[[DBS Loot Tables#^1bf632]]`. (+500 jats)      |
 | 16         | Bronze Mirror (700 jats)                  |
 | 17         | A Piece of Mail Armor (800 jats)          |
 | 18         | Ornate Helmet (800 jats)                  |

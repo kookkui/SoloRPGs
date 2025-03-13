@@ -28,10 +28,13 @@ Tyrants are unquestionably the most feared creatures in the whole of the Fractur
 |  6  |                                      Elemental Fury: The characters must perform a WILL Test successfully or suffer from both the Burning and Chilled conditions.                                       |
 
 
+
+
+### Supplemental Weapons
 | Weapon                 | Cost | Damage | Weight (GS) | Parry? | Notes                                  |
 | ---------------------- | ---- | ------ | ----------- | ------ | -------------------------------------- |
-| Battleaxe              | 250  | 3D6    | 2           | Yes    | Two-handed                             |
-| Flail                  | 300  | D10+1  | 1           | No     | Difficult (50)                         |
+| Bone Battleaxe              | 250  | 3D6    | 2           | Yes    | Two-handed                             |
+| Fir Tree Flail                  | 300  | D10+1  | 1           | No     | Difficult (50)                         |
 | Glaive                 | 140  | D10    | 2           | Yes    | Two-handed                             |
 | Greatsword             | 200  | 2D8    | 2           | Yes    | Two-handed                             |
 | Lance                  | 120  | D8+1   | 1           | No     | Two-handed                             |
@@ -45,4 +48,6 @@ Tyrants are unquestionably the most feared creatures in the whole of the Fractur
 | Spear                  | 100  | D6+1   | 1           | No     | Versatile (D8+1)                       |
 | Quarterstaff           | 100  | D8     | 1           | Yes    | Two-handed                             |
 | Dagger                 | 100  | D4     | 1           | Yes    | +1 to Initiative, -10 Parry            |
-| One-Handed Iron Weapon | +500 |        | 2           |        | +1 damage, never breaks while parrying |
+| One-Handed Iron Weapon | +500 |        | +2           |        | +1 damage, never breaks while parrying |
+
+

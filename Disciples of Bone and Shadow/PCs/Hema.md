@@ -28,6 +28,9 @@ Armor1notes: Armor (2)
 Armor2: Helmet
 Armor2rate: 1
 Armor2notes: Armor (1). -20 Perception
+Shield: Shield
+Shieldrate: +10
+Shieldnotes: requires a free hand
 currency: 110
 ajats: 
 merc: ".6"
@@ -133,7 +136,6 @@ checkbox21: false
 >>|**HP** | **Current:** `30` **Max:** `=this.CONST*3`|
 >> |**Corruption** | **Current:** `=this.CurrentCorruption` **Max:** `=this.Corruption`   |
 >> |**Taint Threshold** | `=this.CurrentCorruption*10` |
->> |**Armor** |  |
 >> |**EP**| `0` |
 >> |**XP** | `VIEW[{xp}][text]`|
 >>|**ADD XP**| `INPUT[number:axp]` `BUTTON[exp]`|
@@ -156,9 +158,9 @@ checkbox21: false
 >>| ---------------------- | --------------- | ------------- |
 >>| `=this.Armor1` | `=this.Armor1rate` | `=this.Armor1notes` |
 >>| `=this.Armor2` | `=this.Armor2rate` | `=this.Armor2notes` |
->>| `=this.Armor3` | `=this.Armor3rate` | `=this.Armor3notes` |
->>| **Total Armor**|(`=this.Armor1rate` + `=this.Armor2rate` + `=this.Armor3rate`)| |
->>| | | |
+>>| **Total Armor**|`=(this.Armor1rate)+(this.Armor2rate)`||
+>>|**Shield** | **Parry**| **Notes**|
+>>|`=this.Shield`|`=this.Shieldrate`| `=this.Shieldnotes`|
 >>&nbsp;
 >>
 >> ###### Supplies
@@ -206,26 +208,26 @@ checkbox21: false
 >>| **Command Skills** (CHA `=this.CHA`) | `10` |
 >>| **Crafting** (DEX `=this.DEX`) | `22` |
 >>| **Disguise** (DEX `=this.DEX`) | `12` |
->>| **Dodge** (DEX `=this.DEX` x 2) | `48` |
+>>| **Dodge** (DEX `=this.DEX` x 2 ) (`=(this.DEX)*2`) | `48` |
 >>|**First Aid** (20) | `45` |
 >>| **Forbidden Lore** | `10` |
 >>| **Herb Lore** | `30` |
 >>| **Literacy** (INT `=this.INT`) | `45` |
->>| **One-Handed Melee** (STR `=this.STR` + DEX `=this.DEX`) | `44` |
+>>| **One-Handed Melee** (STR `=this.STR` + DEX `=this.DEX`) (`=(this.STR)+(this.DEX)`) | `44` |
 >>| **Orientation** (20) | `41` |
->>|**Outdoor Survival** (INT `=this.INT` + DEX `=this.DEX`) | `40` |
->>| **Parry** (STR `=this.STR` + DEX `=this.DEX`) | `44` |
+>>|**Outdoor Survival** (INT `=this.INT` + DEX `=this.DEX`) (`=(this.INT)+(this.DEX)`)| `40` |
+>>| **Parry** (STR `=this.STR` + DEX `=this.DEX`) (`=(this.STR)+(this.DEX)`) | `44` |
 >>| **Perception** (20) | `35` |
 >>| **Persuasion** (CHA `=this.CHA`) | `20` |
 >>| **Pick Pockets** (DEX `=this.DEX`) | `12` |
->>| **Ranged Weapons** (DEX `=this.DEX` x 2) | `24` |
+>>| **Ranged Weapons** (DEX `=this.DEX` x 2) (`=(this.DEX)*2`) | `24` |
 >>| **Sailing** (DEX `=this.DEX`) | `12` |
->>| **Sneaking** (DEX `=this.DEX` x 2) | `40` |
->>| **Throw** (STR `=this.STR` + DEX `=this.DEX`) | `24` |
+>>| **Sneaking** (DEX `=this.DEX` x 2 ) (`=(this.DEX)*2`) | `40` |
+>>| **Throw** (STR `=this.STR` + DEX `=this.DEX`) (`=(this.STR)+(this.DEX)`) | `24` |
 >>| **Tracking** (INT `=this.INT` ) | `40` |
 >>| **Traditional Lore** (20) | `30` |
->>| **Two-Handed Melee** (STR `=this.STR` x 2) | `41` |
->>| **Unarmed** (STR `=this.STR` + DEX `=this.DEX`) | `24` |
+>>| **Two-Handed Melee** (STR `=this.STR` x 2) (`=(this.STR)*2`) | `41` |
+>>| **Unarmed** (STR `=this.STR` + DEX `=this.DEX`) (`=(this.STR)+(this.DEX)`)| `24` |
 >>
 >
 >>[!tldr] %%FAKE TITLE HERE%%
