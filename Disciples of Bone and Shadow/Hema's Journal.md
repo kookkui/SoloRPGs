@@ -193,3 +193,25 @@ Hit! 7 Damage to vine (Dead)
 <span style="color:rgb(241, 91, 181)">Victory!</span> 
 +10 XP
 
+<span style="color:rgb(241, 91, 181)">Ornate Helmet (800 jats)</span> 
+
+
+**Perception** Check (35) 1d%[85] Failed
+
+
+West Door - A wooden door, locked. The characters will have to bash it in or pick the lock
+
+East Door - A standard wooden door braced with hardened branches. Unlocked
+
+### Room 4
+
+Encounter Check - None
+
+Artifice - **Statue**
+
+I will check out the statue
+
+Heals Condition (only once)
++4 HP
+
+

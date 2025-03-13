@@ -106,7 +106,7 @@ equipped13: false
 equipped5: true
 equipped9: true
 checkbox11: false
-title14: ""
+title14: Ornate Helmet (800 jats)
 checkbox14: false
 plant69: 
 found69: 
