@@ -5,12 +5,12 @@ CurrentCorruption: 0
 Corruption: 10
 HP: 0
 GeSl: 0
-STR: 18
-DEX: 17
-CONST: 16
-WIL: 15
-INT: 14
-CHA: 12
+STR: 12
+DEX: 12
+CONST: 10
+WIL: 18
+INT: 18
+CHA: 10
 xp: 0
 axp: 0
 Weapon1: Longsword
@@ -29,21 +29,21 @@ merc: ".6"
 provisions: 10
 hregion: Madari
 poccupation: "**Mercenaries.** Your parents lived by the sword, killing for the best bidder and moving on when the jats dried up."
-advantages: "**Extreme Concentration:** This allows you to perform extremely well under stress in any circumstance (combat, running from danger, etc.)."
-disadvantages: "**Violent:** You simply think that violence is the answer to all questions."
+Fevent: Your hunger for forbidden magic caused a terrible tragedy in your past, forcing you to leave your home. Maybe you injured someone accidentally with a spell, or you killed someone in order to get your hands on a grimoire; the fact is, you let your ambition get the best of you. Do you repent, or will you continue down this path?
+Sevent: You saved a group of people from certain death.
 flaws: Bad Tempered I
-Head: Hunter (Foraging, Marksmanship)
+Head: 
 Title69: 1x Healing Tincture
 Title1: Rations
-Pskills69: Marksmanship You may relinquish your turn to aim with a Ranged Weapon, doubling the damage of your next attack.
-Pskills1: Foraging (Archetype Exclusive) This character consumes half as many supplies per day, thanks to their ability to find sources of food and water in the wild.
+Pskills69: 
+Pskills1: 
 Title2: Torch x 10
 Title3: Bandage x 5
 Pskills2: "Inner Compass (1 EP): You may re-roll once any failed Orientation tests."
 passive0: "**Marksmanship** You may relinquish your turn to aim with a Ranged Weapon, doubling the damage of your next attack."
 passive1: "**Foraging (Archetype Exclusive)** This character consumes half as many supplies per day, thanks to their ability to find sources of food and water in the wild."
 passive2: "**Inner Compass** You may re-roll once any failed Orientation tests."
-archetype0: "**Hunter** Foraging, Marksmanship"
+archetype0: "**Vitalist.** You’ve seen the world struggling to survive, and you’ve chosen compassion. You do your best to ameliorate the pain in others through whatever means, even if the price is your own sanity."
 Title4: 10 Pale Ghar claws  (20 jats ea.)
 Title5: One-Handed Sword
 Title6: Wolf Pelt (100 jats)
@@ -64,19 +64,23 @@ checkbox5: false
 checkbox7: false
 equipped6: true
 equipped7: false
-mod0: "**Camping Gear** +20 Outdoor Survival when setting camp"
+mod0: 
 mod1: 
 mod2: 
 mod3: 
 mod4: 
-Spell1: 
-Spell1cl: 
-Spell1idio: 
-Spell1des: 
-Spell2cl: 
-Spell2idio: 
-Spell2des: 
-Spell1mem: 
+Spell1: Cauterize (2 daily uses)
+Spell1cl: "4"
+Spell1des: Heal D10+L HP from one character.
+Spell2: Shared Corruption
+Spell2cl: 6
+Spell2des: The caster may transfer into themselves D4 CP from another target.
+Spell3: Shield of Iniquity
+Spell3cl: "6"
+Spell3des: +20 Parry, Until the end of combat
+Spell4: Cleanse Poison
+Spell4cl: 4
+Spell4des: Remove the poisoned effect from one character.
 quest1: Placeholder Quest
 quest2: 
 title8: ""
@@ -96,11 +100,11 @@ equipped9: true
 checkbox11: false
 title14: ""
 checkbox14: false
-plant69: Twilight Berry
-found69: Forests
-effect69: Unknown
-combined69: Unknown
-produces69: Unknown
+plant69: 
+found69: 
+effect69: 
+combined69: 
+produces69: 
 title15: ""
 checkbox15: false
 title16: ""
@@ -121,7 +125,7 @@ checkbox21: false
 >>|     |     |
 >> |--- | --- |
 >>|   **Level**   |  `=this.level`   |
->>|**HP** | **Current:** `43` **Max:** `=this.CONST*3`|
+>>|**HP** | **Current:** `30` **Max:** `=this.CONST*3`|
 >> |**Corruption** | **Current:** `=this.CurrentCorruption` **Max:** `=this.Corruption`   |
 >> |**Taint Threshold** | `=this.CurrentCorruption*10` |
 >> |**Armor** | `=this.Armor` |
@@ -181,29 +185,29 @@ checkbox21: false
 >> ### Skill Checks
 >>| <span style="color:rgb(129, 216, 208)">Skill Name</span>|<span style="color:rgb(129, 216, 208)"> Skill Level</span> |
 >>| ------------ | ----------- |
->>| **Alchemy** | `31` |
->>| **Animal Handling** (CHA `=this.CHA`) | `12` |
->>| **Command Skills** (CHA `=this.CHA`) | `12` |
->>| **Crafting** (DEX `=this.DEX`) | `39` |
+>>| **Alchemy** | `25` |
+>>| **Animal Handling** (CHA `=this.CHA`) | `22` |
+>>| **Command Skills** (CHA `=this.CHA`) | `10` |
+>>| **Crafting** (DEX `=this.DEX`) | `22` |
 >>| **Disguise** (DEX `=this.DEX`) | `17` |
 >>| **Dodge** (DEX `=this.DEX` x 2) | `44` |
->>|**First Aid** (20) | `50` |
->>| **Forbidden Lore** | `22` |
->>| **Herb Lore** | `37` |
->>| **Literacy** (INT `=this.INT`) | `45` |
->>| **One-Handed Melee** (STR `=this.STR` + DEX `=this.DEX`) | `54` |
+>>|**First Aid** (20) | `25` |
+>>| **Forbidden Lore** | `10` |
+>>| **Herb Lore** | `30` |
+>>| **Literacy** (INT `=this.INT`) | `30` |
+>>| **One-Handed Melee** (STR `=this.STR` + DEX `=this.DEX`) | `10` |
 >>| **Orientation** (20) | `41` |
->>|**Outdoor Survival** (INT `=this.INT` + DEX `=this.DEX`) | `46` |
->>| **Parry** (STR `=this.STR` + DEX `=this.DEX`) | `49` |
+>>|**Outdoor Survival** (INT `=this.INT` + DEX `=this.DEX`) | `10` |
+>>| **Parry** (STR `=this.STR` + DEX `=this.DEX`) | `20` |
 >>| **Perception** (20) | `32` |
->>| **Persuasion** (CHA `=this.CHA`) | `12` |
+>>| **Persuasion** (CHA `=this.CHA`) | `20` |
 >>| **Pick Pockets** (DEX `=this.DEX`) | `17` |
 >>| **Ranged Weapons** (DEX `=this.DEX` x 2) | `44` |
 >>| **Sailing** (DEX `=this.DEX`) | `17` |
->>| **Sneaking** (DEX `=this.DEX` x 2) | `34` |
+>>| **Sneaking** (DEX `=this.DEX` x 2) | `20` |
 >>| **Throw** (STR `=this.STR` + DEX `=this.DEX`) | `35` |
 >>| **Tracking** (INT `=this.INT` ) | `29` |
->>| **Traditional Lore** (20) | `20` |
+>>| **Traditional Lore** (20) | `10` |
 >>| **Two-Handed Melee** (STR `=this.STR` x 2) | `46` |
 >>| **Unarmed** (STR `=this.STR` + DEX `=this.DEX`) | `35` |
 >>
@@ -308,9 +312,18 @@ checkbox21: false
 >>|**Name** | `=this.Spell1`|
 >>|**CL** |  `=this.Spell1cl`|
 >> | **Description**     | `=this.Spell1des` | 
+>> |||
 >>|**Name** | `=this.Spell2`|
 >>|**CL** |  `=this.Spell2cl`|
 >> | **Description**     | `=this.Spell2des` | 
+>> |||
+>>|**Name** | `=this.Spell3`|
+>>|**CL** |  `=this.Spell3cl`|
+>> | **Description**     | `=this.Spell3des` | 
+>> |||
+>>|**Name** | `=this.Spell4`|
+>>|**CL** |  `=this.Spell4cl`|
+>> | **Description**    | `=this.Spell4des` | 
 
 >[!important] %%FAKE TITLE HERE%%
 >>[!important] %%FAKE TITLE HERE%%
@@ -318,8 +331,8 @@ checkbox21: false
 >>|     |     |
 >> |--- | --- |
 >>| **Home Region**   |  `=this.hregion`   |
->>|**Advantages** | `=this.advantages`|
->> |**Disadvantages** |`=this.disadvantages` |
+>>|**Formative Event** | `=this.Fevent`|
+>> |**Significant Event** |`=this.Sevent` |
 >>| **Character Flaws**   |  `=this.flaws`   |
 >>| **Parents Occupation**   |  `=this.poccupation`   |
 >>
