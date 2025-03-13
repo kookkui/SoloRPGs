@@ -25,12 +25,12 @@ Weapon3notes:
 Armor1: Light Armor
 Armor1rate: 2
 Armor1notes: Armor (2)
-Armor2: Helmet
-Armor2rate: 1
-Armor2notes: Armor (1). -20 Perception
-Shield: Shield
-Shieldrate: +10
-Shieldnotes: requires a free hand
+Armor2: 
+Armor2rate: 0
+Armor2notes: 
+Shield: 
+Shieldrate: 
+Shieldnotes: 
 currency: 110
 ajats: 
 merc: ".6"
@@ -39,7 +39,7 @@ hregion: Madari
 poccupation: "**Mercenaries.** Your parents lived by the sword, killing for the best bidder and moving on when the jats dried up."
 Fevent: Your hunger for forbidden magic caused a terrible tragedy in your past, forcing you to leave your home. Maybe you injured someone accidentally with a spell, or you killed someone in order to get your hands on a grimoire; the fact is, you let your ambition get the best of you. Do you repent, or will you continue down this path?
 Sevent: You saved a group of people from certain death.
-flaws:
+flaws: 
 Head: 
 Title69: 1x Healing Tincture
 Title1: Rations
@@ -124,6 +124,11 @@ equipped19: true
 title20: ""
 title21: ""
 checkbox21: false
+Other: |-
+  - Rumor has it that the individual that is the murderer was spotted hiding out in some ruins 3 days ride from the village.
+  - 6 Hexes away
+  - Ruins
+  - Possibly The Veil Deathbinder
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%

@@ -34,20 +34,20 @@ Tyrants are unquestionably the most feared creatures in the whole of the Fractur
 | Weapon                 | Cost | Damage | Weight (GS) | Parry? | Notes                                  |
 | ---------------------- | ---- | ------ | ----------- | ------ | -------------------------------------- |
 | Bone Battleaxe              | 250  | 3D6    | 2           | Yes    | Two-handed                             |
-| Fir Tree Flail                  | 300  | D10+1  | 1           | No     | Difficult (50)                         |
+| Femur Flail                  | 300  | D10+1  | 1           | No     | Difficult (50)                         |
 | Glaive                 | 140  | D10    | 2           | Yes    | Two-handed                             |
-| Greatsword             | 200  | 2D8    | 2           | Yes    | Two-handed                             |
-| Lance                  | 120  | D8+1   | 1           | No     | Two-handed                             |
-| Longsword              | 140  | D8+1   | 1           | Yes    | Versatile (D10)                        |
+| Wooden Greatsword             | 200  | 2D8    | 2           | Yes    | Two-handed                             |
+| Whale Bone Lance                  | 120  | D8+1   | 1           | No     | Two-handed                             |
+| Bone Longsword              | 140  | D8+1   | 1           | Yes    | Versatile (D10)                        |
 | Maul                   | 300  | D10+3  | 2           | No     | Two-handed, Difficult (50)             |
 | Morningstar            | 250  | D10    | 1           | No     |                                        |
 | Scimitar               | 220  | D8+1   | 1           | Yes    | +10 Parry                              |
-| Shortsword             | 110  | D6+1   | 1           | Yes    | +10 Parry                              |
+| Quartz Shortsword             | 110  | D6+1   | 1           | Yes    | +10 Parry                              |
 | Trident                | 120  | D6+2   | 1           | No     |                                        |
 | Whip                   | 100  | D6+1   | 1           | No     | Difficult (60), Fast                   |
-| Spear                  | 100  | D6+1   | 1           | No     | Versatile (D8+1)                       |
+| Flint Tipped Spear                  | 100  | D6+1   | 1           | No     | Versatile (D8+1)                       |
 | Quarterstaff           | 100  | D8     | 1           | Yes    | Two-handed                             |
-| Dagger                 | 100  | D4     | 1           | Yes    | +1 to Initiative, -10 Parry            |
+| Obsidian Dagger                 | 100  | D4     | 1           | Yes    | +1 to Initiative, -10 Parry            |
 | One-Handed Iron Weapon | +500 |        | +2           |        | +1 damage, never breaks while parrying |
 
 

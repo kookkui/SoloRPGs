@@ -1,6 +1,6 @@
 Day 1
 
-## Settlement: Village of Cave Thorn
+## Hex 1 Settlement: Village of Cave Thorn
  - Guards patrol the street, wary of strangers
  - Council runs the Village
  - Seems there have been a string of ritual murders within the village. A reward is offered to find the culprit.
@@ -16,5 +16,7 @@ Day 1
 
 ## On the road
 
-#### Hex 1
+#### Hex 2
+
+E. Check 3
 

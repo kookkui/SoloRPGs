@@ -1,3 +1,4 @@
+### Region
 
 | `dice:D6` | Region               |
 | --------- | -------------------- |
@@ -8,6 +9,7 @@
 | 5         | Shadowstretch        |
 | 6         | Whiteteeth Mountains |
 
+### Madari Hex Exploration
 
 | `dice:D20` | Madari Hex Exploration                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -27,6 +29,7 @@
 
 ^f7274d
 
+### Madari Encounters
 
 | `dice:D100` | Madari Encounters                      |
 | ----------- | -------------------------------------- |
@@ -281,39 +284,90 @@
 
 ^f3225c
 
-|`dice:d20`|Everscar Highlands Hex Exploration|
-|---|---|
-|1-5|`dice:[[DBS Exploration Tables#^09c6f9]]`|
-|6-7|**Cave**. A half-visible trail leads the party to a seemingly natural cave. If the party decides to explore it, use the Indoor Location generation rules|
-|8-9|**Ruins**. You come across the abandoned remnants of a bygone era. If you choose to explore it use the Indoor Location generation rules|
-|10|**Canyon**. You find yourself walking through a canyon, its walls made of brittle sandy sediment. Strange plants grow from the cracks, gently swaying in the constant breeze that blows through this place, causing an eerie sound that reminds you of a wailing mother who has lost her only child|
-|11|**Pilgrimage**. You come across a group of strange individuals dressed in tunics that cover them from head to toe. Six of them carry a huge statue of a faceless man on top of an ark, surrounded by food and flower offerings. Who are these people, and where are they headed to?|
-|12|**Magic Dead Zone**. For some reason, magic of any kind has no effect in this area|
-|13|**Rock-slide**. A sudden rock-slide forces you to act fast; each character must pass a DEX test to avoid being trapped under the rubble, unharmed but forced to look for another exit|
-|14|**Waterfall**. A massive waterfall leads into a lagoon, blocking your way. If you want to get across you'll need to swim or find some other way. Pass D10 DEX tests to swim across|
-|15|**Settlement**. You stumble upon a small hidden community. Use the Settlement rules found on page 83|
-|16|**Statue**. Half-visible through a heap of rubble older than time, the head of a giant statue, several times larger than you, stares blindly at you. A single man sits in front of it, its eyes closed|
-|17|**Abandoned Campsite**. Someone has set camp here recently enough for you to take advantage of the place. You may set camp here without requiring an Outdoor Survival skill test|
-|18|**Crystal Formation**. As you advance through the difficult terrain, you come across a strange crystal formation; they seem to glow ever so slightly with a blue light. As you approach them, the hairs on your neck stand up, and you can smell a strange sharp odor in the air. Touching them causes an electric discharge that deals 2D8 damage; if you survive and hold on to it you are able to pull a large piece. You may use it as a source of light that last 24 hours or sell it for 500 jats while still glowing, or 200 if not|
-|19|**Voidstingers**. Before you realize it you are surrounded by a swarm of voidstingers. These minuscule insects burrow themselves into your eyes, granting you night vision for the next D20 hours and 1 CP, your vision flickering sometimes to a place of impossible geometry and gargantuan horrors|
-|20|**Fungi**. Covering a wall several feet tall, a mass of different colored fungi spreads like a shiny, wet blanket all over it. You may harvest D10 doses, each with a different effect; roll a D6 for each one of them: 1-2 a sensation of dread and anxiety invades you; 3-4 your nails turn black for D4 days but you feel a warmth invading your body, making you immune to cold effects; 5-6 heal D20 HP|
+### Everscar Highlands Hex Exploration
+
+| `dice:d20` | Everscar Highlands Hex Exploration                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1-5        | `dice:[[DBS Exploration Tables#^09c6f9]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| 6-7        | **Cave**. A half-visible trail leads the party to a seemingly natural cave. If the party decides to explore it, use the Indoor Location generation rules                                                                                                                                                                                                                                                                                                                                                                                   |
+| 8-9        | **Ruins**. You come across the abandoned remnants of a bygone era. If you choose to explore it use the Indoor Location generation rules                                                                                                                                                                                                                                                                                                                                                                                                    |
+| 10         | **Canyon**. You find yourself walking through a canyon, its walls made of brittle sandy sediment. Strange plants grow from the cracks, gently swaying in the constant breeze that blows through this place, causing an eerie sound that reminds you of a wailing mother who has lost her only child                                                                                                                                                                                                                                        |
+| 11         | **Pilgrimage**. You come across a group of strange individuals dressed in tunics that cover them from head to toe. Six of them carry a huge statue of a faceless man on top of an ark, surrounded by food and flower offerings. Who are these people, and where are they headed to?                                                                                                                                                                                                                                                        |
+| 12         | **Magic Dead Zone**. For some reason, magic of any kind has no effect in this area                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| 13         | **Rock-slide**. A sudden rock-slide forces you to act fast; each character must pass a DEX test to avoid being trapped under the rubble, unharmed but forced to look for another exit                                                                                                                                                                                                                                                                                                                                                      |
+| 14         | **Waterfall**. A massive waterfall leads into a lagoon, blocking your way. If you want to get across you'll need to swim or find some other way. Pass D10 DEX tests to swim across                                                                                                                                                                                                                                                                                                                                                         |
+| 15         | **Settlement**. You stumble upon a small hidden community. Use the Settlement rules found on page 83                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| 16         | **Statue**. Half-visible through a heap of rubble older than time, the head of a giant statue, several times larger than you, stares blindly at you. A single man sits in front of it, its eyes closed                                                                                                                                                                                                                                                                                                                                     |
+| 17         | **Abandoned Campsite**. Someone has set camp here recently enough for you to take advantage of the place. You may set camp here without requiring an Outdoor Survival skill test                                                                                                                                                                                                                                                                                                                                                           |
+| 18         | **Crystal Formation**. As you advance through the difficult terrain, you come across a strange crystal formation; they seem to glow ever so slightly with a blue light. As you approach them, the hairs on your neck stand up, and you can smell a strange sharp odor in the air. Touching them causes an electric discharge that deals 2D8 damage; if you survive and hold on to it you are able to pull a large piece. You may use it as a source of light that last 24 hours or sell it for 500 jats while still glowing, or 200 if not |
+| 19         | **Voidstingers**. Before you realize it you are surrounded by a swarm of voidstingers. These minuscule insects burrow themselves into your eyes, granting you night vision for the next D20 hours and 1 CP, your vision flickering sometimes to a place of impossible geometry and gargantuan horrors                                                                                                                                                                                                                                      |
+| 20         | **Fungi**. Covering a wall several feet tall, a mass of different colored fungi spreads like a shiny, wet blanket all over it. You may harvest D10 doses, each with a different effect; roll a D6 for each one of them: 1-2 a sensation of dread and anxiety invades you; 3-4 your nails turn black for D4 days but you feel a warmth invading your body, making you immune to cold effects; 5-6 heal D20 HP                                                                                                                               |
 
 ^43d943
+### Everscar Highlands Encounters
 
-|`dice:d100`|Everscar Highlands Encounters|
-|---|---|
-|1-7|Insect: Giant Mosquitoes (Vermin)|
-|8-14|Beast: Madari rats (Vermin)|
-|15-22|Insect: Night Beetles (Vermin)|
-|23-30|Beast: Fire Bats (Vermin)|
-|31-38|Insect: Centipede (Vermin)|
-|39-46|Abomination: Spawnlings of Vhol'est (Vermin)|
-|47-58|Human|
-|59-66|Beast: Sabershadow (Common)|
-|67-74|Abomination: Shadow Hound (Common)|
-|75-82|Abomination: Spawn of Vhol'est (Elite)|
-|83-90|Beast: Giant Bobcat (Elite)|
-|91-95|Abomination: Bonefiend (Elite)|
-|96-100|Abomination: Blessed One (Elite)|
+| `dice:d100` | Everscar Highlands Encounters                |
+| ----------- | -------------------------------------------- |
+| 1-7         | Insect: Giant Mosquitoes (Vermin)            |
+| 8-14        | Beast: Madari rats (Vermin)                  |
+| 15-22       | Insect: Night Beetles (Vermin)               |
+| 23-30       | Beast: Fire Bats (Vermin)                    |
+| 31-38       | Insect: Centipede (Vermin)                   |
+| 39-46       | Abomination: Spawnlings of Vhol'est (Vermin) |
+| 47-58       | Human                                        |
+| 59-66       | Beast: Sabershadow (Common)                  |
+| 67-74       | Abomination: Shadow Hound (Common)           |
+| 75-82       | Abomination: Spawn of Vhol'est (Elite)       |
+| 83-90       | Beast: Giant Bobcat (Elite)                  |
+| 91-95       | Abomination: Bonefiend (Elite)               |
+| 96-100      | Abomination: Blessed One (Elite)             |
 
 ^09c6f9
+
+
+### Random Ruins Name
+
+|`dice:D10`|Random Ruins Name 1|
+|---|---|
+|1|Abhorrent|
+|2|Cursed|
+|3|Mystical|
+|4|Ivory|
+|5|Black|
+|6|Eternal|
+|7|Forlorn|
+|8|Lost|
+|9|Rotting|
+|10|Ruined|
+
+
+|`dice:D10`|Random Ruins Name 2|
+|---|---|
+|1|Archives|
+|2|Catacombs|
+|3|Crypt|
+|4|Temple|
+|5|Fortress|
+|6|Sanctuary|
+|7|Cells|
+|8|Chambers|
+|9|Labyrinth|
+|10|Outpost|
+
+
+
+### Random Cave Name
+
+|`dice:D10`|Random Cave Name 1|
+|---|---|
+|1|Bleak|
+|2|Rugged|
+|3|Wild|
+|4|Dry|
+|5|Dreadful|
+|6|Forbidden|
+|7|Obsidian|
+|8|Deep|
+|9|Windy|
+|10|Tainted|
+
