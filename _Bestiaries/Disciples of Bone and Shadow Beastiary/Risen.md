@@ -21,7 +21,7 @@ awareness: 5
 initiative: 5
 
 traits:
-  - name: 'Special I:'
+  - name: 'Special:'
     desc: "Their attacks cause Rot (2) unless a CON test is passed. Nonstackable"
 
 stats: [12, 10, 13, 0, 0, 0]

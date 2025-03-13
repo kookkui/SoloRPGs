@@ -259,30 +259,6 @@
 ^027a32
 
 
-| `dice:d20` | Ruins Name Generation |
-| ---------- | ---------------------------- |
-| 1          | … of Death                   |
-| 2          | … of Doom                    |
-| 3          | … of Evil                    |
-| 4          | Black …                      |
-| 5          | Bloody …                     |
-| 6          | Crumbling …                  |
-| 7          | Deadly …                     |
-| 8          | Desolated …                  |
-| 9          | Destroyed …                  |
-| 10         | Forgotten …                  |
-| 11         | Haunted …                    |
-| 12         | Hellish …                    |
-| 13         | Infernal …                   |
-| 14         | Mossy …                      |
-| 15         | Mourning …                   |
-| 16         | Overgrown …                  |
-| 17         | Scarlet …                    |
-| 18         | Secret …                     |
-| 19         | Twilight …                   |
-| 20         | Unholy …                     |
-
-^f3225c
 
 ### Everscar Highlands Hex Exploration
 
@@ -340,6 +316,8 @@
 |9|Rotting|
 |10|Ruined|
 
+^8d01b2
+
 
 |`dice:D10`|Random Ruins Name 2|
 |---|---|
@@ -353,6 +331,8 @@
 |8|Chambers|
 |9|Labyrinth|
 |10|Outpost|
+
+^7fc11e
 
 
 
@@ -371,6 +351,8 @@
 |9|Windy|
 |10|Tainted|
 
+^59e10f
+
 
 
 |`dice:D10`|Random Cave Name 2|
@@ -385,3 +367,5 @@
 |8|Hideout|
 |9|Caverns|
 |10|Grotto|
+
+^fd6892

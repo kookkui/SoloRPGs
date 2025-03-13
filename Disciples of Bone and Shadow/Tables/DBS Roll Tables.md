@@ -49,9 +49,6 @@
 >##### Exits
 >`dice:[[DBS Tables#^432bd3]]`
 >
->##### Traps
->`dice:[[DBS Tables#^e563c4]]`
->
 >##### Artifice Type
 >`dice:[[DBS Tables#^4f9f58]]`
 >
@@ -60,6 +57,9 @@
 >
 >##### Interior Locations Special Conditions
 >`dice:[[DBS Exploration Tables#^027a32]]`
+>
+>##### Traps
+>`dice:[[DBS Tables#^e563c4]]`
 
 >[!seealso] Ruins
 >##### Ruin Exploration
@@ -68,17 +68,17 @@
 >##### Ruin Encounters
 >`dice:[[DBS Exploration Tables#^be082e]]`
 >
->##### Ruins - Interesting Finds
+>##### Interesting Finds
 >`dice:[[DBS Loot Tables#^19703a]]`
 >
->##### Ruins - Original Purpose
+>##### Original Purpose
 >`dice:[[DBS Exploration Tables#^197210]]`
 >
->##### Ruins Name Generation
->`dice:[[DBS Exploration Tables#^f3225c]]`
->
->##### Ruins - Cause of Demise
+>##### Cause of Demise
 >`dice:[[DBS Exploration Tables#^8b6f8f]]`
+>
+>##### Random Ruins Name
+>`dice:[[DBS Exploration Tables#^8d01b2]]` `dice:[[DBS Exploration Tables#^7fc11e]]`
 
 
 > [!gather] Caves
@@ -87,7 +87,11 @@
 >
 >##### Cave Encounters
 >`dice:[[DBS Exploration Tables#^2a3c84]]`
-
+>
+>##### Cave Name
+>`dice:[[DBS Exploration Tables#^59e10f]]` `dice:[[DBS Exploration Tables#^fd6892]]`
+>
+>
 
 > [!danger] Monsters
 >##### Combat - Defensive Moves

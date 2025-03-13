@@ -175,7 +175,7 @@ Other: |-
 >>**Sellsword Cut**| `VIEW[{ajats} * {merc}]`
 >>**Provisions**|`10` |
 >>**Torches**|`0` |
->>**Lamp Oil**|`5` |
+>>**Lamp Oil**|`4` |
 >>**Sellsword jats**|  `INPUT[number:ajats]` `BUTTON[pjats]`|
 >>
 >>&nbsp;
@@ -216,8 +216,8 @@ Other: |-
 >>| **Dodge** (DEX `=this.DEX` x 2 ) (`=(this.DEX)*2`) | `48` |
 >>|**First Aid** (20) | `45` |
 >>| **Forbidden Lore** | `10` |
->>| **Herb Lore** | `30` |
->>| **Literacy** (INT `=this.INT`) | `45` |
+>>| **Herb Lore** | `31` |
+>>| **Literacy** (INT `=this.INT`) | `46` |
 >>| **One-Handed Melee** (STR `=this.STR` + DEX `=this.DEX`) (`=(this.STR)+(this.DEX)`) | `44` |
 >>| **Orientation** (20) | `41` |
 >>|**Outdoor Survival** (INT `=this.INT` + DEX `=this.DEX`) (`=(this.INT)+(this.DEX)`)| `40` |

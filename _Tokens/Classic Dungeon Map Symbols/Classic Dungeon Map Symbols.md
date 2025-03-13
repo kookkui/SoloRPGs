@@ -98,7 +98,7 @@
 
 ![[StairSpiralSquareDown1x1.png]]
 
-![[StairSpiralSquareUp1x1.png]]
+![[IMG-20250313131110940.png]]
 
 ![[Statue1x1.png]]
 

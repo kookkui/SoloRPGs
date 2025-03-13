@@ -20,3 +20,47 @@ Day 1
 
 E. Check 3
 
+Ruins found, a Lost Fortress
+
+## Ruins: Lost Fortress
+
+Original Purpose: Fortress
+
+Cause of Demise: Abandoned due to dwindling resources
+
+<span style="color:rgb(249, 132, 74)">I light my lantern. -1 Oil Flask</span> (4)
+
+### Room 1
+
+**Library.** This room was previously some sort of library. Now piles of half- rotten tomes gather dust in every corner, collapsed shelves creating a landscape of lost knowledge. The party may spend a whole day here sifting through the books, hoping on even the slightest odds that there is something of worth. They must first pass a Literacy roll; if they do so roll a 5 : 1-2 a tome describing the terrors of an ancient civilization that worshiped the Primordial Ones. You gain +1 Forbidden Lore; 3-4 a random spell; 5-6 a treatise on local plants and herbs. +1 Herb Lore
+
+Literacy Check Difficulty - Child’s Play +30 (75) 1d%[17]
+Passed
+
+<span style="color:rgb(241, 91, 181)">+1 A treatise on local plants and herbs +1 Herb Lore</span> 
+
+Literacy Check to read the book Difficulty - Easy +10 (55) 1d%[6] 
+Success!
+
++1 Herb Lore (31)
+
+Crit Literacy Skill Up Check (45)  1d%[86] 
+Passed. +1 to Literacy (46)
+
+Door - An empty archway with no door
+
+Corridor E. Check - ENCOUNTER Undead: Risen (Common) x2
+
+```encounter
+players:
+  - Hema
+creatures:
+  - Risen (Drowned One) 1, 15, 0
+  - Risen (Drowned One) 2, 15, 0
+
+```
+
+
+Hema turn
+
+
