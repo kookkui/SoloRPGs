@@ -40,9 +40,9 @@ c84f21faeae0d53e97bb27e50584e98f830c8432: [[IMG-20250304153225159.png]]
 
 0345f4462b87eade473c68892c3f03f509921616: [[D100 - Ker Nethalas - Map Generation Deck - (OEF, 2024-01-10)_049.webp]]
 
-40a1274b9c810dec0ad18c88fa26935023c46216: [[D100 - Ker Nethalas - Map Generation Deck - (OEF, 2024-01-10)_058.webp]]
+40a1274b9c810dec0ad18c88fa26935023c46216: [[IMG-20250312184847039.webp]]
 
-c0400907bad4ee8bde7c700880e669b4468b6fb9: [[D100 - Ker Nethalas - Map Generation Deck - (OEF, 2024-01-10)_064.webp]]
+c0400907bad4ee8bde7c700880e669b4468b6fb9: [[IMG-20250312184847219.webp]]
 
 cfdf428b6694e7913a218cb90258333c3b21aece: [[D100 - Ker Nethalas - Map Generation Deck - (OEF, 2024-01-10)_033.webp]]
 

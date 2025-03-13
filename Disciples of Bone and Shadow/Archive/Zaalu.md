@@ -115,7 +115,7 @@ checkbox21: false
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%
 >> # `=this.file.name`
->> ![[Zaalu_P.webp|600]]
+>> ![[IMG-20250312190202505.webp|600]]
 >> ###### Stats
 >>|     |     |
 >> |--- | --- |
@@ -138,17 +138,6 @@ checkbox21: false
 >>| `=this.Weapon3` | `=this.Weapon3dmg` | `=this.Weapon3notes` |
 >>| | | |
 >>| | | |
->>
->>&nbsp;
->>
->> ##### Character Traits
->>|     |     |
->> |--- | --- |
->>| **Home Region**   |  `=this.hregion`   |
->>|**Advantages** | `=this.advantages`|
->> |**Disadvantages** |`=this.disadvantages` |
->>| **Character Flaws**   |  `=this.flaws`   |
->>
 >>&nbsp;
 >>
 >> ###### Supplies
@@ -160,6 +149,18 @@ checkbox21: false
 >>**Torches**|`8` |
 >>**Lamp Oil**|`0` |
 >>**Sellsword jats**|  `INPUT[number:ajats]` `BUTTON[pjats]`|
+>>
+>>&nbsp;
+>>
+>>##### Quests
+>>Description  | Milestones |
+>>---|---|
+>>`=this.quest1`|`0/6` |
+>>`=this.quest2`| |
+>>
+>>
+>>##### Notes
+>>`INPUT[textArea:Other]`
 
 
 >[!tldr] %%FAKE TITLE HERE%%
@@ -256,48 +257,48 @@ checkbox21: false
 >[!table] %%FAKE TITLE HERE%%
 >>[!table] %%FAKE TITLE HERE%%
 >> ### Inventory
->>| Slot |  |Light Item | Equipped?|
->>| :-: | :---------------- |--------|--------|
->>|1|`INPUT[text:title1]`|`INPUT[toggle:checkbox1]`|`INPUT[toggle:equipped1]`
->>|2|`INPUT[text:title2]`|`INPUT[toggle:checkbox2]`|`INPUT[toggle:equipped2]`
->>|3|`INPUT[text:title3]`|`INPUT[toggle:checkbox3]`|`INPUT[toggle:equipped3]`
->>|4|`INPUT[text:title4]`|`INPUT[toggle:checkbox4]`|`INPUT[toggle:equipped4]`
->>|5|`INPUT[text:title5]`|`INPUT[toggle:checkbox5]`|`INPUT[toggle:equipped5]`
->>|6|`INPUT[text:title6]`|`INPUT[toggle:checkbox6]`|`INPUT[toggle:equipped6]`
->>|7|`INPUT[text:title7]`|`INPUT[toggle:checkbox7]`|`INPUT[toggle:equipped7]`
->>|8|`INPUT[text:title8]`|`INPUT[toggle:checkbox8]`|`INPUT[toggle:equipped8]`
->>|9|`INPUT[text:title9]`|`INPUT[toggle:checkbox9]`|`INPUT[toggle:equipped9]`
->>|10|`INPUT[text:title10]`|`INPUT[toggle:checkbox10]`|`INPUT[toggle:equipped10]`
->>|11|`INPUT[text:title11]`|`INPUT[toggle:checkbox11]`|`INPUT[toggle:equipped11]`
->>|12|`INPUT[text:title12]`|`INPUT[toggle:checkbox12]`|`INPUT[toggle:equipped12]`
->>|13|`INPUT[text:title13]`|`INPUT[toggle:checkbox13]`|`INPUT[toggle:equipped13]`
->>|14|`INPUT[text:title14]`|`INPUT[toggle:checkbox14]`|`INPUT[toggle:equipped14]`
->>|15|`INPUT[text:title15]`|`INPUT[toggle:checkbox15]`|`INPUT[toggle:equipped15]`
->>|16|`INPUT[text:title16]`|`INPUT[toggle:checkbox16]`|`INPUT[toggle:equipped16]`
->>|17|`INPUT[text:title17]`|`INPUT[toggle:checkbox17]`|`INPUT[toggle:equipped17]`
->>|18|`INPUT[text:title18]`|`INPUT[toggle:checkbox18]`|`INPUT[toggle:equipped18]`
->>|19|`INPUT[text:title19]`|`INPUT[toggle:checkbox19]`|`INPUT[toggle:equipped19]`
->>|20|`INPUT[text:title20]`|`INPUT[toggle:checkbox20]`|`INPUT[toggle:equipped20]`
->>|21|`INPUT[text:title21]`|`INPUT[toggle:checkbox21]`|`INPUT[toggle:equipped21]`
->>|22|`INPUT[text:title22]`|`INPUT[toggle:checkbox22]`|`INPUT[toggle:equipped22]`
->>|23|`INPUT[text:title23]`|`INPUT[toggle:checkbox23]`|`INPUT[toggle:equipped23]`
->>|24|`INPUT[text:title24]`|`INPUT[toggle:checkbox24]`|`INPUT[toggle:equipped24]`
->>|25|`INPUT[text:title25]`|`INPUT[toggle:checkbox25]`|`INPUT[toggle:equipped25]`
->>|26|`INPUT[text:title26]`|`INPUT[toggle:checkbox26]`|`INPUT[toggle:equipped26]`
->>|27|`INPUT[text:title27]`|`INPUT[toggle:checkbox27]`|`INPUT[toggle:equipped27]`
->>|28|`INPUT[text:title28]`|`INPUT[toggle:checkbox28]`|`INPUT[toggle:equipped28]`
->>|29|`INPUT[text:title29]`|`INPUT[toggle:checkbox29]`|`INPUT[toggle:equipped29]`
->>|30|`INPUT[text:title30]`|`INPUT[toggle:checkbox30]`|`INPUT[toggle:equipped30]`
->>|31|`INPUT[text:title31]`|`INPUT[toggle:checkbox31]`|`INPUT[toggle:equipped31]`
->>|32|`INPUT[text:title32]`|`INPUT[toggle:checkbox32]`|`INPUT[toggle:equipped32]`
->>|33|`INPUT[text:title33]`|`INPUT[toggle:checkbox33]`|`INPUT[toggle:equipped33]`
->>|34|`INPUT[text:title34]`|`INPUT[toggle:checkbox34]`|`INPUT[toggle:equipped34]`
->>|35|`INPUT[text:title35]`|`INPUT[toggle:checkbox35]`|`INPUT[toggle:equipped35]`
->>|36|`INPUT[text:title36]`|`INPUT[toggle:checkbox36]`|`INPUT[toggle:equipped36]`
->>|37|`INPUT[text:title37]`|`INPUT[toggle:checkbox37]`|`INPUT[toggle:equipped37]`
->>|38|`INPUT[text:title38]`|`INPUT[toggle:checkbox38]`|`INPUT[toggle:equipped38]`
->>|39|`INPUT[text:title39]`|`INPUT[toggle:checkbox39]`|`INPUT[toggle:equipped39]`
->>|40|`INPUT[text:title40]`|`INPUT[toggle:checkbox40]`|`INPUT[toggle:equipped40]`
+>>| Slot | Item |Equipped? |
+>>| :-: | :----: |:----:|
+>>|1|`INPUT[text:title1]`|`INPUT[toggle:checkbox1]`|
+>>|2|`INPUT[text:title2]`|`INPUT[toggle:checkbox2]`|
+>>|3|`INPUT[text:title3]`|`INPUT[toggle:checkbox3]`|
+>>|4|`INPUT[text:title4]`|`INPUT[toggle:checkbox4]`|
+>>|5|`INPUT[text:title5]`|`INPUT[toggle:checkbox5]`|
+>>|6|`INPUT[text:title6]`|`INPUT[toggle:checkbox6]`|
+>>|7|`INPUT[text:title7]`|`INPUT[toggle:checkbox7]`|
+>>|8|`INPUT[text:title8]`|`INPUT[toggle:checkbox8]`|
+>>|9|`INPUT[text:title9]`|`INPUT[toggle:checkbox9]`|
+>>|10|`INPUT[text:title10]`|`INPUT[toggle:checkbox10]`|
+>>|11|`INPUT[text:title11]`|`INPUT[toggle:checkbox11]`|
+>>|12|`INPUT[text:title12]`|`INPUT[toggle:checkbox12]`|
+>>|13|`INPUT[text:title13]`|`INPUT[toggle:checkbox13]`|
+>>|14|`INPUT[text:title14]`|`INPUT[toggle:checkbox14]`|
+>>|15|`INPUT[text:title15]`|`INPUT[toggle:checkbox15]`|
+>>|16|`INPUT[text:title16]`|`INPUT[toggle:checkbox16]`|
+>>|17|`INPUT[text:title17]`|`INPUT[toggle:checkbox17]`|
+>>|18|`INPUT[text:title18]`|`INPUT[toggle:checkbox18]`|
+>>|19|`INPUT[text:title19]`|`INPUT[toggle:checkbox19]`|
+>>|20|`INPUT[text:title20]`|`INPUT[toggle:checkbox20]`|
+>>|21|`INPUT[text:title21]`|`INPUT[toggle:checkbox21]`|
+>>|22|`INPUT[text:title22]`|`INPUT[toggle:checkbox22]`|
+>>|23|`INPUT[text:title23]`|`INPUT[toggle:checkbox23]`|
+>>|24|`INPUT[text:title24]`|`INPUT[toggle:checkbox24]`|
+>>|25|`INPUT[text:title25]`|`INPUT[toggle:checkbox25]`|
+>>|26|`INPUT[text:title26]`|`INPUT[toggle:checkbox26]`|
+>>|27|`INPUT[text:title27]`|`INPUT[toggle:checkbox27]`|
+>>|28|`INPUT[text:title28]`|`INPUT[toggle:checkbox28]`|
+>>|29|`INPUT[text:title29]`|`INPUT[toggle:checkbox29]`|
+>>|30|`INPUT[text:title30]`|`INPUT[toggle:checkbox30]`|
+>>|31|`INPUT[text:title31]`|`INPUT[toggle:checkbox31]`|
+>>|32|`INPUT[text:title32]`|`INPUT[toggle:checkbox32]`|
+>>|33|`INPUT[text:title33]`|`INPUT[toggle:checkbox33]`|
+>>|34|`INPUT[text:title34]`|`INPUT[toggle:checkbox34]`|
+>>|35|`INPUT[text:title35]`|`INPUT[toggle:checkbox35]`|
+>>|36|`INPUT[text:title36]`|`INPUT[toggle:checkbox36]`|
+>>|37|`INPUT[text:title37]`|`INPUT[toggle:checkbox37]`|
+>>|38|`INPUT[text:title38]`|`INPUT[toggle:checkbox38]`|
+>>|39|`INPUT[text:title39]`|`INPUT[toggle:checkbox39]`|
+>>|40|`INPUT[text:title40]`|`INPUT[toggle:checkbox40]`|
 >
 >>[!table] %%FAKE TITLE HERE%%
 >>### Magic
@@ -312,14 +313,14 @@ checkbox21: false
 
 >[!important] %%FAKE TITLE HERE%%
 >>[!important] %%FAKE TITLE HERE%%
->>##### Quests
->>Description  | Milestones |
->>---|---|
->>`=this.quest1`|`2/6` |
->>`=this.quest2`| |
+>> ##### Character Traits
+>>|     |     |
+>> |--- | --- |
+>>| **Home Region**   |  `=this.hregion`   |
+>>|**Advantages** | `=this.advantages`|
+>> |**Disadvantages** |`=this.disadvantages` |
+>>| **Character Flaws**   |  `=this.flaws`   |
 >>
->>##### Notes
->>`INPUT[textArea:Other]`
 >
 >>[!hint] %%FAKE TITLE HERE%%
 >> ### Alchemy Journal

@@ -11,7 +11,7 @@ tags: [excalidraw]
 
 ## Text Elements
 ## Embedded Files
-913a467fdaaf7519127220fa6aa5df072dc16fa3: [[Zaalu_Iso_Token.png]]
+913a467fdaaf7519127220fa6aa5df072dc16fa3: [[IMG-20250312184847100.png]]
 
 %%
 ## Drawing
