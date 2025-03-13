@@ -27,6 +27,9 @@
 >#####  Madari Hex Exploration
 >`dice:[[DBS Exploration Tables#^f7274d]]`
 >
+>#####  Everscar Highlands Hex Exploration
+>`dice:[[DBS Exploration Tables#^43d943]]`
+>
 >##### Travel Complications
 >`dice:[[DBS Tables#^442cac]]`
 >
