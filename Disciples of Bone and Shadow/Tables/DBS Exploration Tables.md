@@ -371,3 +371,17 @@
 |9|Windy|
 |10|Tainted|
 
+
+
+|`dice:D10`|Random Cave Name 2|
+|---|---|
+|1|Cave|
+|2|Hollow|
+|3|Abyss|
+|4|Chasm|
+|5|Den|
+|6|Shelter|
+|7|Hole|
+|8|Hideout|
+|9|Caverns|
+|10|Grotto|
