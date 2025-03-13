@@ -63,4 +63,44 @@ creatures:
 
 Hema turn
 
+**Two-Handed Melee** (41) 1d%[20]
+Hit
+8 Damage to Risen 1 (7)
 
+Risen 1 turn
+
+**Parry** (39) 1d% [84]
+
+Hit 2 damage to Hema (28)
+
+Risen 2 turn
+
+**Parry** (39) 1d%[39] 
+Passed
+
+Defensive Move - You may attempt to disarm your opponent. If the opponent cannot be disarmed, your next attack receives an extra +10
+
+Hema turn
+
+**Two-Handed Melee** (51)  1d%[32]
+
+Hit, 10 damage to Risen 1 (Dead)
+
+Risen 2 turn 
+
+**Parry** (39) 1d%[89] 
+
+Hit, 3 damage to Hema (25)
+
+Hema turn
+
+**Two-Handed Melee** (41) 1d%[32]
+
+Hit, 15 Damage to Risen 2 (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span> 
++20 XP
+
+First Aid Check (45) 1d%[41]
+
+Success! +5 HP (30)
