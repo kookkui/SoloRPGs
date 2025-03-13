@@ -16,18 +16,19 @@ axp: 0
 Weapon1: Longsword
 Weapon1dmg: D8+1
 Weapon1notes: Versatile (D10)
-Weapon2: Greatsword
-Weapon2dmg: 2D8
-Weapon2notes: -10 to Defensive Skills
-Weapon3: Long Bow
-Weapon3dmg: D6
+Weapon2: 
+Weapon2dmg: 
+Weapon2notes: 
+Weapon3: 
+Weapon3dmg: 
 Weapon3notes: 
-Armor: 1
+Armor: 2
 currency: 150
 ajats: 
 merc: ".6"
 provisions: 10
-hregion: Akkar Strand
+hregion: Madari
+poccupation: "**Mercenaries.** Your parents lived by the sword, killing for the best bidder and moving on when the jats dried up."
 advantages: "**Extreme Concentration:** This allows you to perform extremely well under stress in any circumstance (combat, running from danger, etc.)."
 disadvantages: "**Violent:** You simply think that violence is the answer to all questions."
 flaws: Bad Tempered I
@@ -49,14 +50,14 @@ Title6: Wolf Pelt (100 jats)
 Lightitem1: false
 exampleProperty: false
 title1: ""
-title2: ""
+title2: Light Armor
 title3: ""
 title4: ""
 title5: ""
 title6: ""
 title7: ""
 checkbox1: false
-checkbox2: false
+checkbox2: true
 checkbox3: false
 checkbox4: false
 checkbox5: false
@@ -320,6 +321,7 @@ checkbox21: false
 >>|**Advantages** | `=this.advantages`|
 >> |**Disadvantages** |`=this.disadvantages` |
 >>| **Character Flaws**   |  `=this.flaws`   |
+>>| **Parents Occupation**   |  `=this.poccupation`   |
 >>
 >
 >>[!hint] %%FAKE TITLE HERE%%
