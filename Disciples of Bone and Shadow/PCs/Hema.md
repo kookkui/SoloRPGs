@@ -11,8 +11,8 @@ CONST: 10
 WIL: 18
 INT: 18
 CHA: 10
-xp: 22
-axp: 22
+xp: 32
+axp: 10
 Weapon1: Bone Battleaxe
 Weapon1dmg: 3D6
 Weapon1notes: Parry, Two-handed
@@ -31,7 +31,7 @@ Armor2notes:
 Shield: 
 Shieldrate: 
 Shieldnotes: 
-currency: 110
+currency: 90
 ajats: 
 merc: ".6"
 provisions: 10
@@ -62,8 +62,8 @@ title2: Bone Battleaxe
 title3: Light Armor
 title4: Rations
 title5: Lantern
-title6: Lamp Oil x5
-title7: Bandage x5
+title6: Lamp Oil x10
+title7: Bandage x10
 checkbox1: true
 checkbox2: true
 checkbox3: true
@@ -72,8 +72,8 @@ checkbox5: false
 checkbox7: false
 equipped6: true
 equipped7: false
-mod0: 
-mod1: 
+mod0: "**Camping Gear** +20 Outdoor Survival when setting camp"
+mod1: "**Portable Alchemy Kit** Can be used in the field, -10 Alchemy"
 mod2: 
 mod3: 
 mod4: 
@@ -93,14 +93,14 @@ quest1: Placeholder Quest
 quest2: 
 title8: "Healing Tincture x1 "
 checkbox8: false
-title9: ""
+title9: Camping gear
 checkbox9: false
-title10: ""
+title10: Camping gear
 equipped10: true
-title11: ""
+title11: Portable Alchemy
 equipped11: false
-title12: ""
-title13: ""
+title12: Portable Alchemy
+title13: Portable Alchemy
 equipped12: false
 equipped13: false
 equipped5: true
@@ -223,7 +223,7 @@ Other: |-
 >>|**Outdoor Survival** (INT `=this.INT` + DEX `=this.DEX`) (`=(this.INT)+(this.DEX)`)| `40` |
 >>| **Parry** (STR `=this.STR` + DEX `=this.DEX`) (`=(this.STR)+(this.DEX)`) | `44` |
 >>| **Perception** (20) | `35` |
->>| **Persuasion** (CHA `=this.CHA`) | `20` |
+>>| **Persuasion** (CHA `=this.CHA`) | `21` |
 >>| **Pick Pockets** (DEX `=this.DEX`) | `12` |
 >>| **Ranged Weapons** (DEX `=this.DEX` x 2) (`=(this.DEX)*2`) | `24` |
 >>| **Sailing** (DEX `=this.DEX`) | `12` |

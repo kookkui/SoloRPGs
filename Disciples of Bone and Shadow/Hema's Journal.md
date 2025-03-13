@@ -104,3 +104,92 @@ Hit, 15 Damage to Risen 2 (Dead)
 First Aid Check (45) 1d%[41]
 
 Success! +5 HP (30)
+
+<span style="color:rgb(152, 255, 152)">A Iron Trident (D6+2). (+600 jats)</span> 
+
+Door - A portcullis is in your way, but luckily there's a level on this side of the room. Perform a STR or Lockpicking test in order to activate it
+
+Difficulty - Normal 0 STR Test 12 1d20[8]
+
+Success the door falls to the ground with a loud thud.
+
+### Room 2
+
+Encounter Check - None
+
+You’ve found a **Wandering Merchant.**
+
+Difficulty - Normal 0
+**Persuasion** (35)  1d%[7] Critical Success!
+
+Skill up check (35) 1d%[59]
+Passed +1 **Persuasion** (36)
+
+I was able to talk the merchant into buying my goods for 150% normal market prices. And I am able to buy for 50% off. 
+
+Selling
+A Iron Trident (D6+3). 1,080 jats
+
+Buying 
+- Camping gear 200 jats
+- Oil Flasks x5 50 jats
+- Bandages x5 50 jats
+- Portable Alchemy Kit 800 jats
+
+Total jats left over - 90 jats
+
+Door - A standard wooden door braced with hardened branches. Unlocked
+
+### Room 3
+
+Encounter Check - None
+
+Common - Predatory Vine (Plant) 
+
+```statblock
+creature: Predatory Vine
+```
+
+
+```encounter
+creatures:
+  - Predatory Vine, 15, 0
+```
+
+
+Combat start
+
+Hema Turn
+
+**Two-Handed Melee** (41) 1d%[17]
+
+Hit!  10 Damage to the Vine (6)
+
+  
+Predatory Vine Turn
+
+**Parry** 34 1d%[80] 
+
+Hit, 4 Damage to Hema (26)
+
+Hema Turn
+
+**Two-Handed Melee** (41)  1d%[81] 
+Miss
+
+Predatory Vine Turn
+
+**Parry** 34 1d%[16]
+
+Miss
+
+Defensive Move - Your next attack receives an extra +10
+
+
+Hema Turn **Two-Handed Melee** (51)  1d%[35]
+
+Hit! 7 Damage to vine (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span> 
++10 XP
+
