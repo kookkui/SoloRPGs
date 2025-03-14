@@ -11,7 +11,7 @@ CONST: 10
 WIL: 18
 INT: 18
 CHA: 10
-xp: 61
+xp: 65
 axp: 
 Weapon1: Bone Battleaxe
 Weapon1dmg: 3D6

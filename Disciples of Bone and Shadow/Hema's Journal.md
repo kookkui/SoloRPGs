@@ -295,4 +295,36 @@ Battle Start
 
 Hema Turn
 
-**Two-Handed Melee** (41) 
+**Two-Handed Melee** (41) 1d%[38]
+
+Hit, 15 damage to Night Beetles 1 (Dead)
+
+Night Beetles 2
+
+**Parry** 39 1d%[56] 
+Failed. 
+
+2 Damage - 2 Armor = 0 Damage
+
+
+Hema Turn
+
+**Two-Handed Melee** (41) 1d%[18]
+
+Hit, 10 Damage to Night Beetles 2 (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span> 
++4 XP
+
+### Return to Room 4
+
+North Door - An empty archway with no door
+
+
+### Room 7
+
+Tainted Encounter!
+
+Beast: Pale Ghar (Common)
+**erserk:** Upon reaching 25% remaining health points (rounding up), they deal +5 extra damage per attack, but receive a -5 to their DEF.
+
