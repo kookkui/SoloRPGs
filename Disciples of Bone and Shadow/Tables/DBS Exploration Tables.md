@@ -113,27 +113,31 @@
 
 ^9d5567
 
-| `dice:D100` | Cave Encounters                        |
-| ----------- | -------------------------------------- |
-| 1-5         | Insect: Giant Mosquitoes (Vermin)      |
-| 6-10        | Beast: Madari rats (Vermin)            |
-| 11-15       | Insect: Night Beetles (Vermin)         |
-| 16-20       | Insect: Centipede (Vermin)             |
-| 21-25       | Beast: Tundra Rats (Vermin)            |
-| 26-32       | Beast: Fire Bats (Vermin)              |
-| 33-40       | Beast:Wolf (Common)                    |
-| 41-45       | Beast: Crawler (Common)                |
-| 46-50       | Beast: Pale Ghar (Common)              |
-| 51-55       | Undead: Risen (Common)                 |
-| 56-60       | Beast: Sabershadow (Common)            |
-| 61-65       | Human                                  |
-| 66-70       | Abomination: Spawn of Vhol'est (Elite) |
-| 71-75       | Beast: Giant Snake (Elite)             |
-| 76-80       | Beast: Giant Spider (Elite)            |
-| 81-85       | Abomination: Crog (Elite)              |
-| 86-90       | Beast: Glacial Bear (Elite)            |
-| 91-95       | Abomination: Crystal Ghoul (Elite)     |
-| 96-100      | Beast: White Stalker (Elite)           |
+### Cave Encounters
+
+|`dice:d20`|Cave Encounters|
+|---|---|
+|1|Insect: Giant Mosquitoes (Vermin)|
+|2|Beast: Madari rats (Vermin)|
+|3|Insect: Centipede (Vermin)|
+|4|Beast: Tundra Rats (Vermin)|
+|5|Humanoid: Cave Dweller (Common)|
+|6|Beast:Wolf (Common)|
+|7|Beast: Crawler (Common)|
+|8|Beast: Pale Ghar (Common)|
+|9|Undead: Risen (Common)|
+|10|Beast: Sabershadow (Common)|
+|11|Abomination: Grey Ooze (Common)|
+|12|Undead: Skeleton  (Common)|
+|13|Human|
+|14|Abomination: Spawn of Vhol'est (Elite)|
+|15|Beast: Giant Snake (Elite)|
+|16|Beast: Giant Spider (Elite)|
+|17|Abomination: Crog (Elite)|
+|18|Beast: Glacial Bear (Elite)|
+|19|Abomination: Crystal Ghoul (Elite)|
+|20|Beast: White Stalker (Elite)|
+
 
 ^2a3c84
 
@@ -201,15 +205,16 @@
 
 ^8b6f8f
 
+### Ruin Encounters
 
 |`dice:d20`|Ruin Encounters|
 |---|---|
 |1|Insect: Giant Mosquitoes (Vermin)|
 |2|Beast: Madari rats (Vermin)|
-|3|Insect: Night Beetles (Vermin)|
+|3|Beast: Fire Bats (Vermin)|
 |4|Insect: Centipede (Vermin)|
-|5|Beast: Tundra Rats (Vermin)|
-|6|Beast: Fire Bats (Vermin)|
+|5|Beast: Wolf (Common)|
+|6|Abomination: Grey Ooze (Common)|
 |7|Beast: Sabershadow (Common)|
 |8|Beast: Crawler (Common)|
 |9|Beast: Pale Ghar (Common)|
@@ -226,6 +231,11 @@
 |20|Abomination: Demon (Elite)|
 
 ^be082e
+
+
+### Ruin Exploration
+
+
 
 | `dice:d20` | Ruin Exploration                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
