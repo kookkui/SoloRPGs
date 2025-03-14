@@ -326,5 +326,5 @@ North Door - An empty archway with no door
 Tainted Encounter!
 
 Beast: Pale Ghar (Common)
-**erserk:** Upon reaching 25% remaining health points (rounding up), they deal +5 extra damage per attack, but receive a -5 to their DEF.
+**Berserk:** Upon reaching 25% remaining health points (rounding up), they deal +5 extra damage per attack, but receive a -5 to their DEF.
 

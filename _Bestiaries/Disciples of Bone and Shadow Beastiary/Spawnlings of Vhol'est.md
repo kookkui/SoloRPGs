@@ -16,7 +16,7 @@ OFF: TL5
 
 damage: "2+TL2"
 
-type: "Abomination (Vermin)"
+type: "Abomination (Elite)"
 
 loot: "No Loot"
 

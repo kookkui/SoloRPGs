@@ -1,10 +1,10 @@
 ```statblock
 
-name: "Cannibal (Common)"
+name: "Cannibal"
 
 layout: DBS 
 
-type: "Humanoid"
+type: "Humanoid (Common)"
 
 loot: "Common loot."
 

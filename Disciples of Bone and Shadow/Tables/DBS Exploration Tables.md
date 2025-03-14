@@ -202,28 +202,30 @@
 ^8b6f8f
 
 
-| `dice:d100`   | Ruin Encounters                    |
-| ------ | ---------------------------------- |
-| 1-5    | Insect: Giant Mosquitoes (Vermin)  |
-| 6-10   | Beast: Madari rats (Vermin)        |
-| 11-15  | Insect: Night Beetles (Vermin)     |
-| 16-20  | Insect: Centipede (Vermin)         |
-| 21-25  | Beast: Tundra Rats (Vermin)        |
-| 26-32  | Beast: Fire Bats (Vermin)          |
-| 33-40  | Beast: Sabershadow (Common)        |
-| 41-45  | Beast: Crawler (Common)            |
-| 46-50  | Beast: Pale Ghar (Common)          |
-| 51-60  | Undead: Risen (Common)             |
-| 61-70  | Human                              |
-| 71-75  | Beast: Giant Snake (Elite)         |
-| 76-80  | Beast: Giant Spider (Elite)        |
-| 81-85  | Abomination: Crog (Elite)          |
-| 86-90  | Humanoid: White Hag (Elite)        |
-| 91-95  | Abomination: Crystal Ghoul (Elite) |
-| 96-100 | Beast: White Stalker (Elite)       |
+|`dice:d20`|Ruin Encounters|
+|---|---|
+|1|Insect: Giant Mosquitoes (Vermin)|
+|2|Beast: Madari rats (Vermin)|
+|3|Insect: Night Beetles (Vermin)|
+|4|Insect: Centipede (Vermin)|
+|5|Beast: Tundra Rats (Vermin)|
+|6|Beast: Fire Bats (Vermin)|
+|7|Beast: Sabershadow (Common)|
+|8|Beast: Crawler (Common)|
+|9|Beast: Pale Ghar (Common)|
+|10|Undead: Risen (Common)|
+|11|Undead: Skeleton  (Common)|
+|12|Undead: Ghast  (Common)|
+|13|Human|
+|14|Beast: Giant Snake (Elite)|
+|15|Beast: Giant Spider (Elite)|
+|16|Abomination: Crog (Elite)|
+|17|Humanoid: White Hag (Elite)|
+|18|Abomination: Crystal Ghoul (Elite)|
+|19|Beast: White Stalker (Elite)|
+|20|Abomination: Demon (Elite)|
 
 ^be082e
-
 
 | `dice:d20` | Ruin Exploration                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

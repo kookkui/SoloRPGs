@@ -4,11 +4,11 @@ name: "Demon (DBS)"
 
 layout: DBS 
 
-hp: "20+TL2D10"
+hp: "20+TL15"
 
-awareness: 10
+awareness: 15
 
-initiative: 14
+initiative: 19
 
 DEF: TL10
 
