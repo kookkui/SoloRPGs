@@ -325,6 +325,68 @@ North Door - An empty archway with no door
 
 Tainted Encounter!
 
-Beast: Pale Ghar (Common)
+Abomination: Grey Ooze (Common)
 **Berserk:** Upon reaching 25% remaining health points (rounding up), they deal +5 extra damage per attack, but receive a -5 to their DEF.
+
+
+```statblock
+creature: Grey Ooze (DBS)
+```
+
+
+```encounter
+creatures:
+  - Grey Ooze (DBS) , 20, 5 
+```
+
+
+Combat Start
+
+Hema Turn
+
+**Two-Handed Melee** (36) 1d%[74]
+
+Miss.
+
+Grey Ooze Turn
+
+**Parry** (39) 1d%[29]
+
+Defensive Move - If you so choose, you can disengage from combat without consequences. Otherwise, your next attack receives an extra +10
+
+Hema Turn 
+
+**Two-Handed Melee** (46) 1d%[28]
+
+Hit, 13 Damage to Ooze (7)
+
+Grey Ooze Turn
+
+**Parry** (39) 1d%[79]
+
+Hit, 2 Damage to Hema (28)
+
+DEX Test to avoid engulf (12) 1d20[4]
+
+Passed, Hema rolls out of the way of the ooze.
+
+Hema Turn 
+
+**Two-Handed Melee** (36) 1d% [2] CRIT
+
+Crit Skill up check 1d%[55] +1 **Two-Handed Melee** (42)
+
+HIT, 14 x Crit = 28 Damage to Grey Ooze (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span> 
++35 XP
+
+<span style="color:rgb(241, 91, 181)">Tome of Herbal Tradition (200 jats)</span> 
+
++5 to Herb Lore (36)
+
+Herb Lore Check (36) 1d%[24] 
+Passed.
+
+<span style="color:rgb(155, 93, 229)">Crypt Tears x 5</span> 
 

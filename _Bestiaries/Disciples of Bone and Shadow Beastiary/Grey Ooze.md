@@ -26,7 +26,7 @@ number: 1
 
 traits:
   - name: 'Special:'
-    desc: "Engulf: Every other attack the gray ooze attempts to completely cover its target. The victim must pass a DEX test to avoid becoming engulfed. The engulfed target begins to drown and suffers D6 acid damage/round. The victim can perform a STR test on each of their turns to free themself."
+    desc: "Engulf: For every successful attack the gray ooze attempts to completely cover its target. The victim must pass a DEX test to avoid becoming engulfed. The engulfed target begins to drown and suffers D6 acid damage/round. The victim can perform a STR test on each of their turns to free themself."
 
 description: "An amorphous mass of animated hunger and never ending appetite for destruction."
 

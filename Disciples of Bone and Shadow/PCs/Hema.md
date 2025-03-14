@@ -11,8 +11,8 @@ CONST: 10
 WIL: 18
 INT: 18
 CHA: 10
-xp: 65
-axp: 
+xp: 100
+axp: 35
 Weapon1: Bone Battleaxe
 Weapon1dmg: 3D6
 Weapon1notes: Parry, Two-handed
@@ -108,12 +108,12 @@ equipped9: true
 checkbox11: false
 title14: Ornate Helmet (800 jats)
 checkbox14: false
-plant69: 
-found69: 
-effect69: 
-combined69: 
-produces69: 
-title15: ""
+plant69: Crypt Tears
+found69: Ruins and Caves
+effect69: NA
+combined69: NA
+produces69: NA
+title15: Crypt Tears x 5
 checkbox15: false
 title16: ""
 title17: ""
@@ -217,7 +217,7 @@ Other: |-
 >>| **Dodge** (DEX `=this.DEX` x 2 ) (`=(this.DEX)*2`) | `48` |
 >>|**First Aid** (20) | `45` |
 >>| **Forbidden Lore** | `10` |
->>| **Herb Lore** | `31` |
+>>| **Herb Lore** | `36` |
 >>| **Literacy** (INT `=this.INT`) | `46` |
 >>| **One-Handed Melee** (STR `=this.STR` + DEX `=this.DEX`) (`=(this.STR)+(this.DEX)`) | `44` |
 >>| **Orientation** (20) | `41` |
@@ -232,7 +232,7 @@ Other: |-
 >>| **Throw** (STR `=this.STR` + DEX `=this.DEX`) (`=(this.STR)+(this.DEX)`) | `24` |
 >>| **Tracking** (INT `=this.INT` ) | `40` |
 >>| **Traditional Lore** (20) | `30` |
->>| **Two-Handed Melee** (STR `=this.STR` x 2) (`=(this.STR)*2`) | `41` |
+>>| **Two-Handed Melee** (STR `=this.STR` x 2) (`=(this.STR)*2`) | `42` |
 >>| **Unarmed** (STR `=this.STR` + DEX `=this.DEX`) (`=(this.STR)+(this.DEX)`)| `24` |
 >>
 >
