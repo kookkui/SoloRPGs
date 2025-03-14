@@ -2,19 +2,19 @@
 name: Fire Bats
 layout: DBS
 type: Beast (Vermin)
-loot: No Loot
+loot: "No Loot Morale test: -1"
 DEF: 0
-OFF: TL10
-damage: D6+TL1
-hp: 15+TL10
-awareness: 18
-initiative: 18
-number: D4+TL1
+OFF: 0
+damage: 1+TL1
+hp: 1+TL1
+awareness: 10
+initiative: 12
+stats: [1, 22, 2, 10, 2, 0]
+number: "`dice:D4`+TL1"
 
 traits:
-- Special I: May inflict Rot (1) on a roll of 1 in a D20 each time they successfully damage a character.
-- Armor Penetration (1): Their bite has a chance to ignore armor, dealing additional damage.
+- Special: "If wounds caused by Fire Bats are not fully healed during the following 24 hours, the character will lose that same amount of max health, permanently"
 
-description: These flying nightmares have a very painful bite that can easily become infected if not tended to immediately. They are unfortunately common sights in most caves and ruins.
+description: "An unfortunately common sight in most caves and ruins, these flying nightmares have a very painful bite that can easily become infected if not tended to immediately."
 ```
 

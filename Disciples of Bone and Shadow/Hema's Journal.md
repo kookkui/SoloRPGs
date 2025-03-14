@@ -214,4 +214,85 @@ I will check out the statue
 Heals Condition (only once)
 +4 HP
 
+Door - An empty archway with no door
 
+
+### Room 5
+
+Encounter Check - None
+
+**Alchemy Lab.** This room is filled with bottles, pipettes, and other tools that an alchemist would need. Everything here is covered in a thick layer of dust, but you find some notes that grant you +1 Alchemy if you spend a few hours studying them
+
+Study the lab for a few hours...
++1 Alchemy (26)
+
+Encounter check for lingering  Encounter Check - None
+
+Door - A wooden door, locked. The characters will have to bash it in or pick the lock
+
+Difficulty - Normal 0 
+
+Strength check to break door (12) 1d20[11]
+
+Passed, door falls to the ground
+
+### Room 6
+
+Tainted Encounter!
+
+Beast: Fire Bats (Vermin) x2
+**Transfixing Stare:** The characters may not run away from this creature.
++25 XP
+
+```statblock
+creature: Fire Bats
+```
+
+
+```encounter
+creatures:
+  - fire bats 1, 2, 0
+  - Fire Bats 2, 2, 0
+```
+
+
+Battle Begin
+
+Hema Turn
+
+**One-Handed Melee** (44) 1d%[12]
+
+Hit. 17 Damage to Fire Bat 1 (Dead)
+
+Fire Bat 2 Turn
+
+Morale Check (10) 13 Failed
+
+Fire Bat 2 flees
+
+<span style="color:rgb(241, 91, 181)">Victory!</span> 
++29 XP
+
+Back tracking to room 4 
+
+Encounter Check - None
+
+Second Encounter check
+Insect: Night Beetles (Vermin)
+
+```statblock
+creature: Night Beetles
+```
+
+
+```encounter
+creatures:
+  - Night Beetle 1, 3, 0
+  - Night Beetles 2, 3, 0
+```
+
+Battle Start
+
+Hema Turn
+
+**Two-Handed Melee** (41) 

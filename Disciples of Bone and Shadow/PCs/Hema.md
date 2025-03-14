@@ -11,8 +11,8 @@ CONST: 10
 WIL: 18
 INT: 18
 CHA: 10
-xp: 32
-axp: 10
+xp: 61
+axp: 
 Weapon1: Bone Battleaxe
 Weapon1dmg: 3D6
 Weapon1notes: Parry, Two-handed
@@ -143,6 +143,7 @@ Other: |-
 >> |**Taint Threshold** | `=this.CurrentCorruption*10` |
 >> |**EP**| `0` |
 >> |**XP** | `VIEW[{xp}][text]`|
+>> |**XP Needed** | `=150-(this.xp)`|
 >>|**ADD XP**| `INPUT[number:axp]` `BUTTON[exp]`|
 >>
 >>&nbsp;
@@ -208,7 +209,7 @@ Other: |-
 >> ### Skill Checks
 >>| <span style="color:rgb(129, 216, 208)">Skill Name</span>|<span style="color:rgb(129, 216, 208)"> Skill Level</span> |
 >>| ------------ | ----------- |
->>| **Alchemy** | `25` |
+>>| **Alchemy** | `26` |
 >>| **Animal Handling** (CHA `=this.CHA`) | `22` |
 >>| **Command Skills** (CHA `=this.CHA`) | `10` |
 >>| **Crafting** (DEX `=this.DEX`) | `22` |
