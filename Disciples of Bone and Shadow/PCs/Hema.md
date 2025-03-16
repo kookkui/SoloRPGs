@@ -12,13 +12,13 @@ WIL: 18
 INT: 18
 CHA: 10
 xp: 100
-axp: 35
+axp: 
 Weapon1: Bone Battleaxe
 Weapon1dmg: 3D6
 Weapon1notes: Parry, Two-handed
-Weapon2: 
-Weapon2dmg: 
-Weapon2notes: 
+Weapon2: Long Bow
+Weapon2dmg: D6
+Weapon2notes: Two-handed
 Weapon3: 
 Weapon3dmg: 
 Weapon3notes: 
@@ -109,13 +109,13 @@ checkbox11: false
 title14: Ornate Helmet (800 jats)
 checkbox14: false
 plant69: Crypt Tears
-found69: Ruins and Caves
+found69: Ruins
 effect69: NA
 combined69: NA
 produces69: NA
 title15: Crypt Tears x 5
 checkbox15: false
-title16: ""
+title16: Long Bow
 title17: ""
 title18: ""
 equipped18: true
@@ -129,6 +129,7 @@ Other: |-
   - 6 Hexes away
   - Ruins
   - Possibly The Veil Deathbinder
+checkbox16: true
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%
@@ -138,7 +139,7 @@ Other: |-
 >>|     |     |
 >> |--- | --- |
 >>|   **Level**   |  `=this.level`   |
->>|**HP** | **Current:** `30` **Max:** `=this.CONST*3`|
+>>|**HP** | **Current:** `28` **Max:** `=this.CONST*3`|
 >> |**Corruption** | **Current:** `=this.CurrentCorruption` **Max:** `=this.Corruption`   |
 >> |**Taint Threshold** | `=this.CurrentCorruption*10` |
 >> |**EP**| `0` |
@@ -176,7 +177,7 @@ Other: |-
 >>**Sellsword Cut**| `VIEW[{ajats} * {merc}]`
 >>**Provisions**|`10` |
 >>**Torches**|`0` |
->>**Lamp Oil**|`4` |
+>>**Lamp Oil**|`9` |
 >>**Sellsword jats**|  `INPUT[number:ajats]` `BUTTON[pjats]`|
 >>
 >>&nbsp;
@@ -222,17 +223,17 @@ Other: |-
 >>| **One-Handed Melee** (STR `=this.STR` + DEX `=this.DEX`) (`=(this.STR)+(this.DEX)`) | `44` |
 >>| **Orientation** (20) | `41` |
 >>|**Outdoor Survival** (INT `=this.INT` + DEX `=this.DEX`) (`=(this.INT)+(this.DEX)`)| `40` |
->>| **Parry** (STR `=this.STR` + DEX `=this.DEX`) (`=(this.STR)+(this.DEX)`) | `44` |
+>>| **Parry** (STR `=this.STR` + DEX `=this.DEX`) (`=(this.STR)+(this.DEX)`) | `45` |
 >>| **Perception** (20) | `35` |
 >>| **Persuasion** (CHA `=this.CHA`) | `21` |
 >>| **Pick Pockets** (DEX `=this.DEX`) | `12` |
 >>| **Ranged Weapons** (DEX `=this.DEX` x 2) (`=(this.DEX)*2`) | `24` |
 >>| **Sailing** (DEX `=this.DEX`) | `12` |
->>| **Sneaking** (DEX `=this.DEX` x 2 ) (`=(this.DEX)*2`) | `40` |
+>>| **Sneaking** (DEX `=this.DEX` x 2 ) (`=(this.DEX)*2`) | `35` |
 >>| **Throw** (STR `=this.STR` + DEX `=this.DEX`) (`=(this.STR)+(this.DEX)`) | `24` |
->>| **Tracking** (INT `=this.INT` ) | `40` |
+>>| **Tracking** (INT `=this.INT` ) | `35` |
 >>| **Traditional Lore** (20) | `30` |
->>| **Two-Handed Melee** (STR `=this.STR` x 2) (`=(this.STR)*2`) | `42` |
+>>| **Two-Handed Melee** (STR `=this.STR` x 2) (`=(this.STR)*2`) | `52` |
 >>| **Unarmed** (STR `=this.STR` + DEX `=this.DEX`) (`=(this.STR)+(this.DEX)`)| `24` |
 >>
 >

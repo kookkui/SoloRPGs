@@ -390,3 +390,86 @@ Passed.
 
 <span style="color:rgb(155, 93, 229)">Crypt Tears x 5</span> 
 
+**Perception** Test to search room (35) 1d%[51]
+Failed to find anything.
+
+Return to Room 4
+
+Encounter Check - None
+
+Door - A wooden door, locked. The characters will have to bash it in or pick the lock
+
+Difficulty - Normal 0
+STR check to open door (12) 12
+
+Passed door shatters into splinters
+
+### Room 8
+
+Encounter Check - None
+
+A pile of refuse covers the corner of the room. There might be something useful there? Make a Perception check, if successful you find something interesting: roll on the Valuable Loot Table.
+
+Perception check (35) 1d%[26]
+
+Success!
+
+<span style="color:rgb(249, 132, 74)">Long Bow (140 jats) </span>
+
+Door - A standard wooden door braced with hardened branches. Unlocked
+
+### Room 9
+
+Basic Bitch Encounter! 
+
+Undead: Ghast  (Common)
+```statblock
+creature: Ghast (DBS)
+```
+
+
+```encounter
+creatures:
+  - Ghast (DBS) , 25, 5
+```
+
+
+Battle Start 
+
+Hema Turn
+
+**Ranged Weapons** (24) 1d%[14]
+
+Hit, 4 damage to Ghast with an arrow to the face
+
+Ghast Turn
+
+**Parry** (39) 1d%[9] Crit Hit
+
+Skill up Test on Parry (44) 1d%[69]
+
++1 **Parry** (45)
+
+Defensive Move - If you were Prone, Paralyzed, Stunned, or some other similar condition, you automatically recover. Otherwise, your next attack receives an extra +10
+
+Hema Turn
+
+**Two-Handed Melee**  (37) 1d%[29] 
+
+Hit, 11 Damage to Ghast (10)
+
+Ghast  Turn
+
+**Parry** (40) 1d%[91] 
+
+Hit, 1 Damage to Hema (27)
+
+Difficulty - Normal 0
+CON Test  (10) 3 Rolled
+Passed. 
+
+Hema Turn
+
+**Two-Handed Melee**  (47) 1d%[22]
+
+Crit Hit, 10 Damage + Crit 
