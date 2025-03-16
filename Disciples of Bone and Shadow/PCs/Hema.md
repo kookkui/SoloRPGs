@@ -11,8 +11,8 @@ CONST: 10
 WIL: 18
 INT: 18
 CHA: 10
-xp: 100
-axp: 
+xp: 110
+axp: 10
 Weapon1: Bone Battleaxe
 Weapon1dmg: 3D6
 Weapon1notes: Parry, Two-handed
@@ -116,7 +116,7 @@ produces69: NA
 title15: Crypt Tears x 5
 checkbox15: false
 title16: Long Bow
-title17: ""
+title17: Gold Pendant (250 jats)
 title18: ""
 equipped18: true
 title19: ""

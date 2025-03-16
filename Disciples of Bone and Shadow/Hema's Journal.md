@@ -472,4 +472,41 @@ Hema Turn
 
 **Two-Handed Melee**  (47) 1d%[22]
 
-Crit Hit, 10 Damage + Crit 
+Crit Hit, 10 Damage + Crit = 20 damage to Ghast(Dead...again)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span> 
++10XP
+
+<span style="color:rgb(249, 132, 74)">Gold Pendant (250 jats)</span> 
+
+
+Door - An unlocked wood and bone door, but trapped. A party member (whoever crossed first) suffers 7 damage as a stone falls on them unless they pass a Perception skill test to detect the trap. Pass a DEX test or use the Disarm Traps skill to disable it
+
+ **Perception** skill test (35) 1d%[38]
+
+Dex test to dodge it (12) Rolled 5
+
+I rolled out of the doorway at the last second feeling the wind rush past the back of my head...
+
+Corridor door check
+
+Door - A standard wooden door braced with hardened branches. Unlocked
+
+### Room 10
+
+Encounter Check - None
+
+**Viewing Crystal.** A large, roughly shaped crystal stands on top of a pedestal. If touched, it will glow, revealing images of a strange place, filled with twisting spirals, skies carved in obsidian and raging oceans as black as the night sky. All characters present must pass a WIL test to avoid being enthralled by the vision, gaining 1 CP
+
+Difficulty - Easy +1
+WIL test (19) 15 Success
+
+You snap out of it and make your way out of this horrible room.
+
+Herb Lore Check (36) 1d%[52] 
+
+You find nothing useful or growing...
+
+Door - An empty archway with no door
+
+
