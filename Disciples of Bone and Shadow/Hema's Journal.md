@@ -509,4 +509,18 @@ You find nothing useful or growing...
 
 Door - An empty archway with no door
 
+#### Room 12
 
+Encounter Check - None
+
+**Intriguing mural.** A once vivid and colorful mural covers the whole wall in front of you. You immediately notice there's something off about it; some pieces seem to be out of place. To your surprise, you can easily slide them around and set them on what you believe to be the right place. Each character may attempt a Traditional Lore test to remember details about the story depicted in the mural and solve it. Solving the puzzle causes a small hidden compartment to open, revealing a small cache of jewels worth 100 jats
+
+Difficulty - Normal 0
+
+**Traditional Lore** (30) 1d%[14]
+
+<span style="color:rgb(255, 255, 184)">Success, a small door opens and you take the Small Cache of Jewels (100 jats)</span> 
+
+Herb Lore Test (36) 1d%[53]
+
+Nothing useful found.

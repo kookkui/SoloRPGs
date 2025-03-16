@@ -117,7 +117,7 @@ title15: Crypt Tears x 5
 checkbox15: false
 title16: Long Bow
 title17: Gold Pendant (250 jats)
-title18: ""
+title18: Small Cache of Jewels (100 jats)
 equipped18: true
 title19: ""
 equipped19: true
