@@ -113,6 +113,11 @@ found69: Ruins
 effect69: NA
 combined69: NA
 produces69: NA
+plant1: Nimble Thorn
+found1: Ruins
+effect1: NA
+combined1: NA
+produces1: NA
 title15: Crypt Tears x 5
 checkbox15: false
 title16: Long Bow
@@ -121,7 +126,7 @@ title18: Small Cache of Jewels (100 jats)
 equipped18: true
 title19: A Piece of Mail Armor (800 jats)
 equipped19: true
-title20: ""
+title20: Nimble Thorn x6
 title21: ""
 checkbox21: false
 Other: |-
@@ -378,7 +383,7 @@ checkbox16: true
 >>|`=this.plant9`|`=this.found9`|`=this.effect9`|`=this.combined9`|`=this.produces9`|
 >>|`=this.plant10`|`=this.found10`|`=this.effect10`|`=this.combined10`|`=this.produces10`|
 >>|`=this.plant11`|`=this.found11`|`=this.effect11`|`=this.combined11`|`=this.produces11`|
->>|`=this.plant12`|`=this.found12`|`=this.effect1`|`=this.combined12`|`=this.produces12`|
+>>|`=this.plant12`|`=this.found12`|`=this.effect12`|`=this.combined12`|`=this.produces12`|
 >>|`=this.plant13`|`=this.found13`|`=this.effect13`|`=this.combined13`|`=this.produces13`|
 >>|`=this.plant14`|`=this.found14`|`=this.effect14`|`=this.combined14`|`=this.produces14`|
 >>|`=this.plant1416`|`=this.found1416`|`=this.effect1416`|`=this.combined1416`|`=this.produces1416`|

@@ -509,7 +509,7 @@ You find nothing useful or growing...
 
 Door - An empty archway with no door
 
-#### Room 12
+### Room 12
 
 Encounter Check - None
 
@@ -570,4 +570,28 @@ Hit, 16 Damage to the Ghast (Dead)
 +10XP
 
 <span style="color:rgb(249, 132, 74)">A Piece of Mail Armor (800 jats)</span>
+
+**Herb Lore** Check (36) 1d%[30]
+
+<span style="color:rgb(152, 255, 152)">Nimble Thorn x6</span> 
+
+Door - A wooden door, locked. The characters will have to bash it in or pick the lock
+
+Difficulty - Normal 0
+STR test to open the door (12) 1d20[3]
+
+Passed, the door splits down the middle
+
+### Room 13
+
+Encounter Check - None
+
+A pile of refuse covers the corner of the room. There might be something useful there? Make a Perception check, if successful you find something interesting: roll on the Valuable Loot Table.
+
+**Perception** (35) 1d%[26]
+
+Found something!
+
+
+
 
