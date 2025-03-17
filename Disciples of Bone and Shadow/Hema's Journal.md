@@ -524,3 +524,50 @@ Difficulty - Normal 0
 Herb Lore Test (36) 1d%[53]
 
 Nothing useful found.
+
+### Back to Room 10
+
+Encounter Check - None
+
+Back to Room 11
+
+Undead: Ghast  (Common)
+
+```encounter
+players:
+  - Hema
+creatures:
+  - Ghast (DBS) , 25, 5
+```
+
+Battle Start 
+
+Hema turn
+
+**Ranged Weapons** (24) 1d%[22] CRIT HIT
+
+Critical Skill up test (24) 1d%[57]
+
++1 **Ranged Weapons** 25
+
+Hit, 6 Damage X Crit = 12 Damage to Ghast (13)
+
+ Ghast Turn
+
+**Parry** (40) 1d%[34]
+
+Miss 
+
+Defensive Move - If you so choose, you can disengage from combat without consequences. Otherwise, your next attack receives an extra +10
+
+Hema Turn
+
+**Two-Handed Melee** (47) 1d%[38]
+
+Hit, 16 Damage to the Ghast (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span> 
++10XP
+
+<span style="color:rgb(249, 132, 74)">A Piece of Mail Armor (800 jats)</span>
+

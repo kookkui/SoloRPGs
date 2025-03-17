@@ -11,7 +11,7 @@ CONST: 10
 WIL: 18
 INT: 18
 CHA: 10
-xp: 110
+xp: 120
 axp: 10
 Weapon1: Bone Battleaxe
 Weapon1dmg: 3D6
@@ -119,7 +119,7 @@ title16: Long Bow
 title17: Gold Pendant (250 jats)
 title18: Small Cache of Jewels (100 jats)
 equipped18: true
-title19: ""
+title19: A Piece of Mail Armor (800 jats)
 equipped19: true
 title20: ""
 title21: ""
@@ -227,7 +227,7 @@ checkbox16: true
 >>| **Perception** (20) | `35` |
 >>| **Persuasion** (CHA `=this.CHA`) | `21` |
 >>| **Pick Pockets** (DEX `=this.DEX`) | `12` |
->>| **Ranged Weapons** (DEX `=this.DEX` x 2) (`=(this.DEX)*2`) | `24` |
+>>| **Ranged Weapons** (DEX `=this.DEX` x 2) (`=(this.DEX)*2`) | `25` |
 >>| **Sailing** (DEX `=this.DEX`) | `12` |
 >>| **Sneaking** (DEX `=this.DEX` x 2 ) (`=(this.DEX)*2`) | `35` |
 >>| **Throw** (STR `=this.STR` + DEX `=this.DEX`) (`=(this.STR)+(this.DEX)`) | `24` |
