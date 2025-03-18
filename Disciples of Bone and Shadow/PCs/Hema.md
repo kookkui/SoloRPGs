@@ -127,7 +127,7 @@ equipped18: true
 title19: A Piece of Mail Armor (800 jats)
 equipped19: true
 title20: Nimble Thorn x6
-title21: ""
+title21: Way Clover x6
 checkbox21: false
 Other: |-
   - Rumor has it that the individual that is the murderer was spotted hiding out in some ruins 3 days ride from the village.
@@ -223,7 +223,7 @@ checkbox16: true
 >>| **Dodge** (DEX `=this.DEX` x 2 ) (`=(this.DEX)*2`) | `48` |
 >>|**First Aid** (20) | `45` |
 >>| **Forbidden Lore** | `10` |
->>| **Herb Lore** | `36` |
+>>| **Herb Lore** | `41` |
 >>| **Literacy** (INT `=this.INT`) | `46` |
 >>| **One-Handed Melee** (STR `=this.STR` + DEX `=this.DEX`) (`=(this.STR)+(this.DEX)`) | `44` |
 >>| **Orientation** (20) | `41` |

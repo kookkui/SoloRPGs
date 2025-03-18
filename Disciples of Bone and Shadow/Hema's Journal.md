@@ -592,6 +592,50 @@ A pile of refuse covers the corner of the room. There might be something useful 
 
 Found something!
 
+Tome of Herbal Tradition (200 jats)
 
+Difficulty - Effortless +20
+**Literacy** Test (66) 1d%[47]
 
+Passed, <span style="color:rgb(241, 91, 181)">Herbal Lore +5</span> (41)
+
+Return to Room 11 heading south
+
+Encounter Check - None
+
+Door - An empty doorway. It may be trapped with a spell; roll **3**: 1-6 No trap, 7-10 trapped. A party member (whoever crossed first) suffers D10 damage unless they pass a Perception skill test to detect the trap. Pass an INT test to disable the trap without triggering it
+
+No trap
+
+Corridor 
+
+Encounter Check - None
+
+Door - A standard wooden door braced with hardened branches. Unlocked
+
+Another Corridor
+
+Encounter Check - None
+
+Door - An unlocked wood and bone door, but trapped. A party member (whoever crossed first) suffers 3 damage as a stone falls on them unless they pass a Perception skill test to detect the trap. Pass a DEX test or use the Disarm Traps skill to disable it
+
+Perception (35) 1d%[18] 
+
+Passed
+
+DEX Test (12) 1d20[5]
+
+Success! Rolled out of the way at the last second
+
+### Room 14
+
+Encounter Check - None
+
+Some strange herbs grow from the corner of this dilapidated room. Make a Herb Lore check to see if you can gather any useful herbs.
+
+Herb Lore (41) 16 
+
+Passed
+
+<span style="color:rgb(241, 91, 181)">Way Clover x6</span> 
 
