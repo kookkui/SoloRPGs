@@ -641,7 +641,7 @@ Passed
 ### Returned to the Entrance
 
 Encounter Check - None on the way
-
+ 
 ## On the Road to Cave Thorn
 
 ### Cave Thorn Marketplace
@@ -661,4 +661,34 @@ Resting for the night at the Inn (30 jats) for a nice room and meal.
 (Max HP 30)
 
 
+## Heading back out
+
+#### Hex 3
+
+**Cave**. A half-visible trail leads the party to a seemingly natural cave. If the party decides to explore it, use the Indoor Location generation rules
+
+
+## Cave: Deep Grotto
+
+
+### Room 1
+
+**Tremors**. The ground and walls suddenly begin to shake, causing debris to fall all around you. Perform a Dodge test to avoid being hit by falling rock; if you fail you lose D4 HP
+
+**Dodge** (48) 1d%[31]
+Success!
+
+**Herb Lore** (41) 1d%[8]
+Critical Success!
+
+Skill up check (41) 1d%[42] 
++1 **Herb Lore** (42) 
+
+<span style="color:rgb(241, 91, 181)">Sanguine Dew x7</span> 
+
+### Room 2
+
+**Fresh Water.** A small underground spring crisscrosses this section of the cave, providing the group with all the freshwater they need. Each PC gains D4 rations
+
++3 Rations
 

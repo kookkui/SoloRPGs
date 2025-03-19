@@ -28,7 +28,7 @@
 >`dice:[[DBS Exploration Tables#^f7274d]]`
 >
 >#####  Everscar Highlands Hex Exploration
->`dice:[[DBS Exploration Tables#^43d943]]`
+>`dice:[[DBS Exploration Tables#^af3bd8]]`
 >
 >##### Travel Complications
 >`dice:[[DBS Tables#^442cac]]`

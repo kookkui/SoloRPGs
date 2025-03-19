@@ -291,7 +291,9 @@
 | 19         | **Voidstingers**. Before you realize it you are surrounded by a swarm of voidstingers. These minuscule insects burrow themselves into your eyes, granting you night vision for the next D20 hours and 1 CP, your vision flickering sometimes to a place of impossible geometry and gargantuan horrors                                                                                                                                                                                                                                      |
 | 20         | **Fungi**. Covering a wall several feet tall, a mass of different colored fungi spreads like a shiny, wet blanket all over it. You may harvest D10 doses, each with a different effect; roll a D6 for each one of them: 1-2 a sensation of dread and anxiety invades you; 3-4 your nails turn black for D4 days but you feel a warmth invading your body, making you immune to cold effects; 5-6 heal D20 HP                                                                                                                               |
 
-^43d943
+^af3bd8
+
+
 ### Everscar Highlands Encounters
 
 | `dice:d100` | Everscar Highlands Encounters                |

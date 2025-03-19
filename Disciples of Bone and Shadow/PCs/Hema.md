@@ -118,6 +118,11 @@ found1: Ruins
 effect1: NA
 combined1: NA
 produces1: NA
+plant2: Sanguine Dew
+found2: Caves
+effect2: NA
+combined2: NA
+produces2: NA
 title15: ""
 checkbox15: false
 title16: ""
@@ -144,6 +149,7 @@ checkbox6: true
 checkbox22: true
 lightitem6: Rations
 lightitem7: Lockpicks x10
+lightitem8: Sanguine Dew x7
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%
@@ -189,9 +195,9 @@ lightitem7: Lockpicks x10
 >>---|---|
 >>**Jats**|`=this.currency` |
 >>**Sellsword Cut**| `VIEW[{ajats} * {merc}]`
->>**Provisions**|`20` |
+>>**Provisions**|`23` |
 >>**Torches**|`0` |
->>**Lamp Oil**|`9` |
+>>**Lamp Oil**|`8` |
 >>**Sellsword jats**|  `INPUT[number:ajats]` `BUTTON[pjats]`|
 >>
 >>&nbsp;
@@ -232,7 +238,7 @@ lightitem7: Lockpicks x10
 >>| **Dodge** (DEX `=this.DEX` x 2 ) (`=(this.DEX)*2`) | `48` |
 >>|**First Aid** (20) | `45` |
 >>| **Forbidden Lore** | `10` |
->>| **Herb Lore** | `41` |
+>>| **Herb Lore** | `42` |
 >>| **Literacy** (INT `=this.INT`) | `46` |
 >>| **One-Handed Melee** (STR `=this.STR` + DEX `=this.DEX`) (`=(this.STR)+(this.DEX)`) | `44` |
 >>| **Orientation** (20) | `41` |
