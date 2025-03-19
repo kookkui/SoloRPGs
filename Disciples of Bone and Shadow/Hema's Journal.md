@@ -626,7 +626,6 @@ Passed
 DEX Test (12) 1d20[5]
 
 Success! Rolled out of the way at the last second
-
 ### Room 14
 
 Encounter Check - None
@@ -638,4 +637,10 @@ Herb Lore (41) 16
 Passed
 
 <span style="color:rgb(241, 91, 181)">Way Clover x6</span> 
+
+### Returned to the Entrance
+
+Encounter Check - None on the way
+
+## On the Road to Cave Thorn
 

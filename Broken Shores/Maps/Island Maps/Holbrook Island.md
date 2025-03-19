@@ -22,11 +22,11 @@ c84f21faeae0d53e97bb27e50584e98f830c8432: [[IMG-20250304153225159.png]]
 
 22285a663ff0b204d1ba90d06bee3135732a1eb2: [[IMG-20250312184706854.webp]]
 
-27c8edf43d159b2881020ec95ed3193eb86a0a0f: [[Hex - Plains (lush) 1.webp]]
+27c8edf43d159b2881020ec95ed3193eb86a0a0f: [[SoloRPGs/_ Assets/Hex - Plains (lush) 1.webp]]
 
 237e7f2e355b7cdc81fe304cd97ff5efb400d245: [[Hex - Plains (lush) 3.webp]]
 
-61910045514d09c8e7cbf83719c12dfc2e4c8e2d: [[Hex - Wetlands (damp) 1.webp]]
+61910045514d09c8e7cbf83719c12dfc2e4c8e2d: [[SoloRPGs/_ Assets/Hex - Wetlands (damp) 1.webp]]
 
 52cf812596b38b4a5a3344eedd0764da8900b366: [[IMG-20250312184708253.webp]]
 
