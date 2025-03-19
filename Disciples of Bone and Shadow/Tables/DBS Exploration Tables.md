@@ -115,28 +115,28 @@
 
 ### Cave Encounters
 
-|`dice:d20`|Cave Encounters|
-|---|---|
-|1|Insect: Giant Mosquitoes (Vermin)|
-|2|Beast: Madari rats (Vermin)|
-|3|Insect: Centipede (Vermin)|
-|4|Beast: Tundra Rats (Vermin)|
-|5|Humanoid: Cave Dweller (Common)|
-|6|Beast:Wolf (Common)|
-|7|Beast: Crawler (Common)|
-|8|Beast: Pale Ghar (Common)|
-|9|Undead: Risen (Common)|
-|10|Beast: Sabershadow (Common)|
-|11|Abomination: Grey Ooze (Common)|
-|12|Undead: Skeleton  (Common)|
-|13|Human|
-|14|Abomination: Spawn of Vhol'est (Elite)|
-|15|Beast: Giant Snake (Elite)|
-|16|Beast: Giant Spider (Elite)|
-|17|Abomination: Crog (Elite)|
-|18|Beast: Glacial Bear (Elite)|
-|19|Abomination: Crystal Ghoul (Elite)|
-|20|Beast: White Stalker (Elite)|
+| `dice:d20` | Cave Encounters                        |
+| ---------- | -------------------------------------- |
+| 1          | Insect: Giant Mosquitoes (Vermin)      |
+| 2          | Beast: Madari rats (Vermin)            |
+| 3          | Insect: Centipede (Vermin)             |
+| 4          | Beast: Tundra Rats (Vermin)            |
+| 5          | Humanoid: Cave Dweller (Common)        |
+| 6          | Beast:Wolf (Common)                    |
+| 7          | Beast: Crawler (Common)                |
+| 8          | Beast: Pale Ghar (Common)              |
+| 9          | Undead: Risen (Common)                 |
+| 10         | Beast: Sabershadow (Common)            |
+| 11         | Abomination: Grey Ooze (Common)        |
+| 12         | Undead: Skeleton (Common)              |
+| 13         | Human                                  |
+| 14         | Abomination: Spawn of Vhol'est (Elite) |
+| 15         | Beast: Giant Snake (Elite)             |
+| 16         | Beast: Giant Spider (Elite)            |
+| 17         | Abomination: Crog (Elite)              |
+| 18         | Beast: Glacial Bear (Elite)            |
+| 19         | Abomination: Crystal Ghoul (Elite)     |
+| 20         | Beast: White Stalker (Elite)           |
 
 
 ^2a3c84

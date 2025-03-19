@@ -11,8 +11,8 @@ CONST: 10
 WIL: 18
 INT: 18
 CHA: 10
-xp: 120
-axp: 10
+xp: 140
+axp: 20
 Weapon1: Bone Battleaxe
 Weapon1dmg: 3D6
 Weapon1notes: Parry, Two-handed
@@ -106,7 +106,7 @@ equipped13: false
 equipped5: true
 equipped9: true
 checkbox11: false
-title14: ""
+title14: A Iron Maul (D10+4). (800 jats)
 checkbox14: false
 plant69: Crypt Tears
 found69: Ruins
@@ -123,7 +123,7 @@ found2: Caves
 effect2: NA
 combined2: NA
 produces2: NA
-title15: ""
+title15: A Iron Maul (D10+4). (800 jats)
 checkbox15: false
 title16: ""
 title17: ""

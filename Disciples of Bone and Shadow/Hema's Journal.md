@@ -692,3 +692,86 @@ Skill up check (41) 1d%[42]
 
 +3 Rations
 
+Encounter check, ENCOUNTER
+
+Undead: Skeleton (Common) x2
+
+```statblock
+creature: Skeleton (DBS)
+```
+
+
+```encounter
+creatures:
+  - Skeleton (DBS) 1, 15, 0
+  - Skeleton (DBS) 2, 15, 0
+```
+
+Combat Begin
+
+Hema Turn
+
+**Ranged Weapons** (25) Rolled 23
+
+Hit, 6 Damage to Skeleton 1 (9)
+
+Skeleton 1 Turn 
+
+**Parry** (40) Roll 32 
+
+Miss! 
+
+Defensive Move - Increase your chances at a critical strike on your next attack to 01-20
+
+Skeleton 2 Turn 
+
+**Parry** (40) Roll 52 
+
+Hit, 4 Damage to Hema (26)
+
+CON Test (10) 7 Passed
+
+Hema Turn
+
+**Two-Handed Melee** (52) 90 
+
+Miss
+
+Skeleton 1 Turn 
+
+**Parry** (40) 29
+
+Miss
+
+Skeleton 2 Turn 
+
+**Parry** (40) 13
+
+Miss 
+
+Defensive Move - You can cast a spell or use an item in your possession for free. Otherwise, your next attack receives an extra +20
+
+Hema Turn
+
+**Two-Handed Melee** (72) 17 Hit
+
+9 Damage to Skeleton 1 (Dead)
+
+
+Skeleton 2 Turn 
+
+**Parry** (40) 36 
+
+Miss 
+
+Defensive Move - You may attempt to disarm your opponent. If the opponent cannot be disarmed, your next attack receives an extra +10
+
+**Two-Handed Melee** (62) 8 Crit Hit
+
+13 x Crit = 26 Damage to Skeleton 2 (Dead Again)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span> 
++20 XP
+
+<span style="color:rgb(152, 255, 152)">A Iron Maul (D10+4). (800 jats)</span> 
+
