@@ -34,8 +34,6 @@
 >`dice:[[DBS Tables#^442cac]]`
 >
 
-
-
 >[!tldr] Interior Exploration
 >##### Encounter Check
 >`dice:[[DBS Tables#^894799]]`
@@ -80,7 +78,6 @@
 >##### Random Ruins Name
 >`dice:[[DBS Exploration Tables#^8d01b2]]` `dice:[[DBS Exploration Tables#^7fc11e]]`
 
-
 > [!gather] Caves
 >##### Cave Exploration
 >`dice:[[DBS Exploration Tables#^9d5567]]`
@@ -90,7 +87,6 @@
 >
 >##### Cave Name
 >`dice:[[DBS Exploration Tables#^59e10f]]` `dice:[[DBS Exploration Tables#^fd6892]]`
->
 >
 
 > [!danger] Monsters
@@ -112,7 +108,6 @@
 > ##### Creature Combat Actions at 25% or Less Health
 >`dice:[[Threat Tables#^17c9c6]]`
 
-
 >[!dice] Loot
 >
 >##### Plants & Herbs
@@ -132,7 +127,6 @@
 >
 >##### Artifacts
 >`dice:[[DBS Loot Tables#^25e5a3]]`
-
 
 >[!NPC] GM Emulation
 >

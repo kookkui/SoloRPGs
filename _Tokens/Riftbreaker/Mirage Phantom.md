@@ -11,7 +11,7 @@ tags: [excalidraw]
 
 ## Text Elements
 ## Embedded Files
-f9aec29a5a87874619e6269478ea94e6966758d4: [[Mirage Phantom.webp]]
+f9aec29a5a87874619e6269478ea94e6966758d4: [[IMG-20250319075707490.webp]]
 
 %%
 ## Drawing

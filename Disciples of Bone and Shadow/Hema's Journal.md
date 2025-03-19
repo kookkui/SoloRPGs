@@ -644,3 +644,21 @@ Encounter Check - None on the way
 
 ## On the Road to Cave Thorn
 
+### Cave Thorn Marketplace
+
+**Persuasion** (21) check to see if I can sell for more than 50% 
+1d%[59] Failed
+###### Selling 
+- Gold Pendant (250 jats)
+- Small Cache of Jewels (100 jats)
+
+<span style="color:rgb(249, 132, 74)">Total +175 jats</span> 
+###### Buying
+- Lockpicks x10 (100 jats) 
+- Rations x10 (50 jats)
+
+Resting for the night at the Inn (30 jats) for a nice room and meal.
+(Max HP 30)
+
+
+

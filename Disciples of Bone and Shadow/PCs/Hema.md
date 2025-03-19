@@ -31,7 +31,7 @@ Armor2notes:
 Shield: 
 Shieldrate: 
 Shieldnotes: 
-currency: 90
+currency: 115
 ajats: 
 merc: ".6"
 provisions: 10
@@ -60,10 +60,10 @@ exampleProperty: false
 title1: Bone Battleaxe
 title2: Bone Battleaxe
 title3: Light Armor
-title4: Rations
+title4: Healing Tincture
 title5: Lantern
-title6: Lamp Oil x10
-title7: Bandage x10
+title6: Long Bow
+title7: Camping gear
 checkbox1: true
 checkbox2: true
 checkbox3: true
@@ -91,22 +91,22 @@ Spell4cl: 4
 Spell4des: Remove the poisoned effect from one character.
 quest1: Placeholder Quest
 quest2: 
-title8: "Healing Tincture x1 "
+title8: Camping gear
 checkbox8: false
-title9: Camping gear
+title9: Portable Alchemy
 checkbox9: false
-title10: Camping gear
+title10: Portable Alchemy
 equipped10: true
 title11: Portable Alchemy
 equipped11: false
-title12: Portable Alchemy
-title13: Portable Alchemy
+title12: Ornate Helmet (800 jats)
+title13: A Piece of Mail Armor (800 jats)
 equipped12: false
 equipped13: false
 equipped5: true
 equipped9: true
 checkbox11: false
-title14: Ornate Helmet (800 jats)
+title14: ""
 checkbox14: false
 plant69: Crypt Tears
 found69: Ruins
@@ -118,23 +118,32 @@ found1: Ruins
 effect1: NA
 combined1: NA
 produces1: NA
-title15: Crypt Tears x 5
+title15: ""
 checkbox15: false
-title16: Long Bow
-title17: Gold Pendant (250 jats)
-title18: Small Cache of Jewels (100 jats)
+title16: ""
+title17: ""
+title18: ""
 equipped18: true
-title19: A Piece of Mail Armor (800 jats)
+title19: ""
 equipped19: true
-title20: Nimble Thorn x6
-title21: Way Clover x6
+title20: ""
+title21: ""
 checkbox21: false
 Other: |-
   - Rumor has it that the individual that is the murderer was spotted hiding out in some ruins 3 days ride from the village.
   - 6 Hexes away
   - Ruins
   - Possibly The Veil Deathbinder
-checkbox16: true
+checkbox16: false
+lightitem1: Way Clover x6
+lightitem2: Nimble Thorn x6
+lightitem3: Crypt Tears x 5
+lightitem4: Bandage x10
+lightitem5: Lamp Oil x9
+checkbox6: true
+checkbox22: true
+lightitem6: Rations
+lightitem7: Lockpicks x10
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%
@@ -144,7 +153,7 @@ checkbox16: true
 >>|     |     |
 >> |--- | --- |
 >>|   **Level**   |  `=this.level`   |
->>|**HP** | **Current:** `28` **Max:** `=this.CONST*3`|
+>>|**HP** | **Current:** `30` **Max:** `=this.CONST*3`|
 >> |**Corruption** | **Current:** `=this.CurrentCorruption` **Max:** `=this.Corruption`   |
 >> |**Taint Threshold** | `=this.CurrentCorruption*10` |
 >> |**EP**| `0` |
@@ -180,7 +189,7 @@ checkbox16: true
 >>---|---|
 >>**Jats**|`=this.currency` |
 >>**Sellsword Cut**| `VIEW[{ajats} * {merc}]`
->>**Provisions**|`10` |
+>>**Provisions**|`20` |
 >>**Torches**|`0` |
 >>**Lamp Oil**|`9` |
 >>**Sellsword jats**|  `INPUT[number:ajats]` `BUTTON[pjats]`|
@@ -198,8 +207,8 @@ checkbox16: true
 >>`INPUT[textArea:Other]`
 
 
->[!tldr] %%FAKE TITLE HERE%%
->>[!tldr] %%FAKE TITLE HERE%%
+>[!thing] %%FAKE TITLE HERE%%
+>>[!thing] %%FAKE TITLE HERE%%
 >> ### Stats
 >>|        |         |   
 >>| ---- | ---- |
@@ -242,7 +251,7 @@ checkbox16: true
 >>| **Unarmed** (STR `=this.STR` + DEX `=this.DEX`) (`=(this.STR)+(this.DEX)`)| `24` |
 >>
 >
->>[!tldr] %%FAKE TITLE HERE%%
+>>[!seealso] %%FAKE TITLE HERE%%
 >> ### Modifiers
 >> |        |         |   
 >>| :-: | :----- |
@@ -254,7 +263,7 @@ checkbox16: true
 >>| 6 |`=this.mod5` |
 >>| 7 | `=this.mod6` |
 >
->>[!tldr] %%FAKE TITLE HERE%%
+>>[!travel] %%FAKE TITLE HERE%%
 >> ### Passive Skills
 >> |        |         |   
 >>| :-: | :----------------------------------------- |
@@ -289,10 +298,10 @@ checkbox16: true
 >>| 6 |`=this.archetype5` |
 >>| 7 | `=this.archetype6` |
 
->[!table] %%FAKE TITLE HERE%%
+>[!gather] %%FAKE TITLE HERE%%
 >>[!table] %%FAKE TITLE HERE%%
 >> ### Inventory
->>| Slot | Item |Equipped? |
+>>| **Gear Slot** | Item |Equipped? |
 >>| :-: | :----: |:----:|
 >>|1|`INPUT[text:title1]`|`INPUT[toggle:checkbox1]`|
 >>|2|`INPUT[text:title2]`|`INPUT[toggle:checkbox2]`|
@@ -324,18 +333,25 @@ checkbox16: true
 >>|28|`INPUT[text:title28]`|`INPUT[toggle:checkbox28]`|
 >>|29|`INPUT[text:title29]`|`INPUT[toggle:checkbox29]`|
 >>|30|`INPUT[text:title30]`|`INPUT[toggle:checkbox30]`|
->>|31|`INPUT[text:title31]`|`INPUT[toggle:checkbox31]`|
->>|32|`INPUT[text:title32]`|`INPUT[toggle:checkbox32]`|
->>|33|`INPUT[text:title33]`|`INPUT[toggle:checkbox33]`|
->>|34|`INPUT[text:title34]`|`INPUT[toggle:checkbox34]`|
->>|35|`INPUT[text:title35]`|`INPUT[toggle:checkbox35]`|
->>|36|`INPUT[text:title36]`|`INPUT[toggle:checkbox36]`|
->>|37|`INPUT[text:title37]`|`INPUT[toggle:checkbox37]`|
->>|38|`INPUT[text:title38]`|`INPUT[toggle:checkbox38]`|
->>|39|`INPUT[text:title39]`|`INPUT[toggle:checkbox39]`|
->>|40|`INPUT[text:title40]`|`INPUT[toggle:checkbox40]`|
 >
->>[!table] %%FAKE TITLE HERE%%
+>>[!dice] %%FAKE TITLE HERE%%
+>> ### Light Item Slots
+>>| Slot | Item |  Slot | Item |
+>>| :-: | :---------------- |--------|--------|
+>>|1|`INPUT[text:lightitem1]` |11|`INPUT[text:lightitem11]`|
+>>|2|`INPUT[text:lightitem2]`|12|`INPUT[text:lightitem12]`|
+>>|3|`INPUT[text:lightitem3]`|13|`INPUT[text:lightitem13]`|
+>>|4|`INPUT[text:lightitem4]`|14|`INPUT[text:lightitem14]`|
+>>|5|`INPUT[text:lightitem5]`|15|`INPUT[text:lightitem15]`|
+>>|6|`INPUT[text:lightitem6]`|16|`INPUT[text:lightitem16]`|
+>>|7|`INPUT[text:lightitem7]`|17|`INPUT[text:lightitem17]`|
+>>|8|`INPUT[text:lightitem8]`|18|`INPUT[text:lightitem18]`|
+>>|9|`INPUT[text:lightitem9]`|19|`INPUT[text:lightitem19]`|
+>>|10|`INPUT[text:lightitem10]`|20|`INPUT[text:lightitem20]`|
+
+
+>[!crafting] %%FAKE TITLE HERE%%
+>>[!npc] %%FAKE TITLE HERE%%
 >>### Magic
 >>|     |     |
 >> |--- | --- |
@@ -355,8 +371,8 @@ checkbox16: true
 >>|**CL** |  `=this.Spell4cl`|
 >> | **Description**    | `=this.Spell4des` | 
 
->[!important] %%FAKE TITLE HERE%%
->>[!important] %%FAKE TITLE HERE%%
+>[!success] %%FAKE TITLE HERE%%
+>>[!success] %%FAKE TITLE HERE%%
 >> ##### Character Traits
 >>|     |     |
 >> |--- | --- |
@@ -367,7 +383,7 @@ checkbox16: true
 >>| **Parents Occupation**   |  `=this.poccupation`   |
 >>
 >
->>[!hint] %%FAKE TITLE HERE%%
+>>[!travel] %%FAKE TITLE HERE%%
 >> ### Alchemy Journal
 >>|Plant/Herb|Commonly Found In|Potential Effect|Combined With|Produces|
 >>|---|---|---|---|---|
