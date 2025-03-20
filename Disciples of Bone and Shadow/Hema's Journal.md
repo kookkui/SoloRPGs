@@ -775,3 +775,13 @@ Defensive Move - You may attempt to disarm your opponent. If the opponent cannot
 
 <span style="color:rgb(152, 255, 152)">A Iron Maul (D10+4). (800 jats)</span> 
 
+
+### Room 3
+
+Encounter Check - None
+
+**Loot**. You come across something of value. Roll on the Loot table
+
+<span style="color:rgb(249, 132, 74)">Large Gemstone (200 jats)</span>
+
+

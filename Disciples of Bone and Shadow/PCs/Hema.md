@@ -150,6 +150,7 @@ checkbox22: true
 lightitem6: Rations
 lightitem7: Lockpicks x10
 lightitem8: Sanguine Dew x7
+lightitem9: Large Gemstone (200 jats)
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%
