@@ -12,7 +12,7 @@ WIL: 18
 INT: 18
 CHA: 10
 xp: 150
-axp: 10
+axp: 
 Weapon1: Bone Battleaxe
 Weapon1dmg: 3D6
 Weapon1notes: Parry, Two-handed
@@ -123,6 +123,11 @@ found2: Caves
 effect2: NA
 combined2: NA
 produces2: NA
+plant3: Nivyl
+found3: Caves
+effect3: NA
+combined3: NA
+produces3: NA
 title15: A Iron Maul (D10+4). (800 jats)
 checkbox15: false
 title16: ""
@@ -151,6 +156,7 @@ lightitem6: Rations
 lightitem7: Lockpicks x10
 lightitem8: Sanguine Dew x7
 lightitem9: Large Gemstone (200 jats)
+lightitem10: Nivyl x4
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%
@@ -160,7 +166,7 @@ lightitem9: Large Gemstone (200 jats)
 >>|     |     |
 >> |--- | --- |
 >>|   **Level**   |  `=this.level`   |
->>|**HP** | **Current:** `23` **Max:** `=this.CONST*3`|
+>>|**HP** | **Current:** `30` **Max:** `=this.CONST*3`|
 >> |**Corruption** | **Current:** `=this.CurrentCorruption` **Max:** `=this.Corruption`   |
 >> |**Taint Threshold** | `=this.CurrentCorruption*10` |
 >> |**EP**| `0` |

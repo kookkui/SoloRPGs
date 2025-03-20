@@ -874,10 +874,50 @@ Hit, 8 Damage to Cave Dweller (Dead)
 
 <span style="color:rgb(241, 91, 181)">Using the Tome +5 Herb Lore (47) </span>
 
- **Perception Check** (36) 1d%[14]
+Herb Lore Check (47) 1d%[42]
 
-Success!
+Found some useable reagents.
+
+<span style="color:rgb(152, 255, 152)">Nivyl x4</span>
+
+**First Aid** Check (45) Critical Success!
+<font color="#00b050">Rolled 4 x Crit = 8 HP healed (30)</font>
+
+### Heading Back to Town for training...
+
+While leaving the cave a Grey Ooze drops from the ceiling!
+
+Abomination: Grey Ooze (Common)
+
+```statblock
+creature: Grey Ooze (DBS)
+```
 
 
+```encounter
+creatures:
+  - Grey Ooze (DBS) , 20, 5
+```
 
- 
+Hema Initiative 16, ooze didn't notice me!(Ooze Surprised)
+
+Combat Start
+
+Hema Sneaks up on the Ooze +20 Attack
+
+**Two-Handed Melee Check** (67) 1d%[36]
+
+Hit, 9 Damage to Grey Ooze(11)
+
+Grey Ooze Turn
+
+**Parry Check** (41) 1d%[26]
+
+Missed!
+
+Defensive Move - If you so choose, you can disengage from combat without consequences. Otherwise, your next attack receives an extra +10
+
+Hema Turn
+
+**Two-Handed Melee Check** (47) 1d%[5] Critical Hit!
+
