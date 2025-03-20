@@ -155,3 +155,67 @@
 
 ^19703a
 
+
+|`dice:d12`|Random Primordial Spell|
+|---|---|
+|1-6|`dice:[[DBS Loot Tables#^1e19b5]]]`|
+|7-12|`dice:[[DBS Loot Tables#^2a88db]]]`|
+
+^9eb60f
+
+
+
+|`dice:d12`|Primordial Spells - I|
+|---|---|
+|1|Inner Flame of X'rn|
+|2|Enthrall|
+|3|Will of Gutha|
+|4|Eye of the Storm|
+|5|Shield of Iniquity|
+|6|Materialize Shadow|
+|7|Shared Corruption|
+|8|Unlock|
+|9|Curse of the Black Hand|
+|10|Chains of Urthan|
+|11|Dispel Death Magic|
+|12|Water Lungs|
+
+^1e19b5
+
+
+
+|`dice:d12`|Primordial Spells - II|
+|---|---|
+|1|Bind Death|
+|2|Breath of C'athrhi|
+|3|Cauterize|
+|4|Elemental Immunity|
+|5|Cleanse Poison|
+|6|Find Traps|
+|7|Invisibility|
+|8|Orb of Light|
+|9|Pain Transfer|
+|10|Regeneration|
+|11|Shadow Flames|
+|12|Viper Strike|
+
+^2a88db
+
+
+
+|`dice:d12`|Death Spells|
+|---|---|
+|1|Decay|
+|2|Control Undead|
+|3|Tongue Rot|
+|4|Mind Erosion|
+|5|Dreadblade|
+|6|Necrotic Armor|
+|7|Necrotic Purification|
+|8|Reverse Death|
+|9|Aura of Fear|
+|10|Thousand Arms of Geoth|
+|11|Dispel Primordial Magic|
+|12|Life Stealing|
+
+^2e6b44

@@ -921,3 +921,17 @@ Hema Turn
 
 **Two-Handed Melee Check** (47) 1d%[5] Critical Hit!
 
+9 Damage x Crit = 18 Damage to Grey Ooze (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
++10 XP
+
+<font color="#ff00cc">Scroll of Cleanse Poison (500 jats)</font>
+
+## Village of Cave Thorn
+
+#### Leveling up from 1 > 2 
+
+**+2 EP**
+
+

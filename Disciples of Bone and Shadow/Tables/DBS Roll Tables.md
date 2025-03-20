@@ -13,6 +13,9 @@
 >
 >##### Random Skill
 >`dice:[[DBS Tables#^c0428d]]`
+>
+>##### Random Spell
+>`dice:[[DBS Loot Tables#^9eb60f]]]`
 
 > [!table] Overworld Tables
 > ##### Terrain Type

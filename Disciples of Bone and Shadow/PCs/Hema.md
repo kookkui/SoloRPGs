@@ -1,6 +1,6 @@
 ---
 Art: "![[Hema.webp|600]]"
-Level: 1
+Level: 2
 CurrentCorruption: 0
 Corruption: 10
 HP: 0
@@ -11,7 +11,7 @@ CONST: 10
 WIL: 18
 INT: 18
 CHA: 10
-xp: 150
+xp: 10
 axp: 
 Weapon1: Bone Battleaxe
 Weapon1dmg: 3D6
@@ -157,6 +157,7 @@ lightitem7: Lockpicks x10
 lightitem8: Sanguine Dew x7
 lightitem9: Large Gemstone (200 jats)
 lightitem10: Nivyl x4
+lightitem11: Scroll of Cleanse Poison (500 jats)
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%
@@ -169,7 +170,7 @@ lightitem10: Nivyl x4
 >>|**HP** | **Current:** `30` **Max:** `=this.CONST*3`|
 >> |**Corruption** | **Current:** `=this.CurrentCorruption` **Max:** `=this.Corruption`   |
 >> |**Taint Threshold** | `=this.CurrentCorruption*10` |
->> |**EP**| `0` |
+>> |**EP**| `2` |
 >> |**XP** | `VIEW[{xp}][text]`|
 >> |**XP Needed** | `=150-(this.xp)`|
 >>|**ADD XP**| `INPUT[number:axp]` `BUTTON[exp]`|
