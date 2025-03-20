@@ -784,4 +784,100 @@ Encounter Check - None
 
 <span style="color:rgb(249, 132, 74)">Large Gemstone (200 jats)</span>
 
+Perception check (35)1d%[92]
+You are unable to find anything of use.
 
+### Room 4
+
+Encounter Check - None
+
+Exploration roll
+Humanoid: Cave Dweller (Common)
+
+```statblock
+creature: Cave Dweller
+```
+
+```encounter
+
+```
+
+```encounter
+players:
+  - Hema
+creatures:
+  - Cave Dweller , 25, 5
+```
+
+Battle Start
+
+Hema Turn
+
+**Ranged Weapons Check** (25) 
+1d%[48]
+Failed.
+
+The arrow flies harmlessly passed the Cave Dweller
+
+Cave Dweller Turn 
+
+**Parry Check** (40)
+1d%[43]
+
+Failed Hit
+
+7 Damage to Hema (23)
+
+**Perception Check** (35) 1d% [5]
+Critical Success! 
+
+Skill up Check (35) 1d%[82]
+Passed +1 Perception (36)
+
+Hema turn
+
+**Two-Handed Melee Check** (52)
+1d%[45]
+Hit, 12 Damage to the Cave Dweller(13)
+
+Dweller Turn
+
+**Parry Check** (40)
+1d%[8] 
+Critical Success 
+Skill up Check Parry (40) 1d%[50]
+Passed +1 Parry (41)
+
+Defensive Move - If you were Prone, Paralyzed, Stunned, or some other similar condition, you automatically recover. Otherwise, your next attack receives an extra +10
+
+Hema Turn 
+
+**Two-Handed Melee Check** (57) 
+1d%[27]
+
+Hit, 12 Damage to Cave Dweller (1)
+
+Cave Dweller Turn
+
+Cave Dweller is trying Fall back and escape
+
+Hema Turn
+
+**Two-Handed Melee Check** (67) 1d%[39]
+
+Hit, 8 Damage to Cave Dweller (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
++10 XP
+
+<span style="color:rgb(155, 93, 229)">Tome of Herbal Tradition (200 jats)</span> 
+
+<span style="color:rgb(241, 91, 181)">Using the Tome +5 Herb Lore (47) </span>
+
+ **Perception Check** (36) 1d%[14]
+
+Success!
+
+
+
+ 

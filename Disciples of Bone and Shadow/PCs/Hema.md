@@ -11,8 +11,8 @@ CONST: 10
 WIL: 18
 INT: 18
 CHA: 10
-xp: 140
-axp: 20
+xp: 150
+axp: 10
 Weapon1: Bone Battleaxe
 Weapon1dmg: 3D6
 Weapon1notes: Parry, Two-handed
@@ -160,7 +160,7 @@ lightitem9: Large Gemstone (200 jats)
 >>|     |     |
 >> |--- | --- |
 >>|   **Level**   |  `=this.level`   |
->>|**HP** | **Current:** `30` **Max:** `=this.CONST*3`|
+>>|**HP** | **Current:** `23` **Max:** `=this.CONST*3`|
 >> |**Corruption** | **Current:** `=this.CurrentCorruption` **Max:** `=this.Corruption`   |
 >> |**Taint Threshold** | `=this.CurrentCorruption*10` |
 >> |**EP**| `0` |
@@ -239,13 +239,13 @@ lightitem9: Large Gemstone (200 jats)
 >>| **Dodge** (DEX `=this.DEX` x 2 ) (`=(this.DEX)*2`) | `48` |
 >>|**First Aid** (20) | `45` |
 >>| **Forbidden Lore** | `10` |
->>| **Herb Lore** | `42` |
+>>| **Herb Lore** | `47` |
 >>| **Literacy** (INT `=this.INT`) | `46` |
 >>| **One-Handed Melee** (STR `=this.STR` + DEX `=this.DEX`) (`=(this.STR)+(this.DEX)`) | `44` |
 >>| **Orientation** (20) | `41` |
 >>|**Outdoor Survival** (INT `=this.INT` + DEX `=this.DEX`) (`=(this.INT)+(this.DEX)`)| `40` |
->>| **Parry** (STR `=this.STR` + DEX `=this.DEX`) (`=(this.STR)+(this.DEX)`) | `45` |
->>| **Perception** (20) | `35` |
+>>| **Parry** (STR `=this.STR` + DEX `=this.DEX`) (`=(this.STR)+(this.DEX)`) | `46` |
+>>| **Perception** (20) | `36` |
 >>| **Persuasion** (CHA `=this.CHA`) | `21` |
 >>| **Pick Pockets** (DEX `=this.DEX`) | `12` |
 >>| **Ranged Weapons** (DEX `=this.DEX` x 2) (`=(this.DEX)*2`) | `25` |
