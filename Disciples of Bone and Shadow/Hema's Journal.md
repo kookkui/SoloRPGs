@@ -934,4 +934,10 @@ Hema Turn
 
 **+2 EP**
 
+- 1 EP add 10 to Two-Handed Melee (62)
+- 1 EP add 10 to Parry (56)
 
+
+
+**Alchemy Test** (31) 1d%[10]
+Crypt Tears + Nimble Thorn = Antidote. Counters the effects of a poison

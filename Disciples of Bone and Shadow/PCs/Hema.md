@@ -52,6 +52,7 @@ passive0:
 passive1: 
 passive2: 
 archetype0: "**Vitalist.** You’ve seen the world struggling to survive, and you’ve chosen compassion. You do your best to ameliorate the pain in others through whatever means, even if the price is your own sanity."
+archetype1:
 Title4: 10 Pale Ghar claws  (20 jats ea.)
 Title5: One-Handed Sword
 Title6: Wolf Pelt (100 jats)
@@ -170,7 +171,7 @@ lightitem11: Scroll of Cleanse Poison (500 jats)
 >>|**HP** | **Current:** `30` **Max:** `=this.CONST*3`|
 >> |**Corruption** | **Current:** `=this.CurrentCorruption` **Max:** `=this.Corruption`   |
 >> |**Taint Threshold** | `=this.CurrentCorruption*10` |
->> |**EP**| `2` |
+>> |**EP**| `0` |
 >> |**XP** | `VIEW[{xp}][text]`|
 >> |**XP Needed** | `=150-(this.xp)`|
 >>|**ADD XP**| `INPUT[number:axp]` `BUTTON[exp]`|
@@ -205,7 +206,7 @@ lightitem11: Scroll of Cleanse Poison (500 jats)
 >>**Sellsword Cut**| `VIEW[{ajats} * {merc}]`
 >>**Provisions**|`23` |
 >>**Torches**|`0` |
->>**Lamp Oil**|`8` |
+>>**Lamp Oil**|`18` |
 >>**Sellsword jats**|  `INPUT[number:ajats]` `BUTTON[pjats]`|
 >>
 >>&nbsp;
@@ -238,7 +239,7 @@ lightitem11: Scroll of Cleanse Poison (500 jats)
 >> ### Skill Checks
 >>| <span style="color:rgb(129, 216, 208)">Skill Name</span>|<span style="color:rgb(129, 216, 208)"> Skill Level</span> |
 >>| ------------ | ----------- |
->>| **Alchemy** | `26` |
+>>| **Alchemy** | `31` |
 >>| **Animal Handling** (CHA `=this.CHA`) | `22` |
 >>| **Command Skills** (CHA `=this.CHA`) | `10` |
 >>| **Crafting** (DEX `=this.DEX`) | `22` |
@@ -251,7 +252,7 @@ lightitem11: Scroll of Cleanse Poison (500 jats)
 >>| **One-Handed Melee** (STR `=this.STR` + DEX `=this.DEX`) (`=(this.STR)+(this.DEX)`) | `44` |
 >>| **Orientation** (20) | `41` |
 >>|**Outdoor Survival** (INT `=this.INT` + DEX `=this.DEX`) (`=(this.INT)+(this.DEX)`)| `40` |
->>| **Parry** (STR `=this.STR` + DEX `=this.DEX`) (`=(this.STR)+(this.DEX)`) | `46` |
+>>| **Parry** (STR `=this.STR` + DEX `=this.DEX`) (`=(this.STR)+(this.DEX)`) | `56` |
 >>| **Perception** (20) | `36` |
 >>| **Persuasion** (CHA `=this.CHA`) | `21` |
 >>| **Pick Pockets** (DEX `=this.DEX`) | `12` |
@@ -261,7 +262,7 @@ lightitem11: Scroll of Cleanse Poison (500 jats)
 >>| **Throw** (STR `=this.STR` + DEX `=this.DEX`) (`=(this.STR)+(this.DEX)`) | `24` |
 >>| **Tracking** (INT `=this.INT` ) | `35` |
 >>| **Traditional Lore** (20) | `30` |
->>| **Two-Handed Melee** (STR `=this.STR` x 2) (`=(this.STR)*2`) | `52` |
+>>| **Two-Handed Melee** (STR `=this.STR` x 2) (`=(this.STR)*2`) | `62` |
 >>| **Unarmed** (STR `=this.STR` + DEX `=this.DEX`) (`=(this.STR)+(this.DEX)`)| `24` |
 >>
 >

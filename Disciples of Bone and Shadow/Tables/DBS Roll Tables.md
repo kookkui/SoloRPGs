@@ -16,6 +16,9 @@
 >
 >##### Random Spell
 >`dice:[[DBS Loot Tables#^9eb60f]]]`
+>
+>##### Alchemy Brew Effect
+>`dice:[[DBS Loot Tables#^36f035]]]`
 
 > [!table] Overworld Tables
 > ##### Terrain Type
@@ -35,14 +38,10 @@
 >
 >##### Travel Complications
 >`dice:[[DBS Tables#^442cac]]`
->
 
 >[!tldr] Interior Exploration
 >##### Encounter Check
 >`dice:[[DBS Tables#^894799]]`
->
->##### Taint Check
->`dice:[[DBS Tables#^afb9a4]]`
 >
 >##### Doors
 >`dice:[[DBS Tables#^e7d45c]]`
@@ -80,6 +79,7 @@
 >
 >##### Random Ruins Name
 >`dice:[[DBS Exploration Tables#^8d01b2]]` `dice:[[DBS Exploration Tables#^7fc11e]]`
+>
 
 > [!gather] Caves
 >##### Cave Exploration
@@ -90,11 +90,14 @@
 >
 >##### Cave Name
 >`dice:[[DBS Exploration Tables#^59e10f]]` `dice:[[DBS Exploration Tables#^fd6892]]`
->
+
 
 > [!danger] Monsters
 >##### Combat - Defensive Moves
 >`dice:[[DBS Encounter Tables#^879efa]]`
+>
+>##### Taint Check
+>`dice:[[DBS Tables#^afb9a4]]`
 >
 >##### Hostile Human Encounter
 >`dice:[[DBS Encounter Tables#^2aea04]]`
@@ -112,7 +115,6 @@
 >`dice:[[Threat Tables#^17c9c6]]`
 
 >[!dice] Loot
->
 >##### Plants & Herbs
 >`dice:[[DBS Exploration Tables#^3ec88a]]`
 >

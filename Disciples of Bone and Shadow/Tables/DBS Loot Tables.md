@@ -203,19 +203,68 @@
 
 
 
-|`dice:d12`|Death Spells|
-|---|---|
-|1|Decay|
-|2|Control Undead|
-|3|Tongue Rot|
-|4|Mind Erosion|
-|5|Dreadblade|
-|6|Necrotic Armor|
-|7|Necrotic Purification|
-|8|Reverse Death|
-|9|Aura of Fear|
-|10|Thousand Arms of Geoth|
-|11|Dispel Primordial Magic|
-|12|Life Stealing|
+| `dice:d12` | Death Spells            |
+| ---------- | ----------------------- |
+| 1          | Decay                   |
+| 2          | Control Undead          |
+| 3          | Tongue Rot              |
+| 4          | Mind Erosion            |
+| 5          | Dreadblade              |
+| 6          | Necrotic Armor          |
+| 7          | Necrotic Purification   |
+| 8          | Reverse Death           |
+| 9          | Aura of Fear            |
+| 10         | Thousand Arms of Geoth  |
+| 11         | Dispel Primordial Magic |
+| 12         | Life Stealing           |
+|            |                         |
 
 ^2e6b44
+
+| `dice:1d88%` | Brew Effect                                                                                                                                                     |
+| ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 11-36        | No Effect. This combination produces no results                                                                                                                 |
+| 37           | Poison. CON Save Modifier -1 Effects: This poison inhibits the intestine, resulting in a painful death after D4 hours                                           |
+| 38           | Poison. CON Save Modifier 0  Effects: Causes Paralysis of muscles, starting with the eyes and moving  downwards the body. The victim is paralyzed for D10 turns |
+| 41           | Effects: Poison. CON Save Modifier 0 Impedes casting spells for D10 turn                                                                                        |
+| 42           | Effects:  Poison. CON Save Modifier -1  Irritant. -10 to all actions for D10 turns                                                                              |
+| 43           | Poison. CON Save Modifier +1 Effects: Anticoagulant. Thins the blood, causing internal bleeding. The victim loses 1 HP each turn for D10+2 turns                |
+| 44           | Poison. CON Save Modifier 0  Effects: Corrosive. The victim loses D10 HP                                                                                        |
+| 45           | Poison. CON Save Modifier +1 Effects:  Causes  the  victim  to  become  extremely  aggressive,  attacking anything or anyone in sight                           |
+| 46           | Poison. CON Save Modifier -1  Effects: Causes the victim to fall asleep                                                                                         |
+| 47           | Poison. CON Save Modifier 0  Effects: The victim loses 1 CON permanently                                                                                        |
+| 48           | Poison. CON Save Modifier 0  Effects: The victim loses 1 STR permanently                                                                                        |
+| 51           | Poison. CON Save Modifier 0  Effects: The victim loses 1 DEX permanently                                                                                        |
+| 52           | Poison. CON Save Modifier 0  Effects: The victim loses 1 INT permanently                                                                                        |
+| 53           | Narcotic. Effects: Laughter, stimulates creativity. -1 INT for the next 20 hours                                                                                |
+| 54           | Narcotic. Effects: Stimulant. No secondary effects, but very addictive                                                                                          |
+| 55           | Narcotic. Effects: Loss of inhibitions, euphoria. -1 DEX for the next 20 hours                                                                                  |
+| 56           | Narcotic. Effects: Euphoria, reduced fatigue, confidence. -1 WILL for the  next 20 hours                                                                        |
+| 57           | Narcotic. Effects: Pleasure, relaxation, well-being. -1 CON for the next 20  hours                                                                              |
+| 58           | Narcotic. Effects: Sense of belonging. -1 DEX for the next 20 hours                                                                                             |
+| 61           | Narcotic. Effects: Excitement, reduced fatigue. -1 STR for the next 20  hours                                                                                   |
+| 62           | Narcotic. Effects: Modified state of consciousness. -1 WIL for the next 20  hours                                                                               |
+| 63           | Narcotic. Effects: Strong hallucinations. Impaired speech for the next 12  hours                                                                                |
+| 64           | Narcotic.  Effects:  Laughter, alteration of perception. Strong sensitivity for the next 20 hours                                                               |
+| 65           | Antidote. Counters the effects of a poison                                                                                                                      |
+| 66           | Caps the amount of Corruption that may be earned at 5/day                                                                                                       |
+| 67           | Grants Armor (1) as natural armor for the next 20 hours                                                                                                         |
+| 68           | Restores the loss of 1 Attribute point                                                                                                                          |
+| 71           | Awakens an unconscious character, be it due to natural or magical causes                                                                                        |
+| 72           | +1 CHA for the next 12 hours                                                                                                                                    |
+| 73           | +1 STR for the next 12 hours                                                                                                                                    |
+| 74           | +1 CON for the next 12 hours                                                                                                                                    |
+| 75           | +1 INT for the next 12 hours                                                                                                                                    |
+| 76           | +1 DEX for the next 12 hours                                                                                                                                    |
+| 77           | Heal D10 HP. May be used in combat, takes an action                                                                                                             |
+| 78           | +1 WIL against Magic for the next 20 hours                                                                                                                      |
+| 81           | +1 DEX against Traps for the next 20 hours                                                                                                                      |
+| 82           | Blocks the negative effects of a narcotic if taken together                                                                                                     |
+| 83           | +2 GS for the next 20 hours                                                                                                                                     |
+| 84           | Provides the same nutrition as 1 ration                                                                                                                         |
+| 85           | The character heals D4 HP each turn for D4 turns                                                                                                                |
+| 86           | Allows the character to see in the dark for the next 12 hours                                                                                                   |
+| 87           | Enhances the character's senses, granting a +20 to any tracking tests they  perform                                                                             |
+| 88           | Cures any disease after a recovery period of 48 hours                                                                                                           |
+
+^36f035
