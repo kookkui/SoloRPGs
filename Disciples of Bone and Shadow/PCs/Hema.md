@@ -52,7 +52,7 @@ passive0:
 passive1: 
 passive2: 
 archetype0: "**Vitalist.** You’ve seen the world struggling to survive, and you’ve chosen compassion. You do your best to ameliorate the pain in others through whatever means, even if the price is your own sanity."
-archetype1:
+archetype1: 
 Title4: 10 Pale Ghar claws  (20 jats ea.)
 Title5: One-Handed Sword
 Title6: Wolf Pelt (100 jats)
@@ -111,14 +111,14 @@ title14: A Iron Maul (D10+4). (800 jats)
 checkbox14: false
 plant69: Crypt Tears
 found69: Ruins
-effect69: NA
-combined69: NA
-produces69: NA
+effect69: Counters the effects of a poison
+combined69: Nimble Thorn
+produces69: Antidote.
 plant1: Nimble Thorn
 found1: Ruins
-effect1: NA
-combined1: NA
-produces1: NA
+effect1: Counters the effects of a poison
+combined1: Crypt Tears
+produces1: Antidote.
 plant2: Sanguine Dew
 found2: Caves
 effect2: NA
@@ -147,8 +147,8 @@ Other: |-
   - Possibly The Veil Deathbinder
 checkbox16: false
 lightitem1: Way Clover x6
-lightitem2: Nimble Thorn x6
-lightitem3: Crypt Tears x 5
+lightitem2: Nimble Thorn x5
+lightitem3: Crypt Tears x4
 lightitem4: Bandage x10
 lightitem5: Lamp Oil x9
 checkbox6: true
@@ -159,6 +159,7 @@ lightitem8: Sanguine Dew x7
 lightitem9: Large Gemstone (200 jats)
 lightitem10: Nivyl x4
 lightitem11: Scroll of Cleanse Poison (500 jats)
+lightitem12: Potion of Antidote x1
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%

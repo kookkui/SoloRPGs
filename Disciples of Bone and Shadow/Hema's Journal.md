@@ -941,3 +941,5 @@ Hema Turn
 
 **Alchemy Test** (31) 1d%[10]
 Crypt Tears + Nimble Thorn = Antidote. Counters the effects of a poison
+
+Potion of Antidote x1 
