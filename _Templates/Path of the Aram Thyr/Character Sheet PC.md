@@ -4,11 +4,14 @@ HP: 0
 STR: 12
 DEX: 12
 CONST: 10
-WIL: 18
+WIS: 18
 INT: 18
 CHA: 10
 xp: 10
 spiritstage: Wood
+spiritpath: Path of Celestial Fury
+aramax: 20
+typeaffinity: Caster
 axp: 
 Weapon1: 
 Weapon1dmg: 
@@ -43,16 +46,25 @@ passive2:
 >> [!dice] %%FAKE TITLE HERE%%
 >> # `=this.file.name`
 >> `=this.Art`
+>> ###### Character Core
+>>|     |     |
+>> |--- | --- |
+>>| **Spirit Stage** |  `=this.spiritstage`   |
+>>| **Path** |  `=this.spiritpath`   |
+>>|**HP** | **Current:** `30` **Max:** `=this.CONST*3`|
+>> |**Ara Pool** | **Current:** `30`  **Max:** `=this.aramax`   |
+>>
+>>&nbsp;
+>>
 >> ###### Stats
 >>|     |     |
 >> |--- | --- |
->>|   **Spirit Stage**   |  `=this.spiritstage`   |
->>|**HP** | **Current:** `30` **Max:** `=this.CONST*3`|
->> |**Corruption** | **Current:** `=this.CurrentCorruption` **Max:** `=this.Corruption`   |
->> |**Taint Threshold** | `=this.CurrentCorruption*10` |
->> |**EP**| `0` |
+>> |**Initiative** | +`=floor((this.DEX - 10)/3)` |
+>> |**Healing Rate**| `=this.healingrate` |
+>> |**Reputation**| `30` |
+>> |**Tenacity**| `=(this.WIS)+10` |
+>> |**Technique Type Affinity**| `=this.typeaffinity` |
 >> |**XP** | `VIEW[{xp}][text]`|
->> |**XP Needed** | `=150-(this.xp)`|
 >>|**ADD XP**| `INPUT[number:axp]` `BUTTON[exp]`|
 >>
 >>&nbsp;
@@ -103,16 +115,16 @@ passive2:
 
 >[!thing] %%FAKE TITLE HERE%%
 >>[!thing] %%FAKE TITLE HERE%%
->> ### Stats
->>|        |         |   
->>| ---- | ---- |
->>| **Strength**   | `=this.STR`  |
->>| **Dexterity**    | `=this.DEX` | 
->>| **Constitution** | `=this.CONST` |
->>| **Will**         |  `=this.WIL` | 
->>| **Intelligence** |  `=this.INT` | 
->>| **Charisma**     | `=this.CHA` | 
->>| **Max Gear Slots**     | `=(this.STR)+10` | 
+>> ### Attributes 
+>>| Stat | Sore | Mod |Save|
+>>| :---: | :---: | :---: | :---: |
+>>| **Strength** | `=this.STR` | +`=floor((this.STR - 10)/3)`| `=floor((this.STR - 10)/3)`|
+>>| **Intelligence** | `=this.INT` | +`=floor((this.INT - 10)/3)`| `=floor((this.INT - 10)/3)`|
+>>| **Wisdom** | `=this.WIS` | +`=floor((this.WIS - 10)/3)`|`=floor((this.WIS - 10)/3)`|
+>>| **Dexterity** | `=this.DEX` | +`=floor((this.DEX - 10)/3)`|`=floor((this.DEX - 10)/3)`|
+>>| **Constitution** | `=this.CONST` |+`=floor((this.CONST - 10)/3)`| `=floor((this.CONST - 10)/3)`|
+>>| **Charisma** | `=this.CHA` | +`=floor((this.CHA - 10)/3)`| `=floor((this.CHA - 10)/3)`|
+>>| **Max Gear Slots** | `=(this.STR)+10` | ||
 >>---
 >>&nbsp;
 >> ### Skill Checks

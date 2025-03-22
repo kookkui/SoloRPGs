@@ -7,9 +7,9 @@ Prof:
 HP: 0
 HitDice: d0
 Speed: 0
-STR: 0
-DEX: 0
-CONST: 0
+STR: 14
+DEX: 17
+CONST: 13
 INT: 0
 WIS: 0
 CHA: 0
@@ -91,7 +91,7 @@ Platinum: 0
 >> ### Skills
 | Skill | Score       | Mod                     | Prof                              | ST                                  |
 | ----- | ----------- | ----------------------- | --------------------------------- | ----------------------------------- |
-| <font color="#ff0000">**STR**</font>   | `=this.STR` | +`=(this.STR - 10)/2`   | <input type="checkbox" unchecked> | +`=(this.STR - 10)/2`               |
+| <font color="#ff0000">**STR**</font>   | `=this.STR` | +`=floor((this.STR - 10)/3)`   | <input type="checkbox" unchecked> | +`=(this.STR - 10)/2`               |
 | <font color="#ffff00">**DEX**</font>   | `=this.DEX`  | +`=(this.DEX - 10)/2`   | <input type="checkbox" unchecked> | +`=(this.DEX - 10)/2`               |
 | <font color="#00b050">**CON**</font>   | `=this.CONST` | +`=(this.CONST - 10)/2` | <input type="checkbox" unchecked>   | +`=((this.CONST - 10)/2)` |
 | <font color="#7030a0">**INT**</font>   | `=this.INT`          | +`=(this.INT - 10)/2`   | <input type="checkbox" unchecked>   | +`=((this.INT - 10)/2)`   |
