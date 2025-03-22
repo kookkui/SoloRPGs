@@ -99,3 +99,37 @@
 | 5         | Speed reduced to 5 ft and unable to maintain even a slow travel pace                      |
 | 6         | The character dies                                                                        |
 
+
+## Creature Combat Actions
+
+### At Full Health
+
+|`dice:d10`|At Full Health|
+|---|---|
+|1-3|Standard attack|
+|4-6|Relevant Weshan (if any otherwise standard attack)|
+|7|Attempt to corner|
+|8|Attempt to disarm|
+|9|If not engaged in combat attempt to sneak and ambush|
+|10|Attempt to leverage the terrain/position|
+
+### At 50% or Less Health
+
+|`dice:d10`|At 50% or Less Health|
+|---|---|
+|1-2|Standard attack|
+|3-4|Relevant Weshan (if any, otherwise standard attack)|
+|5|Coordinate with allies (if any, otherwise standard attack)|
+|6-7|Defend/take cover|
+|8|Use defensive/beneficial item or ability (healing item, Weshan, etc.). If none available, attempt to sneak and ambush|
+|9|Call for help/summon reinforcements; if none are available then fall back|
+|10|Flee|
+
+### At 25% or Less Health
+
+|`dice:d10`|At 25% or Less Health|
+|---|---|
+|1-2|Desperate attack (-2 attack roll, +3 damage)|
+|3-4|Fall back|
+|5-6|Use defensive/beneficial item or ability (healing item, weshan, etc.). If none, desperate attack|
+|7-10|Flee|

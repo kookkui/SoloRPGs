@@ -9,6 +9,8 @@
 |11|Rain|
 |12|Storm|
 
+^ebc563
+
 
 ### Setting Camp Mishaps
 
@@ -26,6 +28,8 @@
 |9|A poorly managed fire spreads out of control and starts neighboring objects on fire. Each character loses a random item in their possession that the fire burns and consumes|
 |10|The group makes camp in a small cave. The cave's ceiling partially caves in throughout the night, burying supplies, tents, and characters alike. Each character loses one of the following (pick one): D6 HP, 2xRations, 1xRandom piece of gear. All characters gain 1 level of Fatigue|
 
+^91a88c
+
 ### Explore Hex
 
 |`dice:d10`|Explore Hex|
@@ -35,6 +39,8 @@
 |7-8|Hazard or obstacle|
 |9|Settlement|
 |10|Nothing of interest|
+
+^9e41d9
 
 ### NPC Initial Disposition
 
@@ -72,24 +78,25 @@
 |20|Troup of wandering performers|
 
 ### Hazards & Obstacles
-
  
 | `dice:d10` | Hazards & Obstacles              |
 | ---------- | -------------------------------- |
 | 1-4        | `dice:[[Travel Tables#^983fb1]]` |
 | 5-7        | `dice:[[Travel Tables#^8cf0ea]]` |
-| 8-10       | `dice:[[Travel Tables#^8cf0ea]]` |
+| 8-10       | `dice:[[Travel Tables#^fc010c]]` |
+
+^baecff
 
 ### Hazards & Obstacles - Geological
 
-|`dice:d6`|Hazards & Obstacles - Geological|
-|---|---|
-|1|Concealed holes|
-|2|Falling debris|
-|3|Geyser|
-|4|Landslide|
-|5|Quicksand|
-|6|Sinkhole|
+| `dice:d6` | Hazards & Obstacles - Geological |
+| --------- | -------------------------------- |
+| 1         | Geological - Concealed holes     |
+| 2         | Geological - Falling debris      |
+| 3         | Geological - Geyser              |
+| 4         | Geological - Landslide           |
+| 5         | Geological - Quicksand           |
+| 6         | Geological - Sinkhole            |
 
 ^983fb1
 
@@ -97,23 +104,23 @@
 
 | `dice:d6` | Hazards & Obstacles - Other |
 | --------- | --------------------------- |
-| 1         | Ara storm                   |
-| 2         | Flash flood                 |
-| 3         | Poisonous plants            |
-| 4         | Thorns                      |
-| 5         | Tornado                     |
-| 6         | Wildfire                    |
+| 1         | Other - Ara storm           |
+| 2         | Other - Flash flood         |
+| 3         | Other - Poisonous plants    |
+| 4         | Other - Thorns              |
+| 5         | Other - Tornado             |
+| 6         | Other - Wildfire            |
 
 ^8cf0ea
 
 ### Hazards & Obstacles - Man-Made
 
-|`dice:d6`|Hazards & Obstacles - Man-Made|
-|---|---|
-|1|Anlach trap|
-|2|Excavated pit|
-|3|Deadfall|
-|4|Snare|
+| `dice:d6` | Hazards & Obstacles - Man-Made |
+| --------- | ------------------------------ |
+| 1         | Man-Made - Anlach trap         |
+| 2         | Man-Made - Excavated pit       |
+| 3         | Man-Made - Deadfall            |
+| 4         | Man-Made - Snare               |
 
 ### Settlement Type
 
@@ -128,6 +135,8 @@
 | 7         | Tree houses      |
 | 8         | Underground      |
 
+^de6d3b
+
 ### Settlement - Government Type
 
 |`dice:d10`|Settlement - Government Type|
@@ -136,6 +145,8 @@
 |4-6|Elder|
 |7-9|Warchief|
 |10|Elected Magistrate|
+
+^f3b864
 
 ### Settlement - Problems
 
@@ -152,6 +163,8 @@
 |9|Very bad reputation/ difficult access drives traders away|
 |10|Built in the vicinity of a powerful source of Ara that attracts dangerous beasts|
 
+^8e1448
+
 ### Traveling Mishaps
 
 | `dice:d10` | Traveling Mishaps                                                                                                                                                                                                                                                                       |
@@ -167,15 +180,19 @@
 | 9          | The path ahead is completely overgrown with thorny vines, reducing the party’s pace to 2 hexes                                                                                                                                                                                          |
 | 10         | The group stumbles into some swampy muck or quicksand. Each character must make an Acrobatics check (TN 12) to avoid sinking to their death in the quicksand. Failure requires an Athletics check (TN 12 the first try, TN 14 the second try, TN 18 the third try). Failure means death |
 
-### Random Event
+^aac5f1
+
+### Random Daily Event 
 
 | `dice:d10` | Random Event                                                        |
 | ---------- | ------------------------------------------------------------------- |
 | 1-2        | No event                                                            |
-| 3-4        | Findings & Events                                                   |
+| 3-4        | `dice:[[Travel Tables#^5c8803]]`                                    |
 | 5-6        | Combat encounter (use each of the region’s Combat Encounter tables) |
 | 7-9        | NPC encounter                                                       |
 | 10         | Creature and NPC encounter                                          |
+
+^d2d7b3
 
 
 ### Findings & Events
@@ -201,3 +218,29 @@
 |17|A herd of strange goats, their horns blue and large as horses. They look at the characters with comprehension in their eyes. They must be some sort of oida beasts|
 |18|An abandoned farmstead|
 |19-20|A settlement|
+
+^5c8803
+
+### Random Ara Domain
+
+|`dice:d10`|Random Ara Domain|
+|---|---|
+|1|Air|
+|2|Blades|
+|3|Blood|
+|4|Darkness|
+|5|Dream|
+|6|Earth|
+|7|Fire|
+|8|Light|
+|9|Poison|
+|10|Water|
+
+###  Random Weshan Type
+
+|`dice:d4`|Random Weshan Type|
+|---|---|
+|1|Caster|
+|2|Dominator|
+|3|Forger|
+|4|Shaper|

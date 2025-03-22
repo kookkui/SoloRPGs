@@ -1,34 +1,45 @@
-> [!dice] Travel Table
-> ##### Weather
->`dice:[[Travel Tables#^ebc563]]`
+> [!dice] General Tables
+> ##### Random Difficulty
+>`dice:[[DBS Tables#^5baee1]]`
 >
->##### Random Daily Event
->`dice:[[Travel Tables#^d2d7b3]]
+>#####  Mission Complication
+>`dice:[[DBS Tables#^499ef9]]`
 >
->#####  Setting Camp Mishaps
->`dice:[[Travel Tables#^91a88c]]`
+>#####  NPC Combat Behavior
+>`dice:[[DBS Tables#^a7c333]]`
 >
->#####  Explore Hex
->`dice:[[Travel Tables#^9e41d9]]`
+>#####  NPC Combat Maneuver
+>`dice:[[DBS Tables#^6e0cdd]]`
 >
->#####  Hazards & Obstacles
->`dice:[[Travel Tables#^baecff]]`
+>##### Random Skill
+>`dice:[[DBS Tables#^c0428d]]`
 >
->##### Traveling Mishaps
->`dice:[[Travel Tables#^aac5f1]]`
+>##### Random Spell
+>`dice:[[DBS Loot Tables#^9eb60f]]]`
 >
+>##### Alchemy Brew Effect
+>`dice:[[DBS Loot Tables#^36f035]]]`
 
-> [!table] Settlement Tables
->##### Settlement Type
->`dice:[[Travel Tables#^de6d3b]]`
+> [!table] Overworld Tables
+> ##### Terrain Type
+>`dice:[[DBS Tables#^84401e]]`
 >
->##### Settlement - Government Type
->`dice:[[Travel Tables#^f3b864]]`
+>##### Encounter Check
+>`dice:[[DBS Tables#^894799]]`
 >
->##### Settlement - Problems
->`dice:[[Travel Tables#^8e1448]]`
+>#####  Akkar Strand Hex Exploration
+>`dice:[[DBS Exploration Tables#^a00248]]`
+>
+>#####  Madari Hex Exploration
+>`dice:[[DBS Exploration Tables#^f7274d]]`
+>
+>#####  Everscar Highlands Hex Exploration
+>`dice:[[DBS Exploration Tables#^af3bd8]]`
+>
+>##### Travel Complications
+>`dice:[[DBS Tables#^442cac]]`
 
->[!tldr] Combat Tables
+>[!tldr] Interior Exploration
 >##### Encounter Check
 >`dice:[[DBS Tables#^894799]]`
 >
