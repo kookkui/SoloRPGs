@@ -48,3 +48,156 @@
 
 ### NPC
 
+|`dice:d20`|NPCs|
+|---|---|
+|1|Bandits|
+|2|Beggar|
+|3|A clan retinue|
+|4|Blackstorm Cultists|
+|5|Group of fleeing commoners|
+|6|Group of hunters|
+|7|Group of apprentices|
+|8|Group of soldiers|
+|9|Group of woodsmen|
+|10|Local farmers|
+|11|Lone Aram Thyr|
+|12|Lone, mysterious traveler|
+|13|Mercenaries|
+|14|Merchant caravan|
+|15|A clan leader and their retinue|
+|16|Oida beast hunters|
+|17|Strangely dressed foreigners|
+|18|Ruin explorers|
+|19|Two Aram Thyr fighting|
+|20|Troup of wandering performers|
+
+### Hazards & Obstacles
+
+ 
+| `dice:d10` | Hazards & Obstacles              |
+| ---------- | -------------------------------- |
+| 1-4        | `dice:[[Travel Tables#^983fb1]]` |
+| 5-7        | `dice:[[Travel Tables#^8cf0ea]]` |
+| 8-10       | `dice:[[Travel Tables#^8cf0ea]]` |
+
+### Hazards & Obstacles - Geological
+
+|`dice:d6`|Hazards & Obstacles - Geological|
+|---|---|
+|1|Concealed holes|
+|2|Falling debris|
+|3|Geyser|
+|4|Landslide|
+|5|Quicksand|
+|6|Sinkhole|
+
+^983fb1
+
+### Hazards & Obstacles - Other
+
+| `dice:d6` | Hazards & Obstacles - Other |
+| --------- | --------------------------- |
+| 1         | Ara storm                   |
+| 2         | Flash flood                 |
+| 3         | Poisonous plants            |
+| 4         | Thorns                      |
+| 5         | Tornado                     |
+| 6         | Wildfire                    |
+
+^8cf0ea
+
+### Hazards & Obstacles - Man-Made
+
+|`dice:d6`|Hazards & Obstacles - Man-Made|
+|---|---|
+|1|Anlach trap|
+|2|Excavated pit|
+|3|Deadfall|
+|4|Snare|
+
+### Settlement Type
+
+| `dice:d8` | Settlement Type  |
+| --------- | ---------------- |
+| 1         | Cave complex     |
+| 2         | Carved in stone  |
+| 3         | Occupied ruins   |
+| 4         | Single structure |
+| 5         | Stone houses     |
+| 6         | Tents            |
+| 7         | Tree houses      |
+| 8         | Underground      |
+
+### Settlement - Government Type
+
+|`dice:d10`|Settlement - Government Type|
+|---|---|
+|1-3|Council|
+|4-6|Elder|
+|7-9|Warchief|
+|10|Elected Magistrate|
+
+### Settlement - Problems
+
+|`dice:d10`|Settlement - Problems|
+|---|---|
+|1|A terrifying dread beast haunts the place|
+|2|Disappearing townsfolk|
+|3|Bandits|
+|4|Oppressive ruler|
+|5|Cursed (stillbirths, dying crops, no game, etc.)|
+|6|Disease|
+|7|Warring clans|
+|8|Poor ambient Ara makes it difficult to advance|
+|9|Very bad reputation/ difficult access drives traders away|
+|10|Built in the vicinity of a powerful source of Ara that attracts dangerous beasts|
+
+### Traveling Mishaps
+
+| `dice:d10` | Traveling Mishaps                                                                                                                                                                                                                                                                       |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1          | The party runs into some type of encounter. Roll on the appropriate encounter table                                                                                                                                                                                                     |
+| 2          | A thick mist appears, reducing visibility to a distance of 15 feet. Overland travel is cut by 1 hex, and by 2 hexes while across a forest                                                                                                                                               |
+| 3          | The path ahead is blocked in a way that makes sense for the biome: rocks, downed trees, a flood, a landslide, etc. In order to proceed the characters must overcome the obstacle or circle around the hex in the next phase                                                             |
+| 4          | The ground suddenly shifts under the character’s feet, causing them to stumble and fall into the gap below. All characters must perform an Acrobatics check or lose D6 HP due to the fall. Iron and above characters can ignore the damage                                              |
+| 5          | A random party member trips and sprains their ankle (unless they’re Iron or above, in which case nothing happens). The affected character must rest for the remainder of the day, and their speed is reduced by half for D4 days.                                                       |
+| 6          | It appears the party has been walking in circles, making no progress during this phase                                                                                                                                                                                                  |
+| 7          | The characters stumble upon an old hunting ground. Unfortunately for them, the place is still covered in traps, forcing them to reduce their pace to 1 hex in order to avoid them                                                                                                       |
+| 8          | A random character’s boots fall apart. They suffer 1 level of Fatigue due to exposure                                                                                                                                                                                                   |
+| 9          | The path ahead is completely overgrown with thorny vines, reducing the party’s pace to 2 hexes                                                                                                                                                                                          |
+| 10         | The group stumbles into some swampy muck or quicksand. Each character must make an Acrobatics check (TN 12) to avoid sinking to their death in the quicksand. Failure requires an Athletics check (TN 12 the first try, TN 14 the second try, TN 18 the third try). Failure means death |
+
+### Random Event
+
+| `dice:d10` | Random Event                                                        |
+| ---------- | ------------------------------------------------------------------- |
+| 1-2        | No event                                                            |
+| 3-4        | Findings & Events                                                   |
+| 5-6        | Combat encounter (use each of the region’s Combat Encounter tables) |
+| 7-9        | NPC encounter                                                       |
+| 10         | Creature and NPC encounter                                          |
+
+
+### Findings & Events
+
+|`dice:d20`|Findings & Events|
+|---|---|
+|1|Empty animal lair|
+|2|A forgotten shrine|
+|3|A seemingly unexplored ancient ruin|
+|4|An abandoned camp. 1-in-6 chances of finding a random piece of gear|
+|5|A Craobn tree, with a single, glimmering fruit ready to be plucked|
+|6|An Aram Thyr, apparently transcending to the next Spirit Stage. They are vulnerable, and seems to have happened unwillingly|
+|7|An ambush, set up by a group of bandits. Passing a Perception (TN 16) allows the PCs to spot it on time|
+|8|Beast tracks, recent|
+|9|A winged beast the size of a house, flying above and casting a menacing shadow|
+|10|D6 dead creatures (determine which randomly)|
+|11|An Ara dead zone, all colors seem muted and although there are animals and vegetation, their appearance is dull and their behavior erratic and tired. Characters lose 1 Ara/minute while remaining here|
+|12|A strong tremble, throwing everyone down to their knees. A big explosion can be seen in the distance, and seconds later an Ara shockwave can be felt. Something powerful is battling over there|
+|13|A cave. A bloody trail goes inside|
+|14|An ancient battlefield, broken bones and gear sticking out from the soil|
+|15|A patch of Gaeg-Berla’s Tears|
+|16|A presence’s Ara crushes you, throwing you to the ground and making it difficult to breathe. Someone or something very powerful is casting their spiritual senses on this area, searching for something|
+|17|A herd of strange goats, their horns blue and large as horses. They look at the characters with comprehension in their eyes. They must be some sort of oida beasts|
+|18|An abandoned farmstead|
+|19-20|A settlement|
