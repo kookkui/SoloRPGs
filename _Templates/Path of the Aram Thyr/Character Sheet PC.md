@@ -1,18 +1,22 @@
 ---
 Art: "![[Hema.webp|600]]"
 HP: 0
-STR: 12
-DEX: 12
+STR: 16
+DEX: 18
 CONST: 10
-WIS: 18
-INT: 18
-CHA: 10
+WIS: 11
+INT: 13
+CHA: 17
 xp: 10
 spiritstage: Wood
 spiritpath: Path of Celestial Fury
+spiritdomain: PH
 aramax: 20
 typeaffinity: Caster
 axp: 
+spcoin: 10
+bpcoin: 30
+ipcoin: 40
 Weapon1: 
 Weapon1dmg: 
 Weapon1notes: 
@@ -31,13 +35,10 @@ Armor2notes:
 Shield: 
 Shieldrate: 
 Shieldnotes: 
-currency: 115
-ajats: 
 merc: ".6"
 provisions: 10
 flaws: 
 Head: 
-Pskills2: "Inner Compass (1 EP): You may re-roll once any failed Orientation tests."
 passive0: 
 passive1: 
 passive2: 
@@ -51,6 +52,7 @@ passive2:
 >> |--- | --- |
 >>| **Spirit Stage** |  `=this.spiritstage`   |
 >>| **Path** |  `=this.spiritpath`   |
+>>| **Domain** |  `=this.spiritdomain`   |
 >>|**HP** | **Current:** `30` **Max:** `=this.CONST*3`|
 >> |**Ara Pool** | **Current:** `30`  **Max:** `=this.aramax`   |
 >>
@@ -91,26 +93,16 @@ passive2:
 >>&nbsp;
 >>
 >> ###### Supplies
->>  | 
->>---|---|
->>**Jats**|`=this.currency` |
->>**Sellsword Cut**| `VIEW[{ajats} * {merc}]`
->>**Provisions**|`23` |
+>>  | ||
+>>---|---|---|
+>>**Silver Pieces (sp)**|`=this.spcoin` |
+>>**Bronze Pieces (bp)**|`=this.bpcoin` | **bp:** `=floor((this.bpcoin)/10)` *sp*
+>>**Iron Pieces (ip)**|`=this.ipcoin` |**ip:** `=floor((this.ipcoin)/10)` *bp*
+>>**Rations**|`0` |
 >>**Torches**|`0` |
->>**Lamp Oil**|`18` |
->>**Sellsword jats**|  `INPUT[number:ajats]` `BUTTON[pjats]`|
->>
->>&nbsp;
->>
->>##### Quests
->>Description  | Milestones |
->>---|---|
->>`=this.quest1`|`0/6` |
->>`=this.quest2`| |
->>
->>
->>##### Notes
->>`INPUT[textArea:Other]`
+>>**Lamp Oil**|`0` |
+
+
 
 
 >[!thing] %%FAKE TITLE HERE%%
@@ -118,91 +110,38 @@ passive2:
 >> ### Attributes 
 >>| Stat | Sore | Mod |Save|
 >>| :---: | :---: | :---: | :---: |
->>| **Strength** | `=this.STR` | +`=floor((this.STR - 10)/3)`| `=floor((this.STR - 10)/3)`|
->>| **Intelligence** | `=this.INT` | +`=floor((this.INT - 10)/3)`| `=floor((this.INT - 10)/3)`|
->>| **Wisdom** | `=this.WIS` | +`=floor((this.WIS - 10)/3)`|`=floor((this.WIS - 10)/3)`|
->>| **Dexterity** | `=this.DEX` | +`=floor((this.DEX - 10)/3)`|`=floor((this.DEX - 10)/3)`|
->>| **Constitution** | `=this.CONST` |+`=floor((this.CONST - 10)/3)`| `=floor((this.CONST - 10)/3)`|
->>| **Charisma** | `=this.CHA` | +`=floor((this.CHA - 10)/3)`| `=floor((this.CHA - 10)/3)`|
+>>| **Strength** | `=this.STR` | +`=floor((this.STR - 10)/2.5)`| `=floor((this.STR - 10)/2.5)`|
+>>| **Intelligence** | `=this.INT` | +`=floor((this.INT - 10)/2.5)`| `=floor((this.INT - 10)/2.5)`|
+>>| **Wisdom** | `=this.WIS` | +`=floor((this.WIS - 10)/2.5)`|`=floor((this.WIS - 10)/2.5)`|
+>>| **Dexterity** | `=this.DEX` | +`=floor((this.DEX - 10)/2.5)`|`=floor((this.DEX - 10)/2.5)`|
+>>| **Constitution** | `=this.CONST` |+`=floor((this.CONST - 10)/2.5)`| `=floor((this.CONST - 10)/2.5)`|
+>>| **Charisma** | `=this.CHA` | +`=floor((this.CHA - 10)/2.5)`| `=floor((this.CHA - 10)/2.5)`|
 >>| **Max Gear Slots** | `=(this.STR)+10` | ||
 >>---
 >>&nbsp;
 >> ### Skill Checks
->>| <span style="color:rgb(129, 216, 208)">Skill Name</span>|<span style="color:rgb(129, 216, 208)"> Skill Level</span> |
->>| ------------ | ----------- |
->>| **Alchemy** | `31` |
->>| **Animal Handling** (CHA `=this.CHA`) | `22` |
->>| **Command Skills** (CHA `=this.CHA`) | `10` |
->>| **Crafting** (DEX `=this.DEX`) | `22` |
->>| **Disguise** (DEX `=this.DEX`) | `12` |
->>| **Dodge** (DEX `=this.DEX` x 2 ) (`=(this.DEX)*2`) | `48` |
->>|**First Aid** (20) | `45` |
->>| **Forbidden Lore** | `10` |
->>| **Herb Lore** | `47` |
->>| **Literacy** (INT `=this.INT`) | `46` |
->>| **One-Handed Melee** (STR `=this.STR` + DEX `=this.DEX`) (`=(this.STR)+(this.DEX)`) | `44` |
->>| **Orientation** (20) | `41` |
->>|**Outdoor Survival** (INT `=this.INT` + DEX `=this.DEX`) (`=(this.INT)+(this.DEX)`)| `40` |
->>| **Parry** (STR `=this.STR` + DEX `=this.DEX`) (`=(this.STR)+(this.DEX)`) | `56` |
->>| **Perception** (20) | `36` |
->>| **Persuasion** (CHA `=this.CHA`) | `21` |
->>| **Pick Pockets** (DEX `=this.DEX`) | `12` |
->>| **Ranged Weapons** (DEX `=this.DEX` x 2) (`=(this.DEX)*2`) | `25` |
->>| **Sailing** (DEX `=this.DEX`) | `12` |
->>| **Sneaking** (DEX `=this.DEX` x 2 ) (`=(this.DEX)*2`) | `35` |
->>| **Throw** (STR `=this.STR` + DEX `=this.DEX`) (`=(this.STR)+(this.DEX)`) | `24` |
->>| **Tracking** (INT `=this.INT` ) | `35` |
->>| **Traditional Lore** (20) | `30` |
->>| **Two-Handed Melee** (STR `=this.STR` x 2) (`=(this.STR)*2`) | `62` |
->>| **Unarmed** (STR `=this.STR` + DEX `=this.DEX`) (`=(this.STR)+(this.DEX)`)| `24` |
->>
->
->>[!seealso] %%FAKE TITLE HERE%%
->> ### Modifiers
->> |        |         |   
->>| :-: | :----- |
->>| 1 | `=this.mod0` |
->>| 2 | `=this.mod1` |
->>| 3 | `=this.mod2` |
->>| 4 | `=this.mod3` |
->>| 5 | `=this.mod4` |
->>| 6 |`=this.mod5` |
->>| 7 | `=this.mod6` |
+>>| **Skill Name** | **Skill Level** | **Skill Name** | **Skill Level** |
+>>| :-----: | :-: |:------: | :-: |
+>>|**Acrobatics** (DEX +`=floor((this.DEX - 10)/2.5)`)|`0`| **Nature** (INT +`=floor((this.INT - 10)/2.5)`) | `0` |
+>>| **Animal Handling** (WIS +`=floor((this.WIS - 10)/2.5)`) | `0` | **Perception** (WIS +`=floor((this.WIS - 10)/2.5)`) | `0`|
+>>|**Athletics** (STR +`=floor((this.STR - 10)/2.5)`)| `0` | **Performance** (CHA +`=floor((this.CHA - 10)/2.5)`) | `0` |
+>>| **Culture** (INT +`=floor((this.INT - 10)/2.5)`) | `0` | **Sacred Scripture** (INT +`=floor((this.INT - 10)/2.5)`) | `0` |
+>>| **Deception** (CHA +`=floor((this.CHA - 10)/2.5)`) | `0` |**Sleight of Hand** (DEX +`=floor((this.DEX - 10)/2.5)`) | `0` |
+>>|**Insight** (WIS +`=floor((this.WIS - 10)/2.5)`)|`0` |**Spiritual Lore** (WIS +`=floor((this.WIS - 10)/2.5)`)| `0`|
+>>| **Investigation** (INT +`=floor((this.INT - 10)/2.5)`) | `0` | **Stealth** (DEX +`=floor((this.DEX - 10)/2.5)`)|`0`|
+>>|**Manipulation** (CHA +`=floor((this.CHA - 10)/2.5)`)| `0` | **Survival** (WIS +`=floor((this.WIS - 10)/2.5)`) | `0` |
+>>| **Medicine** (WIS +`=floor((this.WIS - 10)/2.5)`) | `0` | **Weshan Control** (INT +`=floor((this.INT - 10)/2.5)`) | `0` |
 >
 >>[!travel] %%FAKE TITLE HERE%%
->> ### Passive Skills
->> |        |         |   
->>| :-: | :----------------------------------------- |
->>| 1 | `=this.passive0` |
->>| 2 | `=this.passive1` |
->>| 3 | `=this.passive2` |
->>| 4 | `=this.passive3` |
->>| 5 | `=this.passive4` |
->>| 6 |`=this.passive5` |
->>| 7 | `=this.passive6` |
->>| 8 | `=this.passive7` |
->>| 9 | `=this.passive8` |
->>| 10 | `=this.passive9` |
->>| 11 | `=this.passive10` |
->>| 12 | `=this.passive11` |
->>| 13 | `=this.passive12` |
->>| 14 | `=this.passive13` |
->>| 15 | `=this.passive14` |
->>| 16 | `=this.passive1416` |
->>| 17 | `=this.passive1417` |
->>| 18 | `=this.passive1418`
->
->>[!tldr] %%FAKE TITLE HERE%%
->>##### Archetypes
->> |        |         |   
->>| :-: | :----- |
->>| 1 | `=this.archetype0` |
->>| 2 | `=this.archetype1` |
->>| 3 | `=this.archetype2` |
->>| 4 | `=this.archetype3` |
->>| 5 | `=this.archetype4` |
->>| 6 |`=this.archetype5` |
->>| 7 | `=this.archetype6` |
+>>##### Proficiencies
+>> | | |
+>>|:-:| :---: |
+>>| `=this.proficiency1` | `=this.proficiency2` |
+>>| `=this.proficiency3` | `=this.proficiency4` |
+>>| `=this.proficiency5` | `=this.proficiency6` |
+>>| `=this.proficiency7` | `=this.proficiency8` |
+>>| `=this.proficiency9` | `=this.proficiency10` |
+>>| `=this.proficiency11` | `=this.proficiency12` |
 
 >[!gather] %%FAKE TITLE HERE%%
 >>[!table] %%FAKE TITLE HERE%%
@@ -248,7 +187,28 @@ passive2:
 
 >[!crafting] %%FAKE TITLE HERE%%
 >>[!npc] %%FAKE TITLE HERE%%
->>### Magic
+>>### Heart Abilities
+>>
+>>| **Ability Name** | Life Bolt | **Type** | Holy, Attack, Support |
+>>|:-:|:----------:|:-----:|:---------------------:|
+>>| **Rank** | Novice | **XP** | |
+>>| **Cost** | 2 MP | **Heart** | Talent, Restoration |
+>>| **Actions** | 1 Required | **Range** | 30 m        |  
+>>&nbsp;
+>> 
+>>
+>>Target is healed for D6+DM Health. If the target is undead, it deals damage instead.
+>>
+>>&nbsp;
+>>**Apprentice Rank:** Amount increased to 2D6+DM 
+>>**Veteran Rank:** Amount increased to 3D6+DM 
+>>**Master Rank:** Amount increased to 4D6+DM
+>>&nbsp;
+>>*You gather divine energy in your hand, shooting off a beam of bright light.*
+>>
+>>&nbsp
+>>
+>>---
 >>|     |     |
 >> |--- | --- |
 >>|**Name** | `=this.Spell1`|
