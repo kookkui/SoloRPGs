@@ -26,6 +26,8 @@
 | 19         | Wolf                         |
 | 20         | Yursan                       |
 
+^ab8976
+
 ###  Aunios Job Board
 
 
@@ -51,6 +53,8 @@
 |18|Payment offered for each head of a dire beast brought|
 |19|Bandits have been intercepting food and supply shipments destined for the new logging settlement located approximately 3 days' south- east of town, at the border of the forest. We are requesting able- bodied warriors to act as escorts for the next and final shipment|
 |20|Sacred scribe required to create a series of anlach|
+
+^35937c
 
 ## Ebon Hills
 
@@ -78,6 +82,8 @@
 |18|Giant Snake|
 |19|Giant Spider|
 |20|Wolf|
+
+^74e717
 
 
 ## Raging Peaks
@@ -107,6 +113,8 @@
 |19|Wolf|
 |20|Yursan|
 
+^8b3b11
+
 ### Regional Weekly Events
 
 |`dice:d20`|Regional Weekly Events|
@@ -131,3 +139,5 @@
 |18|Warriors seemingly representing the Trileykon clan are looking for new recruits|
 |19|Rumors of Eukon the infinite having been spotted in the vicinity abound, although many contradict each other|
 |20|A Legendary Dread Beast awakens|
+
+^ba1d3c

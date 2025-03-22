@@ -13,6 +13,8 @@
 |9|Failed Parry: The target drops the weapon they’re wielding. If not wielding a weapon, they receive an extra D6 damage|
 |10|Crushing Blow: The target dies|
 
+^e255e2
+
 ### Critical Hit - Slashing
 
 |`dice:d10`|Critical Hit - Slashing|
@@ -27,6 +29,8 @@
 |8|Chest Slice: The target loses D4 HP/round|
 |9|Disembowel: The target must pass a CON saving throw (TN 14) or die|
 |10|Decapitation: The target dies|
+
+^d644aa
 
 ### Critical Hit - Piercing
 
@@ -43,35 +47,41 @@
 | 9          | Impaled: The target receives triple damage, instead of double                                                             |
 | 10         | Wound to the Neck: The target dies                                                                                        |
 
+^d9ea2b
+
 ### Critical Hit - Weshan
 
-|`dice:d10`|Critical Hit - Weshan|
-|---|---|
-|1|Petrifed: The target must pass a Paralysis saving throw or be paralyzed for 10 min|
-|2|Vulnerable: the target’s DL is reduced by 2 when targeted by this same type of attack|
-|3|Dazzled: The target is stunned and cannot act for D10 rounds|
-|4|Knockback: The target is pushed back 20 ft|
-|5|Echoing Force: Another target receives a normal attack|
-|6|Gush: The target bleeds, losing 1 HP/Round|
-|7|Concussive Push: The target is launched upwards, falling down moments later. Receives +1D6 damage, is stunned 1 round|
-|8|Nerve Damage: The target receives triple damage, instead of double|
-|9|Savage Damage: the target must roll on the Permanent Wound table|
-|10|Disintegrated: The target dies|
+| `dice:d10` | Critical Hit - Weshan                                                                                                 |
+| ---------- | --------------------------------------------------------------------------------------------------------------------- |
+| 1          | Petrifed: The target must pass a Paralysis saving throw or be paralyzed for 10 min                                    |
+| 2          | Vulnerable: the target’s DL is reduced by 2 when targeted by this same type of attack                                 |
+| 3          | Dazzled: The target is stunned and cannot act for D10 rounds                                                          |
+| 4          | Knockback: The target is pushed back 20 ft                                                                            |
+| 5          | Echoing Force: Another target receives a normal attack                                                                |
+| 6          | Gush: The target bleeds, losing 1 HP/Round                                                                            |
+| 7          | Concussive Push: The target is launched upwards, falling down moments later. Receives +1D6 damage, is stunned 1 round |
+| 8          | Nerve Damage: The target receives triple damage, instead of double                                                    |
+| 9          | Savage Damage: the target must roll on the Permanent Wound table                                                      |
+| 10         | Disintegrated: The target dies                                                                                        |
+
+^ad73bc
 
 ### Fumbles
 
-|`dice:d10`|Fumbles|
-|---|---|
-|1|You drop your weapon and must spend your next turn recovering it. If you are not wielding a weapon, your next attack has Disadvantage|
-|2|You hurl your weapon with such strength that it gets stuck very deep on a wall or ground. You must perform a successful STR ability check to retrieve it. If you are not wielding a weapon, your next attack has Disadvantage|
-|3|You hurl your weapon with such strength that it smashes against a stone, breaking in half. If you are not wielding a weapon, your next attack has Disadvantage|
-|4|A random item falls from your bags|
-|5|You lose concentration, ruining your breathing and losing D6 Ara|
-|6|You trip and fall, wasting this action. You are prone and must use an action to stand next round|
-|7|In the process of executing your attack you trip and move forward 5 ft and fall prone|
-|8|If it is able to do so, your attack hits your closest ally to the intended target|
-|9|You manage to strike yourself with a normal attack|
-|10|You somehow manage to hurt yourself badly with your own weapon. You receive a critical hit|
+| `dice:d10` | Fumbles                                                                                                                                                                                                                       |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1          | You drop your weapon and must spend your next turn recovering it. If you are not wielding a weapon, your next attack has Disadvantage                                                                                         |
+| 2          | You hurl your weapon with such strength that it gets stuck very deep on a wall or ground. You must perform a successful STR ability check to retrieve it. If you are not wielding a weapon, your next attack has Disadvantage |
+| 3          | You hurl your weapon with such strength that it smashes against a stone, breaking in half. If you are not wielding a weapon, your next attack has Disadvantage                                                                |
+| 4          | A random item falls from your bags                                                                                                                                                                                            |
+| 5          | You lose concentration, ruining your breathing and losing D6 Ara                                                                                                                                                              |
+| 6          | You trip and fall, wasting this action. You are prone and must use an action to stand next round                                                                                                                              |
+| 7          | In the process of executing your attack you trip and move forward 5 ft and fall prone                                                                                                                                         |
+| 8          | If it is able to do so, your attack hits your closest ally to the intended target                                                                                                                                             |
+| 9          | You manage to strike yourself with a normal attack                                                                                                                                                                            |
+| 10         | You somehow manage to hurt yourself badly with your own weapon. You receive a critical hit                                                                                                                                    |
+
+^58b53a
 
 ### Permanent Wound
 
@@ -113,6 +123,8 @@
 |9|If not engaged in combat attempt to sneak and ambush|
 |10|Attempt to leverage the terrain/position|
 
+^55f934
+
 ### At 50% or Less Health
 
 |`dice:d10`|At 50% or Less Health|
@@ -125,6 +137,8 @@
 |9|Call for help/summon reinforcements; if none are available then fall back|
 |10|Flee|
 
+^a0cdb9
+
 ### At 25% or Less Health
 
 |`dice:d10`|At 25% or Less Health|
@@ -133,3 +147,22 @@
 |3-4|Fall back|
 |5-6|Use defensive/beneficial item or ability (healing item, weshan, etc.). If none, desperate attack|
 |7-10|Flee|
+
+^53fd74
+
+
+### Beast Encounter Check
+
+|`dice:d6`|Beast Check|
+|---|---|
+|1-2|Basic Bitch Beast|
+|3-6|`dice:[[Combat Tables#^ae4697]]`|
+
+^5e804a
+
+|`dice:d6`|Dire Beast Check|
+|---|---|
+|1-2|Oida Beast Only|
+|3-6|Dire Beast|
+
+^ae4697

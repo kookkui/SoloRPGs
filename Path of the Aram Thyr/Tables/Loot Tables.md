@@ -15,7 +15,9 @@
 | 12         | Pendant worth 500 sp                                                                                           |
 | 13         | A manual that describes weshan control techniques. If studied, grants +1 Weshan Control. Can only be used once |
 | 14-15      | Random Anlach formula                                                                                          |
-| 16-20      | `dice:[[Loot Tables#^c7d811]]`                                                                               |
+| 16-20      | `dice:[[Loot Tables#^c7d811]]`                                                                                 |
+
+^4b7d71
 
 ### Relics
 

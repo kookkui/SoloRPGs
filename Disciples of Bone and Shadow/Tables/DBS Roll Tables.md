@@ -3,7 +3,7 @@
 >`dice:[[Travel Tables#^ebc563]]`
 >
 >##### Random Daily Event
->`dice:[[Travel Tables#^d2d7b3]]
+>`dice:[[Travel Tables#^d2d7b3]]`
 >
 >#####  Setting Camp Mishaps
 >`dice:[[Travel Tables#^91a88c]]`
@@ -12,13 +12,22 @@
 >`dice:[[Travel Tables#^9e41d9]]`
 >
 >#####  Hazards & Obstacles
->`dice:[[Travel Tables#^baecff]]`
+>`dice:[[Travel Tables#^baecff]]]`
 >
 >##### Traveling Mishaps
 >`dice:[[Travel Tables#^aac5f1]]`
 >
 
-> [!table] Settlement Tables
+> [!table] World Building Tables
+>##### Random NPC
+>`dice:[[Travel Tables#^c6bceb]]`
+>
+>##### NPC Initial Disposition
+>`dice:[[Travel Tables#^747b2a]]`
+>
+>##### Settlement - Problems
+>`dice:[[Travel Tables#^8e1448]]`
+>
 >##### Settlement Type
 >`dice:[[Travel Tables#^de6d3b]]`
 >
@@ -28,99 +37,56 @@
 >##### Settlement - Problems
 >`dice:[[Travel Tables#^8e1448]]`
 
->[!tldr] Combat Tables
->##### Encounter Check
->`dice:[[DBS Tables#^894799]]`
+>[!seealso] Regional Tables
+>##### Beast Encounter Check
+>`dice:[[Combat Tables#^5e804a]]`
 >
->##### Doors
->`dice:[[DBS Tables#^e7d45c]]`
+>##### Combat Encounters - Gill’séo
+>`dice:[[Regional Tables#^ab8976]]`
 >
->##### Exits
->`dice:[[DBS Tables#^432bd3]]`
+>##### Aunios Job Board
+>`dice:[[Regional Tables#^35937c]]`
 >
->##### Artifice Type
->`dice:[[DBS Tables#^4f9f58]]`
+>##### Combat Encounters - Ebon Hills
+>`dice:[[Regional Tables#^74e717]]`
 >
->##### Artifice Effect
->`dice:[[DBS Tables#^819548]]`
+>##### Combat Encounters - Raging Peaks
+>`dice:[[Regional Tables#^8b3b11]]`
 >
->##### Interior Locations Special Conditions
->`dice:[[DBS Exploration Tables#^027a32]]`
->
->##### Traps
->`dice:[[DBS Tables#^e563c4]]`
+>##### Regional Weekly Events
+>`dice:[[Regional Tables#^ba1d3c]]`
 
->[!seealso] Ruins
->##### Ruin Exploration
->`dice:[[DBS Exploration Tables#^985a68]]`
+>[!crafting] Combat Tables
+>##### At Full Health
+>`dice:[[Combat Tables#^55f934]]`
 >
->##### Ruin Encounters
->`dice:[[DBS Exploration Tables#^be082e]]`
+>##### At 50% or Less Health
+>`dice:[[Combat Tables#^a0cdb9]]`
 >
->##### Interesting Finds
->`dice:[[DBS Loot Tables#^19703a]]`
+>##### At 25% or Less Health
+>`dice:[[Combat Tables#^53fd74]]`
 >
->##### Original Purpose
->`dice:[[DBS Exploration Tables#^197210]]`
+>##### Critical Hit - Bludgeoning
+>`dice:[[Combat Tables#^e255e2]]]`
 >
->##### Cause of Demise
->`dice:[[DBS Exploration Tables#^8b6f8f]]`
+>##### Critical Hit - Slashing
+>`dice:[[Combat Tables#^d644aa]]`
 >
->##### Random Ruins Name
->`dice:[[DBS Exploration Tables#^8d01b2]]` `dice:[[DBS Exploration Tables#^7fc11e]]`
+>##### Critical Hit - Piercing
+>`dice:[[Combat Tables#^d9ea2b]]]`
 >
+>##### Critical Hit - Weshan
+>`dice:[[Combat Tables#^ad73bc]]`
+>
+>##### Fumbles
+>`dice:[[Combat Tables#^58b53a]]`
 
-> [!gather] Caves
->##### Cave Exploration
->`dice:[[DBS Exploration Tables#^9d5567]]`
+>[!dice] Loot Tables
+>##### Valuables
+>`dice:[[Loot Tables#^4b7d71]]`
 >
->##### Cave Encounters
->`dice:[[DBS Exploration Tables#^2a3c84]]`
->
->##### Cave Name
->`dice:[[DBS Exploration Tables#^59e10f]]` `dice:[[DBS Exploration Tables#^fd6892]]`
-
-
-> [!danger] Monsters
->##### Combat - Defensive Moves
->`dice:[[DBS Encounter Tables#^879efa]]`
->
->##### Taint Check
->`dice:[[DBS Tables#^afb9a4]]`
->
->##### Hostile Human Encounter
->`dice:[[DBS Encounter Tables#^2aea04]]`
->
->##### Random Encounter's by Category 
->`dice:[[DBS Encounter Tables#^d12cea]]`
->
->##### Mark of Taint
->`dice:[[DBS Encounter Tables#^89024c]]`
->
-> ##### Creature Combat Actions at 50% or Less Health
->`dice:[[Threat Tables#^673c98]]`
->
-> ##### Creature Combat Actions at 25% or Less Health
->`dice:[[Threat Tables#^17c9c6]]`
-
->[!dice] Loot
->##### Plants & Herbs
->`dice:[[DBS Exploration Tables#^3ec88a]]`
->
->##### Random Loot
->`dice:[[DBS Loot Tables#^bae025]]`
->
->##### Common Finds
->`dice:[[DBS Loot Tables#^80c050]]`
->
->##### Valuable Finds
->`dice:[[DBS Loot Tables#^494166]]`
->
->#####  Rare Finds
->`dice:[[DBS Loot Tables#^a381b4]]`
->
->##### Artifacts
->`dice:[[DBS Loot Tables#^25e5a3]]`
+>##### Relics
+>`dice:[[Loot Tables#^c7d811]]`
 
 >[!NPC] GM Emulation
 >
@@ -133,13 +99,3 @@
 >##### GM Emulation - NPC Motivations
 >`dice:[[DBS GM Emulation#^1dbade]]`
 >
->##### Injury Severity
->`dice:[[DBS Tables#^dee425]]`
->
->##### Random NPCs You May Find While Traveling
->`dice:[[DBS GM Emulation#^02bb26]]`
->
->##### Interesting or Forgotten Places You Would Find Wandering
->`dice:[[DBS GM Emulation#^3f95ee]]`
-
-[[DoBS House Rules]]

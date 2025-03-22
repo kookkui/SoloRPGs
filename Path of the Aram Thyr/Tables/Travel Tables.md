@@ -52,6 +52,8 @@
 |17-19|Friendly|
 |20|Helpful|
 
+^747b2a
+
 ### NPC
 
 |`dice:d20`|NPCs|
@@ -77,13 +79,15 @@
 |19|Two Aram Thyr fighting|
 |20|Troup of wandering performers|
 
+^c6bceb
+
 ### Hazards & Obstacles
  
-| `dice:d10` | Hazards & Obstacles              |
-| ---------- | -------------------------------- |
-| 1-4        | `dice:[[Travel Tables#^983fb1]]` |
-| 5-7        | `dice:[[Travel Tables#^8cf0ea]]` |
-| 8-10       | `dice:[[Travel Tables#^fc010c]]` |
+| `dice:d10` | Hazards & Obstacles               |
+| ---------- | --------------------------------- |
+| 1-4        | `dice:[[Travel Tables#^983fb1]]`  |
+| 5-7        | `dice:[[Travel Tables#^8cf0ea]]`  |
+| 8-10       | `dice:[[Travel Tables#^fc010c]]]` |
 
 ^baecff
 
@@ -223,18 +227,20 @@
 
 ### Random Ara Domain
 
-|`dice:d10`|Random Ara Domain|
-|---|---|
-|1|Air|
-|2|Blades|
-|3|Blood|
-|4|Darkness|
-|5|Dream|
-|6|Earth|
-|7|Fire|
-|8|Light|
-|9|Poison|
-|10|Water|
+| `dice:d10` | Random Ara Domain |
+| ---------- | ----------------- |
+| 1          | Air               |
+| 2          | Blades            |
+| 3          | Blood             |
+| 4          | Darkness          |
+| 5          | Dream             |
+| 6          | Earth             |
+| 7          | Fire              |
+| 8          | Light             |
+| 9          | Poison            |
+| 10         | Water             |
+
+^a8800d
 
 ###  Random Weshan Type
 
@@ -244,3 +250,5 @@
 |2|Dominator|
 |3|Forger|
 |4|Shaper|
+
+^915f7e
