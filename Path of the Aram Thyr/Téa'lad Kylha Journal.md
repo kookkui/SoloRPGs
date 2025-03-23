@@ -38,3 +38,16 @@ Combat Start!
 
 Kylha Turn
 
+Attack Check 14 Hit!
+
+12 Damage to the Bobcat(22)
+
+Bobcat Turn
+
+Relevant Weshan (if any otherwise standard attack)
+
+Bobcat casts Ara Fists +2 damage
+
+Kylha Turn 
+
+Attack Check (12) 
