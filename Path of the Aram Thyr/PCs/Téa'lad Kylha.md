@@ -78,8 +78,8 @@ SpiritPath: Path of Celestial Fury
 >> `=this.Art`
 >> ###### Attributes 
 >>|     |     |
->> |--- | --- |
->>| **Spirit Stage** |  `INPUT[inlineSelect(option(Wood), option(Bronze), option(Iron), option(Silver), option(Gold), option(Platinum), option(Diamond)):SpiritStage]`   |
+>> |------ | :---: |
+>>|**Spirit Stage**|  `INPUT[inlineSelect(option(Wood), option(Bronze), option(Iron), option(Silver), option(Gold), option(Platinum), option(Diamond)):SpiritStage]`   |
 >>| **Path** |  `INPUT[inlineSelect(option(Path of Celestial Fury), option(Path of Endless Blade), option(Path of the Everlasting Shadows), option(Path of Flaming Truth), option(Path of the Thousand Mirrors), option(Path of Invincible Blood), option(Path of the Rolling Boulder), option(Path of the Rushing Water), option(Path of Seething Fangs), option(Path of the Slicing Wind)):SpiritPath]`   |
 >>| **Domain** |  `INPUT[inlineSelect(option(Light), option(Blades), option(Darkness), option(Fire), option(Dream), option(Blood), option(Earth), option(Water), option(Poison), option(Wind)):spiritdomain]`   |
 >> |**Reputation**| `30` |

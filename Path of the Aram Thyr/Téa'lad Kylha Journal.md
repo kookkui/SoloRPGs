@@ -38,4 +38,3 @@ Combat Start!
 
 Kylha Turn
 
-Lifetap: You can tap into your Life Ara and sacrifice your own vitality to regain some Ara. For each 1 HP you spend you gain 2 Ara. This counts as an action.
