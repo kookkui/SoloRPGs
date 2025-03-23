@@ -1,5 +1,5 @@
 ```statblock
-name: "Blackstorm Cultist"
+name: "Blackstorm Cultist(Path)"
 layout: PathAram
 type: "Humanoid"
 stats: [10, 13, 12, 14, 16, 10]
