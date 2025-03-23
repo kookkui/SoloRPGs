@@ -10,7 +10,7 @@ xp: 20
 spiritstage: 
 SpiritStage: Wood
 spiritdomain: Light
-kingift: Life Tap
+kingift: "Lifetap: You can tap into your Life Ara and sacrifice your own vitality to regain some Ara. For each 1 HP you spend you gain 2 Ara. This counts as an action."
 healingrate: D8
 MaxHP: 18
 aramax: 20
@@ -82,10 +82,10 @@ SpiritPath: Path of Celestial Fury
 >>| **Spirit Stage** |  `INPUT[inlineSelect(option(Wood), option(Bronze), option(Iron), option(Silver), option(Gold), option(Platinum), option(Diamond)):SpiritStage]`   |
 >>| **Path** |  `INPUT[inlineSelect(option(Path of Celestial Fury), option(Path of Endless Blade), option(Path of the Everlasting Shadows), option(Path of Flaming Truth), option(Path of the Thousand Mirrors), option(Path of Invincible Blood), option(Path of the Rolling Boulder), option(Path of the Rushing Water), option(Path of Seething Fangs), option(Path of the Slicing Wind)):SpiritPath]`   |
 >>| **Domain** |  `INPUT[inlineSelect(option(Light), option(Blades), option(Darkness), option(Fire), option(Dream), option(Blood), option(Earth), option(Water), option(Poison), option(Wind)):spiritdomain]`   |
->>| **Kin Gift** |  `=this.kingift`   |
 >> |**Reputation**| `30` |
 >>|**HP** | **Current:** `15` **Max:** `=this.MaxHP`|
 >> |**Ara Pool** | **Current:** `20`  **Max:** `=this.aramax`   |
+>>| **Kin Gift** |  `=this.kingift`   |
 >>
 >>&nbsp;
 >>

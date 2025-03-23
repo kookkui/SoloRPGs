@@ -45,3 +45,29 @@
 | 20         | Relic - Weshan Scroll             |
 
 ^c7d811
+
+
+| `dice:d10` | Random Ara Domain |
+| ---------- | ----------------- |
+| 1          | Air               |
+| 2          | Blades            |
+| 3          | Blood             |
+| 4          | Darkness          |
+| 5          | Dream             |
+| 6          | Earth             |
+| 7          | Fire              |
+| 8          | Light             |
+| 9          | Poison            |
+| 10         | Water             |
+
+^ca2736
+
+
+|`dice:d4`|Random Weshan Type|
+|---|---|
+|1|Caster|
+|2|Dominator|
+|3|Forger|
+|4|Shaper|
+
+^5ff539

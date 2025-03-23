@@ -14,11 +14,17 @@ Weather: Overcast
 creature: Bobcat(Path)
 ```
 
-**HP: 34**
-**Ara Pool: 10**
+**HP:** 34
+**Ara Pool:** 10
 **Attack skill and damage dealt increased by +2**
 **+50% more XP**
-
+**Ara Domain:** Air
+**Random Weshan Type:** Forger
+Ara Fists
+Domain Affinities: All
+Cost: 5 Ara / Execution time: 1 Action / Range: Self
+The character encases their fists in (Domain) Ara, dealing +2 damage for 
+1 minute when fighting unarmed.
 
 ```encounter
 players:
@@ -26,3 +32,10 @@ players:
 creatures:
   - Bobcat(Path) , 34, 12
 ```
+
+
+Combat Start!
+
+Kylha Turn
+
+Lifetap: You can tap into your Life Ara and sacrifice your own vitality to regain some Ara. For each 1 HP you spend you gain 2 Ara. This counts as an action.

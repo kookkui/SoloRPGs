@@ -18,44 +18,6 @@
 >`dice:[[Travel Tables#^aac5f1]]`
 >
 
-> [!table] World Building Tables
->##### Random NPC
->`dice:[[Travel Tables#^c6bceb]]`
->
->##### NPC Initial Disposition
->`dice:[[Travel Tables#^747b2a]]`
->
->##### Settlement - Problems
->`dice:[[Travel Tables#^8e1448]]`
->
->##### Settlement Type
->`dice:[[Travel Tables#^de6d3b]]`
->
->##### Settlement - Government Type
->`dice:[[Travel Tables#^f3b864]]`
->
->##### Settlement - Problems
->`dice:[[Travel Tables#^8e1448]]`
-
->[!seealso] Regional Tables
->##### Beast Encounter Check
->`dice:[[Combat Tables#^5e804a]]`
->
->##### Combat Encounters - Gill’séo
->`dice:[[Regional Tables#^ab8976]]`
->
->##### Aunios Job Board
->`dice:[[Regional Tables#^35937c]]`
->
->##### Combat Encounters - Ebon Hills
->`dice:[[Regional Tables#^74e717]]`
->
->##### Combat Encounters - Raging Peaks
->`dice:[[Regional Tables#^8b3b11]]`
->
->##### Regional Weekly Events
->`dice:[[Regional Tables#^ba1d3c]]`
-
 >[!crafting] Combat Tables
 >##### At Full Health
 >`dice:[[Combat Tables#^55f934]]`
@@ -80,6 +42,51 @@
 >
 >##### Fumbles
 >`dice:[[Combat Tables#^58b53a]]`
+>
+>##### Random Ara Domain
+>`dice:[[Loot Tables#^ca2736]]`
+>
+>##### Random Weshan Type
+>`dice:[[Loot Tables#^5ff539]]`
+
+>[!seealso] Regional Tables
+>##### Beast Encounter Check
+>`dice:[[Combat Tables#^5e804a]]`
+>
+>##### Combat Encounters - Gill’séo
+>`dice:[[Regional Tables#^ab8976]]`
+>
+>##### Aunios Job Board
+>`dice:[[Regional Tables#^35937c]]`
+>
+>##### Combat Encounters - Ebon Hills
+>`dice:[[Regional Tables#^74e717]]`
+>
+>##### Combat Encounters - Raging Peaks
+>`dice:[[Regional Tables#^8b3b11]]`
+>
+>##### Regional Weekly Events
+>`dice:[[Regional Tables#^ba1d3c]]`
+
+> [!table] World Building Tables
+>##### Random NPC
+>`dice:[[Travel Tables#^c6bceb]]`
+>
+>##### NPC Initial Disposition
+>`dice:[[Travel Tables#^747b2a]]`
+>
+>##### Settlement - Problems
+>`dice:[[Travel Tables#^8e1448]]`
+>
+>##### Settlement Type
+>`dice:[[Travel Tables#^de6d3b]]`
+>
+>##### Settlement - Government Type
+>`dice:[[Travel Tables#^f3b864]]`
+>
+>##### Settlement - Problems
+>`dice:[[Travel Tables#^8e1448]]`
+
 
 >[!dice] Loot Tables
 >##### Valuables
