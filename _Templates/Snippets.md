@@ -24,4 +24,11 @@
 
 ### Victory!
 <span style="color:rgb(241, 91, 181)">Victory!</span> 
+### Morning
+<span style="color:rgb(249, 132, 74)">Morning</span> 
 
+### Afternoon
+<span style="color:rgb(255, 255, 184)">Afternoon</span> 
+
+### Evening
+<span style="color:rgb(155, 93, 229)">Evening</span>

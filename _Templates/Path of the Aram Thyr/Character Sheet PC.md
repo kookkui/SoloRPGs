@@ -1,58 +1,76 @@
 ---
-Art: "![[Hema.webp|600]]"
-HP: 0
+Art: "![[Téa'lad KylhaPro.webp|600]]"
 STR: 16
-DEX: 18
-CONST: 10
-WIS: 11
-INT: 13
-CHA: 17
-xp: 10
-spiritstage: Wood
-spiritpath: Path of Celestial Fury
-spiritdomain: PH
+INT: 16
+WIS: 16
+DEX: 14
+CONST: 15
+CHA: 9
+xp: 20
+spiritstage: 
+SpiritStage: Wood
+spiritdomain: Light
+kingift: Life Tap
+healingrate: D8
+MaxHP: 18
 aramax: 20
 typeaffinity: Caster
-axp: 
-spcoin: 10
-bpcoin: 30
-ipcoin: 40
-Weapon1: 
-Weapon1dmg: 
-Weapon1notes: 
+axp: 20
+spcoin: 3
+bpcoin: 0
+ipcoin: 0
+proficiencyweapon1: Battle Axe
+proficiencyarmor1: Hide Armor
+Weapon1: Battle Axe
+Weapon1dmg: (D8+2)+2
+Weapon1notes: Slashing, Versatile (D10)
 Weapon2: 
 Weapon2dmg: 
 Weapon2notes: 
 Weapon3: 
 Weapon3dmg: 
 Weapon3notes: 
-Armor1: Padded Leather
-Armor1DL: 12
-Armor1notes: Light
+Armor1: Hide Armor
+Armor1DL: 13
+Armor1notes: Medium
 Armor2: 
 Armor2rate: 0
 Armor2notes: 
 Shield: 
 Shieldrate: 
 Shieldnotes: 
-Spell1: Night Vision
-Spell1cost: 10 Ara
-Spell1range: Self
-Spell1time: 1 Action
-Spell1descript: The character can see in absolute darkness (natural or otherwise) as if in broad daylight for 1 hour.
-Spell1AFF: Darkness, Light, Fire, Dream
-Spell2: Freedom
-Spell2cost: 10 Ara
-Spell2range: Self
-Spell2time: 1 Action
-Spell2descript: The character frees themself from any effect that holds or slows them.
-Spell2AFF: All
-Anlach1: Domain Ward
-Anlach1essence: Two of the desired Domain
-Anlach1uses: Until destroyed
+Spell1: 
+Spell1cost: 
+Spell1range: 
+Spell1time: 
+Spell1descript: 
+Spell1AFF: 
+Spell2: 
+Spell2cost: 
+Spell2range: 
+Spell2time: 
+Spell2descript: 
+Spell2AFF: 
+Anlach1: 
+Anlach1essence: 
+Anlach1uses: 
 Anlach1Cost: 
-Anlach1DC: "14"
-Anlach1descript: When creating this anlach, the character chooses one Domain. The anlach must be placed at the threshold of any sort of entrance, and any creature of the chosen Domain must make a WIL saving throw in order to be able to cross through. The character can set a password for the anlach.
+Anlach1DC: 
+Anlach1descript: 
+title1: Hide Armor
+title2: Battle Axe
+title3: Backpack
+title4: Torch Ud12
+title5: Bandage Ud12
+title6: Antidote x1
+title26: ""
+title7: Thieves' Tools
+title27: ""
+title8: Coins
+title9: Rations x8
+torch1: D12
+Lampoil: None
+SpiritPath: Path of Celestial Fury
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%
@@ -61,11 +79,13 @@ Anlach1descript: When creating this anlach, the character chooses one Domain. Th
 >> ###### Attributes 
 >>|     |     |
 >> |--- | --- |
->>| **Spirit Stage** |  `=this.spiritstage`   |
->>| **Path** |  `=this.spiritpath`   |
->>| **Domain** |  `=this.spiritdomain`   |
->>|**HP** | **Current:** `30` **Max:** `=this.CONST*3`|
->> |**Ara Pool** | **Current:** `30`  **Max:** `=this.aramax`   |
+>>| **Spirit Stage** |  `INPUT[inlineSelect(option(Wood), option(Bronze), option(Iron), option(Silver), option(Gold), option(Platinum), option(Diamond)):SpiritStage]`   |
+>>| **Path** |  `INPUT[inlineSelect(option(Path of Celestial Fury), option(Path of Endless Blade), option(Path of the Everlasting Shadows), option(Path of Flaming Truth), option(Path of the Thousand Mirrors), option(Path of Invincible Blood), option(Path of the Rolling Boulder), option(Path of the Rushing Water), option(Path of Seething Fangs), option(Path of the Slicing Wind)):SpiritPath]`   |
+>>| **Domain** |  `INPUT[inlineSelect(option(Light), option(Blades), option(Darkness), option(Fire), option(Dream), option(Blood), option(Earth), option(Water), option(Poison), option(Wind)):spiritdomain]`   |
+>>| **Kin Gift** |  `=this.kingift`   |
+>> |**Reputation**| `30` |
+>>|**HP** | **Current:** `15` **Max:** `=this.MaxHP`|
+>> |**Ara Pool** | **Current:** `20`  **Max:** `=this.aramax`   |
 >>
 >>&nbsp;
 >>
@@ -74,7 +94,7 @@ Anlach1descript: When creating this anlach, the character chooses one Domain. Th
 >> |--- | --- |
 >> |**Initiative** | +`=floor((this.DEX - 10)/3)` |
 >> |**Healing Rate**| `=this.healingrate` |
->> |**Reputation**| `30` |
+>> |**Passive Perception**| `=10+(floor((this.WIS - 10)/2.5))` |
 >> |**Tenacity**| `=(this.WIS)+10` |
 >> |**Technique Type Affinity**| `=this.typeaffinity` |
 >> |**XP** | `VIEW[{xp}][text]`|
@@ -106,11 +126,11 @@ Anlach1descript: When creating this anlach, the character chooses one Domain. Th
 >>  | ||
 >>---|---|---|
 >>**Silver Pieces (sp)**|`=this.spcoin` |
->>**Bronze Pieces (bp)**|`=this.bpcoin` | **bp:** `=floor((this.bpcoin)/10)` *sp*
->>**Iron Pieces (ip)**|`=this.ipcoin` |**ip:** `=floor((this.ipcoin)/10)` *bp*
->>**Rations**|`0` |
->>**Torches**|`0` |
->>**Lamp Oil**|`0` |
+>>**Bronze Pieces (bp)**|`=this.bpcoin` | **=** `=floor((this.bpcoin)/10)` ***sp***
+>>**Iron Pieces (ip)**|`=this.ipcoin` |**=** `=floor((this.ipcoin)/10)` ***bp***
+>>**Rations**|`8` |
+>>**Torches**| `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):torch1]` |
+>>**Lamp Oil**|`INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):Lampoil]` |
 
 >[!thing] %%FAKE TITLE HERE%%
 >>[!thing] %%FAKE TITLE HERE%%
@@ -123,32 +143,32 @@ Anlach1descript: When creating this anlach, the character chooses one Domain. Th
 >>| **Dexterity** | `=this.DEX` | +`=floor((this.DEX - 10)/2.5)`|`=floor((this.DEX - 10)/2.5)`|
 >>| **Constitution** | `=this.CONST` |+`=floor((this.CONST - 10)/2.5)`| `=floor((this.CONST - 10)/2.5)`|
 >>| **Charisma** | `=this.CHA` | +`=floor((this.CHA - 10)/2.5)`| `=floor((this.CHA - 10)/2.5)`|
->>| **Max Gear Slots** | `=(this.STR)+10` | ||
+>>| **Max Gear Slots** | *`=(this.STR)+10`* | ||
 >>---
 >>&nbsp;
 >> ### Skill Checks
 >>| **Skill Name** | **Skill Level** | **Skill Name** | **Skill Level** |
 >>| :-----: | :-: |:------: | :-: |
->>|**Acrobatics** (DEX +`=floor((this.DEX - 10)/2.5)`)|`0`| **Nature** (INT +`=floor((this.INT - 10)/2.5)`) | `0` |
->>| **Animal Handling** (WIS +`=floor((this.WIS - 10)/2.5)`) | `0` | **Perception** (WIS +`=floor((this.WIS - 10)/2.5)`) | `0`|
->>|**Athletics** (STR +`=floor((this.STR - 10)/2.5)`)| `0` | **Performance** (CHA +`=floor((this.CHA - 10)/2.5)`) | `0` |
->>| **Culture** (INT +`=floor((this.INT - 10)/2.5)`) | `0` | **Sacred Scripture** (INT +`=floor((this.INT - 10)/2.5)`) | `0` |
->>| **Deception** (CHA +`=floor((this.CHA - 10)/2.5)`) | `0` |**Sleight of Hand** (DEX +`=floor((this.DEX - 10)/2.5)`) | `0` |
->>|**Insight** (WIS +`=floor((this.WIS - 10)/2.5)`)|`0` |**Spiritual Lore** (WIS +`=floor((this.WIS - 10)/2.5)`)| `0`|
->>| **Investigation** (INT +`=floor((this.INT - 10)/2.5)`) | `0` | **Stealth** (DEX +`=floor((this.DEX - 10)/2.5)`)|`0`|
->>|**Manipulation** (CHA +`=floor((this.CHA - 10)/2.5)`)| `0` | **Survival** (WIS +`=floor((this.WIS - 10)/2.5)`) | `0` |
->>| **Medicine** (WIS +`=floor((this.WIS - 10)/2.5)`) | `0` | **Weshan Control** (INT +`=floor((this.INT - 10)/2.5)`) | `0` |
+>>|**Acrobatics** (DEX +`=floor((this.DEX - 10)/2.5)`)|`1`| **Nature** (INT +`=floor((this.INT - 10)/2.5)`) | `2` |
+>>| **Animal Handling** (WIS +`=floor((this.WIS - 10)/2.5)`) | `2` | **Perception** (WIS +`=floor((this.WIS - 10)/2.5)`) | `3`|
+>>|**Athletics** (STR +`=floor((this.STR - 10)/2.5)`)| `2` | **Performance** (CHA +`=floor((this.CHA - 10)/2.5)`) | `-1` |
+>>| **Culture** (INT +`=floor((this.INT - 10)/2.5)`) | `2` | **Sacred Scripture** (INT +`=floor((this.INT - 10)/2.5)`) | `2` |
+>>| **Deception** (CHA +`=floor((this.CHA - 10)/2.5)`) | `-1` |**Sleight of Hand** (DEX +`=floor((this.DEX - 10)/2.5)`) | `2` |
+>>|**Insight** (WIS +`=floor((this.WIS - 10)/2.5)`)|`2` |**Spiritual Lore** (WIS +`=floor((this.WIS - 10)/2.5)`)| `2`|
+>>| **Investigation** (INT +`=floor((this.INT - 10)/2.5)`) | `2` | **Stealth** (DEX +`=floor((this.DEX - 10)/2.5)`)|`1`|
+>>|**Manipulation** (CHA +`=floor((this.CHA - 10)/2.5)`)| `-1` | **Survival** (WIS +`=floor((this.WIS - 10)/2.5)`) | `1` |
+>>| **Medicine** (WIS +`=floor((this.WIS - 10)/2.5)`) | `2` | **Weshan Control** (INT +`=floor((this.INT - 10)/2.5)`) | `3` |
 >
 >>[!travel] %%FAKE TITLE HERE%%
 >>##### Proficiencies
->> | | |
+>> |**Weapons** |**Armor** |
 >>|:-:| :---: |
->>| `=this.proficiency1` | `=this.proficiency2` |
->>| `=this.proficiency3` | `=this.proficiency4` |
->>| `=this.proficiency5` | `=this.proficiency6` |
->>| `=this.proficiency7` | `=this.proficiency8` |
->>| `=this.proficiency9` | `=this.proficiency10` |
->>| `=this.proficiency11` | `=this.proficiency12` |
+>>| `=this.proficiencyweapon1` | `=this.proficiencyarmor1` |
+>>| `=this.proficiencyweapon2` | `=this.proficiencyarmor2` |
+>>| `=this.proficiencyweapon3` | `=this.proficiencyarmor3` |
+>>| `=this.proficiencyweapon4` | `=this.proficiencyarmor4` |
+>>| `=this.proficiencyweapon5` | `=this.proficiencyarmor5` |
+>>| `=this.proficiencyweapon6` | `=this.proficiencyarmor6` |
 
 >[!gather] %%FAKE TITLE HERE%%
 >>[!table] %%FAKE TITLE HERE%%
