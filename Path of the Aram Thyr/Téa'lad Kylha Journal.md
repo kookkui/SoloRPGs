@@ -50,4 +50,36 @@ Bobcat casts Ara Fists +2 damage
 
 Kylha Turn 
 
-Attack Check (12) 
+Attack Check (12) 18, Hit! 
+
+7 Damage to the Bobcat(17)
+
+Bobcat Turn
+
+Coordinate with allies (if any, otherwise standard attack)
+
+Attack Check (14) 9 Missed!
+
+Kylha Turn
+
+Attack Check (12) 18 Hit!
+
+10 Damage to Bobcat(5)
+
+Bobcat Turn
+
+Flee
+
+The Bobcat is fleeing I have one chance to try and stop it.
+
+Kylha Turn 
+
+Attack Check (12) 17 HIT
+
+10 Damage to Bobcat (Dead)
+
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
++20 XP
+
+

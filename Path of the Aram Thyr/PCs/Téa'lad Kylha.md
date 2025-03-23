@@ -6,7 +6,7 @@ WIS: 16
 DEX: 14
 CONST: 15
 CHA: 9
-xp: 20
+xp: 40
 spiritstage: 
 SpiritStage: Wood
 spiritdomain: Light
