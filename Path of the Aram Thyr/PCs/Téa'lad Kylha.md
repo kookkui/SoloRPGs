@@ -1,34 +1,36 @@
 ---
 Art: "![[Téa'lad KylhaPro.webp|600]]"
-HP: 0
 STR: 16
-DEX: 18
-CONST: 10
-WIS: 11
-INT: 13
-CHA: 17
-xp: 10
+INT: 16
+WIS: 16
+DEX: 14
+CONST: 15
+CHA: 9
+xp: 0
 spiritstage: Wood
 spiritpath: Path of Celestial Fury
-spiritdomain: PH
+spiritdomain: Light
+kingift: Life Tap
+healingrate: D8
+MaxHP: 18
 aramax: 20
 typeaffinity: Caster
-axp: 
-spcoin: 10
-bpcoin: 30
-ipcoin: 40
-Weapon1: 
-Weapon1dmg: 
-Weapon1notes: 
+axp: 0
+spcoin: 3
+bpcoin: 0
+ipcoin: 0
+Weapon1: Battle Axe
+Weapon1dmg: (D8+2)+2
+Weapon1notes: Slashing, Versatile (D10) 
 Weapon2: 
 Weapon2dmg: 
 Weapon2notes: 
 Weapon3: 
 Weapon3dmg: 
 Weapon3notes: 
-Armor1: Padded Leather
-Armor1DL: 12
-Armor1notes: Light
+Armor1: Hide Armor
+Armor1DL: 13
+Armor1notes: Medium
 Armor2: 
 Armor2rate: 0
 Armor2notes: 
@@ -64,8 +66,10 @@ Anlach1descript: When creating this anlach, the character chooses one Domain. Th
 >>| **Spirit Stage** |  `=this.spiritstage`   |
 >>| **Path** |  `=this.spiritpath`   |
 >>| **Domain** |  `=this.spiritdomain`   |
->>|**HP** | **Current:** `30` **Max:** `=this.CONST*3`|
->> |**Ara Pool** | **Current:** `30`  **Max:** `=this.aramax`   |
+>>| **Kin Gift** |  `=this.kingift`   |
+>> |**Reputation**| `30` |
+>>|**HP** | **Current:** `15` **Max:** `=this.MaxHP`|
+>> |**Ara Pool** | **Current:** `20`  **Max:** `=this.aramax`   |
 >>
 >>&nbsp;
 >>
@@ -74,7 +78,7 @@ Anlach1descript: When creating this anlach, the character chooses one Domain. Th
 >> |--- | --- |
 >> |**Initiative** | +`=floor((this.DEX - 10)/3)` |
 >> |**Healing Rate**| `=this.healingrate` |
->> |**Reputation**| `30` |
+>> |**Passive Perception**| `=10+(floor((this.WIS - 10)/2.5))` |
 >> |**Tenacity**| `=(this.WIS)+10` |
 >> |**Technique Type Affinity**| `=this.typeaffinity` |
 >> |**XP** | `VIEW[{xp}][text]`|
@@ -129,13 +133,13 @@ Anlach1descript: When creating this anlach, the character chooses one Domain. Th
 >> ### Skill Checks
 >>| **Skill Name** | **Skill Level** | **Skill Name** | **Skill Level** |
 >>| :-----: | :-: |:------: | :-: |
->>|**Acrobatics** (DEX +`=floor((this.DEX - 10)/2.5)`)|`0`| **Nature** (INT +`=floor((this.INT - 10)/2.5)`) | `0` |
->>| **Animal Handling** (WIS +`=floor((this.WIS - 10)/2.5)`) | `0` | **Perception** (WIS +`=floor((this.WIS - 10)/2.5)`) | `0`|
->>|**Athletics** (STR +`=floor((this.STR - 10)/2.5)`)| `0` | **Performance** (CHA +`=floor((this.CHA - 10)/2.5)`) | `0` |
->>| **Culture** (INT +`=floor((this.INT - 10)/2.5)`) | `0` | **Sacred Scripture** (INT +`=floor((this.INT - 10)/2.5)`) | `0` |
->>| **Deception** (CHA +`=floor((this.CHA - 10)/2.5)`) | `0` |**Sleight of Hand** (DEX +`=floor((this.DEX - 10)/2.5)`) | `0` |
->>|**Insight** (WIS +`=floor((this.WIS - 10)/2.5)`)|`0` |**Spiritual Lore** (WIS +`=floor((this.WIS - 10)/2.5)`)| `0`|
->>| **Investigation** (INT +`=floor((this.INT - 10)/2.5)`) | `0` | **Stealth** (DEX +`=floor((this.DEX - 10)/2.5)`)|`0`|
+>>|**Acrobatics** (DEX +`=floor((this.DEX - 10)/2.5)`)|`1`| **Nature** (INT +`=floor((this.INT - 10)/2.5)`) | `0` |
+>>| **Animal Handling** (WIS +`=floor((this.WIS - 10)/2.5)`) | `2` | **Perception** (WIS +`=floor((this.WIS - 10)/2.5)`) | `0`|
+>>|**Athletics** (STR +`=floor((this.STR - 10)/2.5)`)| `2` | **Performance** (CHA +`=floor((this.CHA - 10)/2.5)`) | `0` |
+>>| **Culture** (INT +`=floor((this.INT - 10)/2.5)`) | `2` | **Sacred Scripture** (INT +`=floor((this.INT - 10)/2.5)`) | `0` |
+>>| **Deception** (CHA +`=floor((this.CHA - 10)/2.5)`) | `-1` |**Sleight of Hand** (DEX +`=floor((this.DEX - 10)/2.5)`) | `0` |
+>>|**Insight** (WIS +`=floor((this.WIS - 10)/2.5)`)|`2` |**Spiritual Lore** (WIS +`=floor((this.WIS - 10)/2.5)`)| `0`|
+>>| **Investigation** (INT +`=floor((this.INT - 10)/2.5)`) | `2` | **Stealth** (DEX +`=floor((this.DEX - 10)/2.5)`)|`0`|
 >>|**Manipulation** (CHA +`=floor((this.CHA - 10)/2.5)`)| `0` | **Survival** (WIS +`=floor((this.WIS - 10)/2.5)`) | `0` |
 >>| **Medicine** (WIS +`=floor((this.WIS - 10)/2.5)`) | `0` | **Weshan Control** (INT +`=floor((this.INT - 10)/2.5)`) | `0` |
 >
