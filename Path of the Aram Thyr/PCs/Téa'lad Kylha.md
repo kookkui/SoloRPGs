@@ -1,5 +1,5 @@
 ---
-Art: "![[Hema.webp|600]]"
+Art: "![[Téa'lad KylhaPro.webp|600]]"
 HP: 0
 STR: 16
 DEX: 18
