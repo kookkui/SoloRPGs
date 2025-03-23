@@ -6,7 +6,7 @@ WIS: 16
 DEX: 14
 CONST: 15
 CHA: 9
-xp: 0
+xp: 20
 spiritstage: Wood
 spiritpath: Path of Celestial Fury
 spiritdomain: Light
@@ -15,13 +15,15 @@ healingrate: D8
 MaxHP: 18
 aramax: 20
 typeaffinity: Caster
-axp: 0
+axp: 20
 spcoin: 3
 bpcoin: 0
 ipcoin: 0
+proficiency1: Battle Axe
+proficiency2: Hide Armor
 Weapon1: Battle Axe
 Weapon1dmg: (D8+2)+2
-Weapon1notes: Slashing, Versatile (D10) 
+Weapon1notes: Slashing, Versatile (D10)
 Weapon2: 
 Weapon2dmg: 
 Weapon2notes: 
@@ -29,7 +31,7 @@ Weapon3:
 Weapon3dmg: 
 Weapon3notes: 
 Armor1: Hide Armor
-Armor1DL: 13
+Armor1DL: 12
 Armor1notes: Medium
 Armor2: 
 Armor2rate: 0
@@ -37,24 +39,37 @@ Armor2notes:
 Shield: 
 Shieldrate: 
 Shieldnotes: 
-Spell1: Night Vision
-Spell1cost: 10 Ara
-Spell1range: Self
-Spell1time: 1 Action
-Spell1descript: The character can see in absolute darkness (natural or otherwise) as if in broad daylight for 1 hour.
-Spell1AFF: Darkness, Light, Fire, Dream
-Spell2: Freedom
-Spell2cost: 10 Ara
-Spell2range: Self
-Spell2time: 1 Action
-Spell2descript: The character frees themself from any effect that holds or slows them.
-Spell2AFF: All
-Anlach1: Domain Ward
-Anlach1essence: Two of the desired Domain
-Anlach1uses: Until destroyed
+Spell1: 
+Spell1cost: 
+Spell1range: 
+Spell1time: 
+Spell1descript: 
+Spell1AFF: 
+Spell2: 
+Spell2cost: 
+Spell2range: 
+Spell2time: 
+Spell2descript: 
+Spell2AFF: 
+Anlach1: 
+Anlach1essence: 
+Anlach1uses: 
 Anlach1Cost: 
-Anlach1DC: "14"
-Anlach1descript: When creating this anlach, the character chooses one Domain. The anlach must be placed at the threshold of any sort of entrance, and any creature of the chosen Domain must make a WIL saving throw in order to be able to cross through. The character can set a password for the anlach.
+Anlach1DC: 
+Anlach1descript: 
+title1: Hide Armor
+title2: Battle Axe
+title3: Backpack
+title4: Torch Ud12
+title5: Bandage Ud12
+title6: Antidote x1
+title26: ""
+title7: Thieves' Tools
+title27: ""
+title8: Coins
+title9: Rations x8
+torch1: D12
+Lampoil: None
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%
@@ -112,9 +127,9 @@ Anlach1descript: When creating this anlach, the character chooses one Domain. Th
 >>**Silver Pieces (sp)**|`=this.spcoin` |
 >>**Bronze Pieces (bp)**|`=this.bpcoin` | **bp:** `=floor((this.bpcoin)/10)` *sp*
 >>**Iron Pieces (ip)**|`=this.ipcoin` |**ip:** `=floor((this.ipcoin)/10)` *bp*
->>**Rations**|`0` |
->>**Torches**|`0` |
->>**Lamp Oil**|`0` |
+>>**Rations**|`8` |
+>>**Torches**| `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):torch1]` |
+>>**Lamp Oil**|`INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):Lampoil]` |
 
 >[!thing] %%FAKE TITLE HERE%%
 >>[!thing] %%FAKE TITLE HERE%%
@@ -133,15 +148,15 @@ Anlach1descript: When creating this anlach, the character chooses one Domain. Th
 >> ### Skill Checks
 >>| **Skill Name** | **Skill Level** | **Skill Name** | **Skill Level** |
 >>| :-----: | :-: |:------: | :-: |
->>|**Acrobatics** (DEX +`=floor((this.DEX - 10)/2.5)`)|`1`| **Nature** (INT +`=floor((this.INT - 10)/2.5)`) | `0` |
->>| **Animal Handling** (WIS +`=floor((this.WIS - 10)/2.5)`) | `2` | **Perception** (WIS +`=floor((this.WIS - 10)/2.5)`) | `0`|
->>|**Athletics** (STR +`=floor((this.STR - 10)/2.5)`)| `2` | **Performance** (CHA +`=floor((this.CHA - 10)/2.5)`) | `0` |
->>| **Culture** (INT +`=floor((this.INT - 10)/2.5)`) | `2` | **Sacred Scripture** (INT +`=floor((this.INT - 10)/2.5)`) | `0` |
->>| **Deception** (CHA +`=floor((this.CHA - 10)/2.5)`) | `-1` |**Sleight of Hand** (DEX +`=floor((this.DEX - 10)/2.5)`) | `0` |
->>|**Insight** (WIS +`=floor((this.WIS - 10)/2.5)`)|`2` |**Spiritual Lore** (WIS +`=floor((this.WIS - 10)/2.5)`)| `0`|
->>| **Investigation** (INT +`=floor((this.INT - 10)/2.5)`) | `2` | **Stealth** (DEX +`=floor((this.DEX - 10)/2.5)`)|`0`|
->>|**Manipulation** (CHA +`=floor((this.CHA - 10)/2.5)`)| `0` | **Survival** (WIS +`=floor((this.WIS - 10)/2.5)`) | `0` |
->>| **Medicine** (WIS +`=floor((this.WIS - 10)/2.5)`) | `0` | **Weshan Control** (INT +`=floor((this.INT - 10)/2.5)`) | `0` |
+>>|**Acrobatics** (DEX +`=floor((this.DEX - 10)/2.5)`)|`1`| **Nature** (INT +`=floor((this.INT - 10)/2.5)`) | `2` |
+>>| **Animal Handling** (WIS +`=floor((this.WIS - 10)/2.5)`) | `2` | **Perception** (WIS +`=floor((this.WIS - 10)/2.5)`) | `3`|
+>>|**Athletics** (STR +`=floor((this.STR - 10)/2.5)`)| `2` | **Performance** (CHA +`=floor((this.CHA - 10)/2.5)`) | `-1` |
+>>| **Culture** (INT +`=floor((this.INT - 10)/2.5)`) | `2` | **Sacred Scripture** (INT +`=floor((this.INT - 10)/2.5)`) | `2` |
+>>| **Deception** (CHA +`=floor((this.CHA - 10)/2.5)`) | `-1` |**Sleight of Hand** (DEX +`=floor((this.DEX - 10)/2.5)`) | `2` |
+>>|**Insight** (WIS +`=floor((this.WIS - 10)/2.5)`)|`2` |**Spiritual Lore** (WIS +`=floor((this.WIS - 10)/2.5)`)| `2`|
+>>| **Investigation** (INT +`=floor((this.INT - 10)/2.5)`) | `2` | **Stealth** (DEX +`=floor((this.DEX - 10)/2.5)`)|`1`|
+>>|**Manipulation** (CHA +`=floor((this.CHA - 10)/2.5)`)| `-1` | **Survival** (WIS +`=floor((this.WIS - 10)/2.5)`) | `1` |
+>>| **Medicine** (WIS +`=floor((this.WIS - 10)/2.5)`) | `2` | **Weshan Control** (INT +`=floor((this.INT - 10)/2.5)`) | `3` |
 >
 >>[!travel] %%FAKE TITLE HERE%%
 >>##### Proficiencies
