@@ -12,7 +12,7 @@
 >`dice:[[Travel Tables#^9e41d9]]`
 >
 >#####  Hazards & Obstacles
->`dice:[[Travel Tables#^baecff]]]`
+>`dice:[[Travel Tables#^]]`
 >
 >##### Traveling Mishaps
 >`dice:[[Travel Tables#^aac5f1]]`

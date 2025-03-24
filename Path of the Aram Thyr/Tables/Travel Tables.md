@@ -83,13 +83,13 @@
 
 ### Hazards & Obstacles
  
-| `dice:d10` | Hazards & Obstacles               |
-| ---------- | --------------------------------- |
-| 1-4        | `dice:[[Travel Tables#^983fb1]]`  |
-| 5-7        | `dice:[[Travel Tables#^8cf0ea]]`  |
-| 8-10       | `dice:[[Travel Tables#^fc010c]]]` |
+| `dice:d10` | Hazards & Obstacles              |
+| ---------- | -------------------------------- |
+| 1-4        | `dice:[[Travel Tables#^983fb1]]` |
+| 5-7        | `dice:[[Travel Tables#^8cf0ea]]` |
+| 8-10       | `dice:[[Travel Tables#^8fab16]]` |
 
-^baecff
+
 
 ### Hazards & Obstacles - Geological
 
@@ -125,6 +125,8 @@
 | 2         | Man-Made - Excavated pit       |
 | 3         | Man-Made - Deadfall            |
 | 4         | Man-Made - Snare               |
+
+^8fab16
 
 ### Settlement Type
 

@@ -1,12 +1,12 @@
 ---
 Art: "![[Téa'lad KylhaPro.webp|600]]"
 STR: 16
-INT: 16
+INT: 17
 WIS: 16
 DEX: 14
 CONST: 15
 CHA: 9
-xp: 40
+xp: 95
 spiritstage: 
 SpiritStage: Wood
 spiritdomain: Light
@@ -15,14 +15,14 @@ healingrate: D8
 MaxHP: 18
 aramax: 20
 typeaffinity: Caster
-axp: 20
+axp: 
 spcoin: 3
 bpcoin: 0
 ipcoin: 0
 proficiencyweapon1: Battle Axe
 proficiencyarmor1: Hide Armor
 Weapon1: Battle Axe
-Weapon1dmg: (D8+2)+2
+Weapon1dmg: (D8+3)+2
 Weapon1notes: Slashing, Versatile (D10)
 Weapon2: 
 Weapon2dmg: 
@@ -36,15 +36,14 @@ Armor1notes: Medium
 Armor2: 
 Armor2rate: 0
 Armor2notes: 
-Shield: 
-Shieldrate: 
-Shieldnotes: 
-Spell1: 
-Spell1cost: 
-Spell1range: 
-Spell1time: 
-Spell1descript: 
-Spell1AFF: 
+Stance: Offensive (+1 Weshan Control)
+Stanceskill: "The character receives +1 INT **Light Cascade: ** The character keeps cycling Light Ara through their body, permanently increasing their attack damage of any type by +1 per Spirit Stage."
+Spell1: Sudden Dawn ↯
+Spell1cost: 4 Ara
+Spell1range: 30 feet
+Spell1time: 1 Action
+Spell1descript: A sudden burst of pure Light Ara blinds every character within range for 1 turn. Blinded characters have Disadvantage with all their actions.
+Spell1AFF: Light
 Spell2: 
 Spell2cost: 
 Spell2range: 
@@ -71,6 +70,7 @@ title9: Rations x8
 torch1: D12
 Lampoil: None
 SpiritPath: Path of Celestial Fury
+Spell1Spirit: Wood
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%
@@ -83,7 +83,7 @@ SpiritPath: Path of Celestial Fury
 >>| **Path** |  `INPUT[inlineSelect(option(Path of Celestial Fury), option(Path of Endless Blade), option(Path of the Everlasting Shadows), option(Path of Flaming Truth), option(Path of the Thousand Mirrors), option(Path of Invincible Blood), option(Path of the Rolling Boulder), option(Path of the Rushing Water), option(Path of Seething Fangs), option(Path of the Slicing Wind)):SpiritPath]`   |
 >>| **Domain** |  `INPUT[inlineSelect(option(Light), option(Blades), option(Darkness), option(Fire), option(Dream), option(Blood), option(Earth), option(Water), option(Poison), option(Wind)):spiritdomain]`   |
 >> |**Reputation**| `30` |
->>|**HP** | **Current:** `15` **Max:** `=this.MaxHP`|
+>>|**HP** | **Current:** `20` **Max:** `=this.MaxHP`|
 >> |**Ara Pool** | **Current:** `20`  **Max:** `=this.aramax`   |
 >>| **Kin Gift** |  `=this.kingift`   |
 >>
@@ -128,7 +128,7 @@ SpiritPath: Path of Celestial Fury
 >>**Silver Pieces (sp)**|`=this.spcoin` |
 >>**Bronze Pieces (bp)**|`=this.bpcoin` | **=** `=floor((this.bpcoin)/10)` ***sp***
 >>**Iron Pieces (ip)**|`=this.ipcoin` |**=** `=floor((this.ipcoin)/10)` ***bp***
->>**Rations**|`8` |
+>>**Rations**|`7` |
 >>**Torches**| `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):torch1]` |
 >>**Lamp Oil**|`INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):Lampoil]` |
 
@@ -156,8 +156,8 @@ SpiritPath: Path of Celestial Fury
 >>| **Deception** (CHA +`=floor((this.CHA - 10)/2.5)`) | `-1` |**Sleight of Hand** (DEX +`=floor((this.DEX - 10)/2.5)`) | `2` |
 >>|**Insight** (WIS +`=floor((this.WIS - 10)/2.5)`)|`2` |**Spiritual Lore** (WIS +`=floor((this.WIS - 10)/2.5)`)| `2`|
 >>| **Investigation** (INT +`=floor((this.INT - 10)/2.5)`) | `2` | **Stealth** (DEX +`=floor((this.DEX - 10)/2.5)`)|`1`|
->>|**Manipulation** (CHA +`=floor((this.CHA - 10)/2.5)`)| `-1` | **Survival** (WIS +`=floor((this.WIS - 10)/2.5)`) | `1` |
->>| **Medicine** (WIS +`=floor((this.WIS - 10)/2.5)`) | `2` | **Weshan Control** (INT +`=floor((this.INT - 10)/2.5)`) | `3` |
+>>|**Manipulation** (CHA +`=floor((this.CHA - 10)/2.5)`)| `-1` | **Survival** (WIS +`=floor((this.WIS - 10)/2.5)`) | `2` |
+>>| **Medicine** (WIS +`=floor((this.WIS - 10)/2.5)`) | `2` | **Weshan Control** (INT +`=floor((this.INT - 10)/2.5)`) | `4` |
 >
 >>[!travel] %%FAKE TITLE HERE%%
 >>##### Proficiencies
@@ -214,14 +214,26 @@ SpiritPath: Path of Celestial Fury
 
 >[!crafting] %%FAKE TITLE HERE%%
 >>[!npc] %%FAKE TITLE HERE%%
+>>### Path Stance
+>>
+>>&nbsp
+>>
+>>| | | | |
+>>|:-:|:----------:|
+>>| <font color="#00b0f0">**Stance**</font> | `=this.Stance` |  
+>>| <font color="#00b0f0">**Description**</font> |  `=this.Stanceskill`  | 
+>>
+>>&nbsp
+>>
 >>### Known Weshan
 >>
 >>&nbsp
 >>
 >>| | | | |
 >>|:-:|:----------:|:-----:|:---------------------:|
->>| **Weshan Name** | `=this.Spell1` | **Cost** | `=this.Spell1cost` |
->>| **Range** |  `=this.Spell1range`  | **Execution Time** |`=this.Spell1time` |
+>>| <font color="#00b0f0">**Weshan Name**</font> | `=this.Spell1` | <font color="#00b0f0">**Cost**</font> | `=this.Spell1cost` |
+>>| <font color="#00b0f0">**Range**</font> |  `=this.Spell1range`  | <font color="#00b0f0">**Execution Time**</font> |`=this.Spell1time` |
+>>| <font color="#00b0f0">**Domain Affinities:**</font> |  `=this.Spell1AFF`  | <font color="#00b0f0">**Spirit Stage**</font> |`INPUT[inlineSelect(option(Wood), option(Bronze), option(Iron), option(Silver), option(Gold), option(Platinum), option(Diamond)):Spell1Spirit]`|
 >>
 >>&nbsp;
 >> 
@@ -229,9 +241,6 @@ SpiritPath: Path of Celestial Fury
 >>`=this.Spell1descript`
 >>
 >>&nbsp;
->>**Domain Affinities:** `=this.Spell1AFF`
->>
->>&nbsp
 >>
 >>---
 >>
@@ -239,16 +248,34 @@ SpiritPath: Path of Celestial Fury
 >>
 >>| | | | |
 >>|:-:|:----------:|:-----:|:---------------------:|
->>| **Weshan Name** | `=this.Spell2` | **Cost** | `=this.Spell2cost` |
->>| **Range** |  `=this.Spell2range`  | **Execution Time** |`=this.Spell2time` |
+>>| <font color="#00b0f0">**Weshan Name**</font> | `=this.Spell2` | <font color="#00b0f0">**Cost**</font> | `=this.Spell2cost` |
+>>| <font color="#00b0f0">**Range**</font> |  `=this.Spell2range`  | <font color="#00b0f0">**Execution Time**</font> |`=this.Spell2time` |
+>>| <font color="#00b0f0">**Domain Affinities:**</font> |  `=this.Spell2AFF`  | <font color="#00b0f0">**Spirit Stage**</font> |`INPUT[inlineSelect(option(Wood), option(Bronze), option(Iron), option(Silver), option(Gold), option(Platinum), option(Diamond)):Spell2Spirit]`|
 >>
 >>&nbsp;
 >> 
 >>
 >>`=this.Spell2descript`
 >>
+>>
+>>&nbsp
+>>
+>>---
+>>---
+>>
+>>&nbsp
+>>
+>>| | | | |
+>>|:-:|:----------:|:-----:|:---------------------:|
+>>| <font color="#00b0f0">**Weshan Name**</font> | `=this.Spell3` | <font color="#00b0f0">**Cost**</font> | `=this.Spell3cost` |
+>>| <font color="#00b0f0">**Range**</font> |  `=this.Spell3range`  | <font color="#00b0f0">**Execution Time**</font> |`=this.Spell3time` |
+>>| <font color="#00b0f0">**Domain Affinities:**</font> |  `=this.Spell3AFF`  | <font color="#00b0f0">**Spirit Stage**</font> |`INPUT[inlineSelect(option(Wood), option(Bronze), option(Iron), option(Silver), option(Gold), option(Platinum), option(Diamond)):Spell3Spirit]`|
+>>
 >>&nbsp;
->>**Domain Affinities:** `=this.Spell2AFF`
+>> 
+>>
+>>`=this.Spell3descript`
+>>
 >>
 >>&nbsp
 >>
