@@ -227,3 +227,16 @@ Survival check (12) 19 Passed
 -1 Ration (7)
 +8 HP (18)
 
+### Day 2
+
+<font color="#00b0f0">Weather: Overcast</font>
+
+<span style="color:rgb(249, 132, 74)">Morning</span>
+
+Traveling South
+
+**Survival Check** (12) 13
+
+Encounter check 5
+
+

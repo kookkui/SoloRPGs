@@ -89,6 +89,8 @@
 | 5-7        | `dice:[[Travel Tables#^8cf0ea]]` |
 | 8-10       | `dice:[[Travel Tables#^8fab16]]` |
 
+^22dc63
+
 
 
 ### Hazards & Obstacles - Geological
