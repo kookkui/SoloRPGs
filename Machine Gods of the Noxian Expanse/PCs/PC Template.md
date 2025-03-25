@@ -111,12 +111,12 @@ checkbox1: false
 >>&nbsp;
 >>
 >> ###### Supplies
->>  | ||
+>>  | | |
 >>---|---|---|
->>**Coins (₵)**|`=this.coins` |
->>**Rations**|`7` |
->>**Torches**| `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):torch1]` |
->>**Lamp Oil**|`INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):Lampoil]` |
+>>**Coins (₵)**|`=this.coins` ||
+>>**Rations**|`7` ||
+>>**Torches**| `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):torch1]` ||
+>>**Lamp Oil**|`INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):Lampoil]` ||
 
 >[!thing] %%FAKE TITLE HERE%%
 >>[!thing] %%FAKE TITLE HERE%%
