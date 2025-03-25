@@ -2,7 +2,7 @@
 Art: "![[Téa'lad KylhaPro.webp|600]]"
 STR: 16
 CONST: 15
-DEX: 14
+DEX: 16
 INT: 17
 WIL: 16
 PRE: 9
@@ -11,8 +11,18 @@ Level: 1
 aramax: 20
 axp: 
 coins: 0
-feat1: Test
-feat1desc: test
+skill1: "Athlete"
+skill1desc: "You have +2 Mastery on all checks involving athleticism (swimming, running, retc.)."
+skill2:
+skill2desc:
+skill3:
+skill3desc:
+skill4:
+skill4desc:
+skill5: "Poison Resistance"
+skill5desc: Gain +2 Mastery on checks against poison. 
+feat1:
+feat1desc:
 feat2:
 feat2desc:
 Weapon1: Battle Axe
@@ -101,6 +111,18 @@ checkbox1: false
 >>
 >>&nbsp;
 >>
+>>###### Combo Abilities
+>> |**Name**| **Description**|
+>>|:-:| :---: |
+>>| `=this.combo1` | `=this.combo1desc` |
+>>| `=this.combo2` | `=this.combo2desc` |
+>>| `=this.combo3` | `=this.combo3desc` |
+>>| `=this.combo4` | `=this.combo4desc` |
+>>| `=this.combo5` | `=this.combo5desc` |
+>>| | |
+>>
+>>&nbsp;
+>>
 >> ###### Armor
 >>| **Armor** | **Defense Level** | **Notes** |
 >>| ---------------------- | --------------- | ------------- |
@@ -129,6 +151,17 @@ checkbox1: false
 >>| **Intelligence** | `=this.INT` | +`=floor((this.INT - 10)/2.5)`| `=floor((this.INT - 10)/2.5)`|
 >>| **Willpower** | `=this.WIL` | +`=floor((this.WIL - 10)/2.5)`|`=floor((this.WIL - 10)/2.5)`|
 >>| **Presence** | `=this.PRE` | +`=floor((this.PRE - 10)/2.5)`| `=floor((this.PRE - 10)/2.5)`|
+>>---
+>
+>>[!travel] %%FAKE TITLE HERE%%
+>>##### Skills
+>> |**Name**| **Description**|
+>>|:-:| :---: |
+>>| `=this.skill1` | `=this.skill1desc` |
+>>| `=this.skill2` | `=this.skill2desc` |
+>>| `=this.skill3` | `=this.skill3desc` |
+>>| `=this.skill4` | `=this.skill4desc` |
+>>| `=this.skill5` | `=this.skill5desc` |
 >>---
 >
 >>[!travel] %%FAKE TITLE HERE%%
@@ -227,57 +260,15 @@ checkbox1: false
 >>
 >>| | | | |
 >>|:-:|:----------:|:-----:|:---------------------:|
->>| <font color="#00b0f0">**Weshan Name**</font> | `=this.Spell2` | <font color="#00b0f0">**Cost**</font> | `=this.Spell2cost` |
->>| <font color="#00b0f0">**Range**</font> |  `=this.Spell2range`  | <font color="#00b0f0">**Execution Time**</font> |`=this.Spell2time` |
->>| <font color="#00b0f0">**Domain Affinities:**</font> |  `=this.Spell2AFF`  | <font color="#00b0f0">**Spirit Stage**</font> |`INPUT[inlineSelect(option(Wood), option(Bronze), option(Iron), option(Silver), option(Gold), option(Platinum), option(Diamond)):Spell2Spirit]`|
+>>| <font color="#00b0f0">**Spell**</font> | `=this.Spell2` | <font color="#00b0f0">**Relic**</font> | `=this.Spell2Relic` |
+>>|<font color="#00b0f0">**Target Number**</font> |`=this.Spell2TN` | <font color="#00b0f0">**Range**</font> |  `=this.Spell2range`  | 
 >>
 >>&nbsp;
 >> 
 >>
 >>`=this.Spell2descript`
 >>
->>
->>&nbsp
->>
->>---
->>---
->>
->>&nbsp
->>
->>| | | | |
->>|:-:|:----------:|:-----:|:---------------------:|
->>| <font color="#00b0f0">**Weshan Name**</font> | `=this.Spell3` | <font color="#00b0f0">**Cost**</font> | `=this.Spell3cost` |
->>| <font color="#00b0f0">**Range**</font> |  `=this.Spell3range`  | <font color="#00b0f0">**Execution Time**</font> |`=this.Spell3time` |
->>| <font color="#00b0f0">**Domain Affinities:**</font> |  `=this.Spell3AFF`  | <font color="#00b0f0">**Spirit Stage**</font> |`INPUT[inlineSelect(option(Wood), option(Bronze), option(Iron), option(Silver), option(Gold), option(Platinum), option(Diamond)):Spell3Spirit]`|
->>
 >>&nbsp;
->> 
->>
->>`=this.Spell3descript`
->>
->>
->>&nbsp
->>
->>---
-
->[!success] %%FAKE TITLE HERE%%
->>[!travel] %%FAKE TITLE HERE%%
->>#### Anlach
->>
->>&nbsp
->>
->>| | | | |
->>|:-:|:----------:|:-----:|:---------------------:|
->>| **Anlach Name** | `=this.Anlach1` | | |
->>| **Spirit Essence** |  `=this.Anlach1essence`  | **Uses** |`=this.Anlach1uses` |
->>| **Reactivation Cost** |  `=this.Anlach1Cost`  | **DC** |`=this.Anlach1DC` |
->>
->>&nbsp;
->> 
->>
->>`=this.Anlach1descript`
->>
->>&nbsp
 >>
 >>---
 >>
@@ -285,19 +276,17 @@ checkbox1: false
 >>
 >>| | | | |
 >>|:-:|:----------:|:-----:|:---------------------:|
->>| **Anlach Name** | `=this.Anlach2` | | |
->>| **Spirit Essence** |  `=this.Anlach2essence`  | **Uses** |`=this.Anlach2uses` |
->>| **Reactivation Cost** |  `=this.Anlach2Cost`  | **DC** |`=this.Anlach2DC` |
+>>| <font color="#00b0f0">**Spell**</font> | `=this.Spell2` | <font color="#00b0f0">**Relic**</font> | `=this.Spell2Relic` |
+>>|<font color="#00b0f0">**Target Number**</font> |`=this.Spell2TN` | <font color="#00b0f0">**Range**</font> |  `=this.Spell2range`  | 
 >>
 >>&nbsp;
 >> 
 >>
->>`=this.Anlach2descript`
+>>`=this.Spell2descript`
 >>
->>&nbsp
+>>&nbsp;
 >>
 >>---
-
 
 ```meta-bind-button
 label: Add
