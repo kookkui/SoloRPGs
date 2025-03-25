@@ -11,8 +11,10 @@ Level: 1
 aramax: 20
 axp: 
 coins: 0
-proficiencyweapon1: Battle Axe
-proficiencyarmor1: Hide Armor
+feat1: Test
+feat1desc: test
+feat2:
+feat2desc:
 Weapon1: Battle Axe
 Weapon1dmg: (D8+3)+2
 Weapon1notes: Slashing, Versatile (D10)
@@ -48,21 +50,22 @@ Anlach1uses:
 Anlach1Cost: 
 Anlach1DC: 
 Anlach1descript: 
-title1: Hide Armor
-title2: Battle Axe
-title3: Backpack
-title4: Torch Ud12
-title5: Bandage Ud12
-title6: Antidote x1
+title1: ""
+title2: ""
+title3: ""
+title4: ""
+title5: ""
+title6: ""
 title26: ""
-title7: Thieves' Tools
+title7: ""
 title27: ""
-title8: Coins
-title9: Rations x8
+title8: ""
+title9: ""
 torch1: D12
 Lampoil: None
 SpiritPath: Path of Celestial Fury
 Spell1Spirit: Wood
+checkbox1: false
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%
@@ -75,14 +78,13 @@ Spell1Spirit: Wood
 >>| **Development Points** | `0` |
 >> |**Cultivating**| `0` |
 >>|**HP** | **Current:** `20` **Max:** `=this.CONST*2`|
->>
->>&nbsp;
+>>---
 >>
 >> ###### Stats
 >>|     |     |
 >> |--- | --- |
 >> |**Initiative** | +`=floor((this.DEX - 10)/3)` |
->> |**Carrying C**| `=this.typeaffinity` |
+>> |**Carrying Capacity**| `=this.STR` |
 >> |**XP** | `VIEW[{xp}][text]`|
 >>|**ADD XP**| `INPUT[number:axp]` `BUTTON[exp]`|
 >>
@@ -127,21 +129,19 @@ Spell1Spirit: Wood
 >>| **Intelligence** | `=this.INT` | +`=floor((this.INT - 10)/2.5)`| `=floor((this.INT - 10)/2.5)`|
 >>| **Willpower** | `=this.WIL` | +`=floor((this.WIL - 10)/2.5)`|`=floor((this.WIL - 10)/2.5)`|
 >>| **Presence** | `=this.PRE` | +`=floor((this.PRE - 10)/2.5)`| `=floor((this.PRE - 10)/2.5)`|
->>| **Max Gear Slots** | *`=(this.STR)+10`* | ||
 >>---
->>&nbsp;
->> ### Skill Checks
->>| **Skill Name** | **Skill Level** | **Skill Name** | **Skill Level** |
->>| :-----: | :-: |:------: | :-: |
->>|**Acrobatics** (DEX +`=floor((this.DEX - 10)/2.5)`)|`1`| **Nature** (INT +`=floor((this.INT - 10)/2.5)`) | `2` |
->>| **Animal Handling** (WIS +`=floor((this.WIS - 10)/2.5)`) | `2` | **Perception** (WIS +`=floor((this.WIS - 10)/2.5)`) | `3`|
->>|**Athletics** (STR +`=floor((this.STR - 10)/2.5)`)| `2` | **Performance** (CHA +`=floor((this.CHA - 10)/2.5)`) | `-1` |
->>| **Culture** (INT +`=floor((this.INT - 10)/2.5)`) | `2` | **Sacred Scripture** (INT +`=floor((this.INT - 10)/2.5)`) | `2` |
->>| **Deception** (CHA +`=floor((this.CHA - 10)/2.5)`) | `-1` |**Sleight of Hand** (DEX +`=floor((this.DEX - 10)/2.5)`) | `2` |
->>|**Insight** (WIS +`=floor((this.WIS - 10)/2.5)`)|`2` |**Spiritual Lore** (WIS +`=floor((this.WIS - 10)/2.5)`)| `2`|
->>| **Investigation** (INT +`=floor((this.INT - 10)/2.5)`) | `2` | **Stealth** (DEX +`=floor((this.DEX - 10)/2.5)`)|`1`|
->>|**Manipulation** (CHA +`=floor((this.CHA - 10)/2.5)`)| `-1` | **Survival** (WIS +`=floor((this.WIS - 10)/2.5)`) | `2` |
->>| **Medicine** (WIS +`=floor((this.WIS - 10)/2.5)`) | `2` | **Weshan Control** (INT +`=floor((this.INT - 10)/2.5)`) | `4` |
+>
+>>[!travel] %%FAKE TITLE HERE%%
+>>##### Feats
+>> |**Name**| **Description**|
+>>|:-:| :---: |
+>>| `=this.feat1` | `=this.feat1desc` |
+>>| `=this.feat2` | `=this.feat2desc` |
+>>| `=this.feat3` | `=this.feat3desc` |
+>>| `=this.feat4` | `=this.feat4desc` |
+>>| `=this.feat5` | `=this.feat5desc` |
+>>| `=this.feat6` | `=this.feat6desc` |
+>>---
 >
 >>[!travel] %%FAKE TITLE HERE%%
 >>##### Proficiencies
@@ -179,6 +179,13 @@ Spell1Spirit: Wood
 >>|18|`INPUT[text:title18]`|38|`INPUT[text:title38]`|
 >>|19|`INPUT[text:title19]`|39|`INPUT[text:title39]`|
 >>|20|`INPUT[text:title20]`|40|`INPUT[text:title40]`|
+>>
+>>&nbsp;
+>>
+>>|||
+>>|:-:| :---: |
+>> |**Backpack +10 Item Slots** |`INPUT[toggle:checkbox1]` |
+>>|**Backpack +10 Item Slots**| `INPUT[toggle:checkbox2]` |
 >
 >>[!dice] %%FAKE TITLE HERE%%
 >> ### Non-Encumbering Items
@@ -198,26 +205,14 @@ Spell1Spirit: Wood
 
 >[!crafting] %%FAKE TITLE HERE%%
 >>[!npc] %%FAKE TITLE HERE%%
->>### Path Stance
->>
->>&nbsp
->>
->>| | | | |
->>|:-:|:----------:|
->>| <font color="#00b0f0">**Stance**</font> | `=this.Stance` |  
->>| <font color="#00b0f0">**Description**</font> |  `=this.Stanceskill`  | 
->>
->>&nbsp
->>
->>### Known Weshan
+>>### Spells
 >>
 >>&nbsp
 >>
 >>| | | | |
 >>|:-:|:----------:|:-----:|:---------------------:|
->>| <font color="#00b0f0">**Weshan Name**</font> | `=this.Spell1` | <font color="#00b0f0">**Cost**</font> | `=this.Spell1cost` |
->>| <font color="#00b0f0">**Range**</font> |  `=this.Spell1range`  | <font color="#00b0f0">**Execution Time**</font> |`=this.Spell1time` |
->>| <font color="#00b0f0">**Domain Affinities:**</font> |  `=this.Spell1AFF`  | <font color="#00b0f0">**Spirit Stage**</font> |`INPUT[inlineSelect(option(Wood), option(Bronze), option(Iron), option(Silver), option(Gold), option(Platinum), option(Diamond)):Spell1Spirit]`|
+>>| <font color="#00b0f0">**Spell**</font> | `=this.Spell1` | <font color="#00b0f0">**Relic**</font> | `=this.Spell1Relic` |
+>>|<font color="#00b0f0">**Target Number**</font> |`=this.Spell1TN` | <font color="#00b0f0">**Range**</font> |  `=this.Spell1range`  | 
 >>
 >>&nbsp;
 >> 
