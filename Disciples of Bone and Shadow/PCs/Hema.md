@@ -265,9 +265,26 @@ lightitem12: Potion of Antidote x1
 >>| **Traditional Lore** (20) | `30` |
 >>| **Two-Handed Melee** (STR `=this.STR` x 2) (`=(this.STR)*2`) | `62` |
 >>| **Unarmed** (STR `=this.STR` + DEX `=this.DEX`) (`=(this.STR)+(this.DEX)`)| `24` |
+>>---
+>
+>>[!travel] %%FAKE TITLE HERE%%
+>>
+>>&nbsp;
+>>
+>>### Combo Abilities
+>> |**Name**| **Description**|
+>>|:-:| :---: |
+>>| `=this.combo1` | `=this.combo1desc` |
+>>| `=this.combo2` | `=this.combo2desc` |
+>>| `=this.combo3` | `=this.combo3desc` |
+>>| `=this.combo4` | `=this.combo4desc` |
+>>| `=this.combo5` | `=this.combo5desc` |
+>>| | |
+>>
+>>&nbsp;
 >>
 >
->>[!seealso] %%FAKE TITLE HERE%%
+>>[!travel] %%FAKE TITLE HERE%%
 >> ### Modifiers
 >> |        |         |   
 >>| :-: | :----- |
