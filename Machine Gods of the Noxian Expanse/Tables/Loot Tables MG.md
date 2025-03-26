@@ -5,15 +5,15 @@
 |---|---|
 |1|Nothing of value, aside from useless remnants of the last age|
 |2|D20₵|
-|3-5|`dice:[[SoloRPGs/Machine Gods of the Noxian Expanse/Tables/Loot Tables|Loot Tables]]`|
+|3-5|`dice:[[Loot Tables MG#^8371af]]`|
 |6|2D20₵|
-|7-8|Random armor|
+|7-8|`dice:[[Loot Tables MG#^8dc96c]]`|
 |9|3D20₵|
-|10-14|Random piece of gear|
+|10-14|`dice:[[Loot Tables MG#^8b4244]]`|
 |15|4D20₵|
 |16-17|Relic|
 |18|5D20₵|
-|19-20|Artifact|
+|19-20|`dice:[[Loot Tables MG#^9f6fa9]]`|
 
 
 
@@ -57,6 +57,8 @@
 |65|Longbow|
 |66|Heavy Crossbow|
 
+^8371af
+
 ### Random Armor
 
 |`dice:d10`|Random Armor|
@@ -72,6 +74,8 @@
 |9|Medium Shield|
 |10|Heavy Shield|
 
+^8dc96c
+
 ### Random Gear
 
 |`dice:d10`|Random Gear|
@@ -86,6 +90,8 @@
 |8|Rope|
 |9|Thieves’ Tools|
 |10|Torch|
+
+^8b4244
 
 ### Relic Appearance
 
@@ -121,3 +127,30 @@
 |18|Spear of Bloodletting|
 |19|Sphere of Light|
 |20|Wraith's Embrace Cloak|
+
+^9f6fa9
+
+### Spell List
+
+|`dice:d20`|Spell List|
+|---|---|
+|1|Accelerate|
+|2|Blast|
+|3|Breathe Water|
+|4|Cauterize|
+|5|Create Illusion|
+|6|Distract|
+|7|Eagle Eye|
+|8|Empower Weapon|
+|9|Fireball|
+|10|Hover|
+|11|Influence Mind|
+|12|Knit Flesh|
+|13|Light Construct|
+|14|Mirage|
+|15|Neutralize Poison|
+|16|Paralyze|
+|17|Shield|
+|18|Shock|
+|19|Shroud|
+|20|Summon Mist|

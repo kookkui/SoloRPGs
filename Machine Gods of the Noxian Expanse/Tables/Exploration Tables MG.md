@@ -8,6 +8,8 @@
 |9-15|A distinctive landmark. Roll on the Landmark tables to generate one.|
 |16-20|An ancient ruin. It might be worth exploring.|
 
+^87a684
+
 ### Weather
 
 |`dice:d20`|Weather|
@@ -33,13 +35,17 @@
 |19|Thunder and lightning: Thunder and lightning fill the sky, but without any rain. Hard DEX check to avoid being struck lighting, suffering 2D6 damage.|
 |20|Perfect weather: The weather is ideal for any activity, with comfortable temperatures and a gentle breeze.|
 
+^abec96
+
 ### Exploration Event
 
-| `dice:d20` | Exploration Event                                                           |
-| ---------- | --------------------------------------------------------------------------- |
-| 1-8        | Nothing of interest happens.                                                |
-| 9-12       | `dice:[[Exploration Tables#^16d821]]`                                       |
-| 13-20      | You run into some sort of creature. Roll on the Encounter - Outdoors table. |
+| `dice:d20` | Exploration Event                        |
+| ---------- | ---------------------------------------- |
+| 1-8        | Nothing of interest happens.             |
+| 9-12       | `dice:[[Exploration Tables MG#^16d821]]` |
+| 13-20      | `dice:[[Exploration Tables MG#^5dfc58]]` |
+
+^495037
 
 ### Hazards
 
@@ -80,6 +86,8 @@
 |18|Witch|
 |19|Wraith|
 |20|Wrathbound|
+
+^5dfc58
 
 ### Settlement Name
 
@@ -146,6 +154,8 @@
 |9|Huge (UD12)|
 |10|Labyrinthian (UD20)|
 
+^ff2847
+
 ### Special Ruin Conditions
 
 |`dice:d10`|Special Ruin Conditions|
@@ -155,6 +165,8 @@
 |5-6|Toxic Atmosphere: The air is not fully breathable here each time you end a fight, you suffer D4 damage due to inhaling too many toxins.|
 |7-8|Extreme Heat: This place is a furnace, causing you to have Disadvantage on all CON checks.|
 |9-10|Extreme Cold: The temperature here is dangerously low. Your max Health is reduced by D6 while you remain here.|
+
+^64c661
 
 ### Ruin Exploration - Room Content
 
@@ -166,6 +178,8 @@
 | 6 | `dice:[[Exploration Tables#^4ac20f]]` |
 | 7-10 | `dice:[[Exploration Tables#^dbd799]]` |
 
+^177db0
+
 
 ### Ruin Exploration - Encounter/Event Check
 
@@ -174,6 +188,8 @@
 | 1-2        | `dice:[[Exploration Tables#^2bdad6]]`   |
 | 3-8        | Nothing                                  |
 | 9-10       | `dice:[[Exploration Tables#^122c60]]`    |
+
+^14fd2d
 
 
 
@@ -234,6 +250,8 @@
 | 6         | Greed-causing (the PCs are exclusively motivated by greed during the next 24 hours) |
 | 7         | Grants/takes 1 Attribute points                                                     |
 | 8         | Heals D20 HP (only once)                                                            |
+
+^080234
 
 ### Ruin Encounter
 
