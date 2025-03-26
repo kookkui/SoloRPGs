@@ -15,6 +15,8 @@
 |18|5D20₵|
 |19-20|`dice:[[Loot Tables MG#^9f6fa9]]`|
 
+^4f1521
+
 
 
 ### Random Weapons
@@ -103,6 +105,8 @@
 |13-18|Ring-shaped relic. Roll on the Spell List table to determine its properties.|
 |19-20|Other (precious stone, metallic sphere, earring… anything that fits in your hand). Roll on the Spell List table to determine its properties.|
 
+^4f86cd
+
 ### Artifact
 
 |`dice:d20`|Artifact|
@@ -154,3 +158,5 @@
 |18|Shock|
 |19|Shroud|
 |20|Summon Mist|
+
+^7cb79e

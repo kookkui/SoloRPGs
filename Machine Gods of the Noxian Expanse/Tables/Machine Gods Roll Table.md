@@ -42,53 +42,43 @@
 >##### Enemy Combat Boon
 >`dice:[[Combat Tables MG#^3b3db5]]`
 >
->##### Critical Hit - Bludgeoning
->`dice:[[Combat Tables#^e255e2]]]`
->
->##### Critical Hit - Slashing
->`dice:[[Combat Tables#^d644aa]]`
->
->##### Critical Hit - Piercing
->`dice:[[Combat Tables#^d9ea2b]]]`
->
->##### Critical Hit - Weshan
->`dice:[[Combat Tables#^ad73bc]]`
->
->##### Fumbles
->`dice:[[Combat Tables#^58b53a]]`
->
->##### Random Ara Domain
->`dice:[[Loot Tables#^ca2736]]`
->
->##### Random Weshan Type
->`dice:[[Loot Tables#^5ff539]]`
 
-> [!table] World Building Tables
->##### Random NPC
->`dice:[[Travel Tables#^c6bceb]]`
+> [!bug] Voidspire Territories
+> ##### Voidspire Tunnels & Crypts Events
+>`dice:[[Voidspire Territories Tables#^a4c576]]`
 >
->##### NPC Initial Disposition
->`dice:[[Travel Tables#^747b2a]]`
+>##### Voidspire Tunnels & Crypts Encounters
+>`dice:[[Voidspire Territories Tables#^d7799f]]`
 >
->##### Settlement - Problems
->`dice:[[Travel Tables#^8e1448]]`
+>#####  Voidspire Tunnels & Crypts Encounters
+>`dice:[[Voidspire Territories Tables#^8f7abb]]`
 >
->##### Settlement Type
->`dice:[[Travel Tables#^de6d3b]]`
+
+> [!table] Settlement
+>##### Settlement Name
+>`dice:[[Exploration Tables MG#^843e12]]` `dice:[[Exploration Tables MG#^aca5fd]]`
+>
+>##### How Do They Feel About Strangers?
+>`dice:[[Exploration Tables MG#^a626ba]]`
+>
+>##### Settlement Size
+>`dice:[[Exploration Tables MG#^2de098]]`
+>
+>##### Settlement - Potential Conflict
+>`dice:[[Exploration Tables MG#^88880d]]`
 >
 >##### Settlement - Government Type
->`dice:[[Travel Tables#^f3b864]]`
->
->##### Settlement - Problems
->`dice:[[Travel Tables#^8e1448]]`
-
+>`dice:[[Exploration Tables MG#^a6d57c]]`
 
 >[!dice] Loot Tables
 >##### Valuables
->`dice:[[Loot Tables#^4b7d71]]`
+>`dice:[[Loot Tables MG#^4f1521]]`
 >
->##### Relics
->`dice:[[Loot Tables#^c7d811]]`
+>##### Relic Appearance 
+>`dice:[[Loot Tables MG#^4f86cd]]`
+>
+>##### Random Spells
+>`dice:[[Loot Tables MG#^7cb79e]]`
 
 >[!NPC] GM Emulation
 >

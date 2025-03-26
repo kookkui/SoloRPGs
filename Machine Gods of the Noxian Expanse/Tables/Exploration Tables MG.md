@@ -20,7 +20,7 @@
 |4|Light rain: A gentle rain falls, creating a soothing atmosphere.|
 |5|Heavy rain: A heavy downpour makes travel difficult and reduces visibility. Visibility is reduced to 60 feet. Perception checks reliant on sight have Disadvantage.|
 |6|Thunderstorm: Thunder rumbles and lightning strikes, accompanied by heavy rain. Visibility is reduced to 30 feet. Disadvantage on Perception checks and attack rolls while outdoors.|
-|7|Foggy:A thick fog blankets the area, making it hard to see more than a few feet ahead. Visibility is reduced to 10 feet. All Perception checks have Disadvantage.|
+|7|Foggy: A thick fog blankets the area, making it hard to see more than a few feet ahead. Visibility is reduced to 10 feet. All Perception checks have Disadvantage.|
 |8|Windy: Strong winds whip through the area, making it difficult to hear and affecting ranged attacks. Ranged weapon attacks have Disadvantage.|
 |9|Calm: There is no wind, and the air is still.|
 |10|Snow: Snow falls gently, covering the ground in a white blanket. DEX checks are made with Disadvantage unless creatures are accustomed to snow.|
@@ -29,7 +29,7 @@
 |13|Hot and humid: The air is hot and sticky, making physical activity exhausting. Average CON check avoid becoming Fatigued.|
 |14|Cold and dry: The air is cold and crisp, making it uncomfortable to stay outside for long periods. Average CON check avoid becoming Fatigued.|
 |15|Heatwave: Sweltering heat makes it dangerous to be outside without proper hydration and protection. Hard CON check to avoid becoming Fatigued.|
-|16|Cold snap An unexpected cold front moves in, causing temperatures to drop rapidly. Hard CON check to avoid becoming Fatigued.|
+|16|Cold snap: An unexpected cold front moves in, causing temperatures to drop rapidly. Hard CON check to avoid becoming Fatigued.|
 |17|Drizzle: A light drizzle falls, enough to dampen clothing but not enough to be a major inconvenience.|
 |18|Breezy: A gentle breeze makes the weather feel pleasant and refreshing.|
 |19|Thunder and lightning: Thunder and lightning fill the sky, but without any rain. Hard DEX check to avoid being struck lighting, suffering 2D6 damage.|
@@ -104,6 +104,8 @@
 |9|Deep-|
 |10|Fog-|
 
+^843e12
+
 
 |`dice:d10`|Settlement Name - Suffix|
 |---|---|
@@ -117,6 +119,70 @@
 |8|-strand|
 |9|-haven|
 |10|-barrow|
+
+^aca5fd
+
+
+### How Do They Feel About Strangers?
+
+|`dice:d10`|How Do They Feel About Strangers?|
+|---|---|
+|1|Kill on sight|
+|2-3|No one’s welcome|
+|4-6|They must prove their intentions first|
+|7-8|Just another unknown face|
+|9-10|All are welcome|
+
+^a626ba
+
+### Settlement Size
+
+|`dice:d6`|Settlement Size|
+|---|---|
+|1|Small Hamlet (10-100 individuals)|
+|2-4|Small Town (100-500 individuals)|
+|5|Medium Town (500-1,000 individuals)|
+|6|Large Town (1,000-2,000 individuals)|
+
+^2de098
+
+### Settlement - Potential Conflict
+
+
+|`dice:d6`|Settlement - Potential Conflict|
+|---|---|
+|1|Surrounding monsters|
+|2|Aggressive slavers|
+|3|Raiders|
+|4|Oppressive government|
+|5|Impending natural disaster|
+|6|Disease|
+
+^88880d
+
+### Settlement - Government Type
+
+
+|`dice:d6`|Settlement - Government Type|
+|---|---|
+|1-2|Council|
+|3-4|Overlord|
+|5-6|Popular Vote|
+
+^a6d57c
+
+
+### Initial Reaction - Sentient Creatures
+
+|`dice:d10`|Initial Reaction - Sentient Creatures|
+|---|---|
+|1-3|Hostile|
+|5-6|Wary|
+|7|Neutral|
+|8|Curious|
+|9|Friendly|
+|10|Helpful|
+
 
 ### Npc Encounters
 
@@ -174,9 +240,9 @@
 | ---------- | ------------------------------------- |
 | 1-3        | Empty                                 |
 | 4          | Blocked                               |
-| 5          | `dice:[[Exploration Tables#^e5dc4f]]` |
-| 6 | `dice:[[Exploration Tables#^4ac20f]]` |
-| 7-10 | `dice:[[Exploration Tables#^dbd799]]` |
+| 5          | `dice:[[Exploration Tables MG#^e5dc4f]]` |
+| 6          | `dice:[[Exploration Tables MG#^4ac20f]]` |
+| 7-10       | `dice:[[Exploration Tables MG#^dbd799]]` |
 
 ^177db0
 
@@ -185,9 +251,9 @@
 
 | `dice:d10` | Ruin Exploration - Encounter/Event Check |
 | ---------- | ---------------------------------------- |
-| 1-2        | `dice:[[Exploration Tables#^2bdad6]]`   |
+| 1-2        | `dice:[[Exploration Tables MG#^2bdad6]]`   |
 | 3-8        | Nothing                                  |
-| 9-10       | `dice:[[Exploration Tables#^122c60]]`    |
+| 9-10       | `dice:[[Exploration Tables MG#^122c60]]`    |
 
 ^14fd2d
 
