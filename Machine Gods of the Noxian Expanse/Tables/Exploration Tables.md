@@ -156,10 +156,136 @@
 |7-8|Extreme Heat: This place is a furnace, causing you to have Disadvantage on all CON checks.|
 |9-10|Extreme Cold: The temperature here is dangerously low. Your max Health is reduced by D6 while you remain here.|
 
+### Ruin Exploration - Room Content
+
 | `dice:d10` | Ruin Exploration - Room Content       |
 | ---------- | ------------------------------------- |
 | 1-3        | Empty                                 |
 | 4          | Blocked                               |
-| 5          | Traps                                 |
-| 6          | Feature                               |
-| 7-10       | `dice:[[Exploration Tables#^d266a7]]` |
+| 5          | `dice:[[Exploration Tables#^e5dc4f]]` |
+| 6 | `dice:[[Exploration Tables#^4ac20f]]` |
+| 7-10 | `dice:[[Exploration Tables#^dbd799]]` |
+
+
+### Ruin Exploration - Encounter/Event Check
+
+| `dice:d10` | Ruin Exploration - Encounter/Event Check |
+| ---------- | ---------------------------------------- |
+| 1-2        | `dice:[[Exploration Tables#^2bdad6]]`   |
+| 3-8        | Nothing                                  |
+| 9-10       | `dice:[[Exploration Tables#^122c60]]`    |
+
+
+
+### Ruin Exploration - Other
+
+| `dice:d10` | Ruin Exploration - Other                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-3        | Empty Room                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| 4          | **Kitchen:** a Perception check reveals a hidden treasure, roll on the  Loot table. But finding the loot also triggers a secret door and a combat encounter! Roll on Combat Encounter Table.                                                                                                                                                                                                                                                                                                                                 |
+| 5          | Flammable oil covers the floor make a Coordination Check or you will slip and fall. Anyone that falls holding a torch or lantern ignites the oil. If oil ignites, the flames dealing 1d8 the oil burns out in 1d4+1 rounds.                                                                                                                                                                                                                                                                                                  |
+| 6          | **Laboratory:** This room is filled with bottles, pipettes, and other tools that an alchemist would need. If you pass an INT check you can use figure out which potions do what and use a healing potions. (Heal d8+1)                                                                                                                                                                                                                                                                                                       |
+| 7          | **Intriguing mural:** A once vivid and colorful mural covers the whole wall in front of you. You immediately notice there's something off about it; some pieces seem to be out of place. To your surprise, you can easily slide them around and set them on what you believe to be the right place. Each character may attempt a Intellect check to remember details about the story depicted in the mural and solve it. Solving the puzzle causes a small hidden compartment to open, revealing a cache roll on Loot table. |
+| 8          | **Contraption:** A Strange object appears in the middle of the room, made of bronze and has some levers sticking out of it. A INT Check is required to figure out how to operate it. If you pass a small vault opens roll on random loot table. If you fail the room begins to fill with acid make a DEX check or lose D6 HP and 1Ud level of integrity on your armor.                                                                                                                                                       |
+| 9          | **Junk Room:** Contains trash and lost items from all over. You can do a perception check and on success roll on Mundane Loot table. You can do multiple Perception Check but because of the noise searching you must do an encounter check each time to you do whether you pass or fail.                                                                                                                                                                                                                                    |
+| 10         | A Wandering Merchant on a path                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+
+^dbd799
+
+### Security System
+
+| `dice:d10` | Security System   |
+| ---------- | ----------------- |
+| 1          | Alarm             |
+| 2          | Combustible Gas   |
+| 3          | Electricity Field |
+| 4          | Gravity Reversal  |
+| 5          | Lock Down         |
+| 6          | Nanites           |
+| 7          | Sonic Blast       |
+| 8          | Stasis            |
+| 9          | Teleport          |
+| 10         | Turret            |
+
+^e5dc4f
+
+### Feature
+
+| `dice:d6` | Ruin Exploration - Feature |
+| --------- | -------------------------- |
+| 1         | Feature - Altar            |
+| 2         | Feature - Brazier          |
+| 3         | Feature - Fresco           |
+| 4         | Feature - Fountain         |
+| 5         | Feature - Shrine/Idol      |
+| 6         | Feature - Statue           |
+
+^4ac20f
+
+### Feature Effect
+
+| `dice:d8` | Ruin - Feature Effect                                                               |
+| --------- | ----------------------------------------------------------------------------------- |
+| 1         | Anti-magic                                                                          |
+| 2         | Bestows Knowledge/Secret (Advantage or Disadvantage on next INT Check)              |
+| 3         | Conceals/Reveals (Advantage or Disadvantage on next DEX Check)                      |
+| 4         | Divines (prophetic images or words)                                                 |
+| 5         | Enrages (+2 to attack rolls during next combat)                                     |
+| 6         | Greed-causing (the PCs are exclusively motivated by greed during the next 24 hours) |
+| 7         | Grants/takes 1 Attribute points                                                     |
+| 8         | Heals D20 HP (only once)                                                            |
+
+### Ruin Encounter
+
+
+|`dice:d20`|Ruin Encounters|
+|---|---|
+|1|Demon-Touched|
+|2|Deepvein Horror|
+|3|Demented Clone|
+|4|Echo Knight|
+|5|Fallen Custodian|
+|6|Ghost Protocol|
+|7|Ghoul|
+|8|Glass Mother|
+|9|Guardian Servitor|
+|10|Memory Phantom|
+|11|Plague Bearer|
+|12|Raider|
+|13|Revenant|
+|14|Rust Shambler|
+|15|Scavengers|
+|16|Steel Spider|
+|17|Void Progenitor|
+|18|Warped Servitor|
+|19|Witch|
+|20|Wraith|
+
+^2bdad6
+
+### Ruin Event
+
+| `dice:d20` | Ruin Event                                                  |
+| ---------- | ----------------------------------------------------------- |
+| 1          | Holographic echoes show daily life before the collapse.     |
+| 2          | Gravity shifts direction unpredictably.                     |
+| 3          | Dormant maintenance systems mistake PCs for staff.          |
+| 4          | Memory crystals replay personal messages.                   |
+| 5          | Walls reconfigure into new passages.                        |
+| 6          | Ancient PA system starts broadcasting.                      |
+| 7          | Ancient AI attempts conversation.                           |
+| 8          | Discovered log reveals true purpose of facility.            |
+| 9          | Walls become transparent revealing impossible space beyond. |
+| 10         | Data leak causes shared memories between PCs.               |
+| 11         | Room contains perfectly preserved food that's still warm.   |
+| 12         | Gravity nullifies in bubble-like zones.                     |
+| 13         | Found recording reveals crucial historical truth.           |
+| 14         | Systems briefly restore area to original splendor.          |
+| 15         | Weather patterns form inside enclosed space.                |
+| 16         | Light bends in ways that reveal hidden text on walls.       |
+| 17         | Discovered database contains forgotten knowledge.           |
+| 18         | Ancient entertainment system activates.                     |
+| 19         | Air fills with floating geometric patterns.                 |
+| 20         | Maintenance systems continue pointless tasks.               |
+
+^122c60
