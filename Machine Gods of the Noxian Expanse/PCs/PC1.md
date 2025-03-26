@@ -1,5 +1,5 @@
 ---
-Art: "![[Téa'lad KylhaPro.webp|600]]"
+Art: "![[MachineGods_Pink.webp]]"
 STR: 16
 CONST: 15
 DEX: 16
@@ -11,20 +11,20 @@ Level: 1
 aramax: 20
 axp: 
 coins: 0
-skill1: "Athlete"
-skill1desc: "You have +2 Mastery on all checks involving athleticism (swimming, running, retc.)."
-skill2:
-skill2desc:
-skill3:
-skill3desc:
-skill4:
-skill4desc:
-skill5: "Poison Resistance"
-skill5desc: Gain +2 Mastery on checks against poison. 
-feat1:
-feat1desc:
-feat2:
-feat2desc:
+skill1: Athlete
+skill1desc: You have +2 Mastery on all checks involving athleticism (swimming, running, retc.).
+skill2: 
+skill2desc: 
+skill3: 
+skill3desc: 
+skill4: 
+skill4desc: 
+skill5: Poison Resistance
+skill5desc: Gain +2 Mastery on checks against poison.
+feat1: 
+feat1desc: 
+feat2: 
+feat2desc: 
 Weapon1: Battle Axe
 Weapon1dmg: (D8+3)+2
 Weapon1notes: Slashing, Versatile (D10)
@@ -96,6 +96,7 @@ checkbox1: false
 >> |**Initiative** | +`=floor((this.DEX - 10)/3)` |
 >> |**Carrying Capacity**| `=this.STR` |
 >> |**XP** | `VIEW[{xp}][text]`|
+>>|**XP Needed** | `=100+(this.level*2)`
 >>|**ADD XP**| `INPUT[number:axp]` `BUTTON[exp]`|
 >>
 >>&nbsp;
@@ -236,8 +237,20 @@ checkbox1: false
 >>|10|`INPUT[text:lightitem10]`|20|`INPUT[text:lightitem20]`|
 
 
->[!crafting] %%FAKE TITLE HERE%%
->>[!npc] %%FAKE TITLE HERE%%
+>[!hint] %%FAKE TITLE HERE%%
+>>[!travel] %%FAKE TITLE HERE%%
+>>### Resonance Cores
+>> |<font color="#00CCFF">**Current UD**</font> |<font color="#00CCFF">**Max UD**</font> |
+>>|:-:| :---: |
+>>| `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):Core1Current]` | `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):Core2Max]` |
+>>| `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):Core2Current]` | `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):Core2Max]` |
+>>| `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):Core3Current]` | `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):Core3Max]` |
+>>|||
+>>
+>>&nbsp;
+>>
+>>---
+>>
 >>### Spells
 >>
 >>&nbsp
