@@ -146,3 +146,20 @@
 |9|Huge (UD12)|
 |10|Labyrinthian (UD20)|
 
+### Special Ruin Conditions
+
+|`dice:d10`|Special Ruin Conditions|
+|---|---|
+|1-2|Darkness: Although most ruins have still-functioning illumination, a testament to the might of your ancestors, this one is pitch black. If you don’t carry with you a source of light, you have Disadvantage on perception checks and attack rolls.|
+|3-4|Difficult Terrain: This ruin is in even worse condition than you thought. Be it rubble, deep water, or even dense undergrowth, all DEX checks have Disadvantage here.|
+|5-6|Toxic Atmosphere: The air is not fully breathable here each time you end a fight, you suffer D4 damage due to inhaling too many toxins.|
+|7-8|Extreme Heat: This place is a furnace, causing you to have Disadvantage on all CON checks.|
+|9-10|Extreme Cold: The temperature here is dangerously low. Your max Health is reduced by D6 while you remain here.|
+
+| `dice:d10` | Ruin Exploration - Room Content       |
+| ---------- | ------------------------------------- |
+| 1-3        | Empty                                 |
+| 4          | Blocked                               |
+| 5          | Traps                                 |
+| 6          | Feature                               |
+| 7-10       | `dice:[[Exploration Tables#^d266a7]]` |
