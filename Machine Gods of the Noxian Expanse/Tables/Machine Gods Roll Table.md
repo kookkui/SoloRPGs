@@ -11,6 +11,11 @@
 >#####  Encounter - Outdoors
 >`dice:[[Exploration Tables MG#^5dfc58]]`
 >
+>#####  Wasteland Terrain Tables
+>[[Table Reference MG]]
+>
+>#####  Machine Gods Dynamic TNs
+>[[Machine Gods Dynamic TNs.png]]
 
 >[!seealso] Ruins Tables
 >##### Encounter/Event Check
@@ -30,7 +35,7 @@
 >
 >##### Special Ruin Conditions
 >`dice:[[Exploration Tables MG#^64c661]]`
->
+
 
 >[!crafting] Combat Tables
 >##### At Full Health
@@ -90,4 +95,5 @@
 >
 >##### GM Emulation - NPC Motivations
 >`dice:[[DBS GM Emulation#^1dbade]]`
->
+
+

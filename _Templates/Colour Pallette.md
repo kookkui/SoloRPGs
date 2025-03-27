@@ -44,3 +44,8 @@ rgb(255, 255, 125);
 ```palette
 [Palette - Coolors]("[Palette - Coolors](https://coolors.co/palette/2d00f7-6a00f4-8900f2-a100f2-b100e8-bc00dd-d100d1-db00b6-e500a4-f20089)")
 ```
+
+```palette
+[Palette - Coolors]("[Palette - Coolors]([Create a Palette - Coolors](https://coolors.co/10451d-155d27-1a7431-208b3a-25a244-2dc653-4ad66d-6ede8a-92e6a7-b7efc5)")
+```
+
