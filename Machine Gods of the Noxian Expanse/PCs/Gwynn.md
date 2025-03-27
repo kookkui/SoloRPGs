@@ -9,7 +9,8 @@ PRE: 11
 xp: 0
 Level: 1
 axp: 
-coins: 120
+coins: 130
+acoins: 10
 skill1: Two-Handed Weapon Mastery
 skill1desc: Gain +1 Mastery to attack checks with two-handed weapons.
 skill2: Arcane Knowledge
@@ -146,6 +147,7 @@ title10: Coins
 >>**Rations**|`10` ||
 >>**Torches**| `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):torch1]` ||
 >>**Lamp Oil**|`INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):Lampoil]` ||
+>>**Add Coins (₵)**| `INPUT[number:acoins]` `BUTTON[ccoins]`||
 
 >[!thing] %%FAKE TITLE HERE%%
 >>[!thing] %%FAKE TITLE HERE%%
@@ -326,20 +328,20 @@ actions:
 ```
 
 ```meta-bind-button
-label: Add Jats
+label: Add coins
 icon: ""
 style: primary
 class: ""
 cssStyle: ""
 backgroundImage: ""
 tooltip: ""
-id: pjats
+id: ccoins
 hidden: True
 actions:
 - type: updateMetadata
-  bindTarget: currency
+  bindTarget: coins
   evaluate: True
-  value: getMetadata('ajats') * '0.6' + getMetadata('currency')
+  value: getMetadata('acoins') + getMetadata('coins')
 
 ```
 
