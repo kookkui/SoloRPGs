@@ -1,28 +1,27 @@
 ---
 Art: "![[MachineGods_Pink.webp]]"
-STR: 16
+STR: 15
 CONST: 15
-DEX: 16
-INT: 17
-WIL: 16
-PRE: 9
-xp: 95
+DEX: 13
+INT: 14
+WIL: 12
+PRE: 11
+xp: 0
 Level: 1
-aramax: 20
 axp: 
 coins: 0
-skill1: Athlete
-skill1desc: You have +2 Mastery on all checks involving athleticism (swimming, running, retc.).
-skill2: 
-skill2desc: 
-skill3: 
-skill3desc: 
-skill4: 
-skill4desc: 
-skill5: Poison Resistance
-skill5desc: Gain +2 Mastery on checks against poison.
-feat1: 
-feat1desc: 
+skill1: Two-Handed Weapon Mastery
+skill1desc: Gain +1 Mastery to attack checks with two-handed weapons.
+skill2: Arcane Knowledge
+skill2desc: You have Advantage on INT checks when attempting to identify a magic item.
+skill3: Navigation
+skill3desc: Gain +2 Mastery to all checks related to finding your position and the desired path forward.
+skill4: Spellcraft
+skill4desc: Gain +2 Mastery when making a WIL check to cast a spell.
+skill5: Lockpicking
+skill5desc: Gain +2 Mastery to checks for opening locks.
+feat1: Relic Affinity
+feat1desc: Increase all spell checks by 2
 feat2: 
 feat2desc: 
 Weapon1: Battle Axe
@@ -40,8 +39,16 @@ Armor1notes: Medium
 Armor2: 
 Armor2rate: 0
 Armor2notes: 
-Stance: Offensive (+1 Weshan Control)
-Stanceskill: "The character receives +1 INT **Light Cascade: ** The character keeps cycling Light Ara through their body, permanently increasing their attack damage of any type by +1 per Spirit Stage."
+combo1: Heavy Swing
+combo1desc: "**(2 points / 1 Free Action / Engaged)** During your turn you can make an additional attack with your Two-Handed weapon. This attack deals normal damage but does not generate combo points."
+combo2: Distraction
+combo2desc: "**(3 points / 1 Standard Action)** Reduce the target’s Escalation Die by one."
+combo3: Targeted Strike
+combo3desc: "**(3 points / 1 Standard Action / Engaged)** Make an attack with your weapon with +3 Mastery."
+combo4: 
+combo4desc: 
+combo5: 
+combo5desc: 
 Spell1: Sudden Dawn ↯
 Spell1cost: 4 Ara
 Spell1range: 30 feet
@@ -87,7 +94,8 @@ checkbox1: false
 >>|**Level**|  `=this.Level`   |
 >>| **Development Points** | `0` |
 >> |**Cultivating**| `0` |
->>|**HP** | **Current:** `20` **Max:** `=this.CONST*2`|
+>>|**HP** | **Current:** `30` **Max:** `=this.CONST*2`|
+>>|**Combo Points** | **Current:** `0` **Max:** **8**|
 >>---
 >>
 >> ###### Stats
@@ -114,7 +122,7 @@ checkbox1: false
 >>
 >>###### Combo Abilities
 >> |**Name**| **Description**|
->>|:-:| :---: |
+>>|:--:| ----- |
 >>| `=this.combo1` | `=this.combo1desc` |
 >>| `=this.combo2` | `=this.combo2desc` |
 >>| `=this.combo3` | `=this.combo3desc` |
@@ -146,18 +154,18 @@ checkbox1: false
 >> ### Abilities 
 >>| Stat | Sore | Mod |Save|
 >>| :---: | :---: | :---: | :---: |
->>| **Strength** | `=this.STR` | +`=floor((this.STR - 10)/2.5)`| `=floor((this.STR - 10)/2.5)`|
->>| **Constitution** | `=this.CONST` |+`=floor((this.CONST - 10)/2.5)`| `=floor((this.CONST - 10)/2.5)`|
->>| **Dexterity** | `=this.DEX` | +`=floor((this.DEX - 10)/2.5)`|`=floor((this.DEX - 10)/2.5)`|
->>| **Intelligence** | `=this.INT` | +`=floor((this.INT - 10)/2.5)`| `=floor((this.INT - 10)/2.5)`|
->>| **Willpower** | `=this.WIL` | +`=floor((this.WIL - 10)/2.5)`|`=floor((this.WIL - 10)/2.5)`|
->>| **Presence** | `=this.PRE` | +`=floor((this.PRE - 10)/2.5)`| `=floor((this.PRE - 10)/2.5)`|
+>>| **Strength** | `=this.STR` | +`=floor((this.STR - 10)/3)`| `=floor((this.STR - 10)/3)`|
+>>| **Constitution** | `=this.CONST` |+`=floor((this.CONST - 10)/3)`| `=floor((this.CONST - 10)/3)`|
+>>| **Dexterity** | `=this.DEX` | +`=floor((this.DEX - 10)/3)`|`=floor((this.DEX - 10)/3)`|
+>>| **Intelligence** | `=this.INT` | +`=floor((this.INT - 10)/3)`| `=floor((this.INT - 10)/3)`|
+>>| **Willpower** | `=this.WIL` | +`=floor((this.WIL - 10)/3)`|`=floor((this.WIL - 10)/3)`|
+>>| **Presence** | `=this.PRE` | +`=floor((this.PRE - 10)/3)`| `=floor((this.PRE - 10)/3)`|
 >>---
 >
 >>[!travel] %%FAKE TITLE HERE%%
 >>##### Skills
 >> |**Name**| **Description**|
->>|:-:| :---: |
+>>|:-:| :----: |
 >>| `=this.skill1` | `=this.skill1desc` |
 >>| `=this.skill2` | `=this.skill2desc` |
 >>| `=this.skill3` | `=this.skill3desc` |
