@@ -1,5 +1,5 @@
 ---
-Art: "![[MachineGods_Pink.webp]]"
+Art: "![[MachineGods_Pure_Booty.webp]]"
 STR: 15
 CONST: 15
 DEX: 13
@@ -9,7 +9,7 @@ PRE: 11
 xp: 0
 Level: 1
 axp: 
-coins: 0
+coins: 120
 skill1: Two-Handed Weapon Mastery
 skill1desc: Gain +1 Mastery to attack checks with two-handed weapons.
 skill2: Arcane Knowledge
@@ -33,9 +33,9 @@ Weapon2notes:
 Weapon3: 
 Weapon3dmg: 
 Weapon3notes: 
-Armor1: Hide Armor
-Armor1DL: 13
-Armor1notes: Medium
+Armor1: Padded Leather Armor
+Armor1DL: 2
+Armor1notes: Heavy
 Armor2: 
 Armor2rate: 0
 Armor2notes: 
@@ -67,22 +67,20 @@ Anlach1uses:
 Anlach1Cost: 
 Anlach1DC: 
 Anlach1descript: 
-title1: ""
-title2: ""
-title3: ""
-title4: ""
-title5: ""
-title6: ""
+title1: Backpack
+title2: Rations X10
+title3: Bedroll
+title4: Padded Leather Armor
+title5: Padded Leather Armor
+title6: Lamp
 title26: ""
-title7: ""
+title7: Lamp Oil Ud8
 title27: ""
-title8: ""
-title9: ""
+title8: Thieves' Tools
+title9: Medical Supplies
 torch1: D12
 Lampoil: None
-SpiritPath: Path of Celestial Fury
-Spell1Spirit: Wood
-checkbox1: false
+title10: Coins
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%
@@ -137,7 +135,7 @@ checkbox1: false
 >>| ---------------------- | --------------- | ------------- |
 >>| `=this.Armor1` | `=this.Armor1DL` | `=this.Armor1notes` |
 >>| `=this.Armor2` | `=this.Armor2DL` | `=this.Armor2notes` |
->>| **Total DL**|`=(this.Armor1DL)+(floor((this.DEX - 10)/2.5))`||
+>>| **Total DL**|`=(this.Armor1DL)+(floor((this.DEX - 10)/3))`||
 >>
 >>&nbsp;
 >>
@@ -145,7 +143,7 @@ checkbox1: false
 >>  | | |
 >>---|---|---|
 >>**Coins (₵)**|`=this.coins` ||
->>**Rations**|`7` ||
+>>**Rations**|`10` ||
 >>**Torches**| `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):torch1]` ||
 >>**Lamp Oil**|`INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):Lampoil]` ||
 
