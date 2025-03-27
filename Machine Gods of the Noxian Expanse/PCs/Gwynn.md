@@ -9,8 +9,8 @@ PRE: 11
 xp: 0
 Level: 1
 axp: 
-coins: 130
-acoins: 10
+coins: 120
+acoins: 
 skill1: Two-Handed Weapon Mastery
 skill1desc: Gain +1 Mastery to attack checks with two-handed weapons.
 skill2: Arcane Knowledge
@@ -25,9 +25,9 @@ feat1: Relic Affinity
 feat1desc: Increase all spell checks by 2
 feat2: 
 feat2desc: 
-Weapon1: Battle Axe
-Weapon1dmg: (D8+3)+2
-Weapon1notes: Slashing, Versatile (D10)
+Weapon1: Great Axe
+Weapon1dmg: (D12+1)+2
+Weapon1notes: Two-Handed
 Weapon2: 
 Weapon2dmg: 
 Weapon2notes: 
@@ -40,6 +40,7 @@ Armor1notes: Heavy
 Armor2: 
 Armor2rate: 0
 Armor2notes: 
+combotreename: Two-Handed Weapon Ability Tree
 combo1: Heavy Swing
 combo1desc: "**(2 points / 1 Free Action / Engaged)** During your turn you can make an additional attack with your Two-Handed weapon. This attack deals normal damage but does not generate combo points."
 combo2: Distraction
@@ -50,38 +51,25 @@ combo4:
 combo4desc: 
 combo5: 
 combo5desc: 
-Spell1: Sudden Dawn ↯
-Spell1cost: 4 Ara
-Spell1range: 30 feet
-Spell1time: 1 Action
-Spell1descript: A sudden burst of pure Light Ara blinds every character within range for 1 turn. Blinded characters have Disadvantage with all their actions.
-Spell1AFF: Light
+Spell1: 
 Spell2: 
-Spell2cost: 
-Spell2range: 
-Spell2time: 
-Spell2descript: 
-Spell2AFF: 
-Anlach1: 
-Anlach1essence: 
-Anlach1uses: 
-Anlach1Cost: 
-Anlach1DC: 
-Anlach1descript: 
 title1: Backpack
-title2: Rations X10
-title3: Bedroll
-title4: Padded Leather Armor
-title5: Padded Leather Armor
-title6: Lamp
+title2: Coins
+title3: Rations X10
+title4: Bedroll
+title5: Lamp
+title6: Lamp Oil Ud8
 title26: ""
-title7: Lamp Oil Ud8
+title7: Thieves' Tools
 title27: ""
-title8: Thieves' Tools
-title9: Medical Supplies
-torch1: D12
-Lampoil: None
-title10: Coins
+title8: Medical Supplies
+title9: ""
+torch1: None
+Lampoil: D8
+title10: ""
+checkbox1: true
+title11: ""
+title12: ""
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%
@@ -119,7 +107,7 @@ title10: Coins
 >>
 >>&nbsp;
 >>
->>###### Combo Abilities
+>>###### `=this.combotreename`
 >> |**Name**| **Description**|
 >>|:--:| ----- |
 >>| `=this.combo1` | `=this.combo1desc` |
@@ -146,7 +134,7 @@ title10: Coins
 >>**Coins (₵)**|`=this.coins` ||
 >>**Rations**|`10` ||
 >>**Torches**| `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):torch1]` ||
->>**Lamp Oil**|`INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):Lampoil]` ||
+>>**Lamp Oil**|`INPUT[inlineSelect(option(D8), option(D6), option(D4), option(None)):Lampoil]` ||
 >>**Add Coins (₵)**| `INPUT[number:acoins]` `BUTTON[ccoins]`||
 
 >[!thing] %%FAKE TITLE HERE%%
