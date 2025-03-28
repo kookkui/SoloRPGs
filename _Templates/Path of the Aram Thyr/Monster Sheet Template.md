@@ -8,8 +8,8 @@ armor: "12"
 number: "🜶2"
 
 traits:
-  - name: "name: "Skill Check Modifier:"
-    desc: ""**Wood Stage:** +1, **Bronze Stage:** +2, **Iron Stage:** +3""
+  - name: "Skill Check Modifier:"
+    desc: "**Wood Stage:** +1, **Bronze Stage:** +2, **Iron Stage:** +3"
   - name: "Action_II:"
     desc: "**Wood Stage:** Placeholder  **Bronze Stage:** Placeholder **Iron Stage:** Placeholder"
   - name: "Action_III:"

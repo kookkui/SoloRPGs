@@ -251,9 +251,8 @@
 
 | `dice:d10` | Ruin Exploration - Encounter/Event Check |
 | ---------- | ---------------------------------------- |
-| 1-2        | `dice:[[Exploration Tables MG#^2bdad6]]`   |
-| 3-8        | Nothing                                  |
-| 9-10       | `dice:[[Exploration Tables MG#^122c60]]`    |
+| 1-3        | `dice:[[Exploration Tables MG#^2bdad6]]` |
+| 4-10       | `dice:[[Exploration Tables MG#^122c60]]` |
 
 ^14fd2d
 

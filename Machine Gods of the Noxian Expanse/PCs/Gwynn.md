@@ -6,17 +6,17 @@ DEX: 13
 INT: 14
 WIL: 12
 PRE: 11
-xp: 0
+xp: 9
 Level: 1
-axp: 
+axp: 4
 coins: 120
 acoins: 
 skill1: Two-Handed Weapon Mastery
 skill1desc: Gain +1 Mastery to attack checks with two-handed weapons.
 skill2: Arcane Knowledge
 skill2desc: You have Advantage on INT checks when attempting to identify a magic item.
-skill3: Navigation
-skill3desc: Gain +2 Mastery to all checks related to finding your position and the desired path forward.
+skill3: Quick Draw
+skill3desc: Gain +2 bonus to initiative rolls.
 skill4: Spellcraft
 skill4desc: Gain +2 Mastery when making a WIL check to cast a spell.
 skill5: Lockpicking
@@ -51,6 +51,8 @@ combo4:
 combo4desc: 
 combo5: 
 combo5desc: 
+proficiencyweapon1: Great Axe
+proficiencyarmor1: Padded Armor
 Spell1: 
 Spell2: 
 title1: Backpack
@@ -63,10 +65,10 @@ title26: ""
 title7: Thieves' Tools
 title27: ""
 title8: Medical Supplies
-title9: ""
+title9: Padded Leather
 torch1: None
 Lampoil: D8
-title10: ""
+title10: Padded Leather
 checkbox1: true
 title11: ""
 title12: ""
@@ -82,7 +84,7 @@ title12: ""
 >>| **Development Points** | `0` |
 >> |**Cultivating**| `0` |
 >>|**HP** | **Current:** `30` **Max:** `=this.CONST*2`|
->>|**Combo Points** | **Current:** `0` **Max:** **8**|
+>>|**Combo Points** | **Current:**` ` `boxes: 1/8` |
 >>---
 >>
 >> ###### Stats

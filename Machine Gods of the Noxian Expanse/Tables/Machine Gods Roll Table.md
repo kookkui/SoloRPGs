@@ -44,7 +44,7 @@
 >##### At 50% or Less Health
 >`dice:[[Combat Tables MG#^4acfaa]]`
 >
->##### Enemy Combat Boon
+>##### Enemy Combat Boon (Use 4th Round)
 >`dice:[[Combat Tables MG#^3b3db5]]`
 >
 
