@@ -278,7 +278,7 @@ Attack Check (14) `d20 = 24` Critical Hit
 
 Surprise Opening: The attacker receives an extra action this round
 
-Attack Check (14) `d20 = 4` Miss
+Attack Check (14) `d20: 4` Miss
 
 PC Turn
 
