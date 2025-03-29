@@ -241,6 +241,28 @@ Encounter check 5
 
 Next Hex 
 
-Encounter Check - Dire Beast
+```statblock
+creature: Yursan (Path)
+```
+Encounter Check - Dire Beast Weshan can be assimilated
+Ara Domain - Earth
+Weshan Type - Forger
+<font color="#00b0f0">Ara Pool: 10</font>
+<font color="#ff00cc">+50% XP</font>
+<font color="#ff0000">Attack skill and damage dealt increased by +2</font>
+Reinforced Skin
+Domain Affinities: All
+Cost: 10 Ara / Execution time: 2 Actions / Range: Self 
+The character’s skin becomes empowered by their (Domain) Ara, reducing all incoming damage by 1 for the next hour.
+
+```encounter
+players:
+  - Téa'lad Kylha
+creatures:
+  - Yursan (Path) , 18, 14 , 1
+```
 
 
+Combat Start
+
+Casting Sudden Dawn ↯ (10) :d

@@ -47,27 +47,30 @@
 ^c7d811
 
 
-| `dice:d10` | Random Ara Domain |
-| ---------- | ----------------- |
-| 1          | Air               |
-| 2          | Blades            |
-| 3          | Blood             |
-| 4          | Darkness          |
-| 5          | Dream             |
-| 6          | Earth             |
-| 7          | Fire              |
-| 8          | Light             |
-| 9          | Poison            |
-| 10         | Water             |
+| `dice:d10` | Random Ara Domain     |
+| ---------- | --------------------- |
+| 1          | Ara Domain - Air      |
+| 2          | Ara Domain - Blades   |
+| 3          | Ara Domain - Blood    |
+| 4          | Ara Domain - Darkness |
+| 5          | Ara Domain - Dream    |
+| 6          | Ara Domain - Earth    |
+| 7          | Ara Domain - Fire     |
+| 8          | Ara Domain - Light    |
+| 9          | Ara Domain - Poison   |
+| 10         | Ara Domain - Water    |
 
 ^ca2736
 
 
-|`dice:d4`|Random Weshan Type|
-|---|---|
-|1|Caster|
-|2|Dominator|
-|3|Forger|
-|4|Shaper|
+| `dice:d4` | Random Weshan Type      |
+| --------- | ----------------------- |
+| 1         | Weshan Type - Caster    |
+| 2         | Weshan Type - Dominator |
+| 3         | Weshan Type - Forger    |
+| 4         | Weshan Type - Shaper    |
 
 ^5ff539
+
+
+

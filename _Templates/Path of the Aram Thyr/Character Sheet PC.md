@@ -78,20 +78,19 @@ SpiritPath: Path of Celestial Fury
 >> `=this.Art`
 >> ###### Attributes 
 >>|     |     |
->> |--- | --- |
->>| **Spirit Stage** |  `INPUT[inlineSelect(option(Wood), option(Bronze), option(Iron), option(Silver), option(Gold), option(Platinum), option(Diamond)):SpiritStage]`   |
+>> |:---: | :---: |
+>>|**Spirit Stage**|  `INPUT[inlineSelect(option(Wood), option(Bronze), option(Iron), option(Silver), option(Gold), option(Platinum), option(Diamond)):SpiritStage]`   |
 >>| **Path** |  `INPUT[inlineSelect(option(Path of Celestial Fury), option(Path of Endless Blade), option(Path of the Everlasting Shadows), option(Path of Flaming Truth), option(Path of the Thousand Mirrors), option(Path of Invincible Blood), option(Path of the Rolling Boulder), option(Path of the Rushing Water), option(Path of Seething Fangs), option(Path of the Slicing Wind)):SpiritPath]`   |
 >>| **Domain** |  `INPUT[inlineSelect(option(Light), option(Blades), option(Darkness), option(Fire), option(Dream), option(Blood), option(Earth), option(Water), option(Poison), option(Wind)):spiritdomain]`   |
->>| **Kin Gift** |  `=this.kingift`   |
 >> |**Reputation**| `30` |
->>|**HP** | **Current:** `15` **Max:** `=this.MaxHP`|
+>>|**HP** | **Current:** `20` **Max:** `=this.MaxHP`|
 >> |**Ara Pool** | **Current:** `20`  **Max:** `=this.aramax`   |
 >>
 >>&nbsp;
 >>
 >> ###### Stats
 >>|     |     |
->> |--- | --- |
+>> |--- | :---: |
 >> |**Initiative** | +`=floor((this.DEX - 10)/3)` |
 >> |**Healing Rate**| `=this.healingrate` |
 >> |**Passive Perception**| `=10+(floor((this.WIS - 10)/2.5))` |
@@ -128,7 +127,7 @@ SpiritPath: Path of Celestial Fury
 >>**Silver Pieces (sp)**|`=this.spcoin` |
 >>**Bronze Pieces (bp)**|`=this.bpcoin` | **=** `=floor((this.bpcoin)/10)` ***sp***
 >>**Iron Pieces (ip)**|`=this.ipcoin` |**=** `=floor((this.ipcoin)/10)` ***bp***
->>**Rations**|`8` |
+>>**Rations**|`7` |
 >>**Torches**| `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):torch1]` |
 >>**Lamp Oil**|`INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):Lampoil]` |
 
@@ -144,8 +143,9 @@ SpiritPath: Path of Celestial Fury
 >>| **Constitution** | `=this.CONST` |+`=floor((this.CONST - 10)/2.5)`| `=floor((this.CONST - 10)/2.5)`|
 >>| **Charisma** | `=this.CHA` | +`=floor((this.CHA - 10)/2.5)`| `=floor((this.CHA - 10)/2.5)`|
 >>| **Max Gear Slots** | *`=(this.STR)+10`* | ||
->>---
+>>
 >>&nbsp;
+>>
 >> ### Skill Checks
 >>| **Skill Name** | **Skill Level** | **Skill Name** | **Skill Level** |
 >>| :-----: | :-: |:------: | :-: |
@@ -156,8 +156,8 @@ SpiritPath: Path of Celestial Fury
 >>| **Deception** (CHA +`=floor((this.CHA - 10)/2.5)`) | `-1` |**Sleight of Hand** (DEX +`=floor((this.DEX - 10)/2.5)`) | `2` |
 >>|**Insight** (WIS +`=floor((this.WIS - 10)/2.5)`)|`2` |**Spiritual Lore** (WIS +`=floor((this.WIS - 10)/2.5)`)| `2`|
 >>| **Investigation** (INT +`=floor((this.INT - 10)/2.5)`) | `2` | **Stealth** (DEX +`=floor((this.DEX - 10)/2.5)`)|`1`|
->>|**Manipulation** (CHA +`=floor((this.CHA - 10)/2.5)`)| `-1` | **Survival** (WIS +`=floor((this.WIS - 10)/2.5)`) | `1` |
->>| **Medicine** (WIS +`=floor((this.WIS - 10)/2.5)`) | `2` | **Weshan Control** (INT +`=floor((this.INT - 10)/2.5)`) | `3` |
+>>|**Manipulation** (CHA +`=floor((this.CHA - 10)/2.5)`)| `-1` | **Survival** (WIS +`=floor((this.WIS - 10)/2.5)`) | `2` |
+>>| **Medicine** (WIS +`=floor((this.WIS - 10)/2.5)`) | `2` | **Weshan Control** (INT +`=floor((this.INT - 10)/2.5)`) | `4` |
 >
 >>[!travel] %%FAKE TITLE HERE%%
 >>##### Proficiencies
@@ -169,6 +169,12 @@ SpiritPath: Path of Celestial Fury
 >>| `=this.proficiencyweapon4` | `=this.proficiencyarmor4` |
 >>| `=this.proficiencyweapon5` | `=this.proficiencyarmor5` |
 >>| `=this.proficiencyweapon6` | `=this.proficiencyarmor6` |
+>>
+>>&nbsp;
+>>
+>>| | |
+>>|---| -- |
+>>| **Kin Gift** |  `=this.kingift`   |
 
 >[!gather] %%FAKE TITLE HERE%%
 >>[!table] %%FAKE TITLE HERE%%
@@ -214,14 +220,26 @@ SpiritPath: Path of Celestial Fury
 
 >[!crafting] %%FAKE TITLE HERE%%
 >>[!npc] %%FAKE TITLE HERE%%
+>>### Path Stance
+>>
+>>&nbsp
+>>
+>>| | | | |
+>>|:-:|:----------:|
+>>| <font color="#00b0f0">**Stance**</font> | `=this.Stance` |  
+>>| <font color="#00b0f0">**Description**</font> |  `=this.Stanceskill`  | 
+>>
+>>&nbsp
+>>
 >>### Known Weshan
 >>
 >>&nbsp
 >>
 >>| | | | |
 >>|:-:|:----------:|:-----:|:---------------------:|
->>| **Weshan Name** | `=this.Spell1` | **Cost** | `=this.Spell1cost` |
->>| **Range** |  `=this.Spell1range`  | **Execution Time** |`=this.Spell1time` |
+>>| <font color="#00b0f0">**Weshan Name**</font> | `=this.Spell1` | <font color="#00b0f0">**Cost**</font> | `=this.Spell1cost` |
+>>| <font color="#00b0f0">**Range**</font> |  `=this.Spell1range`  | <font color="#00b0f0">**Technique Type**</font> |`INPUT[inlineSelect(option(Caster), option(Dominator), option(Forger), option(Shaper)):Spell1techtype]` |
+>>| <font color="#00b0f0">**Domain Affinities:**</font> |  `=this.Spell1AFF`  | <font color="#00b0f0">**Spirit Stage**</font> |`INPUT[inlineSelect(option(Wood), option(Bronze), option(Iron), option(Silver), option(Gold), option(Platinum), option(Diamond)):Spell1Spirit]`|
 >>
 >>&nbsp;
 >> 
@@ -229,9 +247,6 @@ SpiritPath: Path of Celestial Fury
 >>`=this.Spell1descript`
 >>
 >>&nbsp;
->>**Domain Affinities:** `=this.Spell1AFF`
->>
->>&nbsp
 >>
 >>---
 >>
@@ -239,20 +254,39 @@ SpiritPath: Path of Celestial Fury
 >>
 >>| | | | |
 >>|:-:|:----------:|:-----:|:---------------------:|
->>| **Weshan Name** | `=this.Spell2` | **Cost** | `=this.Spell2cost` |
->>| **Range** |  `=this.Spell2range`  | **Execution Time** |`=this.Spell2time` |
+>>| <font color="#00b0f0">**Weshan Name**</font> | `=this.Spell2` | <font color="#00b0f0">**Cost**</font> | `=this.Spell2cost` |
+>>| <font color="#00b0f0">**Range**</font> |  `=this.Spell2range`  |  <font color="#00b0f0">**Technique Type**</font> |`INPUT[inlineSelect(option(Caster), option(Dominator), option(Forger), option(Shaper)):Spell2techtype]` |
+>>| <font color="#00b0f0">**Domain Affinities:**</font> |  `=this.Spell2AFF`  | <font color="#00b0f0">**Spirit Stage**</font> |`INPUT[inlineSelect(option(Wood), option(Bronze), option(Iron), option(Silver), option(Gold), option(Platinum), option(Diamond)):Spell2Spirit]`|
 >>
 >>&nbsp;
 >> 
 >>
 >>`=this.Spell2descript`
 >>
->>&nbsp;
->>**Domain Affinities:** `=this.Spell2AFF`
 >>
 >>&nbsp
 >>
 >>---
+>>---
+>>
+>>&nbsp
+>>
+>>| | | | |
+>>|:-:|:----------:|:-----:|:---------------------:|
+>>| <font color="#00b0f0">**Weshan Name**</font> | `=this.Spell3` | <font color="#00b0f0">**Cost**</font> | `=this.Spell3cost` |
+>>| <font color="#00b0f0">**Range**</font> |  `=this.Spell3range`  |  <font color="#00b0f0">**Technique Type**</font> |`INPUT[inlineSelect(option(Caster), option(Dominator), option(Forger), option(Shaper)):Spell3techtype]` |
+>>| <font color="#00b0f0">**Domain Affinities:**</font> |  `=this.Spell3AFF`  | <font color="#00b0f0">**Spirit Stage**</font> |`INPUT[inlineSelect(option(Wood), option(Bronze), option(Iron), option(Silver), option(Gold), option(Platinum), option(Diamond)):Spell3Spirit]`|
+>>
+>>&nbsp;
+>> 
+>>
+>>`=this.Spell3descript`
+>>
+>>
+>>&nbsp
+>>
+>>---
+
 
 >[!success] %%FAKE TITLE HERE%%
 >>[!travel] %%FAKE TITLE HERE%%
@@ -328,10 +362,4 @@ actions:
   value: getMetadata('ajats') * '0.6' + getMetadata('currency')
 
 ```
-
-
-
-
-
-
 

@@ -71,6 +71,13 @@ torch1: D12
 Lampoil: None
 SpiritPath: Path of Celestial Fury
 Spell1Spirit: Wood
+ac: "14"
+hp: 20
+level: 1
+modifier: 2
+Spell1techtype: Caster
+Spell2techtype: Dominator
+Spell2Spirit: Bronze
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%
@@ -78,25 +85,24 @@ Spell1Spirit: Wood
 >> `=this.Art`
 >> ###### Attributes 
 >>|     |     |
->> |------ | :---: |
+>> |:---: | :---: |
 >>|**Spirit Stage**|  `INPUT[inlineSelect(option(Wood), option(Bronze), option(Iron), option(Silver), option(Gold), option(Platinum), option(Diamond)):SpiritStage]`   |
 >>| **Path** |  `INPUT[inlineSelect(option(Path of Celestial Fury), option(Path of Endless Blade), option(Path of the Everlasting Shadows), option(Path of Flaming Truth), option(Path of the Thousand Mirrors), option(Path of Invincible Blood), option(Path of the Rolling Boulder), option(Path of the Rushing Water), option(Path of Seething Fangs), option(Path of the Slicing Wind)):SpiritPath]`   |
 >>| **Domain** |  `INPUT[inlineSelect(option(Light), option(Blades), option(Darkness), option(Fire), option(Dream), option(Blood), option(Earth), option(Water), option(Poison), option(Wind)):spiritdomain]`   |
 >> |**Reputation**| `30` |
 >>|**HP** | **Current:** `20` **Max:** `=this.MaxHP`|
->> |**Ara Pool** | **Current:** `20`  **Max:** `=this.aramax`   |
->>| **Kin Gift** |  `=this.kingift`   |
+>> |**Ara Pool** | **Current:** `16`  **Max:** `=this.aramax`   |
 >>
 >>&nbsp;
 >>
 >> ###### Stats
 >>|     |     |
->> |--- | --- |
+>> |--- | :---: |
 >> |**Initiative** | +`=floor((this.DEX - 10)/3)` |
 >> |**Healing Rate**| `=this.healingrate` |
 >> |**Passive Perception**| `=10+(floor((this.WIS - 10)/2.5))` |
 >> |**Tenacity**| `=(this.WIS)+10` |
->> |**Technique Type Affinity**| `=this.typeaffinity` |
+>> |**Technique Type Affinity (+1)**| `=this.typeaffinity` |
 >> |**XP** | `VIEW[{xp}][text]`|
 >>|**ADD XP**| `INPUT[number:axp]` `BUTTON[exp]`|
 >>
@@ -144,8 +150,9 @@ Spell1Spirit: Wood
 >>| **Constitution** | `=this.CONST` |+`=floor((this.CONST - 10)/2.5)`| `=floor((this.CONST - 10)/2.5)`|
 >>| **Charisma** | `=this.CHA` | +`=floor((this.CHA - 10)/2.5)`| `=floor((this.CHA - 10)/2.5)`|
 >>| **Max Gear Slots** | *`=(this.STR)+10`* | ||
->>---
+>>
 >>&nbsp;
+>>
 >> ### Skill Checks
 >>| **Skill Name** | **Skill Level** | **Skill Name** | **Skill Level** |
 >>| :-----: | :-: |:------: | :-: |
@@ -169,6 +176,12 @@ Spell1Spirit: Wood
 >>| `=this.proficiencyweapon4` | `=this.proficiencyarmor4` |
 >>| `=this.proficiencyweapon5` | `=this.proficiencyarmor5` |
 >>| `=this.proficiencyweapon6` | `=this.proficiencyarmor6` |
+>>
+>>&nbsp;
+>>
+>>| | |
+>>|---| -- |
+>>| **Kin Gift** |  `=this.kingift`   |
 
 >[!gather] %%FAKE TITLE HERE%%
 >>[!table] %%FAKE TITLE HERE%%
@@ -232,7 +245,7 @@ Spell1Spirit: Wood
 >>| | | | |
 >>|:-:|:----------:|:-----:|:---------------------:|
 >>| <font color="#00b0f0">**Weshan Name**</font> | `=this.Spell1` | <font color="#00b0f0">**Cost**</font> | `=this.Spell1cost` |
->>| <font color="#00b0f0">**Range**</font> |  `=this.Spell1range`  | <font color="#00b0f0">**Execution Time**</font> |`=this.Spell1time` |
+>>| <font color="#00b0f0">**Range**</font> |  `=this.Spell1range`  | <font color="#00b0f0">**Technique Type**</font> |`INPUT[inlineSelect(option(Caster), option(Dominator), option(Forger), option(Shaper)):Spell1techtype]` |
 >>| <font color="#00b0f0">**Domain Affinities:**</font> |  `=this.Spell1AFF`  | <font color="#00b0f0">**Spirit Stage**</font> |`INPUT[inlineSelect(option(Wood), option(Bronze), option(Iron), option(Silver), option(Gold), option(Platinum), option(Diamond)):Spell1Spirit]`|
 >>
 >>&nbsp;
@@ -249,7 +262,7 @@ Spell1Spirit: Wood
 >>| | | | |
 >>|:-:|:----------:|:-----:|:---------------------:|
 >>| <font color="#00b0f0">**Weshan Name**</font> | `=this.Spell2` | <font color="#00b0f0">**Cost**</font> | `=this.Spell2cost` |
->>| <font color="#00b0f0">**Range**</font> |  `=this.Spell2range`  | <font color="#00b0f0">**Execution Time**</font> |`=this.Spell2time` |
+>>| <font color="#00b0f0">**Range**</font> |  `=this.Spell2range`  |  <font color="#00b0f0">**Technique Type**</font> |`INPUT[inlineSelect(option(Caster), option(Dominator), option(Forger), option(Shaper)):Spell2techtype]` |
 >>| <font color="#00b0f0">**Domain Affinities:**</font> |  `=this.Spell2AFF`  | <font color="#00b0f0">**Spirit Stage**</font> |`INPUT[inlineSelect(option(Wood), option(Bronze), option(Iron), option(Silver), option(Gold), option(Platinum), option(Diamond)):Spell2Spirit]`|
 >>
 >>&nbsp;
@@ -268,7 +281,7 @@ Spell1Spirit: Wood
 >>| | | | |
 >>|:-:|:----------:|:-----:|:---------------------:|
 >>| <font color="#00b0f0">**Weshan Name**</font> | `=this.Spell3` | <font color="#00b0f0">**Cost**</font> | `=this.Spell3cost` |
->>| <font color="#00b0f0">**Range**</font> |  `=this.Spell3range`  | <font color="#00b0f0">**Execution Time**</font> |`=this.Spell3time` |
+>>| <font color="#00b0f0">**Range**</font> |  `=this.Spell3range`  |  <font color="#00b0f0">**Technique Type**</font> |`INPUT[inlineSelect(option(Caster), option(Dominator), option(Forger), option(Shaper)):Spell3techtype]` |
 >>| <font color="#00b0f0">**Domain Affinities:**</font> |  `=this.Spell3AFF`  | <font color="#00b0f0">**Spirit Stage**</font> |`INPUT[inlineSelect(option(Wood), option(Bronze), option(Iron), option(Silver), option(Gold), option(Platinum), option(Diamond)):Spell3Spirit]`|
 >>
 >>&nbsp;

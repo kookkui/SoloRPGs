@@ -163,6 +163,14 @@
 | `dice:d6` | Dire Beast Check                  |
 | --------- | --------------------------------- |
 | 1-2       | Encounter Check - Oida Beast Only |
-| 3-6       | Encounter Check - Dire Beast      |
+| 3-6       | Encounter Check - Dire Beast `dice:[[Combat Tables#^ec6473]]`     |
 
 ^ae4697
+
+
+| `dice:d6` | Dire Beast’s Weshan Corruption|
+| --------- | ----------------------- |
+| 1-3       | Weshan can be assimilated    |
+| 4-6         | Weshan is corrupted and cannot be assimilated |
+
+^ec6473
