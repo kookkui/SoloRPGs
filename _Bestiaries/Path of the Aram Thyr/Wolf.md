@@ -1,5 +1,5 @@
 ```statblock
-name: "Wolf(Path)"
+name: "Wolf (Path)"
 layout: PathAram
 type: "Beast"
 stats: [12, 15, 13, 2, 12, 8]

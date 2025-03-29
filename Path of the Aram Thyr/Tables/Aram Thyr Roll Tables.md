@@ -43,11 +43,6 @@
 >##### Fumbles
 >`dice:[[Combat Tables#^58b53a]]`
 >
->##### Random Ara Domain
->`dice:[[Loot Tables#^ca2736]]`
->
->##### Random Weshan Type
->`dice:[[Loot Tables#^5ff539]]`
 
 >[!seealso] Regional Tables
 >##### Beast Encounter Check
@@ -94,6 +89,13 @@
 >
 >##### Relics
 >`dice:[[Loot Tables#^c7d811]]`
+>
+>##### Random Ara Domain
+>`dice:[[Loot Tables#^ca2736]]`
+>
+>##### Random Weshan Type
+>`dice:[[Loot Tables#^5ff539]]`
+>
 
 >[!NPC] GM Emulation
 >

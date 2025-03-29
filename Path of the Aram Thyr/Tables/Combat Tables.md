@@ -153,16 +153,16 @@
 
 ### Beast Encounter Check
 
-|`dice:d6`|Beast Check|
-|---|---|
-|1-2|Basic Bitch Beast|
-|3-6|`dice:[[Combat Tables#^ae4697]]`|
+| `dice:d6` | Beast Check                         |
+| --------- | ----------------------------------- |
+| 1-2       | Encounter Check - Basic Bitch Beast |
+| 3-6       | `dice:[[Combat Tables#^ae4697]]`    |
 
 ^5e804a
 
-|`dice:d6`|Dire Beast Check|
-|---|---|
-|1-2|Oida Beast Only|
-|3-6|Dire Beast|
+| `dice:d6` | Dire Beast Check                  |
+| --------- | --------------------------------- |
+| 1-2       | Encounter Check - Oida Beast Only |
+| 3-6       | Encounter Check - Dire Beast      |
 
 ^ae4697

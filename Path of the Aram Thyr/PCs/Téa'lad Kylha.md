@@ -10,7 +10,7 @@ xp: 95
 spiritstage: 
 SpiritStage: Wood
 spiritdomain: Light
-kingift: "Lifetap: You can tap into your Life Ara and sacrifice your own vitality to regain some Ara. For each 1 HP you spend you gain 2 Ara. This counts as an action."
+kingift: "**Lifetap:** You can tap into your Life Ara and sacrifice your own vitality to regain some Ara. For each 1 HP you spend you gain 2 Ara. This counts as an action."
 healingrate: D8
 MaxHP: 18
 aramax: 20

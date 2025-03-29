@@ -11,7 +11,7 @@ Weather: Overcast
 #### Encounter Dire Bobcat
 
 ```statblock
-creature: Bobcat(Path)
+creature: Bobcat (Path)
 ```
 
 **HP:** 34
@@ -92,18 +92,18 @@ Encounter check 12
 Combat Encounter 
 
 ```statblock
-creature: Wolf(Path)
+creature: Wolf (Path)
 ```
 
 ```encounter
 players:
   - Téa'lad Kylha
 creatures:
-  - Wolf(Path) 1, 15, 0
-  - Wolf(Path) 2, 15, 0
-  - Wolf(Path) 3, 15, 0
-  - Wolf(Path) 4, 15, 0
-  - Wolf(Path) 5, 15, 0
+  - Wolf (Path) 1, 15, 0
+  - Wolf (Path) 2, 15, 0
+  - Wolf (Path) 3, 15, 0
+  - Wolf (Path) 4, 15, 0
+  - Wolf (Path) 5, 15, 0
 ```
 
 Combat Begins
@@ -238,5 +238,9 @@ Traveling South
 **Survival Check** (12) 13
 
 Encounter check 5
+
+Next Hex 
+
+Encounter Check - Dire Beast
 
 
