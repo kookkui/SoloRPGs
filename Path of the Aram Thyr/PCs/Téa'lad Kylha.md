@@ -6,7 +6,7 @@ WIS: 16
 DEX: 14
 CONST: 15
 CHA: 9
-xp: 95
+xp: 120
 spiritstage: 
 SpiritStage: Wood
 spiritdomain: Light
@@ -15,7 +15,7 @@ healingrate: D8
 MaxHP: 18
 aramax: 20
 typeaffinity: Caster
-axp: 
+axp: 25
 spcoin: 3
 bpcoin: 0
 ipcoin: 0

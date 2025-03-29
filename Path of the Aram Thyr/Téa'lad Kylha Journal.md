@@ -265,4 +265,28 @@ creatures:
 
 Combat Start
 
-Casting Sudden Dawn ↯ (10) :d
+PC Turn
+Casting Sudden Dawn ↯ (10) `d20 = 22`
+Yursan Save Check (26) `d20 = 15`
+Hit, Yursan is blinded
+
+Yursan turn
+
+Attack Check (14) `d20 = 24` Critical Hit
+
+`d6 = 3` x 2 = 6 damage to PC (14)
+
+Surprise Opening: The attacker receives an extra action this round
+
+Attack Check (14) `d20 = 4` Miss
+
+PC Turn
+
+Attack Check (14) `d20 = 22` Critical Hit
+
+`d8 = 9` x 2 = 18 damage to Yursan (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
++25 XP
+
+
