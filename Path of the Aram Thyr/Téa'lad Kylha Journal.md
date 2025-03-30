@@ -359,7 +359,7 @@ Cost: 5+1 Ara/Round / Execution time: 1 Action / Range: 20 feet
 The character creates a protective layer of (Domain) Ara around their 
 target, granting them +1 DL for as long as they maintain the weshan.
 
-Darkness Wave ↯
+Flood of Darkness ↯
 Domain Affinities: All
 Cost: 8 Ara / Execution time: 1 Action / Range: 10 feet cone
 Pure Darkness Ara erupts from  the character’s hands, dealing D8 damage 
@@ -398,4 +398,6 @@ Attack Check (12)  `d20 = 22` Crit hit
 
 <span style="color:rgb(241, 91, 181)">Victory!</span>
 +25 XP
+
+-100 XP to learn <font color="#6A00F4">Flood of Darkness↯</font> (45 XP remaining)
 

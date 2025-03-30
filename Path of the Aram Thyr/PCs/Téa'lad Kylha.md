@@ -6,7 +6,7 @@ WIS: 16
 DEX: 14
 CONST: 15
 CHA: 9
-xp: 120
+xp: 45
 spiritstage: 
 SpiritStage: Wood
 spiritdomain: Light
@@ -15,7 +15,7 @@ healingrate: D8
 MaxHP: 18
 aramax: 20
 typeaffinity: Caster
-axp: 25
+axp: 
 spcoin: 3
 bpcoin: 0
 ipcoin: 0
@@ -44,12 +44,12 @@ Spell1range: 30 feet
 Spell1time: 1 Action
 Spell1descript: A sudden burst of pure Light Ara blinds every character within range for 1 turn. Blinded characters have Disadvantage with all their actions.
 Spell1AFF: Light
-Spell2: 
-Spell2cost: 
-Spell2range: 
+Spell2: Flood of Darkness ↯
+Spell2cost: 8 Ara
+Spell2range: "Range: 10 feet cone"
 Spell2time: 
-Spell2descript: 
-Spell2AFF: 
+Spell2descript: Pure Darkness Ara erupts from  the character’s hands, dealing D8 damage to all creatures in the area.
+Spell2AFF: Darkness
 Anlach1: 
 Anlach1essence: 
 Anlach1uses: 
@@ -76,8 +76,8 @@ hp: 18
 level: 1
 modifier: 2
 Spell1techtype: Caster
-Spell2techtype: Dominator
-Spell2Spirit: Bronze
+Spell2techtype: Caster
+Spell2Spirit: Wood
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%
