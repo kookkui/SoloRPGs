@@ -341,3 +341,61 @@ Ara Pool: 20
 Ara Domain - Light
 Weshan Type - Forger
 
+Stealth Check `d20 = 18` vs Elder Passive Perception (10)  
+Passed
+
+Noticing the strange yet very imposing tree-like creature in the middle of the field Kylha sneaks by it since she isn't confident in being able to take down such a large and odd monster.
+
+Next hex to setup camp...and encounter!
+
+```statblock
+creature: Blackstorm Cultist (Path)
+```
+
+
+Ward of Fire
+Domain Affinities: All
+Cost: 5+1 Ara/Round / Execution time: 1 Action / Range: 20 feet
+The character creates a protective layer of (Domain) Ara around their 
+target, granting them +1 DL for as long as they maintain the weshan.
+
+Darkness Wave ↯
+Domain Affinities: All
+Cost: 8 Ara / Execution time: 1 Action / Range: 10 feet cone
+Pure Darkness Ara erupts from  the character’s hands, dealing D8 damage 
+to all creatures in the area.
+
+
+```encounter
+creatures:
+  - Blackstorm Cultist (Path) 1, 20, 12, 1
+  - Blackstorm Cultist (Path) 2, 20, 12, 1
+
+```
+
+Combat Start
+
+Attack Check (12) `d20 = 19` Hit!
+
+`d10 = 10` x 2(sneak attack)= 20 damage to Cultist 1 (Dead)
+
+Round 2 
+
+PC turn
+Attack Check (12) 3 Missed
+
+Blackstorm Cultist 2 turn
+
+Attack Check (14) 23 hit
+
+6 damage to Kylha(12)
+
+PC turn
+
+Attack Check (12)  `d20 = 22` Crit hit
+
+`d10 = 11` x 2(crit)= 22 damage to Cultist 2 (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
++25 XP
+

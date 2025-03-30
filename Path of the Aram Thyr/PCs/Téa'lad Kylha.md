@@ -72,7 +72,7 @@ Lampoil: None
 SpiritPath: Path of Celestial Fury
 Spell1Spirit: Wood
 ac: "14"
-hp: 20
+hp: 18
 level: 1
 modifier: 2
 Spell1techtype: Caster

@@ -196,8 +196,8 @@
 | ---------- | ------------------------------------------------------------------- |
 | 1-2        | No event                                                            |
 | 3-4        | `dice:[[Travel Tables#^5c8803]]`                                    |
-| 5-6        | Combat encounter (use each of the region’s Combat Encounter tables) |
-| 7-9        | NPC encounter                                                       |
+| 5-7        | Combat encounter (use each of the region’s Combat Encounter tables) |
+| 8-9        | NPC encounter                                                       |
 | 10         | Creature and NPC encounter                                          |
 
 ^d2d7b3

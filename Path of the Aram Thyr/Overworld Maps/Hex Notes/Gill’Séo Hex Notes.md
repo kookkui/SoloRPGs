@@ -6,3 +6,6 @@ Domain: Air
 Type: Dire
 Domain: Earth
 
+### Forest Elder 1
+Type: Oida
+Domain: LIght

@@ -4,7 +4,7 @@ layout: PathAram
 type: "Humanoid"
 stats: [10, 13, 12, 14, 16, 10]
 hp: "12+8 per Stage Above Wood"
-armor: "12"
+armor: "12 (padded cloth)"
 number: "🜶2"
 
 traits:
