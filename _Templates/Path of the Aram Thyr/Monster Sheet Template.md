@@ -1,5 +1,5 @@
 ```statblock
-name: "PlaceHolder(Path)"
+name: "PlaceHolder (Path)"
 layout: PathAram
 type: "Humanoid Beast"
 stats: [10, 13, 12, 14, 16, 10]

@@ -329,3 +329,15 @@ Travel East Again
 Explore Hex 
 
 Combat Encounter. Use each of the region’s Combat Encounter tables in Chapter 6
+
+```statblock
+creature: Forest Elder (Path)
+```
+
+**Encounter Check - Oida Beast Only**
+Ara Pool: 20
++50% HP (60)
++50% XP
+Ara Domain - Light
+Weshan Type - Forger
+
