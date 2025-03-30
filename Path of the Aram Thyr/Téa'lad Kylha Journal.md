@@ -1,6 +1,6 @@
 ## Setting off from Aunios
 
-### Day 1
+### Day 998-1-01
 
 I am setting off to train before taking on jobs to build my strength a bit.
 
@@ -227,7 +227,7 @@ Survival check (12) 19 Passed
 -1 Ration (7)
 +8 HP (18)
 
-### Day 2
+### Day 998-1-02
 
 <font color="#00b0f0">Weather: Overcast</font>
 
@@ -236,8 +236,6 @@ Survival check (12) 19 Passed
 Traveling South
 
 **Survival Check** (12) 13
-
-Encounter check 5
 
 Next Hex 
 
@@ -289,4 +287,45 @@ Attack Check (14) `d20 = 22` Critical Hit
 <span style="color:rgb(241, 91, 181)">Victory!</span>
 +25 XP
 
+<span style="color:rgb(255, 255, 184)">Afternoon</span>
 
+Nothing of interest
+
+Random Daily Event
+
+Friendly Ruin explorers 
+
+Some friendly explorers trying to sell off their loot for coin, but they have relic for sale but I have no where near enough coin. So they took their leave.
+
+<span style="color:rgb(155, 93, 229)">Evening</span>
+
+Camp: Resting for the night.
+
+**Survival Check** (12)  `d20 = 12` Passed
+
+-1 Ration (6)
+
+### Day 998-1-03
+
+<font color="#00b0f0">Weather: Clear</font>
+
+<span style="color:rgb(249, 132, 74)">Morning</span>
+
+Travel East
+
+**Survival Check** (14) `d20 = 9` Failed
+
+The ground suddenly shifts under the character’s feet, causing them to stumble and fall into the gap below. All characters must perform an Acrobatics check or lose D6 HP due to the fall. Iron and above characters can ignore the damage
+
+Acrobatics check (10) `d20 = 18` Passed
+
+
+Travel East Again 
+
+**Survival Check** (14) `d20 = 16` Passed
+
+<span style="color:rgb(255, 255, 184)">Afternoon</span>
+
+Explore Hex 
+
+Combat Encounter. Use each of the region’s Combat Encounter tables in Chapter 6

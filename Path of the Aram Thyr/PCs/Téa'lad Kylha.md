@@ -90,8 +90,8 @@ Spell2Spirit: Bronze
 >>| **Path** |  `INPUT[inlineSelect(option(Path of Celestial Fury), option(Path of Endless Blade), option(Path of the Everlasting Shadows), option(Path of Flaming Truth), option(Path of the Thousand Mirrors), option(Path of Invincible Blood), option(Path of the Rolling Boulder), option(Path of the Rushing Water), option(Path of Seething Fangs), option(Path of the Slicing Wind)):SpiritPath]`   |
 >>| **Domain** |  `INPUT[inlineSelect(option(Light), option(Blades), option(Darkness), option(Fire), option(Dream), option(Blood), option(Earth), option(Water), option(Poison), option(Wind)):spiritdomain]`   |
 >> |**Reputation**| `30` |
->>|**HP** | **Current:** `20` **Max:** `=this.MaxHP`|
->> |**Ara Pool** | **Current:** `16`  **Max:** `=this.aramax`   |
+>>|**HP** | **Current:** `18` **Max:** `=this.MaxHP`|
+>> |**Ara Pool** | **Current:** `20`  **Max:** `=this.aramax`   |
 >>
 >>&nbsp;
 >>
@@ -134,7 +134,7 @@ Spell2Spirit: Bronze
 >>**Silver Pieces (sp)**|`=this.spcoin` |
 >>**Bronze Pieces (bp)**|`=this.bpcoin` | **=** `=floor((this.bpcoin)/10)` ***sp***
 >>**Iron Pieces (ip)**|`=this.ipcoin` |**=** `=floor((this.ipcoin)/10)` ***bp***
->>**Rations**|`7` |
+>>**Rations**|`6` |
 >>**Torches**| `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):torch1]` |
 >>**Lamp Oil**|`INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):Lampoil]` |
 
