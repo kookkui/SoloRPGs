@@ -399,5 +399,5 @@ Attack Check (12)  `d20 = 22` Crit hit
 <span style="color:rgb(241, 91, 181)">Victory!</span>
 +25 XP
 
--100 XP to learn <font color="#6A00F4">Flood of Darkness↯</font> (45 XP remaining)
+-100 XP to learn <font color="#FFFF00">Luminous Surge↯</font> (45 XP remaining)
 

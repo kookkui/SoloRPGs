@@ -44,12 +44,12 @@ Spell1range: 30 feet
 Spell1time: 1 Action
 Spell1descript: A sudden burst of pure Light Ara blinds every character within range for 1 turn. Blinded characters have Disadvantage with all their actions.
 Spell1AFF: Light
-Spell2: Flood of Darkness ↯
+Spell2: Luminous Surge ↯
 Spell2cost: 8 Ara
 Spell2range: "Range: 10 feet cone"
 Spell2time: 
-Spell2descript: Pure Darkness Ara erupts from  the character’s hands, dealing D8 damage to all creatures in the area.
-Spell2AFF: Darkness
+Spell2descript: Pure Light Ara erupts from  the character’s hands, dealing D8 damage to all creatures in the area.
+Spell2AFF: All
 Anlach1: 
 Anlach1essence: 
 Anlach1uses: 
