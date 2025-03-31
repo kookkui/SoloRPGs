@@ -32,3 +32,11 @@
 
 ### Evening
 <span style="color:rgb(155, 93, 229)">Evening</span>
+
+### Oida Beast
+Domain:
+Weshan Type:
+Ara Pool: 20
+<font color="#00b050">+50% HP</font>
+<font color="#ff00cc">+50% XP</font>
+Weshan:

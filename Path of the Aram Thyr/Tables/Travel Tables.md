@@ -256,3 +256,34 @@
 |4|Shaper|
 
 ^915f7e
+
+
+| Initiator          | Theme/Reason | Location      | Goal                                    | Requisite             | NPC           |
+| ------------------ | ------------ | ------------- | --------------------------------------- | --------------------- | ------------- |
+| Conversation       | Justice      | Burial Ground | Aid someone                             | Find item             | Aram Thyr     |
+| Request            | Vengeance    | Prison        | Capture                                 | Find NPC              | Merchant      |
+| Map                | Greed        | Temple        | Deal with threat                        | Acquire knowledge     | Warrior       |
+| Message            | Death        | Settlement    | Defend location                         | Acquire key           | Priest        |
+| Item               | Destiny      | Cave          | Stop target from becoming more powerful | Earn trust/ respect   | Apprentice    |
+| Plea               | Freedom      | Valley        | Stop conflflict                         | Clear name            | Pilgrim       |
+| Public Notice      | Innocence    | Farmstead     | Track down target                       | Beat time             | Sacred Scribe |
+| Transaction        | Immortality  | Fortress      | Escort/protect                          | Destroy item          | Leader        |
+| Demand             | Treasure     | Forest        | Deliver message/item                    | Explore location      | Farmer        |
+| Warning            | Power        | Mountain      | Solve Mystery                           | Find entrance         | Explorer      |
+| Vision             | Spirituality | Outpost       | Reclaim location                        | Fix item              | Cult follower |
+| Drawing            | Madness      | Ruins         | Free target                             | Learn Weshan          | Slave         |
+| Trap               | Mystery      | Tomb          | Stop attacks on location                | Make perilous journey | Fugitive      |
+| Symbol             | Glory        | Tower         | Investigate phenomenon at location      | Perform ritual        | Nomad         |
+| Encounter          | Status       | Lake          | Stop event at location                  | Reveal conspiracy     | Assassin      |
+| Manuscript         | Fear         | Battlefifield | Rescue someone                          | Restore condition     | Impostor      |
+| Event              | Life         | House         | Search for knowledge                    | Race against NPC      | Criminal      |
+| Personal Challenge | Friendship   | Ship          | Obtain support                          | Solve puzzle          | Commoner      |
+| Attack             | Loyalty      | Lair          | Find item                               | Stop ritual           | Spy           |
+| Accusation         | Wrath        | Chasm         | Destroy/Seal location                   | Pass test             | Oida beast    |
+
+^3d07d4
+
+
+
+
+`dice:[[Travel Tables#^3d07d4]]|Requisite`

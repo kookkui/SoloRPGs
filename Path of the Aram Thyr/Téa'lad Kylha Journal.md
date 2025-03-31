@@ -81,6 +81,8 @@ Attack Check (12) 17 HIT
 <span style="color:rgb(241, 91, 181)">Victory!</span>
 +20 XP
 
+Gems worth 234 sp
+
 <span style="color:rgb(255, 255, 184)">Afternoon</span>
 
 Next Hex 
@@ -287,6 +289,9 @@ Attack Check (14) `d20 = 22` Critical Hit
 <span style="color:rgb(241, 91, 181)">Victory!</span>
 +25 XP
 
+##### Explosive Beads
+These black spheres, the size of a pearl, explode when thrown. Each creature in a 20-foot radius sphere centered on that point must make a DEX saving throw (TN 14). A target takes 6d6 fire damage on a failed save, or half as much damage on a successful one.
+
 <span style="color:rgb(255, 255, 184)">Afternoon</span>
 
 Nothing of interest
@@ -399,5 +404,141 @@ Attack Check (12)  `d20 = 22` Crit hit
 <span style="color:rgb(241, 91, 181)">Victory!</span>
 +25 XP
 
--100 XP to learn <font color="#FFFF00">Luminous Surge↯</font> (45 XP remaining)
+-100 XP to learn <font color="#FFFF00">Luminous Surge↯</font> (45 XP remaining)]
+
+<font color="#ff00cc">Anlach - Weaken</font>
+
+A manual that describes weshan control techniques. If studied, grants +1 Weshan Control. Can only be used once
+
++1 Weshan Control (5)
+#### Evening
+
+Making camp for the night.
+
+Survival Check (14) `d20: 22` Passed
+
+-1 Ration (5) 
+
++6 HP (18)
+### Day 998-1-04
+
+#### Morning
+
+Weather: Overcast
+
+Random Daily event: Combat encounter 
+
+```statblock
+creature: Dire Vine (Path)
+```
+
+
+
+```encounter
+creatures:
+  - Dire Vine (Path) 1, 6, 11, 2
+  - Dire Vine (Path) 2, 6, 11, 2
+  - Dire Vine (Path) 3, 6, 11, 2
+  - Dire Vine (Path) 4, 6, 11, 2
+  - Dire Vine (Path) 5, 6, 11, 2
+```
+
+Combat Start
+
+PC Turn
+
+Attack Check, Cleave (11) `d20 = 12`  Hit!
+
+8 Damage to Vine 3 (Dead) and Vine 5 (4)
+
+Vine 5 turn
+
+Attack Check (14) `d20 = 7` Missed
+
+Vine 4 turn
+
+Attack Check (14) `d20 = 7` Missed
+
+Vine 2 turn
+
+Attack Check (14) `d20 = 6` Missed
+
+Vine 1 turn
+
+Attack Check (14) `d20 = 11` Missed
+
+PC Turn
+
+Luminous Surge ↯ (10) `d20 = 11` Success! 
+
+`d20 = 7`  to all Vines (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
++50 XP
+
+Travel Check (14) `d20 = 17` Success! 
+
+Heading east 2
+
+#### Afternoon
+
+Exploring Hex 
+
+Encounter
+
+```statblock
+creature: Bear (Path)
+```
+
+
+Domain: Blades
+Weshan Type: Forger
+Ara Pool: 20
+<font color="#ff00cc">+50% XP</font>
+Weshan: Reinforced Skin
+Domain Affinities: All
+Cost: 10 Ara / Execution time: 2 Actions / Range: Self
+The character’s skin becomes empowered by their (Domain) Ara, reducing all incoming damage by 1 for the next hour.
+
+```encounter
+creatures:
+  - Bear (Path) , 35, 15, 0
+```
+
+Combat Start
+
+PC Turn
+
+Luminous Surge ↯ (10) `d20 = 25` CRIT HIT
+
+`d8 = 9` x Crit = 18 Damage to Bear (17)
+
+Bear Turn
+
+Attack Check (14) `d20 = 12` Missed
+
+PC Turn
+
+Attack Check (15) `d20 = 21` Hit!
+
+12 damage to the Bear (5)
+
+Bear Turn
+
+Desperate Attack -2 attack roll, +3 damage
+
+Attack (Bite) Check (14) `d20 = 19` Hit
+
+4 damage to Kylha (14)
+
+PC Turn
+
+Attack Check (15) `d20 = 15` Hit
+
+5 Damage to Bear (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
++20 XP
+
+Anlach - Domain Ward
 

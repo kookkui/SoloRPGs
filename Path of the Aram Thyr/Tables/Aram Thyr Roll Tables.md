@@ -48,13 +48,13 @@
 >##### Beast Encounter Check
 >`dice:[[Combat Tables#^5e804a]]`
 >
->##### Combat Encounters - Gill’séo
+>##### Combat Encounters - Gill’séo (Wood Stage)
 >`dice:[[Regional Tables#^ab8976]]`
 >
 >##### Aunios Job Board
 >`dice:[[Regional Tables#^35937c]]`
 >
->##### Combat Encounters - Ebon Hills
+>##### Combat Encounters - Ebon Hills (Bronze Stage)
 >`dice:[[Regional Tables#^74e717]]`
 >
 >##### Combat Encounters - Raging Peaks
@@ -62,6 +62,31 @@
 >
 >##### Regional Weekly Events
 >`dice:[[Regional Tables#^ba1d3c]]`
+
+>[!dice] Loot Tables
+>##### Valuables
+>`dice:[[Loot Tables#^4b7d71]]`
+>
+>##### Valuables (Wood Stage)
+>`dice:[[Loot Tables#^6036bb]]`
+>
+>##### Relics
+>`dice:[[Loot Tables#^c7d811]]`
+>
+>##### Random Weapon
+>`dice:[[Loot Tables#^492e13]]` 
+>
+>##### Random Armor
+>`dice:[[Loot Tables#^6affe4]]`
+>
+>##### Random Ara Domain
+>`dice:[[Loot Tables#^ca2736]]`
+>
+>##### Random Weshan Type
+>`dice:[[Loot Tables#^5ff539]]`
+>
+>##### Random Anlach
+>`dice:[[Loot Tables#^cf925d]]`
 
 > [!table] World Building Tables
 >##### Random NPC
@@ -82,19 +107,25 @@
 >##### Settlement - Problems
 >`dice:[[Travel Tables#^8e1448]]`
 
-
->[!dice] Loot Tables
->##### Valuables
->`dice:[[Loot Tables#^4b7d71]]`
+>[!missing] Random Task Generator
 >
->##### Relics
->`dice:[[Loot Tables#^c7d811]]`
+>##### Initiator
+>`dice:[[Travel Tables#^3d07d4]]|Initiator`
 >
->##### Random Ara Domain
->`dice:[[Loot Tables#^ca2736]]`
+>##### Theme/Reason
+>`dice:[[Travel Tables#^3d07d4]]|Theme/Reason`
 >
->##### Random Weshan Type
->`dice:[[Loot Tables#^5ff539]]`
+>##### Location
+>`dice:[[Travel Tables#^3d07d4]]|Location`
+>
+>##### Goal
+>`dice:[[Travel Tables#^3d07d4]]|Goal`
+>
+>##### Requisite
+>`dice:[[Travel Tables#^3d07d4]]|Requisite`
+>
+>##### NPC
+>`dice:[[Travel Tables#^3d07d4]]|NPC`
 >
 
 >[!NPC] GM Emulation

@@ -72,6 +72,7 @@ torch1: D12
 Lampoil: None
 SpiritPath: Path of Celestial Fury
 ---
+
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%
 >> # `=this.file.name`
@@ -83,8 +84,8 @@ SpiritPath: Path of Celestial Fury
 >>| **Path** |  `INPUT[inlineSelect(option(Path of Celestial Fury), option(Path of Endless Blade), option(Path of the Everlasting Shadows), option(Path of Flaming Truth), option(Path of the Thousand Mirrors), option(Path of Invincible Blood), option(Path of the Rolling Boulder), option(Path of the Rushing Water), option(Path of Seething Fangs), option(Path of the Slicing Wind)):SpiritPath]`   |
 >>| **Domain** |  `INPUT[inlineSelect(option(Light), option(Blades), option(Darkness), option(Fire), option(Dream), option(Blood), option(Earth), option(Water), option(Poison), option(Wind)):spiritdomain]`   |
 >> |**Reputation**| `30` |
->>|**HP** | **Current:** `20` **Max:** `=this.MaxHP`|
->> |**Ara Pool** | **Current:** `20`  **Max:** `=this.aramax`   |
+>>|**HP** | **Current:** `18` **Max:** `=this.MaxHP`|
+>> |**Ara Pool** | **Current:** `4`  **Max:** `=this.aramax`   |
 >>
 >>&nbsp;
 >>
@@ -95,7 +96,7 @@ SpiritPath: Path of Celestial Fury
 >> |**Healing Rate**| `=this.healingrate` |
 >> |**Passive Perception**| `=10+(floor((this.WIS - 10)/2.5))` |
 >> |**Tenacity**| `=(this.WIS)+10` |
->> |**Technique Type Affinity**| `=this.typeaffinity` |
+>> |**Technique Type Affinity (+1)**| `=this.typeaffinity` |
 >> |**XP** | `VIEW[{xp}][text]`|
 >>|**ADD XP**| `INPUT[number:axp]` `BUTTON[exp]`|
 >>
@@ -127,7 +128,7 @@ SpiritPath: Path of Celestial Fury
 >>**Silver Pieces (sp)**|`=this.spcoin` |
 >>**Bronze Pieces (bp)**|`=this.bpcoin` | **=** `=floor((this.bpcoin)/10)` ***sp***
 >>**Iron Pieces (ip)**|`=this.ipcoin` |**=** `=floor((this.ipcoin)/10)` ***bp***
->>**Rations**|`7` |
+>>**Rations**|`5` |
 >>**Torches**| `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):torch1]` |
 >>**Lamp Oil**|`INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):Lampoil]` |
 
@@ -216,6 +217,15 @@ SpiritPath: Path of Celestial Fury
 >>|8|`INPUT[text:lightitem8]`|18|`INPUT[text:lightitem18]`|
 >>|9|`INPUT[text:lightitem9]`|19|`INPUT[text:lightitem19]`|
 >>|10|`INPUT[text:lightitem10]`|20|`INPUT[text:lightitem20]`|
+>>
+>> &nbsp;
+>>
+>> ##### Spirit Essences
+>>| **Air**   | **Blades** | **Blood** | **Darkness** | **Dream**  | 
+>>| :-: | :-: | :-: | :-: | :-: | 
+>>| `0`   | `0`  | `0`  | `0`   | `0`   | 
+>>| **Earth** | **Fire** | **Light** | **Poison** | **Water** | 
+>| `0`   | `0`  | `0`  | `0`   | `0`   | 
 
 
 >[!crafting] %%FAKE TITLE HERE%%
@@ -286,7 +296,6 @@ SpiritPath: Path of Celestial Fury
 >>&nbsp
 >>
 >>---
-
 
 >[!success] %%FAKE TITLE HERE%%
 >>[!travel] %%FAKE TITLE HERE%%
@@ -362,4 +371,7 @@ actions:
   value: getMetadata('ajats') * '0.6' + getMetadata('currency')
 
 ```
+
+
+
 

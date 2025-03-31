@@ -6,7 +6,7 @@ WIS: 16
 DEX: 14
 CONST: 15
 CHA: 9
-xp: 45
+xp: 115
 spiritstage: 
 SpiritStage: Wood
 spiritdomain: Light
@@ -15,7 +15,7 @@ healingrate: D8
 MaxHP: 18
 aramax: 20
 typeaffinity: Caster
-axp: 
+axp: 20
 spcoin: 3
 bpcoin: 0
 ipcoin: 0
@@ -66,7 +66,7 @@ title26: ""
 title7: Thieves' Tools
 title27: ""
 title8: Coins
-title9: Rations x8
+title9: Rations x6
 torch1: D12
 Lampoil: None
 SpiritPath: Path of Celestial Fury
@@ -78,6 +78,10 @@ modifier: 2
 Spell1techtype: Caster
 Spell2techtype: Caster
 Spell2Spirit: Wood
+lightitem1: Anlach - Weaken
+title10: Gems worth 234 sp
+title11: Explosive Beads (6d6)(TN 14)
+lightitem2: Anlach - Domain Ward
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%
@@ -90,8 +94,8 @@ Spell2Spirit: Wood
 >>| **Path** |  `INPUT[inlineSelect(option(Path of Celestial Fury), option(Path of Endless Blade), option(Path of the Everlasting Shadows), option(Path of Flaming Truth), option(Path of the Thousand Mirrors), option(Path of Invincible Blood), option(Path of the Rolling Boulder), option(Path of the Rushing Water), option(Path of Seething Fangs), option(Path of the Slicing Wind)):SpiritPath]`   |
 >>| **Domain** |  `INPUT[inlineSelect(option(Light), option(Blades), option(Darkness), option(Fire), option(Dream), option(Blood), option(Earth), option(Water), option(Poison), option(Wind)):spiritdomain]`   |
 >> |**Reputation**| `30` |
->>|**HP** | **Current:** `18` **Max:** `=this.MaxHP`|
->> |**Ara Pool** | **Current:** `20`  **Max:** `=this.aramax`   |
+>>|**HP** | **Current:** `14` **Max:** `=this.MaxHP`|
+>> |**Ara Pool** | **Current:** `4`  **Max:** `=this.aramax`   |
 >>
 >>&nbsp;
 >>
@@ -134,7 +138,7 @@ Spell2Spirit: Wood
 >>**Silver Pieces (sp)**|`=this.spcoin` |
 >>**Bronze Pieces (bp)**|`=this.bpcoin` | **=** `=floor((this.bpcoin)/10)` ***sp***
 >>**Iron Pieces (ip)**|`=this.ipcoin` |**=** `=floor((this.ipcoin)/10)` ***bp***
->>**Rations**|`6` |
+>>**Rations**|`5` |
 >>**Torches**| `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):torch1]` |
 >>**Lamp Oil**|`INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):Lampoil]` |
 
@@ -164,7 +168,7 @@ Spell2Spirit: Wood
 >>|**Insight** (WIS +`=floor((this.WIS - 10)/2.5)`)|`2` |**Spiritual Lore** (WIS +`=floor((this.WIS - 10)/2.5)`)| `2`|
 >>| **Investigation** (INT +`=floor((this.INT - 10)/2.5)`) | `2` | **Stealth** (DEX +`=floor((this.DEX - 10)/2.5)`)|`1`|
 >>|**Manipulation** (CHA +`=floor((this.CHA - 10)/2.5)`)| `-1` | **Survival** (WIS +`=floor((this.WIS - 10)/2.5)`) | `2` |
->>| **Medicine** (WIS +`=floor((this.WIS - 10)/2.5)`) | `2` | **Weshan Control** (INT +`=floor((this.INT - 10)/2.5)`) | `4` |
+>>| **Medicine** (WIS +`=floor((this.WIS - 10)/2.5)`) | `2` | **Weshan Control** (INT +`=floor((this.INT - 10)/2.5)`) | `5` |
 >
 >>[!travel] %%FAKE TITLE HERE%%
 >>##### Proficiencies
@@ -223,6 +227,15 @@ Spell2Spirit: Wood
 >>|8|`INPUT[text:lightitem8]`|18|`INPUT[text:lightitem18]`|
 >>|9|`INPUT[text:lightitem9]`|19|`INPUT[text:lightitem19]`|
 >>|10|`INPUT[text:lightitem10]`|20|`INPUT[text:lightitem20]`|
+>>
+>> &nbsp;
+>>
+>> ##### Spirit Essences
+>>| **Air**   | **Blades** | **Blood** | **Darkness** | **Dream**  | 
+>>| :-: | :-: | :-: | :-: | :-: | 
+>>| `0`   | `0`  | `0`  | `0`   | `0`   | 
+>>| **Earth** | **Fire** | **Light** | **Poison** | **Water** | 
+>| `0`   | `0`  | `0`  | `0`   | `0`   | 
 
 
 >[!crafting] %%FAKE TITLE HERE%%
