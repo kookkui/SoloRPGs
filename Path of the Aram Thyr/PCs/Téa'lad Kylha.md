@@ -6,7 +6,7 @@ WIS: 16
 DEX: 14
 CONST: 15
 CHA: 9
-xp: 55
+xp: 80
 spiritstage: 
 SpiritStage: Wood
 spiritdomain: Light
@@ -15,7 +15,7 @@ healingrate: D8
 MaxHP: 18
 aramax: 21
 typeaffinity: Caster
-axp: 
+axp: 25
 spcoin: 153
 bpcoin: 0
 ipcoin: 0
@@ -66,7 +66,7 @@ title26: ""
 title7: Rations x6
 title27: ""
 title8: Small ivory statuette worth 300 sp
-title9: ""
+title9: Pendant worth 500 sp
 torch1: D8
 Lampoil: None
 SpiritPath: Path of Celestial Fury
@@ -241,7 +241,7 @@ Tasktimer: D10
 >>| :-: | :-: | :-: | :-: | :-: | 
 >>| `0`   | `0`  | `0`  | `0`   | `0`   | 
 >>| **Earth** | **Fire** | **Light** | **Poison** | **Water** | 
->| `0`   | `0`  | `0`  | `0`   | `0`   | 
+>| `1`   | `0`  | `0`  | `0`   | `0`   | 
 
 
 >[!crafting] %%FAKE TITLE HERE%%

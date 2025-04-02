@@ -869,5 +869,34 @@ Attack Check (12) `d20 = 20` Hit!
 
 7 Damage to Boar (17)
 
-Boar Turn
+Boar Turn 
+
+Relevant Weshan <font color="#00b050">Invigorate</font> (10) 12 Passed 
+
++2 HP (19)
+
+PC Turn
+
+Attack Check (12) `d20 = 15` Hit!
+
+6 Damage to Boar (13)
+
+Boar Turn 
+
+Attack Check (14) `d20 = 15` Hit! 
+
+9 Damage to Kylha (5)
+
+PC Turn
+
+Attack Check (12) Critical Hit
+
+8 x Crit = 16 Damage to Boar (Dead)
+
+Dented Armor: The target’s DL is reduced by D4 until repaired
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
++25 XP
++1 Earth Spirt Essence
+Pendant worth 500 sp
 
