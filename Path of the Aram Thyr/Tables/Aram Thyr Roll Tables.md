@@ -51,9 +51,6 @@
 >##### Combat Encounters - Gill’séo (Wood Stage)
 >`dice:[[Regional Tables#^ab8976]]`
 >
->##### Aunios Job Board
->`dice:[[Regional Tables#^35937c]]`
->
 >##### Combat Encounters - Ebon Hills (Bronze Stage)
 >`dice:[[Regional Tables#^74e717]]`
 >
@@ -108,6 +105,12 @@
 >`dice:[[Travel Tables#^8e1448]]`
 
 >[!missing] Random Task Generator
+>
+>##### Aunios Job Board
+>`dice:[[Regional Tables#^35937c]]`
+>
+>##### Task Timer
+>`dice:[[Regional Tables#^ef9f9d]]`
 >
 >##### Initiator
 >`dice:[[Travel Tables#^3d07d4]]|Initiator`

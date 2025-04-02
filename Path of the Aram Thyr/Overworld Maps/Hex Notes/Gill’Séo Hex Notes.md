@@ -8,4 +8,8 @@ Domain: Earth
 
 ### Forest Elder 1
 Type: Oida
-Domain: LIght
+Domain: Light
+
+### Cockatrice 1
+Type: Dire
+Domain: Dream

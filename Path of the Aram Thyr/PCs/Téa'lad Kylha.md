@@ -6,17 +6,17 @@ WIS: 16
 DEX: 14
 CONST: 15
 CHA: 9
-xp: 115
+xp: 55
 spiritstage: 
 SpiritStage: Wood
 spiritdomain: Light
 kingift: "**Lifetap:** You can tap into your Life Ara and sacrifice your own vitality to regain some Ara. For each 1 HP you spend you gain 2 Ara. This counts as an action."
 healingrate: D8
 MaxHP: 18
-aramax: 20
+aramax: 21
 typeaffinity: Caster
-axp: 20
-spcoin: 3
+axp: 
+spcoin: 153
 bpcoin: 0
 ipcoin: 0
 proficiencyweapon1: Battle Axe
@@ -56,18 +56,18 @@ Anlach1uses:
 Anlach1Cost: 
 Anlach1DC: 
 Anlach1descript: 
-title1: Hide Armor
-title2: Battle Axe
-title3: Backpack
-title4: Torch Ud12
-title5: Bandage Ud12
-title6: Antidote x1
+title1: "Weshan Scroll (Forger: Speed Burst)"
+title2: Bandages x8
+title3: Explosive Beads (6d6)(TN 14)
+title4: Antidote x1
+title5: Thieves' Tools
+title6: Coins
 title26: ""
-title7: Thieves' Tools
+title7: Rations x6
 title27: ""
-title8: Coins
-title9: Rations x6
-torch1: D12
+title8: Small ivory statuette worth 300 sp
+title9: ""
+torch1: D8
 Lampoil: None
 SpiritPath: Path of Celestial Fury
 Spell1Spirit: Wood
@@ -78,10 +78,16 @@ modifier: 2
 Spell1techtype: Caster
 Spell2techtype: Caster
 Spell2Spirit: Wood
-lightitem1: Anlach - Weaken
-title10: Gems worth 234 sp
-title11: Explosive Beads (6d6)(TN 14)
+lightitem1: Backpack
+title10: ""
+title11: ""
 lightitem2: Anlach - Domain Ward
+lightitem3: Anlach - Weaken
+lightitem4: Anlach - Confuse formula
+lightitem5: Anlach - Empower formula
+lightitem6: Anlach - Snare formula
+lightitem11: ""
+Tasktimer: D10
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%
@@ -93,9 +99,9 @@ lightitem2: Anlach - Domain Ward
 >>|**Spirit Stage**|  `INPUT[inlineSelect(option(Wood), option(Bronze), option(Iron), option(Silver), option(Gold), option(Platinum), option(Diamond)):SpiritStage]`   |
 >>| **Path** |  `INPUT[inlineSelect(option(Path of Celestial Fury), option(Path of Endless Blade), option(Path of the Everlasting Shadows), option(Path of Flaming Truth), option(Path of the Thousand Mirrors), option(Path of Invincible Blood), option(Path of the Rolling Boulder), option(Path of the Rushing Water), option(Path of Seething Fangs), option(Path of the Slicing Wind)):SpiritPath]`   |
 >>| **Domain** |  `INPUT[inlineSelect(option(Light), option(Blades), option(Darkness), option(Fire), option(Dream), option(Blood), option(Earth), option(Water), option(Poison), option(Wind)):spiritdomain]`   |
->> |**Reputation**| `30` |
->>|**HP** | **Current:** `14` **Max:** `=this.MaxHP`|
->> |**Ara Pool** | **Current:** `4`  **Max:** `=this.aramax`   |
+>> |**Reputation**| `31` |
+>>|**HP** | **Current:** `18` **Max:** `=this.MaxHP`|
+>> |**Ara Pool** | **Current:** `21`  **Max:** `=this.aramax`   |
 >>
 >>&nbsp;
 >>
@@ -138,9 +144,9 @@ lightitem2: Anlach - Domain Ward
 >>**Silver Pieces (sp)**|`=this.spcoin` |
 >>**Bronze Pieces (bp)**|`=this.bpcoin` | **=** `=floor((this.bpcoin)/10)` ***sp***
 >>**Iron Pieces (ip)**|`=this.ipcoin` |**=** `=floor((this.ipcoin)/10)` ***bp***
->>**Rations**|`5` |
->>**Torches**| `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):torch1]` |
->>**Lamp Oil**|`INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):Lampoil]` |
+>>**Rations**|`11` |
+>>**Torches / Lamp Oil**| `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):torch1]` |
+>>**Task Timer**|`INPUT[inlineSelect(option(D10), option(D8), option(D6), option(None)):Tasktimer]` |
 
 >[!thing] %%FAKE TITLE HERE%%
 >>[!thing] %%FAKE TITLE HERE%%
@@ -161,13 +167,13 @@ lightitem2: Anlach - Domain Ward
 >>| **Skill Name** | **Skill Level** | **Skill Name** | **Skill Level** |
 >>| :-----: | :-: |:------: | :-: |
 >>|**Acrobatics** (DEX +`=floor((this.DEX - 10)/2.5)`)|`1`| **Nature** (INT +`=floor((this.INT - 10)/2.5)`) | `2` |
->>| **Animal Handling** (WIS +`=floor((this.WIS - 10)/2.5)`) | `2` | **Perception** (WIS +`=floor((this.WIS - 10)/2.5)`) | `3`|
+>>| **Animal Handling** (WIS +`=floor((this.WIS - 10)/2.5)`) | `2` | **Perception** (WIS +`=floor((this.WIS - 10)/2.5)`) | `2`|
 >>|**Athletics** (STR +`=floor((this.STR - 10)/2.5)`)| `2` | **Performance** (CHA +`=floor((this.CHA - 10)/2.5)`) | `-1` |
 >>| **Culture** (INT +`=floor((this.INT - 10)/2.5)`) | `2` | **Sacred Scripture** (INT +`=floor((this.INT - 10)/2.5)`) | `2` |
 >>| **Deception** (CHA +`=floor((this.CHA - 10)/2.5)`) | `-1` |**Sleight of Hand** (DEX +`=floor((this.DEX - 10)/2.5)`) | `2` |
 >>|**Insight** (WIS +`=floor((this.WIS - 10)/2.5)`)|`2` |**Spiritual Lore** (WIS +`=floor((this.WIS - 10)/2.5)`)| `2`|
 >>| **Investigation** (INT +`=floor((this.INT - 10)/2.5)`) | `2` | **Stealth** (DEX +`=floor((this.DEX - 10)/2.5)`)|`1`|
->>|**Manipulation** (CHA +`=floor((this.CHA - 10)/2.5)`)| `-1` | **Survival** (WIS +`=floor((this.WIS - 10)/2.5)`) | `2` |
+>>|**Manipulation** (CHA +`=floor((this.CHA - 10)/2.5)`)| `-1` | **Survival** (WIS +`=floor((this.WIS - 10)/2.5)`) | `3` |
 >>| **Medicine** (WIS +`=floor((this.WIS - 10)/2.5)`) | `2` | **Weshan Control** (INT +`=floor((this.INT - 10)/2.5)`) | `5` |
 >
 >>[!travel] %%FAKE TITLE HERE%%

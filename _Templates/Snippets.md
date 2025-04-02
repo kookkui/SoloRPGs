@@ -34,9 +34,15 @@
 <span style="color:rgb(155, 93, 229)">Evening</span>
 
 ### Oida Beast
-Domain:
-Weshan Type:
-Ara Pool: 20
-<font color="#00b050">+50% HP</font>
-<font color="#ff00cc">+50% XP</font>
+- Domain:
+- Weshan Type:
+- Ara Pool: 20
+- <font color="#ff00cc">+50% XP</font>
 Weshan:
+### Dire Beast
+- Domain:
+- Weshan Type:
+- Ara Pool: 10
+- <font color="#ff00cc">+50% XP</font>
+- Attack skill and damage dealt increased by +2 per Spirit Stage.
+Weshan: 

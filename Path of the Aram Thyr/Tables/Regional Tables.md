@@ -31,28 +31,28 @@
 ###  Aunios Job Board
 
 
-|`dice:d20`|Aunios Job Board|
-|---|---|
-|1|Wanted: traveling merchant peddling fake oida fruits|
-|2|A rare patch of snow tears has been spotted a few miles from town. Warriors to escort the gatherers are needed|
-|3|The city sewers have been taken over by dire rats. One of them seems to retain its intelligence, making it extremely dangerous. They must be dealt with|
-|4|A group of thieves managing to avoid even the Sa’Ma are becoming a nuisance|
-|5|Water from the Verdant Caves must be collected to stop a recent bout of gray fever|
-|6|arriors wanted to protect the nearby fields from being burned to ash by fire drakes|
-|7|roups of Raneos and Yara followers have been seen gathering around the city. Help is needed to either disperse them or convince them to fight somewhere else, or not fight at all|
-|8|Escort needed for a caravan transporting a valuable relic|
-|9|Warriors needed to contain a nearby lake that has turned into a powerful source of Poison Ara, corrupting any creature that drinks its waters|
-|10|Warriors needed to participate in the hunt of a rare oida beast|
-|11|Bandits have been raiding one of the city’s food suppliers. They must be dealt with|
-|12|A relic has been stolen from one of the town’s vaults. It must be recovered|
-|13|Spirit Essences needed, urgently. Will pay double the standard fee for each one|
-|14|Diggers needed to help uncover some ancient site|
-|15|Warriors needed to help protect a digsite|
-|16|Personal bodyguards needed|
-|17|Reward offered for the discovery of the source of the Navia river. A mapmaker will accompany the party|
-|18|Payment offered for each head of a dire beast brought|
-|19|Bandits have been intercepting food and supply shipments destined for the new logging settlement located approximately 3 days' south- east of town, at the border of the forest. We are requesting able- bodied warriors to act as escorts for the next and final shipment|
-|20|Sacred scribe required to create a series of anlach|
+| `dice:d20` | Aunios Job Board                                                                                                                                                                                                                                                           |
+| ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1          | Wanted: traveling merchant peddling fake oida fruits                                                                                                                                                                                                                       |
+| 2          | A rare patch of snow tears has been spotted a few miles from town. Warriors to escort the gatherers are needed                                                                                                                                                             |
+| 3          | The city sewers have been taken over by dire rats. One of them seems to retain its intelligence, making it extremely dangerous. They must be dealt with                                                                                                                    |
+| 4          | A group of thieves managing to avoid even the Sa’Ma are becoming a nuisance                                                                                                                                                                                                |
+| 5          | Water from the Verdant Caves must be collected to stop a recent bout of gray fever                                                                                                                                                                                         |
+| 6          | arriors wanted to protect the nearby fields from being burned to ash by fire drakes                                                                                                                                                                                        |
+| 7          | Groups of Raneos and Yara followers have been seen gathering around the city. Help is needed to either disperse them or convince them to fight somewhere else, or not fight at all                                                                                         |
+| 8          | Escort needed for a caravan transporting a valuable relic                                                                                                                                                                                                                  |
+| 9          | Warriors needed to contain a nearby lake that has turned into a powerful source of Poison Ara, corrupting any creature that drinks its waters                                                                                                                              |
+| 10         | Warriors needed to participate in the hunt of a rare oida beast                                                                                                                                                                                                            |
+| 11         | Bandits have been raiding one of the city’s food suppliers. They must be dealt with                                                                                                                                                                                        |
+| 12         | A relic has been stolen from one of the town’s vaults. It must be recovered                                                                                                                                                                                                |
+| 13         | Spirit Essences needed, urgently. Will pay double the standard fee for each one                                                                                                                                                                                            |
+| 14         | Diggers needed to help uncover some ancient site                                                                                                                                                                                                                           |
+| 15         | Warriors needed to help protect a digsite                                                                                                                                                                                                                                  |
+| 16         | Personal bodyguards needed                                                                                                                                                                                                                                                 |
+| 17         | Reward offered for the discovery of the source of the Navia river. A mapmaker will accompany the party                                                                                                                                                                     |
+| 18         | Payment offered for each head of a dire beast brought                                                                                                                                                                                                                      |
+| 19         | Bandits have been intercepting food and supply shipments destined for the new logging settlement located approximately 3 days' south- east of town, at the border of the forest. We are requesting able- bodied warriors to act as escorts for the next and final shipment |
+| 20         | Sacred scribe required to create a series of anlach                                                                                                                                                                                                                        |
 
 ^35937c
 
@@ -141,3 +141,12 @@
 |20|A Legendary Dread Beast awakens|
 
 ^ba1d3c
+
+
+| `dice: 1d8` | Task Timer  |
+| --- | ------------------ |
+| 1-3 | Short (D6)         |
+| 4-6 | Medium (D8)        |
+| 7-8 | Long (D10)        |
+
+^ef9f9d

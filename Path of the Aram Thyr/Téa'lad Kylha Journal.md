@@ -542,3 +542,332 @@ Attack Check (15) `d20 = 15` Hit
 
 Anlach - Domain Ward
 
+#### Evening 
+
+Setting up camp for the night
+
+Survival Check (12) 8 Failed
+
+A poorly managed fire spreads out of control and starts neighboring objects on fire. Each character loses a random item in their possession that the fire burns and consumes
+
+Torch Ud12 destroyed in the fire.
+
+-1 Ration (4)
+
+### Day 998-1-05
+
+#### Morning
+
+**Weather:** Light rain
+
+Survival Check (14) 22 Passed 
+
+Traveling North East 2 Hexes
+
+Checking event 
+
+4 dead Giant Spiders (determine which randomly) are on the road ahead.
+
+Rolled (4) spiders have loot
+
+<span style="color:rgb(241, 91, 181)">Loot</span>
+- Relic - Weshan Scroll (Forger: Speed Burst)
+- Anlach - Confuse formula
+- Anlach - Empower formula
+- 4 Bandages
+
+#### Afternoon 
+
+Using this phase to explore hex
+
+Encounter with Aram Thyr
+
+```statblock
+creature: Aram Thyr (Path)
+```
+
+Ara Domain - Fire
+Weshan Type - Shaper
+<font color="#00b0f0">Conjure Projectile</font>
+Domain Affinities: All
+Cost: 1 Ara / Execution time: Instantaneous / Range: Self
+The character creates an arrow of pure (Domain) Ara that can be used with a regular bow. This arrow deals (Domain) Ara damage, instead of piercing damage. This does not count as an action.
+
+```encounter
+creatures:
+  - Aram Thyr , 20, 14, 0
+```
+
+Combat Start
+
+PC Turn
+
+Attack Check (14) `d20 = 15` Hit
+
+8 Damage to Aram Thyr (12)
+
+Aram Thyr Turn
+
+Attack Check (14) `d20: 9` Missed!
+
+PC Turn 
+
+Throwing an Explosive Beads (6d6)(TN 14) `d20 = 14` Hit
+
+Aram Thyr (14) `d20 = 12` Failed Save
+
+24 Damage to Aram Thyr (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
++10 XP
+
+Anlach - Snare formula
+
+Spending <font color="#ff00cc">-100 XP</font> increasing <font color="#A100F2">+1 Ara Pool</font>
+
+#### Evening
+
+Making camp for the evening 
+
+Survival Check (16)  `d20 = 15` Failed Setting up camp
+
+You are too noisy while setting up camp, attracting some unwanted attention. Roll on the appropriate encounters table
+
+
+
+```statblock
+creature: Giant Snake (Path)
+```
+
+
+While setting up camp the noise attracted a Giant Snake! Thankfully I noticed it before it snuck up on me.
+
+```encounter
+creatures:
+  - Giant Snake (Path) , 20, 12, 1
+```
+
+<font color="#00b050">Basic Beast Attack</font>
+
+Combat Start
+
+Snake turn
+
+Attack Check (14) `d20 = 21` Hit
+
+3 Damage to Kylha (15)
+
+Snake is trying to constrict, Dex Saving throw (14) `d20 = 20` I jumped away 
+
+PC Turn
+
+Casting Luminous Surge ↯ (10) `d20 = 10` Hit
+
+8 Damage to Snake (12)
+
+Snek turn
+
+Attack Check (14) `d20 = 19` Hit
+
+1 Damage to Kylha (14)
+
+Dex Saving throw (14) `d20 = 18` No constrict
+
+PC Turn
+Attack Check (14) `d20 = 17`  Hit!
+
+9 Damage to Snek (3)
+
+Snek turn
+
+Desperate attack (-2 attack roll, +3 damage)
+
+Attack Check (14) `d20 = 3`  Missed!
+
+PC Turn
+
+Casting Luminous Surge ↯ (10) `d20 = 11`  Hit! 
+
+3 Damage to Giant Snake (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
++10 XP
+
+Was able to eat but not much sleep was had that night. 
+
+-1 Ration (3)
+
+### Day 998-1-06
+
+#### Morning
+ Weather : Clear
+
+Daily Event:
+
+Encounter Check - Dire Beast Weshan can be assimilated
+<font color="#8900F2">Ara Domain - Dream</font>
+Weshan Type - Shaper
+<font color="#0496FF">Infuse Weapon</font>
+Domain Affinities: All
+Cost: 5 Ara / Execution time: 1 Action / Range: Touch
+The character infuses a weapon with their Ara, causing it to deal an extra 
+D4 (Domain) Ara damage for the next minute.
+
+
+```encounter
+creatures:
+  - Cockatrice (Path) , 22, 12, 0 
+```
+
+Combat Begins
+
+PC Turn
+
+Attack Check (12) `d20 = 10` Missed
+
+Cockatrice Turn
+
+Attack Check (14) `d20 = 1` Missed Fumble, lose turn and -1 DL next round
+
+PC Turn 
+
+Attack Check (11) `d20 = 20` Hit!
+
+10 Damage to the cockerice(12)
+
+Cockatrice is barely standing back up after the fumble
+
+PC Turn 
+
+Attack Check (12) `d20 = 18` Hit!
+
+7 Damage to the cockerice(5)
+
+Cockatrice Turn
+
+Fall back, it is backing away now is my chance
+
+PC turn
+
+Attack Check (12)  `d20: 16` Hit!
+
+9 Damage to Cockatrice (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
++20 XP
++4 Bandages
+
+Traveling 3 hexes to Aunios
+
+Survival Check (12)  `d20: 19` Passed!
+
+##### Aunios
+
+I make my way to the market and find a merchant willing to buy some of the loot I have brought back. He is will get to take them off my hands for 50% of the worth and I will take it at this point. Can't be too picky these days.
+
+**Selling:** 
+- Small ivory statuette worth 300 sp
+- Gems worth 234 sp
+
+Total = + 267 sp
+
+Buying:
+- 10 Rations  1 sp
+-  Rope 25' 1 sp
+- Tent 5 sp
+- Lantern 10 sp
+- Oil
+- Void Case (10 Spirit Essences) 100 sp
+
+Total = 117sp (153)
+
+I will take a look at the job board while I am here to make some more coin and reputation. 
+
+There is one that looks promising...
+*A relic has been stolen from one of the town’s vaults. It must be recovered.*
+###### Quest Recover Relic
+Seems the culprits who are Bandits using Weshan were last seen running into the woods 2 days ago. With a two day head start it might be a bit tricky tracking them down. The reward is <font color="#F8961E">Pendant worth 500 sp</font>, <font color="#FF00CC">+100 XP</font>, <font color="#00b0f0">+2 Reputation</font>. (D10 Timer)
+
+I will  rest up and head out in the morning.
+
++4 HP
++12 Ara
+
+### Day 998-1-07
+#### Morning
+Weather : Clear
+
+Heading East to the wood 3 Hexes
+
+Task Timer Check: 9
+
+Survival Check (12) `d20 = 16` Passed
+
+Random Daily event A forgotten shrine
+
+Perception check to see if there is anything useful (15) `d20 = 18` Success!
+
+Found a Small ivory statuette worth 300 sp in the back 
+
+#### Afternoon
+
+Traveling 
+
+Survival Check (18) `d20 = 22` Success
+
+Timer check: 9
+
+#### Evening
+
+Making camp for the night.
+
+Survival Check (14) `d20 = 20` Success
+
+-1 Ration (11)
+
+Resting for the night
+
+### Day 998-1-08
+
+Weather:  Clear
+#### Morning
+
+Traveling East 2 Hexes
+
+Survival Check (18)  `d20 = 15` Failed
+
+The characters stumble upon an old hunting ground. Unfortunately for them, the place is still covered in traps, forcing them to reduce their pace to 1 hex in order to avoid them
+
+Random event check: Combat encounter (use each of the region’s Combat Encounter tables)
+
+```statblock
+creature: Boar (Path)
+```
+
+
+Encounter Check - Dire Beast Weshan can be assimilated
+- Domain: Earth
+- Weshan Type: Forger
+- Ara Pool: 10
+- <font color="#ff00cc">+50% XP</font>
+- Attack skill and damage dealt increased by +2 per Spirit Stage.
+Weshan: <font color="#00b050">Invigorate</font>
+Domain Affinities: All
+Cost: 8 Ara / Execution time: 1 Action / Range: Self 
+The character infuses their body with (Domain) Ara, gaining D10 temporary HP until their next rest.
+
+```encounter
+creatures:
+  - Boar (Path) , 24, 12, 0
+```
+
+Combat Begin
+
+PC Turn (Critical Init)
+
+Attack Check (12) `d20 = 20` Hit!
+
+7 Damage to Boar (17)
+
+Boar Turn
+
