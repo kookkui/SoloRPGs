@@ -900,3 +900,62 @@ Dented Armor: The target’s DL is reduced by D4 until repaired
 +1 Earth Spirt Essence
 Pendant worth 500 sp
 
+Task Timer Check: 1 
+D10 > D8
+
+Medicine check (14) `d20 = 21` Passed 
++4 HP
+#### Afternoon
+
+Explore Hex
+
+Combat Encounter. Use each of the region’s Combat Encounter tables in Chapter 6
+
+```statblock
+creature: Bobcat (Path)
+```
+
+```encounter
+creatures:
+  - Bobcat (Path) , 17, 12, 1
+  
+```
+
+Encounter Check - Dire Beast Weshan can be assimilated
+
+- Domain:  Blades
+- Weshan Type: Dominator
+- Ara Pool: 10
+- <font color="#ff00cc">+50% XP</font>
+- Attack skill and damage dealt increased by +2 per Spirit Stage.
+Weshan: <font color="#6425d0">Ara Disruption</font>
+Domain Affinities: All
+Cost: 10 Ara / Execution time: 1 Action / Range: Touch
+The character hits their target with an open palm, pouring their Ara into them. If the target has a different Ara Domain, they cannot use weshan for D4 rounds unless they pass a WIS saving throw.
+
+Combat Start
+
+PC Turn
+
+Casting Sudden Dawn ↯ (10) `d20 = 18` Passed 
+
+A blast of light comes from Kylha's hands and the Bobcat grows in pain and looks away blinded.
+
+ Bobcat turn
+
+Claw Attack check (14) `d20 = 5` Missed
+
+PC Turn
+
+Using Explosive Beads (6d6)(TN 14) `d20 = 16` Hit!
+
+20 fire damage to the Bobcat as the beads explode all around it (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
++20 XP
++1 Blade Spirt Essence
+Relic - Enhancement Belt
+Enhancement Belt
+These simple looking belts are made of a single piece of leather with a wooden plaque on the front. The plaque is covered in anlach though, and it emits a quiet hum. Each Enhancement Belt increases one of the character’s Abilities while wearing. Roll a <font color="#ff00cc">4</font>: 1 STR, 2 INT, 3 WIS, 4 DEX, 5 CON, 6 CHA.
+
+

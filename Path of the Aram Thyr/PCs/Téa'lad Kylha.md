@@ -1,12 +1,12 @@
 ---
 Art: "![[Téa'lad KylhaPro.webp|600]]"
 STR: 16
-INT: 17
+INT: 18
 WIS: 16
-DEX: 14
+DEX: 15
 CONST: 15
 CHA: 9
-xp: 80
+xp: 100
 spiritstage: 
 SpiritStage: Wood
 spiritdomain: Light
@@ -15,7 +15,7 @@ healingrate: D8
 MaxHP: 18
 aramax: 21
 typeaffinity: Caster
-axp: 25
+axp: 20
 spcoin: 153
 bpcoin: 0
 ipcoin: 0
@@ -57,8 +57,8 @@ Anlach1Cost:
 Anlach1DC: 
 Anlach1descript: 
 title1: "Weshan Scroll (Forger: Speed Burst)"
-title2: Bandages x8
-title3: Explosive Beads (6d6)(TN 14)
+title2: Bandages x7
+title3: Explosive Beads Ud4 (6d6)(TN 14)
 title4: Antidote x1
 title5: Thieves' Tools
 title6: Coins
@@ -79,7 +79,7 @@ Spell1techtype: Caster
 Spell2techtype: Caster
 Spell2Spirit: Wood
 lightitem1: Backpack
-title10: ""
+title10: "Enhancement Belt: +1 DEX"
 title11: ""
 lightitem2: Anlach - Domain Ward
 lightitem3: Anlach - Weaken
@@ -87,7 +87,8 @@ lightitem4: Anlach - Confuse formula
 lightitem5: Anlach - Empower formula
 lightitem6: Anlach - Snare formula
 lightitem11: ""
-Tasktimer: D10
+Tasktimer: D8
+Other: "Enhancement Belt: +1 DEX"
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%
@@ -101,7 +102,7 @@ Tasktimer: D10
 >>| **Domain** |  `INPUT[inlineSelect(option(Light), option(Blades), option(Darkness), option(Fire), option(Dream), option(Blood), option(Earth), option(Water), option(Poison), option(Wind)):spiritdomain]`   |
 >> |**Reputation**| `31` |
 >>|**HP** | **Current:** `18` **Max:** `=this.MaxHP`|
->> |**Ara Pool** | **Current:** `21`  **Max:** `=this.aramax`   |
+>> |**Ara Pool** | **Current:** `17`  **Max:** `=this.aramax`   |
 >>
 >>&nbsp;
 >>
@@ -147,6 +148,10 @@ Tasktimer: D10
 >>**Rations**|`11` |
 >>**Torches / Lamp Oil**| `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):torch1]` |
 >>**Task Timer**|`INPUT[inlineSelect(option(D10), option(D8), option(D6), option(None)):Tasktimer]` |
+>>
+>>
+>>###### Notes
+>>`INPUT[textArea:Other]`
 
 >[!thing] %%FAKE TITLE HERE%%
 >>[!thing] %%FAKE TITLE HERE%%
@@ -166,13 +171,13 @@ Tasktimer: D10
 >> ### Skill Checks
 >>| **Skill Name** | **Skill Level** | **Skill Name** | **Skill Level** |
 >>| :-----: | :-: |:------: | :-: |
->>|**Acrobatics** (DEX +`=floor((this.DEX - 10)/2.5)`)|`1`| **Nature** (INT +`=floor((this.INT - 10)/2.5)`) | `2` |
+>>|**Acrobatics** (DEX +`=floor((this.DEX - 10)/2.5)`)|`2`| **Nature** (INT +`=floor((this.INT - 10)/2.5)`) | `3` |
 >>| **Animal Handling** (WIS +`=floor((this.WIS - 10)/2.5)`) | `2` | **Perception** (WIS +`=floor((this.WIS - 10)/2.5)`) | `2`|
 >>|**Athletics** (STR +`=floor((this.STR - 10)/2.5)`)| `2` | **Performance** (CHA +`=floor((this.CHA - 10)/2.5)`) | `-1` |
->>| **Culture** (INT +`=floor((this.INT - 10)/2.5)`) | `2` | **Sacred Scripture** (INT +`=floor((this.INT - 10)/2.5)`) | `2` |
+>>| **Culture** (INT +`=floor((this.INT - 10)/2.5)`) | `3` | **Sacred Scripture** (INT +`=floor((this.INT - 10)/2.5)`) | `3` |
 >>| **Deception** (CHA +`=floor((this.CHA - 10)/2.5)`) | `-1` |**Sleight of Hand** (DEX +`=floor((this.DEX - 10)/2.5)`) | `2` |
 >>|**Insight** (WIS +`=floor((this.WIS - 10)/2.5)`)|`2` |**Spiritual Lore** (WIS +`=floor((this.WIS - 10)/2.5)`)| `2`|
->>| **Investigation** (INT +`=floor((this.INT - 10)/2.5)`) | `2` | **Stealth** (DEX +`=floor((this.DEX - 10)/2.5)`)|`1`|
+>>| **Investigation** (INT +`=floor((this.INT - 10)/2.5)`) | `3` | **Stealth** (DEX +`=floor((this.DEX - 10)/2.5)`)|`2`|
 >>|**Manipulation** (CHA +`=floor((this.CHA - 10)/2.5)`)| `-1` | **Survival** (WIS +`=floor((this.WIS - 10)/2.5)`) | `3` |
 >>| **Medicine** (WIS +`=floor((this.WIS - 10)/2.5)`) | `2` | **Weshan Control** (INT +`=floor((this.INT - 10)/2.5)`) | `5` |
 >
@@ -239,7 +244,7 @@ Tasktimer: D10
 >> ##### Spirit Essences
 >>| **Air**   | **Blades** | **Blood** | **Darkness** | **Dream**  | 
 >>| :-: | :-: | :-: | :-: | :-: | 
->>| `0`   | `0`  | `0`  | `0`   | `0`   | 
+>>| `0`   | `1`  | `0`  | `0`   | `0`   | 
 >>| **Earth** | **Fire** | **Light** | **Poison** | **Water** | 
 >| `1`   | `0`  | `0`  | `0`   | `0`   | 
 
