@@ -9,6 +9,9 @@
 >##### Scurvy Effect
 >`dice:[[Broken Shores General Tables#^1a236a]]`
 >
+>##### Demonic Corruption
+>`dice:[[Broken Shores General Tables#^ac5027]]`
+>
 >##### GM Emulation - What is the NPC doing?
 >`dice:[[Broken Shores General Tables#^56fa55]]`
 
@@ -45,20 +48,17 @@
 >##### Combat Encounters
 >`dice:[[BS Exploration Tables#^0b18e6]]`
 >
+>##### Island Weather
+>`dice:[[BS Exploration Tables#^528012]]`
+>
+>##### Traveling Mishaps
+>`dice:[[BS Exploration Tables#^5ce9ec]]`
+>
 >##### Hazards & Obstacles
 >`dice:[[BS Exploration Tables#^a883c1]]`
 >
->##### Geological Hazards
->`dice:[[BS Exploration Tables#^387b98]]`
->
->##### Man-Made Hazards
->`dice:[[BS Exploration Tables#^ea3db6]]`
->
->##### Other Hazards
->`dice:[[BS Exploration Tables#^ea3db6]]`
->
->##### Island Weather
->`dice:[[BS Exploration Tables#^528012]]`
+
+
 
 > [!thing] Hex Tables
 > ##### Previous Hex Swamp

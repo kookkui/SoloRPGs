@@ -124,4 +124,29 @@
 
 ^2de1bd
 
+### Demonic Corruption
 
+|`dice: d20 `|Demonic Corruption|
+|---|---|
+|1|Your eyes turn a bright red, but you can now see a living creature’s life force as a red aura, even in absolute darkness|
+|2|Your hands turn into claws. Any check that involves the use of hands suffers -10, but you now deal +D6 extra damage when lighting unarmed|
+|3|You smell like rotting flesh. -1 CHA|
+|4|You no longer have blood. Reduce your HP by 4, but you are immune to bleeding effects|
+|5|Your mere presence is unsettling to any other living creature. -1 CHA, +20 Manipulation when attempting to intimidate|
+|6|You grow horns. -1 CHA, you can ram an opponent with your Unarmed skill, dealing D8 damage|
+|7|Your tongue becomes snake-like. You sense of smell improves tenfold; automatically pass any Perception check based on smells|
+|8|Painful sores cover your body. -5 to all actions|
+|9|Your skin turns a deep red|
+|10|Insects buzz around you at all times|
+|11|You can no longer be healed by sorcery, but your blood has become acidic, dealing D6 damage to anyone who deals melee damage to you|
+|12|Your muscles become partially atrophied. -5 STR, you no longer need to spend shards to cast stable sorcery, your spells always work|
+|13|You become extremely violent in combat, and must pass a Tenacity check in order to stop lighting. Failure means you attack your closest ally|
+|14|You are unable to speak the truth|
+|15|You regenerate D4 HP/day, but your PP are reduced by -5|
+|16|permanently|
+|17|You look twenty years older|
+|18|You no longer need to sleep, but you must consume 1 extra Ration/day in the form of raw flesh|
+|19|Worms occasionally burst out from your flesh. It’s harmless, but extremely disturbing|
+|20|You have impaired vision in broad daylight (-30 Perception), but can see perfectly during the night fYou are regarded as suspicious or guilty by everyone, being blamed or any random occurrence|
+
+^ac5027

@@ -2276,6 +2276,40 @@ Hex 10 Thicket
 Exploring Hex 
 
 You find some ancient ruins. Use the Ruin generation rules if you decide to explore them
+
+Exploring the ruins
 #### Ruined Manor (D6)
+*Magically Unstable* 
+Sparks of magic energy can be seen lighting the room around you. Each time a spell is cast, roll D4: a result of 1-2 means that you must add +30 to the Spell Effect roll, whereas a result of 3-4 means you must subtract -30 to the Spell Effect roll
+
+##### Entrance
+
+There is a door but unlocked.
+
+##### Room 1
+
+Last Room check 4
+
+Encounter/Event Check - Nothing
+
+Perception Check (56) `d100 = 7` Critical Success
+
+You thought you found something valuable but you’re wrong, it’s just Rubbish
+
+##### Room 2
+
+Last Room check 3
+
+Encounter/Event Check - Nothing
+
+ET Encounter check 3
+
+Perception Check (56) `d100 = 55` Critical Success
+
+There’s a hidden passage that connects this room to another one. Add an extra door (now open) to this room
+
+**Viewing Crystal:** A large, roughly shaped crystal stands on top of a pedestal. If touched, it will glow, revealing images of a strange place, filled with twisting spirals, skies carved in obsidian and raging oceans as black as the night sky. All characters present must pass a Tenacity check to avoid being enthralled by the vision, and having to roll on Demonic Corruption table.
+
+Tenacity check (70) `d100 = 24`  Success
 
 

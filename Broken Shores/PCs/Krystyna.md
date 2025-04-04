@@ -65,7 +65,7 @@ title8: Arrows Ud12
 skill20: false
 skill8: false
 title9: Quiver
-skill13: false
+skill13: true
 title10: Oil Ud12
 skill5: false
 title11: Lockpicks Ud12
@@ -88,6 +88,7 @@ title22: ""
 title23: ""
 title24: ""
 acoins: 
+ruinscounter: d6
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] %%FAKE TITLE HERE%%  
@@ -139,7 +140,7 @@ acoins:
 >>###### Exploration
 >>|     |     |
 >> |:---: | :---: |
->>|**Exploration Time**|`b:0/10`|
+>>|**Exploration Time**|`boxes: 2/10`|
 >>| **Ruins/Derelict Size Timer** |`INPUT[inlineSelect(option(None), option(d4), option(d6), option(d8), option(d10), option(d12), option(d20)):ruinscounter]` |   |
 >>| **Light Source Remaining** |`INPUT[inlineSelect(option(None), option(Ud4), option(Ud6), option(Ud8), option(Ud10), option(Ud12)):lightsource]` |   |
 

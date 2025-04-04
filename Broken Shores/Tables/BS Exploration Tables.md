@@ -1,3 +1,7 @@
+
+
+### Ocean Exploration - Findings
+
 | `dice:d10` | Ocean Exploration - Hex Type |
 | ---------- | ---------------------------- |
 | 1-2        | Island                       |
@@ -5,7 +9,7 @@
 
 ^3b0677
 
-
+### Ocean Exploration - Findings
 
 | `dice:d100` | Ocean Exploration - Findings                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -41,14 +45,15 @@
 
 ^f50f30
 
+### Ocean Exploration - Precipitation
 
-| `dice:d20` | Ocean Exploration - Precipitation          |
-| ---------- | ------------------------------------------ |
-| 1-10       | No rain                                    |
-| 11-17      | Light drizzle                              |
+| `dice:d20` | Ocean Exploration - Precipitation        |
+| ---------- | ---------------------------------------- |
+| 1-10       | No rain                                  |
+| 11-17      | Light drizzle                            |
 | 18-20      | `dice:[[BS Exploration Tables#^777ca4]]` |
 
-
+### Ocean Exploration - Unusual Precipitation
 
 | `dice:d4` | Ocean Exploration - Unusual Precipitation |
 | --------- | ----------------------------------------- |
@@ -59,7 +64,7 @@
 
 ^777ca4
 
-
+### Ocean Exploration - Wind Strength
 
 | `dice:d100` | Ocean Exploration - Wind Strength        |
 | ----------- | ---------------------------------------- |
@@ -73,7 +78,7 @@
 
 ^ab6451
 
-
+### Ocean Exploration - Encounter Check
 
 | `dice:d12` | Ocean Exploration - Encounter Check      |
 | ---------- | ---------------------------------------- |
@@ -81,6 +86,8 @@
 | 3-12       | Nothing                                  |
 
 ^5b02fa
+
+### Ocean Exploration - Encounters
 
 | `dice:d20` | Ocean Exploration - Encounters                                                                                                                                                                                                                                                                                                |
 | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -97,6 +104,8 @@
 | 20         | A floating temple. They are approaching you but don’t seem aggressive.                                                                                                                                                                                                                                                        |
 
 ^d4f804
+
+### Ocean Exploration - Combat Encounters
 
 | `dice:d20` | Ocean Exploration - Combat Encounters |
 | ---------- | ------------------------------------- |
@@ -124,7 +133,7 @@
 ^1cdfed
 
 
-
+### Ocean Exploration - Complication
 
 
 | `dice:d100` | Ocean Exploration - Complication                                                                                                                                                                                                                                                              |
@@ -170,29 +179,32 @@
 
 ^0b18e6
 
+### Island Exploration - Encounters
 
-
-| `dice:d20` | Island Exploration - Encounters |
-| ---- | -------------------------------------------------------------------------------- |
-| 1-10 | `dice:[[BS Exploration Tables#^0b18e6]]` |
-| 11 | A castaway, stranded here |
-| 12 | A headhunter, searching for someone |
-| 13 | A trader with their retinue, searching the island for things to sell |
-| 14 | A group of travelers, resting here for a while |
-| 15 | A camp of wounded Krothok |
-| 16 | Slavers, gathering up new slaves and setting camp |
-| 17 | A group of people, attempting to build some sort of permanent refuge |
-| 18 | A herd of shambling creatures, unaware of your presence |
-| 19 | A group of pilgrims |
-| 20 | A Vaala (seeress), sitting in front of a fire. Her blind eyes stare right at you |
+| `dice:d20` | Island Exploration - Encounters                                                  |
+| ---------- | -------------------------------------------------------------------------------- |
+| 1-10       | `dice:[[BS Exploration Tables#^0b18e6]]`                                         |
+| 11         | A castaway, stranded here                                                        |
+| 12         | A headhunter, searching for someone                                              |
+| 13         | A trader with their retinue, searching the island for things to sell             |
+| 14         | A group of travelers, resting here for a while                                   |
+| 15         | A camp of wounded Krothok                                                        |
+| 16         | Slavers, gathering up new slaves and setting camp                                |
+| 17         | A group of people, attempting to build some sort of permanent refuge             |
+| 18         | A herd of shambling creatures, unaware of your presence                          |
+| 19         | A group of pilgrims                                                              |
+| 20         | A Vaala (seeress), sitting in front of a fire. Her blind eyes stare right at you |
 
 ^d9ff13
+
+
+### Island Exploration - Findings
 
 
 | `dice:d100` | Island Exploration - Findings                                                                                                                                                                                                                                                  |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 1-10        | Nothing of interest                                                                                                                                                                                                                                                            |
-| 11-20       | You come across some sort of hazard or obstacle. Roll on the Hazards & Obstacles table                                                                                                                                                                                         |
+| 11-20       | `dice:[[BS Exploration Tables#^a883c1]]`                                                                                                                                                                                                                                       |
 | 21-30       | The terrain is impassable here, you must go around this hex                                                                                                                                                                                                                    |
 | 31-36       | You find a small lake with drinkable water. You can fill up any containers you have                                                                                                                                                                                            |
 | 37-40       | You stumble upon a hidden cave, no more than a few feet deep. Inside, you find some crates. Roll on the Valuable Loot table                                                                                                                                                    |
@@ -205,6 +217,7 @@
 
 ^42f4c3
 
+### Island Exploration - Geological Hazards
 
 | `dice:d6` | Island Exploration - Geological Hazards |
 | --------- | --------------------------------------- |
@@ -217,14 +230,23 @@
 
 ^387b98
 
+>##### Geological Hazards
+>`dice:[[BS Exploration Tables#^387b98]]`
+>
+>##### Man-Made Hazards
+>`dice:[[BS Exploration Tables#^ea3db6]]`
+>
+>##### Other Hazards
+>`dice:[[BS Exploration Tables#^ea3db6]]`
 
 
+### Island Exploration - Hazards & Obstacl
 
 | `dice:d10` | Island Exploration - Hazards & Obstacles |
 | ---------- | ---------------------------------------- |
 | 1-4        | `dice:[[BS Exploration Tables#^387b98]]` |
-| 5-7        | `dice:[[BS Exploration Tables#^ea3db6]]`   |
-| 8-10       | `dice:[[BS Exploration Tables#^ea3db6]]`     |
+| 5-7        | `dice:[[BS Exploration Tables#^ea3db6]]` |
+| 8-10       | `dice:[[BS Exploration Tables#^ea3db6]]` |
 
 ^a883c1
 
@@ -266,9 +288,9 @@
 
 | `dice:d10` | Ruin Exploration - Encounter/Event Check |
 | ---------- | ---------------------------------------- |
-| 1-2 | `dice:[[BS Exploration Tables#^6c2cff]]` |
-| 3-8 | Nothing |
-| 9-10 | `dice:[[BS Exploration Tables#^4a129e]]` |
+| 1-2        | `dice:[[BS Exploration Tables#^6c2cff]]` |
+| 3-8        | Encounter/Event Check - Nothing          |
+| 9-10       | `dice:[[BS Exploration Tables#^4a129e]]` |
 
 ^ff3dcc
 
@@ -284,7 +306,7 @@
 ^fadf23
 
 
-
+### Ruin Exploration - Combat Encounters
 
 | `dice:d20` | Ruin Exploration - Combat Encounters   |
 | ---------- | -------------------------------------- |
@@ -310,6 +332,9 @@
 | 20         | Combat Encounters - Deathless Captain  |
 
 ^6c2cff
+
+
+### Ruin Exploration - Events
 
 
 | `dice:d20` | Ruin Exploration - Events                                                                                                                                                                                                                                                                                                                           |
@@ -338,6 +363,8 @@
 ^4a129e
 
 
+### Ruin Exploration - Interesting Finds
+
 | `dice:d10` | Ruin Exploration - Interesting Finds                                                                       |
 | ---------- | ---------------------------------------------------------------------------------------------------------- |
 | 1-2        | You thought you found something valuable but you’re wrong, it’s just Rubbish                               |
@@ -348,6 +375,8 @@
 | 10         | `dice:[[BS Loot Table#^48ee33]]`                                                                           |
 
 ^c1abcc
+
+### Ruin Exploration - Feature
 
 
 | `dice:d6` | Ruin Exploration - Feature |
@@ -361,18 +390,19 @@
 
 ^3909d7
 
+### Ruin Exploration - Room Content
 
-
-| `dice:d10` | Ruin Exploration - Room Content       |
-| ---------- | ------------------------------------- |
-| 1-3        | Empty                                 |
-| 4          | Blocked                               |
+| `dice:d10` | Ruin Exploration - Room Content          |
+| ---------- | ---------------------------------------- |
+| 1-3        | Empty                                    |
+| 4          | Blocked                                  |
 | 5          | `dice:[[BS Exploration Tables#^97f248]]` |
 | 6          | `dice:[[BS Exploration Tables#^3909d7]]` |
 | 7-10       | `dice:[[BS Exploration Tables#^d266a7]]` |
 
 ^9339e2
 
+### Ruin Exploration - Other
 
 | `dice:d100` | Ruin Exploration - Other                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -539,3 +569,6 @@
 | 8          | A random character’s boots fall apart. They suffer 1 level of Fatigue due to exposure.                                                                                                                                                                                                              |
 | 9          | The path ahead is completely overgrown with thorny vines, reducing the party’s pace to 2 hexes.                                                                                                                                                                                                     |
 | 10         | The group stumbles into some swampy muck or quicksand. Each character must make an Acrobatics check (Normal 0) to avoid sinking to their death in the quicksand. Failure requires an Athletics check (Demanding -10 the first try, Hard -20, Impossible -30 on the third try). Failure means death. |
+
+^5ce9ec
+
