@@ -15,7 +15,7 @@ healingrate: D8
 MaxHP: 18
 aramax: 21
 typeaffinity: Caster
-axp: 20
+axp: 
 spcoin: 153
 bpcoin: 0
 ipcoin: 0
@@ -50,12 +50,12 @@ Spell2range: "Range: 10 feet cone"
 Spell2time: 
 Spell2descript: Pure Light Ara erupts from  the character’s hands, dealing D8 damage to all creatures in the area.
 Spell2AFF: All
-Anlach1: 
-Anlach1essence: 
-Anlach1uses: 
-Anlach1Cost: 
-Anlach1DC: 
-Anlach1descript: 
+Anlach1: Snare
+Anlach1essence: 1 Water, Earth or Dream
+Anlach1uses: "1"
+Anlach1Cost: 10 Ara
+Anlach1DC: "12"
+Anlach1descript: When a creature moves within 5 feet of the anlach, the snare triggers. The creature must succeed on a DEX saving throw or be pulled into the snare. The creature is restrained for 1 minute. A restrained creature can repeat the saving throw at the beginning of each of its turns, escaping the snare on a success. This anlach alerts its creator with a ping in their mind when the trap is triggered, if they are within 1 mile of the snare.
 title1: "Weshan Scroll (Forger: Speed Burst)"
 title2: Bandages x7
 title3: Explosive Beads Ud4 (6d6)(TN 14)
@@ -81,11 +81,11 @@ Spell2Spirit: Wood
 lightitem1: Backpack
 title10: "Enhancement Belt: +1 DEX"
 title11: ""
-lightitem2: Anlach - Domain Ward
-lightitem3: Anlach - Weaken
-lightitem4: Anlach - Confuse formula
-lightitem5: Anlach - Empower formula
-lightitem6: Anlach - Snare formula
+lightitem2: Anlach - Domain Ward (2 Dark)
+lightitem3: Anlach - Weaken (2 Blood)
+lightitem4: Anlach - Confuse (2 Dream)
+lightitem5: Anlach - Empower (3 Blade)
+lightitem6: ""
 lightitem11: ""
 Tasktimer: D8
 Other: "Enhancement Belt: +1 DEX"
@@ -145,7 +145,7 @@ Other: "Enhancement Belt: +1 DEX"
 >>**Silver Pieces (sp)**|`=this.spcoin` |
 >>**Bronze Pieces (bp)**|`=this.bpcoin` | **=** `=floor((this.bpcoin)/10)` ***sp***
 >>**Iron Pieces (ip)**|`=this.ipcoin` |**=** `=floor((this.ipcoin)/10)` ***bp***
->>**Rations**|`11` |
+>>**Rations**|`10` |
 >>**Torches / Lamp Oil**| `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):torch1]` |
 >>**Task Timer**|`INPUT[inlineSelect(option(D10), option(D8), option(D6), option(None)):Tasktimer]` |
 >>
@@ -246,7 +246,7 @@ Other: "Enhancement Belt: +1 DEX"
 >>| :-: | :-: | :-: | :-: | :-: | 
 >>| `0`   | `1`  | `0`  | `0`   | `0`   | 
 >>| **Earth** | **Fire** | **Light** | **Poison** | **Water** | 
->| `1`   | `0`  | `0`  | `0`   | `0`   | 
+>| `0`   | `0`  | `0`  | `0`   | `0`   | 
 
 
 >[!crafting] %%FAKE TITLE HERE%%

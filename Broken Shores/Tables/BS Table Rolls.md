@@ -1,5 +1,5 @@
 
-> [!gather] ### General Tables
+> [!dice] General Tables
 > ##### Random Difficulty
 >`dice:[[Broken Shores General Tables#^1d7a95]]`
 >
@@ -13,7 +13,7 @@
 >`dice:[[Broken Shores General Tables#^56fa55]]`
 
 
-> [!note] ### Ocean Exploration Tables
+> [!crafting] Ocean Exploration Tables
 > ##### Hex Type
 >`dice:[[Exploration Tables#^3b0677]]`
 >
@@ -35,7 +35,7 @@
 >##### Complication
 >`dice:[[Exploration Tables#^009dc2]]]`
 
-> [!success] ### Island Exploration Tables
+> [!seealso] Island Exploration Tables
 > ##### Encounters
 >`dice:[[Exploration Tables#^d9ff13]]`
 >
@@ -60,9 +60,30 @@
 >##### Island Weather
 >`dice:[[Exploration Tables#^528012]]`
 
+> [!thing] Hex Tables
+> ##### Previous Hex Swamp
+`dice:[[BS Exploration Tables#^80f35c]]|Swamp`
+>
+> ##### Previous Hex Jungle
+`dice:[[BS Exploration Tables#^80f35c]]|Jungle`
+>
+> ##### Previous Hex Hill
+`dice:[[BS Exploration Tables#^80f35c]]|Hill`
+>
+> ##### Previous Hex Mountain
+`dice:[[BS Exploration Tables#^80f35c]]|Mountain`
+>
+> ##### Previous Hex Thicket
+`dice:[[BS Exploration Tables#^80f35c]]|Thicket`
+>
+> ##### Previous Hex Ancient Debris
+`dice:[[BS Exploration Tables#^80f35c]]|Ancient Debris`
+>
+> ##### Previous Hex Desert
+`dice:[[BS Exploration Tables#^80f35c]]|Desert`
 
 
-> [!dice] ### Ruin Exploration Tables
+> [!dice] Ruin Exploration Tables
 > ##### Encounter/Event Check
 >`dice:[[Exploration Tables#^ff3dcc]]`
 >
@@ -82,9 +103,7 @@
 >`dice:[[Exploration Tables#^ef4944]]`
 >
 
-
-
-> [!npc] ### Ruin Generation
+> [!table] Ruin Generation
 >##### Events
 >`dice:[[Exploration Tables#^4a129e]]`
 >
@@ -98,7 +117,7 @@
 >`dice:[[Exploration Tables#^c51290]]`
 
 
-> [!bug] ### Combat Tables
+> [!crafting] Combat Tables
 > ##### Defensive Moves
 >`dice:[[Threat Tables#^7f2fb1]]`
 >
@@ -123,7 +142,7 @@
 > ##### Demonic Powers
 >`dice:[[Threat Tables#^67bc7c]]`
 
-> [!fail] ### Critical Hit Tables
+> [!missing] Critical Hit Tables
 > ##### Bludgeoning
 >`dice:[[Broken Shores General Tables#^ff1377]]`
 >
@@ -137,7 +156,7 @@
 >`dice:[[Broken Shores General Tables#^2de1bd]]`
 
 
-> [!gather] ### Loot Tables
+> [!gather] Loot Tables
 > ##### Random Loot
 >`dice:[[BS Loot Table#^a898b8]]`
 >
@@ -175,7 +194,7 @@
 >`dice:[[BS Loot Table#^edbd7f]]`
 
 
-> [!thing] ### Magic Tables
+> [!thing] Magic Tables
 > ##### Spells and Rarity
 >`dice:[[BS Loot Table#^cbf4d6]]`
 >
@@ -187,7 +206,7 @@
 
 
 
-> [!crafting] ### GM Emulation
+> [!crafting] GM Emulation
 > 
 >##### GM Emulation - Actions
 >`dice:[[DBS GM Emulation#^35c59e]]`

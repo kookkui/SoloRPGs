@@ -936,7 +936,6 @@ The character hits their target with an open palm, pouring their Ara into them. 
 Combat Start
 
 PC Turn
-
 Casting Sudden Dawn ↯ (10) `d20 = 18` Passed 
 
 A blast of light comes from Kylha's hands and the Bobcat grows in pain and looks away blinded.
@@ -958,4 +957,21 @@ Relic - Enhancement Belt
 Enhancement Belt
 These simple looking belts are made of a single piece of leather with a wooden plaque on the front. The plaque is covered in anlach though, and it emits a quiet hum. Each Enhancement Belt increases one of the character’s Abilities while wearing. Roll a <font color="#ff00cc">4</font>: 1 STR, 2 INT, 3 WIS, 4 DEX, 5 CON, 6 CHA.
 
+#### Evening
+
+Setting up camp check (14) `d20 = 15` Passed
+
+-1 Ration (10)
++6 HP (15)
+
+
+### Day 998-1-09
+
+#### Morning
+Weather: Clear
+
+Attempting to learn Analach - Snare, Sacred Scripture Check (12) `d20 = 18` Passed
+
+Learned Snare 
+Spirit Essence: One Water, Earth or Dream / TN: 12 / Uses: 1 / Reactivation Cost: 10 Ara
 

@@ -24,13 +24,16 @@ title14: Coins
 title15: ""
 ---
 
->[!dice] %%FAKE TITLE HERE%%
->> [!dice] %%FAKE TITLE HERE%% 
+>[!travel] %%FAKE TITLE HERE%%
+>> [!travel] %%FAKE TITLE HERE%% 
 >>#### Raft Sheet 
 >>|     |     |
->> |--- | --- |
+>> |:---: | :---: |
 >>|**Hull** | **Max:** `=this.HullMax` |
->>|`20/30` | `0/30`|
+>>|`b:20/33` | `b:0/33`|
+>>
+>>&nbsp;
+>>
 >>### Cargo
 >>| Slot | Items | Slot |  Items 
 >>| :-: | :---------------- |--------|--------|
@@ -55,7 +58,7 @@ title15: ""
 >>|19|`INPUT[text:title19]`|39|`INPUT[text:title39]`|
 >>|20|`INPUT[text:title20]`|40|`INPUT[text:title40]`|
 >
->>[!table] %%FAKE TITLE HERE%%
+>>[!todo] %%FAKE TITLE HERE%%
 >>##### Raft Upgrades
 >> |        |         |   
 >>| :-: | :-----: |

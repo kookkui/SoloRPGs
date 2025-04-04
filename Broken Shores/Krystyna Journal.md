@@ -2240,9 +2240,10 @@ Will rest in the Inn until fully healed.
 Fancy room w. meal (1 day) 30 Ҁ x 3 days *90Ҁ*
 
 
-##### Day 5
+### Day 5
 
-<font color="#ffff00">Morning</font>
+#### Morning
+
 ###### Hex 12
 Thicket
 
@@ -2252,23 +2253,29 @@ Search hex 12
 **You see the remains of an old wreckage, rotten wood and rusted scraps of metal spread around what’s left of the ship’s hull. You find 4 Crafting Supplies.**
 
 +4 Crafting Supplies (22)
+#### Afternoon
 
-<font color="#f79646">Afternoon</font>
 
 Crafting check to construct a Crafting Station 57 1d%[31]
 Passed, added Crafting Station to the Raft.
 -20 Crafting Supplies for crafting station (2)
 
+#### Evening
 
-<font color="#9b5de5">Evening</font>
 
 Heading back to camp to rest for the night.
 
-##### Day 6
+### Day 6
 
-<font color="#ffff00">Morning</font>
-###### Hex 10
+#### Morning
 
-Thicket
+Weather: Overcast
+
+Hex 10 Thicket
+
+Exploring Hex 
+
+You find some ancient ruins. Use the Ruin generation rules if you decide to explore them
+#### Ruined Manor (D6)
 
 

@@ -1,5 +1,5 @@
 ---
-Art: "![[Character Image Placholder]]"
+Art: "![[SoloRPGs/_ Assets/SoloRPGs/Broken Shores/PCs/Krystyna/KrystynaN.jpg|600]]"
 Corruption: 0
 HP: 0
 STR: 16
@@ -37,8 +37,10 @@ GodshardPassive:
 GodshardActive1: 
 Spell1: Stitch Wound
 Spell1pp: 4
+Spell1range: Touch
+Spell1time: Permanent
 Spell1idio: The spell’s effects are doubled, if applicable.
-Spell1des: "Range: Touch / Resisted: No / Duration: Permanent \rThe target heals D6+5 HP.\r *Blood emerges from the sorcerer’s fingertips in the shape of a red thread, stitching up the target’s wounds.*"
+Spell1des: "\rThe target heals D6+5 HP.\r *Blood emerges from the sorcerer’s fingertips in the shape of a red thread, stitching up the target’s wounds.*"
 Spell2pp: 
 Spell2idio: 
 Spell2des: 
@@ -85,20 +87,23 @@ title20: ""
 title22: ""
 title23: ""
 title24: ""
+acoins: 
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] %%FAKE TITLE HERE%%  
 >> # `=this.file.name`
 >> 
->>
->>![[SoloRPGs/_ Assets/SoloRPGs/Broken Shores/PCs/Krystyna/KrystynaN.jpg]]
+>> `=this.Art`
 >> 
 >> ###### Stats
 >>|     |     | 
 >> |--- | --- | 
 >>|**HP** | **Current:** `32` **Max:** `=this.CONST*2`|
 >>|**Power Points** |  **Current:** `14`  **Max:** `=this.WIL`|
->> |**Speed** |  **Walk:** `=this.DEX*2`  **Run:** `=this.DEX*4` |
+>> |**Speed** |  <font color="#00b0f0">Walk:</font> `=this.DEX*2`  <font color="#00b0f0">Run:</font> `=this.DEX*4` |
+>>| **Max Gear Slots**     | `=(this.STR)+10` | 
+>>
+>>&nbsp;
 >>
 >> ###### Weapons
 >>| **Weapons** | **Damage** | **Notes** |
@@ -107,44 +112,41 @@ title24: ""
 >>| `=this.Weapon2` | `=this.Weapon2dmg` | `=this.Weapon2notes` |
 >>| `=this.Weapon3` | `=this.Weapon3dmg` | `=this.Weapon3notes` |
 >>|`=this.Weapon4` |`=this.Weapon4dmg` | `=this.Weapon4notes` |
->>| | | |
+>>
+>>&nbsp;
+>>
 >> ###### Armor
 >>| **Name** | **Protection Rate** | **Integrity** | **Notes**|
 >>| ---------------------- | --------------- | ------------- | ------------- |
 >>| `=this.Armor` | `=this.ArmorPR` | `=this.Armorintegrity` | `=this.Armornote1`
 >>| `=this.Shield` | `=this.ShieldPR` | `=this.Shieldintegrity` |`=this.Armornote2`
 >>| `=this.Helmet` | `=this.HelmetPR` | `=this.Helmetintegrity` |`=this.Armornote3`
->>| | | |
 >>
->>##### Currency and Provisions
+>>&nbsp;
+>>
+>>###### Currency and Provisions
 >>|     |     |
 >> |:---: | :---: |
 >>|**Coins (Ҁ)** |`=this.Currency` |
 >>|**Shards** | `=this.shards`|
 >> |**Crafting Supplies** |`2` |
->>| **Rations**   |  `10`   |
+>>| **Rations**   |  `9`   |
 >>| **Water (Gal)** |  `=this.water`   |
->>| **Light Source Remaining** |`INPUT[suggester(option(None), option(Ud4), option(Ud6), option(Ud8), option(Ud10), option(Ud12)):lightsource]` |   |
->>| **Max Gear Slots**     | `=(this.STR)+10` | 
+>>| **Light Source Remaining** |`INPUT[inlineSelect(option(None), option(Ud4), option(Ud6), option(Ud8), option(Ud10), option(Ud12)):lightsource]` |   |
  >>|**Exploration Time**|`0/10`|
+ >>|**Add Coins (Ҁ)**| `INPUT[number:acoins]` `BUTTON[ccoins]`|
 
->[!todo] %%FAKE TITLE HERE%%
->>[!todo] %%FAKE TITLE HERE%%
+>[!table] %%FAKE TITLE HERE%%
+>>[!table] %%FAKE TITLE HERE%%
 >> #### Stats
->> | | | | |
->>| --- | --- | :--: | :---: |
->>| **Strength** | `=this.STR` | **Brawn** | `=(this.STR)*5`|
->> | `5/10` | | | |
->>| **Dexterity** | `=this.DEX` |**Coordination** | `=(this.DEX)*5`|
->> | `1/10` | | | |
->>| **Constitution** | `=this.CONST` | **Vitality**|`=(this.CONST)*5`|
->> | `1/10` | | | |
->>| **Will** | `=this.WIL` | **Tenacity**|`=(this.WIL)*5`|
->> | `1/10` | | | |
->>| **Intelligence** | `=this.INT` | **Intellect**|`=(this.INT)*5`|
->> | `0/10` | | | |
->>| **Charisma** | `=this.CHA` | **Charm**|`=(this.CHA)*5`|
->> | `0/10` | | | |
+>> | | | | | |
+>>| :--: |:--: | :--: | :--: | :---: |
+>>| **Strength** | `=this.STR` | **Brawn** | `=(this.STR)*5`| `5/10` |
+>>| **Dexterity** | `=this.DEX` |**Coordination** | `=(this.DEX)*5`|`1/10`|
+>> | **Constitution** | `=this.CONST` | **Vitality**|`=(this.CONST)*5`| `1/10`|
+>> | **Will** | `=this.WIL` | **Tenacity**|`=(this.WIL)*5`| `1/10`|
+>>| **Intelligence** | `=this.INT` | **Intellect**|`=(this.INT)*5`|`0/10` |
+>> | **Charisma** | `=this.CHA` | **Charm**|`=(this.CHA)*5`|`0/10`|
 >>
 >>&nbsp;
 >>
@@ -179,8 +181,8 @@ title24: ""
 >>#### Notes
 >>`INPUT[textArea:notes1]`
 
->[!important] %%FAKE TITLE HERE%%
->>[!important] %%FAKE TITLE HERE%%
+>[!travel] %%FAKE TITLE HERE%%
+>>[!travel] %%FAKE TITLE HERE%%
 >>##### Godshard
 >>|     |     |
 >> |---- | ---------- |
@@ -203,7 +205,7 @@ title24: ""
 >>| **Trinket** | `=this.trinketslot` |
 >>| **Boots** | `=this.bootsslot` |
 >>| **Earing** | `=this.earingslot` |
->>| **Necklace/Pendant** | `=this.necklaceslot` |
+>>| **Pendant** | `=this.necklaceslot` |
 >>| **Ring 1**| `=this.ring1` |
 >>| **Ring 2**|`=this.ring2` |
 >>
@@ -221,11 +223,11 @@ title24: ""
 >>| 7 | `=this.talent6` |
 >>
 
->[!table] %%FAKE TITLE HERE%%
->>[!table] %%FAKE TITLE HERE%%
+>[!dice] %%FAKE TITLE HERE%%
+>>[!dice] %%FAKE TITLE HERE%%
 >>### Inventory
 >>| **Slot** | **Encumbering Items** | **Slot** | **Encumbering Items** 
->>| :-: | :---------------- |--------|--------|
+>>| :-: | :---------------: |--------|--------|
 >>|1|`INPUT[text:title1]` |21|`INPUT[text:title21]`|
 >>|2|`INPUT[text:title2]`|22|`INPUT[text:title22]`|
 >>|3|`INPUT[text:title3]`|23|`INPUT[text:title23]`|
@@ -247,9 +249,11 @@ title24: ""
 >>|19|`INPUT[text:title19]`|39|`INPUT[text:title39]`|
 >>|20|`INPUT[text:title20]`|40|`INPUT[text:title40]`|
 >>
+>>&nbsp
+>>
 >> ### Non-Incumbering Items
 >> |**Slot**| **Item** |**Slot**| **Item** 
->>| :-: | :---------------------------- |:-: | :---------------------------- |
+>>| :-: | :-----------------------: |:-: | :-------------: |
 >>| 1 | `INPUT[text:Pskills69]` | 9 | `INPUT[text:Pskills8]` |
 >>| 2 | `INPUT[text:Pskills1]` | 10 | `INPUT[text:Pskills9]` |
 >>| 3 | `INPUT[text:Pskills2]` |11 | `INPUT[text:Pskills10]` |
@@ -259,36 +263,72 @@ title24: ""
 >>| 7 | `INPUT[text:Pskills6]` | 15 | `INPUT[text:Pskills14]` |
 >>| 8 | `INPUT[text:Pskills7]` |16 | `INPUT[text:Pskills15]` |
 >
->>[!danger] %%FAKE TITLE HERE%%
+>>[!table] %%FAKE TITLE HERE%%
 >>### Sorcery
+>>
+>>&nbsp
+>>
+>>|     |     |      |     |
+>> |:---: | :---: | :---: | :---: |
+>>| <font color="#00B0F0">Name</font> | `=this.Spell1`|<font color="#00B0F0">PP Cost</font> |  `=this.Spell1pp`|
+>>|<font color="#00b0f0">Range</font> | `=this.Spell1range`|<font color="#00b0f0">Duration</font> |  `=this.Spell1time`|
+>>
+>>
 >>|     |     |
->> |--- | --- |
->>|**Name** | `=this.Spell1`|
->>|**PP Cost** |  `=this.Spell1pp`|
->>|**Memorized**  |  `INPUT[toggle:Spell1mem]` |
->> |**Idiosyncrasy**  |  `=this.Spell1idio` |
->> | **Description**     | `=this.Spell1des` | 
->>|**Name** | `=this.Spell2`|
->>|**PP Cost** |  `=this.Spell2pp`|
->> |**Idiosyncrasy**  |  `INPUT[toggle:Spell2mem]` |
->> | **Description**     | `=this.Spell2des` | 
+>> |:---: | --- |
+>>|<font color="#00b0f0">Memorized</font>  |  `INPUT[toggle:Spell1mem]`|
+>>|<font color="#00b0f0">Idiosyncrasy</font> | `=this.Spell1idio` |
+>> 
+>>
+>>&nbsp;
+>>
+>> `=this.Spell1des`
+>>
+>>&nbsp;
+>>
+>>---
+>>
+>>&nbsp
+>>
+>>|     |     |      |     |
+>> |:---: | :---: | :---: | :---: |
+>>| <font color="#00B0F0">Name</font> | `=this.Spell2`|<font color="#00B0F0">PP Cost</font> |  `=this.Spell2pp`|
+>>|<font color="#00b0f0">Range</font> | `=this.Spell2range`|<font color="#00b0f0">Duration</font> |  `=this.Spell2time`|
+>>
+>>
+>>|     |     |
+>> |:---: | --- |
+>>|<font color="#00b0f0">Memorized</font>  |  `INPUT[toggle:Spell2mem]`|
+>>|<font color="#00b0f0">Idiosyncrasy</font> | `=this.Spell2idio` |
+>> 
+>>
+>>&nbsp;
+>>
+>> `=this.Spell2des`
+>>
+>>&nbsp;
+>>
+>>---
+>>
+>>&nbsp
+>>
 
 
 ```meta-bind-button
-label: Add
+label: Add coins
 icon: ""
 style: primary
 class: ""
 cssStyle: ""
 backgroundImage: ""
 tooltip: ""
-id: exp
+id: ccoins
 hidden: True
 actions:
 - type: updateMetadata
-  bindTarget: xp
+  bindTarget: Currency
   evaluate: True
-  value: getMetadata('xp') + getMetadata('axp')
+  value: getMetadata('acoins') + getMetadata('Currency')
 
 ```
 
