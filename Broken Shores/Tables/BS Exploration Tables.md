@@ -46,7 +46,7 @@
 | ---------- | ------------------------------------------ |
 | 1-10       | No rain                                    |
 | 11-17      | Light drizzle                              |
-| 18-20      | `dice:[[Exploration Tables#^777ca4]]` |
+| 18-20      | `dice:[[BS Exploration Tables#^777ca4]]` |
 
 
 
@@ -70,20 +70,21 @@
 | 91-99       | Gale - Strength: 40 Damage: D10+5        |
 | 100         | Hurricane - Strength: 80 Damage: 3D6+10  |
 
+
 ^ab6451
 
 
 
-| `dice:d12` | Ocean Exploration - Encounter Check   |
-| ---------- | ------------------------------------- |
-| 1-2        | `dice:[[Exploration Tables#^d4f804]]` |
-| 3-12       | Nothing                               |
+| `dice:d12` | Ocean Exploration - Encounter Check      |
+| ---------- | ---------------------------------------- |
+| 1-2        | `dice:[[BS Exploration Tables#^1cdfed]]` |
+| 3-12       | Nothing                                  |
 
 ^5b02fa
 
 | `dice:d20` | Ocean Exploration - Encounters                                                                                                                                                                                                                                                                                                |
 | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1-10       | `dice:[[Exploration Tables#^1cdfed]]`                                                                                                                                                                                                                                                                                         |
+| 1-10       | `dice:[[BS Exploration Tables#^1cdfed]]`                                                                                                                                                                                                                                                                                      |
 | 11         | A merchant vessel, with many armed men protecting it. They are willing to trade.                                                                                                                                                                                                                                              |
 | 12         | Another Drifter                                                                                                                                                                                                                                                                                                               |
 | 13         | An Atharri family clan                                                                                                                                                                                                                                                                                                        |
@@ -173,7 +174,7 @@
 
 | `dice:d20` | Island Exploration - Encounters |
 | ---- | -------------------------------------------------------------------------------- |
-| 1-10 | `dice:[[Exploration Tables#^0b18e6]]` |
+| 1-10 | `dice:[[BS Exploration Tables#^0b18e6]]` |
 | 11 | A castaway, stranded here |
 | 12 | A headhunter, searching for someone |
 | 13 | A trader with their retinue, searching the island for things to sell |
@@ -221,9 +222,9 @@
 
 | `dice:d10` | Island Exploration - Hazards & Obstacles |
 | ---------- | ---------------------------------------- |
-| 1-4        | `dice:[[Exploration Tables#^387b98]]` |
-| 5-7        | `dice:[[Exploration Tables#^ea3db6]]`   |
-| 8-10       | `dice:[[Exploration Tables#^ea3db6]]`     |
+| 1-4        | `dice:[[BS Exploration Tables#^387b98]]` |
+| 5-7        | `dice:[[BS Exploration Tables#^ea3db6]]`   |
+| 8-10       | `dice:[[BS Exploration Tables#^ea3db6]]`     |
 
 ^a883c1
 
@@ -265,9 +266,9 @@
 
 | `dice:d10` | Ruin Exploration - Encounter/Event Check |
 | ---------- | ---------------------------------------- |
-| 1-2 | `dice:[[Exploration Tables#^6c2cff]]` |
+| 1-2 | `dice:[[BS Exploration Tables#^6c2cff]]` |
 | 3-8 | Nothing |
-| 9-10 | `dice:[[Exploration Tables#^4a129e]]` |
+| 9-10 | `dice:[[BS Exploration Tables#^4a129e]]` |
 
 ^ff3dcc
 
@@ -366,9 +367,9 @@
 | ---------- | ------------------------------------- |
 | 1-3        | Empty                                 |
 | 4          | Blocked                               |
-| 5          | `dice:[[Exploration Tables#^97f248]]` |
-| 6          | `dice:[[Exploration Tables#^3909d7]]` |
-| 7-10       | `dice:[[Exploration Tables#^d266a7]]` |
+| 5          | `dice:[[BS Exploration Tables#^97f248]]` |
+| 6          | `dice:[[BS Exploration Tables#^3909d7]]` |
+| 7-10       | `dice:[[BS Exploration Tables#^d266a7]]` |
 
 ^9339e2
 
@@ -428,22 +429,24 @@
 
 ^d266a7
 
-|`dice:d10`|Exploration - Traps|
-|---|---|
-|1|**Broken arrows corpse:** Arrows shoot from a hidden spot, dealing D10 damage to the character who triggered it.|
-|2|**Slightly different floor:** The character steps on a hidden bear trap. They suffer D6 damage and their Speed is reduced by half until the wound is healed. Freeing the trapped character requires a Brawn check, and takes 1 ET|
-|3|**None:** A net trap suddenly traps the character, who becomes Entangled. Each attempt at liberating themself (a Demanding task) takes the character 1 ET, unless helped by another character|
-|4|**Darts, corpse:** A salvo of small, poisoned darts strike the character, who becomes poisoned unless they pass a Vitality check. The darts deal 1 damage, but the poison deals 2 damage/ET|
-|5|**Slightly different floor:** The character falls into a hole, disguised by a trap door. The hole is full of water, and the character must pass an Athletics check to climb out|
-|6|**Blood, marked floor:** A swinging blade strikes the character, who must roll on the Slashing Critical Hit table|
-|7|**Small orifices:** Noxious gas is released, filling the chamber. All characters must pass a Vitality check or immediately lose D4 HP, and an extra 2 HP per each round they remain in the room|
-|8|**Burn marks, soot:** A ball of fire fills the room, dealing 2D6 damage to all characters|
-|9|**Disquieting, tingling sensation:** An alarm of some sort (mechanical, magical, other) attracts the attention of one of the place’s inhabitants. Roll on the appropriate Combat Encounter table|
-|10|**Extra dampness:** A rush of water fills the room, while at the same time all access points close. Characters must unlock or break a door (a Hard task) or start Drowning|
+### Exploration - Traps
+
+| `dice:d10` | Exploration - Traps                                                                                                                                                                                                               |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1          | **Broken arrows corpse:** Arrows shoot from a hidden spot, dealing D10 damage to the character who triggered it.                                                                                                                  |
+| 2          | **Slightly different floor:** The character steps on a hidden bear trap. They suffer D6 damage and their Speed is reduced by half until the wound is healed. Freeing the trapped character requires a Brawn check, and takes 1 ET |
+| 3          | **None:** A net trap suddenly traps the character, who becomes Entangled. Each attempt at liberating themself (a Demanding task) takes the character 1 ET, unless helped by another character                                     |
+| 4          | **Darts, corpse:** A salvo of small, poisoned darts strike the character, who becomes poisoned unless they pass a Vitality check. The darts deal 1 damage, but the poison deals 2 damage/ET                                       |
+| 5          | **Slightly different floor:** The character falls into a hole, disguised by a trap door. The hole is full of water, and the character must pass an Athletics check to climb out                                                   |
+| 6          | **Blood, marked floor:** A swinging blade strikes the character, who must roll on the Slashing Critical Hit table                                                                                                                 |
+| 7          | **Small orifices:** Noxious gas is released, filling the chamber. All characters must pass a Vitality check or immediately lose D4 HP, and an extra 2 HP per each round they remain in the room                                   |
+| 8          | **Burn marks, soot:** A ball of fire fills the room, dealing 2D6 damage to all characters                                                                                                                                         |
+| 9          | **Disquieting, tingling sensation:** An alarm of some sort (mechanical, magical, other) attracts the attention of one of the place’s inhabitants. Roll on the appropriate Combat Encounter table                                  |
+| 10         | **Extra dampness:** A rush of water fills the room, while at the same time all access points close. Characters must unlock or break a door (a Hard task) or start Drowning                                                        |
 
 ^97f248
 
-
+### Ruin - Feature Effect
 
 | `dice:d10` | Ruin - Feature Effect                                                               |
 | ---------- | ----------------------------------------------------------------------------------- |
@@ -460,6 +463,7 @@
 
 ^ef4944
 
+### Ruin - Original Purpose 
 
 | `dice:d10` | Ruin - Original Purpose |
 | ---------- | ----------------------- |
@@ -475,6 +479,8 @@
 | 10         | Refuge                  |
 
 ^63ca87
+
+### Ruin - Peculiarity
 
 | `dice:d12` | Ruin - Peculiarity                                                                                                                                                                                                                                                          |
 | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -493,16 +499,19 @@
 
 ^c51290
 
+### Is there a Door?
 
-|`dice:d20`|Exploration - Is there a Door?|
-|---|---|
-|1-4|Yes|
-|5-8|Yes, and it's Locked|
-| 9-10  | Yes, and it’s trapped            |
-| 11-12 | Yes, and it’s locked and trapped |
-| 13-20 | No                               |
+| `dice:d20` | Exploration - Is there a Door?   |
+| ---------- | -------------------------------- |
+| 1-4        | Yes                              |
+| 5-8        | Yes, and it's Locked             |
+| 9-10       | Yes, and it’s trapped            |
+| 11-12      | Yes, and it’s locked and trapped |
+| 13-20      | No                               |
 
 ^80f35d
+
+### Pervious Hexes
 
 | Swamp          | Jungle         | Hill           | Mountain       | Thicket        | Ancient Debris | Desert         |     | --- | --- | --- | --- | --- | --- | --- |
 | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -516,3 +525,17 @@
 
 ^80f35c
 
+### Traveling Mishaps
+
+| `dice:d10` | Traveling Mishaps                                                                                                                                                                                                                                                                                   |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1          | `dice:[[BS Exploration Tables#^0b18e6]]`                                                                                                                                                                                                                                                            |
+| 2          | A thick mist appears, reducing visibility to a distance of 15 feet. Overland travel is cut by 2 hexes, and by 3 hexes while across a Jungle, Mountain or Thicket.                                                                                                                                   |
+| 3          | The path ahead is blocked in a way that makes sense for the biome: rocks, downed trees, a flood, a landslide, etc. In order to proceed the characters must overcome the obstacle or circle around the hex in the next phase.                                                                        |
+| 4          | The ground suddenly shifts under the character’s feet, causing them to stumble and fall into the gap below. All characters must perform an Acrobatics check or lose D6 HP due to the fall.                                                                                                          |
+| 5          | A random party member trips and sprains their ankle. The affected character must rest for the remainder of the day, and their speed is reduced by half for D4 days.                                                                                                                                 |
+| 6          | It appears the party has been walking in circles, making no progress during this phase.                                                                                                                                                                                                             |
+| 7          | The characters stumble upon an old hunting ground. Unfortunately for them, the place is still covered in traps, forcing them to reduce their pace to 1 hex in order to avoid them.                                                                                                                  |
+| 8          | A random character’s boots fall apart. They suffer 1 level of Fatigue due to exposure.                                                                                                                                                                                                              |
+| 9          | The path ahead is completely overgrown with thorny vines, reducing the party’s pace to 2 hexes.                                                                                                                                                                                                     |
+| 10         | The group stumbles into some swampy muck or quicksand. Each character must make an Acrobatics check (Normal 0) to avoid sinking to their death in the quicksand. Failure requires an Athletics check (Demanding -10 the first try, Hard -20, Impossible -30 on the third try). Failure means death. |

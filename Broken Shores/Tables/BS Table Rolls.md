@@ -15,50 +15,50 @@
 
 > [!crafting] Ocean Exploration Tables
 > ##### Hex Type
->`dice:[[Exploration Tables#^3b0677]]`
+>`dice:[[BS Exploration Tables#^3b0677]]`
 >
 >##### Wind Strength
->`dice:[[Exploration Tables#^ab6451]]`
+>`dice:[[BS Exploration Tables#^ab6451]]`
 >
 >##### Findings
->`dice:[[Exploration Tables#^f50f30]]`
+>`dice:[[BS Exploration Tables#^f50f30]]`
 >
 >##### Encounter Check
->`dice:[[Exploration Tables#^5b02fa]]`
+>`dice:[[BS Exploration Tables#^5b02fa]]`
 >
 >##### Encounters
->`dice:[[Exploration Tables#^d4f804]]`
+>`dice:[[BS Exploration Tables#^d4f804]]`
 >
 >##### Combat Encounters
->`dice:[[Exploration Tables#^1cdfed]]`
+>`dice:[[BS Exploration Tables#^1cdfed]]`
 >
 >##### Complication
->`dice:[[Exploration Tables#^009dc2]]]`
+>`dice:[[BS Exploration Tables#^009dc2]]]`
 
 > [!seealso] Island Exploration Tables
 > ##### Encounters
->`dice:[[Exploration Tables#^d9ff13]]`
+>`dice:[[BS Exploration Tables#^d9ff13]]`
 >
 >##### Findings
->`dice:[[Exploration Tables#^42f4c3]]`
+>`dice:[[BS Exploration Tables#^42f4c3]]`
 >
 >##### Combat Encounters
->`dice:[[Exploration Tables#^0b18e6]]`
+>`dice:[[BS Exploration Tables#^0b18e6]]`
 >
 >##### Hazards & Obstacles
->`dice:[[Exploration Tables#^a883c1]]`
+>`dice:[[BS Exploration Tables#^a883c1]]`
 >
 >##### Geological Hazards
->`dice:[[Exploration Tables#^387b98]]`
+>`dice:[[BS Exploration Tables#^387b98]]`
 >
 >##### Man-Made Hazards
->`dice:[[Exploration Tables#^ea3db6]]`
+>`dice:[[BS Exploration Tables#^ea3db6]]`
 >
 >##### Other Hazards
->`dice:[[Exploration Tables#^ea3db6]]`
+>`dice:[[BS Exploration Tables#^ea3db6]]`
 >
 >##### Island Weather
->`dice:[[Exploration Tables#^528012]]`
+>`dice:[[BS Exploration Tables#^528012]]`
 
 > [!thing] Hex Tables
 > ##### Previous Hex Swamp
@@ -85,36 +85,36 @@
 
 > [!dice] Ruin Exploration Tables
 > ##### Encounter/Event Check
->`dice:[[Exploration Tables#^ff3dcc]]`
+>`dice:[[BS Exploration Tables#^ff3dcc]]`
 >
 >##### Combat Encounters
->`dice:[[Exploration Tables#^6c2cff]]`
+>`dice:[[BS Exploration Tables#^6c2cff]]`
 >
 >##### Is there a Door?
->`dice:[[Exploration Tables#^80f35d]]`
+>`dice:[[BS Exploration Tables#^80f35d]]`
 >
 >##### Interesting Finds
->`dice:[[Exploration Tables#^c1abcc]]`
+>`dice:[[BS Exploration Tables#^c1abcc]]`
 >
 >##### Room Details & Content
->`dice:[[Exploration Tables#^9339e2]]`
+>`dice:[[BS Exploration Tables#^9339e2]]`
 >
 >##### Feature Effect
->`dice:[[Exploration Tables#^ef4944]]`
+>`dice:[[BS Exploration Tables#^ef4944]]`
 >
 
 > [!table] Ruin Generation
 >##### Events
->`dice:[[Exploration Tables#^4a129e]]`
+>`dice:[[BS Exploration Tables#^4a129e]]`
 >
 >##### Ruins Size
->`dice:[[Exploration Tables#^fadf23]]`
+>`dice:[[BS Exploration Tables#^fadf23]]`
 >
 >##### Ruins Original Purpose
->`dice:[[Exploration Tables#^63ca87]]`
+>`dice:[[BS Exploration Tables#^63ca87]]`
 >
 >##### Ruins Peculiarity
->`dice:[[Exploration Tables#^c51290]]`
+>`dice:[[BS Exploration Tables#^c51290]]`
 
 
 > [!crafting] Combat Tables
