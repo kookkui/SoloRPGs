@@ -2312,4 +2312,11 @@ There’s a hidden passage that connects this room to another one. Add an extra 
 
 Tenacity check (70) `d100 = 24`  Success
 
+Door No
+
+##### Room 3
+
+Encounter/Event Check - Nothing
+
+Room content: Empty
 

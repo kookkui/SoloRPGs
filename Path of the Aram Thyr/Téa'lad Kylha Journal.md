@@ -970,8 +970,18 @@ Setting up camp check (14) `d20 = 15` Passed
 #### Morning
 Weather: Clear
 
-Attempting to learn Analach - Snare, Sacred Scripture Check (12) `d20 = 18` Passed
+Attempting to learn Analach - Snare, Sacred Scripture Check (12) `d20: 18` Passed
 
 Learned Snare 
 Spirit Essence: One Water, Earth or Dream / TN: 12 / Uses: 1 / Reactivation Cost: 10 Ara
+
+Traveling North East 
+
+Survival Check (18)  `d20: 23` Critical Success
+
+Explore Hex
+NPC Encounter Lone Aram Thyr 
+ GM Emulation - Actions Evade
+Seems the Aram Thyr isn't really wanting to socialize and is keeping to themselves I will just move on before they change their mind.
+
 

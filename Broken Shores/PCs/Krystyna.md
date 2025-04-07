@@ -140,7 +140,7 @@ ruinscounter: d6
 >>###### Exploration
 >>|     |     |
 >> |:---: | :---: |
->>|**Exploration Time**|`boxes: 2/10`|
+>>|**Exploration Time**|`boxes: 4/10`|
 >>| **Ruins/Derelict Size Timer** |`INPUT[inlineSelect(option(None), option(d4), option(d6), option(d8), option(d10), option(d12), option(d20)):ruinscounter]` |   |
 >>| **Light Source Remaining** |`INPUT[inlineSelect(option(None), option(Ud4), option(Ud6), option(Ud8), option(Ud10), option(Ud12)):lightsource]` |   |
 

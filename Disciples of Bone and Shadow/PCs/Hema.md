@@ -35,6 +35,12 @@ currency: 115
 ajats: 
 merc: ".6"
 provisions: 10
+combo1: Heavy Swing
+combo1desc: "**(2 points / 1 Free Action)** During your turn you can make an additional attack with your Two-Handed weapon. This attack deals normal damage but does not generate combo points"
+combo2: Distraction
+combo2desc: "**(3 points / 1 Standard Action)** Reduce the target’s Escalation Die by one."
+combo3: Targeted Strike
+combo3desc: "**(3 points / 1 Standard Action )** Make an attack with your weapon with +30 to attack check."
 hregion: Madari
 poccupation: "**Mercenaries.** Your parents lived by the sword, killing for the best bidder and moving on when the jats dried up."
 Fevent: Your hunger for forbidden magic caused a terrible tragedy in your past, forcing you to leave your home. Maybe you injured someone accidentally with a spell, or you killed someone in order to get your hands on a grimoire; the fact is, you let your ambition get the best of you. Do you repent, or will you continue down this path?
@@ -90,8 +96,6 @@ Spell3des: +20 Parry, Until the end of combat
 Spell4: Cleanse Poison
 Spell4cl: 4
 Spell4des: Remove the poisoned effect from one character.
-quest1: Placeholder Quest
-quest2: 
 title8: Camping gear
 checkbox8: false
 title9: Portable Alchemy
@@ -160,6 +164,7 @@ lightitem9: Large Gemstone (200 jats)
 lightitem10: Nivyl x4
 lightitem11: Scroll of Cleanse Poison (500 jats)
 lightitem12: Potion of Antidote x1
+awjats: -10
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%
@@ -209,14 +214,16 @@ lightitem12: Potion of Antidote x1
 >>**Torches**|`0` |
 >>**Lamp Oil**|`18` |
 >>**Sellsword jats**|  `INPUT[number:ajats]` `BUTTON[pjats]`|
+>>**Add jats**|  `INPUT[number:awjats]` `BUTTON[pwjats]`|
 >>
 >>&nbsp;
 >>
->>##### Quests
->>Description  | Milestones |
+>>##### Timers
+>  |  |
 >>---|---|
->>`=this.quest1`|`0/6` |
->>`=this.quest2`| |
+>>**Journey Milestones**|`b:0/6` |
+>>**Quest Timer** | `INPUT[inlineSelect(option(D10), option(D8), option(D6), option(None)):Tasktimers]` |
+>>**Combo point** | `b:0/8`|
 >>
 >>
 >>##### Notes
@@ -310,14 +317,6 @@ lightitem12: Potion of Antidote x1
 >>| 8 | `=this.passive7` |
 >>| 9 | `=this.passive8` |
 >>| 10 | `=this.passive9` |
->>| 11 | `=this.passive10` |
->>| 12 | `=this.passive11` |
->>| 13 | `=this.passive12` |
->>| 14 | `=this.passive13` |
->>| 15 | `=this.passive14` |
->>| 16 | `=this.passive1416` |
->>| 17 | `=this.passive1417` |
->>| 18 | `=this.passive1418`
 >
 >>[!tldr] %%FAKE TITLE HERE%%
 >>##### Archetypes
@@ -459,7 +458,7 @@ actions:
 ```
 
 ```meta-bind-button
-label: Add Jats
+label: Merc Jats
 icon: ""
 style: primary
 class: ""
@@ -476,9 +475,20 @@ actions:
 
 ```
 
+```meta-bind-button
+label: Add Jats
+icon: ""
+style: primary
+class: ""
+cssStyle: ""
+backgroundImage: ""
+tooltip: ""
+id: pwjats
+hidden: True
+actions:
+- type: updateMetadata
+  bindTarget: currency
+  evaluate: True
+  value: getMetadata('currency') + getMetadata('awjats')
 
-
-
-
-
-
+```
