@@ -11,7 +11,7 @@ CONST: 10
 WIL: 18
 INT: 18
 CHA: 10
-xp: 10
+xp: 35
 axp: 
 Weapon1: Bone Battleaxe
 Weapon1dmg: 3D6
@@ -35,6 +35,7 @@ currency: 115
 ajats: 
 merc: ".6"
 provisions: 10
+quest1: An Alchemist request I retake an Abandoned Temple over run by monsters and bandits. Seems some rare reagents grow within.
 combo1: Heavy Swing
 combo1desc: "**(2 points / 1 Free Action)** During your turn you can make an additional attack with your Two-Handed weapon. This attack deals normal damage but does not generate combo points"
 combo2: Distraction
@@ -115,24 +116,24 @@ title14: A Iron Maul (D10+4). (800 jats)
 checkbox14: false
 plant69: Crypt Tears
 found69: Ruins
-effect69: Counters the effects of a poison
+effect69: NA
 combined69: Nimble Thorn
-produces69: Antidote.
-plant1: Nimble Thorn
+produces69: Antidote
+plant1: Sanguine Dew
 found1: Ruins
-effect1: Counters the effects of a poison
-combined1: Crypt Tears
-produces1: Antidote.
-plant2: Sanguine Dew
-found2: Caves
-effect2: NA
-combined2: NA
-produces2: NA
-plant3: Nivyl
-found3: Caves
-effect3: NA
-combined3: NA
-produces3: NA
+effect1: NA
+combined1: Nivyl
+produces1: Enhances the character's senses, granting a +20 to any tracking tests they perform.
+plant2: 
+found2: 
+effect2: 
+combined2: 
+produces2: 
+plant3: 
+found3: 
+effect3: 
+combined3: 
+produces3: 
 title15: A Iron Maul (D10+4). (800 jats)
 checkbox15: false
 title16: ""
@@ -144,11 +145,7 @@ equipped19: true
 title20: ""
 title21: ""
 checkbox21: false
-Other: |-
-  - Rumor has it that the individual that is the murderer was spotted hiding out in some ruins 3 days ride from the village.
-  - 6 Hexes away
-  - Ruins
-  - Possibly The Veil Deathbinder
+Other: ""
 checkbox16: false
 lightitem1: Way Clover x6
 lightitem2: Nimble Thorn x5
@@ -159,18 +156,25 @@ checkbox6: true
 checkbox22: true
 lightitem6: Rations
 lightitem7: Lockpicks x10
-lightitem8: Sanguine Dew x7
+lightitem8: Sanguine Dew x5
 lightitem9: Large Gemstone (200 jats)
-lightitem10: Nivyl x4
+lightitem10: Nivyl x3
 lightitem11: Scroll of Cleanse Poison (500 jats)
 lightitem12: Potion of Antidote x1
-awjats: -10
+awjats: 
+lightitem13: Coins
+lightitem14: Potion of Enhanced Sense +20 Tracking
+Tasktimers: None
+ac: "3"
+hp: 30
+modifier: 0
+TaskHexes: Seven Away
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%
 >> # `=this.file.name`
 >> `=this.Art`
->> ###### Stats
+>> 
 >>|     |     |
 >> |--- | --- |
 >>|   **Level**   |  `=this.level`   |
@@ -184,7 +188,7 @@ awjats: -10
 >>
 >>&nbsp;
 >>
->> ###### Weapons
+>> ##### Weapons
 >>| **Weapons** | **Damage** | **Notes** |
 >>| ---------------------- | --------------- | ------------- |
 >>| `=this.Weapon1` | `=this.Weapon1dmg` | `=this.Weapon1notes` |
@@ -195,7 +199,7 @@ awjats: -10
 >>
 >>&nbsp;
 >>
->> ###### Armor
+>> ##### Armor
 >>| **Armor** | **Armor Rating** | **Notes** |
 >>| ---------------------- | --------------- | ------------- |
 >>| `=this.Armor1` | `=this.Armor1rate` | `=this.Armor1notes` |
@@ -203,14 +207,16 @@ awjats: -10
 >>| **Total Armor**|`=(this.Armor1rate)+(this.Armor2rate)`||
 >>|**Shield** | **Parry**| **Notes**|
 >>|`=this.Shield`|`=this.Shieldrate`| `=this.Shieldnotes`|
->>&nbsp;
->>
->> ###### Supplies
+
+
+>[!dice] %%FAKE TITLE HERE%%
+>> [!dice] %%FAKE TITLE HERE%%
+>> ##### Supplies
 >>  | 
 >>---|---|
 >>**Jats**|`=this.currency` |
 >>**Sellsword Cut**| `VIEW[{ajats} * {merc}]`
->>**Provisions**|`23` |
+>>**Provisions**|`21` |
 >>**Torches**|`0` |
 >>**Lamp Oil**|`18` |
 >>**Sellsword jats**|  `INPUT[number:ajats]` `BUTTON[pjats]`|
@@ -218,16 +224,20 @@ awjats: -10
 >>
 >>&nbsp;
 >>
->>##### Timers
+>>##### Quests/Missions
+>  |  | 
+>>---|---| 
+>>**Quest**| `=this.quest1` |
+>> **Quest Timer**| `INPUT[inlineSelect(option(D10), option(D8), option(D6), option(None)):Tasktimers]` |
+>> **Distance**| `INPUT[inlineSelect(option(Same Hex), option(Adjacent Hex), option(Two Away), option(Three Away), option(Four Away), option(Five Away), option(Six Away), option(Seven Away), option(Eight Away), option(Nine Away), option(Ten Away)):TaskHexes]` |
+>>
+>>&nbsp;
+>>
+>>##### Trackers
 >  |  |
 >>---|---|
->>**Journey Milestones**|`b:0/6` |
->>**Quest Timer** | `INPUT[inlineSelect(option(D10), option(D8), option(D6), option(None)):Tasktimers]` |
->>**Combo point** | `b:0/8`|
->>
->>
->>##### Notes
->>`INPUT[textArea:Other]`
+>>**Journey Milestones**|`boxes: 3/6` |
+>>**Combo points** | `boxes: 0/8`|
 
 
 >[!thing] %%FAKE TITLE HERE%%
@@ -242,38 +252,28 @@ awjats: -10
 >>| **Intelligence** |  `=this.INT` | 
 >>| **Charisma**     | `=this.CHA` | 
 >>| **Max Gear Slots**     | `=(this.STR)+10` | 
->>---
+>>
 >>&nbsp;
->> ### Skill Checks
->>| <span style="color:rgb(129, 216, 208)">Skill Name</span>|<span style="color:rgb(129, 216, 208)"> Skill Level</span> |
->>| ------------ | ----------- |
->>| **Alchemy** | `31` |
->>| **Animal Handling** (CHA `=this.CHA`) | `22` |
->>| **Command Skills** (CHA `=this.CHA`) | `10` |
->>| **Crafting** (DEX `=this.DEX`) | `22` |
->>| **Disguise** (DEX `=this.DEX`) | `12` |
->>| **Dodge** (DEX `=this.DEX` x 2 ) (`=(this.DEX)*2`) | `48` |
->>|**First Aid** (20) | `45` |
->>| **Forbidden Lore** | `10` |
->>| **Herb Lore** | `47` |
->>| **Literacy** (INT `=this.INT`) | `46` |
->>| **One-Handed Melee** (STR `=this.STR` + DEX `=this.DEX`) (`=(this.STR)+(this.DEX)`) | `44` |
->>| **Orientation** (20) | `41` |
->>|**Outdoor Survival** (INT `=this.INT` + DEX `=this.DEX`) (`=(this.INT)+(this.DEX)`)| `40` |
->>| **Parry** (STR `=this.STR` + DEX `=this.DEX`) (`=(this.STR)+(this.DEX)`) | `56` |
->>| **Perception** (20) | `36` |
->>| **Persuasion** (CHA `=this.CHA`) | `21` |
->>| **Pick Pockets** (DEX `=this.DEX`) | `12` |
->>| **Ranged Weapons** (DEX `=this.DEX` x 2) (`=(this.DEX)*2`) | `25` |
->>| **Sailing** (DEX `=this.DEX`) | `12` |
->>| **Sneaking** (DEX `=this.DEX` x 2 ) (`=(this.DEX)*2`) | `35` |
->>| **Throw** (STR `=this.STR` + DEX `=this.DEX`) (`=(this.STR)+(this.DEX)`) | `24` |
->>| **Tracking** (INT `=this.INT` ) | `35` |
->>| **Traditional Lore** (20) | `30` |
->>| **Two-Handed Melee** (STR `=this.STR` x 2) (`=(this.STR)*2`) | `62` |
->>| **Unarmed** (STR `=this.STR` + DEX `=this.DEX`) (`=(this.STR)+(this.DEX)`)| `24` |
->>---
->
+>>
+>> ### Skills
+>>| **Skill Name** | **Skill Level** | **Skill Name** | **Skill Level** |
+>>| ------------- | :-: | ---------- | :-: |
+>>| **Alchemy** | `32` | **Parry** (STR + DEX) (`=(this.STR)+(this.DEX)`) | `57` |
+>>| **Animal Handling** (CHA `=this.CHA`) | `22` | **Perception** (20) | `36` |
+>>| **Command Skills** (CHA `=this.CHA`) | `10` |**Persuasion** (CHA `=this.CHA`) | `21` |
+>>| **Crafting** (DEX `=this.DEX`) | `22` | **Pick Pockets** (DEX `=this.DEX`) | `12` |
+>>| **Disguise** (DEX `=this.DEX`) | `12` | **Ranged Weapons** (DEX `=this.DEX` x 2) (`=(this.DEX)*2`) | `25` |
+>>| **Dodge** (DEX `=this.DEX` x 2 ) (`=(this.DEX)*2`) | `48` | **Sailing** (DEX `=this.DEX`) | `12` |
+>>|**First Aid** (20) | `45` |  **Sneaking** (DEX `=this.DEX` x 2 ) (`=(this.DEX)*2`) | `35` |
+>>| **Forbidden Lore** | `10` | **Throw** (STR + DEX) (`=(this.STR)+(this.DEX)`) | `24` |
+>>| **Herb Lore** | `47` |  **Tracking** (INT `=this.INT` ) | `35` |
+>>| **Literacy** (INT `=this.INT`) | `46` |  **Traditional Lore** (20) | `30` |
+>>| **One-Handed Melee** (STR + DEX) (`=(this.STR)+(this.DEX)`) | `44` | **Two-Handed Melee** (STR `=this.STR` x 2) (`=(this.STR)*2`) | `63` |
+>>| **Orientation** (20) | `41` | **Unarmed** (STR `=this.STR` + DEX `=this.DEX`) (`=(this.STR)+(this.DEX)`)| `24` |
+>>|**Outdoor Survival** (INT `=this.INT` + DEX `=this.DEX`) (`=(this.INT)+(this.DEX)`)| `40` | | |
+
+
+>[!thing] %%FAKE TITLE HERE%%
 >>[!travel] %%FAKE TITLE HERE%%
 >>
 >>&nbsp;
@@ -317,7 +317,8 @@ awjats: -10
 >>| 8 | `=this.passive7` |
 >>| 9 | `=this.passive8` |
 >>| 10 | `=this.passive9` |
->
+
+>[!thing] %%FAKE TITLE HERE%%
 >>[!tldr] %%FAKE TITLE HERE%%
 >>##### Archetypes
 >> |        |         |   
@@ -403,22 +404,12 @@ awjats: -10
 >>|**CL** |  `=this.Spell4cl`|
 >> | **Description**    | `=this.Spell4des` | 
 
->[!success] %%FAKE TITLE HERE%%
->>[!success] %%FAKE TITLE HERE%%
->> ##### Character Traits
->>|     |     |
->> |--- | --- |
->>| **Home Region**   |  `=this.hregion`   |
->>|**Formative Event** | `=this.Fevent`|
->> |**Significant Event** |`=this.Sevent` |
->>| **Character Flaws**   |  `=this.flaws`   |
->>| **Parents Occupation**   |  `=this.poccupation`   |
->>
->
+
+>[!travel] %%FAKE TITLE HERE%%
 >>[!travel] %%FAKE TITLE HERE%%
 >> ### Alchemy Journal
 >>|Plant/Herb|Commonly Found In|Potential Effect|Combined With|Produces|
->>|---|---|---|---|---|
+>>|:---:| :---: | :---: | :---: | :---: |
 >>|`=this.plant69`|`=this.found69`|`=this.effect69`|`=this.combined69`|`=this.produces69`|
 >>|`=this.plant1`|`=this.found1`|`=this.effect1`|`=this.combined1`|`=this.produces1`|
 >>|`=this.plant2`|`=this.found2`|`=this.effect2`|`=this.combined2`|`=this.produces2`|
@@ -437,6 +428,23 @@ awjats: -10
 >>|`=this.plant1416`|`=this.found1416`|`=this.effect1416`|`=this.combined1416`|`=this.produces1416`|
 >>|`=this.plant1417`|`=this.found1417`|`=this.effect1417`|`=this.combined1417`|`=this.produces1417`|
 >>|`=this.plant1418`|`=this.found1418`|`=this.effect1418`|`=this.combined1418`|`=this.produces1418`|
+
+>[!success] %%FAKE TITLE HERE%%
+>>[!success] %%FAKE TITLE HERE%%
+>> ##### Character Traits
+>>|     |     |
+>> |--- | --- |
+>>| **Home Region**   |  `=this.hregion`   |
+>>|**Formative Event** | `=this.Fevent`|
+>> |**Significant Event** |`=this.Sevent` |
+>>| **Character Flaws**   |  `=this.flaws`   |
+>>| **Parents Occupation**   |  `=this.poccupation`   |
+>>
+>>&nbsp;
+>>
+>>##### Notes
+>>`INPUT[textArea:Other]`
+
 
 
 ```meta-bind-button

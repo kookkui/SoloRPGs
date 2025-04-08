@@ -1,6 +1,6 @@
 ```statblock
 
-name: "Shadow Hound"
+name: "Shadow Hound (DBS)"
 
 layout: DBS 
 

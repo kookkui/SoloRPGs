@@ -168,7 +168,7 @@ Other: "Enhancement Belt: +1 DEX"
 >>
 >>&nbsp;
 >>
->> ### Skill Checks
+>> ### Skills
 >>| **Skill Name** | **Skill Level** | **Skill Name** | **Skill Level** |
 >>| :-----: | :-: |:------: | :-: |
 >>|**Acrobatics** (DEX +`=floor((this.DEX - 10)/2.5)`)|`2`| **Nature** (INT +`=floor((this.INT - 10)/2.5)`) | `3` |

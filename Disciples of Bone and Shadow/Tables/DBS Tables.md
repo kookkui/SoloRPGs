@@ -1,6 +1,6 @@
 
 
-
+### Terrain Type
 
 | `dice:D6` | Terrain Type |
 | --------- | ------------ |
@@ -13,20 +13,24 @@
 
 ^84401e
 
+### Travel Complications
 
-| `dice:d10` | Travel Complications                                                                                                                                                                                                                                                                                                                                                               |
-| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1          | **Lost**. It would appear you've been walking in circles, making no progress whatsoever. You reach no Milestone and must start again from where you initiated today's journey, having wasted the day                                                                                                                                                                                   |
-| 2          | **Battlefield**. It appears that a fight between two relatively large groups took place here. Unfortunately, there are some traps set all over the place that have not been triggered. You move at a slow pace (10 miles/day) in order to avoid the traps                                                                                                                              |
-| 3          | **Landslide**. The ground suddenly shifts under your feet, causing you to stumble and fall into the gap under your feet. Perform a DEX (-2) test or lose D6 HP due to the fall 4 Blocked. The road or path ahead is blocked, forcing you to find an alternative route. Add an extra 10 miles to your journey                                                                           |
-| 5          | **River**. You had no option but to cross a river that was in your way, but in doing so you lost D4 rations that were totally ruined or dragged away by the current                                                                                                                                                                                                                    |
-| 6          | **Flash Flood**. A downpour upstream seems to have triggered a flash flood. Fortunately for you though you saw it coming on time and managed to tie yourself to a tree. Unfortunately, though you lost a random piece of gear, dragged away by the flood                                                                                                                               |
-| 7          | **Crossed a Threshold**. It seems that you've somehow crossed a Threshold without realizing it. You have no recollection of what happened the past 20 hours, but you arrive at your destination safe and sound, aside from some singed clothes and getting there a day late 8 Overgrowth. The path ahead is overgrown with vines, grass and twisted bushes, reducing your pace to Slow |
-| 9          | **Restless dead**. In order to avoid a horde of restless dead roaming the path ahead of you, you must make a detour around them. Add an extra 10 miles to your journey                                                                                                                                                                                                                 |
-|10          | **Drained vitality**. You wander into a patch of land that seems to be affected by some powerful death magic, draining the life of anyone or anything crossing it. You arrive at your destination crawling, fatigued beyond anything you've ever experienced. You are unable to eat or set camp for the night, going straight to sleep|
+| `dice:d10` | Travel Complications                                                                                                                                                                                                                                                                                                                   |
+| ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1          | **Lost**. It would appear you've been walking in circles, making no progress whatsoever. You reach no Milestone and must start again from where you initiated today's journey, having wasted the day                                                                                                                                   |
+| 2          | **Battlefield**. It appears that a fight between two relatively large groups took place here. Unfortunately, there are some traps set all over the place that have not been triggered. You move at a slow pace (10 miles/day) in order to avoid the traps                                                                              |
+| 3          | **Landslide**. The ground suddenly shifts under your feet, causing you to stumble and fall into the gap under your feet. Perform a DEX (-2) test or lose D6 HP due to the fall.                                                                                                                                                        |
+| 4          | **Blocked**. The road or path ahead is blocked, forcing you to find an alternative route. Add an extra 10 miles to your journey                                                                                                                                                                                                        |
+| 5          | **River**. You had no option but to cross a river that was in your way, but in doing so you lost D4 rations that were totally ruined or dragged away by the current                                                                                                                                                                    |
+| 6          | **Flash Flood**. A downpour upstream seems to have triggered a flash flood. Fortunately for you though you saw it coming on time and managed to tie yourself to a tree. Unfortunately, though you lost a random piece of gear, dragged away by the flood                                                                               |
+| 7          | **Crossed a Threshold**. It seems that you've somehow crossed a Threshold without realizing it. You have no recollection of what happened the past 20 hours, but you arrive at your destination safe and sound, aside from some singed clothes and getting there a day late                                                            |
+| 8          | **Overgrowth**. The path ahead is overgrown with vines, grass and twisted bushes, reducing your pace to Slow                                                                                                                                                                                                                           |
+| 9          | **Restless dead**. In order to avoid a horde of restless dead roaming the path ahead of you, you must make a detour around them. Add an extra 10 miles to your journey                                                                                                                                                                 |
+| 10         | **Drained vitality**. You wander into a patch of land that seems to be affected by some powerful death magic, draining the life of anyone or anything crossing it. You arrive at your destination crawling, fatigued beyond anything you've ever experienced. You are unable to eat or set camp for the night, going straight to sleep |
 
 ^442cac
 
+### Weather
 
 | `dice:d10` | Weather           |
 | ---------- | ----------------- |
@@ -42,6 +46,8 @@
 | 10         | Complete whiteout |
 
 
+### Setting Camp Mishap
+
 | `dice:d10` | Setting Camp Mishap                                                                                                                                                                              |
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 1          | You set camp over a wet patch of land, without realizing it. You wake up wet and uncomfortable, with damp clothes and gear. -1 to all CON tests for the next day, as you feel tired and unrested |
@@ -54,6 +60,8 @@
 | 8          | You've lost a piece of gear, no matter how hard you look for it. Determine which one randomly                                                                                                    |
 | 9          | You suffer terrible nightmares the whole night. Perform a WIL test, if you fail you gain 1 Corruption Point                                                                                      |
 | 10         | Roll twice on this table. If you roll the same result twice apply its consequences twice as well                                                                                                 |
+
+### Hunting and Foraging Mishap
 
 
 | `dice:d10` | Hunting and Foraging Mishap                                                                                                                                                                          |
@@ -69,6 +77,7 @@
 | 9          | As you walk about trying to find some food, the ground below your feet collapses and you fall into a small hole. It's not difficult to climb out of it, but you've hurt yourself. Receive D10 damage |
 | 10         | You find a beehive but before you can even think of harvesting some honey they attack you, stinging your face and hands. Receive D4 damage                                                           |
 
+### Indoor Locations Special Conditions
 
 | `dice:d8` | Indoor Locations Special Conditions                                                                                                                         |
 | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -81,6 +90,8 @@
 | 7         | **Necrotic** – Successful enemy attacks infect the players with a necrotic disease that reduces all healing received during combat by 50%                   |
 | 8         | **Armored** – All enemies here have suffered a mutation that covers them in armored plates, which grants them Armor (1)                                     |
 
+### Doors
+
 | `dice:d10` | Doors                                                                                                                                                                                                                                                                                  |
 | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1-2        | Door - A standard wooden door braced with hardened branches. Unlocked                                                                                                                                                                                                                  |
@@ -92,17 +103,19 @@
 | 10         | Door - A locked stone door. Pass a STR test (-2) or a Lockpicking test in order to get through it                                                                                                                                                                                      |
 
 ^e7d45c
+### Exits
 
 | `dice:1D10 + 1d10` | Exits |
-| ----------- | ----- |
-| 2-10        | None  |
-| 11-14       | One   |
-| 15-17       | Two   |
-| 18-19       | Three |
-| 20          | Four  |
+| ------------------ | ----- |
+| 2-10               | None  |
+| 11-14              | One   |
+| 15-17              | Two   |
+| 18-19              | Three |
+| 20                 | Four  |
 
 ^432bd3
 
+### Interior Exploration
 
 | `dice:1D10` | Interior Exploration |
 | ----------- | -------------------- |
@@ -111,6 +124,7 @@
 
 ^63f2a8
 
+### Traps
 
 | `dice:1D10` | Traps                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -127,7 +141,7 @@
 
 ^e563c4
 
-
+### Artifice Type
 
 | `dice:d6` | Artifice Type              |
 | --------- | -------------------------- |
@@ -140,6 +154,7 @@
 
 ^4f9f58
 
+### Artifice Effect
 
 | `dice:1D44%` | Artifice Effect                                                                     |
 | ------------ | ----------------------------------------------------------------------------------- |
@@ -162,18 +177,18 @@
 
 ^819548
 
-
+### Random Direction
 
 | `dice: 1d8` | Random Direction |
-| --------- | ---------------- |
-| 1         | North            |
-| 2         | Northeast        |
-| 3         | East             |
-| 4         | Southeast        |
-| 5         | South            |
-| 6         | Southwest        |
-| 7         | West             |
-| 8         | Northwest        |
+| ----------- | ---------------- |
+| 1           | North            |
+| 2           | Northeast        |
+| 3           | East             |
+| 4           | Southeast        |
+| 5           | South            |
+| 6           | Southwest        |
+| 7           | West             |
+| 8           | Northwest        |
 
 ^c137e4
 
@@ -181,15 +196,16 @@
 
 
 | `dice: 1d10` | Ruin or Cave Size  |
-| --- | ------------------ |
-| 1-3 | Small (D6)         |
-| 4-6 | Medium (D8)        |
-| 7-8 | Large (D10)        |
-| 9   | Huge (D12)         |
-| 10  | Labyrinthian (D20) |
+| ------------ | ------------------ |
+| 1-3          | Small (D6)         |
+| 4-6          | Medium (D8)        |
+| 7-8          | Large (D10)        |
+| 9            | Huge (D12)         |
+| 10           | Labyrinthian (D20) |
 
 ^586f65
 
+### Random Difficulty
 
 | `dice: 1d8` | Random Difficulty             |
 | ----------- | ----------------------------- |
@@ -203,7 +219,7 @@
 
 ^5baee1
 
-
+### Mission Complications
 
 | `dice: 1d20` | Mission Complications                                                  |
 | ------------ | ---------------------------------------------------------------------- |
@@ -232,11 +248,11 @@
 
 
 
-
+### Encounter Check
 
 | `dice:1D10` | Encounter Check               |
 | ----------- | ----------------------------- |
-| 1-3  | `dice:[[DBS Tables#^afb9a4]]` |
+| 1-3         | `dice:[[DBS Tables#^afb9a4]]` |
 | 4-10        | Encounter Check - None        |
 
 ^894799
@@ -249,7 +265,7 @@
 
 ^afb9a4
 
-
+### NPC Combat Behavior
 
 | `dice:1D10` | NPC Combat Behavior                              |
 | ----------- | ------------------------------------------------ |
@@ -274,33 +290,34 @@
 
 ^6e0cdd
 
+### Random Skill
 
 | `dice:1d24` | Random Skill     |
-| ---- | ---------------- |
-| 1    | Alchemy          |
-| 2    | Animal Handling  |
-| 3    | Command Skills   |
-| 4    | Crafting         |
-| 5    | Disguise         |
-| 6    | Dodge            |
-| 7    | First Aid        |
-| 8    | Forbidden Lore   |
-| 9    | Herb Lore        |
-| 10   | Literacy         |
-| 11   | One-Handed Melee |
-| 12   | Outdoor Survival |
-| 13   | Parry            |
-| 14   | Perception       |
-| 15   | Persuasion       |
-| 16   | Pick Pockets     |
-| 17   | Ranged Weapons   |
-| 18   | Sailing          |
-| 19   | Sneaking         |
-| 20   | Throw            |
-| 21   | Tracking         |
-| 22   | Traditional Lore |
-| 23   | Two-Handed Melee |
-| 24   | Unarmed          |
+| ----------- | ---------------- |
+| 1           | Alchemy          |
+| 2           | Animal Handling  |
+| 3           | Command Skills   |
+| 4           | Crafting         |
+| 5           | Disguise         |
+| 6           | Dodge            |
+| 7           | First Aid        |
+| 8           | Forbidden Lore   |
+| 9           | Herb Lore        |
+| 10          | Literacy         |
+| 11          | One-Handed Melee |
+| 12          | Outdoor Survival |
+| 13          | Parry            |
+| 14          | Perception       |
+| 15          | Persuasion       |
+| 16          | Pick Pockets     |
+| 17          | Ranged Weapons   |
+| 18          | Sailing          |
+| 19          | Sneaking         |
+| 20          | Throw            |
+| 21          | Tracking         |
+| 22          | Traditional Lore |
+| 23          | Two-Handed Melee |
+| 24          | Unarmed          |
 
 ^c0428d
 
@@ -318,12 +335,13 @@
 | 9 | A bracelet of `dice:1D10`prayer beads that remove 1 CP with a successful WIL test. May only be used once a week. With each attempt, a bead loses its luster and cracks |
 | 10 | A beautiful funerary mask, made in bronze. It's probably pretty worthy by the metal alone... |
 
+### Injuries
 
 | `dice:D20` | Injury Severity                                       |
-|:----------:| ----------------------------------------------------- |
+| :--------: | ----------------------------------------------------- |
 |     1      | Wound to the head, instantly killing you. You’re dead |
-|    2-6     | `dice:[[DBS Tables#^a1384c]]`                            |
-|    7-18    | `dice:[[DBS Tables#^fab6f7]]`                           |
+|    2-6     | `dice:[[DBS Tables#^a1384c]]`                         |
+|    7-18    | `dice:[[DBS Tables#^fab6f7]]`                         |
 |     19     | You are Stunned, but otherwise unharmed               |
 |     20     | You somehow avoided all damage                        |
 

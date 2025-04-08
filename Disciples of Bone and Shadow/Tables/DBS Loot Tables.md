@@ -1,3 +1,4 @@
+### Random One-Handed Weapon
 
 | `dice:d8` | Random One-Handed Weapon |
 | --------- | ------------------------ |
@@ -12,18 +13,21 @@
 
 ^d03cbd
 
+### Random Two-Handed Weapon
+
 
 | `dice:d6` | Random Two-Handed Weapon |
 | --------- | ------------------------ |
-| 1         | Maul (D10+3)                   |
-| 2         | Battleaxe (3D6)              |
-| 3         | Glaive (D10)                  |
-| 4         | Greatsword (2D8)              |
-| 5         | Lance (D8+1)                  |
-| 6         | Quarterstaff (D8)             |
+| 1         | Maul (D10+3)             |
+| 2         | Battleaxe (3D6)          |
+| 3         | Glaive (D10)             |
+| 4         | Greatsword (2D8)         |
+| 5         | Lance (D8+1)             |
+| 6         | Quarterstaff (D8)        |
 
 ^1bf632
 
+### Random Loot
 
 | `dice: d6` | Random Loot                        |
 | ---------- | ---------------------------------- |
@@ -34,7 +38,7 @@
 ^bae025
 
 
-
+### Common Finds
 
 | `dice:d20` | Common Finds                                       |
 | ---------- | -------------------------------------------------- |
@@ -61,30 +65,30 @@
 
 ^80c050
 
+### Valuable Finds
 
-
-| `dice:d20` | Valuable Finds                            |
-| ---------- | ----------------------------------------- |
-| 1          | Delicate Hourglass (50 jats )             |
-| 2          | `dice:3D20` jats                          |
-| 3          | `dice:D4` Pearls `dice:D20`jats Per Pearl |
-| 4          | Ancient Ghaln Drinking Horn (100 jats)    |
-| 5          | Ornate Cloak (100 jats)                   |
-| 6          | Shield (100 jats)                         |
-| 7          | Short Bow (120 jats)                      |
-| 8          | Long Bow (140 jats)                       |
-| 9          | `dice:[[DBS Loot Tables#^1bf632]]`        |
-| 10         | Piece of Light Armor (150 jats)           |
-| 11         | Heavy Shield (150 jats)                   |
-| 12         | Large Gemstone (200 jats)                 |
-| 13         | Gold Pendant (250 jats)                   |
-| 14         | A Iron `dice:[[DBS Loot Tables#^d03cbd]]`. (+600 jats)      |
-| 15         | A Iron `dice:[[DBS Loot Tables#^1bf632]]`. (+500 jats)      |
-| 16         | Bronze Mirror (700 jats)                  |
-| 17         | A Piece of Mail Armor (800 jats)          |
-| 18         | Ornate Helmet (800 jats)                  |
-| 19         | Tome of Herbal Tradition (200 jats)       |
-| 20         | `dice:[[DBS Loot Tables#^a381b4]]`        |
+| `dice:d20` | Valuable Finds                                         |
+| ---------- | ------------------------------------------------------ |
+| 1          | Delicate Hourglass (50 jats )                          |
+| 2          | `dice:3D20` jats                                       |
+| 3          | `dice:D4` Pearls `dice:D20`jats Per Pearl              |
+| 4          | Ancient Ghaln Drinking Horn (100 jats)                 |
+| 5          | Ornate Cloak (100 jats)                                |
+| 6          | Shield (100 jats)                                      |
+| 7          | Short Bow (120 jats)                                   |
+| 8          | Long Bow (140 jats)                                    |
+| 9          | `dice:[[DBS Loot Tables#^1bf632]]`                     |
+| 10         | Piece of Light Armor (150 jats)                        |
+| 11         | Heavy Shield (150 jats)                                |
+| 12         | Large Gemstone (200 jats)                              |
+| 13         | Gold Pendant (250 jats)                                |
+| 14         | A Iron `dice:[[DBS Loot Tables#^d03cbd]]`. (+600 jats) |
+| 15         | A Iron `dice:[[DBS Loot Tables#^1bf632]]`. (+500 jats) |
+| 16         | Bronze Mirror (700 jats)                               |
+| 17         | A Piece of Mail Armor (800 jats)                       |
+| 18         | Ornate Helmet (800 jats)                               |
+| 19         | Tome of Herbal Tradition (200 jats)                    |
+| 20         | `dice:[[DBS Loot Tables#^a381b4]]`                     |
 
 ^494166
 
@@ -221,50 +225,93 @@
 
 ^2e6b44
 
-| `dice:1d88%` | Brew Effect                                                                                                                                                     |
-| ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 11-36        | No Effect. This combination produces no results                                                                                                                 |
-| 37           | Poison. CON Save Modifier -1 Effects: This poison inhibits the intestine, resulting in a painful death after D4 hours                                           |
-| 38           | Poison. CON Save Modifier 0  Effects: Causes Paralysis of muscles, starting with the eyes and moving  downwards the body. The victim is paralyzed for D10 turns |
-| 41           | Effects: Poison. CON Save Modifier 0 Impedes casting spells for D10 turn                                                                                        |
-| 42           | Effects:  Poison. CON Save Modifier -1  Irritant. -10 to all actions for D10 turns                                                                              |
-| 43           | Poison. CON Save Modifier +1 Effects: Anticoagulant. Thins the blood, causing internal bleeding. The victim loses 1 HP each turn for D10+2 turns                |
-| 44           | Poison. CON Save Modifier 0  Effects: Corrosive. The victim loses D10 HP                                                                                        |
-| 45           | Poison. CON Save Modifier +1 Effects:  Causes  the  victim  to  become  extremely  aggressive,  attacking anything or anyone in sight                           |
-| 46           | Poison. CON Save Modifier -1  Effects: Causes the victim to fall asleep                                                                                         |
-| 47           | Poison. CON Save Modifier 0  Effects: The victim loses 1 CON permanently                                                                                        |
-| 48           | Poison. CON Save Modifier 0  Effects: The victim loses 1 STR permanently                                                                                        |
-| 51           | Poison. CON Save Modifier 0  Effects: The victim loses 1 DEX permanently                                                                                        |
-| 52           | Poison. CON Save Modifier 0  Effects: The victim loses 1 INT permanently                                                                                        |
-| 53           | Narcotic. Effects: Laughter, stimulates creativity. -1 INT for the next 20 hours                                                                                |
-| 54           | Narcotic. Effects: Stimulant. No secondary effects, but very addictive                                                                                          |
-| 55           | Narcotic. Effects: Loss of inhibitions, euphoria. -1 DEX for the next 20 hours                                                                                  |
-| 56           | Narcotic. Effects: Euphoria, reduced fatigue, confidence. -1 WILL for the  next 20 hours                                                                        |
-| 57           | Narcotic. Effects: Pleasure, relaxation, well-being. -1 CON for the next 20  hours                                                                              |
-| 58           | Narcotic. Effects: Sense of belonging. -1 DEX for the next 20 hours                                                                                             |
-| 61           | Narcotic. Effects: Excitement, reduced fatigue. -1 STR for the next 20  hours                                                                                   |
-| 62           | Narcotic. Effects: Modified state of consciousness. -1 WIL for the next 20  hours                                                                               |
-| 63           | Narcotic. Effects: Strong hallucinations. Impaired speech for the next 12  hours                                                                                |
-| 64           | Narcotic.  Effects:  Laughter, alteration of perception. Strong sensitivity for the next 20 hours                                                               |
-| 65           | Antidote. Counters the effects of a poison                                                                                                                      |
-| 66           | Caps the amount of Corruption that may be earned at 5/day                                                                                                       |
-| 67           | Grants Armor (1) as natural armor for the next 20 hours                                                                                                         |
-| 68           | Restores the loss of 1 Attribute point                                                                                                                          |
-| 71           | Awakens an unconscious character, be it due to natural or magical causes                                                                                        |
-| 72           | +1 CHA for the next 12 hours                                                                                                                                    |
-| 73           | +1 STR for the next 12 hours                                                                                                                                    |
-| 74           | +1 CON for the next 12 hours                                                                                                                                    |
-| 75           | +1 INT for the next 12 hours                                                                                                                                    |
-| 76           | +1 DEX for the next 12 hours                                                                                                                                    |
-| 77           | Heal D10 HP. May be used in combat, takes an action                                                                                                             |
-| 78           | +1 WIL against Magic for the next 20 hours                                                                                                                      |
-| 81           | +1 DEX against Traps for the next 20 hours                                                                                                                      |
-| 82           | Blocks the negative effects of a narcotic if taken together                                                                                                     |
-| 83           | +2 GS for the next 20 hours                                                                                                                                     |
-| 84           | Provides the same nutrition as 1 ration                                                                                                                         |
-| 85           | The character heals D4 HP each turn for D4 turns                                                                                                                |
-| 86           | Allows the character to see in the dark for the next 12 hours                                                                                                   |
-| 87           | Enhances the character's senses, granting a +20 to any tracking tests they  perform                                                                             |
-| 88           | Cures any disease after a recovery period of 48 hours                                                                                                           |
+| `dice:1d88%` | Brew Effect                                                                                                                                                   |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 11-36        | No Effect. This combination produces no results                                                                                                               |
+| 37           | Poison. CON Save Modifier -1 Effects: This poison inhibits the intestine, resulting in a painful death after D4 hours                                         |
+| 38           | Poison. CON Save Modifier 0 Effects: Causes Paralysis of muscles, starting with the eyes and moving downwards the body. The victim is paralyzed for D10 turns |
+| 41           | Effects: Poison. CON Save Modifier 0 Impedes casting spells for D10 turn                                                                                      |
+| 42           | Effects:  Poison. CON Save Modifier -1  Irritant. -10 to all actions for D10 turns                                                                            |
+| 43           | Poison. CON Save Modifier +1 Effects: Anticoagulant. Thins the blood, causing internal bleeding. The victim loses 1 HP each turn for D10+2 turns              |
+| 44           | Poison. CON Save Modifier 0  Effects: Corrosive. The victim loses D10 HP                                                                                      |
+| 45           | Poison. CON Save Modifier +1 Effects:  Causes  the  victim  to  become  extremely  aggressive,  attacking anything or anyone in sight                         |
+| 46           | Poison. CON Save Modifier -1  Effects: Causes the victim to fall asleep                                                                                       |
+| 47           | Poison. CON Save Modifier 0  Effects: The victim loses 1 CON permanently                                                                                      |
+| 48           | Poison. CON Save Modifier 0  Effects: The victim loses 1 STR permanently                                                                                      |
+| 51           | Poison. CON Save Modifier 0  Effects: The victim loses 1 DEX permanently                                                                                      |
+| 52           | Poison. CON Save Modifier 0  Effects: The victim loses 1 INT permanently                                                                                      |
+| 53           | Narcotic. Effects: Laughter, stimulates creativity. -1 INT for the next 20 hours                                                                              |
+| 54           | Narcotic. Effects: Stimulant. No secondary effects, but very addictive                                                                                        |
+| 55           | Narcotic. Effects: Loss of inhibitions, euphoria. -1 DEX for the next 20 hours                                                                                |
+| 56           | Narcotic. Effects: Euphoria, reduced fatigue, confidence. -1 WILL for the  next 20 hours                                                                      |
+| 57           | Narcotic. Effects: Pleasure, relaxation, well-being. -1 CON for the next 20  hours                                                                            |
+| 58           | Narcotic. Effects: Sense of belonging. -1 DEX for the next 20 hours                                                                                           |
+| 61           | Narcotic. Effects: Excitement, reduced fatigue. -1 STR for the next 20  hours                                                                                 |
+| 62           | Narcotic. Effects: Modified state of consciousness. -1 WIL for the next 20  hours                                                                             |
+| 63           | Narcotic. Effects: Strong hallucinations. Impaired speech for the next 12  hours                                                                              |
+| 64           | Narcotic.  Effects:  Laughter, alteration of perception. Strong sensitivity for the next 20 hours                                                             |
+| 65           | Antidote. Counters the effects of a poison                                                                                                                    |
+| 66           | Caps the amount of Corruption that may be earned at 5/day                                                                                                     |
+| 67           | Grants Armor (1) as natural armor for the next 20 hours                                                                                                       |
+| 68           | Restores the loss of 1 Attribute point                                                                                                                        |
+| 71           | Awakens an unconscious character, be it due to natural or magical causes                                                                                      |
+| 72           | +1 CHA for the next 12 hours                                                                                                                                  |
+| 73           | +1 STR for the next 12 hours                                                                                                                                  |
+| 74           | +1 CON for the next 12 hours                                                                                                                                  |
+| 75           | +1 INT for the next 12 hours                                                                                                                                  |
+| 76           | +1 DEX for the next 12 hours                                                                                                                                  |
+| 77           | Heal D10 HP. May be used in combat, takes an action                                                                                                           |
+| 78           | +1 WIL against Magic for the next 20 hours                                                                                                                    |
+| 81           | +1 DEX against Traps for the next 20 hours                                                                                                                    |
+| 82           | Blocks the negative effects of a narcotic if taken together.                                                                                                  |
+| 83           | +2 GS for the next 20 hours                                                                                                                                   |
+| 84           | Provides the same nutrition as 1 ration                                                                                                                       |
+| 85           | The character heals D4 HP each turn for D4 turns                                                                                                              |
+| 86           | Allows the character to see in the dark for the next 12 hours                                                                                                 |
+| 87           | Enhances the character's senses, granting a +20 to any tracking tests they  perform                                                                           |
+| 88           | Cures any disease after a recovery period of 48 hours                                                                                                         |
 
 ^36f035
+
+### Pick-Pocketed Items
+
+|`dice:1d66%`|Pick-Pocketed Items|
+|---|---|
+|11|Ration|
+|12|Cheap necklace|
+|13|Waterskin|
+|14|Silk scarf|
+|15|Empty vial|
+|16|Cloak bone pin|
+|21|Religious symbol|
+|22|Ivory figurine|
+|23|Pouch with `dice:d10` jats|
+|24|Small semi-precious stone|
+|25|Shiny stone|
+|26|Wooden box|
+|31|Bag with caltrops|
+|32|`dice:d4` arrowheads|
+|33|Small journal|
+|34|Bundle of thread|
+|35|Pouch with `dice:D20` jats|
+|36|`dice:d4` random herbs|
+|41|Ink bottle|
+|42|Knife|
+|43|Gloves|
+|44|Bone comb|
+|45|Oil flask|
+|46|Alcohol flask|
+|51|Tinder box|
+|52|Dice|
+|53|`dice:d4` bandages|
+|54|Flint & steel|
+|55|Smoking pipe|
+|56|Crudely drawn map|
+|61|Magnifying glass|
+|62|Pouch with `dice:2D20` Jats|
+|63|Flask of fragrant oil|
+|64|Silver ring|
+|65|`dice:d4` lock-picks|
+|66|Ancient iron coin|
+
+^ae0d89

@@ -6,17 +6,10 @@ Day 1
  - Seems there have been a string of ritual murders within the village. A reward is offered to find the culprit.
 
 
-### Quest 
-- Rumor has it that the individual that is the murderer was spotted hiding out in some ruins 3 days ride from the village.
-- 6 Hexes away
-- Ruins
-- Possibly The Veil Deathbinder
-
-
 
 ## On the road
 
-#### Hex 2
+#### Hex H21
 
 E. Check 3
 
@@ -663,7 +656,7 @@ Resting for the night at the Inn (30 jats) for a nice room and meal.
 
 ## Heading back out
 
-#### Hex 3
+#### Hex G20
 
 **Cave**. A half-visible trail leads the party to a seemingly natural cave. If the party decides to explore it, use the Indoor Location generation rules
 
@@ -938,8 +931,135 @@ Hema Turn
 - 1 EP add 10 to Parry (56)
 
 
+**Alchemy Test** (31) `d100 = 10` Passed
 
-**Alchemy Test** (31) 1d%[10]
 Crypt Tears + Nimble Thorn = Antidote. Counters the effects of a poison
 
 Potion of Antidote x1 
+
+**Alchemy Test** (31) `d100 = 2` Critical Success
+
+Skill Up Check (31) `d100 = 49` Passed (32)
+
+Sanguine Dew + Nivyl  = Enhances the character's senses, granting a +20 to any tracking tests they perform.
+
+Heading back out
+
+### Hex G22
+
+Exploring Hex and encounter!
+
+```encounter
+players:
+  - Hema
+creatures:
+  - Shadow Hound (DBS) 1, 20, 5, 0
+  - Shadow Hound (DBS) 2, 20, 5, 0
+```
+
+Combat Start 
+
+Hound 1 Turn
+
+Parry (51) `d100 = 51` Success
+
+Defensive Move - You press your advantage, reducing your opponent’s DEF for the next roll by -5
+
+Hound 2 Turn
+
+Parry (51)  `d100 = 22` Critical Success
+
+Skill up Check (56) `d100 = 60` Skill up (57)
+
+PC Turn
+
+**Two-Handed Melee** (62) `d100 = 5`  Critical Success 
+
+Skill up Check (62) `d100 = 84` Skill up (63)
+
+9 x Crit = 18 Damage to Hound 1 (2)
+
+-2 Combo Points Heavy Swing
+
+ 10 Damage to Hound 2 (10)
+
+Hound 1 Turn
+
+Fleeing
+
+Hound 2 Turn
+
+Parry (52)  `d100 = 20` Success
+
+Defensive Move - Increase your chances at a critical strike on your next attack to 01-20
+
+PC Turn
+
+Two-Handed Melee (63) 22 Critical Success
+
+11 x Critical = 22 Damage to Hound 2 (Dead)
+
+Hound 1 flees
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
++20 XP
+
+Making Camp Outdoor Survival (70) `d100 = 20` Success
+
+-1 Ration (22)
+Resting...
+
+## 998 - 06 - 01
+
+#### Hex F23
+
+Encounter Check
+
+```encounter
+creatures:
+  - Centipedes (DBS) 1, 3, 2, 0 
+  - Centipedes (DBS) 2, 3, 2, 0 
+ 
+```
+
+Combat Start
+
+PC Turn
+
+Two-Handed Melee (61) `d100 = 37` Success
+
+13 Damage to Centipede 1 (Dead)
+
+Centipede 2 Turn
+
+**Parry** (55) `d100 = 83` Failed
+
+2 damage - 2 Armor = 0 Damage to Hema
+
+PC Turn 
+
+Two-Handed Melee (61) `d100 = 46` Success
+
+7 Damage to Centipede 2 (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
++5 XP
+
+##### Exploring Hex 
+
+**Magic Dead Zone**. For some reason, magic of any kind has no effect in this area.
+
+##### Making camp 
+
+**Outdoor Survival** Check (60) `d100 = 26` Success
+
+-1 Ration (21) 
+
+Resting.
+
+## 998 - 07 - 01
+
+Orientation Check (41) 72 Failed
+
+**Crossed a Threshold**. It seems that you've somehow crossed a Threshold without realizing it. You have no recollection of what happened the past 20 hours, but you arrive at your destination safe and sound, aside from some singed clothes and getting there a day late
+

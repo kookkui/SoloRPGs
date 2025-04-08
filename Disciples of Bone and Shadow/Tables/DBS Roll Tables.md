@@ -2,9 +2,6 @@
 > ##### Random Difficulty
 >`dice:[[DBS Tables#^5baee1]]`
 >
->#####  Mission Complication
->`dice:[[DBS Tables#^499ef9]]`
->
 >#####  NPC Combat Behavior
 >`dice:[[DBS Tables#^a7c333]]`
 >
@@ -27,14 +24,14 @@
 >##### Encounter Check
 >`dice:[[DBS Tables#^894799]]`
 >
+>#####  Everscar Highlands Hex Exploration
+>`dice:[[DBS Exploration Tables#^af3bd8]]`
+>
 >#####  Akkar Strand Hex Exploration
 >`dice:[[DBS Exploration Tables#^a00248]]`
 >
 >#####  Madari Hex Exploration
 >`dice:[[DBS Exploration Tables#^f7274d]]`
->
->#####  Everscar Highlands Hex Exploration
->`dice:[[DBS Exploration Tables#^af3bd8]]`
 >
 >##### Travel Complications
 >`dice:[[DBS Tables#^442cac]]`
@@ -118,6 +115,9 @@
 >##### Plants & Herbs
 >`dice:[[DBS Exploration Tables#^3ec88a]]`
 >
+>#####  Pick-Pocketed Items
+>`dice:[[DBS Loot Tables#^ae0d89]]`
+>
 >##### Random Loot
 >`dice:[[DBS Loot Tables#^bae025]]`
 >
@@ -133,7 +133,37 @@
 >##### Artifacts
 >`dice:[[DBS Loot Tables#^25e5a3]]`
 
+>[!crafting] Mission Generation
+>
+>##### Type of Mission
+>`dice:[[DBS GM Emulation#^7f69cf]]`
+>
+>##### How Far Is the Mission Objective?
+>`dice:[[DBS GM Emulation#^497882]]`
+>
+>##### Location Missions
+>`dice:[[DBS GM Emulation#^e909b5]]`  `dice:[[DBS GM Emulation#^747d2d]]`
+>
+>##### Item Missions
+>`dice:[[DBS GM Emulation#^78bbcd]]`  `dice:[[DBS GM Emulation#^e90345]]`
+>
+>##### Individual Missions
+>`dice:[[DBS GM Emulation#^e63a4f]]` `dice:[[DBS GM Emulation#^e90345]]`
+>
+>##### Event Missions
+>`dice:[[DBS GM Emulation#^9d95d9]]`  `dice:[[DBS GM Emulation#^3b8729]]`
+>
+>##### Mission Complications
+>`dice:[[DBS GM Emulation#^97af5a]]` 
+>
+>##### Patrons & Targets
+>
+>`dice:[[DBS GM Emulation#^89815a]]`
+
 >[!NPC] GM Emulation
+>
+>##### Rumors
+>`dice:[[DBS GM Emulation#^a9ee61]]`
 >
 >##### GM Emulation - Actions
 >`dice:[[DBS GM Emulation#^35c59e]]`
