@@ -1,3 +1,15 @@
+
+
+### Random Weapon
+
+| `dice:d12` | Random Weapon                      |
+| ---------- | ---------------------------------- |
+| 1-6        | `dice:[[DBS Loot Tables#^d03cbd]]` |
+| 7-12       | `dice:[[DBS Loot Tables#^1bf632]]` |
+
+^39d388
+
+
 ### Random One-Handed Weapon
 
 | `dice:d8` | Random One-Handed Weapon |
@@ -94,28 +106,28 @@
 
 
 
-| `dice:d20` | Rare Finds                               |
-| ---------- | ---------------------------------------- |
-| 1          | Alchemy Treatise 300                     |
-| 2          | Tome of Forbidden Lore 300               |
-| 3          | D10 Ancient Gold Coins 100/Coin          |
-| 4          | D4 Tears of the Mother 50/Tear           |
-| 5          | D10 Firedust 100/Dose                    |
-| 6          | Random Spell Scroll 500                  |
-| 7          | Iron Combat Claws 600                    |
-| 8          | Compass 400                              |
-| 9          | Gold Ring with Gemstone 500              |
-| 10         | Gold Goblet 600                          |
-| 11         | Statuette made of Gold and Gemstones 700 |
-| 12         | Healing Tincture 300                     |
-| 13         | Ornamental Shield 800                    |
-| 14         | Scepter 800                              |
-| 15         | Iron Helmet 1,000                        |
-| 16         | Steel Scale Armor 1,200                  |
-| 17         | Suth Marble 500                          |
-| 18         | Darkness Well 50                         |
-| 19         | One-Handed Shalvan Wood Weapon 1,500     |
-| 20         | `dice:[[DBS Loot Tables#^25e5a3]]`       |
+| `dice:d20` | Rare Finds                                      |
+| ---------- | ----------------------------------------------- |
+| 1          | Alchemy Treatise (300 jats)                     |
+| 2          | Tome of Forbidden Lore (300 jats)               |
+| 3          | D10 Ancient Gold Coins 100 jats/Coin            |
+| 4          | D4 Tears of the Mother 50 jats/Tear             |
+| 5          | D10 Firedust 100 jats /Dose                     |
+| 6          | Random Spell Scroll (500 jats)                  |
+| 7          | Iron Combat Claws (600 jats)                    |
+| 8          | Compass (400 jats)                              |
+| 9          | Gold Ring with Gemstone (500 jats)              |
+| 10         | Gold Goblet (600 jats)                          |
+| 11         | Statuette made of Gold and Gemstones (700 jats) |
+| 12         | Healing Tincture (300 jats)                     |
+| 13         | Ornamental Shield (800 jats)                    |
+| 14         | Scepter (800 jats)                              |
+| 15         | Iron Helmet (1,000 jats)                        |
+| 16         | Steel Scale Armor (1,200 jats)                  |
+| 17         | Suth Marble (500 jats)                          |
+| 18         | Darkness Well (50 jats)                         |
+| 19         | Shalvan Wood `dice:[[DBS Loot Tables#^39d388]]` (1,500 jats)                       |
+| 20         | `dice:[[DBS Loot Tables#^25e5a3]]`              |
 
 
 ^a381b4

@@ -11,7 +11,7 @@ CONST: 10
 WIL: 18
 INT: 18
 CHA: 10
-xp: 55
+xp: 75
 axp: 
 Weapon1: Bone Battleaxe
 Weapon1dmg: 3D6
@@ -157,7 +157,7 @@ checkbox22: true
 lightitem6: Rations
 lightitem7: Lockpicks x10
 lightitem8: Sanguine Dew x5
-lightitem9: Large Gemstone (200 jats)
+lightitem9: Large Gemstone x2 (200 jats)
 lightitem10: Nivyl x3
 lightitem11: Scroll of Cleanse Poison (500 jats)
 lightitem12: Potion of Antidote x1
@@ -178,7 +178,7 @@ TaskHexes: Seven Away
 >>|     |     |
 >> |--- | --- |
 >>|   **Level**   |  `=this.level`   |
->>|**HP** | **Current:** `26` **Max:** `=this.CONST*3`|
+>>|**HP** | **Current:** `25` **Max:** `=this.CONST*3`|
 >> |**Corruption** | **Current:** `=this.CurrentCorruption` **Max:** `=this.Corruption`   |
 >> |**Taint Threshold** | `=this.CurrentCorruption*10` |
 >> |**EP**| `0` |

@@ -1221,3 +1221,18 @@ Skill up test (63)  `d100 = 73` Passed
 
 +1 Two-Handed Melee (64)
 
+12 Damage x Critical = 24 Damage to Ghast (ReDead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
++10 XP
+
+Large Gemstone (200 jats)
+
+Exploring room
+
+**Fire Trap.** Huge flames roar from the walls the moment the characters step into this room. Roll a DEX Test to avoid the flames or lose 10 HP and gain the Burning condition. You fight with a -20 to your attack skills until the wounds caused by the fire are healed.
+
+DEX Test (12) 3 Passed!
+
+Hema dives down just in time to only have her hair slightly singed.
+
