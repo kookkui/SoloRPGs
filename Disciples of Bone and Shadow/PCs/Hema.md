@@ -237,7 +237,7 @@ TaskHexes: Seven Away
 >  |  |
 >>---|---|
 >>**Journey Milestones**|`boxes: 0/6` |
->>**Combo points** | `boxes: 0/8`|
+>>**Combo points** | `boxes: 3/8`|
 
 
 >[!thing] %%FAKE TITLE HERE%%
@@ -263,7 +263,7 @@ TaskHexes: Seven Away
 >>| **Command Skills** (CHA `=this.CHA`) | `10` |**Persuasion** (CHA `=this.CHA`) | `21` |
 >>| **Crafting** (DEX `=this.DEX`) | `22` | **Pick Pockets** (DEX `=this.DEX`) | `12` |
 >>| **Disguise** (DEX `=this.DEX`) | `12` | **Ranged Weapons** (DEX `=this.DEX` x 2) (`=(this.DEX)*2`) | `25` |
->>| **Dodge** (DEX `=this.DEX` x 2 ) (`=(this.DEX)*2`) | `48` | **Sailing** (DEX `=this.DEX`) | `12` |
+>>| **Dodge** (DEX `=this.DEX` x 2 ) (`=(this.DEX)*2`) | `49` | **Sailing** (DEX `=this.DEX`) | `12` |
 >>|**First Aid** (20) | `45` |  **Sneaking** (DEX `=this.DEX` x 2 ) (`=(this.DEX)*2`) | `35` |
 >>| **Forbidden Lore** | `10` | **Throw** (STR + DEX) (`=(this.STR)+(this.DEX)`) | `24` |
 >>| **Herb Lore** | `47` |  **Tracking** (INT `=this.INT` ) | `35` |

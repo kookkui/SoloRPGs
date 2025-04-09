@@ -1092,7 +1092,61 @@ Encounter Common - Wolf (Beast)
 
 ```encounter
 creatures:
-  - Wolf
+  - Wolf 1, 20, 5, 0
+  - Wolf 2, 20, 5, 0
 ```
 
 
+Combat Begin
+
+PC turn
+
+**Two-Handed Melee** (63) `d100 = 38` Hit!
+
+10 Damage to Wolf 1 (10)
+
+Wolf 1 Turn
+
+Dodge (43) `d100 = 14` Success!
+
+Defensive Move - Reduce your opponent’s Armor by -1, if opponent has no Armor +10 to next attack.
+
+Wolf 2 Turn
+
+Dodge (43) 49 Failed
+
+5 Damage - 2 Armor = 3 Damage to Hema (27)
+
+PC turn
+
+**Two-Handed Melee** (63) `d100 = 24`  Hit!
+
+Combo action: Heavy Swing
+
+9 Damage to Wolf 1 (1)
+
+12 Damage to Wolf 12 (8)
+
+Wolf 1 Turn
+
+Flee: Wolf 1 turns tail and is trying to flee
+
+Wolf 2 Turn 
+
+Dodge (43) `d100 = 7`  Critical Success! 
+
+Skill up Check (48) 77 Passed
++1 Dodge (49)
+
+Defensive Move - You press your advantage, reducing your opponent’s DEF for the next roll by -5
+
+Wolf 1 Flees out of sight
+
+PC turn
+
+**Two-Handed Melee** (63) `d100 = 46` Hit!
+
+8 Damage to Wolf 2 (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
++5 XP

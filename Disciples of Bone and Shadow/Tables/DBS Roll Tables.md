@@ -40,6 +40,9 @@
 >##### Encounter Check
 >`dice:[[DBS Tables#^894799]]`
 >
+>##### Taint Check
+>`dice:[[DBS Tables#^afb9a4]]`
+>
 >##### Doors
 >`dice:[[DBS Tables#^2ac057]]`
 >
@@ -94,8 +97,8 @@
 >##### Combat - Defensive Moves
 >`dice:[[DBS Encounter Tables#^879efa]]`
 >
->##### Taint Check
->`dice:[[DBS Tables#^afb9a4]]`
+>##### Escalation Die: Enemy Combat Boon
+>`dice:[[DBS Encounter Tables#^1a6b5f]]`
 >
 >##### Hostile Human Encounter
 >`dice:[[DBS Encounter Tables#^2aea04]]`

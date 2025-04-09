@@ -1,3 +1,7 @@
+
+
+#### Random Encounter's by Category
+
 | `dice:D10` | Random Encounter's by Category          |
 | ---------- | --------------------------------------- |
 | 1-3        | `dice:[[DBS Encounter Tables#^1672f8]]` |
@@ -6,20 +10,22 @@
 
 ^d12cea
 
+#### Vermin Encounters
 
-| `dice:D100`   | Vermin Encounters                             |
-| ------ | --------------------------------------------- |
-| 1-13   | Vermin - Giant Mosquitoes (Insect)            |
-| 14-25  | Vermin - Madari Rats (Beast)                  |
-| 26-38  | Vermin - Night Beetles (Insect)               |
-| 39-50  | Vermin - Fire Bats (Beast)                    |
-| 51-63  | Vermin - Centipede (Insect)                   |
-| 64-75  | Vermin - Spawnlings of Vhol'est (Abomination) |
-| 76-88  | Vermin - Ice Leech (Abomination)              |
-| 89-100 | Vermin - Tundra Rats (Beast)                  |
+| `dice:D100` | Vermin Encounters                             |
+| ----------- | --------------------------------------------- |
+| 1-13        | Vermin - Giant Mosquitoes (Insect)            |
+| 14-25       | Vermin - Madari Rats (Beast)                  |
+| 26-38       | Vermin - Night Beetles (Insect)               |
+| 39-50       | Vermin - Fire Bats (Beast)                    |
+| 51-63       | Vermin - Centipede (Insect)                   |
+| 64-75       | Vermin - Spawnlings of Vhol'est (Abomination) |
+| 76-88       | Vermin - Ice Leech (Abomination)              |
+| 89-100      | Vermin - Tundra Rats (Beast)                  |
 
 ^1672f8
 
+#### Common Foes Encounters
 
 | `dice:D100` | Common Foes Encounters              |
 | ----------- | ----------------------------------- |
@@ -38,6 +44,9 @@
 
 ^cfe8ee
 
+#### Elite Foes Encounters
+
+
 | `dice:D100` | Elite Foes Encounters                   |
 | ----------- | --------------------------------------- |
 | 1-8         | Elite - Spawn of Vhol'est (Abomination) |
@@ -46,21 +55,22 @@
 | 26-33       | Elite - Blessed One (Humanoid)          |
 | 34-42       | Elite - Giant Snake (Beast)             |
 | 43-51       | Elite - Giant Spider (Beast)            |
-| 52-59       | Elite - Crystal Ghoul (Abomination)      |
+| 52-59       | Elite - Crystal Ghoul (Abomination)     |
 | 60-67       | Elite - Archelon (Beast)                |
 | 68-76       | Elite - Agrix (Abomination)             |
 | 77-84       | Elite - Crog (Abomination)              |
 | 85-89       | Elite - White Hag (Humanoid)            |
-| 90-94       | Elite - Demon (Abomination)           |
+| 90-94       | Elite - Demon (Abomination)             |
 | 95-100      | Elite - White Stalker (Beast)           |
 
 ^e5bf91
 
+#### Defensive Moves
 
 | `dice:D10` | Combat - Defensive Moves                                                                                                                                              |
 | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1          | Defensive Move - Your next attack receives an extra +10                                                                                                               |
-| 2          | Defensive Move - Reduce your opponent’s Armor by -1                                                                                                                   |
+| 2          | Defensive Move - Reduce your opponent’s Armor by -1, if opponent has no Armor +10 to next attack.                                                                     |
 | 3          | Defensive Move - Your opponent receives the Bleeding (1) condition                                                                                                    |
 | 4          | Defensive Move - If you were Prone, Paralyzed, Stunned, or some other similar condition, you automatically recover. Otherwise, your next attack receives an extra +10 |
 | 5          | Defensive Move - Your opponent immediately suffers `dice:D4` damage that ignores armor                                                                                |
@@ -83,6 +93,7 @@
 
 ^2aea04
 
+#### Mark of Taint
 
 | `dice:1d66%` | Mark of Taint                                                                                                                                                                 |
 | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -125,20 +136,22 @@
 
 ^89024c
 
+#### NPC Traits Table
 
-|d10|NPC Traits Table|
-|---|---|
-|1|**Strong:** Has +5 Offense|
-|2|**Weak:** Has -5 Offense|
-|3|**Fast:** Always wins the initiative|
-|4|**Slow:** Always loses the initiative|
-|5|**Fragile:** Receives 2 extra damage from all attacks|
-|6|**Sturdy:** Ignores 2 damage per attack received|
-|7|**Brutal:** Deals 2 extra damage per attack|
-|8|**Cautious:** Has -5 to Offense|
-|9|**Bold:** Has -5 to Defense, but +5 to Offense|
-|10|**Fearful:** Has +10 Defense, retreats at 75% health (consider it defeated)|
+| d10 | NPC Traits Table                                                            |
+| --- | --------------------------------------------------------------------------- |
+| 1   | **Strong:** Has +5 Offense                                                  |
+| 2   | **Weak:** Has -5 Offense                                                    |
+| 3   | **Fast:** Always wins the initiative                                        |
+| 4   | **Slow:** Always loses the initiative                                       |
+| 5   | **Fragile:** Receives 2 extra damage from all attacks                       |
+| 6   | **Sturdy:** Ignores 2 damage per attack received                            |
+| 7   | **Brutal:** Deals 2 extra damage per attack                                 |
+| 8   | **Cautious:** Has -5 to Offense                                             |
+| 9   | **Bold:** Has -5 to Defense, but +5 to Offense                              |
+| 10  | **Fearful:** Has +10 Defense, retreats at 75% health (consider it defeated) |
 
+#### Demon Category
 
 | `dice:D10` | Demon Category     |
 | ---------- | ------------------ |
@@ -146,6 +159,7 @@
 | 3-8        | Standard: 2 Powers |
 | 9-10       | Major: 3 Powers    |
 
+#### Demonic Powers
 
 | `dice:D10` | Demonic Powers                                                                                                                                |
 | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -161,3 +175,17 @@
 | 10         | Regeneration: The demon heals 1 HP/round.                                                                                                     |
 | 11         | Bleeding: Successful attacks cause Bleeding (1). Stackable                                                                                    |
 | 12         | Vampiric: The demon regenerates D4 HP each time it deals damage.                                                                              |
+
+
+#### Escalation Die: Enemy Combat Boon
+
+| `dice:d6` | Escalation Die: Enemy Combat Boon                   |
+| --------- | --------------------------------------------------- |
+| 1         | OFF: +TL5                                           |
+| 2         | DEF: +TL5                                           |
+| 3         | The creature recovers D10 Health                    |
+| 4         | All PCs lose their accumulated Combo Points         |
+| 5         | The Creature deals an additional D6 damage          |
+| 6         | The creature’s attacks apply the Bleeding condition |
+
+^1a6b5f
