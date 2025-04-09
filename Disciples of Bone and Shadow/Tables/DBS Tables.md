@@ -158,24 +158,24 @@
 
 ### Artifice Effect
 
-| `dice:1D44%` | Artifice Effect                                                                     |
-| ------------ | ----------------------------------------------------------------------------------- |
-| 11           | Anti-magic                                                                          |
-| 12           | Raises/lowers a random ability score by `dice:D4` points for `dice:D20` hours       |
-| 13           | Raises/lowers the site's temperature                                                |
-| 14           | Conceals/Reveals                                                                    |
-| 21           | Applies a random Condition for D10 turns                                            |
-| 22           | Divines (prophetic images or words)                                                 |
-| 23           | Entraps (roll on the Traps table)                                                   |
-| 24           | Enrages (+10 Offense/-10 Defense to the PCs during the next combat)                 |
-| 31           | Greed-causing (the PCs are exclusively motivated by greed during the next 24 hours) |
-| 32           | Heals Condition (only once)                                                         |
-| 33           | Heals `dice:D20` HP (only once)                                                     |
-| 34           | Bestows Knowledge/Secret                                                            |
-| 41           | Grants/takes 10 points from a random skill                                          |
-| 42           | Locks/unlocks all doors in the room                                                 |
-| 43           | Grants/Removes `dice:D4` CP                                                         |
-| 44           | Rots `dice:D10` rations                                                             |
+| `dice:1D44%` | Artifice Effect                                                                                 |
+| ------------ | ----------------------------------------------------------------------------------------------- |
+| 11           | Anti-magic                                                                                      |
+| 12           | Raises(1-50) or lowers (51-100) a random ability score by `dice:D4` points for `dice:D20` hours |
+| 13           | Raises/lowers the site's temperature                                                            |
+| 14           | Conceals/Reveals                                                                                |
+| 21           | Applies a random Condition for D10 turns                                                        |
+| 22           | Divines (prophetic images or words)                                                             |
+| 23           | Entraps (roll on the Traps table)                                                               |
+| 24           | Enrages (+10 Offense/-10 Defense to the PCs during the next combat)                             |
+| 31           | Greed-causing (the PCs are exclusively motivated by greed during the next 24 hours)             |
+| 32           | Heals Condition (only once)                                                                     |
+| 33           | Heals `dice:D20` HP (only once)                                                                 |
+| 34           | Bestows Knowledge/Secret                                                                        |
+| 41           | Grants (1-50) or takes (51-100) 10 points from a random skill                                   |
+| 42           | Locks (1-50) or unlocks (51-100) all doors in the room                                          |
+| 43           | Grants (1-50) or (51-100) Removes `dice:D4` CP                                                  |
+| 44           | Rots `dice:D10` rations                                                                         |
 
 ^819548
 

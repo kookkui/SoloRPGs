@@ -207,28 +207,28 @@
 
 ### Ruin Encounters
 
-|`dice:d20`|Ruin Encounters|
-|---|---|
-|1|Insect: Giant Mosquitoes (Vermin)|
-|2|Beast: Madari rats (Vermin)|
-|3|Beast: Fire Bats (Vermin)|
-|4|Insect: Centipede (Vermin)|
-|5|Beast: Wolf (Common)|
-|6|Abomination: Grey Ooze (Common)|
-|7|Beast: Sabershadow (Common)|
-|8|Beast: Crawler (Common)|
-|9|Beast: Pale Ghar (Common)|
-|10|Undead: Risen (Common)|
-|11|Undead: Skeleton  (Common)|
-|12|Undead: Ghast  (Common)|
-|13|Human|
-|14|Beast: Giant Snake (Elite)|
-|15|Beast: Giant Spider (Elite)|
-|16|Abomination: Crog (Elite)|
-|17|Humanoid: White Hag (Elite)|
-|18|Abomination: Crystal Ghoul (Elite)|
-|19|Beast: White Stalker (Elite)|
-|20|Abomination: Demon (Elite)|
+| `dice:d20` | Ruin Encounters                    |
+| ---------- | ---------------------------------- |
+| 1          | Insect: Giant Mosquitoes (Vermin)  |
+| 2          | Beast: Madari rats (Vermin)        |
+| 3          | Beast: Fire Bats (Vermin)          |
+| 4          | Insect: Centipede (Vermin)         |
+| 5          | Beast: Wolf (Common)               |
+| 6          | Abomination: Grey Ooze (Common)    |
+| 7          | Beast: Sabershadow (Common)        |
+| 8          | Beast: Crawler (Common)            |
+| 9          | Beast: Pale Ghar (Common)          |
+| 10         | Undead: Risen (Common)             |
+| 11         | Undead: Skeleton (Common)          |
+| 12         | Undead: Ghast (Common)             |
+| 13         | Human                              |
+| 14         | Beast: Giant Snake (Elite)         |
+| 15         | Beast: Giant Spider (Elite)        |
+| 16         | Abomination: Crog (Elite)          |
+| 17         | Humanoid: White Hag (Elite)        |
+| 18         | Abomination: Crystal Ghoul (Elite) |
+| 19         | Beast: White Stalker (Elite)       |
+| 20         | Abomination: Demon (Elite)         |
 
 ^be082e
 

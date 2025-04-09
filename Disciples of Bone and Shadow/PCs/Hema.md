@@ -11,8 +11,8 @@ CONST: 10
 WIL: 18
 INT: 18
 CHA: 10
-xp: 45
-axp: 10
+xp: 55
+axp: 
 Weapon1: Bone Battleaxe
 Weapon1dmg: 3D6
 Weapon1notes: Parry, Two-handed
@@ -161,7 +161,7 @@ lightitem9: Large Gemstone (200 jats)
 lightitem10: Nivyl x3
 lightitem11: Scroll of Cleanse Poison (500 jats)
 lightitem12: Potion of Antidote x1
-awjats: 
+awjats: 1
 lightitem13: Coins
 lightitem14: Potion of Enhanced Sense +20 Tracking
 Tasktimers: None
@@ -178,7 +178,7 @@ TaskHexes: Seven Away
 >>|     |     |
 >> |--- | --- |
 >>|   **Level**   |  `=this.level`   |
->>|**HP** | **Current:** `30` **Max:** `=this.CONST*3`|
+>>|**HP** | **Current:** `26` **Max:** `=this.CONST*3`|
 >> |**Corruption** | **Current:** `=this.CurrentCorruption` **Max:** `=this.Corruption`   |
 >> |**Taint Threshold** | `=this.CurrentCorruption*10` |
 >> |**EP**| `0` |
@@ -237,7 +237,7 @@ TaskHexes: Seven Away
 >  |  |
 >>---|---|
 >>**Journey Milestones**|`boxes: 0/6` |
->>**Combo points** | `boxes: 3/8`|
+>>**Combo points** | `boxes: 1/8`|
 
 
 >[!thing] %%FAKE TITLE HERE%%
@@ -264,11 +264,11 @@ TaskHexes: Seven Away
 >>| **Crafting** (DEX `=this.DEX`) | `22` | **Pick Pockets** (DEX `=this.DEX`) | `12` |
 >>| **Disguise** (DEX `=this.DEX`) | `12` | **Ranged Weapons** (DEX `=this.DEX` x 2) (`=(this.DEX)*2`) | `25` |
 >>| **Dodge** (DEX `=this.DEX` x 2 ) (`=(this.DEX)*2`) | `49` | **Sailing** (DEX `=this.DEX`) | `12` |
->>|**First Aid** (20) | `45` |  **Sneaking** (DEX `=this.DEX` x 2 ) (`=(this.DEX)*2`) | `35` |
+>>|**First Aid** (20) | `45` |  **Sneaking** (DEX `=this.DEX` x 2 ) (`=(this.DEX)*2`) | `45` |
 >>| **Forbidden Lore** | `10` | **Throw** (STR + DEX) (`=(this.STR)+(this.DEX)`) | `24` |
 >>| **Herb Lore** | `47` |  **Tracking** (INT `=this.INT` ) | `35` |
 >>| **Literacy** (INT `=this.INT`) | `46` |  **Traditional Lore** (20) | `30` |
->>| **One-Handed Melee** (STR + DEX) (`=(this.STR)+(this.DEX)`) | `44` | **Two-Handed Melee** (STR `=this.STR` x 2) (`=(this.STR)*2`) | `63` |
+>>| **One-Handed Melee** (STR + DEX) (`=(this.STR)+(this.DEX)`) | `44` | **Two-Handed Melee** (STR `=this.STR` x 2) (`=(this.STR)*2`) | `64` |
 >>| **Orientation** (20) | `41` | **Unarmed** (STR `=this.STR` + DEX `=this.DEX`) (`=(this.STR)+(this.DEX)`)| `24` |
 >>|**Outdoor Survival** (INT `=this.INT` + DEX `=this.DEX`) (`=(this.INT)+(this.DEX)`)| `40` | | |
 

@@ -1088,6 +1088,8 @@ Encounter Check - None
 
 Encounter Check - None
 
+Exploring Room 2
+
 Encounter Common - Wolf (Beast)
 
 ```encounter
@@ -1149,4 +1151,73 @@ PC turn
 8 Damage to Wolf 2 (Dead)
 
 <span style="color:rgb(241, 91, 181)">Victory!</span>
-+5 XP
++10 XP
+
+Trying to harvest the remaining Wolf Pelf.
+
+Crafting Test (22) 43 Failed
+
+Door - A portcullis is in your way, but luckily there's a level on this side of the room. Perform a STR or Lockpicking test in order to activate it
+
+Difficulty - Child’s Play +3
+
+STR Test (15) `d20 = 6` Passed.
+
+Hema squats down and is shocked herself as the portcullis begins to rise more easily than she had suspected.
+
+#### Room 3
+
+Encounter Check - None
+
+Artifice - **Statue**
+
+Grants (1-50) or takes (51-100) 10 points from a random skill 
+Rolled 39, +10 Sneaking (45)
+
+Door - An unlocked wood and bone door, but trapped. A party member (whoever crossed first) suffers 1 damage as a stone falls on them unless they pass a Perception skill test to detect the trap. Pass a DEX test or use the Disarm Traps skill to disable it
+
+Difficulty - Normal 0
+
+**Perception** Check (36) `d100 = 43` Failed
+
+Hema is hit on the head with a stone for 1 damage (26)
+
+Corridor
+
+Encounter Check - None
+
+Door - A standard wooden door braced with hardened branches. Unlocked
+
+#### Room 4
+
+Encounter Check, Undead: Ghast (Common)
+
+```encounter
+creatures:
+  - Ghast (DBS) , 25, 5, 0
+```
+
+Combat Begin
+
+PC Turn
+
+**Two-Handed Melee** (63) `d100 = 38` Success!
+
+10 Damage to Ghast (15)
+
+Ghast Turn
+
+Dodge (44) `d100: 62` Failed
+
+3 Damage - 2 Armor = 1 Damage to Hema (25)
+
+CON Test or be stunned (10) `d20 = 8`
+
+PC Turn
+
+**Two-Handed Melee** (63) `d100 = 1` Critical Success!
+
+Skill up test (63)  `d100 = 73` Passed
+
++1 Two-Handed Melee (64)
+
