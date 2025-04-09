@@ -41,7 +41,7 @@
 >`dice:[[DBS Tables#^894799]]`
 >
 >##### Doors
->`dice:[[DBS Tables#^e7d45c]]`
+>`dice:[[DBS Tables#^2ac057]]`
 >
 >##### Exits
 >`dice:[[DBS Tables#^432bd3]]`
@@ -52,11 +52,12 @@
 >##### Artifice Effect
 >`dice:[[DBS Tables#^819548]]`
 >
->##### Interior Locations Special Conditions
->`dice:[[DBS Exploration Tables#^027a32]]`
->
 >##### Traps
 >`dice:[[DBS Tables#^e563c4]]`
+>
+>##### Interior Locations Special Conditions
+>`dice:[[DBS Exploration Tables#^30f3f5]]`
+
 
 >[!seealso] Ruins
 >##### Ruin Exploration
@@ -132,6 +133,12 @@
 >
 >##### Artifacts
 >`dice:[[DBS Loot Tables#^25e5a3]]`
+>
+>#####  Random One-Handed Weapon
+>`dice:[[DBS Loot Tables#^d03cbd]]`
+>
+>##### Random Two-Handed Weapon
+>`dice:[[DBS Loot Tables#^1bf632]]`
 
 >[!crafting] Mission Generation
 >
@@ -182,3 +189,6 @@
 >
 >##### Interesting or Forgotten Places You Would Find Wandering
 >`dice:[[DBS GM Emulation#^3f95ee]]`
+
+
+[[DoBS House Rules]]

@@ -257,6 +257,18 @@
 ^985a68
 
 
+### Interior Special Conditions Check
+
+
+| `dice:d6` | Interior Special Conditions Check         |
+| --------- | ----------------------------------------- |
+| 1         | `dice:[[DBS Exploration Tables#^027a32]]` |
+| 2-6       | No Special Conditions.                    |
+
+^30f3f5
+
+
+
 | `dice:d8` | Interior Locations Special Conditions                                                                                                                              |
 | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 1         | **Tyrannical** – Elite Foes have 50% more health                                                                                                                   |

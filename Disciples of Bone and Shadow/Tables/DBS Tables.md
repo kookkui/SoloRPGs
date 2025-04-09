@@ -102,7 +102,9 @@
 | 9          | Door - An unlocked wood and bone door, but trapped. A party member (whoever crossed first) suffers `dice:D10` damage as a stone falls on them unless they pass a Perception skill test to detect the trap. Pass a DEX test or use the Disarm Traps skill to disable it                 |
 | 10         | Door - A locked stone door. Pass a STR test (-2) or a Lockpicking test in order to get through it                                                                                                                                                                                      |
 
-^e7d45c
+^2ac057
+
+
 ### Exits
 
 | `dice:1D10 + 1d10` | Exits |

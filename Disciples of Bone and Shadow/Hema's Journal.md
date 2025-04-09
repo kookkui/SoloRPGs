@@ -1063,3 +1063,36 @@ Orientation Check (41) 72 Failed
 
 **Crossed a Threshold**. It seems that you've somehow crossed a Threshold without realizing it. You have no recollection of what happened the past 20 hours, but you arrive at your destination safe and sound, aside from some singed clothes and getting there a day late
 
+
+### Alchemist Abandoned Temple
+
+#### Entrance Room 
+
+Door - An empty archway with no door
+
+#### Room 1
+
+Encounter Check - None
+
+**Viewing Crystal.** A large, roughly shaped crystal stands on top of a pedestal. If touched, it will glow, revealing images of a strange place, filled with twisting spirals, skies carved in obsidian and raging oceans as black as the night sky. All characters present must pass a WIL test to avoid being enthralled by the vision, gaining 1 CP
+
+Will Test (18) `d20 = 9` Passed!
+
+Door - An empty doorway. It may be trapped with a spell; roll 6 No trap,
+
+Corridor 
+
+Encounter Check - None
+
+#### Room 2
+
+Encounter Check - None
+
+Encounter Common - Wolf (Beast)
+
+```encounter
+creatures:
+  - Wolf
+```
+
+

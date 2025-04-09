@@ -11,8 +11,8 @@ CONST: 10
 WIL: 18
 INT: 18
 CHA: 10
-xp: 35
-axp: 
+xp: 45
+axp: 10
 Weapon1: Bone Battleaxe
 Weapon1dmg: 3D6
 Weapon1notes: Parry, Two-handed
@@ -218,7 +218,7 @@ TaskHexes: Seven Away
 >>**Sellsword Cut**| `VIEW[{ajats} * {merc}]`
 >>**Provisions**|`21` |
 >>**Torches**|`0` |
->>**Lamp Oil**|`18` |
+>>**Lamp Oil**|`17` |
 >>**Sellsword jats**|  `INPUT[number:ajats]` `BUTTON[pjats]`|
 >>**Add jats**|  `INPUT[number:awjats]` `BUTTON[pwjats]`|
 >>
@@ -236,7 +236,7 @@ TaskHexes: Seven Away
 >>##### Trackers
 >  |  |
 >>---|---|
->>**Journey Milestones**|`boxes: 3/6` |
+>>**Journey Milestones**|`boxes: 0/6` |
 >>**Combo points** | `boxes: 0/8`|
 
 
