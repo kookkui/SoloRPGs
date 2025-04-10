@@ -97,6 +97,12 @@
 >##### Enemy Type
 >`dice:[[KN Loot Tables#^4c1240]]`
 >
+>##### Random Weapon
+>`dice:[[KN Loot Tables#^eb9dfa]]`
+>
+>##### Random Armor
+>`dice:[[KN Loot Tables#^68548c]]`
+>
 >##### Armor Magic Properties
 >`dice:[[KN Loot Tables#^d91f89]]`
 >

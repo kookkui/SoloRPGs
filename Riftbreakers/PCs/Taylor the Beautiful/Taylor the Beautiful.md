@@ -116,9 +116,10 @@ Heart2: Elemental
 Heart3: Restoration
 Heart4: Ritual
 title14: "Potion of Rest. Reduce your Fatigue by 1. Aspects: Stone, Life"
+HearAb1: Novice
 ---
->[!note] %%FAKE TITLE HERE%%
->>[!gear] %%FAKE TITLE HERE%% 
+>[!dice] %%FAKE TITLE HERE%%
+>>[!dice] %%FAKE TITLE HERE%% 
 >> # `=this.file.name`
 >> ![[IMG-20250129190024669.webp]]
 >> ###### Stats
@@ -128,8 +129,8 @@ title14: "Potion of Rest. Reduce your Fatigue by 1. Aspects: Stone, Life"
 >>  **Title** |`=this.Title` |
 >> **Reputation** | `3` |
 >>  **HP** | **Current:**`36` **Max:** `=this.CON*3`
->> **Aether** | `27` /`VIEW[{WIL} + {INT} + 8]` |
->> **Stamina** | `36` /`VIEW[{STR} + {CON}+ 8]` |
+>> **Aether** | `27` **Max:** `VIEW[{WIL} + {INT} + 8]` |
+>> **Stamina** | `36` **Max:** `VIEW[{STR} + {CON}+ 8]` |
 >> **Armor Rating** | `=this.Armor` |
 >> **XP** | `VIEW[{xp}][text]`
 >>
@@ -173,8 +174,8 @@ title14: "Potion of Rest. Reduce your Fatigue by 1. Aspects: Stone, Life"
 
 ---
 
->[!dice] %%FAKE TITLE HERE%%
->>[!dice] %%FAKE TITLE HERE%%
+>[!gather] %%FAKE TITLE HERE%%
+>>[!gather] %%FAKE TITLE HERE%%
 >> ### Stats
 >> | | | | |
 >>| ---- | ---- | ------ | ------ |
@@ -186,12 +187,12 @@ title14: "Potion of Rest. Reduce your Fatigue by 1. Aspects: Stone, Life"
 >>| **Charisma** | `=this.CHA` | **Charm** | `=this.CHA*5` |
 >>| **STR Damage** | | **DEX Damage** |+4 |
 >>| **Luck** | 5 | **WIL Damage** | +1 |
->>| **Speed** | `=this.DEX`/`=this.DEX*2`| **Persistence** |`=this.PER`|
+>>| **Speed** | **Walk**: `=this.DEX` **Run**: `=this.DEX*2`| **Persistence** |`=this.PER`|
 >
->>[!dice] %%FAKE TITLE HERE%%
+>>[!gather] %%FAKE TITLE HERE%%
 >> ### Skill Checks
 >>| **Skill Name** | **Skill Level** | **Skill Name** | **Skill Level** |
->>| :-: | :-: |:-: | :-: |
+>>| --- | :-: |--- | :-: |
 >>| **Alchemy** (INT) | `34` | **Leatherworking** (DEX) | `38`|
 >>| **Acrobatics** (DEX) | `15` |**Literacy** (INT) | `57` |
 >>| **Animal Handling** (CHA) | `14` |**Insight** (WIL) | `15` |
@@ -203,7 +204,7 @@ title14: "Potion of Rest. Reduce your Fatigue by 1. Aspects: Stone, Life"
 >>| **Manipulation** (CHA) | `14` | **Stealth** (DEX) | `38` |
 >>| **Medicine** (INT) | `11` |**Survival** (INT) | `54` |
 >
->>[!dice] %%FAKE TITLE HERE%%
+>>[!gather] %%FAKE TITLE HERE%%
 >>##### Proficiencies
 >> | | |
 >>|:-:| :---: |
@@ -212,11 +213,8 @@ title14: "Potion of Rest. Reduce your Fatigue by 1. Aspects: Stone, Life"
 >>| `=this.proficiency5` | `=this.proficiency6` |
 >>| `=this.proficiency7` | `=this.proficiency8` |
 
-
----
-
 >[!travel] %%FAKE TITLE HERE%%
->>[!travel] %%FAKE TITLE HERE%%
+>>[!gear] %%FAKE TITLE HERE%%
 >>### Quests
 >>|**Quest Description** |**Completed** | **Timer/Counter**|
 >> |:---: | --- | :---------: |
@@ -230,8 +228,6 @@ title14: "Potion of Rest. Reduce your Fatigue by 1. Aspects: Stone, Life"
 >> |`=this.quest8` |`INPUT[toggle:quest8t]` | `0/21`
 >>| `=this.quest9` | `INPUT[toggle:ques91t]` | `0/7`
 >> |`=this.quest10` |`INPUT[toggle:quest10t]` |
-
----
 
 >[!table] %%FAKE TITLE HERE%%
 >>[!table] %%FAKE TITLE HERE%%
@@ -258,8 +254,6 @@ title14: "Potion of Rest. Reduce your Fatigue by 1. Aspects: Stone, Life"
 >>|18|`INPUT[text:title18]`|38|`INPUT[text:title38]`|
 >>|19|`INPUT[text:title19]`|39|`INPUT[text:title39]`|
 >>|20|`INPUT[text:title20]`|40|`INPUT[text:title40]`| 
-
----
 
 >[!travel] %%FAKE TITLE HERE%%
 >>[!travel] %%FAKE TITLE HERE%%
@@ -355,10 +349,8 @@ title14: "Potion of Rest. Reduce your Fatigue by 1. Aspects: Stone, Life"
 >>| **Rank** | `=this.pendantgearrank` |
 >>| **Notes** | `=this.pendantgearnotes` |
 
----
-
->[!gather] %%FAKE TITLE HERE%%
->>[!gather] %%FAKE TITLE HERE%%
+>[!crafting] %%FAKE TITLE HERE%%
+>>[!crafting] %%FAKE TITLE HERE%%
 >>## Hearts
 >> |        |     |   
 >>| :-: | :----- |
@@ -382,22 +374,19 @@ title14: "Potion of Rest. Reduce your Fatigue by 1. Aspects: Stone, Life"
 >>| 9 | `=this.passive8` |
 >>| 10 | `=this.passive9` |
 >>
-
----
-
->[!warning] %%FAKE TITLE HERE%%
->>[!npc]  %%FAKE TITLE HERE%%
+>
+>>[!crafting]  %%FAKE TITLE HERE%%
 >>### Heart Abilities
 >>
->>| **Ability Name** | Life Bolt | **Type** | Holy, Attack, Support |
+>>| **Ability Name** | `=this.HeartAb1Name`| **Type** | `INPUT[inlineSelect(option(Talent), option(Power), option(Prime)):HeartAb1Type]` |
 >>|:-:|:----------:|:-----:|:---------------------:|
->>| **Rank** | Novice | **XP** | |
->>| **Cost** | 2 MP | **Heart** | Talent, Restoration |
->>| **Actions** | 1 Required | **Range** | 30 m        |  
+>>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank1]` | **XP** |`INPUT[number:Heartexp1]`|
+>>| **Cost** | 2 MP | **Heart** | `INPUT[inlineSelect(option(Arcane), option(Arrow), option(Bastion), option(Blade), option(Elemental), option(Might), option(Restoration), option(Ritual), option(Shadow)):HeartAb1Heart]` |
+>>| **Actions** | 1 Required | **Range** |`=this.HeartAb1Range`|  
 >>&nbsp;
 >> 
 >>
->>Target is healed for D6+DM Health. If the target is undead, it deals damage instead.
+>>`=this.HeartAb1Desc`
 >>
 >>&nbsp;
 >>**Apprentice Rank:** Amount increased to 2D6+DM 

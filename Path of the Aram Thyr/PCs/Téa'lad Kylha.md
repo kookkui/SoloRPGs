@@ -298,7 +298,6 @@ Other: "Enhancement Belt: +1 DEX"
 >>&nbsp
 >>
 >>---
->>---
 >>
 >>&nbsp
 >>

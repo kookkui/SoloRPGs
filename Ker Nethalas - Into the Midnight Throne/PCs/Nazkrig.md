@@ -1,51 +1,55 @@
 ---
-Art: 
+Art: "![[Nazkrig.jpg|500x600]]"
 level: 1
-health:
-toughness: 
-aether: 
-santy: 
-mresist: 
+health: 12
+toughness: 20
+aether: 14
+santy: 19
+mresist: 30
 Exhaustion: 0
 axp: 
 xp: 0
 pgoal1: Overseer Overthrown
-pgoal1dec: Defeat an Overseer 
+pgoal1dec: Defeat an Overseer
 pgoal2: Relic Hunter
 pgoal2dec: Find a Relic
 immune1: false
 TensionDie: D10
 DomainExitDie: D12
 aacoin: 
-Currency: 0
-ArmorHead:
-ArmorHeadMax:
-ArmorTorso:
-ArmorTorsoMax:
-ArmorArms:
-ArmorArmsMax:
-ArmorLegs:
-ArmorLegsMax:
-mainhand:
-offhand:
-belt:
-helmet:
-armor:
-gloves:
-boots:
-amulet:
-ring1:
-ring2:
-mastery1: 
-mastery1Passive: 
-mastery1tier1:
+Currency: 19
+Weapon1: Bastard Sword
+Weapon1skill: Bladed Weapons
+Weapon1notes: Slashing, Versatile, Parrying
+ArmorHead: 
+ArmorHeadMax: 
+ArmorTorso: 1
+ArmorTorsoMax: D8
+ArmorArms: 
+ArmorArmsMax: 
+ArmorLegs: 
+ArmorLegsMax: 
+mainhand: Bastard Sword
+offhand: Torch
+belt: 
+helmet: 
+armor: Soft Leather Torso Armor
+gloves: 
+boots: 
+amulet: 
+ring1: 
+ring2: 
+mastery1: "**Wrathspawn**"
+mastery1Passive: Once per rest, you can spend Aether to enhance the damage of any of your attacks at a rate of 1 Aether for +1 damage.
+mastery1tier1: "**Intimidating Glare**: (1 Standard Action) You stare at your opponent, letting your rage shine in your eyes. Make a Resolve check, if successful, your target is Frightened for D4 rounds."
 mastery1tier2: 
 mastery1tier3: 
-mastery2: 
-mastery2Passive: 
-mastery2tier1:
+mastery2: "**Umbra Phantom**"
+mastery2Passive: +10 Magic Resistance, +5 Sanity
+mastery2tier1: You are always covered by a shroud of darkness, granting you +10 Stealth and reducing the Combat Skill of all opponents by 10 when attacking you.
 mastery2tier2: 
-mastery2tier3:
+mastery2tier3: 
+ArmorTorsoCur: D8
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  
@@ -85,10 +89,10 @@ mastery2tier3:
 >> ##### Armor
 >>|  | **Protection** | **Integrity Max** | **Integrity Current**|
 >>| -------- | :--: | :--: | :--: |
->>| **Head** | `=this.ArmorHead` | `=this.ArmorHeadMax` | `0` |
->>|**Torso**| `=this.ArmorTorso` | `=this.ArmorTorsoMax` | `0` |
->>|**Arms**| `=this.ArmorArms` | `=this.ArmorArmsMax` | `0` |
->>|**Legs**| `=this.ArmorLegs` | `=this.ArmorLegsMax` | `0` |
+>>| **Head** | `=this.ArmorHead` | `=this.ArmorHeadMax` | `INPUT[inlineSelect (option(D12), option(D10), option(D8), option(D6), option(D4)):ArmorHeadCur]` |
+>>|**Torso**| `=this.ArmorTorso` | `=this.ArmorTorsoMax` | `INPUT[inlineSelect (option(D12), option(D10), option(D8), option(D6), option(D4)):ArmorTorsoCur]` |
+>>|**Arms**| `=this.ArmorArms` | `=this.ArmorArmsMax` | `INPUT[inlineSelect (option(D12), option(D10), option(D8), option(D6), option(D4)):ArmorArmsCur]`  | 
+>>|**Legs**| `=this.ArmorLegs` | `=this.ArmorLegsMax` | `INPUT[inlineSelect (option(D12), option(D10), option(D8), option(D6), option(D4)):ArmorLegsCur]` |
 >>
 >>&nbsp;
 >>
@@ -98,8 +102,8 @@ mastery2tier3:
 >>    |     |
 >>--- | --- |
 >>**Coins (¢)** |`=this.Currency` |
->>**Crafting Supplies** |`0` |
->>**Cooking Supplies** |`0` |
+>>**Crafting Supplies** |`12` |
+>>**Cooking Supplies** |`8` |
 >>**Rations**   |  `0`   |
 >>**Add Coins**|  `INPUT[number:aacoin]` `BUTTON[acoin]`|
 >>
@@ -118,8 +122,8 @@ mastery2tier3:
 >>|--- | --- |
 >>|**Tension Die**|`INPUT[inlineSelect(option(D10), option(D8), option(D6), option(D4)):TensionDie]`|
 >>|**Lair/Domain Exit Die**|`INPUT[inlineSelect (option(D12), option(D10), option(D8), option(D6), option(D4)):DomainExitDie]`|
->>|**Lightsource** |`b:0/10` |
->>||`b:0/10` |
+>>|**Lightsource** |`boxes: 10/10` |
+>>||`boxes: 10/10` |
 
 >[!thing] %%FAKE TITLE HERE%%
 >>[!thing] %%FAKE TITLE HERE%%
