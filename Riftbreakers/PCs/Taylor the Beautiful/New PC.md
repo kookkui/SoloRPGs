@@ -1,58 +1,58 @@
 ---
 Art: "![[Téa'lad KylhaPro.webp|600]]"
 Title: Protector of Kar Helos
-STR: 10
-DEX: 16
-CON: 18
+STR: 18
+DEX: 14
+CON: 13
 INT: 12
-WIL: 11
-CHA: 14
-PER: 65
-Armor: D4+3
-Weapon1: Holy Longbow of the Bear
-Weapon1dmg: 2D6+4
-Weapon1type: Piercing
-Weapon1notes: Two-handed, Holy, Arrows UD12, Range 115 m
-Weapon2: Scimitar
-Weapon2dmg: D8+4
-Weapon2type: Slashing
-Weapon2notes: Parry, Finesse
+WIL: 15
+CHA: 11
+Luck: 0
+Armor: D3
+Weapon1: Traveler's Shortsword
+Weapon1dmg: D6+1
+Weapon1type: Slashing
+Weapon1notes: 
+Weapon2: Traveler's Shortbow
+Weapon2dmg: D6+1
+Weapon2type: Piercing
+Weapon2notes: Ud12 Arrows
 Weapon3: 
 Weapon3type: 
 Weapon3dmg: 
 Weapon3notes: 
 rank: Apprentice
-axp: 
-xp: 1675
-a-N: "355"
+axp: 2
+xp: 0
+a-N: 
 a-a: 
 a-V: 
 a-M: 
-quest1: "**Rift Closure:** Travel 14 days and close the marked rift. (Sky Islets)."
-quest1t: false
-quest2: "**Escort:** a caravan distance is 22 travel days."
+quest1: 
+quest1t: 
+quest2: 
 quest2t: 
-quest3: "**Patrol:** Patrol the perimeter and wilds for 17 days. Mark any rifts found with a beacon. Roll a d10 each day, on a 1 or 2, there is a rift."
+quest3: 
 quest3t: 
-quest4: "**Collect:** deliver 22 Chitinous Plate."
+quest4: 
 quest4t: 
-quest5: "**Rift Closure:** Travel 14 days and close the marked rift. (Timeworn Ruins)."
+quest5: 
 quest5t: 
-quest6: "**Patrol:**the perimeter and wilds for 11 days. Mark any rifts found with a beacon. Roll a d10 each day, on a 1 or 2, there is a rift."
+quest6: 
 quest6t: 
-quest7: "**Collect:** deliver 13 Fiery Ember."
+quest7: 
 quest7t: 
-quest8: "**Escort:** a caravan distance is 21 travel days."
-quest9: "**Monster Hunt:** Travel 7 days and search for the monster. The type of monster is determined by the region."
+quest8: 
+quest9: 
 quest10: 
 headname: 
 headmagic: 
 headquirk: 
 headnotes: 
-chestname: Soft Leather Armor
+chestname: Traveler's Robes
 chestmagic: 
 chestquirk: 
-chestnotes: 
+chestnotes: Heavy Clothing Armor (D3)
 beltname: 
 beltmagic: 
 beltquirk: 
@@ -66,39 +66,39 @@ glovesmagic:
 glovesquirk: 
 glovesrank: 
 glovesnotes: 
-bootname: Victorious Gloves of the Whisper
-bootmagic: Constitution +1 Charisma +1
-bootquirk: Smells like rotten flesh
-bootrank: Novice
-bootnotes: 200A, Air Earth
-ring1name: Champion's Ring of the Snake
-ring1magic: Dexterity +1, Reduce your Stamina pool by 5 (26), but increase your Aether pool by 8 (23). You no longer need to eat or drink.
-ring1quirk: It's always pristine
-ring1rank: Novice
-ring1notes: 300A Air Life 2x Boon Bane
-ring2name: Mage's Wonderful Ring
-ring2magic: Stamina +8, On command, this item works as a source of light. Illuminates in a 20 m. radius.
-ring2quirk: It's always covered in a layer of mucus
-ring2rank: Novice
-ring2notes: 300A Fire 2xPower Light
-pendantgearname: Knight's Glass Stone
-pendantgearmagic: You can detect all living beings in a 20 m. radius. Increase your luck by +5
-pendantgearquirk: It appears to be completely made of glass. It doesn't make it more fragile than it should be though
-pendantgearrank: Novice
-pendantgearnotes: Chaos Life Boon Light 200A  Rarity:Uncommon
-title1: Backpack
-title2: Extra-Dimensional bag x 0
-title3: Quiver
-title4: Bandage Ud12
-title5: Arrows ud12
-title6: Rations x 2
-title7: Torch Ud10
-title8: Ascended Essence (prime)
-title9: Lantern
-title10: Aetheryte
-title11: "Stoneskin Potion. for the next hour you have +1 armor, but your dodge and acrobatics skills are reduced by -10. aspects: stone, boon"
-title12: Aetheryte
-title13: Rough Eather x 10
+bootname: 
+bootmagic: 
+bootquirk: 
+bootrank: 
+bootnotes: 
+ring1name: 
+ring1magic: 
+ring1quirk: 
+ring1rank: 
+ring1notes: 
+ring2name: 
+ring2magic: 
+ring2quirk: 
+ring2rank: 
+ring2notes: 
+pendantgearname: 
+pendantgearmagic: 
+pendantgearquirk: 
+pendantgearrank: 
+pendantgearnotes: 
+title1: ""
+title2: Simple Healing Potion
+title3: ""
+title4: ""
+title5: ""
+title6: ""
+title7: ""
+title8: ""
+title9: ""
+title10: ""
+title11: ""
+title12: ""
+title13: ""
 proficiency1: Longbow
 proficiency2: Scimitar
 proficiency3: Soft Leather
@@ -109,14 +109,14 @@ Hearts:
   - Arrow
   - Ritual
   - Elemental
-passive0: "**Restoration Heart**: *Dampening Aura* Reduce all incoming damage by -1 to all allies in a 10 m radius."
-passive1: "**Arrow Heart**: *Marksman* You suffer no penalty from firing a ranged weapon at melee range. Increase the range of your equipped ranged weapons by +50 m."
-passive2: "**Ritual Heart**: *Arcane Storage* You can summon a chest that has 10 item slots. This power gains +10 item slots per rank."
+passive0: 
+passive1: 
+passive2: 
 Heart1: Arrow
 Heart2: Elemental
 Heart3: Restoration
 Heart4: Ritual
-title14: "Potion of Rest. Reduce your Fatigue by 1. Aspects: Stone, Life"
+title14: 
 HearAb1: Novice
 Heartexp1: 
 HeartAb1Type: Talent
@@ -132,10 +132,10 @@ HeartAb1Heart: Elemental
 >> ---|---|
 >> **Rank** |`INPUT[suggester(option(Novice), option(Apprentice), option(Veteran), option(Master)):rank]` |
 >>  **Title** |`=this.Title` |
->> **Reputation** | `3` |
->>  **HP** | **Current:**`36` **Max:** `=this.CON*3`
->> **Aether** | `27` **Max:** `VIEW[{WIL} + {INT} + 8]` |
->> **Stamina** | `36` **Max:** `VIEW[{STR} + {CON}+ 8]` |
+>> **Reputation** | `0` |
+>>  **HP** | **Current:**`39` **Max:** `=this.CON*3`
+>> **Aether** | `34` **Max:** `VIEW[{WIL} + {INT} + 8]` |
+>> **Stamina** | `39` **Max:** `VIEW[{STR} + {CON}+ 8]` |
 >> **Armor Rating** | `=this.Armor` |
 >> **XP** | `VIEW[{xp}][text]`
 >>
@@ -188,22 +188,22 @@ HeartAb1Heart: Elemental
 >>| **Will** | `=this.WIL` | **Tenacity** |`=this.WIL*5` |
 >>| **Intelligence** | `=this.INT` | **Intellect** | `=this.INT*5` |
 >>| **Charisma** | `=this.CHA` | **Charm** | `=this.CHA*5` |
->>| **STR Damage** | | **DEX Damage** |+4 |
->>| **Luck** | 5 | **WIL Damage** | +1 |
->>| **Speed** | **Walk**: `=this.DEX` **Run**: `=this.DEX*2`| **Persistence** |`=this.PER`|
+>>| **STR Damage** |+`=floor((this.STR - 10)/2.5)` | **DEX Damage** |+`=floor((this.DEX - 10)/2.5)` |
+>>| **Luck** | `=this.Luck` | **WIL Damage** | +`=floor((this.WIL - 10)/2.5)` |
+>>| **Speed** | **Walk**: `=this.DEX` **Run**: `=this.DEX*2`| **Persistence** | `=floor((this.WIL+this.CHA)/2*5)` |
 >
 >>[!gather] %%FAKE TITLE HERE%%
 >> ### Skill Checks
 >>| **Skill Name** | **Skill Level** | **Skill Name** | **Skill Level** |
 >>| --- | :-: |--- | :-: |
 >>| **Alchemy** (INT `=this.INT`) | `10` | **Leatherworking** (DEX `=this.DEX`) | `10`|
->>| **Acrobatics** (DEX `=this.DEX`) |`10` |**Literacy** (INT `=this.INT`) | `10` |
->>| **Animal Handling** (CHA `=this.CHA`) | `10` |**Insight** (WIL `=this.WIL`) | `10` |
->>| **Athletics** (STR `=this.STR`) | `10` | **Dodge** (DEX `=this.DEX`) | `10` |
+>>| **Acrobatics** (DEX `=this.DEX`) |`12` |**Literacy** (INT `=this.INT`) | `10` |
+>>| **Animal Handling** (CHA `=this.CHA`) | `11` |**Insight** (WIL `=this.WIL`) | `10` |
+>>| **Athletics** (STR `=this.STR`) | `10` | **Dodge** (DEX `=this.DEX`) | `74` |
 >>| **Blacksmithing** (DEX `=this.DEX`) | `10` |**Perception** (WIL `=this.WIL`) | `10`|
 >>| **Command** (CHA `=this.CHA`) | `10` | **Performance** (CHA `=this.CHA`)|`10`|
 >>| **Gathering** (DEX `=this.DEX`) | `10` |**Sailing** (DEX `=this.DEX`) | `10` |
->>| **Nature** (INT `=this.INT`) | `10` |  **Sailing** (DEX `=this.DEX`) | `10` |
+>>| **Nature** (INT `=this.INT`) | `10` |  **Sleight of Hand** (DEX `=this.DEX`) | `10` |
 >>| **Manipulation** (CHA `=this.CHA`) | `10` | **Stealth** (DEX `=this.DEX`) | `10` |
 >>| **Medicine** (INT `=this.INT`) | `10` |**Survival** (INT `=this.INT`) | `54` |
 >
@@ -537,3 +537,5 @@ actions:
   value: getMetadata('xp') + getMetadata('axp')
 
 ```
+
+
