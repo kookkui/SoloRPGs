@@ -380,7 +380,7 @@ HeartAb1Heart: Elemental
 >>[!crafting]  %%FAKE TITLE HERE%%
 >>### Heart Abilities
 >>
->>![[Chill Touch]]
+>>![[Death Bolt]]
 >>
 >>| | | |
 >>|:-:|:----------:|:-----:|:---------------------:|

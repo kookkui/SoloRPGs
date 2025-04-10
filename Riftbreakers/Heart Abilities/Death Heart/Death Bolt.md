@@ -1,9 +1,9 @@
 ---
-HeartAbCost: 1 Aether 1 Stamina
+HeartAbCost: 4 Aether
 HeartAbHeart: Death
 HeartAbType: Combat, Talent
 HeartAbActions: Standard Action
-HeartAbRange: 25 m
+HeartAbRange: 30 m
 ---
 
 >[!dice]  %%FAKE TITLE HERE%%
@@ -17,12 +17,12 @@ HeartAbRange: 25 m
 >>&nbsp;
 >> 
 >> ##### Description
->>Deals D6+DM Necrotic damage to a single target. Target also grabbed by the hand and suffer -10 on all checks with movement until the start of your next turn.
+>>Target suffers D6+DM Necrotic damage.
 >>
 >>&nbsp;
 >>**Apprentice Rank:** Amount increased to 2D6+DM Necrotic damage
 >>**Veteran Rank:** Amount increased to 3D6+DM Necrotic damage
 >>**Master Rank:** Amount increased to 4D6+DM Necrotic damage
 >>&nbsp;
->>*Your hand dies to the elbow, falls away, attacks an enemy and then goes back to normal.*
+>>*You concentrate the power of death into a bolt, launching it at your target.*
 >>

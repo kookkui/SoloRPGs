@@ -1,5 +1,11 @@
 ---
-Role: Bulwark
+Role: Mender
+STR: 10
+DEX: 16
+CON: 18
+INT: 12
+WIL: 11
+CHA: 14
 Belt: ""
 Pendant: Will always prioritize enemies that are targeting their patron. In case of doubt, determine randomly.
 Notes: ""
@@ -21,15 +27,16 @@ INPUT[progressBar(class(green-progress-bar), maxValue(32), title(HP)):CompanionH
 ### Standard Attack: D8+2
 ### Companion Level: 1
 #### Quest Completed
-`2/5`
+`0/5`
 
-| **Strength**         | 14  | **Brawn**            | 70  | **Max Health** |  32   |
+|    |   |         |   |  |     |
 | ---------------- |:---:| ---------------- |:---:|:--------------:|:-----:|
-| **Dexterity**    | 10  | **Coordination** | 50  |   **Armor**    |  D8   |
-| **Constitution** | 16  | **Vitality**     | 80  |   **Dodge**    |  70   |
-| **Will**         | 11  | **Tenacity**     | 55  |   **Range**    | Melee |
-| **Intelligence** | 10  | **Intellect**    | 50  |   **Parry**    |  +10  |
-| **Charisma**     | 12  | **Charm**        | 60  |                |       |
+| **Strength**     | `=this.STR`  | **Brawn**        | `=this.STR*5  | **Max Health** |  32   |
+| **Dexterity**    | `=this.DEX`  | **Coordination** | `=this.DEX*5`  |   **Armor**    |  D8   |
+| **Constitution** | `=this.CON`  | **Vitality**     | `=this.CON*5`  |   **Dodge**    |  70   |
+| **Will**         | `=this.WIL`  | **Tenacity**     | `=this.WIL*5`   |   **Range**    | Melee |
+| **Intelligence** | `=this.INT`  | **Intellect**    | `=this.INT*5`  |   **Parry**    |  +10  |
+| **Charisma**     | `=this.CHA`  | **Charm**        | `=this.CHA`  |                |       |
 
 ---
 ### Follower Name: Thalyss

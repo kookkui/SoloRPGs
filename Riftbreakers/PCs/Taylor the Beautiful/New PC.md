@@ -24,7 +24,7 @@ Weapon3notes:
 rank: Apprentice
 axp: 2
 xp: 0
-a-N: 
+a-N: 20
 a-a: 
 a-V: 
 a-M: 
@@ -99,9 +99,9 @@ title10: ""
 title11: ""
 title12: ""
 title13: ""
-proficiency1: Longbow
-proficiency2: Scimitar
-proficiency3: Soft Leather
+proficiency1: Battleaxe
+proficiency2: Soft Leather
+proficiency3: 
 title21: ""
 title15: ""
 Hearts:
@@ -109,19 +109,20 @@ Hearts:
   - Arrow
   - Ritual
   - Elemental
-passive0: 
-passive1: 
+passive0: "**Combat Mastery** You can disengage from combat at will, without requiring a Coordination check. Opponents cannot disengage from combat when facing you, unless you let them."
+passive1: "**Lord of the Dead** All your checks against Undead gain +20 bonus and all Undead’s checks against you gain -20 penalty."
 passive2: 
-Heart1: Arrow
-Heart2: Elemental
-Heart3: Restoration
-Heart4: Ritual
+Heart1: Might
+Heart2: Death
+Heart3: None
+Heart4: None
 title14: 
+HeartAbLink1: "![[Cleave]]"
 HearAb1: Novice
 Heartexp1: 
-HeartAb1Type: Talent
+HeartAbLink2: "![[Death Bolt]]"
 HeartAbRank1: Novice
-HeartAb1Heart: Elemental
+HeartAbRank2: Novice
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] %%FAKE TITLE HERE%% 
@@ -196,16 +197,16 @@ HeartAb1Heart: Elemental
 >> ### Skill Checks
 >>| **Skill Name** | **Skill Level** | **Skill Name** | **Skill Level** |
 >>| --- | :-: |--- | :-: |
->>| **Alchemy** (INT `=this.INT`) | `10` | **Leatherworking** (DEX `=this.DEX`) | `10`|
->>| **Acrobatics** (DEX `=this.DEX`) |`12` |**Literacy** (INT `=this.INT`) | `10` |
->>| **Animal Handling** (CHA `=this.CHA`) | `11` |**Insight** (WIL `=this.WIL`) | `10` |
->>| **Athletics** (STR `=this.STR`) | `10` | **Dodge** (DEX `=this.DEX`) | `74` |
->>| **Blacksmithing** (DEX `=this.DEX`) | `10` |**Perception** (WIL `=this.WIL`) | `10`|
->>| **Command** (CHA `=this.CHA`) | `10` | **Performance** (CHA `=this.CHA`)|`10`|
->>| **Gathering** (DEX `=this.DEX`) | `10` |**Sailing** (DEX `=this.DEX`) | `10` |
->>| **Nature** (INT `=this.INT`) | `10` |  **Sleight of Hand** (DEX `=this.DEX`) | `10` |
->>| **Manipulation** (CHA `=this.CHA`) | `10` | **Stealth** (DEX `=this.DEX`) | `10` |
->>| **Medicine** (INT `=this.INT`) | `10` |**Survival** (INT `=this.INT`) | `54` |
+>>| **Alchemy** (INT `=this.INT`) | `32` | **Leatherworking** (DEX `=this.DEX`) | `14`|
+>>| **Acrobatics** (DEX `=this.DEX`) |`34` |**Literacy** (INT `=this.INT`) | `52` |
+>>| **Animal Handling** (CHA `=this.CHA`) | `11` |**Insight** (WIL `=this.WIL`) | `15` |
+>>| **Athletics** (STR `=this.STR`) | `38` | **Dodge** (DEX `=this.DEX`) | `74` |
+>>| **Blacksmithing** (DEX `=this.DEX`) | `24` |**Perception** (WIL `=this.WIL`) | `45`|
+>>| **Command** (CHA `=this.CHA`) | `11` | **Performance** (CHA `=this.CHA`)|`11`|
+>>| **Gathering** (DEX `=this.DEX`) | `34` |**Sailing** (DEX `=this.DEX`) | `14` |
+>>| **Nature** (INT `=this.INT`) | `32` |  **Sleight of Hand** (DEX `=this.DEX`) | `14` |
+>>| **Manipulation** (CHA `=this.CHA`) | `11` | **Stealth** (DEX `=this.DEX`) | `14` |
+>>| **Medicine** (INT `=this.INT`) | `22` |**Survival** (INT `=this.INT`) | `52` |
 >
 >>[!gather] %%FAKE TITLE HERE%%
 >>##### Proficiencies
@@ -357,10 +358,10 @@ HeartAb1Heart: Elemental
 >>## Hearts
 >> |        |     |   
 >>| :-: | :----- |
->>| 1 | `INPUT[inlineSelect(option(Arcane), option(Arrow), option(Bastion), option(Blade), option(Death), option(Elemental), option(Might), option(Restoration), option(Ritual), option(Shadow)):Heart1]` |
->>| 2 |  `INPUT[inlineSelect(option(Arcane), option(Arrow), option(Bastion), option(Blade), option(Death), option(Elemental), option(Might), option(Restoration),  option(Ritual), option(Shadow)):Heart2]` |
->>| 3 |  `INPUT[inlineSelect(option(Arcane), option(Arrow), option(Bastion), option(Blade), option(Death), option(Elemental), option(Might), option(Restoration),  option(Ritual), option(Shadow)):Heart3]` |
->>| 4 |  `INPUT[inlineSelect(option(Arcane), option(Arrow), option(Bastion), option(Blade), option(Death), option(Elemental), option(Might), option(Restoration),  option(Ritual), option(Shadow)):Heart4]` |
+>>| 1 | `INPUT[inlineSelect(option(None), option(Arcane), option(Arrow), option(Bastion), option(Blade), option(Death), option(Elemental), option(Might), option(Restoration), option(Ritual), option(Shadow)):Heart1]` |
+>>| 2 |  `INPUT[inlineSelect(option(None), option(Arcane), option(Arrow), option(Bastion), option(Blade), option(Death), option(Elemental), option(Might), option(Restoration),  option(Ritual), option(Shadow)):Heart2]` |
+>>| 3 |  `INPUT[inlineSelect(option(None), option(Arcane), option(Arrow), option(Bastion), option(Blade), option(Death), option(Elemental), option(Might), option(Restoration),  option(Ritual), option(Shadow)):Heart3]` |
+>>| 4 |  `INPUT[inlineSelect(option(None), option(Arcane), option(Arrow), option(Bastion), option(Blade), option(Death), option(Elemental), option(Might), option(Restoration),  option(Ritual), option(Shadow)):Heart4]` |
 >>
 >>&nbsp;
 >> #### Passive Skills
@@ -370,18 +371,12 @@ HeartAb1Heart: Elemental
 >>| 2 | `=this.passive1` |
 >>| 3 | `=this.passive2` |
 >>| 4 | `=this.passive3` |
->>| 5 | `=this.passive4` |
->>| 6 |`=this.passive5` |
->>| 7 | `=this.passive6` |
->>| 8 | `=this.passive7` |
->>| 9 | `=this.passive8` |
->>| 10 | `=this.passive9` |
 >>
 >
 >>[!crafting]  %%FAKE TITLE HERE%%
 >>### Heart Abilities
->>
->>![[Chill Touch]]
+>> 
+>>`=this.HeartAbLink1`
 >>
 >>| | | |
 >>|:-:|:----------:|:-----:|:---------------------:|
@@ -394,8 +389,8 @@ HeartAb1Heart: Elemental
 >>
 >>&nbsp
 >>
->>
->>
+>> 
+>>`=this.HeartAbLink2`
 >>
 >>| | | |
 >>|:-:|:----------:|:-----:|:---------------------:|
@@ -408,8 +403,8 @@ HeartAb1Heart: Elemental
 >>
 >>&nbsp
 >>
->>
->>
+>> 
+>>`=this.HeartAbLink3`
 >>
 >>| | | |
 >>|:-:|:----------:|:-----:|:---------------------:|
@@ -422,8 +417,8 @@ HeartAb1Heart: Elemental
 >>
 >>&nbsp
 >>
->>
->>
+>> 
+>>`=this.HeartAbLink4`
 >>
 >>| | | |
 >>|:-:|:----------:|:-----:|:---------------------:|
@@ -436,8 +431,8 @@ HeartAb1Heart: Elemental
 >>
 >>&nbsp
 >>
->>
->>
+>> 
+>>`=this.HeartAbLink5`
 >>
 >>| | | |
 >>|:-:|:----------:|:-----:|:---------------------:|
