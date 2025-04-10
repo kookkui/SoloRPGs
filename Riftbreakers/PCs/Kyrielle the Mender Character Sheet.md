@@ -1,11 +1,11 @@
 ---
 Role: Mender
-STR: 10
-DEX: 16
-CON: 18
-INT: 12
-WIL: 11
-CHA: 14
+STR: 8
+DEX: 13
+CON: 12
+INT: 15
+WIL: 17
+CHA: 12
 Belt: ""
 Pendant: Will always prioritize enemies that are targeting their patron. In case of doubt, determine randomly.
 Notes: ""
@@ -31,12 +31,12 @@ INPUT[progressBar(class(green-progress-bar), maxValue(32), title(HP)):CompanionH
 
 |    |   |         |   |  |     |
 | ---------------- |:---:| ---------------- |:---:|:--------------:|:-----:|
-| **Strength**     | `=this.STR`  | **Brawn**        | `=this.STR*5  | **Max Health** |  32   |
+| **Strength**     | `=this.STR`  | **Brawn**        | `=this.STR*5`  | **Max Health** |  32   |
 | **Dexterity**    | `=this.DEX`  | **Coordination** | `=this.DEX*5`  |   **Armor**    |  D8   |
 | **Constitution** | `=this.CON`  | **Vitality**     | `=this.CON*5`  |   **Dodge**    |  70   |
 | **Will**         | `=this.WIL`  | **Tenacity**     | `=this.WIL*5`   |   **Range**    | Melee |
 | **Intelligence** | `=this.INT`  | **Intellect**    | `=this.INT*5`  |   **Parry**    |  +10  |
-| **Charisma**     | `=this.CHA`  | **Charm**        | `=this.CHA`  |                |       |
+| **Charisma**     | `=this.CHA`  | **Charm**        | `=this.CHA*5` |                |       |
 
 ---
 ### Follower Name: Thalyss
