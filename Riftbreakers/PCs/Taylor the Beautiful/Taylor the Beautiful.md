@@ -412,6 +412,8 @@ HeartAb1Heart: Elemental
 >>[!crafting]  %%FAKE TITLE HERE%%
 >>### Heart Abilities
 >>
+>>![[Blight]]
+>>
 >>| **Ability Name** | `=this.HeartAb1Name`| **Type** | `INPUT[inlineSelect(option(Talent), option(Power), option(Prime)):HeartAb1Type]` |
 >>|:-:|:----------:|:-----:|:---------------------:|
 >>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank1]` | **XP** |`INPUT[number:Heartexp1]`|
@@ -601,8 +603,3 @@ actions:
   value: getMetadata('xp') + getMetadata('axp')
 
 ```
-
-
-
-
-
