@@ -1,4 +1,5 @@
 ---
+Art: "![[Téa'lad KylhaPro.webp|600]]"
 Title: Protector of Kar Helos
 STR: 10
 DEX: 16
@@ -85,36 +86,6 @@ pendantgearmagic: You can detect all living beings in a 20 m. radius. Increase y
 pendantgearquirk: It appears to be completely made of glass. It doesn't make it more fragile than it should be though
 pendantgearrank: Novice
 pendantgearnotes: Chaos Life Boon Light 200A  Rarity:Uncommon
-HeartAb1Name: Flame Burst
-HeartAb1Cost: 4 Aether
-HeartAb1Actions: 1 Required
-HeartAb1Range: 30 m
-HeartAb1Desc: "Deals D6+DM damage to a single target. Target becomes engulfed in flames, losing 1 Health/round. \r *A column of flames descends upon your target.*"
-HeartAb1Ranks: "**Apprentice Rank**: Deals 2D6+DM damage\r**Veteran Rank**: Deals 3D6+DM damage\r**Master Rank**: Target loses 2 Health/round"
-HeartAb2Name: 
-HeartAb2Cost: 
-HeartAb2Actions: 
-HeartAb2Range:
-HeartAb2Desc: 
-HeartAb2Ranks:
-HeartAb3Name: 
-HeartAb3Cost: 
-HeartAb3Actions: 
-HeartAb3Range:
-HeartAb3Desc: 
-HeartAb3Ranks: 
-HeartAb4Name: 
-HeartAb4Cost: 
-HeartAb4Actions: 
-HeartAb4Range:
-HeartAb4Desc: 
-HeartAb4Ranks: 
-HeartAb5Name: 
-HeartAb5Cost: 
-HeartAb5Actions: 
-HeartAb5Range:
-HeartAb5Desc: 
-HeartAb5Ranks: 
 title1: Backpack
 title2: Extra-Dimensional bag x 0
 title3: Quiver
@@ -155,8 +126,8 @@ HeartAb1Heart: Elemental
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] %%FAKE TITLE HERE%% 
 >> # `=this.file.name`
->> ![[IMG-20250129190024669.webp]]
->> ###### Stats
+>> `=this.Art`
+>> 
 >>  |
 >> ---|---|
 >> **Rank** |`INPUT[suggester(option(Novice), option(Apprentice), option(Veteran), option(Master)):rank]` |
@@ -187,16 +158,16 @@ HeartAb1Heart: Elemental
 >> ###### Crafting Aspects
 >>| **Air**   | **Bane** | **Boon** | **Chaos** | **Dark**  | **Death** |
 >>| :-: | :-: | :-: | :-: | :-: | :-: |
->>| `0`   | `0`  | `1`  | `10`   | `21`   | `1`   |
+>>| `0`   | `0`  | `0`  | `0`   | `0`   |`0`  |
 >>| **Earth** | **Fire** | **Life** | **Light** | **Power** | **Water** |
->| `1`   | `11`  | `0`  | `10`   | `11`   | `10`   |
+>| `0`  | `0` | `0`  | `10`   | `0`  | `0`  |
 >> &nbsp;
 >>
 >>###### Minerals
 >>
 >>| **Coal** | **Iron** | **Silver** | **Aglite** |
 >>| :-: | :-: | :-: | :-: |
->>| `21`  | `3`  | `1`    | `4`    |
+>>| `0`  | `0`  | `0`   | `0`   |
 >> &nbsp;
 >>
 >>  ###### Currency
@@ -205,8 +176,6 @@ HeartAb1Heart: Elemental
 >>|`=this.a-N`|`=this.a-a`|
 >>| **⟑-V** | **⟑-M**   |
 >>|`=this.a-V`|`=this.a-M`|
-
----
 
 >[!gather] %%FAKE TITLE HERE%%
 >>[!gather] %%FAKE TITLE HERE%%
@@ -227,16 +196,16 @@ HeartAb1Heart: Elemental
 >> ### Skill Checks
 >>| **Skill Name** | **Skill Level** | **Skill Name** | **Skill Level** |
 >>| --- | :-: |--- | :-: |
->>| **Alchemy** (INT) | `34` | **Leatherworking** (DEX) | `38`|
->>| **Acrobatics** (DEX) | `15` |**Literacy** (INT) | `57` |
->>| **Animal Handling** (CHA) | `14` |**Insight** (WIL) | `15` |
->>| **Athletics** (STR) | `33` | **Dodge** (DEX) | `75` |
->>| **Blacksmithing** (DEX) | `35` |**Perception** (WIL) | `32`|
->>| **Command** (CHA) | `14` | **Performance** (CHA)|`14`|
->>| **Gathering** (DEX) | `57` |**Sailing** (DEX) | `15` |
->>| **Nature** (INT) | `31` |  **Sailing** (DEX) | `15` |
->>| **Manipulation** (CHA) | `14` | **Stealth** (DEX) | `38` |
->>| **Medicine** (INT) | `11` |**Survival** (INT) | `54` |
+>>| **Alchemy** (INT `=this.INT`) | `10` | **Leatherworking** (DEX `=this.DEX`) | `10`|
+>>| **Acrobatics** (DEX `=this.DEX`) |`10` |**Literacy** (INT `=this.INT`) | `10` |
+>>| **Animal Handling** (CHA `=this.CHA`) | `10` |**Insight** (WIL `=this.WIL`) | `10` |
+>>| **Athletics** (STR `=this.STR`) | `10` | **Dodge** (DEX `=this.DEX`) | `10` |
+>>| **Blacksmithing** (DEX `=this.DEX`) | `10` |**Perception** (WIL `=this.WIL`) | `10`|
+>>| **Command** (CHA `=this.CHA`) | `10` | **Performance** (CHA `=this.CHA`)|`10`|
+>>| **Gathering** (DEX `=this.DEX`) | `10` |**Sailing** (DEX `=this.DEX`) | `10` |
+>>| **Nature** (INT `=this.INT`) | `10` |  **Sailing** (DEX `=this.DEX`) | `10` |
+>>| **Manipulation** (CHA `=this.CHA`) | `10` | **Stealth** (DEX `=this.DEX`) | `10` |
+>>| **Medicine** (INT `=this.INT`) | `10` |**Survival** (INT `=this.INT`) | `54` |
 >
 >>[!gather] %%FAKE TITLE HERE%%
 >>##### Proficiencies
@@ -388,10 +357,10 @@ HeartAb1Heart: Elemental
 >>## Hearts
 >> |        |     |   
 >>| :-: | :----- |
->>| 1 | `INPUT[inlineSelect(option(Arcane), option(Arrow), option(Bastion), option(Blade), option(Elemental), option(Might), option(Restoration), option(Ritual), option(Shadow)):Heart1]` |
->>| 2 |  `INPUT[inlineSelect(option(Arcane), option(Arrow), option(Bastion), option(Blade), option(Elemental), option(Might), option(Restoration), option(Ritual), option(Shadow)):Heart2]` |
->>| 3 |  `INPUT[inlineSelect(option(Arcane), option(Arrow), option(Bastion), option(Blade), option(Elemental), option(Might), option(Restoration), option(Ritual), option(Shadow)):Heart3]` |
->>| 4 |  `INPUT[inlineSelect(option(Arcane), option(Arrow), option(Bastion), option(Blade), option(Elemental), option(Might), option(Restoration), option(Ritual), option(Shadow)):Heart4]` |
+>>| 1 | `INPUT[inlineSelect(option(Arcane), option(Arrow), option(Bastion), option(Blade), option(Death), option(Elemental), option(Might), option(Restoration), option(Ritual), option(Shadow)):Heart1]` |
+>>| 2 |  `INPUT[inlineSelect(option(Arcane), option(Arrow), option(Bastion), option(Blade), option(Death), option(Elemental), option(Might), option(Restoration),  option(Ritual), option(Shadow)):Heart2]` |
+>>| 3 |  `INPUT[inlineSelect(option(Arcane), option(Arrow), option(Bastion), option(Blade), option(Death), option(Elemental), option(Might), option(Restoration),  option(Ritual), option(Shadow)):Heart3]` |
+>>| 4 |  `INPUT[inlineSelect(option(Arcane), option(Arrow), option(Bastion), option(Blade), option(Death), option(Elemental), option(Might), option(Restoration),  option(Ritual), option(Shadow)):Heart4]` |
 >>
 >>&nbsp;
 >> #### Passive Skills
@@ -412,175 +381,140 @@ HeartAb1Heart: Elemental
 >>[!crafting]  %%FAKE TITLE HERE%%
 >>### Heart Abilities
 >>
->>![[Blight]]
+>>![[Chill Touch]]
 >>
->>| **Ability Name** | `=this.HeartAb1Name`| **Type** | `INPUT[inlineSelect(option(Talent), option(Power), option(Prime)):HeartAb1Type]` |
+>>| | | |
 >>|:-:|:----------:|:-----:|:---------------------:|
 >>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank1]` | **XP** |`INPUT[number:Heartexp1]`|
->>| **Cost** | `=this.HeartAb1Cost` | **Heart** | `INPUT[inlineSelect(option(Arcane), option(Arrow), option(Bastion), option(Blade), option(Elemental), option(Might), option(Restoration), option(Ritual), option(Shadow)):HeartAb1Heart]` |
->>| **Actions** | `=this.HeartAb1Actions` | **Range** |`=this.HeartAb1Range`|  
+>>
 >>&nbsp;
 >> 
 >>
->>`=this.HeartAb1Desc`
->>
->>&nbsp
->>
->>`=this.HeartAb1Ranks`
->>
->>&nbsp
->>
 >>---
 >>
 >>&nbsp
 >>
->>| **Ability Name** | `=this.HeartAb2Name`| **Type** | `INPUT[inlineSelect(option(Talent), option(Power), option(Prime)):HeartAb2Type]` |
+>>
+>>
+>>
+>>| | | |
 >>|:-:|:----------:|:-----:|:---------------------:|
->>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank1]` | **XP** |`INPUT[number:Heartexp1]`|
->>| **Cost** | `=this.HeartAb2Cost` | **Heart** | `INPUT[inlineSelect(option(Arcane), option(Arrow), option(Bastion), option(Blade), option(Elemental), option(Might), option(Restoration), option(Ritual), option(Shadow)):HeartAb2Heart]` |
->>| **Actions** | `=this.HeartAb2Actions` | **Range** |`=this.HeartAb2Range`|  
+>>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank2]` | **XP** |`INPUT[number:Heartexp2]`|
+>>
 >>&nbsp;
 >> 
 >>
->>`=this.HeartAb2Desc`
->>
->>&nbsp
->>
->>`=this.HeartAb2Ranks`
->>
->>&nbsp
->>
 >>---
 >>
 >>&nbsp
 >>
->>| **Ability Name** | `=this.HeartAb3Name`| **Type** | `INPUT[inlineSelect(option(Talent), option(Power), option(Prime)):HeartAb3Type]` |
+>>
+>>
+>>
+>>| | | |
 >>|:-:|:----------:|:-----:|:---------------------:|
->>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank1]` | **XP** |`INPUT[number:Heartexp1]`|
->>| **Cost** | `=this.HeartAb3Cost` | **Heart** | `INPUT[inlineSelect(option(Arcane), option(Arrow), option(Bastion), option(Blade), option(Elemental), option(Might), option(Restoration), option(Ritual), option(Shadow)):HeartAb3Heart]` |
->>| **Actions** | `=this.HeartAb3Actions` | **Range** |`=this.HeartAb3Range`|  
+>>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank3]` | **XP** |`INPUT[number:Heartexp3]`|
+>>
 >>&nbsp;
 >> 
 >>
->>`=this.HeartAb3Desc`
->>
->>&nbsp
->>
->>`=this.HeartAb3Ranks`
->>
->>&nbsp
->>
 >>---
 >>
 >>&nbsp
 >>
->>| **Ability Name** | `=this.HeartAb4Name`| **Type** | `INPUT[inlineSelect(option(Talent), option(Power), option(Prime)):HeartAb4Type]` |
+>>
+>>
+>>
+>>| | | |
 >>|:-:|:----------:|:-----:|:---------------------:|
->>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank1]` | **XP** |`INPUT[number:Heartexp1]`|
->>| **Cost** | `=this.HeartAb4Cost` | **Heart** | `INPUT[inlineSelect(option(Arcane), option(Arrow), option(Bastion), option(Blade), option(Elemental), option(Might), option(Restoration), option(Ritual), option(Shadow)):HeartAb4Heart]` |
->>| **Actions** | `=this.HeartAb4Actions` | **Range** |`=this.HeartAb4Range`|  
+>>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank4]` | **XP** |`INPUT[number:Heartexp4]`|
+>>
 >>&nbsp;
 >> 
 >>
->>`=this.HeartAb4Desc`
->>
->>&nbsp
->>
->>`=this.HeartAb4Ranks`
->>
->>&nbsp
->>
 >>---
 >>
 >>&nbsp
 >>
->>| **Ability Name** | `=this.HeartAb5Name`| **Type** | `INPUT[inlineSelect(option(Talent), option(Power), option(Prime)):HeartAb5Type]` |
+>>
+>>
+>>
+>>| | | |
 >>|:-:|:----------:|:-----:|:---------------------:|
->>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank1]` | **XP** |`INPUT[number:Heartexp1]`|
->>| **Cost** | `=this.HeartAb5Cost` | **Heart** | `INPUT[inlineSelect(option(Arcane), option(Arrow), option(Bastion), option(Blade), option(Elemental), option(Might), option(Restoration), option(Ritual), option(Shadow)):HeartAb5Heart]` |
->>| **Actions** | `=this.HeartAb5Actions` | **Range** |`=this.HeartAb5Range`|  
+>>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank5]` | **XP** |`INPUT[number:Heartexp5]`|
+>>
 >>&nbsp;
 >> 
 >>
->>`=this.HeartAb5Desc`
->>
->>&nbsp
->>
->>`=this.HeartAb5Ranks`
->>
->>&nbsp
->>
 >>---
 >>
 >>&nbsp
 >>
->>| **Ability Name** | `=this.HeartAb6Name`| **Type** | `INPUT[inlineSelect(option(Talent), option(Power), option(Prime)):HeartAb6Type]` |
+>>
+>>
+>>
+>>| | | |
 >>|:-:|:----------:|:-----:|:---------------------:|
->>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank1]` | **XP** |`INPUT[number:Heartexp1]`|
->>| **Cost** | `=this.HeartAb6Cost` | **Heart** | `INPUT[inlineSelect(option(Arcane), option(Arrow), option(Bastion), option(Blade), option(Elemental), option(Might), option(Restoration), option(Ritual), option(Shadow)):HeartAb6Heart]` |
->>| **Actions** | `=this.HeartAb6Actions` | **Range** |`=this.HeartAb6Range`|  
+>>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank6]` | **XP** |`INPUT[number:Heartexp6]`|
+>>
 >>&nbsp;
 >> 
 >>
->>`=this.HeartAb6Desc`
->>
->>&nbsp
->>
->>`=this.HeartAb6Ranks`
->>
->>&nbsp
->>
 >>---
 >>
 >>&nbsp
 >>
->>| **Ability Name** | `=this.HeartAb7Name`| **Type** | `INPUT[inlineSelect(option(Talent), option(Power), option(Prime)):HeartAb7Type]` |
+>>
+>>
+>>
+>>| | | |
 >>|:-:|:----------:|:-----:|:---------------------:|
->>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank1]` | **XP** |`INPUT[number:Heartexp1]`|
->>| **Cost** | `=this.HeartAb7Cost` | **Heart** | `INPUT[inlineSelect(option(Arcane), option(Arrow), option(Bastion), option(Blade), option(Elemental), option(Might), option(Restoration), option(Ritual), option(Shadow)):HeartAb7Heart]` |
->>| **Actions** | `=this.HeartAb7Actions` | **Range** |`=this.HeartAb7Range`|  
+>>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank7]` | **XP** |`INPUT[number:Heartexp7]`|
+>>
 >>&nbsp;
 >> 
 >>
->>`=this.HeartAb7Desc`
+>>---
 >>
 >>&nbsp
 >>
->>`=this.HeartAb7Ranks`
 >>
->>&nbsp
+>>
+>>
+>>| | | |
+>>|:-:|:----------:|:-----:|:---------------------:|
+>>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank8]` | **XP** |`INPUT[number:Heartexp8]`|
+>>
+>>&nbsp;
+>> 
 >>
 >>---
 >>
 >>&nbsp
 >>
 >>
->>| Ability Name |     | Type  |     |
->>| ------------ | --- | ----- | --- |
->>| Rank         |     | XP    |     |
->>| Cost         |     | Heart |     |
->>| Actions      |     | Range |     |
->>Description:
 >>
 >>
->>---
+>>| | | |
+>>|:-:|:----------:|:-----:|:---------------------:|
+>>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank9]` | **XP** |`INPUT[number:Heartexp9]`|
 >>
->>| Ability Name |     | Type  |     |
->>| ------------ | --- | ----- | --- |
->>| Rank         |     | XP    |     |
->>| Cost         |     | Heart |     |
->>| Actions      |     | Range |     |
->>Description:
->>
+>>&nbsp;
+>> 
 >>
 >>---
->>| Ability Name |     | Type  |     |
->>| ------------ | --- | ----- | --- |
->>| Rank         |     | XP    |     |
->>| Cost         |     | Heart |     |
->>| Actions      |     | Range |     |
->>Description:
 >>
+>>&nbsp
+>>
+>>
+>>
+>>
+>>| | | |
+>>|:-:|:----------:|:-----:|:---------------------:|
+>>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank10]` | **XP** |`INPUT[number:Heartexp10]`|
+>>
+>>&nbsp;
+>> 
 >>
 >>---
 >>

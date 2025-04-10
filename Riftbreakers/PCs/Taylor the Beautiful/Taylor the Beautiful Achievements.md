@@ -1,21 +1,21 @@
 ---
-Exterminator: 67
-money: 650
-moneyAdd: 50
+Exterminator: 0
+money: 0
+moneyAdd: 
 cheevo1: false
 ExterminatorAdd: 
-monster1: true
-monster2: true
-monster3: true
-monster4: true
-monster5: true
-monster6: true
-monster7: true
+monster1: false
+monster2: false
+monster3: false
+monster4: false
+monster5: false
+monster6: false
+monster7: false
 cheevo7: true
-explore1: true
-explore3: true
-explore4: true
-heals: 12
+explore1: false
+explore3: false
+explore4: false
+heals: 0
 healsAdd: 
 riftbreaker: true
 cheevo15: true
@@ -23,7 +23,7 @@ cheevo15: true
 
 >>[!travel]  #### Adventurer `INPUT[toggle:cheevo1]`
 >>
->>`2/50`
+>>`0/50`
 >>
 >>&nbsp;
 >>*Complete 50 Quests.* 
@@ -57,7 +57,7 @@ cheevo15: true
 >>
 ---
 >>[!bug] #### Pest Control `INPUT[toggle:cheevo5]`
->>`64/100`
+>>`00/100`
 >>
 >>&nbsp;
 >>*Defeat 100 Monsters.* 
@@ -118,7 +118,7 @@ cheevo15: true
 
 ---
 >>[!gather] #### Miner `INPUT[toggle:cheevo10]`
->>`4/50`
+>>`1/50`
 >>
 >>&nbsp
 >>*Mine 50 Ore Veins. Reward: Title -"Miner". Repeat a failed roll when attempting to find an ore vein.*
@@ -130,7 +130,7 @@ cheevo15: true
 >>`INPUT[toggle:explore4]` The Violet Sands
 >>
 >>&nbsp
->>*Visit each region of Kaethor,  Reward:100 XP*
+>>*Visit each region of Kaethor,  Reward: 100 XP*
 ---
 >>[!npc] #### One in a Thousand `INPUT[toggle:cheevo12]`
 >>`INPUT[toggle:vet]` Reach Veteran Rank.
@@ -152,7 +152,7 @@ cheevo15: true
 >>
 ---
 >>[!check] #### Herbalist `INPUT[toggle:cheevo14]`
->>`12/50`
+>>`0/50`
 >>
 >>&nbsp
 >>*Obtain 50 ingredients via gathering.* 
@@ -167,7 +167,7 @@ cheevo15: true
 >>
 ---
 >>[!bug] #### Hero `INPUT[toggle:cheevo16]`
->>`3/100`
+>>`0/100`
 >>
 >>&nbsp
 >>*Complete 100 Quests.* 
@@ -175,7 +175,7 @@ cheevo15: true
 >>
 ---
 >>[!crafting] #### Riftbane `INPUT[toggle:cheevo17]`
->> `3/20` 
+>> `0/20` 
 >>
 >>&nbsp
 >>*Successfully close 20 Rifts.*
@@ -183,7 +183,7 @@ cheevo15: true
 >>
 ---
 >>[!table] #### I Have the Power `INPUT[toggle:cheevo18]`
->>`7/20`
+>>`0/20`
 >>
 >>&nbsp
 >>*Unlock all 20 Abilities.*
