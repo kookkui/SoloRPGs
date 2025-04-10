@@ -21,7 +21,7 @@ Weapon3type:
 Weapon3dmg: 
 Weapon3notes: 
 rank: Apprentice
-axp: 25
+axp: 
 xp: 1675
 a-N: "355"
 a-a: 
@@ -85,6 +85,36 @@ pendantgearmagic: You can detect all living beings in a 20 m. radius. Increase y
 pendantgearquirk: It appears to be completely made of glass. It doesn't make it more fragile than it should be though
 pendantgearrank: Novice
 pendantgearnotes: Chaos Life Boon Light 200A  Rarity:Uncommon
+HeartAb1Name: Flame Burst
+HeartAb1Cost: 4 Aether
+HeartAb1Actions: 1 Required
+HeartAb1Range: 30 m
+HeartAb1Desc: "Deals D6+DM damage to a single target. Target becomes engulfed in flames, losing 1 Health/round. \r *A column of flames descends upon your target.*"
+HeartAb1Ranks: "**Apprentice Rank**: Deals 2D6+DM damage\r**Veteran Rank**: Deals 3D6+DM damage\r**Master Rank**: Target loses 2 Health/round"
+HeartAb2Name: 
+HeartAb2Cost: 
+HeartAb2Actions: 
+HeartAb2Range:
+HeartAb2Desc: 
+HeartAb2Ranks:
+HeartAb3Name: 
+HeartAb3Cost: 
+HeartAb3Actions: 
+HeartAb3Range:
+HeartAb3Desc: 
+HeartAb3Ranks: 
+HeartAb4Name: 
+HeartAb4Cost: 
+HeartAb4Actions: 
+HeartAb4Range:
+HeartAb4Desc: 
+HeartAb4Ranks: 
+HeartAb5Name: 
+HeartAb5Cost: 
+HeartAb5Actions: 
+HeartAb5Range:
+HeartAb5Desc: 
+HeartAb5Ranks: 
 title1: Backpack
 title2: Extra-Dimensional bag x 0
 title3: Quiver
@@ -117,6 +147,10 @@ Heart3: Restoration
 Heart4: Ritual
 title14: "Potion of Rest. Reduce your Fatigue by 1. Aspects: Stone, Life"
 HearAb1: Novice
+Heartexp1: 
+HeartAb1Type: Talent
+HeartAbRank1: Novice
+HeartAb1Heart: Elemental
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] %%FAKE TITLE HERE%% 
@@ -381,19 +415,56 @@ HearAb1: Novice
 >>| **Ability Name** | `=this.HeartAb1Name`| **Type** | `INPUT[inlineSelect(option(Talent), option(Power), option(Prime)):HeartAb1Type]` |
 >>|:-:|:----------:|:-----:|:---------------------:|
 >>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank1]` | **XP** |`INPUT[number:Heartexp1]`|
->>| **Cost** | 2 MP | **Heart** | `INPUT[inlineSelect(option(Arcane), option(Arrow), option(Bastion), option(Blade), option(Elemental), option(Might), option(Restoration), option(Ritual), option(Shadow)):HeartAb1Heart]` |
->>| **Actions** | 1 Required | **Range** |`=this.HeartAb1Range`|  
+>>| **Cost** | `=this.HeartAb1Cost` | **Heart** | `INPUT[inlineSelect(option(Arcane), option(Arrow), option(Bastion), option(Blade), option(Elemental), option(Might), option(Restoration), option(Ritual), option(Shadow)):HeartAb1Heart]` |
+>>| **Actions** | `=this.HeartAb1Actions` | **Range** |`=this.HeartAb1Range`|  
 >>&nbsp;
 >> 
 >>
 >>`=this.HeartAb1Desc`
 >>
+>>&nbsp
+>>
+>>`=this.HeartAb1Ranks`
+>>
+>>&nbsp
+>>
+>>---
+>>
+>>&nbsp
+>>
+>>| **Ability Name** | `=this.HeartAb2Name`| **Type** | `INPUT[inlineSelect(option(Talent), option(Power), option(Prime)):HeartAb2Type]` |
+>>|:-:|:----------:|:-----:|:---------------------:|
+>>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank1]` | **XP** |`INPUT[number:Heartexp1]`|
+>>| **Cost** | `=this.HeartAb2Cost` | **Heart** | `INPUT[inlineSelect(option(Arcane), option(Arrow), option(Bastion), option(Blade), option(Elemental), option(Might), option(Restoration), option(Ritual), option(Shadow)):HeartAb2Heart]` |
+>>| **Actions** | `=this.HeartAb2Actions` | **Range** |`=this.HeartAb2Range`|  
 >>&nbsp;
->>**Apprentice Rank:** Amount increased to 2D6+DM 
->>**Veteran Rank:** Amount increased to 3D6+DM 
->>**Master Rank:** Amount increased to 4D6+DM
+>> 
+>>
+>>`=this.HeartAb2Desc`
+>>
+>>&nbsp
+>>
+>>`=this.HeartAb2Ranks`
+>>
+>>&nbsp
+>>
+>>---
+>>
+>>&nbsp
+>>
+>>| **Ability Name** | `=this.HeartAb3Name`| **Type** | `INPUT[inlineSelect(option(Talent), option(Power), option(Prime)):HeartAb3Type]` |
+>>|:-:|:----------:|:-----:|:---------------------:|
+>>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank1]` | **XP** |`INPUT[number:Heartexp1]`|
+>>| **Cost** | `=this.HeartAb3Cost` | **Heart** | `INPUT[inlineSelect(option(Arcane), option(Arrow), option(Bastion), option(Blade), option(Elemental), option(Might), option(Restoration), option(Ritual), option(Shadow)):HeartAb3Heart]` |
+>>| **Actions** | `=this.HeartAb3Actions` | **Range** |`=this.HeartAb3Range`|  
 >>&nbsp;
->>*You gather divine energy in your hand, shooting off a beam of bright light.*
+>> 
+>>
+>>`=this.HeartAb3Desc`
+>>
+>>&nbsp
+>>
+>>`=this.HeartAb3Ranks`
 >>
 >>&nbsp
 >>
@@ -401,23 +472,19 @@ HearAb1: Novice
 >>
 >>&nbsp
 >>
->>| **Ability Name** | Twin Shots | **Type** | Martial, Attack |
->>| :-: | :-: | :-: | :-: |
->>| **Rank** | Novice | **XP** | |
->>| **Cost** | 4 ST | **Heart** | Talent, Arrow |
->>| **Actions** | 1 Required | **Range** | Weapon's Range |
+>>| **Ability Name** | `=this.HeartAb4Name`| **Type** | `INPUT[inlineSelect(option(Talent), option(Power), option(Prime)):HeartAb4Type]` |
+>>|:-:|:----------:|:-----:|:---------------------:|
+>>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank1]` | **XP** |`INPUT[number:Heartexp1]`|
+>>| **Cost** | `=this.HeartAb4Cost` | **Heart** | `INPUT[inlineSelect(option(Arcane), option(Arrow), option(Bastion), option(Blade), option(Elemental), option(Might), option(Restoration), option(Ritual), option(Shadow)):HeartAb4Heart]` |
+>>| **Actions** | `=this.HeartAb4Actions` | **Range** |`=this.HeartAb4Range`|  
+>>&nbsp;
+>> 
 >>
->>&nbsp
->>You can perform two ranged attacks with a single Standard Action against the same target, each one suffering -10 to the attack check.
->>
->>&nbsp
->>**Apprentice Rank:** Attacks suffer no penalty
->>**Veteran Rank:** Attacks deal +2 damage
->>**Master Rank:** Attacks receive +10 to their check
+>>`=this.HeartAb4Desc`
 >>
 >>&nbsp
 >>
->>*You let loose two shots in quick succession, trusting your skill over any careful aiming.*
+>>`=this.HeartAb4Ranks`
 >>
 >>&nbsp
 >>
@@ -425,22 +492,19 @@ HearAb1: Novice
 >>
 >>&nbsp
 >>
->>| **Ability Name** | Cleanse Body | **Type**  |    Holy, Support    |
->>|:--------------: | :----------: | :-------: | :-----------------: |
->>|     **Rank**     |    Novice    |  **XP**   |                     |
->>|     **Cost**     |     1 MP     | **Heart** | Talent, Restoration |
->>|   **Actions**    |  1 Required  | **Range** |        30 m         |
+>>| **Ability Name** | `=this.HeartAb5Name`| **Type** | `INPUT[inlineSelect(option(Talent), option(Power), option(Prime)):HeartAb5Type]` |
+>>|:-:|:----------:|:-----:|:---------------------:|
+>>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank1]` | **XP** |`INPUT[number:Heartexp1]`|
+>>| **Cost** | `=this.HeartAb5Cost` | **Heart** | `INPUT[inlineSelect(option(Arcane), option(Arrow), option(Bastion), option(Blade), option(Elemental), option(Might), option(Restoration), option(Ritual), option(Shadow)):HeartAb5Heart]` |
+>>| **Actions** | `=this.HeartAb5Actions` | **Range** |`=this.HeartAb5Range`|  
+>>&nbsp;
+>> 
 >>
->>&nbsp
->>Removes 1 instance of Poison, Disease, Blind, Dazed, Freezing, Paralyzed, Slowed, Sleep or Stunned from a single target.
->>
->>&nbsp
->>
->>**Veteran Rank:** Removes all physical conditions from the target
+>>`=this.HeartAb5Desc`
 >>
 >>&nbsp
 >>
->>*With your divine power you pull the poison out from the target, turning it into ash once outside their body.*
+>>`=this.HeartAb5Ranks`
 >>
 >>&nbsp
 >>
@@ -448,24 +512,19 @@ HearAb1: Novice
 >>
 >>&nbsp
 >>
->>| **Ability Name** |  Backflip  | **Type**  | Martial, Utility |
->>|:----------------:|:----------:|:---------:|:----------------:|
->>|     **Rank**     | Apprentice |  **XP**   |      1,000       |
->>|  **Cost**     |    2 ST    | **Heart** |  Talent, Arrow   |
->>|   **Actions**    |    Free    | **Range** |       Self       |
+>>| **Ability Name** | `=this.HeartAb6Name`| **Type** | `INPUT[inlineSelect(option(Talent), option(Power), option(Prime)):HeartAb6Type]` |
+>>|:-:|:----------:|:-----:|:---------------------:|
+>>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank1]` | **XP** |`INPUT[number:Heartexp1]`|
+>>| **Cost** | `=this.HeartAb6Cost` | **Heart** | `INPUT[inlineSelect(option(Arcane), option(Arrow), option(Bastion), option(Blade), option(Elemental), option(Might), option(Restoration), option(Ritual), option(Shadow)):HeartAb6Heart]` |
+>>| **Actions** | `=this.HeartAb6Actions` | **Range** |`=this.HeartAb6Range`|  
+>>&nbsp;
+>> 
 >>
->>&nbsp
->> You automatically disengage from combat and gain +10 Dodge until your next turn.
->>
->>&nbsp
->>
->> **Apprentice Rank:** Opponent suffers D4 damage 
->> **Veteran Rank:**  Dodge increased to +20
->> **Master Rank:** Your next action receives +20
+>>`=this.HeartAb6Desc`
 >>
 >>&nbsp
 >>
->> *You swiftly move around your opponent, suddenly jumping backwards against them and landing on a perfect defensive guard.*
+>>`=this.HeartAb6Ranks`
 >>
 >>&nbsp
 >>
@@ -473,69 +532,19 @@ HearAb1: Novice
 >>
 >>&nbsp
 >>
->>| **Ability Name** |Identify Magic Item | **Type** | Arcane, Utility |
->>| :----------: | :-------------: | :---: | :-------------: |
->>| **Rank** | Novice | **XP** | |
->>| **Cost** | 2 MP | **Heart** | Talent, Ritual |
->>| **Actions** | 1 Required | **Range** | Touch |
+>>| **Ability Name** | `=this.HeartAb7Name`| **Type** | `INPUT[inlineSelect(option(Talent), option(Power), option(Prime)):HeartAb7Type]` |
+>>|:-:|:----------:|:-----:|:---------------------:|
+>>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank1]` | **XP** |`INPUT[number:Heartexp1]`|
+>>| **Cost** | `=this.HeartAb7Cost` | **Heart** | `INPUT[inlineSelect(option(Arcane), option(Arrow), option(Bastion), option(Blade), option(Elemental), option(Might), option(Restoration), option(Ritual), option(Shadow)):HeartAb7Heart]` |
+>>| **Actions** | `=this.HeartAb7Actions` | **Range** |`=this.HeartAb7Range`|  
+>>&nbsp;
+>> 
 >>
->>&nbsp
->> You learn the powers of an item, allowing you to use it. You close your eyes, concentrating on the item’s aura and learning all its secrets.
->>
->>&nbsp
->>
->>*After a long incantation, you touch the item, which collapses in a rainbow shower of solid aetheryte.*
+>>`=this.HeartAb7Desc`
 >>
 >>&nbsp
 >>
->>---
->>
->>&nbsp
->>
->>| **Ability Name** | Portal | **Type** | Arcane, Utility |
->>| :----------: | :-----: | :---: | :-------------: |
->>| **Rank** | Novice | **XP** | |
->>| **Cost** | 10 MP | **Heart** | Prime, Ritual |
->>| **Actions** | 2 Required | **Range** | 5 Travel Days |
->>
->>&nbsp
->>Creates linked teleportation portals that remain open for 1 min. The destination portal can be set to appear on a place the caster is familiar with, or within their line of sight.
->>
->>&nbsp
->>
->>**Apprentice Rank:** Range increased to 10 Travel Days. 
->>**Veteran Rank:** Range increased to 20 Travel Days. 
->>**Master Rank:** Range increased to 40 Travel Days. 
->>
->>&nbsp
->>
->>*After a long incantation, you touch the item, which collapses in a rainbow shower of solid aetheryte.*
->>
->>&nbsp
->>
->>---
->>
->>&nbsp
->>
->>| **Ability Name** | Bless| **Type** | Holy, Support |
->>| :----------: | :-------: | :---: | :------------: |
->>| **Rank** | Novice | **XP** | |
->>| **Cost** | 4 MP | **Heart** | Power, Restore |
->>| **Actions** | 1 Required | **Range** | 30 m. |
->>
->>&nbsp
->>Increase a target’s Brawn by +20 and Dodge by +10 for D4+2 rounds.
->>
->>&nbsp
->>
->>**Apprentice Rank:** Actions Required: Free
->>**Veteran Rank:** Duration increased to D6+2 rounds
->>**Master Rank:** Effect lasts until the end of combat
->>
->>&nbsp
->>
->>*A blinding glow appears from within the target’s chest, only to
-disappear seconds later.*
+>>`=this.HeartAb7Ranks`
 >>
 >>&nbsp
 >>
