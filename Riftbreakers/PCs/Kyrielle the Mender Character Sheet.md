@@ -9,55 +9,80 @@ CHA: 12
 Belt: ""
 Pendant: Will always prioritize enemies that are targeting their patron. In case of doubt, determine randomly.
 Notes: ""
-type: |-
-  Loyalty 6 Readiness 45
-
-  Opener: Increase your next attack's damage by D4
-CompanionHP: 32
-Clevel: 3
+CompanionHP: 24
 hp: 32
-modifier: 0
+comArmor: D4
+comRange: Ranged (20 m.)
+sattack: D6+2
+comDodge: 50
+comParry:
+Fname: Opheron
+Floyalty: 6
+Freadiness: 31
+Ftrait: "**Time Adept** The next Ability you use is a Free Action"
 ---
 ---
 ### Type: `INPUT[suggester(option(Bulwark), option(Controller), option(Executioner), option(Mender)):Role]`
 
-```meta-bind
-INPUT[progressBar(class(green-progress-bar), maxValue(32), title(HP)):CompanionHP]
-```
-### Standard Attack: D8+2
-### Companion Level: 1
-#### Quest Completed
-`0/5`
 
-|    |   |         |   |  |     |
-| ---------------- |:---:| ---------------- |:---:|:--------------:|:-----:|
-| **Strength**     | `=this.STR`  | **Brawn**        | `=this.STR*5`  | **Max Health** |  32   |
-| **Dexterity**    | `=this.DEX`  | **Coordination** | `=this.DEX*5`  |   **Armor**    |  D8   |
-| **Constitution** | `=this.CON`  | **Vitality**     | `=this.CON*5`  |   **Dodge**    |  70   |
-| **Will**         | `=this.WIL`  | **Tenacity**     | `=this.WIL*5`   |   **Range**    | Melee |
-| **Intelligence** | `=this.INT`  | **Intellect**    | `=this.INT*5`  |   **Parry**    |  +10  |
-| **Charisma**     | `=this.CHA`  | **Charm**        | `=this.CHA*5` |                |       |
+>[!thing] %%FAKE TITLE HERE%%
+>>[!thing] %%FAKE TITLE HERE%%
+>>```meta-bind
+>>INPUT[progressBar(class(green-progress-bar), maxValue(24), title(HP)):CompanionHP]
+>>```
+>>
+>>&nbsp;
+>>
+>>||  |
+>>| :-: | :-: |
+>>|**Standard Attack**|`=this.sattack`|
+>>| **Companion Level** | `0`   |
+>>|**Quest Completed**|`b:0/5`|
+
+
+
+
+
+>[!table] %%FAKE TITLE HERE%%
+>>[!table] %%FAKE TITLE HERE%%
+>>### Companion Stats
+>>|    |   |         |   |  |     |
+>>| ---------------- |:---:| ---------------- |:---:|:--------------:|:-----:|
+>>| **Strength**     | `=this.STR`  | **Brawn**        | `=this.STR*5`  | **Max Health** |   `=this.hp`   |
+>>| **Dexterity**    | `=this.DEX`  | **Coordination** | `=this.DEX*5`  |   **Armor**    |  `=this.comArmor`   |
+>>| **Constitution** | `=this.CON`  | **Vitality**     | `=this.CON*5`  |   **Dodge**    |  `=this.comDodge`   |
+>>| **Will**         | `=this.WIL`  | **Tenacity**     | `=this.WIL*5`   |   **Range**    | `=this.comRange` |
+>>| **Intelligence** | `=this.INT`  | **Intellect**    | `=this.INT*5`  |   **Parry**    |  `=this.comParry`  |
+>>| **Charisma**     | `=this.CHA`  | **Charm**        | `=this.CHA*5` |                |       |
 
 ---
-### Follower Name: Thalyss
-#### Follower Type:
 
-^1252e7
-
-`INPUT[textArea:type]`
+>[!dice] %%FAKE TITLE HERE%%
+>>[!dice] %%FAKE TITLE HERE%%
+>>### Follower Name: `=this.Fname`
+>>---
+>>
+>>#### Follower Stats
+>>| |    |
+>>| :-: | :-: |
+>>|Loyalty|`=this.Floyalty`|
+>>| Readiness | `=this.Freadiness` |
+>>| Follower Trait | `=this.Ftrait` |
+>>| | |
 
 ---
-## Chest
-`INPUT[textArea:Chest]`
-## Legs
-`INPUT[textArea:Belt]`
-## Amulet 
-`INPUT[textArea:Pant]`
-## Ring 1
-`INPUT[textArea:Ring1]`
-## Ring 2
-`INPUT[textArea:Ring2]`
-## Combat Strategy
-`INPUT[textArea:Pendant]`
-## Notes
-`INPUT[textArea:Notes]`
+
+>[!crafting] %%FAKE TITLE HERE%%
+>>[!crafting] %%FAKE TITLE HERE%%
+>>### Chest
+>>`INPUT[textArea:Chest]`
+>>### Legs
+>>`INPUT[textArea:Belt]`
+>>### Amulet 
+>>`INPUT[textArea:Pant]`
+>>### Ring 1
+>>`INPUT[textArea:Ring1]`
+>>### Ring 2
+>>`INPUT[textArea:Ring2]`
+>>### Notes
+>>`INPUT[textArea:Notes]`

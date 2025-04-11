@@ -8,7 +8,7 @@ INT: 12
 WIL: 15
 CHA: 11
 Luck: 0
-Armor: D3
+Armor: D4
 Weapon1: Traveler's Shortsword
 Weapon1dmg: D6+1
 Weapon1type: Slashing
@@ -28,17 +28,17 @@ a-N: 20
 a-a: 
 a-V: 
 a-M: 
-quest1: 
+quest1: "**Patrol** the perimeter and wilds for 16 days. Mark any rifts found with a beacon. Roll a d10 each day, on a 1 or 2, there is a rift."
 quest1t: 
-quest2: 
+quest2: "**Escort** a caravan - distance is 4 travel days."
 quest2t: 
-quest3: 
+quest3: "**Rift Closure**  Travel 10 days and close the marked rift. (Underground Cave System)."
 quest3t: 
-quest4: 
+quest4: "**Rift Closure** Travel 14 days and close the marked rift. (Thousand Islands)."
 quest4t: 
-quest5: 
+quest5: "**Delivery** Collect and deliver - 10 Moonstone Shard."
 quest5t: 
-quest6: 
+quest6: "**Monster Hunt** Travel 7 days and search for the monster. The type of monster is determined by the region."
 quest6t: 
 quest7: 
 quest7t: 
@@ -49,10 +49,10 @@ headname:
 headmagic: 
 headquirk: 
 headnotes: 
-chestname: Traveler's Robes
+chestname: Soft Leather (D4)
 chestmagic: 
 chestquirk: 
-chestnotes: Heavy Clothing Armor (D3)
+chestnotes: Integrity (D6)
 beltname: 
 beltmagic: 
 beltquirk: 
@@ -86,11 +86,11 @@ pendantgearmagic:
 pendantgearquirk: 
 pendantgearrank: 
 pendantgearnotes: 
-title1: ""
-title2: Simple Healing Potion
-title3: ""
-title4: ""
-title5: ""
+title1: Backpack
+title2: Ration
+title3: Simple Healing Potion
+title4: Bandage Ud8
+title5: Torch Ud8
 title6: ""
 title7: ""
 title8: ""
@@ -138,6 +138,7 @@ HeartAbRank2: Novice
 >> **Aether** | `34` **Max:** `VIEW[{WIL} + {INT} + 8]` |
 >> **Stamina** | `39` **Max:** `VIEW[{STR} + {CON}+ 8]` |
 >> **Armor Rating** | `=this.Armor` |
+>> **Max Gear Slots** | `=this.STR+10` |
 >> **XP** | `VIEW[{xp}][text]`
 >>
 >>---
@@ -146,7 +147,7 @@ HeartAbRank2: Novice
 >>
 >> &nbsp;
 >>
->> ###### Weapons
+>> ##### Weapons
 >>| **Weapons** | **Type** | **Damage** | **Notes** |
 >>| ------ | :-: | :-: | --------- |
 >>| `=this.Weapon1` | `=this.Weapon1type` | `=this.Weapon1dmg` |`=this.Weapon1notes` |
@@ -156,7 +157,7 @@ HeartAbRank2: Novice
 >>| | | |
 >> &nbsp;
 >>
->> ###### Crafting Aspects
+>> ##### Crafting Aspects
 >>| **Air**   | **Bane** | **Boon** | **Chaos** | **Dark**  | **Death** |
 >>| :-: | :-: | :-: | :-: | :-: | :-: |
 >>| `0`   | `0`  | `0`  | `0`   | `0`   |`0`  |
@@ -164,14 +165,14 @@ HeartAbRank2: Novice
 >| `0`  | `0` | `0`  | `10`   | `0`  | `0`  |
 >> &nbsp;
 >>
->>###### Minerals
+>>##### Minerals
 >>
 >>| **Coal** | **Iron** | **Silver** | **Aglite** |
 >>| :-: | :-: | :-: | :-: |
 >>| `0`  | `0`  | `0`   | `0`   |
 >> &nbsp;
 >>
->>  ###### Currency
+>>  ##### Currency
 >>| **⟑-N** | **⟑-A**   |
 >>| :-: | :-: |
 >>|`=this.a-N`|`=this.a-a`|
@@ -221,16 +222,16 @@ HeartAbRank2: Novice
 >>[!gear] %%FAKE TITLE HERE%%
 >>### Quests
 >>|**Quest Description** |**Completed** | **Timer/Counter**|
->> |:---: | --- | :---------: |
->>| `=this.quest1` | `INPUT[toggle:quest1t]` | `8/14`
->> |`=this.quest2` |`INPUT[toggle:quest2t]` | `0/22`
->>| `=this.quest3` | `INPUT[toggle:quest3t]` | `0/17`
->> |`=this.quest4` |`INPUT[toggle:quest4t]` | `0/22`
->>| `=this.quest5` | `INPUT[toggle:quest5t]` | `0/14`
->> |`=this.quest6` |`INPUT[toggle:quest6t]` | `0/11`
->>| `=this.quest7` | `INPUT[toggle:ques71t]` | `0/13`
->> |`=this.quest8` |`INPUT[toggle:quest8t]` | `0/21`
->>| `=this.quest9` | `INPUT[toggle:ques91t]` | `0/7`
+>> |--- | :---: | :---------: |
+>>| `=this.quest1` | `INPUT[toggle:quest1t]` | `0/16`
+>> |`=this.quest2` |`INPUT[toggle:quest2t]` | `0/4`
+>>| `=this.quest3` | `INPUT[toggle:quest3t]` | `0/10`
+>> |`=this.quest4` |`INPUT[toggle:quest4t]` | `0/14`
+>>| `=this.quest5` | `INPUT[toggle:quest5t]` | `0/10`
+>> |`=this.quest6` |`INPUT[toggle:quest6t]` | `0/7`
+>>| `=this.quest7` | `INPUT[toggle:ques71t]` | 
+>> |`=this.quest8` |`INPUT[toggle:quest8t]` | 
+>>| `=this.quest9` | `INPUT[toggle:ques91t]` | 
 >> |`=this.quest10` |`INPUT[toggle:quest10t]` |
 
 >[!table] %%FAKE TITLE HERE%%
