@@ -6,20 +6,20 @@
 
 ^2c2cdc
 
-| `dice: 1d12` | Type of Alchemical Ingredient Found |
-| ------------ | ----------------------------------- |
-| 1            | Aether Bloom (Aspect: Power)        |
-| 2            | Blackroot (Aspect: Dark)            |
-| 3            | Celestial Dust (Aspect: Light)      |
-| 4            | Dragon’s Claw (Aspect: Fire)        |
-| 5            | Ember Moss (Aspect: Fire)           |
-| 6            | Ghost Leaf (Aspect: Death)          |
-| 7            | Moonstone Shard (Aspect: Boon)      |
-| 8            | Nightshade Bloom (Aspect: Bane)     |
-| 9            | Rainbow Petal (Aspect: Boon)        |
-| 10           | Shadow Fern (Aspect: Dark)          |
-| 11           | Starlight Seed (Aspect: Light)      |
-| 12           | Thunder Leaf (Aspect: Air)          |
+| `dice: 1d12` | Type of Alchemical Ingredient Found       |
+| ------------ | ----------------------------------------- |
+| 1            | Aether Bloom (Aspect: Power) `dice:d4`    |
+| 2            | Blackroot (Aspect: Dark) `dice:d4`        |
+| 3            | Celestial Dust (Aspect: Light) `dice:d4`  |
+| 4            | Dragon’s Claw (Aspect: Fire) `dice:d4`    |
+| 5            | Ember Moss (Aspect: Fire) `dice:d4`       |
+| 6            | Ghost Leaf (Aspect: Death) `dice:d4`      |
+| 7            | Moonstone Shard (Aspect: Boon) `dice:d4`  |
+| 8            | Nightshade Bloom (Aspect: Bane) `dice:d4` |
+| 9            | Rainbow Petal (Aspect: Boon) `dice:d4`    |
+| 10           | Shadow Fern (Aspect: Dark) `dice:d4`      |
+| 11           | Starlight Seed (Aspect: Light) `dice:d4`  |
+| 12           | Thunder Leaf (Aspect: Air) `dice:d4`      |
 
 ^145d1d
 
@@ -88,6 +88,21 @@
 | 9-10        | Heals `dice:D6` Health. If at max Health, they perform a standard attack                                                                                                  |
 
 ^2bfe1b
+
+|`dice:1d10`|Mender Actions|
+|---|---|
+|1|Performs a standard attack with their weapon, dealing D6+2 Piercing damage|
+|2|Ally’s next action is performed with +20|
+|3|Grants a target ally +5 Armor until their next turn|
+|4-5|Target ally is healed for D6+2 Health. If there’s no character in need of healing, they perform a standard attack|
+|6|Removes one instance of a harmful condition from an ally. If none, the Companion performs a standard attack|
+|7|Target enemy must pass a Tenacity check. If they fail, they lose their next turn|
+|8|Target ally becomes impervious to damage until their next turn|
+|9-10|Heals D6 Health. If at max Health, they perform a standard attack|
+
+^c051eb
+
+
 
 | `dice: 1d20` | Gathering - Type of Mineral Deposit Found |
 | ---------- | ----------------------------------------- |

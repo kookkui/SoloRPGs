@@ -118,6 +118,8 @@
 | 19         | A local farmer seeking assistance in finding and freeing their livestock, said to have been taken by mysterious raiders in the Farmlands           |
 | 20         | A group of travelers seeking assistance in reaching and exploring the mysterious Labyrinth                                                         |
 
+^9dc46c
+
 
 | `dice: 1d10` | d10 Travel Die                      |
 | ------------ | ----------------------------------- |
@@ -137,6 +139,8 @@
 ^a8e9b1
 
 
+### The Violet Sand - Dangerous Encounters
+
 | `dice: 1d20` | The Violet Sand - Dangerous Encounters |
 | ------------ | -------------------------------------- |
 | 1-10         | Bandits                                |
@@ -152,3 +156,21 @@
 | 20           | Whirlwind Wraith                       |
 
 ^0fd971
+
+### Crystal Plains - Dangerous Encounters
+
+|`dice:d20`|Crystal Plains - Dangerous Encounters|
+|---|---|
+|1-10|Bandits|
+|11|Cloud Drake|
+|12|Crystal Harpy|
+|13|Giant Spider|
+|14|Lightning Elemental|
+|15|Sky Kraken|
+|16|Storm Spider|
+|17|Storm Giant|
+|18|Tidal Drake|
+|19|Thunderbird|
+|20|Winged Naga|
+
+^c8e25a

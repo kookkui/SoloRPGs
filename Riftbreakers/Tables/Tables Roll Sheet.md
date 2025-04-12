@@ -24,12 +24,20 @@
 >##### Travel - Interesting Location
 > `dice:[[Overworld Tables#^8d63ce]]`
 > 
+
+
+> [!example] Regional Travel Tables
+>##### Travel - Kar Helos: Intersting Finds and Encounters
+>`dice:[[Overworld Tables#^9dc46c]]`
+>
 >##### Kar Helos: Dangerous Encounters
 >`dice:[[Overworld Tables#^d86726]]`
 >
 >##### The Violet Sand - Dangerous Encounters
 > `dice:[[Overworld Tables#^0fd971]]`
-
+> 
+>##### Crystal Plains - Dangerous Encounters
+> `dice:[[Overworld Tables#^c8e25a]]`
 
 >[!npc] Gathering Tables
 >
@@ -43,6 +51,9 @@
 >
 >##### Monster Target Priority
 >`dice:[[General Tables#^6d1d6b]]`
+>
+>##### Mender Actions
+>`dice:[[General Tables#^c051eb]]`
 >
 >##### Bulwark Actions
 >`dice:[[General Tables#^2bfe1b]]`
@@ -58,11 +69,28 @@
 >##### Potion & Unguents
 >`dice:[[Loot Table#^663f5f]]`
 >
+>##### Damage Type
+>`dice:[[Loot Table#^434e99]]`
+>
 >##### Random Essence
 >`dice:[[Loot Table#^87d9e3]]`
+>
+>##### Companion Gear - Type
+>`dice:[[Loot Table#^f79769]]`
+>
+>##### Companion Gear - Rarity
+>`dice:[[Loot Table#^f79769]]`
+>
+>##### Companion Gear - Amulet Magic Properties
+>`dice:[[Loot Table#^bc2db6]]`
+>
+>##### Companion Gear - Chest Magic Properties
+>`dice:[[Loot Table#^f3fd69]]`
+>
+>##### Companion Gear - Ring Magic Properties
+>`dice:[[Loot Table#^fdc448]]`
 
-
-
+[[Riftbreakers House Rules#Gathering]]
 
 
 

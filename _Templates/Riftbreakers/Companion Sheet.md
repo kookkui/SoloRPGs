@@ -24,12 +24,16 @@ Ftrait: "**Time Adept** The next Ability you use is a Free Action"
 ---
 ### Type: `INPUT[suggester(option(Bulwark), option(Controller), option(Executioner), option(Mender)):Role]`
 
-```meta-bind
-INPUT[progressBar(class(green-progress-bar), maxValue(24), title(HP)):CompanionHP]
-```
 
->[!dice] %%FAKE TITLE HERE%%
->>[!dice] %%FAKE TITLE HERE%%
+>[!thing] %%FAKE TITLE HERE%%
+>>[!thing] %%FAKE TITLE HERE%%
+>> # `=this.file.name`
+>>```meta-bind
+>>INPUT[progressBar(class(green-progress-bar), maxValue(24), title(HP)):CompanionHP]
+>>```
+>>
+>>&nbsp;
+>>
 >>||  |
 >>| :-: | :-: |
 >>|**Standard Attack**|`=this.sattack`|
@@ -56,7 +60,7 @@ INPUT[progressBar(class(green-progress-bar), maxValue(24), title(HP)):CompanionH
 
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] %%FAKE TITLE HERE%%
->>### Follower Name: `=this.Fname`
+>># Follower: `=this.Fname`
 >>---
 >>
 >>#### Follower Stats
@@ -69,8 +73,8 @@ INPUT[progressBar(class(green-progress-bar), maxValue(24), title(HP)):CompanionH
 
 ---
 
->[!table] %%FAKE TITLE HERE%%
->>[!table] %%FAKE TITLE HERE%%
+>[!crafting] %%FAKE TITLE HERE%%
+>>[!crafting] %%FAKE TITLE HERE%%
 >>### Chest
 >>`INPUT[textArea:Chest]`
 >>### Legs

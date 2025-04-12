@@ -3,7 +3,7 @@ HeartAbCost: 4 Aether
 HeartAbHeart: Death
 HeartAbType: Combat, Talent
 HeartAbActions: Standard Action
-HeartAbRange: 30 m
+HeartAbRange: 30 meters
 ---
 
 >[!dice]  %%FAKE TITLE HERE%%
