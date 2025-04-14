@@ -213,3 +213,273 @@ Magic:  Health +2
 Magic:  Accuracy +10
 
 
+Gather Ingredients check (40) 15 Found something
+
+Gathering check  (34) `d100 = 1` Critical Success +1 Gathering (35)
+
+Thunder Leaf (Aspect: Air) x2
+
+Rest Check 3 Nothing happened
+
+-1 Ration (10)
+
+Resting for the night
+
+### 998-01-06
+
+Travel Die Check Dangerous Encounters Apprentice
+
+##### Storm Giant (RB)
+![[Storm Giant (RB)]]
+
+
+
+##### Encounter
+
+```encounter
+creatures:
+  - Storm Giant (RB) , 80, 8, 4
+```
+
+Combat Start
+
+Begin Combat
+
+Kyrielle Turn
+
+Target ally is healed for 7 Health. If there’s no character in need of healing, they perform a standard attack
+
+Kyrielle (24 HP)
+
+Aria Turn
+
+Firing Death Bolt 
+
+8 Damage - 4 Armor = 4 Damage to Giant (76)
+
+Storm Giant turn
+
+The monster targets the nearest character. If the potential targets are placed at the same distance, determine randomly
+
+Thunderstorm: The giant creates a thunderstorm that lasts for 3 rounds, covering a 30 m radius. Every round, each creature in the area takes D6 Air damage and must make a Vitality check or be Stunned for one round.
+
+Dodge Check Aria (44) `d100 = 40` Dodged
+
+Dodge Check Kyrielle (20) `d100 = 93` Hit
+
+5 Damage - 3 Armor = 2 Damage to Kyrielle (22)
+
+Vitality check (60) `d100 = 61` Failed Stunned
+
+Aria Turn 
+
+Dodge Check (44) 11 Critical Success +1 Dodge (75)
+
+Brawn Check (60) `d100 = 16` Hit!
+
+19 Damage - 3 Armor = 16 Damage to Giant (60)
+
+Hailstorm: The storm giant summons a hailstorm that pummels all creatures within a 20 m radius with icy chunks of hail. Targets take D8+2 Cold damage and suffer -20 to attack rolls until the start of their next turn.
+
+Dodge Check Aria (45) `d100 = 8` Dodged!
+
+Kyrielle Turn
+
+Target ally is healed for 5 Health. If there’s no character in need of healing, they perform a standard attack
+
+7 Damage - 1 Armor = 6 Damage to Giant (54)
+
+Aria Turn 
+
+Dodge Check (45) `d100 = 13` Dodged!
+
+Brawn Check (60) `d100 = 14` Hit!
+
+15 Damage - 3 Armor = 12 Damage to Giant (42)
+
+Hailstorm: The storm giant summons a hailstorm that pummels all creatures within a 20 m radius with icy chunks of hail. Targets take D8+2 Cold damage and suffer -20 to attack rolls until the start of their next turn.
+
+Dodge Check Aria (45) `d100 = 23` Dodged!
+
+Kyrielle Turn
+
+Target ally becomes impervious to damage until their next turn
+
+Aria Turn 
+
+Brawn Check (60) `d100 = 5` Critical Hit!
+
+13 Damage x Critical - 4 Armor = 22 Damage to Giant (20)
+
+Storm Giant turn
+
+Gale Force Winds: The storm giant creates a powerful gust of wind, pushing all creatures within a 15 m radius away from them. Affected creatures take D4 Bludgeoning damage and are pushed back 10 m. The wind lasts for 2 rounds.
+
+Dodge Check (45)  `d100 = 63` Hit! 
+
+2 Damage - 3 Armor = No Damage to Aria
+
+Kyrielle Turn
+
+Heals 5 Health. If at max Health, they perform a standard attack
+
+Kyrielle to max HP 24 
+
+Aria Turn 
+
+Brawn Check (60) `d100 = 55` Critical Hit! 
+
+22 Damage - 4 Armor = 18 Damage to Giant (2)
+
+Giant Turn
+
+Hailstorm: The storm giant summons a hailstorm that pummels all creatures within a 20 m radius with icy chunks of hail. Targets take D8+2 Cold damage and suffer -20 to attack rolls until the start of their next turn.
+
+Dodge Check (45) `d100 = 14` Dodged!
+
+Kyrielle Turn
+
+Ally’s next action is performed with +20
+
+Aria Turn 
+
+Brawn Check (80) `d100 = 64`  Hit! 
+
+9 Damage - 6 Armor = 3 Damage to Giant (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
++50 XP
+
+<font color="#00b0f0">Static Essence</font>
+
+Gathering Node Check (40) `d100 = 58` Failed found nothing
+
+Resting Check 7
+
+Using Static Essence to learn Two-Handed Weapon Master
+
+-1 Ration (9)
+
+### 998-01-07
+
+Arrived in a Rift’s vicinity, `d4 = 1` monster is waiting outside the Rift
+
+##### Underworld Dragon
+![[Underworld Dragon]]
+
+##### Encounter
+
+```encounter
+creatures:
+  - Underworld Dragon , 35, 6, 6
+```
+
+Combat Begin
+
+Kyrielle the Mender Turn
+
+Target ally is healed for 7 Health. If there’s no character in need of healing, they perform a standard attack
+
+4 Damage - 3 Armor = 1 Damage to Dragon (34)
+
+Underworld Dragon Turn
+
+Fire Breath: The dragon breathes a cone of fire in front of it, dealing 3D6 Fire damage to all creatures within a 5 m cone.
+
+Aria Dodge Check (65) `d100 = 27` Passed!
+
+Kyrielle Dodge Check (40) `d100 = 3` Passed!
+
+Aria Turn
+
+Brawn Check (80) `d100 = 80` Hit!
+
+9 Damage - 4 Armor = 5 Damage to Dragon(29)
+
+Kyrielle the Mender Turn
+
+Grants a target ally +5 Armor until their next turn
+
+Underworld Dragon Turn
+
+Talon Strike: The dragon slashes at a Aria with its massive talons, dealing 2D8+4 Slashing damage. 
+
+Aria Dodge Check (65) `d100 = 31` Passed!
+
+Aria Turn 
+
+Brawn Check (80) `d100 = 18` Passed!
+
+11 Damage - 2 Armor = 9 Damage to Dragon (20)
+
+Kyrielle the Mender Turn
+
+Target enemy must pass a Tenacity check. If they fail, they lose their next turn
+
+Underworld Dragon Tenacity Check (60) `d100 = 39` Passed!
+
+Underworld Dragon Turn
+
+Talon Strike: The dragon slashes at a Aria with its massive talons, dealing 2D8+4 Slashing damage. 
+
+Aria Dodge Check (65) `d100 = 39` Passed!
+
+Aria Turn 
+
+Brawn Check (80) `d100 = 21` Passed!
+
+14 Damage - 3 Armor = 11 Damage to Dragon (9)
+
+Kyrielle the Mender Turn
+
+Heals 2 Health. If at max Health, they perform a standard attack
+
+7 Damage - 4 Armor = 3 Damage to Dragon (6)
+
+Talon Strike: The dragon slashes at a Aria with its massive talons, dealing 2D8+4 Slashing damage.
+
+Aria Dodge Check (65) `d100 = 59` Hit!
+
+12 Damage - 5 Armor = 7 Damage to Dragon (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
++25 XP
+###### Glorious Gloves of the Dog
+Obvious
+  Rarity: Uncommon
+  Rank:   Novice
+  Object: Gloves
+Identified
+  Value:   200A
+  Name:    Glorious Gloves of the Dog
+  Aspects: Air Fire 
+  Quirk:   Turns completely black under direct sunlight
+  Magic:  Will +1
+  Magic:  Charisma +1
+
+### Into the Rift...
+
+***The walls, floors and ceilings of this place are all made of a substance that looks like clouds and is extremely soft. It’s completely impervious to damage and cannot be penetrated, though.***
+
+Moving West 
+
+Poisonous Gasses. Ancient tunnels contain pockets of trapped gasses that can be dangerous or even deadly. All PCs must pass a Vitality check or suffer -5 to all actions for the next 24 hours
+
+Vitality check (65) `d100 = 12` Passed!
+
+Spirit Guardian - Charisma check, failure results in rolling on the Undead encounter table, all Undead are +1 rank than you.
+
+Charm check (55) `d100 = 58` Failed
+
+##### Cinder Horror
+![[Cinder Horror]]
+
+```encounter
+creatures:
+  - Cinder Horror 1, 30, 4, 6
+  - Cinder Horror 2, 30, 4, 6
+  - Cinder Horror 3, 30, 4, 6
+
+```
+
+

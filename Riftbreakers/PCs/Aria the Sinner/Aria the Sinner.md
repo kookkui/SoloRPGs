@@ -22,8 +22,8 @@ Weapon3type:
 Weapon3dmg: 
 Weapon3notes: 
 rank: Apprentice
-axp: 
-xp: 25
+axp: 25
+xp: 100
 a-N: 65
 a-a: 
 a-V: 
@@ -96,7 +96,7 @@ title4: Bandage Ud8
 title5: Torch Ud8
 title6: Heart - Restoration
 title7: "Holy Aetheric Glaive "
-title8: ""
+title8: Glorious Gloves of the Dog
 title9: ""
 title10: ""
 title11: ""
@@ -124,9 +124,10 @@ HeartAbLink1: "![[Cleave]]"
 HearAb1: Novice
 HeartAbRank1: Novice
 Heartexp1: 
-HeartAbLink2: "![[Death Bolt]]"
+HeartAbLink2: "![[Two-Handed Weapon Master]]"
 HeartAbRank2: Novice
 HeartAbLink3: "![[Drain Lifeforce]]"
+HeartAbLink4: "![[Death Bolt]]"
 HeartAbRank4: Novice
 torch1: D8
 Bandage: D8
@@ -136,6 +137,7 @@ ac: "4"
 hp: 32
 level: 1
 modifier: 0
+RiftLord: D10
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] %%FAKE TITLE HERE%% 
@@ -179,7 +181,7 @@ modifier: 0
 >> ##### Crafting Aspects
 >>| **Air**   | **Bane** | **Boon** | **Chaos** | **Dark**  | **Death** |
 >>| :-: | :-: | :-: | :-: | :-: | :-: |
->>| `0`   | `0`  | `0`  | `0`   | `1`   |`0`  |
+>>| `2`   | `0`  | `0`  | `0`   | `1`   |`0`  |
 >>| **Earth** | **Fire** | **Life** | **Light** | **Power** | **Water** |
 >| `0`  | `0` | `0`  | `0`   | `0`  | `0`  |
 >> &nbsp;
@@ -197,9 +199,10 @@ modifier: 0
 >>|`=this.a-N`|`=this.a-a`|
 >>| **⟑-V** | **⟑-M**   |
 >>|`=this.a-V`|`=this.a-M`|
->>|**Rations**|`11` |
+>>|**Rations**|`9` |
 >>|**Torches / Lamp Oil**| `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):torch1]` |
 >>|**Bandages**|`INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(None)):Bandage]` |
+>>|**RiftLord Timer**|`INPUT[inlineSelect(option(D10), option(D8), option(D6), option(None)):RiftLord]` |
 
 >[!gather] %%FAKE TITLE HERE%%
 >>[!gather] %%FAKE TITLE HERE%%
@@ -223,10 +226,10 @@ modifier: 0
 >>| **Alchemy** (INT `=this.INT`) | `32` | **Leatherworking** (DEX `=this.DEX`) | `14`|
 >>| **Acrobatics** (DEX `=this.DEX`) |`34` |**Literacy** (INT `=this.INT`) | `52` |
 >>| **Animal Handling** (CHA `=this.CHA`) | `11` |**Insight** (WIL `=this.WIL`) | `15` |
->>| **Athletics** (STR `=this.STR`) | `38` | **Dodge** (DEX `=this.DEX`) | `74` |
+>>| **Athletics** (STR `=this.STR`) | `38` | **Dodge** (DEX `=this.DEX`) | `75` |
 >>| **Blacksmithing** (DEX `=this.DEX`) | `24` |**Perception** (WIL `=this.WIL`) | `45`|
 >>| **Command** (CHA `=this.CHA`) | `11` | **Performance** (CHA `=this.CHA`)|`11`|
->>| **Gathering** (DEX `=this.DEX`) | `34` |**Sailing** (DEX `=this.DEX`) | `14` |
+>>| **Gathering** (DEX `=this.DEX`) | `35` |**Sailing** (DEX `=this.DEX`) | `14` |
 >>| **Nature** (INT `=this.INT`) | `32` |  **Sleight of Hand** (DEX `=this.DEX`) | `14` |
 >>| **Manipulation** (CHA `=this.CHA`) | `11` | **Stealth** (DEX `=this.DEX`) | `14` |
 >>| **Medicine** (INT `=this.INT`) | `22` |**Survival** (INT `=this.INT`) | `52` |
@@ -247,7 +250,7 @@ modifier: 0
 >> |--- | :---: | :---------: |
 >>| `=this.quest1` | `INPUT[toggle:quest1t]` | `0/16`
 >> |`=this.quest2` |`INPUT[toggle:quest2t]` | `0/4`
->>| `=this.quest3` | `INPUT[toggle:quest3t]` | `8/10`
+>>| `=this.quest3` | `INPUT[toggle:quest3t]` | `10/10`
 >> |`=this.quest4` |`INPUT[toggle:quest4t]` | `0/14`
 >>| `=this.quest5` | `INPUT[toggle:quest5t]` | `0/10`
 >> |`=this.quest6` |`INPUT[toggle:quest6t]` | `0/7`

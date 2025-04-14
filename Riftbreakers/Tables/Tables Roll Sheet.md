@@ -10,6 +10,29 @@
 >
 >##### Random Difficulty
 >`dice:[[General Tables#^35d049]]`
+>
+> ##### Landmark - Interaction
+>`dice:[[Rift Tables#^7660c6]]`
+>
+> ##### Landmark - Rewards
+>`dice:[[Rift Tables#^6c97e1]]`
+>
+> ##### Landmark - Undead Encounter
+>`dice:[[Rift Tables#^1ff8b8]]`
+>
+> ##### Landmark - Rift Lord Reaction
+>`dice:[[Rift Tables#^0a8998]]`
+
+> [!thing] Rift Dominion Specific Tables
+>##### Underground Cave System: Area Feature
+>`dice:[[Rift Tables#^1ee84b]]`
+>
+>##### Underground Cave System: Monsters
+>`dice:[[Rift Tables#^a933af]]`
+>
+> ##### Underground Cave System: Overall Description
+>`dice:[[Rift Tables#^aec560]]`
+>
 
 > [!crafting] Overland Travel Tables
 >##### d10 Travel Die
@@ -24,7 +47,6 @@
 >##### Travel - Interesting Location
 > `dice:[[Overworld Tables#^8d63ce]]`
 > 
-
 
 > [!example] Regional Travel Tables
 >##### Travel - Kar Helos: Intersting Finds and Encounters

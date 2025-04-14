@@ -1,25 +1,26 @@
 ---
-Exterminator: 0
+Exterminator: 5
 money: 200
-moneyAdd: 200
+moneyAdd: 
 cheevo1: false
-ExterminatorAdd: 
+ExterminatorAdd: 1
 monster1: false
 monster2: false
 monster3: false
-monster4: false
+monster4: true
 monster5: false
-monster6: false
+monster6: true
 monster7: false
-cheevo7: true
+cheevo7: false
 explore1: false
-explore3: false
+explore3: true
 explore4: false
 heals: 0
 healsAdd: 
 riftbreaker: false
 cheevo15: false
 ---
+#### Adventurer
 >[!travel] %%FAKE TITLE HERE%%
 >>[!travel]  #### Adventurer `INPUT[toggle:cheevo1]`
 >>
@@ -29,7 +30,7 @@ cheevo15: false
 >>*Complete 50 Quests.* 
 >>*Reward: Title -"Adventurer" Increase all quest rewards by 50%.*
 
-
+#### Alchemist
 >[!table] %%FAKE TITLE HERE%%
 >>[!table] #### Alchemist `INPUT[toggle:cheevo2]`
 >>
@@ -40,6 +41,7 @@ cheevo15: false
 >>*Reward: 100 XP, 100A* 
 >>
 
+#### Master Alchemist
 >[!done] %%FAKE TITLE HERE%%
 >>[!done] #### Master Alchemist `INPUT[toggle:cheevo3]`
 >>
@@ -50,6 +52,7 @@ cheevo15: false
 >>*Reward: 300 XP, 300A* 
 >>
 
+#### Master Crafter
 >[!example] %%FAKE TITLE HERE%%
 >>[!example] #### Master Crafter `INPUT[toggle:cheevo4]`
 >>`0/100`
@@ -59,15 +62,17 @@ cheevo15: false
 >>*Reward: 100 XP, 100A And one magic item.*
 >>
 
+#### Pest Control
 >[!bug] %%FAKE TITLE HERE%%
 >>[!bug] #### Pest Control `INPUT[toggle:cheevo5]`
->>`00/100`
+>>`5/100`
 >>
 >>&nbsp;
 >>*Defeat 100 Monsters.* 
 >>*Reward: 100 XP, 100A And one magic item.*
 >>
 
+#### Exterminator
 >[!crafting] %%FAKE TITLE HERE%%
 >>[!crafting] #### Exterminator `INPUT[toggle:cheevo6]`
 >>```meta-bind
@@ -82,6 +87,7 @@ cheevo15: false
 >>*Reward: Title -"Exterminator", Deal +5 damage.* 
 >>
 
+#### Master Hunter
 >[!gear] %%FAKE TITLE HERE%%
 >>[!gear] #### Master Hunter `INPUT[toggle:cheevo7]`
 >>Defeat one monster of each type.
@@ -96,6 +102,7 @@ cheevo15: false
 >>&nbsp
 >>*Reward: 100 XP, 100A*
 
+#### Climbing the Ladder
 >[!table] %%FAKE TITLE HERE%%
 >>[!table] #### Climbing the Ladder `INPUT[toggle:cheevo8]`
 >>`INPUT[toggle:apprentice]` Reach Apprentice Rank.
@@ -104,6 +111,7 @@ cheevo15: false
 >>*Reward: Title - "Apprentice", Increase your Stamina and Aether pools by +2.*
 >>
 
+#### Merchant Prince
 >[!done] %%FAKE TITLE HERE%%
 >>[!done] #### Merchant Prince `INPUT[toggle:cheevo9]`
 >> ## `VIEW[{money}][text]`/10000 
@@ -116,6 +124,7 @@ cheevo15: false
 >>*Reward: Sell items for 60% of their value, instead of 50%.*
 >>
 
+#### Crafter
 >[!crafting] %%FAKE TITLE HERE%%
 >>[!crafting] #### Crafter `INPUT[toggle:cheevo10]`
 >>`0/50`
@@ -124,6 +133,7 @@ cheevo15: false
 >>*Craft 50 Items.* 
 >>*Reward: 100 XP, 100A*
 
+#### Miner
 >[!gather] %%FAKE TITLE HERE%%
 >>[!gather] #### Miner `INPUT[toggle:cheevo10]`
 >>`1/50`
@@ -131,6 +141,7 @@ cheevo15: false
 >>&nbsp
 >>*Mine 50 Ore Veins. Reward: Title -"Miner". Repeat a failed roll when attempting to find an ore vein.*
 
+#### Explorer
 >[!note] %%FAKE TITLE HERE%%
 >>[!note] #### Explorer `INPUT[toggle:cheevo11]`
 >>`INPUT[toggle:explore1]` Arenmist Forest
@@ -141,6 +152,7 @@ cheevo15: false
 >>&nbsp
 >>*Visit each region of Kaethor,  Reward: 100 XP*
 
+#### One in a Thousand
 >[!npc] %%FAKE TITLE HERE%%
 >>[!npc] #### One in a Thousand `INPUT[toggle:cheevo12]`
 >>`INPUT[toggle:vet]` Reach Veteran Rank.
@@ -149,6 +161,7 @@ cheevo15: false
 >>*Reward: Title - "Veteran",  Increase your Luck by +10.* 
 >>
 
+#### Healer
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] #### Healer `INPUT[toggle:cheevo13]`
 >> ## `VIEW[{heals}][text]`/10000 
@@ -162,6 +175,7 @@ cheevo15: false
 >>*Reward: Title -"Healer". Increase your healing effects by +1.* 
 >>
 
+#### Herbalist
 >[!check] %%FAKE TITLE HERE%%
 >>[!check] #### Herbalist `INPUT[toggle:cheevo14]`
 >>`1/50`
@@ -170,6 +184,7 @@ cheevo15: false
 >>*Obtain 50 ingredients via gathering.* 
 >>*Reward: Title -"Herbalist". Repeat a failed roll when attempting to find ingredients.*
 
+#### Riftbreaker
 >[!note] %%FAKE TITLE HERE%%
 >>[!note] #### Riftbreaker `INPUT[toggle:cheevo15]`
 >>`INPUT[toggle:riftbreaker]` Successfully close a Rift.
@@ -178,6 +193,7 @@ cheevo15: false
 >>*Reward: 100XP and one random magic item.*
 >>
 
+#### Hero
 >[!bug] %%FAKE TITLE HERE%%
 >>[!bug] #### Hero `INPUT[toggle:cheevo16]`
 >>`0/100`
@@ -187,6 +203,7 @@ cheevo15: false
 >>*Reward: Title -"Hero". Increase all quest rewards by 100%.*
 >>
 
+#### Riftbane
 >[!crafting] %%FAKE TITLE HERE%%
 >>[!crafting] #### Riftbane `INPUT[toggle:cheevo17]`
 >> `0/20` 
@@ -196,14 +213,16 @@ cheevo15: false
 >>*Reward: Title -"Riftbane". While in a Rift. +20 attack skills, +2 damage dealt.* 
 >>
 
+#### I Have the Power
 >[!table] %%FAKE TITLE HERE%%
 >>[!table] #### I Have the Power `INPUT[toggle:cheevo18]`
->>`3/20`
+>>`5/20`
 >>
 >>&nbsp
 >>*Unlock all 20 Abilities.*
 >>*Reward: Title - "Powerful". Re-roll any failed check once each 24 hours.*
 
+#### Skilled
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] #### Skilled `INPUT[toggle:cheevo19]`
 >>`INPUT[toggle:skilled]` Reach 100 with one skill. 
@@ -211,6 +230,7 @@ cheevo15: false
 >>&nbsp
 >>*Reward: 400 XP* 
 
+#### Legendary
 >[!npc] %%FAKE TITLE HERE%%
 >>[!npc] #### Legendary `INPUT[toggle:cheevo20]`
 >>`INPUT[toggle:legendary]` Obtain a Legendary Item.
@@ -218,6 +238,7 @@ cheevo15: false
 >>&nbsp
 >>*Reward: 300A*
 
+#### Top of the Mountain
 >[!gear] %%FAKE TITLE HERE%%
 >>[!gear] #### Top of the Mountain 
 >>`INPUT[toggle:mounter]` Reach Master Rank.
