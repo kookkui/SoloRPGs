@@ -22,7 +22,7 @@ Weapon3type:
 Weapon3dmg: 
 Weapon3notes: 
 rank: Apprentice
-axp: 25
+axp: 
 xp: 100
 a-N: 65
 a-a: 
@@ -150,8 +150,8 @@ RiftLord: D10
 >>  **Title** |`=this.Title` |
 >> **Reputation** | `0` |
 >>  **HP** | **Current:**`39` **Max:** `=this.CON*3`
->> **Aether** | `31` **Max:** `VIEW[{WIL} + {INT} + 8]` |
->> **Stamina** | `39` **Max:** `VIEW[{STR} + {CON}+ 8]` |
+>> **Aether** | `35` **Max:** `VIEW[{WIL} + {INT} + 8]` |
+>> **Stamina** | `31` **Max:** `VIEW[{STR} + {CON}+ 8]` |
 >> **Max Gear Slots** | `=this.STR+10` |
 >> **XP** | `VIEW[{xp}][text]`
 >>

@@ -482,4 +482,79 @@ creatures:
 
 ```
 
+Kyrielle the Mender Turn
+
+Heals 1 Health. If at max Health, they perform a standard attack
+
+7 Damage - 1 Armor = 6 Damage to Cinder Horror 1 (24)
+
+Cinder Horror 2 Turn
+
+The monster targets the most vulnerable/damaged character
+
+ Fireball: The cinder horror casts a fireball spell, dealing 2D6 Fire damage to a single target within 10 m.
+
+Kyrielle Dodge check (50) `d100 = 7` Passed!
+
+Aria Turn
+
+Brawn Check (70) `d100 = 11` Critical Hit!
+
+11 Damage x Crit(22) - 4 Armor = 18 Damage to Cinder Horror 2 (12)
+
+The monster targets the most vulnerable/damaged character
+
+Flame Strike: The abomination conjures a column of flames that erupts from the ground, dealing 3D8 Fire damage to all creatures in a 3 m radius. Targets caught in the flames must make a Coordination check or take an additional D6 Fire damage.
+
+Aria Dodge Check (55) `d100 = 13` Passed!
+
+Cinder Horror 3 Turn
+
+Bone Shield: The cinder horror summons a shield made of charred bones, granting itself resistance to all physical damage until the start of its next turn.
+
+Kyrielle the Mender Turn
+
+Heals 6 Health. If at max Health, they perform a standard attack
+
+6 Damage - 1 Armor = 5 Damage to Cinder Horror 2 (7)
+
+ Fireball: The cinder horror casts a fireball spell, dealing 2D6 Fire damage to a single target within 10 m.
+
+Aria Dodge Check (55) 85 Failed
+
+4 Damage - 4 Armor = 0 Damage to Aria
+
+Aria Turn
+
+Cleave 
+Brawn Check (70) `d100 = 21` Hit
+
+13 Damage - 1 Amor = 12 Damage to Cinder Horror 2 (Dead) & Cinder Horror 1 (12)
+
+Cinder Horror 3 Turn
+
+ Fireball: The cinder horror casts a fireball spell, dealing 2D6 Fire damage to a single target within 10 m.
+
+Aria Dodge Check (55) `d100 = 25` Passed!
+
+Cinder Horror 1 turn
+
+Flame Strike: The abomination conjures a column of flames that erupts from the ground, dealing 3D8 Fire damage to all creatures in a 3 m radius. Targets caught in the flames must make a Coordination check or take an additional D6 Fire damage.
+
+Aria Dodge Check (55) `d100 = 37` Passed!
+
+Kyrielle the Mender Turn
+
+Grants a target ally +5 Armor until their next turn
+
+Aria Turn
+
+Using Two-Handed Weapon Master -6 Stamina
+
+Cinder Horror 3 Turn
+
+ Fireball: The cinder horror casts a fireball spell, dealing 2D6 Fire damage to a single target within 10 m.
+
+Aria Dodge Check (55) `d100 = 49` Missed
+
 
