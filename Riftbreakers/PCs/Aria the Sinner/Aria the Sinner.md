@@ -22,8 +22,8 @@ Weapon3type:
 Weapon3dmg: 
 Weapon3notes: 
 rank: Apprentice
-axp: 
-xp: 100
+axp: 150
+xp: 250
 a-N: 65
 a-a: 
 a-V: 
@@ -97,7 +97,7 @@ title5: Torch Ud8
 title6: Heart - Restoration
 title7: "Holy Aetheric Glaive "
 title8: Glorious Gloves of the Dog
-title9: ""
+title9: "Potion of Stoneskin. For the next hour you have +1 Armor, but your Dodge and Acrobatics skills are reduced by -10. Aspects: Stone, Boon"
 title10: ""
 title11: ""
 title12: ""
@@ -151,7 +151,7 @@ RiftLord: D10
 >> **Reputation** | `0` |
 >>  **HP** | **Current:**`39` **Max:** `=this.CON*3`
 >> **Aether** | `35` **Max:** `VIEW[{WIL} + {INT} + 8]` |
->> **Stamina** | `31` **Max:** `VIEW[{STR} + {CON}+ 8]` |
+>> **Stamina** | `29` **Max:** `VIEW[{STR} + {CON}+ 8]` |
 >> **Max Gear Slots** | `=this.STR+10` |
 >> **XP** | `VIEW[{xp}][text]`
 >>
@@ -226,7 +226,7 @@ RiftLord: D10
 >>| **Alchemy** (INT `=this.INT`) | `32` | **Leatherworking** (DEX `=this.DEX`) | `14`|
 >>| **Acrobatics** (DEX `=this.DEX`) |`34` |**Literacy** (INT `=this.INT`) | `52` |
 >>| **Animal Handling** (CHA `=this.CHA`) | `11` |**Insight** (WIL `=this.WIL`) | `15` |
->>| **Athletics** (STR `=this.STR`) | `38` | **Dodge** (DEX `=this.DEX`) | `75` |
+>>| **Athletics** (STR `=this.STR`) | `38` | **Dodge** (DEX `=this.DEX`) | `76` |
 >>| **Blacksmithing** (DEX `=this.DEX`) | `24` |**Perception** (WIL `=this.WIL`) | `45`|
 >>| **Command** (CHA `=this.CHA`) | `11` | **Performance** (CHA `=this.CHA`)|`11`|
 >>| **Gathering** (DEX `=this.DEX`) | `35` |**Sailing** (DEX `=this.DEX`) | `14` |

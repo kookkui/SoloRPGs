@@ -557,4 +557,45 @@ Cinder Horror 3 Turn
 
 Aria Dodge Check (55) `d100 = 49` Missed
 
+Cinder Horror 1 Turn
 
+Fiery Aura: The cinder horror ignites its bones with flames, creating a fiery aura that deals D6 Fire damage to any creature that starts its turn within 3 m of the cinder horror. This effect accumulates each time the monster uses this ability.
+
+Kyrielle the Mender Turn
+
+Target ally is healed for 7 Health. If there’s no character in need of healing, they perform a standard attack
+
+8 Damage - 2 Armor = 6 Damage to Cinder Horror 1 (6)
+
+Aria Turn
+
+Aria Dodge Check (55) `d100 = 11` Critical Success +1 Dodge (76)
+
+Cleave -2 Stamina 
+
+Brawn Check (70) `d100 = 8` Hit!
+
+20 Damage - 1 Armor = 19 Damage to Cinder Horror 1 (Dead) and Cinder Horror 3 (11)
+
+Cinder Horror 3 Turn
+
+Flame Strike: The abomination conjures a column of flames that erupts from the ground, dealing 3D8 Fire damage to all creatures in a 3 m radius. Targets caught in the flames must make a Coordination check or take an additional D6 Fire damage.
+
+Aria Dodge Check (55) `d100 = 9` Passed
+
+Kyrielle the Mender Turn 
+
+Target ally is healed for 6 Health. If there’s no character in need of healing, they perform a standard attack
+
+4 Damage - 3 Armor = 1 Damage to Cinder Horror 3 (10)
+
+Aria Turn
+
+Brawn Check (70) `d100 = 61` Hit!
+
+17 Damage - 3 Armor = 14 Damage to Cinder Horror 3 (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
++150 XP
+
+Potion of Stoneskin. For the next hour you have +1 Armor, but your Dodge and Acrobatics skills are reduced by -10. Aspects: Stone, Boon
