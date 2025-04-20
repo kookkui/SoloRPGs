@@ -1190,7 +1190,9 @@ Door - A standard wooden door braced with hardened branches. Unlocked
 
 #### Room 4
 
-Encounter Check, Undead: Ghast (Common)
+Encounter Check Failed.
+###### Encounter
+Undead: Ghast (Common)
 
 ```encounter
 creatures:
@@ -1235,4 +1237,63 @@ Exploring room
 DEX Test (12) 3 Passed!
 
 Hema dives down just in time to only have her hair slightly singed.
+
+#### Room 5 
+
+###### Encounter Check 
+Tainted Encounter!
+<font color="#7030a0">Mark of the Taint</font>
+**Overpowered:** Add +10 HP, <font color="#ff0000">+D6 damage</font>, Immune to morale effects.
+
+```statblock
+creature: Ghast (DBS)
+```
+
+```encounter
+players:
+  - Hema
+creatures:
+  - Ghast (DBS) , 35, 5, 0
+```
+
+Combat Begin
+
+PC Turn
+
+Two-Handed Melee Check (59) `d100 = 20` Hit!
+
+7 Damage to Ghast (28)
+
+Ghast Turn
+
+Parry Check (52) `d100 = 86` Failed
+
+7 Damage - 2 Armor = 5 Damage to Hema 
+
+PC Turn
+
+Two-Handed Melee Check (59) `d100 = 55` Critical Hit!
+Skill up check (64) `d100 = 85` Passed 
++1 Two-Handed Melee (65)
+
+8 Damage x Crit = 16 Damage to Ghast (12)
+
+Ghast Turn
+
+Parry Check (52) `d100 = 44` Critical Parry!
+Skill up check (57) `d100 = 95` Passed!
++1 Parry (58)
+
+Defensive Move - Increase your chances at a critical strike on your next attack to 01-20
+
+PC Turn
+
+Two-Handed Melee Check (60) `d100 = 10` Critical Hit!
+
+14 Damage x Crit = 28 Damage to Ghast (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
++35 XP
+
+<font color="#de7802">A Iron Longsword (D8+1). (+600 jats)</font>
 

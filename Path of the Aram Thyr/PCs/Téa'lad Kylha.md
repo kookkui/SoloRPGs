@@ -6,7 +6,7 @@ WIS: 16
 DEX: 15
 CONST: 15
 CHA: 9
-xp: 100
+xp: 115
 spiritstage: 
 SpiritStage: Wood
 spiritdomain: Light
@@ -46,10 +46,14 @@ Spell1descript: A sudden burst of pure Light Ara blinds every character within r
 Spell1AFF: Light
 Spell2: Luminous Surge ↯
 Spell2cost: 8 Ara
-Spell2range: "Range: 10 feet cone"
-Spell2time: 
+Spell2range: "10 feet cone"
 Spell2descript: Pure Light Ara erupts from  the character’s hands, dealing D8 damage to all creatures in the area.
 Spell2AFF: All
+Spell3: Infuse Weapon
+Spell3cost: 5 Ara
+Spell3range: Touch
+Spell3descript: "The character infuses a weapon with their Ara, causing it to deal an extra D4 (Domain) Ara damage for the next minute."
+Spell3AFF: All
 Anlach1: Snare
 Anlach1essence: 1 Water, Earth or Dream
 Anlach1uses: "1"
@@ -58,7 +62,7 @@ Anlach1DC: "12"
 Anlach1descript: When a creature moves within 5 feet of the anlach, the snare triggers. The creature must succeed on a DEX saving throw or be pulled into the snare. The creature is restrained for 1 minute. A restrained creature can repeat the saving throw at the beginning of each of its turns, escaping the snare on a success. This anlach alerts its creator with a ping in their mind when the trap is triggered, if they are within 1 mile of the snare.
 title1: "Weshan Scroll (Forger: Speed Burst)"
 title2: Bandages x7
-title3: Explosive Beads Ud4 (6d6)(TN 14)
+title3: Void Case (10 Max)
 title4: Antidote x1
 title5: Thieves' Tools
 title6: Coins
@@ -89,6 +93,8 @@ lightitem6: ""
 lightitem11: ""
 Tasktimer: D8
 Other: "Enhancement Belt: +1 DEX"
+Spell3techtype: Shaper
+Spell3Spirit: Wood
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%
@@ -109,7 +115,7 @@ Other: "Enhancement Belt: +1 DEX"
 >> ###### Stats
 >>|     |     |
 >> |--- | :---: |
->> |**Initiative** | +`=floor((this.DEX - 10)/3)` |
+>> |**Initiative** | +`=floor((this.DEX - 10)/2.5)` |
 >> |**Healing Rate**| `=this.healingrate` |
 >> |**Passive Perception**| `=10+(floor((this.WIS - 10)/2.5))` |
 >> |**Tenacity**| `=(this.WIS)+10` |
@@ -244,7 +250,7 @@ Other: "Enhancement Belt: +1 DEX"
 >> ##### Spirit Essences
 >>| **Air**   | **Blades** | **Blood** | **Darkness** | **Dream**  | 
 >>| :-: | :-: | :-: | :-: | :-: | 
->>| `0`   | `1`  | `0`  | `0`   | `0`   | 
+>>| `0`   | `1`  | `0`  | `1`   | `0`   | 
 >>| **Earth** | **Fire** | **Light** | **Poison** | **Water** | 
 >| `0`   | `0`  | `0`  | `0`   | `0`   | 
 

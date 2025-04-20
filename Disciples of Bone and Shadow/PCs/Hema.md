@@ -11,7 +11,7 @@ CONST: 10
 WIL: 18
 INT: 18
 CHA: 10
-xp: 75
+xp: 110
 axp: 
 Weapon1: Bone Battleaxe
 Weapon1dmg: 3D6
@@ -136,7 +136,7 @@ combined3:
 produces3: 
 title15: A Iron Maul (D10+4). (800 jats)
 checkbox15: false
-title16: ""
+title16: A Iron Longsword (D8+1). (140+600 jats)
 title17: ""
 title18: ""
 equipped18: true
@@ -237,7 +237,7 @@ TaskHexes: Seven Away
 >  |  |
 >>---|---|
 >>**Journey Milestones**|`boxes: 0/6` |
->>**Combo points** | `boxes: 1/8`|
+>>**Combo points** | `boxes: 3/8`|
 
 
 >[!thing] %%FAKE TITLE HERE%%
@@ -258,7 +258,7 @@ TaskHexes: Seven Away
 >> ### Skills
 >>| **Skill Name** | **Skill Level** | **Skill Name** | **Skill Level** |
 >>| ------------- | :-: | ---------- | :-: |
->>| **Alchemy** | `32` | **Parry** (STR + DEX) (`=(this.STR)+(this.DEX)`) | `57` |
+>>| **Alchemy** | `32` | **Parry** (STR + DEX) (`=(this.STR)+(this.DEX)`) | `58` |
 >>| **Animal Handling** (CHA `=this.CHA`) | `22` | **Perception** (20) | `36` |
 >>| **Command Skills** (CHA `=this.CHA`) | `10` |**Persuasion** (CHA `=this.CHA`) | `21` |
 >>| **Crafting** (DEX `=this.DEX`) | `22` | **Pick Pockets** (DEX `=this.DEX`) | `12` |
@@ -268,7 +268,7 @@ TaskHexes: Seven Away
 >>| **Forbidden Lore** | `10` | **Throw** (STR + DEX) (`=(this.STR)+(this.DEX)`) | `24` |
 >>| **Herb Lore** | `47` |  **Tracking** (INT `=this.INT` ) | `35` |
 >>| **Literacy** (INT `=this.INT`) | `46` |  **Traditional Lore** (20) | `30` |
->>| **One-Handed Melee** (STR + DEX) (`=(this.STR)+(this.DEX)`) | `44` | **Two-Handed Melee** (STR `=this.STR` x 2) (`=(this.STR)*2`) | `64` |
+>>| **One-Handed Melee** (STR + DEX) (`=(this.STR)+(this.DEX)`) | `44` | **Two-Handed Melee** (STR `=this.STR` x 2) (`=(this.STR)*2`) | `65` |
 >>| **Orientation** (20) | `41` | **Unarmed** (STR `=this.STR` + DEX `=this.DEX`) (`=(this.STR)+(this.DEX)`)| `24` |
 >>|**Outdoor Survival** (INT `=this.INT` + DEX `=this.DEX`) (`=(this.INT)+(this.DEX)`)| `40` | | |
 

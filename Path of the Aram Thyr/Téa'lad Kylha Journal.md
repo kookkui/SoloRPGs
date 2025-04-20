@@ -983,5 +983,105 @@ Explore Hex
 NPC Encounter Lone Aram Thyr 
  GM Emulation - Actions Evade
 Seems the Aram Thyr isn't really wanting to socialize and is keeping to themselves I will just move on before they change their mind.
+#### Afternoon
+
+Random Daily event check 
+
+###### Combat encounter 
+
+```statblock
+creature: Giant Lizard (Path)
+```
+
+Encounter Check - Oida Beast Only
+HP +50%
+Ara Domain - Darkness
+Weshan Type - Shaper
+Ara - 20
+
+<font color="#ff00cc">Infuse Weapon</font>
+Domain Affinities: All
+Cost: 5 Ara / Execution time: 1 Action / Range: Touch
+The character infuses a weapon with their Ara, causing it to deal an extra D4 (Domain) Ara damage for the next minute.
+
+```encounter
+players:
+  - Téa'lad Kylha
+creatures:
+  - Giant Lizard (Path) , 22, 14, 0
+```
+
+Combat Start
+
+Kylha Turn
+
+Attack Check (14) `d20 = 20` Hit!
+
+7 Damage to Giant Lizard (26)
+
+Lizard turn
+
+Standard attack (15) `d20 = 10` Miss!
+
+Kylha Turn
+
+Casting Sudden Dawn ↯ (10) `d20 = 21` Success!
+
+Lizard is blinded by the light and revved up like a douche 
+
+Lizard turn
+
+Relevant Weshan (if any otherwise standard attack)
+
+Casting <font color="#ff00cc">Infuse Weapon</font> +D4 Darkness
+
+PC Turn
+
+Attack Check (14) `d20 = 21` Success!
+
+8 Damage to Giant Lizard (18)
+
+Lizard turn
+
+Relevant Weshan (if any, otherwise standard attack)
+
+Standard Attack (15) `d20 = 18` Hit!
+
+6 Damage to Kylha (12)
+
+PC Turn
+
+Attack Check (14) `d20 = 19` Hit
+
+11 Damage to Giant Lizard (11)
+
+Lizard Turn
+
+Use defensive/beneficial item or ability (healing item, weshan, etc.). If none, desperate attack
+
+Desperate Attack(15) `d20 = 14` Missed
+
+PC Turn
+
+Attack Check (14) `d20 = 16` Hit!
+
+9 Damage to the Giant LIzard (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
++15 XP
++1 Darkness Spirt Essence
+
+Assimilating Weshan -100 XP
+
+<font color="#ff00cc">Infuse Weapon</font>
+Domain Affinities: All
+Cost: 5 Ara / Execution time: 1 Action / Range: Touch
+The character infuses a weapon with their Ara, causing it to deal an extra D4 (Domain) Ara damage for the next minute.
+
+
+
+
+
+
 
 
