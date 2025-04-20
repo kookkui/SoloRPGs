@@ -11,7 +11,7 @@ CONST: 10
 WIL: 18
 INT: 18
 CHA: 10
-xp: 110
+xp: 152
 axp: 
 Weapon1: Bone Battleaxe
 Weapon1dmg: 3D6
@@ -137,7 +137,7 @@ produces3:
 title15: A Iron Maul (D10+4). (800 jats)
 checkbox15: false
 title16: A Iron Longsword (D8+1). (140+600 jats)
-title17: ""
+title17: Gold Pendant (250 jats)
 title18: ""
 equipped18: true
 title19: ""
@@ -168,7 +168,7 @@ Tasktimers: None
 ac: "3"
 hp: 30
 modifier: 0
-TaskHexes: Seven Away
+TaskHexes: Same Hex
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%
@@ -237,7 +237,7 @@ TaskHexes: Seven Away
 >  |  |
 >>---|---|
 >>**Journey Milestones**|`boxes: 0/6` |
->>**Combo points** | `boxes: 3/8`|
+>>**Combo points** | `boxes: 0/8`|
 
 
 >[!thing] %%FAKE TITLE HERE%%

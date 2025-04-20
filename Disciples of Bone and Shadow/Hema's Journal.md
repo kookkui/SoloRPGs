@@ -1297,3 +1297,131 @@ Two-Handed Melee Check (60) `d100 = 10` Critical Hit!
 
 <font color="#de7802">A Iron Longsword (D8+1). (+600 jats)</font>
 
+South Door - A wooden door, locked. The characters will have to bash it in or pick the lock
+
+Will try and break the door down Difficulty - Easy +1 (12) `d20 = 20` Success!
+
+#### Room 6
+###### Tainted Encounter!
+```statblock
+creature: Sabershadow (DBS)
+```
+
+***Mark of the Taint***
+**Serrated:** All damage inflicted by this creature has a 50% chance (roll with each attack) to cause the Bleeding condition.
+
+```encounter
+players:
+  - Hema
+creatures:
+  - Sabershadow (DBS) , 20, 5, 0
+
+```
+
+Combat Start!
+
+Sabershadow turn
+
+Dodge Check (44) `d100 = 19` Success!
+
+Defensive Move - If you so choose, you can disengage from combat without consequences. Otherwise, your next attack receives an extra +10
+
+PC Turn
+
+Two handed Melee (60) `d100 = 32` Hit!
+
+14 Damage to Sabershadow (6)
+
+Sabershadow turn
+
+Desperate attack (-20 attack skill, +3 damage) 
+
+Dodge (69) `d100 = 69` (Nice) Success!
+
+Defensive Move - You press your advantage, reducing your opponent’s DEF for the next roll by -5
+
+PC Turn
+
+Heavy Swing -2 Combo points
+
+Two handed Melee (65) `d100 = 56` Hit!
+
+12 Damage to Sabershadow (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
++35 XP
+
+**Crafting** Check to try and carve (22) `d100 = 86` Nothing was usable
+
+Door - An empty doorway. It may be trapped with a spell; roll **10**: 1-6 No trap, 7-10 trapped. A party member (whoever crossed first) suffers D10 damage unless they pass a Perception skill test to detect the trap. Pass an INT test to disable the trap without triggering it
+
+Difficulty - Child’s Play +30
+
+Perception skill test (66) `d100 = 15` Success!
+
+Hema sees the Sand Trap above the door...
+
+Difficulty - Child’s Play +3
+
+INT Test (18) `d20 = 1` Success!
+
++2 XP
+
+#### Room 7
+
+Encounter Check - None
+
+A pile of refuse covers the corner of the room. There might be something useful there? Make a Perception check, if successful you find something interesting: roll on the Valuable Loot Table.
+
+Difficulty - Child’s Play +30
+
+Perception check (66) `d100 = 10` Success!
+
+Door - A portcullis is in your way, but luckily there's a level on this side of the room. Perform a STR or Lockpicking test in order to activate it
+
+Difficulty - Child’s Play +3
+
+STR test (12) `d20 = 2` Success!
+
+Hema throws open the portcullis as if it was made of paper.
+
+#### Room 8 
+
+Encounter Check - None
+Basic Bitch Encounter!
+
+```statblock
+creature: Centipedes (DBS)
+```
+
+
+```encounter
+creatures:
+  - Centipedes (DBS) 1, 3, 5, 0
+  - Centipedes (DBS) 2, 3, 5, 0
+   
+```
+
+Combat Start!
+
+PC Turn
+
+Two-Handed Melee (63) `d100 = 61` Hit!
+
+12 Damage to Centipede 1 (Dead)
+
+Centipede 2 Turn
+
+**Dodge** Check (47) `d100 = 25` Success!
+
+Defensive Move - Your next attack receives an extra +10
+
+PC Turn
+
+Two-Handed Melee (73) `d100 = 17` Hit!
+
+12 Damage to Centipede 2 (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
++5 XP
+
