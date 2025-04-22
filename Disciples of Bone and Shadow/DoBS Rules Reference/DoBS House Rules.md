@@ -1,3 +1,6 @@
+#### Leveling Cost
+Training 
+- 500 jats per level
 #### Settlement Services Prices
 
 **Inn**

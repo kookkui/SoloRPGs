@@ -1,6 +1,6 @@
 ---
 Art: "![[Hema.webp|600]]"
-Level: 2
+Level: 4
 CurrentCorruption: 0
 Corruption: 10
 HP: 0
@@ -11,7 +11,7 @@ CONST: 10
 WIL: 18
 INT: 18
 CHA: 10
-xp: 442
+xp: 142
 axp: 
 Weapon1: Bone Battleaxe
 Weapon1dmg: 3D6
@@ -31,7 +31,7 @@ Armor2notes:
 Shield: 
 Shieldrate: 
 Shieldnotes: 
-currency: 115
+currency: 1510
 ajats: 
 merc: ".6"
 provisions: 10
@@ -105,14 +105,14 @@ title10: Portable Alchemy
 equipped10: true
 title11: Portable Alchemy
 equipped11: false
-title12: Ornate Helmet (800 jats)
-title13: A Piece of Mail Armor (800 jats)
+title12: ""
+title13: ""
 equipped12: false
 equipped13: false
 equipped5: true
 equipped9: true
 checkbox11: false
-title14: A Iron Maul (D10+4). (800 jats)
+title14: ""
 checkbox14: false
 plant69: Crypt Tears
 found69: Ruins
@@ -134,13 +134,13 @@ found3:
 effect3: 
 combined3: 
 produces3: 
-title15: A Iron Maul (D10+4). (800 jats)
+title15: ""
 checkbox15: false
-title16: A Iron Longsword (D8+1). (140+600 jats)
-title17: Gold Pendant (250 jats)
-title18: Giant Snake skin (400 jats)
+title16: ""
+title17: ""
+title18: ""
 equipped18: true
-title19: Iron Helmet (1,000 jats)
+title19: ""
 equipped19: true
 title20: ""
 title21: ""
@@ -181,7 +181,7 @@ TaskHexes: Same Hex
 >>|**HP** | **Current:** `23` **Max:** `=this.CONST*3`|
 >> |**Corruption** | **Current:** `=this.CurrentCorruption` **Max:** `=this.Corruption`   |
 >> |**Taint Threshold** | `=this.CurrentCorruption*10` |
->> |**EP**| `0` |
+>> |**EP**| `4` |
 >> |**XP** | `VIEW[{xp}][text]`|
 >> |**XP Needed** | `=150-(this.xp)`|
 >>|**ADD XP**| `INPUT[number:axp]` `BUTTON[exp]`|

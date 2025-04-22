@@ -1689,3 +1689,29 @@ Seems it is run by an Elder
 
 Problems Disappearing townsfolk
 
+<font color="#ff00cc">Selling</font>
+- Iron Helmet (1,000 jats)
+- Giant Snake skin (400 jats)
+- Gold Pendant (250 jats)
+- A Iron Longsword (D8+1). (740 jats)
+- A Iron Maul (D10+4). (800 jats)
+- A Piece of Mail Armor (800 jats)
+- Ornate Helmet (800 jats)
+
+4,790 jats /50% = 2,395 jats
+
+<font color="#00b0f0">Leveling</font>
+Level 3
+-150 XP -500 jats
++2 EP
+
+Level 4
+-150 XP -500 jats
++2 EP
+
+1,395 jats Remaining
+
+<font color="#00b050">Skills</font> 
+- Lock-Picking (1 EP)
+- Cleave (2 EP)
+
