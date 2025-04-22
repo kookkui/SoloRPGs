@@ -26,6 +26,9 @@
 >
 >##### Travel Complications
 >`dice:[[DBS Tables#^442cac]]`
+>
+>##### Weather
+>`dice:[[DBS Exploration Tables#^c52333]]`
 
 > [!crafting] Regional Tables
 >#####  Everscar Highlands Hex Exploration

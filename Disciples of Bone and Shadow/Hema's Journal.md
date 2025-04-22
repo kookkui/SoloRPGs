@@ -1501,7 +1501,7 @@ Exploring
 creature: Skeba
 ```
 
-######  **Vampiric:** The creature recovers D4 HP each time it deals damage.
+**Vampiric:** The creature recovers D4 HP each time it deals damage.
 
 ```encounter
 creatures:
@@ -1563,7 +1563,7 @@ Going to head back to town to recover and resupply.
 creature: Shadow Hound (DBS)
 ```
 
-###### **Heart-Stopping Aura:** This creature applies the Chilled condition to all characters in its proximity.
+**Heart-Stopping Aura:** This creature applies the Chilled condition to all characters in its proximity.
 
 ```encounter
 creatures:
@@ -1675,4 +1675,17 @@ Resting
 -1 Ration (20)
 
 ## 998 - 08 - 01
+
+**D25 Hills**
+
+Encounter Check - None
+
+Settlement. You stumble upon a small hidden community. Use the Settlement rules found on page 83
+##### Settlement of Cold Crest
+
+First Impressions Guards patrol the street, wary of strangers
+
+Seems it is run by an Elder 
+
+Problems Disappearing townsfolk
 

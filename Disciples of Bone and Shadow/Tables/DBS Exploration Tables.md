@@ -395,3 +395,20 @@
 |10|Grotto|
 
 ^fd6892
+
+### Weather
+
+|`dice:d10`|Weather|
+|---|---|
+|1|Clear skies|
+|2|Clear and windy|
+|3|Cloudy|
+|4|A light drizzle|
+|5|Steady rain|
+|6|Heavy rain|
+|7|Hail|
+|8|Snow|
+|9|Heavy snowfall|
+|10|Complete whiteout|
+
+^c52333
