@@ -11,7 +11,7 @@ CONST: 10
 WIL: 18
 INT: 18
 CHA: 10
-xp: 342
+xp: 442
 axp: 
 Weapon1: Bone Battleaxe
 Weapon1dmg: 3D6
@@ -140,7 +140,7 @@ title16: A Iron Longsword (D8+1). (140+600 jats)
 title17: Gold Pendant (250 jats)
 title18: Giant Snake skin (400 jats)
 equipped18: true
-title19: ""
+title19: Iron Helmet (1,000 jats)
 equipped19: true
 title20: ""
 title21: ""
@@ -161,7 +161,7 @@ lightitem9: Large Gemstone x2 (200 jats)
 lightitem10: Nivyl x3
 lightitem11: Scroll of Cleanse Poison (500 jats)
 lightitem12: Potion of Antidote x1
-awjats: 3
+awjats: 
 lightitem13: Coins
 lightitem14: Potion of Enhanced Sense +20 Tracking
 Tasktimers: None
@@ -178,7 +178,7 @@ TaskHexes: Same Hex
 >>|     |     |
 >> |--- | --- |
 >>|   **Level**   |  `=this.level`   |
->>|**HP** | **Current:** `25` **Max:** `=this.CONST*3`|
+>>|**HP** | **Current:** `23` **Max:** `=this.CONST*3`|
 >> |**Corruption** | **Current:** `=this.CurrentCorruption` **Max:** `=this.Corruption`   |
 >> |**Taint Threshold** | `=this.CurrentCorruption*10` |
 >> |**EP**| `0` |
@@ -216,7 +216,7 @@ TaskHexes: Same Hex
 >>---|---|
 >>**Jats**|`=this.currency` |
 >>**Sellsword Cut**| `VIEW[{ajats} * {merc}]`
->>**Provisions**|`21` |
+>>**Provisions**|`20` |
 >>**Torches**|`0` |
 >>**Lamp Oil**|`17` |
 >>**Sellsword jats**|  `INPUT[number:ajats]` `BUTTON[pjats]`|
@@ -237,7 +237,7 @@ TaskHexes: Same Hex
 >  |  |
 >>---|---|
 >>**Journey Milestones**|`boxes: 0/6` |
->>**Combo points** | `boxes: 2/8`|
+>>**Combo points** | `boxes: 0/8`|
 
 
 >[!thing] %%FAKE TITLE HERE%%

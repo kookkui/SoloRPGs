@@ -24,17 +24,21 @@
 >##### Encounter Check
 >`dice:[[DBS Tables#^894799]]`
 >
+>##### Travel Complications
+>`dice:[[DBS Tables#^442cac]]`
+
+> [!crafting] Regional Tables
 >#####  Everscar Highlands Hex Exploration
 >`dice:[[DBS Exploration Tables#^af3bd8]]`
+>
+>#####  Everscar Highlands Encounters
+>`dice:[[DBS Exploration Tables#^09c6f9]]`
 >
 >#####  Akkar Strand Hex Exploration
 >`dice:[[DBS Exploration Tables#^a00248]]`
 >
 >#####  Madari Hex Exploration
 >`dice:[[DBS Exploration Tables#^f7274d]]`
->
->##### Travel Complications
->`dice:[[DBS Tables#^442cac]]`
 
 >[!tldr] Interior Exploration
 >##### Encounter Check

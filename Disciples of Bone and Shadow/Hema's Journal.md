@@ -1635,3 +1635,44 @@ Two-Handed Melee (61) `d100 = 12` Hit
 <span style="color:rgb(241, 91, 181)">Victory!</span>
 +45 XP
 
+## Returning to Village
+
+Encounter Check
+##### Basic Bitch Encounter!
+
+```statblock
+creature: Spawn of Vhol'est
+```
+
+
+```encounter
+creatures:
+  - Spawn of Vhol'est , 24, 10, 0
+
+```
+
+Combat Start
+
+PC Turn
+
+Two-Handed Melee Check (56) `d100 = 22` Critical Hit!
+
+12 Damage + Crit = 24 Damage to Spawn of Vhol'est (Dead...)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
++100 XP
+
+<font color="#FB5607">Iron Helmet (1,000 jats)</font>
+
+**Abandoned Campsite**. Someone has set camp here recently enough for you to take advantage of the place. You may set camp here without requiring an Outdoor Survival skill test
+
+Setting up camp for the night
+
+First Aid Check (45) `d100 = 14` Success! +2 (23)
+
+Resting
+
+-1 Ration (20)
+
+## 998 - 08 - 01
+
