@@ -1,7 +1,11 @@
 
 
 ```palette
-https://coolors.co/palette/ffbe0b-fb5607-ff006e-8338ec-3a86ff
+rgb(255, 190, 11)
+rgb(251, 86, 7)
+rgb(255, 0, 110)
+rgb(131, 56, 236)
+rgb(58, 134, 255)
 ```
 
 ```palette
@@ -23,7 +27,16 @@ rgb(255, 255, 125);
 
 
 ```palette
-[Palette - Coolors](https://coolors.co/palette/f94144-f3722c-f8961e-f9844a-f9c74f-90be6d-43aa8b-4d908e-577590-277da1)
+rgb(249, 65, 68)
+rgb(243, 114, 44)
+rgb(248, 150, 30)
+rgb(249, 132, 74)
+rgb(249, 199, 79)
+rgb(144, 190, 109)
+rgb(67, 170, 139)
+rgb(77, 144, 142)
+rgb(87, 117, 144)
+rgb(0, 0, 0)
 ```
 
 

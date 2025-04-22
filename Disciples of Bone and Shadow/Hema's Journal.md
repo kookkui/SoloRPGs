@@ -1388,7 +1388,8 @@ Hema throws open the portcullis as if it was made of paper.
 #### Room 8 
 
 Encounter Check - None
-Basic Bitch Encounter!
+
+###### Exploration Check Basic Bitch Encounter!
 
 ```statblock
 creature: Centipedes (DBS)
@@ -1424,4 +1425,213 @@ Two-Handed Melee (73) `d100 = 17` Hit!
 
 <span style="color:rgb(241, 91, 181)">Victory!</span>
 +5 XP
+
+Door - An empty archway with no door
+
+#### Room 9
+
+###### Encounter Check: Basic Bitch Encounter!
+
+```statblock
+creature: Giant Snake (DBS)
+```
+
+
+```encounter
+creatures:
+  - Giant Snake (DBS) , 25, 10, 0
+```
+
+Combat Start!
+
+PC Turn
+
+Two-Handed Melee Check (55) `d100 = 50` Hit!
+
+16 Damage to Giant Snake (9)
+
+Giant Snake Turn
+
+Dodge Check (39) `d100 = 36` Narrowly dodging the Snek at the last second.
+
+Defensive Move - Your opponent immediately suffers 2 damage that ignores armor
+
+Giant Snake (7)
+
+PC Turn
+
+Heavy Swing - 2 Combo points
+
+Two-Handed Melee Check (55) `d100 = 54` Hit, with a mighty swing Hema barely catches the back of the snakes body as it dances around dodging the swings.
+
+12 Damage to the Snake (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
++100 XP (Elite)
+
+Crafting check to carve the skin (22) `d100 = 2` Critical Success!
+
+Skill up check (22) `d100 = 32` Success!
++1 Crafting (23)
+
+<font color="#de7802">+1 Giant Snake skin (400 jats)</font>
+
+Exploring room 9
+
+**Collapsing Ceiling.** The ceiling above the party collapses on top of them. Characters must each successfully pass a DEX Test or lose 10 HP.
+
+Difficulty - Normal 0
+DEX Test (12) `d20 = 9` Success
+
+Door - A wooden door, locked. The characters will have to bash it in or pick the lock 
+
+Difficulty - Easy +1
+
+STR Test on the Door (12) `d20 = 13` Success! The door crumbles like stale bread.
+
+#### Room 10
+
+Encounter Check - None
+
+Exploring 
+
+##### Tainted Encounter!
+
+```statblock
+creature: Skeba
+```
+
+######  **Vampiric:** The creature recovers D4 HP each time it deals damage.
+
+```encounter
+creatures:
+  - Skeba 1, 15, 5, 0
+  - Skeba 2, 15, 5, 0
+
+```
+
+Combat Begin
+
+Skeba 1 Turn
+
+Dodge (44) `d100 = 23` Dodged
+
+Skeba 2 Turn
+
+Dodge (44) `d100 = 48` Failed
+
+Skeba scratches at Hema for 4 Damage (21)
+
+PC Turn
+
+Two-Handed Melee Check (60) `d100 = 43` Hit!
+
+Hema swings her axe at the bird for 9 Damage to Skeba 1 (6)
+
+Skeba 1 Turn
+
+Flee, the Skeba turns to fly away..
+
+Skeba 2 Turn
+
+Dodge (44)  `d100 = 30` Success 
+
+Defensive Move - Reduce your opponent’s Armor by -1, if opponent has no Armor +10 to next attack.
+
+PC Turn
+
+Heavy Swing -2 Combo points
+
+Two-Handed Melee Check (60) `d100 = 38` Hit! 
+
+10 Damage to Skeba 1 as it flees  (Dead)
+
+Two-Handed Melee Check (60)  `d100 = 30` Hit! 
+
+18 Damage to Skeba 2 (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
++55 XP
+
+Going to head back to town to recover and resupply. 
+
+#### Room 8 Again
+
+##### Encounter Check Tainted Encounter!
+
+```statblock
+creature: Shadow Hound (DBS)
+```
+
+###### **Heart-Stopping Aura:** This creature applies the Chilled condition to all characters in its proximity.
+
+```encounter
+creatures:
+  - Shadow Hound (DBS) 1, 20, 5, 0
+  - Shadow Hound (DBS) 2, 20, 5, 0
+  
+```
+
+Combat Start
+
+Shadow Hound 1 Turn
+
+Dodge Check (44) `d100 = 37` Passed
+
+Defensive Move - If you were Prone, Paralyzed, Stunned, or some other similar condition, you automatically recover. Otherwise, your next attack receives an extra +10
+
+Shadow Hound (DBS) 2 Turn
+
+Dodge Check (44) `d100 = 15` Dodged!
+
+PC Turn
+
+Difficulty - Normal 0
+The shadow hounds are emanating an extreme cold, CON Check to not be **Chilled**(10) `d20 = 1` Success!
+
+Heavy Swing -2 Combo Points
+
+Two-Handed Melee Check (60) `d100 = 36` Hit!
+
+11 Damage to Shadow Hound 1 (9)
+
+Second Attack from the heavy swing (60) `d100 = 32` Hit
+
+16 Damage to Shadow Hound 2 (4)
+
+Hound 1 Turn
+
+Defend/take cover 
+
+Hound attempts to hide
+
+Hound 2 Turn
+
+Fall back
+
+Hound 2 is slowly moving away from the fight
+
+PC Turn
+
+Two-Handed Melee Check (60) `d100 = 11` Critical Hit!
+
+Skill up Check (65) `d100 = 94` Passed
++1 Two-Handed Melee (66)
+
+8 Damage x Crit = 16 Damage to Shadow Hound 1 (Dead)
+
+Hound 2 Turn
+
+Flee 
+
+Hound 2 is trying to flee the battle.
+
+PC Turn
+
+Two-Handed Melee (61) `d100 = 12` Hit
+
+10 Damage to Hound 2 (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
++45 XP
 
