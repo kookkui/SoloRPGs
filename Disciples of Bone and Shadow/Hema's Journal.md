@@ -5,8 +5,6 @@ Day 1
  - Council runs the Village
  - Seems there have been a string of ritual murders within the village. A reward is offered to find the culprit.
 
-
-
 ## On the road
 
 #### Hex H21
@@ -1697,6 +1695,7 @@ Problems Disappearing townsfolk
 - A Iron Maul (D10+4). (800 jats)
 - A Piece of Mail Armor (800 jats)
 - Ornate Helmet (800 jats)
+- Large Gemstone x2 (400 jats)
 
 4,790 jats /50% = 2,395 jats
 
@@ -1714,4 +1713,101 @@ Level 4
 <font color="#00b050">Skills</font> 
 - Lock-Picking (1 EP)
 - Cleave (2 EP)
+
+Resting at the Inn 
+- Fancy Room - 30 jats
+
+First Aid Check (45) `d100 = 33` Critical Success
+Skill up Check (45) `d100 = 95` Success
++1 First Aid (46)
+
++3 HP x Crit = +6 HP (29)
+
+Resting 
++1 HP(30)
+
+
+## 998 - 09 - 01
+
+Heading back to the Alchemist Ruins
+
+**Hex C26**
+
+Encounter Check - None
+
+**Hex C27** 
+
+Encounter Check Basic Bitch Encounter!
+
+```statblock
+creature: Spawn of Vhol'est
+```
+
+```encounter
+creatures:
+  - Spawn of Vhol'est , 29, 10, 0
+```
+
+Combat Start!
+
+Spawn of Vhol'est Turn
+
+Dodge Check (39) `d100 = 12` Dodged
+
+Defensive Move - You can cast a spell or use an item in your possession for free. Otherwise, your next attack receives an extra +20
+
+Spawn of Vhol'est Swings at Hema again!!
+
+Dodge Check (39) `d100 = 39` Dodged barely at the last second!
+
+PC Turn
+
+Heavy Cleave -2 Combo Points
+
+Two-Handed Melee Check (76) `d100 = 15` Hit!
+
+10 Damage to Spawn of Vhol'est (19)
+
+Second Cleave (76) `d100 = 24` Hit
+
+10 Damage to Spawn of Vhol'est (9)
+
+Spawn of Vhol'est Turn
+
+Fall back
+
+The Spawn starts slowly backing away from Hema...
+
+PC Turn
+
+Two-Handed Melee Check (56) `d100 = 44` Critical Hit!
+Skill up Check (66) `d100 = 87` Passed. +1 Two-Handed Melee (67)
+
+7 Damage x Critical = 14 Damage to Spawn of Vhol'est (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
++100 XP
+
+<font color="#6425d0">Taintnut</font>
+Powers/Effects:
+If a character swallows this seed, their Max Corruption will be increased by 1.
+
+<font color="#de7802">Sells for 2,000 jats</font>
+
+*A small wooden seed encircled with runic bands. The nut looks to be bulging around them as if a force were pushing from the inside, contained only by the symbols.*
+
+Swallowing the NUT +1 Max Corruption (11)
+
+## Back into the Alchemist Temple
+
+### Room 4
+
+Encounter check Encounter!
+
+```statblock
+creature: Crog
+```
+
+
+Sneaking Check (35) `d100 = 58` Failed
 

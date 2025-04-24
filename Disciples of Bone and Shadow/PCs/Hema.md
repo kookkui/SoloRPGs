@@ -2,7 +2,7 @@
 Art: "![[Hema.webp|600]]"
 Level: 4
 CurrentCorruption: 0
-Corruption: 10
+Corruption: 11
 HP: 0
 GeSl: 0
 STR: 12
@@ -11,7 +11,7 @@ CONST: 10
 WIL: 18
 INT: 18
 CHA: 10
-xp: 142
+xp: 242
 axp: 
 Weapon1: Bone Battleaxe
 Weapon1dmg: 3D6
@@ -31,7 +31,7 @@ Armor2notes:
 Shield: 
 Shieldrate: 
 Shieldnotes: 
-currency: 1510
+currency: 1680
 ajats: 
 merc: ".6"
 provisions: 10
@@ -50,12 +50,11 @@ flaws:
 Head: 
 Title69: 1x Healing Tincture
 Title1: Rations
-Pskills69: 
 Pskills1: 
 Title2: Torch x 10
 Title3: Bandage x 5
 Pskills2: "Inner Compass (1 EP): You may re-roll once any failed Orientation tests."
-passive0: 
+passive0: "**Cleave**: When attacking, deal half the damage of your melee weapon to all enemies in front of you."
 passive1: 
 passive2: 
 archetype0: "**Vitalist.** You’ve seen the world struggling to survive, and you’ve chosen compassion. You do your best to ameliorate the pain in others through whatever means, even if the price is your own sanity."
@@ -157,7 +156,7 @@ checkbox22: true
 lightitem6: Rations
 lightitem7: Lockpicks x10
 lightitem8: Sanguine Dew x5
-lightitem9: Large Gemstone x2 (200 jats)
+lightitem9: ""
 lightitem10: Nivyl x3
 lightitem11: Scroll of Cleanse Poison (500 jats)
 lightitem12: Potion of Antidote x1
@@ -178,10 +177,10 @@ TaskHexes: Same Hex
 >>|     |     |
 >> |--- | --- |
 >>|   **Level**   |  `=this.level`   |
->>|**HP** | **Current:** `23` **Max:** `=this.CONST*3`|
+>>|**HP** | **Current:** `30` **Max:** `=this.CONST*3`|
 >> |**Corruption** | **Current:** `=this.CurrentCorruption` **Max:** `=this.Corruption`   |
 >> |**Taint Threshold** | `=this.CurrentCorruption*10` |
->> |**EP**| `4` |
+>> |**EP**| `1` |
 >> |**XP** | `VIEW[{xp}][text]`|
 >> |**XP Needed** | `=150-(this.xp)`|
 >>|**ADD XP**| `INPUT[number:axp]` `BUTTON[exp]`|
@@ -264,13 +263,13 @@ TaskHexes: Same Hex
 >>| **Crafting** (DEX `=this.DEX`) | `23` | **Pick Pockets** (DEX `=this.DEX`) | `12` |
 >>| **Disguise** (DEX `=this.DEX`) | `12` | **Ranged Weapons** (DEX `=this.DEX` x 2) (`=(this.DEX)*2`) | `25` |
 >>| **Dodge** (DEX `=this.DEX` x 2 ) (`=(this.DEX)*2`) | `49` | **Sailing** (DEX `=this.DEX`) | `12` |
->>|**First Aid** (20) | `45` |  **Sneaking** (DEX `=this.DEX` x 2 ) (`=(this.DEX)*2`) | `45` |
+>>|**First Aid** (20) | `46` |  **Sneaking** (DEX `=this.DEX` x 2 ) (`=(this.DEX)*2`) | `45` |
 >>| **Forbidden Lore** | `10` | **Throw** (STR + DEX) (`=(this.STR)+(this.DEX)`) | `24` |
 >>| **Herb Lore** | `47` |  **Tracking** (INT `=this.INT` ) | `35` |
 >>| **Literacy** (INT `=this.INT`) | `46` |  **Traditional Lore** (20) | `30` |
->>| **One-Handed Melee** (STR + DEX) (`=(this.STR)+(this.DEX)`) | `44` | **Two-Handed Melee** (STR `=this.STR` x 2) (`=(this.STR)*2`) | `66` |
+>>| **One-Handed Melee** (STR + DEX) (`=(this.STR)+(this.DEX)`) | `44` | **Two-Handed Melee** (STR `=this.STR` x 2) (`=(this.STR)*2`) | `67` |
 >>| **Orientation** (20) | `41` | **Unarmed** (STR `=this.STR` + DEX `=this.DEX`) (`=(this.STR)+(this.DEX)`)| `24` |
->>|**Outdoor Survival** (INT `=this.INT` + DEX `=this.DEX`) (`=(this.INT)+(this.DEX)`)| `40` | | |
+>>|**Outdoor Survival** (INT `=this.INT` + DEX `=this.DEX`) (`=(this.INT)+(this.DEX)`)| `40` | **Lockpicking** (DEX `=this.DEX` x 2 ) (`=(this.DEX)*2`) | `24`
 
 
 >[!thing] %%FAKE TITLE HERE%%

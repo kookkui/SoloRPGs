@@ -8,11 +8,8 @@
 >#####  NPC Combat Maneuver
 >`dice:[[DBS Tables#^6e0cdd]]`
 >
->##### Random Skill
->`dice:[[DBS Tables#^c0428d]]`
->
->##### Random Spell
->`dice:[[DBS Loot Tables#^9eb60f]]]`
+>##### Taint Types
+>`dice:[[DBS GM Emulation#^4216c3]]`
 >
 >##### Alchemy Brew Effect
 >`dice:[[DBS Loot Tables#^36f035]]]`
@@ -149,6 +146,12 @@
 >
 >##### Random Two-Handed Weapon
 >`dice:[[DBS Loot Tables#^1bf632]]`
+>
+>##### Random Skill
+>`dice:[[DBS Tables#^c0428d]]`
+>
+>##### Random Spell
+>`dice:[[DBS Loot Tables#^9eb60f]]]`
 
 >[!crafting] Mission Generation
 >

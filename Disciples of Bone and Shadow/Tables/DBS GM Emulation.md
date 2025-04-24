@@ -594,3 +594,97 @@
 |20|Someone is hiring people for an expedition into the Sea of Glass|
 
 ^a9ee61
+
+### Taint Type
+
+| `dice:d10` | Taint Type                          |
+| ---------- | ----------------------------------- |
+| 1-6        | `dice:[[DBS GM Emulation#^7a993f]]` |
+| 7-10       | `dice:[[DBS GM Emulation#^3bd1a8]]` |
+
+^4216c3
+
+### Cosmetic Taints
+
+|`dice:d100`|Cosmetic Taints|
+|---|---|
+|1-2|A foot turns into a hoof|
+|3-4|A new finger sprouts from one of your hands|
+|5-6|A new toe appears on one of your feet|
+|7-8|Your tongue splits and becomes forked|
+|9-10|Your face becomes covered in fur|
+|11-12|Small horns sprout from your head|
+|13-14|All your nails fall off and never grow back|
+|15-16|Your eyes turn completely red|
+|17-18|Your veins turn black, visibly crisscrossing all over your skin|
+|19-20|Your blood becomes yellow|
+|21-22|Two large fangs protrude from your mouth|
+|23-24|All your hair falls off|
+|25-26|Patches of scales grow across your body|
+|27-28|You smell like rotten flesh|
+|29-30|All your teeth fall off|
+|31-32|A third eye appears on your forehead|
+|33-34|Your skin turns blue|
+|35-36|Your voice becomes squeaky and annoying|
+|37-38|Your hair becomes animated, waving constantly|
+|39-40|Large pustules appear on your skin when touched by snow|
+|41-42|Your sweat becomes thick and mucous-like|
+|43-44|You cry blood instead of normal tears|
+|45-46|You grow a small tail|
+|47-48|Your nails grow at an incredible rate of 1 inch/hour|
+|49-50|Your legs become extremely thin|
+|51-52|One of your arms grows 10 inches|
+|53-54|A small, useless wing sprouts from your shoulder|
+|55-56|Fungi sprout from your groin constantly|
+|57-58|Miniscule tentacles cover your back|
+|59-60|Snails come out of your mouth when you cough|
+|61-62|Your ankle bone grows, protruding out of the skin|
+|63-64|A perfect hole appears on the palm of your hand|
+|65-66|Your nostrils fuse into one|
+|67-68|Your ears grow and become pointy|
+|69-70|Smoke comes out of your mouth with each breath you take|
+|71-72|One of your fingers becomes wooden|
+|73-74|One of your eyes spins uncontrollably when you’re nervous|
+|75-76|You grow whiskers|
+|77-78|A tentacle sprouts from your chin|
+|79-80|Your skin becomes unbearably hot to the touch|
+|81-82|One of your eyes doubles in size|
+|83-84|Your nose falls off|
+|85-86|Your skin becomes covered in yellow dots|
+|87-88|You grow 10 inches|
+|89-90|Sand constantly appears to trickle from your feet|
+|91-92|A black goo drips from your ear|
+|93-94|You shrink 10 inches|
+|95-96|Your blood kills any plant it touches|
+|97-98|Your pupils become golden|
+|99-100|All your hair turns a bright green|
+
+^7a993f
+
+### Power Taints
+
+| `dice:d20` | Power Taints                                                                                                                      |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| 1          | Your skull becomes thick, making you immune to Stunned                                                                            |
+| 2          | You may change the color of your skin, blending better with the environment. +20 Sneaking                                         |
+| 3          | Your blood becomes acidic, dealing 1 damage to your opponent each time you’re wounded                                             |
+| 4          | You grow an extra heart, allowing you to have more stamina and resilience. +1 CON                                                 |
+| 5          | Your skin hardens, becoming insect-like and granting you Armor (1)                                                                |
+| 6          | Your nails grow and harden, becoming claw-like. You may use them in combat, dealing +2 damage when using the Unarmed Combat skill |
+| 7          | Your muscles grow stronger and larger. +1 STR                                                                                     |
+| 8          | Your stomach’s acidity increases, allowing you to digest almost anything and making you immune to ingested poisons                |
+| 9          | You become nimble and flexible. +1 DEX                                                                                            |
+| 10         | Your wounds close incredibly fast. You heal 1 HP/turn                                                                             |
+| 11         | Your reflexes become feline-like. You may re-roll any failed Dodge roll                                                           |
+| 12         | A swarm of flies surrounds you, making it difficult for opponents to hit you. +10 to all your defensive skills                    |
+| 13         | Your eyes become totally white, making you look blind. You are immune to Blinded and can see in the dark                          |
+| 14         | You grow gills, allowing you to breathe underwater                                                                                |
+| 15         | You grow poisonous fangs, allowing you to Poison a target after a successful Unarmed Combat roll                                  |
+| 16         | You grow a thick fur that makes you immune to cold and Chilled                                                                    |
+| 17         | Flames or any kind of fire do not harm you. You’re immune to Burning                                                              |
+| 18         | You can shoot your nails once a day, dealing D20 damage to an opponent as a combat action. The nails grow back a day later        |
+| 19         | Once a day, when you’re the target of a spell you may absorb it and cast it back                                                  |
+| 20         | You never age                                                                                                                     |
+
+^3bd1a8
+
