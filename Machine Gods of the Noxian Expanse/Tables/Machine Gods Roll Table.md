@@ -47,6 +47,12 @@
 >##### Enemy Combat Boon (Use 4th Round)
 >`dice:[[Combat Tables MG#^3b3db5]]`
 >
+>##### Rogue AI and Malfunctioning Robots Table
+>`dice:[[Faction Roll Table MG#^41e4ef]]`
+>
+>##### Trade Guilds Table
+>`dice:[[Faction Roll Table MG#^9fb033]]`
+>
 
 > [!bug] Voidspire Territories
 > ##### Voidspire Tunnels & Crypts Events

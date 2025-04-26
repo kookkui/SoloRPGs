@@ -1800,7 +1800,7 @@ Swallowing the NUT +1 Max Corruption (11)
 
 ## Back into the Alchemist Temple
 
-### Room 4
+### Room 9
 
 Encounter check Encounter!
 
@@ -1810,4 +1810,85 @@ creature: Crog
 
 
 Sneaking Check (35) `d100 = 58` Failed
+
+```encounter
+creatures:
+  - Crog , 50, 10, 0
+```
+
+
+Combat Start!
+
+PC Turn
+
+Two-Handed Melee Check (57) `d100 = 4` Critical Hit!
+
+9 Damage x Critical = 18 Damage to Crog (32)
+
+Crog Turn
+
+Parry Check (48) `d100 = 39` Success!!
+
+Defensive Move - If you were Prone, Paralyzed, Stunned, or some other similar condition, you automatically recover. Otherwise, your next attack receives an extra +10
+
+Second Attack
+
+Dodge Check (39) `d100 = 9` Success!
+
+PC Turn
+
+Heavy Swing (Attack x 2) -2 Combo Points
+
+Two-Handed Melee Check (57) `d100 = 31` Hit!
+
+10 Damage to Crog(22) 
+
+Second hit
+
+9 Damage to Crog(12)
+
+Crog Turn
+
+Flee 
+
+Crog turns to start to flee the fight
+
+PC Turn
+
+Two-Handed Melee Check (57) `d100 = 6` Hit!
+
+14 Damage to Crog(Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
++100 XP
+
+<font color="#ff00cc">Tome of Forbidden Lore (300 jats)</font>
+
+Literacy Check (46) `d100 = 25` Success!
+
++1 Forbidden Lore (11)
+
+Door - A locked stone door. Pass a STR test (-2) or a Lockpicking test in order to get through it
+
+Lockpick Check (24) `d100 = 14` Success! <span style="color:rgb(241, 91, 181)">+20 XP</span> 
+### Room 11
+
+Encounter Check - None
+
+Some strange herbs grow from the corner of this dilapidated room. Make a Herb Lore check to see if you can gather any useful herbs.
+
+Herb Lore check (47) `d100 = 42` Success!
+
+<span style="color:rgb(152, 255, 152)">Vesselbush x7</span> 
+
+
+Vesselbush + Way Clover
+
+Alchemy Check (32) `d100 = 32` Success!
+
+Grants Armor (1) as natural armor for the next 20 hours
+
+Potion of Armorskin
+
++2 XP
 

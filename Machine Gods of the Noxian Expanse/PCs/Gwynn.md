@@ -72,6 +72,7 @@ title10: Padded Leather
 checkbox1: true
 title11: ""
 title12: ""
+Core1Current: None
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%
@@ -84,7 +85,7 @@ title12: ""
 >>| **Development Points** | `0` |
 >> |**Cultivating**| `0` |
 >>|**HP** | **Current:** `30` **Max:** `=this.CONST*2`|
->>|**Combo Points** | **Current:**` ` `boxes: 1/8` |
+>>|**Combo Points** | **Current:**` ` `boxes: 0/8` |
 >>---
 >>
 >> ###### Stats

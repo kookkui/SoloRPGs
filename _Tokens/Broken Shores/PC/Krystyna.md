@@ -14,7 +14,7 @@ modifier: 15
 
 ## Text Elements
 ## Embedded Files
-e747606f5ed64fd604488eaaeafb05195bf9bb07: [[SoloRPGs/_ Assets/SoloRPGs/Broken Shores/PCs/Krystyna/KrystynaN.jpg]]
+e747606f5ed64fd604488eaaeafb05195bf9bb07: [[IMG-20250426155027780.jpg]]
 
 %%
 ## Drawing

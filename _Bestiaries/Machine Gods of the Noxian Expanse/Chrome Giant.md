@@ -20,11 +20,11 @@ type: "Construct"
 
 traits:
   - name: "Standard Attack:"
-    desc: "Giant Fist (Engaged, D8 damage)."
+    desc: "**Giant Fist** (Engaged, D8 damage)."
   - name: "Special Attack:"
-    desc: "Seismic Stomp: (Engaged).All Nearby creatures suffer D6 damage and must pass an Average DEX check or become Prone."
+    desc: "**Seismic Stomp**: (Engaged).All Nearby creatures suffer D6 damage and must pass an Average DEX check or become Prone."
   - name: "Support Action:"
-    desc: "Reinforce: Increase its DR to hard for the next 2 rounds."
+    desc: "**Reinforce**: Increase its DR to hard for the next 2 rounds."
   - name: "Loot:"
     desc: "None."
 

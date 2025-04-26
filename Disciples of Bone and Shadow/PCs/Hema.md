@@ -11,7 +11,7 @@ CONST: 10
 WIL: 18
 INT: 18
 CHA: 10
-xp: 242
+xp: 364
 axp: 
 Weapon1: Bone Battleaxe
 Weapon1dmg: 3D6
@@ -104,7 +104,7 @@ title10: Portable Alchemy
 equipped10: true
 title11: Portable Alchemy
 equipped11: false
-title12: ""
+title12: Tome of Forbidden Lore (300 jats)
 title13: ""
 equipped12: false
 equipped13: false
@@ -123,11 +123,11 @@ found1: Ruins
 effect1: NA
 combined1: Nivyl
 produces1: Enhances the character's senses, granting a +20 to any tracking tests they perform.
-plant2: 
-found2: 
+plant2: Vesselbush
+found2: Ruins
 effect2: 
-combined2: 
-produces2: 
+combined2: Way Clover
+produces2: Grants Armor (1) as natural armor for the next 20 hours
 plant3: 
 found3: 
 effect3: 
@@ -146,7 +146,7 @@ title21: ""
 checkbox21: false
 Other: ""
 checkbox16: false
-lightitem1: Way Clover x6
+lightitem1: Way Clover x5
 lightitem2: Nimble Thorn x5
 lightitem3: Crypt Tears x4
 lightitem4: Bandage x10
@@ -154,9 +154,9 @@ lightitem5: Lamp Oil x9
 checkbox6: true
 checkbox22: true
 lightitem6: Rations
-lightitem7: Lockpicks x10
+lightitem7: Lockpicks Ud8
 lightitem8: Sanguine Dew x5
-lightitem9: ""
+lightitem9: Vesselbush x6
 lightitem10: Nivyl x3
 lightitem11: Scroll of Cleanse Poison (500 jats)
 lightitem12: Potion of Antidote x1
@@ -168,6 +168,8 @@ ac: "3"
 hp: 30
 modifier: 0
 TaskHexes: Same Hex
+Lockpicks1: D8
+lightitem15: Potion of Armorskin
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%
@@ -182,7 +184,7 @@ TaskHexes: Same Hex
 >> |**Taint Threshold** | `=this.CurrentCorruption*10` |
 >> |**EP**| `1` |
 >> |**XP** | `VIEW[{xp}][text]`|
->> |**XP Needed** | `=150-(this.xp)`|
+>> |**Levels Available** | `=floor((this.xp)/150)`|
 >>|**ADD XP**| `INPUT[number:axp]` `BUTTON[exp]`|
 >>
 >>&nbsp;
@@ -217,7 +219,8 @@ TaskHexes: Same Hex
 >>**Sellsword Cut**| `VIEW[{ajats} * {merc}]`
 >>**Provisions**|`20` |
 >>**Torches**|`0` |
->>**Lamp Oil**|`17` |
+>>**Lamp Oil**|`16` |
+>>**Lockpicks**| `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):Lockpicks1]`|
 >>**Sellsword jats**|  `INPUT[number:ajats]` `BUTTON[pjats]`|
 >>**Add jats**|  `INPUT[number:awjats]` `BUTTON[pwjats]`|
 >>
@@ -264,7 +267,7 @@ TaskHexes: Same Hex
 >>| **Disguise** (DEX `=this.DEX`) | `12` | **Ranged Weapons** (DEX `=this.DEX` x 2) (`=(this.DEX)*2`) | `25` |
 >>| **Dodge** (DEX `=this.DEX` x 2 ) (`=(this.DEX)*2`) | `49` | **Sailing** (DEX `=this.DEX`) | `12` |
 >>|**First Aid** (20) | `46` |  **Sneaking** (DEX `=this.DEX` x 2 ) (`=(this.DEX)*2`) | `45` |
->>| **Forbidden Lore** | `10` | **Throw** (STR + DEX) (`=(this.STR)+(this.DEX)`) | `24` |
+>>| **Forbidden Lore** | `11` | **Throw** (STR + DEX) (`=(this.STR)+(this.DEX)`) | `24` |
 >>| **Herb Lore** | `47` |  **Tracking** (INT `=this.INT` ) | `35` |
 >>| **Literacy** (INT `=this.INT`) | `46` |  **Traditional Lore** (20) | `30` |
 >>| **One-Handed Melee** (STR + DEX) (`=(this.STR)+(this.DEX)`) | `44` | **Two-Handed Melee** (STR `=this.STR` x 2) (`=(this.STR)*2`) | `67` |

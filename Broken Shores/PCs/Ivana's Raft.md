@@ -1,26 +1,20 @@
 ---
 HullMax: 20
-raft0: Crafting Station  
-title1: Scroll of Empower 500Ҁ
-title2: Potion of Purge 500Ҁ Removes the effects of one instance of demonic corruption.
-title3: Fire Elemental Essence x1
+raft0: Crafting Station
+title1: ""
+title2: ""
+title3: ""
 title4: ""
-title5: Elemental essence
-title6: Seeds x3
-title1: Scroll of Empower 500Ҁ
-title2: Potion of Purge 500Ҁ Removes the effects of one instance of demonic corruption.
-title3: Fire Elemental Essence x1
-title4: Rations x 4
-title5: Elemental essence
-title6: Seeds x3
-title7: Full Shield 300Ҁ
-title8: Coins x 700Ҁ
-title9: Coins
-title10: Coins
-title11: Coins
-title12: Coins
-title13: Coins
-title14: Coins
+title5: ""
+title6: ""
+title7: ""
+title8: ""
+title9: ""
+title10: ""
+title11: ""
+title12: ""
+title13: ""
+title14: ""
 title15: ""
 ---
 

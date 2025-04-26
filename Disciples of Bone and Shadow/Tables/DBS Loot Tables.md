@@ -280,7 +280,7 @@
 | 84           | Provides the same nutrition as 1 ration                                                                                                                       |
 | 85           | The character heals D4 HP each turn for D4 turns                                                                                                              |
 | 86           | Allows the character to see in the dark for the next 12 hours                                                                                                 |
-| 87           | Enhances the character's senses, granting a +20 to any tracking tests they  perform                                                                           |
+| 87           | Enhances the character's senses, granting a +20 to any tracking tests they perform                                                                            |
 | 88           | Cures any disease after a recovery period of 48 hours                                                                                                         |
 
 ^36f035

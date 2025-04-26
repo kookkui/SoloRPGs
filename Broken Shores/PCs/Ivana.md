@@ -1,85 +1,82 @@
 ---
-Art: "![[SoloRPGs/_ Assets/SoloRPGs/Broken Shores/PCs/Krystyna/KrystynaN.jpg|600]]"
+Art: "![[Fem_Viking1.jpg|600]]"
 Corruption: 0
 HP: 0
-STR: 16
-DEX: 15
-CONST: 16
-WIL: 14
-INT: 13
-CHA: 12
-Weapon1: Longsword
-Weapon1dmg: D8+1 Slashing
-Weapon1notes: Parry, Versatile (d10)
-Weapon2: Scimitar +1
-Weapon2dmg: " D8+2 Slashing"
-Weapon2notes: Parry
-Weapon3: Bow +1
-Weapon3dmg: D6+2 Piercing
-Weapon3notes: Range 320', Two-Handed
-Armor: Half Plate
-ArmorPR: D8+1
-Armorintegrity: D12
-Armornote1: -20 Stealth
+STR: 15
+DEX: 13
+CONST: 13
+WIL: 11
+INT: 14
+CHA: 11
+Weapon1: Morningstar
+Weapon1dmg: D10
+Weapon1notes: Martial Melee, Bludgeoning
+Weapon2: 
+Weapon2dmg: 
+Weapon2notes: 
+Weapon3: 
+Weapon3dmg: 
+Weapon3notes: 
+Armor: 
+ArmorPR: 
+Armorintegrity: 
+Armornote1: 
 Shield: 
 ShieldPR: 
 Shieldintegrity: 
 trinketslot: 
-Currency: 215
-shards: 110
-csupplies: 12
-rations: 9
+Currency: 38
+shards: 
+csupplies: 
+rations: 8
 water: 0
-talent0: "**Sorcerer:** Start the game knowing an extra spell of your choice. Only new characters may pick this Talent."
-talent1: "**Gifted - Dexterity:** You may re-roll any failed skill up rolls for skills associated with DEX."
+talent0: "**Alchemist (Passive)**: You gain the special Crafting activity, Brew. When you Brew, you can expend 2x Crafting Supplies and 1x Ration to create a random potion (roll on the table on page 118). You automatically know what effect your potion will have."
+talent1: "**Alchemist (Tier-1 Throw Potion)**: Standard Action. You can throw a potion up to 20 feet without needing to make a roll. A creature hit is affected as if they drank the potion."
 Godshard: 
 GodshardPassive: 
 GodshardActive1: 
-Spell1: Stitch Wound
-Spell1pp: 4
+Spell1: Corrupt Weapon
+Spell1pp: 2
 Spell1range: Touch
-Spell1time: Permanent
-Spell1idio: The spell’s effects are doubled, if applicable.
-Spell1des: "\rThe target heals D6+5 HP.\r *Blood emerges from the sorcerer’s fingertips in the shape of a red thread, stitching up the target’s wounds.*"
+Spell1time: WIL turns
+Spell1idio: The sorcerer sweats blood each time this spell is cast, although they suffer no harm
+Spell1des: "\rThe target weapon deals +D4 necrotic damage.\r *A coat of green, pus-like substance covers the weapon for a moment, only to be absorbed immediately after, leaving a faint, green glow behind.*"
 Spell2pp: 
 Spell2idio: 
 Spell2des: 
 Spell1mem: true
 skill1: false
-notes1: |-
-  Captured by Nirena's Emissaries because "Our cause requires blood". After a year, I saw an opportunity and I took it to escape.
-
-  I saw an opportunity and I took it (+5 Perception)
-title1: Sturdy backpack
+notes1: I stole a Ring of Healing (can cast the Stitch Wound spell 1/day) from the cult.
+title1: Rope (40ft)
 title21: ""
-title2: Coins
-title3: Rations
-title4: Fishing Rod
+title2: Rations
+title3: ""
+title4: ""
 skill21: false
-lightsource: Ud12
-title5: Thieves’ tools
-skill10: true
-title6: Shards
-title7: Lantern
-title8: Arrows Ud12
+lightsource: None
+title5: ""
+skill10: false
+title6: ""
+title7: ""
+title8: ""
 skill20: false
 skill8: false
-title9: Quiver
-skill13: true
-title10: Oil Ud12
+title9: ""
+skill13: false
+title10: ""
 skill5: false
-title11: Lockpicks Ud12
-title12: Tent
+title11: ""
+title12: ""
 Pskills69: ""
-title13: Potion of Frenzy 500Ҁ For the next D6 rounds you deal +5 damage, but you’re unable to defend in any way.
+title13: ""
 Pskills1: ""
-title14: Rope 50'
-title15: Crafting Supplies
-title16: Crafting Supplies
-necklaceslot: Earing that grants +10 Perception
-ring1: Ring of Insulation that grants immunity to fire
+title14: ""
+title15: ""
+title16: ""
+necklaceslot: 
+ring1: Ring of Healing (can cast the Stitch Wound spell 1/day)
 Pskills2: ""
-title17: Shards
+title17: ""
 title18: ""
 Pskills3: ""
 title19: ""
@@ -88,7 +85,7 @@ title22: ""
 title23: ""
 title24: ""
 acoins: 
-ruinscounter: d6
+ruinscounter: None
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] %%FAKE TITLE HERE%%  
@@ -99,8 +96,8 @@ ruinscounter: d6
 >> ###### Stats
 >>|     |     | 
 >> |--- | --- | 
->>|**HP** | **Current:** `32` **Max:** `=this.CONST*2`|
->>|**Power Points** |  **Current:** `14`  **Max:** `=this.WIL`|
+>>|**HP** | **Current:** `26` **Max:** `=this.CONST*2`|
+>>|**Power Points** |  **Current:** `11`  **Max:** `=this.WIL`|
 >> |**Speed** |  <font color="#00b0f0">Walk:</font> `=this.DEX*2`  <font color="#00b0f0">Run:</font> `=this.DEX*4` |
 >>| **Max Gear Slots**     | `=(this.STR)+10` | 
 >>
@@ -130,8 +127,8 @@ ruinscounter: d6
 >> |:---: | :---: |
 >>|**Coins (Ҁ)** |`=this.Currency` |
 >>|**Shards** | `=this.shards`|
->> |**Crafting Supplies** |`2` |
->>| **Rations**   |  `9`   |
+>> |**Crafting Supplies** |`0` |
+>>| **Rations**   |  `8`   |
 >>| **Water (Gal)** |  `=this.water`   |
 >>|**Add Coins (Ҁ)**| `INPUT[number:acoins]` `BUTTON[ccoins]`|
 >>
@@ -140,7 +137,7 @@ ruinscounter: d6
 >>###### Exploration
 >>|     |     |
 >> |:---: | :---: |
->>|**Exploration Time**|`boxes: 4/10`|
+>>|**Exploration Time**|`boxes: 0/10`|
 >>| **Ruins/Derelict Size Timer** |`INPUT[inlineSelect(option(None), option(d4), option(d6), option(d8), option(d10), option(d12), option(d20)):ruinscounter]` |   |
 >>| **Light Source Remaining** |`INPUT[inlineSelect(option(None), option(Ud4), option(Ud6), option(Ud8), option(Ud10), option(Ud12)):lightsource]` |   |
 
@@ -149,10 +146,10 @@ ruinscounter: d6
 >> #### Stats
 >> | | | | | |
 >>| :--: |:--: | :--: | :--: | :---: |
->>| **Strength** | `=this.STR` | **Brawn** | `=(this.STR)*5`| `5/10` |
->>| **Dexterity** | `=this.DEX` |**Coordination** | `=(this.DEX)*5`|`1/10`|
+>>| **Strength** | `=this.STR` | **Brawn** | `=(this.STR)*5`| `0/10` |
+>>| **Dexterity** | `=this.DEX` |**Coordination** | `=(this.DEX)*5`|`0/10`|
 >> | **Constitution** | `=this.CONST` | **Vitality**|`=(this.CONST)*5`| `1/10`|
->> | **Will** | `=this.WIL` | **Tenacity**|`=(this.WIL)*5`| `1/10`|
+>> | **Will** | `=this.WIL` | **Tenacity**|`=(this.WIL)*5`| `0/10`|
 >>| **Intelligence** | `=this.INT` | **Intellect**|`=(this.INT)*5`|`0/10` |
 >> | **Charisma** | `=this.CHA` | **Charm**|`=(this.CHA)*5`|`0/10`|
 >>
@@ -161,28 +158,28 @@ ruinscounter: d6
 >> #### Skill Checks
 >>| **Skill Name** | **Skill Level** | **Level Up**
 >>| --------------------- | ----------- | ----------- |
->>| **Acrobatics**(DEX `=this.DEX`) | `15` | `INPUT[toggle:skill1]`|
->>| **Athletics** (STR `=this.STR`) | `56` | `INPUT[toggle:skill2]`|
->>| **Animal Handling** (CHA `=this.CHA`) | `12` |`INPUT[toggle:skill3]`|
->>| **Command** (CHA `=this.CHA`) | `12` |`INPUT[toggle:skill4]`|
->>| **Crafting** (DEX `=this.DEX`) | `57` |`INPUT[toggle:skill5]`|
->>| **Dodge** (DEX `=this.DEX` ) | `55` |`INPUT[toggle:skill6]`|
->>| **Insight** (WIL `=this.WIL`) | `15` |`INPUT[toggle:skill7]`|
+>>| **Acrobatics**(DEX `=this.DEX`) | `13` | `INPUT[toggle:skill1]`|
+>>| **Athletics** (STR `=this.STR`) | `55` | `INPUT[toggle:skill2]`|
+>>| **Animal Handling** (CHA `=this.CHA`) | `11` |`INPUT[toggle:skill3]`|
+>>| **Command** (CHA `=this.CHA`) | `11` |`INPUT[toggle:skill4]`|
+>>| **Crafting** (DEX `=this.DEX`) | `53` |`INPUT[toggle:skill5]`|
+>>| **Dodge** (DEX `=this.DEX` ) | `53` |`INPUT[toggle:skill6]`|
+>>| **Insight** (WIL `=this.WIL`) | `11` |`INPUT[toggle:skill7]`|
 >>| **Literacy** (INT `=this.INT`) | `74` |`INPUT[toggle:skill8]`|
->>|**Manipulation** (CHA `=this.CHA`) | `14` | `INPUT[toggle:skill9]`|
->>| **Martial Weapons** (STR `=this.STR`) | `62` |`INPUT[toggle:skill10]`
->>| **Medicine** (INT `=this.INT`) | `23` |`INPUT[toggle:skill11]`
->>|**Nature** (INT `=this.INT`) | `23` |`INPUT[toggle:skill12]`
->>| **Perception** (WIL `=this.WIL`) (<font color="#FF00CC">+10</font>) | `46` |`INPUT[toggle:skill13]`
->>| **Performance** (CHA `=this.CHA`) | `12` |`INPUT[toggle:skill14]`
->>| **Ranged Weapons** (DEX `=this.DEX` ) | `35` |`INPUT[toggle:skill15]`
->>| **Sailing** (DEX `=this.DEX`) | `35` |`INPUT[toggle:skill16]`
->>| **Siege Weapons** (DEX `=this.DEX`) | `15` |`INPUT[toggle:skill17]`
->>| **Simple Melee Weapons** (STR `=this.STR`) | `16` |`INPUT[toggle:skill18]`
+>>|**Manipulation** (CHA `=this.CHA`) | `11` | `INPUT[toggle:skill9]`|
+>>| **Martial Weapons** (STR `=this.STR`) | `55` |`INPUT[toggle:skill10]`
+>>| **Medicine** (INT `=this.INT`) | `34` |`INPUT[toggle:skill11]`
+>>|**Nature** (INT `=this.INT`) | `34` |`INPUT[toggle:skill12]`
+>>| **Perception** (WIL `=this.WIL`) | `41` |`INPUT[toggle:skill13]`
+>>| **Performance** (CHA `=this.CHA`) | `11` |`INPUT[toggle:skill14]`
+>>| **Ranged Weapons** (DEX `=this.DEX` ) | `33` |`INPUT[toggle:skill15]`
+>>| **Sailing** (DEX `=this.DEX`) | `33` |`INPUT[toggle:skill16]`
+>>| **Siege Weapons** (DEX `=this.DEX`) | `13` |`INPUT[toggle:skill17]`
+>>| **Simple Melee Weapons** (STR `=this.STR`) | `15` |`INPUT[toggle:skill18]`
 >>| **Sleight of Hand** (DEX `=this.DEX` ) | `15` |`INPUT[toggle:skill19]`
->>| **Stealth** (DEX `=this.DEX`) | `36` |`INPUT[toggle:skill20]`
+>>| **Stealth** (DEX `=this.DEX`) | `33` |`INPUT[toggle:skill20]`
 >>| **Survival** (INT `=this.INT` ) | `34` |`INPUT[toggle:skill21]`
->>| **Unarmed** (STR `=this.STR`) | `16` |`INPUT[toggle:skill22]`
+>>| **Unarmed** (STR `=this.STR`) | `15` |`INPUT[toggle:skill22]`
 >>
 >>&nbsp;
 >>
