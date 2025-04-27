@@ -15,8 +15,7 @@
 >##### GM Emulation - What is the NPC doing?
 >`dice:[[Broken Shores General Tables#^56fa55]]`
 
-
-> [!crafting] Ocean Exploration Tables
+> [!travel] Ocean Exploration Tables
 > ##### Hex Type
 >`dice:[[BS Exploration Tables#^3b0677]]`
 >
@@ -38,7 +37,7 @@
 >##### Complication
 >`dice:[[BS Exploration Tables#^009dc2]]]`
 
-> [!seealso] Island Exploration Tables
+> [!done] Island Exploration Tables
 > ##### Encounters
 >`dice:[[BS Exploration Tables#^d9ff13]]`
 >
@@ -58,9 +57,7 @@
 >`dice:[[BS Exploration Tables#^a883c1]]`
 >
 
-
-
-> [!thing] Hex Tables
+> [!crafting] Hex Tables
 > ##### Previous Hex Swamp
 `dice:[[BS Exploration Tables#^80f35c]]|Swamp`
 >

@@ -47,14 +47,14 @@ Spell2des:
 Spell1mem: true
 skill1: false
 notes1: I stole a Ring of Healing (can cast the Stitch Wound spell 1/day) from the cult.
-title1: Rope (40ft)
+title1: Coins
 title21: ""
 title2: Rations
-title3: ""
-title4: ""
+title3: Rope (40ft)
+title4: Ud8 Arrows
 skill21: false
-lightsource: None
-title5: ""
+lightsource: Ud6
+title5: Lantern
 skill10: false
 title6: ""
 title7: ""
@@ -67,7 +67,7 @@ title10: ""
 skill5: false
 title11: ""
 title12: ""
-Pskills69: ""
+Pskills69: Sturdy backpack
 title13: ""
 Pskills1: ""
 title14: ""
@@ -85,7 +85,7 @@ title22: ""
 title23: ""
 title24: ""
 acoins: 
-ruinscounter: None
+ruinscounter: D6
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] %%FAKE TITLE HERE%%  
@@ -96,7 +96,7 @@ ruinscounter: None
 >> ###### Stats
 >>|     |     | 
 >> |--- | --- | 
->>|**HP** | **Current:** `26` **Max:** `=this.CONST*2`|
+>>|**HP** | **Current:** `22` **Max:** `=this.CONST*2`|
 >>|**Power Points** |  **Current:** `11`  **Max:** `=this.WIL`|
 >> |**Speed** |  <font color="#00b0f0">Walk:</font> `=this.DEX*2`  <font color="#00b0f0">Run:</font> `=this.DEX*4` |
 >>| **Max Gear Slots**     | `=(this.STR)+10` | 
@@ -138,7 +138,7 @@ ruinscounter: None
 >>|     |     |
 >> |:---: | :---: |
 >>|**Exploration Time**|`boxes: 0/10`|
->>| **Ruins/Derelict Size Timer** |`INPUT[inlineSelect(option(None), option(d4), option(d6), option(d8), option(d10), option(d12), option(d20)):ruinscounter]` |   |
+>>| **Ruins/Derelict Size Timer** |`INPUT[inlineSelect(option(None), option(D4), option(D6), option(D8), option(D10), option(D12), option(d20)):ruinscounter]` |   |
 >>| **Light Source Remaining** |`INPUT[inlineSelect(option(None), option(Ud4), option(Ud6), option(Ud8), option(Ud10), option(Ud12)):lightsource]` |   |
 
 >[!table] %%FAKE TITLE HERE%%
@@ -167,7 +167,7 @@ ruinscounter: None
 >>| **Insight** (WIL `=this.WIL`) | `11` |`INPUT[toggle:skill7]`|
 >>| **Literacy** (INT `=this.INT`) | `74` |`INPUT[toggle:skill8]`|
 >>|**Manipulation** (CHA `=this.CHA`) | `11` | `INPUT[toggle:skill9]`|
->>| **Martial Weapons** (STR `=this.STR`) | `55` |`INPUT[toggle:skill10]`
+>>| **Martial Weapons** (STR `=this.STR`) | `56` |`INPUT[toggle:skill10]`
 >>| **Medicine** (INT `=this.INT`) | `34` |`INPUT[toggle:skill11]`
 >>|**Nature** (INT `=this.INT`) | `34` |`INPUT[toggle:skill12]`
 >>| **Perception** (WIL `=this.WIL`) | `41` |`INPUT[toggle:skill13]`
