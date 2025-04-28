@@ -131,7 +131,6 @@ Parry (50) `d100 = 87` Fail
 8 Damage to Cultist 2 (2)
 
 Cultist 2 Turn
-
 Fleeing!
 
 Cultist 3 Turn
@@ -161,6 +160,17 @@ Cultist 2 Fled
 
 Searching Room: Perception Check (41) `d100 = 27` Success!
 
-<font color="#92E6A7">Lantern</font>
+<font color="#FFFF7D">Lantern</font>
 
+**Slightly different floor:** The character falls into a hole, disguised by a trap door. The hole is full of water, and the character must pass an Athletics check to climb out
+
+Easy +10, Athletics check (55) `d100 = 10` Success!
+
+Door isn't locked
+##### Room 2
+
+Wandering Monster Check - Nothing
+
+
+A strange sense of calmness invades all characters who enter this area—the feeling of having recovered a lost, cherished memory. Remaining here for a while (+1 ET) restores 4HP and 5PP but makes it difficult to leave voluntarily. Characters must pass a Tenacity check to leave, and can only attempt it once every 10 minutes
 
