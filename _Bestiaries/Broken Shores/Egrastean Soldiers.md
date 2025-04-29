@@ -20,6 +20,6 @@ perception: "50%"
 
 parry: "Yes"
   
-description: "Proud, cocky bastards that can back their loud mouths with skill and the best gear."
+description: "***Proud, cocky bastards that can back their loud mouths with skill and the best gear.***"
 
 ```

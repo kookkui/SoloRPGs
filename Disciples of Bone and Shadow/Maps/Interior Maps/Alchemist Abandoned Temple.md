@@ -35,7 +35,7 @@ tags: [excalidraw]
 ## Embedded Files
 5775d83019da34a1e1bb5935168312b8f8423744: [[The Alchemist Temple_44x56.webp]]
 
-913a467fdaaf7519127220fa6aa5df072dc16fa3: [[IMG-20250319080025769.png]]
+913a467fdaaf7519127220fa6aa5df072dc16fa3: [[IMG-20250427215816008.png]]
 
 %%
 ## Drawing

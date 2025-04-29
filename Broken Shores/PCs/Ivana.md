@@ -25,7 +25,7 @@ Shield:
 ShieldPR: 
 Shieldintegrity: 
 trinketslot: 
-Currency: 38
+Currency: 238
 shards: 
 csupplies: 
 rations: 8
@@ -56,7 +56,7 @@ skill21: false
 lightsource: Ud6
 title5: Lantern
 skill10: false
-title6: ""
+title6: Elemental essence
 title7: ""
 title8: ""
 skill20: false
@@ -86,6 +86,7 @@ title23: ""
 title24: ""
 acoins: 
 ruinscounter: D6
+skill6: true
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] %%FAKE TITLE HERE%%  
@@ -137,7 +138,7 @@ ruinscounter: D6
 >>###### Exploration
 >>|     |     |
 >> |:---: | :---: |
->>|**Exploration Time**|`boxes: 3/10`|
+>>|**Exploration Time**|`boxes: 7/10`|
 >>| **Ruins/Derelict Size Timer** |`INPUT[inlineSelect(option(None), option(D4), option(D6), option(D8), option(D10), option(D12), option(d20)):ruinscounter]` |   |
 >>| **Light Source Remaining** |`INPUT[inlineSelect(option(None), option(Ud4), option(Ud6), option(Ud8), option(Ud10), option(Ud12)):lightsource]` |   |
 

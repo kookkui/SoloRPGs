@@ -367,11 +367,11 @@
 
 | `dice:d10` | Ruin Exploration - Interesting Finds                                                                       |
 | ---------- | ---------------------------------------------------------------------------------------------------------- |
-| 1-2        | You thought you found something valuable but you’re wrong, it’s just Rubbish                               |
-| 3          | There’s a hidden passage that connects this room to another one. Add an extra door (now open) to this room |
-| 4          | Bones or remains, with some jewelry still on them. Roll on the Gems & Jewelry table                        |
-| 5-8        | `dice:[[BS Loot Table#^54d33c]]`                                                                           |
-| 9          | `dice:[[BS Loot Table#^f7349d]]`                                                                           |
+| 1          | You thought you found something valuable but you’re wrong, it’s just Rubbish                               |
+| 2          | There’s a hidden passage that connects this room to another one. Add an extra door (now open) to this room |
+| 3          | Bones or remains, with some jewelry still on them. Roll on the Gems & Jewelry table                        |
+| 4-7        | `dice:[[BS Loot Table#^54d33c]]`                                                                           |
+| 8-9        | `dice:[[BS Loot Table#^f7349d]]`                                                                           |
 | 10         | `dice:[[BS Loot Table#^48ee33]]`                                                                           |
 
 ^c1abcc

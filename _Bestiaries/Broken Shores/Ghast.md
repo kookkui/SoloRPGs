@@ -25,6 +25,6 @@ perception: "50%"
 
 parry: "No"
   
-description: "Ghasts are powerful spirits that have taken over a corpse long enough to make it their own, deepening their connection to the material world. They are fast moving, vicious predators that will attack and kill anything in their way."
+description: "*Ghasts are powerful spirits that have taken over a corpse long enough to make it their own, deepening their connection to the material world. They are fast moving, vicious predators that will attack and kill anything in their way.*"
 
 ```

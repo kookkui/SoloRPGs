@@ -27,13 +27,13 @@ bfdacaaec83c4f44686d54a34d321796791b0601: [[Cave Entrance 029 (10x10)-gigapixel-
 
 78c4a49abfbae4121b7826c89729ced81c9c2d82: [[Zaalu_Token]]
 
-503ed8e6614d2847509ca4877acf0f832919d380: [[Cave Entrance 023 (10x10)-gigapixel-standard-scale-2_00x.webp]]
+503ed8e6614d2847509ca4877acf0f832919d380: [[IMG-20250427215816010.webp]]
 
-634b6d5d26ac6131bb4c75e666f6f8b50aa97e2b: [[Cave Entrance 021 (10x10)-gigapixel-standard-scale-2_00x.webp]]
+634b6d5d26ac6131bb4c75e666f6f8b50aa97e2b: [[IMG-20250427215816456.webp]]
 
-1bceca4d7ab813c512feb5949d835980475ca93a: [[Cavernous Chambers 002 (10x10).webp]]
+1bceca4d7ab813c512feb5949d835980475ca93a: [[IMG-20250427215816954.webp]]
 
-12049f6f2035fffb7a4e536a964a6a08481ba100: [[Cave Entrance 034 (10x10)-gigapixel-standard-scale-2_00x.webp]]
+12049f6f2035fffb7a4e536a964a6a08481ba100: [[IMG-20250427215817455.webp]]
 
 %%
 ## Drawing

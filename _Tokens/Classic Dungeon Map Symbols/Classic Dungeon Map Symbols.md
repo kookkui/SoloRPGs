@@ -26,7 +26,7 @@
 
 ![[DoorGate1x1.png]]
 
-![[DoorLocked1x1.png]]
+![[IMG-20250427215817908.png]]
 
 ![[DoorMagic1x1.png]]
 

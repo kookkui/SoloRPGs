@@ -11,40 +11,40 @@ tags: [excalidraw]
 
 ## Text Elements
 ## Element Links
-R9kQcYEf: ![[SoloRPGs/Disciples of Bone and Shadow/Maps/Interior Maps/Deep Grotto]]
+R9kQcYEf: ![[Deep Grotto]]
 
-sihG35SS: ![[SoloRPGs/Disciples of Bone and Shadow/Maps/Interior Maps/Lost Fortress]]
+sihG35SS: ![[Lost Fortress]]
 
-5vrJ8Gdc: ![[SoloRPGs/Disciples of Bone and Shadow/Maps/Interior Maps/Alchemist Abandoned Temple]]
+5vrJ8Gdc: ![[Alchemist Abandoned Temple]]
 
 ## Embedded Files
 78c4a49abfbae4121b7826c89729ced81c9c2d82: [[Zaalu_Token]]
 
 6e342f7677102c41a28cbb05c120d3aa2d8d5ec6: [[Hexes-with-Coordinates.webp]]
 
-fd989eaac21fbfc0b5c235289e2193bdd29982b3: [[Plains_Hex_1.webp]]
+fd989eaac21fbfc0b5c235289e2193bdd29982b3: [[IMG-20250427215815958.webp]]
 
-b137005c492376ccbb9d9d3e9ea5317c8023183c: [[Forest_Hex_2.webp]]
+b137005c492376ccbb9d9d3e9ea5317c8023183c: [[IMG-20250427215816044.webp]]
 
-1d2bffcecc8e21f2a71c782e500f88790f22eb5e: [[Swamp_Hex_1.webp]]
+1d2bffcecc8e21f2a71c782e500f88790f22eb5e: [[IMG-20250427215816622.webp]]
 
-22285a663ff0b204d1ba90d06bee3135732a1eb2: [[Cave 2.webp]]
+22285a663ff0b204d1ba90d06bee3135732a1eb2: [[IMG-20250427215817174.webp]]
 
-6de4945f1ca7d01044d91c16ae7cd924bbd893e9: [[Human City 1.png]]
+6de4945f1ca7d01044d91c16ae7cd924bbd893e9: [[IMG-20250427215817195.png]]
 
-ad61021127eaa8557f036eafaa538e09797a233e: [[Keep.png]]
+ad61021127eaa8557f036eafaa538e09797a233e: [[IMG-20250427215817542.png]]
 
-282fffbb43326fd26d70eed27e63152f61282018: [[Swamp_Hex_2.webp]]
+282fffbb43326fd26d70eed27e63152f61282018: [[IMG-20250427215817987.webp]]
 
-a2a10f1c592620426cb6f6758c871bd05d64cdd9: [[Forest_Hex_1.webp]]
+a2a10f1c592620426cb6f6758c871bd05d64cdd9: [[IMG-20250427215818446.webp]]
 
-00a72b7ffde407a1f86dc989b612d0df8f45199d: [[MagicMarker-3x3.png]]
+00a72b7ffde407a1f86dc989b612d0df8f45199d: [[IMG-20250427215818753.png]]
 
-4f576fa51277a1c60824aabd7cf019d0571918fe: [[Hills_Hex_1.webp]]
+4f576fa51277a1c60824aabd7cf019d0571918fe: [[IMG-20250427215819251.webp]]
 
-142e4e5913e8fe2c9073928d161d813ae3189d65: [[Ruin_entrance.png]]
+142e4e5913e8fe2c9073928d161d813ae3189d65: [[IMG-20250427215819526.png]]
 
-38bf136da2dc18709d023c0ee00e64a42b669036: [[Hills_Hex_2.webp]]
+38bf136da2dc18709d023c0ee00e64a42b669036: [[IMG-20250427215819907.webp]]
 
 %%
 ## Drawing

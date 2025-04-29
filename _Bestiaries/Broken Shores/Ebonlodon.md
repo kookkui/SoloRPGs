@@ -22,6 +22,6 @@ perception: "60%"
 
 parry: "No"
   
-description: "It is unclear if is a more mature Ebon Fin or some nightmarish mutation but this gargantuan shark-like creature dwarfs the Ebon Fin. It is far larger, more aggressive and cunning than its smaller variant. Drifters have told tales claiming whole boats were swallowed by these beasts. It is said they lurk in huge caves in the depths of the ocean, only rarely coming to the surface."
+description: "*It is unclear if is a more mature Ebon Fin or some nightmarish mutation but this gargantuan shark-like creature dwarfs the Ebon Fin. It is far larger, more aggressive and cunning than its smaller variant. Drifters have told tales claiming whole boats were swallowed by these beasts. It is said they lurk in huge caves in the depths of the ocean, only rarely coming to the surface.*"
 
 ```

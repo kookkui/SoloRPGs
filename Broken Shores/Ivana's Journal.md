@@ -24,7 +24,7 @@ A solitary tower, ascending from the depths of the sea. This was once a lighthou
 
 Exploring the lighthouse
 
-#### The Lighthouse of Gothmog of Udun
+### The Lighthouse of Gothmog of Udun
 
 Entrance
 
@@ -33,7 +33,7 @@ Hallowed. A sense of calmness invites you here, helping you concentrate. +10 to 
 Encounter check: Nothing
 
 Door isn't locked
-##### Room 1
+#### Room 1
 
 Combat Encounters - Cult Fanatics
 
@@ -167,10 +167,82 @@ Searching Room: Perception Check (41) `d100 = 27` Success!
 Easy +10, Athletics check (55) `d100 = 10` Success!
 
 Door isn't locked
-##### Room 2
+#### Room 2
 
 Wandering Monster Check - Nothing
 
-
 A strange sense of calmness invades all characters who enter this area—the feeling of having recovered a lost, cherished memory. Remaining here for a while (+1 ET) restores 4HP and 5PP but makes it difficult to leave voluntarily. Characters must pass a Tenacity check to leave, and can only attempt it once every 10 minutes
+
+Tenacity check (55) `d100 = 7` Success!
+
+Searching Room: Perception Check (41) `d100 = 18` Success!
+
+<span style="color:rgb(255, 255, 184)">Coins 200c</span> 
+
+Light source check (Ud6) 5
+
+Searching Room: Perception Check (41) `d100 = 34` Success!
+
+<font color="#ff00cc">Elemental essence</font>
+
+Checking door to the north
+
+Yes, and it's Locked
+
+Brawn Check (75) `d100 = 3` Success!
+
+The door shatters like glass
+#### Room 3
+
+Encounter check  - Ghast
+
+```statblock
+creature: Ghast
+```
+
+```encounter
+creatures:
+  - Ghast 1, 15, 4, 11
+  - Ghast 2, 15, 4, 11
+```
+
+Combat Start!
+
+Ghast 2 Turn
+
+Claws (60) `d100 = 24`
+
+Dodge (53) `d100 = 33` Critical Success!
+
+You can cast a spell or use an item in your possession for free. Otherwise, your next attack receives an extra +10
+
+Ghast 1 
+
+Claws (60) `d100 = 82` Fail
+
+Dodge (23) `d100 = 14` Success
+
+PC Turn
+
+Martial Weapons Check (66) `d100 = 6` Success!
+
+Dodge (40) `d100 = 58` Failed
+
+7 Damage Ghast 2 (8)
+
+Ghast 2 Turn
+
+Standard attack
+
+Bite(every other round) (50) `d100 = 55` FUMBLE
+
+Your opponent immediately suffers 4 damage that ignores armor (4)
+
+Ghast 1 Turn
+
+Bite(every other round) (50) `d100 = 78`
+
+Dodge (53) `d100 = 1` CRITICAL SUCCESS!
+
+You can cast a spell or use an item in your possession for free. Otherwise, your next attack receives an extra +10
 
