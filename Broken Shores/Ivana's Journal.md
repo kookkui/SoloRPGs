@@ -246,3 +246,52 @@ Dodge (53) `d100 = 1` CRITICAL SUCCESS!
 
 You can cast a spell or use an item in your possession for free. Otherwise, your next attack receives an extra +10
 
+PC Turn
+
+Wide Swing 
+
+Martial Weapons Check (46) `d100 = 9` Success!
+
+6 Damage to both Ghasts
+- Ghast 2 (Dead)
+- Ghast 1 (9)
+
+Ghast 1 Turn
+
+Coordinate with allies (if any, otherwise standard attack)
+
+Claws (60) `d100 = 13` Success
+
+Dodge (53) `d100 = 96` Failed
+
+1 Damage to Ivana (24)
+
+PC Turn
+
+Martial Weapons Check (56) `d100 = 15` Success!
+
+Dodge (40) `d100 = 44` Fumble!
+
+4 Damage to Ghast 1 (5)
+
+Ghast 1 Turn
+
+Bite(every other round) (50) `d100 = 71`
+
+Dodge (53) `d100 = 25` Winner
+
+PC Turn
+
+Martial Weapons Check (56) `d100 = 19` Success!
+
+Dodge (40) `d100 = 65` Failed!
+
+7 Damage to Ghast 1 (Dead)
+
+<font color="#ff00cc">Victory!</font>
+
+Loot Checks (50)
+  `d100 = 39` Success
+  `d100 = 64` Failed
+
+<font color="#de7802">Ivory statuette 400</font>

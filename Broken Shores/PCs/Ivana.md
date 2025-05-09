@@ -57,7 +57,7 @@ lightsource: Ud6
 title5: Lantern
 skill10: false
 title6: Elemental essence
-title7: ""
+title7: Ivory statuette 400
 title8: ""
 skill20: false
 skill8: false
