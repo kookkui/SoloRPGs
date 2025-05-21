@@ -65,7 +65,6 @@
 >##### Interior Locations Special Conditions
 >`dice:[[DBS Exploration Tables#^30f3f5]]`
 
-
 >[!seealso] Ruins
 >##### Ruin Exploration
 >`dice:[[DBS Exploration Tables#^985a68]]`
@@ -95,7 +94,6 @@
 >
 >##### Cave Name
 >`dice:[[DBS Exploration Tables#^59e10f]]` `dice:[[DBS Exploration Tables#^fd6892]]`
-
 
 > [!danger] Monsters
 >##### Combat - Defensive Moves
@@ -202,6 +200,5 @@
 >
 >##### Interesting or Forgotten Places You Would Find Wandering
 >`dice:[[DBS GM Emulation#^3f95ee]]`
-
 
 [[DoBS House Rules]]

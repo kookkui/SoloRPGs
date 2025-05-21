@@ -3,6 +3,8 @@
 | 1-2        | `dice:[[ATDW Site Expedition#^d2046b]]` |
 | 3-10       | No Known Threat                         |
 
+^d9e419
+
 |`dice:d20`|Site Expedition - Area Connector|
 |---|---|
 |1-10|Simple hallway (20% chance of an ambush)|
@@ -12,6 +14,8 @@
 |17|Bridge|
 |18-20|Areas are directly connected|
 
+^307b7e
+
 |`dice:d10`|Site Expedition - Door Type|
 |---|---|
 |1|**ALARM DOOR**: Tampering with this door will trigger a silent alarm. A Perception check is required to detect the alarm and a Technology check is required to turn it off. Failure to pick the lock or disable the alarm will trigger an Encounter.|
@@ -19,11 +23,13 @@
 |3|**HEART DOOR**: Crossing this door’s threshold causes all characters to become Composed.|
 |4|**SECURE DOOR**: A particularly difficult door. When attempting to open it with a LKPK, roll two Access Node dice and pick the worse result.|
 |5|**FLAME DOOR**: This door’s threshold has extra security measures. When crossed, a sheet of intense flames jets from the top. This requires a Perception check to detect and a Technology check to disarm.|
-|6|**MIND DOOR**: Upon crossing this door’s threshold, it becomes patent that this was not meant for a human mind. A sharp psychic pain strikes all characters (+D20 Stress), leaving them convulsing until they can crawl away from the door.|
-|7|**ELECTRIC FIELD DOOR**: This door has a powerful electric field which causes batteries to explode. Upon crossing its threshold, a random character loses 1xBattery and receives D10 damage.|
-|8|**FLESH DOOR**: A mass of fleshy matter blocks the way, with only a valve-like orifice allowing passage through. Squeezing through is not actually difficult, but the experience causes all characters to gain D4 Stress.|
+|6|**MIND DOOR**: Upon crossing this door’s threshold, it becomes patent that this was not meant for a human mind. A sharp psychic pain strikes all characters (+`dice:d20` Stress), leaving them convulsing until they can crawl away from the door.|
+|7|**ELECTRIC FIELD DOOR**: This door has a powerful electric field which causes batteries to explode. Upon crossing its threshold, a random character loses 1xBattery and receives `dice:d10` damage.|
+|8|**FLESH DOOR**: A mass of fleshy matter blocks the way, with only a valve-like orifice allowing passage through. Squeezing through is not actually difficult, but the experience causes all characters to gain `dice:d4` Stress.|
 |9|**ONE WAY DOOR**: This innocuous threshold allows characters to cross it in one direction, but a force field blocks any attempts to cross back through it.|
 |10|**STANDARD DOOR**: A normal door made of strong metal.|
+
+^c46314
 
 |`dice:d20`|Site Expedition - Hazard Manifestation|
 |---|---|
@@ -61,22 +67,25 @@
 
 ^d2046b
 
-
 |`dice:d10`|Site Expedition - Site Exploration|
 |---|---|
 |1-2|Encounter|
-|3|Resources d10 Data Crystals d6 Alloy Cubes|
-|4|@loot - Xenoanthropological Artifact|
-|5|@Site Expedition - Hazard Manifestation|
+|3|Resources `dice:d10` Data Crystals `dice:d6` Alloy Cubes|
+|4|`dice:[[ATDW Planetside Tables#^9efe54]]`|
+|5|`dice:[[ATDW Site Expedition#^c738d0]]`|
 |6|Locked Access Point|
 |7|Dread Event|
 |8|Automated Security Measures|
 |9|Fixed Event|
 |10|Random Occurrence|
 
-| `dice:d4` | Site Expedition - Site Exploration                                            |
+^1130bb
+
+| `dice:d4` | Site Expedition - What’s Behind the Door?                                          |
 | --------- | ----------------------------------------------------------------------------- |
 | 1         | The vacuum of space (ignore if on a planet’s surface)                         |
-| 2         | A dangerously corrosive gas (D20  damage/round without a Level A Hazmat suit) |
+| 2         | A dangerously corrosive gas (`dice:d20` damage/round without a Level A Hazmat suit) |
 | 3         | The nest of some abomination (elite)                                          |
 | 4         | A Resource (pg 148)                                                           |
+
+^ac2f41

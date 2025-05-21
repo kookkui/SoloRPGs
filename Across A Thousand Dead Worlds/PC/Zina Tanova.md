@@ -1,14 +1,33 @@
 ---
-Art: "![[MachineGods_Pure_Booty.webp]]"
-STR: 8
-INT: 8
-WIL: 8
-DEX: 8
-CONST: 8
+Art: "![[MinerYellow166.png|600]]"
+level: 1
+STR: 10
+INT: 11
+WIL: 11
+DEX: 10
+CONST: 10
 CHA: 8
 xp: 0
-xp: 0
-axp: 
+axp: 0
+background: "**Algae Farmer** You spent most of your life working one of the giant algae farms that feeds most of the world, probably after inheriting the job from your parents. ***+1 Resolve***"
+talent1: "**Charge**"
+talent1desc: You can barge into melee, gaining +5 Skill and +5 damage during your first turn. Cannot be used in conjunction with any form of stealth.
+Lhand: “Requiem” B99 Carbine
+Lhanddmg: "+5"
+Lhandrange: "8"
+Lhandtraits: Two-handed // Burst // Powerful
+Rhand: '" "'
+Rhanddmg: '" "'
+Rhandrange: '" "'
+Rhandtraits: '" "'
+headslot: 
+torsoslot: KSA Personal Body Armor (2)
+backslot: KSA Personal Body Armor (2)
+waistslot: KSA Personal Body Armor (2)
+legsslot: 
+feetslot: 
+bodysuitslot: 
+bpackitem1: LKPK x1
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%
@@ -18,15 +37,15 @@ axp:
 >>|     |     |
 >> |--- | --- |
 >>|   **Level**   |  `=this.level`   |
->> |**Stamina** | **Current:** `0` **Max:** **10**   |
+>> |**Stamina** | **Current:** `10` **Max:** **10**   |
 >> |**Trauma** |  **Current:** `0` **Max:** **10**   |
 >> |**Rads** | `0` |
->> |**Luck**| `1` **Max:** **5**  |
->>|**Wounds** | **Current:** `0` **Max:** `0` |
->>|**Drake Coins** | `0` |
+>> |**Luck**| `3` **Max:** **5**  |
+>>|**Wounds** | **Current:** `0` **Max:** `3` |
+>>|**Drake Coins (DC)** | `800` |
 >> |**XP** | `VIEW[{xp}][text]`|
 >>|**ADD XP**| `INPUT[number:axp]` `BUTTON[exp]`|
->>
+>>|**Time Units** |`boxes: 0/6` |
 >>&nbsp;
 >
 
@@ -47,12 +66,12 @@ axp:
 >> ### Skills
 >>| **Skill Name** | **Skill Level** | **Skill Name** | **Skill Level** |
 >>| :-----: | :-: |:------: | :-: |
->>|**Àrsaidh Tech**|`1`| **Close Combat** | `2` |
->>| **Perception** | `2` | **Manipulation** | `3`|
->>|**Pilot** | `2` | **Medical Aid** | `-1` |
->>| **Ranged Combat**  | `2` | **Resolve**  | `2` |
->>| **Science** | `0` |**Stealth** | `2` |
->>|**Survival** |`2` |**Technology** | `2`|
+>>|**Àrsaidh Tech**|`-5`| **Close Combat** | `8` |
+>>| **Perception** | `6` | **Manipulation** | `3`|
+>>|**Pilot** | `4` | **Medical Aid** | `6` |
+>>| **Ranged Combat**  | `8` | **Resolve**  | `8` |
+>>| **Science** | `8` |**Stealth** | `6` |
+>>|**Survival** |`6` |**Technology** | `8`|
 >>
 >>---
 >
@@ -66,7 +85,12 @@ axp:
 >>| `=this.talent4` | `=this.talent4desc` |
 >>| `=this.talent5` | `=this.talent5desc` |
 >>---
->
+>>
+>>&nbsp;
+>>
+>>| | |
+>>|---| -- |
+>>| **Background** |  `=this.background`   |
 
 
 >[!gather] %%FAKE TITLE HERE%%
@@ -113,7 +137,7 @@ axp:
 >> ### Pockets
 >>| Slot | Item |  Slot | Item |
 >>| :-: | :---------------- |--------|--------|
->>|1|`INPUT[text:bpackitem1]` |11|`INPUT[text:pocketitem11]`|
+>>|1|`INPUT[text:pocketitem1]` |11|`INPUT[text:pocketitem11]`|
 >>|2|`INPUT[text:pocketitem2]`|12|`INPUT[text:pocketitem12]`|
 >>|3|`INPUT[text:pocketitem3]`|13|`INPUT[text:pocketitem13]`|
 >>|4|`INPUT[text:pocketitem4]`|14|`INPUT[text:pocketitem14]`|

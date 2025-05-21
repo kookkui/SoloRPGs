@@ -11,6 +11,8 @@
 |9|Exhausted: The fight’s weight suddenly overwhelms you. Roll Recovery Checks with disadvantage for this encounter.|
 |10|Terrible Swing: You miscalculate badly, not only missing your target but hitting yourself. Roll for damage as normal.|
 
+^3d06a8
+
 |`dice:d10`|Encounters - Critical Miss – Ranged|
 |---|---|
 |1|Jammed Weapon: It won’t fix itself! Either spend 1 Full Action unjamming  it or spend 1 Quick Action to drop it and draw a different weapon.|
@@ -24,6 +26,8 @@
 |9|Exhausted: The fight’s weight suddenly overwhelms you. Roll Recovery Checks with disadvantage for this encounter.|
 |10|Bad Luck: In a twist of fate, you not only miss your target, but the bullet ricochets and hits you. Roll for damage as normal.|
 
+^67a05e
+
 |`dice:d8`|Encounters - Encounter Activity|
 |---|---|
 |1|Resting or eating (if appropriate)|
@@ -35,6 +39,8 @@
 |7|Preparing a base or lair|
 |8|Behaving according to its species (grooming, marking, on stand-by, etc.)|
 
+^15e78d
+
 |`dice:d20`|Encounters - Encounter Difficulty|
 |---|---|
 |1-5|Easy|
@@ -42,10 +48,14 @@
 |14-18|Elite|
 |19-20|Overwhelming|
 
+^1bf61e
+
 |`dice:d10`|Encounters - Encounter Reaction|
 |---|---|
 |1-8|the creature attacks|
 |9-10|the creature ignores the party and leaves the Area|
+
+^94e3a9
 
 |`dice:d20`|Encounters - One-Member - Elite Encounter|
 |---|---|
@@ -53,6 +63,8 @@
 |11-15|(2x) Standard creatures|
 |16-18|(1x) Standard + (2x) Easy creatures|
 |19-20|(3x) Easy creatures|
+
+^92d8ac
 
 |`dice:d20`|Encounters - One-Member - Overwhelming Encounter|
 |---|---|
@@ -64,10 +76,14 @@
 |17-18|(2x) Standard + (3x) Easy creatures|
 |19-20|(4x) Easy creatures|
 
+^c87f6d
+
 |`dice:d20`|Encounters - One-Member - Standard Encounter|
 |---|---|
 |1-12|(1x) Standard creature|
 |13-20|(2x) Easy creatures|
+
+^bef63c
 
 |`dice:d4`|Encounters - Placement|
 |---|---|
@@ -82,6 +98,8 @@
 |3-4|PCs are surprised|
 |5-6|Opponents are surprised|
 
+^0b63ba
+
 |`dice:d10`|Hit Location - Humanoid|
 |---|---|
 |1|Feet: -1 damage|
@@ -93,6 +111,8 @@
 |9|Back: +2 damage|
 |10|Head: +3 damage|
 
+^348368
+
 |`dice:d10`|Hit Location - Quadruped/Sextuped|
 |---|---|
 |1-2|Hindlimb: -1 damage|
@@ -100,9 +120,13 @@
 |7-9|Body: +2 damage|
 |10|Head: +3 damage|
 
+^ab5aa5
+
 |`dice:d10`|Hit Location - Serpentine|
 |---|---|
 |1-2|Lower Body: -1 damage|
 |3-6|Middle: 0 damage|
 |7-9|Upper Body: +2 damage|
 |10|Head: +3 damage|
+
+^49d914

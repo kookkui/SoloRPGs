@@ -12,6 +12,8 @@
 | 10         | Water                   |
 | 11-12      | Same as Current Biome   |
 
+^f4322e
+
 |`dice:d20`|Planetside - Close Encounters|
 |---|---|
 |1|Strange, four-winged creatures circle high above.|
@@ -60,6 +62,8 @@
 | 6-9        | You encounter a hazard. Roll on the appropriate Biome’s Hazards & Obstacles table.        |
 | 10         | You encounter an Àrsaidh Site. Follow the standard Site creation procedure to explore it. |
 
+^355184
+
 | `dice:d20` | Terran Difficulty - Biome-Dependent |
 | ---------- | ----------------------------------- |
 | 1-10       | Biome-Dependent                     |
@@ -67,6 +71,8 @@
 | 17-18      | Hazardous                           |
 | 19         | Inhabited                           |
 | 20         | Easy Going                          |
+
+^140667
 
 |`dice:d20`|Terran Difficulty - Easy Going|
 |---|---|
@@ -76,6 +82,8 @@
 |19|Convoluted|
 |20|Hazardous|
 
+^c787f2
+
 |`dice:d20`|Terran Difficulty - Hazardous|
 |---|---|
 |1-10|Hazardous|
@@ -83,6 +91,8 @@
 |17-18|Biome-Dependent|
 |19|Inhabited|
 |20|Easy Going|
+
+^a36f8c
 
 |`dice:d20`|Terran Difficulty - Inhabited|
 |---|---|
@@ -92,6 +102,8 @@
 |19|Hazardous|
 |20|Convoluted|
 
+^a0efff
+
 |`dice:d6`|Loot - Artifact Value|
 |---|---|
 |1|Worthless|
@@ -100,6 +112,8 @@
 |4|Valuable: 50 DC|
 |5|Precious: 75 DC|
 |6|Priceless: 100 DC|
+
+^acf831
 
 |`dice:d20`|Loot - Xenoanthropological Artifact|
 |---|---|
