@@ -1,3 +1,8 @@
+---
+banner: "![[pixel-banner-images/Broken Shores_Digital v1.2sm_backcover-2_00x-gigapixel.webp]]"
+banner-x: 48
+banner-y: 48
+---
 ### 1491-Hammer-01
 
 Wind Check: Calm

@@ -1,8 +1,10 @@
 ---
-banner: "![[pixel-banner-images/wallhaven-3k71e9.jpg]]"
-banner-x: 100
-banner-y: 50
+banner: "![[pixel-banner-images/wallhaven-3k71e9.webp]]"
+banner-x: 76
+banner-y: 59
 banner-fade: -55
+banner-height: 340
+pixel-banner-flag-color: blue-fade-dark
 ---
 Day 1
 
