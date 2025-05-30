@@ -1,3 +1,9 @@
+---
+banner: "![[pixel-banner-images/wallhaven-3k71e9.jpg]]"
+banner-x: 100
+banner-y: 50
+banner-fade: -55
+---
 Day 1
 
 ## Hex 1 Settlement: Village of Cave Thorn
@@ -1881,7 +1887,6 @@ Herb Lore check (47) `d100 = 42` Success!
 
 <span style="color:rgb(152, 255, 152)">Vesselbush x7</span> 
 
-
 Vesselbush + Way Clover
 
 Alchemy Check (32) `d100 = 32` Success!
@@ -1892,3 +1897,50 @@ Potion of Armorskin
 
 +2 XP
 
+### Room 12
+
+Door - A wooden door, locked. The characters will have to bash it in or pick the lock
+
+Will try to pick the lock (24) 78 Failed
+
+Bash door (12) 6 Success!
+
+The door breaks down
+
+Encounter Check - None
+
+**Alchemy Lab.** This room is filled with bottles, pipettes, and other tools that an alchemist would need. Everything here is covered in a thick layer of dust, but you find some notes that grant you +1 Alchemy if you spend a few hours studying them
+
++1 to Alchemy (33)
+
+Door - An empty archway with no door
+
+### Room 13
+
+Encounter Check - None
+
+```statblock
+creature: Agrix
+```
+
+Sneaking Check (25) `d100 = 39` Failed
+
+```encounter
+players:
+  - Hema
+  
+creatures:
+  - Agrix , 38, 10, 0
+```
+
+Combat Start!
+
+PC Turn
+
+Two-Handed Melee Check (57) `d100 = 20` Hit!
+
+11 Damage to Agrix (27)
+
+Agrix Turn
+
+Parry Check (48) 

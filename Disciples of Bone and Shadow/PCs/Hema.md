@@ -1,5 +1,5 @@
 ---
-Art: "![[Hema.webp|600]]"
+Art: "![[IMG-20250427215748548.webp|600]]"
 Level: 4
 CurrentCorruption: 0
 Corruption: 11
@@ -260,7 +260,7 @@ lightitem15: Potion of Armorskin
 >> ### Skills
 >>| **Skill Name** | **Skill Level** | **Skill Name** | **Skill Level** |
 >>| ------------- | :-: | ---------- | :-: |
->>| **Alchemy** | `32` | **Parry** (STR + DEX) (`=(this.STR)+(this.DEX)`) | `58` |
+>>| **Alchemy** | `33` | **Parry** (STR + DEX) (`=(this.STR)+(this.DEX)`) | `58` |
 >>| **Animal Handling** (CHA `=this.CHA`) | `22` | **Perception** (20) | `36` |
 >>| **Command Skills** (CHA `=this.CHA`) | `10` |**Persuasion** (CHA `=this.CHA`) | `21` |
 >>| **Crafting** (DEX `=this.DEX`) | `23` | **Pick Pockets** (DEX `=this.DEX`) | `12` |
