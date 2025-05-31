@@ -1,10 +1,11 @@
 ---
-banner: "![[pixel-banner-images/wallhaven-3k71e9.webp]]"
-banner-x: 76
-banner-y: 59
+banner: "![[pixel-banner-images/Cavebattle.webp]]"
+banner-x: 51
+banner-y: 41
 banner-fade: -55
-banner-height: 340
+banner-height: 400
 pixel-banner-flag-color: blue-fade-dark
+banner-radius: 16
 ---
 Day 1
 
@@ -1945,4 +1946,55 @@ Two-Handed Melee Check (57) `d100 = 20` Hit!
 
 Agrix Turn
 
-Parry Check (48) 
+Parry Check (48) `d100 = 46` Success!
+
+Defensive Move - Your next attack receives an extra +10
+
+Agrix Second Attack
+
+Dodge Check (39) `d100 = 19`  Dodged!
+
+PC Turn
+
+Heavy Swing -2 Combo points
+
+Two-Handed Melee Check (57) `d100 = 52` Hit! 
+
+14 Damage to Agrix (13)
+
+Second attack 
+
+Two-Handed Melee Check (57) `d100 = 40` Hit! 
+
+11 Damage to Agrix (2) 
+
+Agrix morale test (WIL) 10 (17) Failed. Agrix is now trying to flee, PC is trying to get on last hit.
+
+Two-Handed Melee Check (57) `d100 = 49` Hit! 
+
+15 Damage to Agrix (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
++100 XP
+##### Horse Figurine
+Powers/Effects:
+- Sacrifice 5 HP to be able to travel at double speed in outdoor zones for a whole day
+- Weight: 1 GS
+
+Sells for 4,000 jats
+
+*A small statue of a horse made of some unidentifiable black material that, when whet with blood, grows to the size of an actual horse.*
+
+Door - An empty archway with no door
+
+### Room 14
+
+Encounter Check - None
+
+**Library.** This room was previously some sort of library. Now piles of half- rotten tomes gather dust in every corner, collapsed shelves creating a landscape of lost knowledge. The party may spend a whole day here sifting through the books, hoping on even the slightest odds that there is something of worth. They must first pass a Literacy roll; if they do so roll a 2 : 1-2 a tome describing the terrors of an ancient civilization that worshiped the Primordial Ones. You gain +1 Forbidden Lore; 3-4 a random spell; 5-6 a treatise on local plants and herbs. +1 Herb Lore
+
+Literacy Check (46) `d100 = 13` Passed!
+
+Hema finds a tome describing the terrors of an ancient civilization that worshiped the Primordial Ones. You gain +1 Forbidden Lore (12)
+
+

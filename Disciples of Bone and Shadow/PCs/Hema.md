@@ -11,7 +11,7 @@ CONST: 10
 WIL: 18
 INT: 18
 CHA: 10
-xp: 364
+xp: 464
 axp: 
 Weapon1: Bone Battleaxe
 Weapon1dmg: 3D6
@@ -105,7 +105,7 @@ equipped10: true
 title11: Portable Alchemy
 equipped11: false
 title12: Tome of Forbidden Lore (300 jats)
-title13: ""
+title13: Horse Figurine (Sacrifice 5 HP to be able to travel at double speed in outdoor zones for a whole day)
 equipped12: false
 equipped13: false
 equipped5: true
@@ -267,7 +267,7 @@ lightitem15: Potion of Armorskin
 >>| **Disguise** (DEX `=this.DEX`) | `12` | **Ranged Weapons** (DEX `=this.DEX` x 2) (`=(this.DEX)*2`) | `25` |
 >>| **Dodge** (DEX `=this.DEX` x 2 ) (`=(this.DEX)*2`) | `49` | **Sailing** (DEX `=this.DEX`) | `12` |
 >>|**First Aid** (20) | `46` |  **Sneaking** (DEX `=this.DEX` x 2 ) (`=(this.DEX)*2`) | `45` |
->>| **Forbidden Lore** | `11` | **Throw** (STR + DEX) (`=(this.STR)+(this.DEX)`) | `24` |
+>>| **Forbidden Lore** | `12` | **Throw** (STR + DEX) (`=(this.STR)+(this.DEX)`) | `24` |
 >>| **Herb Lore** | `47` |  **Tracking** (INT `=this.INT` ) | `35` |
 >>| **Literacy** (INT `=this.INT`) | `46` |  **Traditional Lore** (20) | `30` |
 >>| **One-Handed Melee** (STR + DEX) (`=(this.STR)+(this.DEX)`) | `44` | **Two-Handed Melee** (STR `=this.STR` x 2) (`=(this.STR)*2`) | `67` |
