@@ -1,13 +1,6 @@
 ---
 achievement_prog: Achievement in Progress Example
-STR: 10
-DEX: 16
-CON: 18
-INT: 12
-WIL: 11
-CHA: 14
-PER: 65
-Armor: D4+3
+Protection: D4+3
 Weapon1: Holy Longbow of the Bear
 Weapon1dmg: 2D6+4
 Weapon1type: Piercing
@@ -21,12 +14,10 @@ Weapon3type:
 Weapon3dmg: 
 Weapon3notes: 
 achievement_path: Path of the Explorer
-axp: 100
-xp: 1575
-a-N: "355"
-a-a: 
-a-V: 
-a-M: 
+aetheryte: 14
+aaaetheryte: 0
+aaetheryte: 12
+gems: 
 quest1: "**Rift Closure:** Travel 14 days and close the marked rift. (Sky Islets)."
 quest1t: false
 quest2: "**Escort:** a caravan distance is 22 travel days."
@@ -121,90 +112,82 @@ Heart4: Ritual
 >> **Current Achievement Path** |`INPUT[suggester(option(Path of Slaughter), option(Path of Shadows), option(Path of the Arcane), option(Path of the Explorer), option(Path of the Diplomat)):achievement_path]` |
 >>  **Achievement in Progress** |`=this.achievement_prog` |
 >> **Reputation** | `3` |
->>  **HP** | **Current:**`32` **Max:** `=this.CON*3`
->> **Aether** | `31` /`VIEW[{WIL} + {INT} + 8]` |
->> **Stamina** | `36` /`VIEW[{STR} + {CON}+ 8]` |
->> **Armor Rating** | `=this.Armor` |
->> **XP** | `VIEW[{xp}][text]`
+>>  **HP** | **Current:**`32` **Max:** `32`
+>> **Aether** | `31` **Max:** `31` |
+>> **Luck** | `0` |
+>> **Parry** | `0` |
+>> **Protection** | `=this.Protection` |
 >>
->>---
->> **ADD XP:** `INPUT[number:axp]` `BUTTON[exp]`
 >>
 >>
 >> &nbsp;
+>> 
+>>  ###### Wealth
+>>|  |   |
+>>| :-: | :-: |
+>>|**Aetheryte (⟑)** |`=this.aetheryte`|
+>>| **Crystals** | `=this.gems`   |
+>>| **Add Aetheryte** | `INPUT[number:aaetheryte]` `BUTTON[addaetheryte]`|
 >>
+>> &nbsp;
+>> 
+>> 
 >> ###### Weapons
 >>| **Weapons** | **Type** | **Damage** | **Notes** |
 >>| ------ | :-: | :-: | --------- |
 >>| `=this.Weapon1` | `=this.Weapon1type` | `=this.Weapon1dmg` |`=this.Weapon1notes` |
 >>| `=this.Weapon2` | `=this.Weapon2type` |`=this.Weapon2dmg` | `=this.Weapon2notes` |
 >>| `=this.Weapon3` | `=this.Weapon3type`|`=this.Weapon3dmg` | `=this.Weapon3notes` |
->>| | | |
->>| | | |
+>>
 >> &nbsp;
 >>
 >> ###### Crafting Aspects
->>| **Air**   | **Bane** | **Boon** | **Chaos** | **Dark**  | **Death** |
->>| :-: | :-: | :-: | :-: | :-: | :-: |
->>| `0`   | `0`  | `1`  | `10`   | `21`   | `1`   |
->>| **Earth** | **Fire** | **Life** | **Light** | **Power** | **Water** |
->| `1`   | `11`  | `0`  | `10`   | `11`   | `10`   |
+>>| **Crafting Component**   | **Common** | **Uncommon** | **Rare** | 
+>>| :-: | :-: | :-: | :-: | 
+>>|  <font color="#B100E8">Monster Part</font>  | `0`  | `0`  | `0`   | 
+>>| <font color="#2DC653">Alchemical Ingredient</font> | `0` |`0` | `0` | 
+>>|  <font color="#00CCFF">Ore</font>  | `0`  | `0`  | `0`   | 
+>>
 >> &nbsp;
 >>
->>###### Minerals
->>
->>| **Coal** | **Iron** | **Silver** | **Aglite** |
->>| :-: | :-: | :-: | :-: |
->>| `21`  | `3`  | `1`    | `4`    |
->> &nbsp;
->>
->>  ###### Currency
->>| **⟑-N** | **⟑-A**   |
->>| :-: | :-: |
->>|`=this.a-N`|`=this.a-a`|
->>| **⟑-V** | **⟑-M**   |
->>|`=this.a-V`|`=this.a-M`|
 
 ---
 
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] %%FAKE TITLE HERE%%
->> ### Stats
->> | | | | |
->>| ---- | ---- | ------ | ------ |
->>| **Strength** | `=this.STR` | **Brawn** | `=this.STR*5` |
->>| **Dexterity** | `=this.DEX`| **Coordination** | `=this.DEX*5` |
->>| **Constitution** |`=this.CON` | **Vitality** |`=this.CON*5` |
->>| **Will** | `=this.WIL` | **Tenacity** |`=this.WIL*5` |
->>| **Intelligence** | `=this.INT` | **Intellect** | `=this.INT*5` |
->>| **Charisma** | `=this.CHA` | **Charm** | `=this.CHA*5` |
->>| **STR Damage** | | **DEX Damage** |+4 |
->>| **Luck** | 5 | **WIL Damage** | +1 |
->>| **Speed** | `=this.DEX`/`=this.DEX*2`| **Persistence** |`=this.PER`|
->
->>[!dice] %%FAKE TITLE HERE%%
 >> ### Skill Checks
->>| **Skill Name** | **Skill Level** |
->>| ------------------------- | ----------- |
->>| **Alchemy** (INT) | `34` |
->>| **Acrobatics** (DEX) | `15` |
->>| **Animal Handling** (CHA) | `14` |
->>| **Athletics** (STR) | `33` |
->>| **Blacksmithing** (DEX) | `35` |
->>| **Command** (CHA) | `14` |
->>| **Gathering** (DEX) | `57` |
->>|**Nature** (INT) | `31` |
->>| **Manipulation** (CHA) | `14` |
->>| **Medicine** (INT) | `11` |
->>| **Leatherworking** (DEX) | `38` |
->>| **Insight** (WIL) | `15` |
->>| **Dodge** (DEX) | `75` |
->>| **Perception** (WIL) | `32` |
->>| **Performance** (CHA) | `14` |
->>| **Sailing** (DEX) | `15` |
->>| **Sleight of Hand** (DEX) | `25` |
->>| **Stealth** (DEX) | `38` |
->>| **Survival** (INT) | `53` |
+>>| **Skill Name** | **Skill Level** | **Skill Up**
+>>| ------------------------- | ----------- | ----------- |
+>>| **Agility** (10) | `10` | `INPUT[toggle:skill1]`|
+>>| **Alchemy** | `10` | `INPUT[toggle:skill2]`|
+>>| **Animal Handling** | `10` |`INPUT[toggle:skill3]`|
+>>| **Armorsmithing** | `10` |`INPUT[toggle:skill4]`|
+>>| **Athletics** (10) | `10` |`INPUT[toggle:skill5]`|
+>>| **Bladed Weapons** | `10` |`INPUT[toggle:skill6]`|
+>>| **Bludgeoning Weapons**  | `10` |`INPUT[toggle:skill7]`|
+>>| **Cooking**  | `10` |`INPUT[toggle:skill8]`|
+>>|**Command** | `10` | `INPUT[toggle:skill9]`|
+>>| **Endurance (10)**  | `10` |`INPUT[toggle:skill10]`
+>>| **Gathering**  | `10` |`INPUT[toggle:skill11]`
+>>| **Insight**  | `10` |`INPUT[toggle:skill12]`
+>>| **Jewelcrafting** | `10` |`INPUT[toggle:skill13]`
+>>| **Literacy**| `10` |`INPUT[toggle:skill14]`
+>>| **Lockpicking** | `10` |`INPUT[toggle:skill15]`
+>>| **Manipulation** | `10` |`INPUT[toggle:skill16]`
+>>| **Medicine**  | `10` |`INPUT[toggle:skill17]`
+>>| **Nature**  | `10` |`INPUT[toggle:skill18]`
+>>| **Perception (20)** | `10` |`INPUT[toggle:skill19]`
+>>| **Performance** | `10` |`INPUT[toggle:skill20]`
+>>| **Ranged Weapons** | `10` |`INPUT[toggle:skill21]`
+>>| **Reason (10)** | `10` |`INPUT[toggle:skill22]`
+>>| **Sailing** | `10` |`INPUT[toggle:skill23]`
+>>| **Shafted Weapons** | `10` |`INPUT[toggle:skill24]`
+>>| **Sleight of Hand** | `10` |`INPUT[toggle:skill25]`
+>>| **Stealth** | `10` |`INPUT[toggle:skill26]`
+>>| **Survival** | `10` |`INPUT[toggle:skill27]`
+>>| **Tenacity (10)** | `10` |`INPUT[toggle:skill28]`
+>>| **Unarmed Combat (10)** | `10` |`INPUT[toggle:skill29]`
+>>| **Weaponsmithing** | `10` |`INPUT[toggle:skill30]`
 >
 >>[!dice] %%FAKE TITLE HERE%%
 >>##### Proficiencies
@@ -588,7 +571,6 @@ disappear seconds later.*
 >>---
 >>
 
-
 ```meta-bind-button
 label: Add
 icon: ""
@@ -597,13 +579,13 @@ class: ""
 cssStyle: ""
 backgroundImage: ""
 tooltip: ""
-id: exp
+id: addaetheryte
 hidden: True
 actions:
 - type: updateMetadata
-  bindTarget: xp
+  bindTarget: aetheryte
   evaluate: True
-  value: getMetadata('xp') + getMetadata('axp')
+  value: getMetadata('aetheryte') + getMetadata('aaetheryte')
 
 ```
 
