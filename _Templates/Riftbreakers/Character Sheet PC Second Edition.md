@@ -1,4 +1,6 @@
 ---
+Art: "![[Riftbreaker_Female.webp|600]]"
+Title: Protector of Kar Helos
 achievement_prog: Achievement in Progress Example
 Protection: D4+3
 Weapon1: Holy Longbow of the Bear
@@ -16,7 +18,7 @@ Weapon3notes:
 achievement_path: Path of the Explorer
 aetheryte: 14
 aaaetheryte: 0
-aaetheryte: 12
+aaetheryte: 
 gems: 
 quest1: "**Rift Closure:** Travel 14 days and close the marked rift. (Sky Islets)."
 quest1t: false
@@ -78,12 +80,12 @@ title4: Bandage Ud12
 title5: Arrows ud12
 title6: Rations x 2
 title7: Torch Ud10
-title8: Ascended Essence (prime)
-title9: Lantern
-title10: Aetheryte
-title11: "Stoneskin Potion. for the next hour you have +1 armor, but your dodge and acrobatics skills are reduced by -10. aspects: stone, boon"
-title12: Aetheryte
-title13: Rough Eather x 10
+title8: ""
+title9: ""
+title10: ""
+title11: ""
+title12: ""
+title13: ""
 proficiency1: Longbow
 proficiency2: Scimitar
 proficiency3: Soft Leather
@@ -101,28 +103,32 @@ Heart1: Arrow
 Heart2: Elemental
 Heart3: Restoration
 Heart4: Ritual
+HeartAbLink1: "![[Cleave]]"
+HearAb1: Novice
+HeartAbRank1: Novice
+Heartexp1: 
 ---
->[!note] %%FAKE TITLE HERE%%
->>[!gear] %%FAKE TITLE HERE%% 
+>[!dice] %%FAKE TITLE HERE%%
+>>[!dice] %%FAKE TITLE HERE%% 
 >> # `=this.file.name`
->> ![[IMG-20250129190024669.webp]]
->> ###### Stats
+>> `=this.Art`
+>> 
+>> ##### Stats
 >>  |
 >> ---|---|
+>>**Title** |`=this.Title` |
 >> **Current Achievement Path** |`INPUT[suggester(option(Path of Slaughter), option(Path of Shadows), option(Path of the Arcane), option(Path of the Explorer), option(Path of the Diplomat)):achievement_path]` |
 >>  **Achievement in Progress** |`=this.achievement_prog` |
->> **Reputation** | `3` |
->>  **HP** | **Current:**`32` **Max:** `32`
->> **Aether** | `31` **Max:** `31` |
+>> **Reputation** | `0` |
+>> **HP** | **Current:**`32` **Max:** `32`
 >> **Luck** | `0` |
 >> **Parry** | `0` |
+>> **Max Aether** | `10` |
 >> **Protection** | `=this.Protection` |
->>
->>
 >>
 >> &nbsp;
 >> 
->>  ###### Wealth
+>>  ##### Wealth
 >>|  |   |
 >>| :-: | :-: |
 >>|**Aetheryte (⟑)** |`=this.aetheryte`|
@@ -132,8 +138,8 @@ Heart4: Ritual
 >> &nbsp;
 >> 
 >> 
->> ###### Weapons
->>| **Weapons** | **Type** | **Damage** | **Notes** |
+>> ##### Weapons
+>>| **Weapons** | **Skill** | **Damage** | **Notes** |
 >>| ------ | :-: | :-: | --------- |
 >>| `=this.Weapon1` | `=this.Weapon1type` | `=this.Weapon1dmg` |`=this.Weapon1notes` |
 >>| `=this.Weapon2` | `=this.Weapon2type` |`=this.Weapon2dmg` | `=this.Weapon2notes` |
@@ -141,20 +147,38 @@ Heart4: Ritual
 >>
 >> &nbsp;
 >>
->> ###### Crafting Aspects
+>> ##### Armor
+>>| **Armor** | **Protection** | **Integrity** | **Notes** |
+>>| ------ | :-: | :-: | --------- |
+>>| `=this.Armor1` | `=this.Armor1rate` |  `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):Integrity1]`|`=this.Armor1notes` |
+>>| `=this.Armor2` | `=this.Armor2rate` | `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):Integrity2]`|`=this.Armor2notes` |
+>>
+>> &nbsp;
+>>
+>> ##### Crafting Aspects
 >>| **Crafting Component**   | **Common** | **Uncommon** | **Rare** | 
 >>| :-: | :-: | :-: | :-: | 
->>|  <font color="#B100E8">Monster Part</font>  | `0`  | `0`  | `0`   | 
+>>|  <font color="#9B5DE5">Monster Part</font>  | `0`  | `0`  | `0`   | 
 >>| <font color="#2DC653">Alchemical Ingredient</font> | `0` |`0` | `0` | 
 >>|  <font color="#00CCFF">Ore</font>  | `0`  | `0`  | `0`   | 
+>>
+>> &nbsp;
+>>
+>> ##### Supplies
+> |  | 
+>>|---|---
+>>|**Rations**|`9` |
+>>|**Torches / Lamp Oil**| `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):torch1]` |
+>>|**Bandages**|`INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(None)):Bandage]` |
+>>|**RiftLord Timer**|`INPUT[inlineSelect(option(D10), option(D8), option(D6), option(None)):RiftLord]` |
 >>
 >> &nbsp;
 >>
 
 ---
 
->[!dice] %%FAKE TITLE HERE%%
->>[!dice] %%FAKE TITLE HERE%%
+>[!gather] %%FAKE TITLE HERE%%
+>>[!gather] %%FAKE TITLE HERE%%
 >> ### Skill Checks
 >>| **Skill Name** | **Skill Level** | **Skill Up**
 >>| ------------------------- | ----------- | ----------- |
@@ -189,7 +213,7 @@ Heart4: Ritual
 >>| **Unarmed Combat (10)** | `10` |`INPUT[toggle:skill29]`
 >>| **Weaponsmithing** | `10` |`INPUT[toggle:skill30]`
 >
->>[!dice] %%FAKE TITLE HERE%%
+>>[!gather] %%FAKE TITLE HERE%%
 >>##### Proficiencies
 >> | | |
 >>|:-:| :---: |
@@ -222,28 +246,46 @@ Heart4: Ritual
 >[!table] %%FAKE TITLE HERE%%
 >>[!table] %%FAKE TITLE HERE%%
 >>### Inventory
+>>| Slot | Encumbering Items | Slot| Belt Quickslots
+>>| :-: | ---------------- |:-: | ---------------- |
+>>|1|`INPUT[text:gear1]` |1|`INPUT[text:qbelt1]` | 
+>>|2|`INPUT[text:gear2]` | 2|`INPUT[text:qbelt2]` | 
+>>|3|`INPUT[text:gear3]` |3|`INPUT[text:qbelt3]` | 
+>>|4|`INPUT[text:gear4]` |4|`INPUT[text:qbelt4]` | 
+>>|5|`INPUT[text:gear5]` |
+>>|6|`INPUT[text:gear6]` |
+>>|7|`INPUT[text:gear7]` |
+>>|9|`INPUT[text:gear9]` |
+>>|10|`INPUT[text:gear10]` |
+>>
+>>
+>>##### Backpack
 >>| Slot | Encumbering Items | Slot | Encumbering Items 
->>| :-: | :---------------- |--------|--------|
->>|1|`INPUT[text:title1]` |21|`INPUT[text:title21]`|
->>|2|`INPUT[text:title2]`|22|`INPUT[text:title22]`|
->>|3|`INPUT[text:title3]`|23|`INPUT[text:title23]`|
->>|4|`INPUT[text:title4]`|24|`INPUT[text:title24]`|
->>|5|`INPUT[text:title5]`|25|`INPUT[text:title25]`|
->>|6|`INPUT[text:title6]`|26|`INPUT[text:title26]`|
->>|7|`INPUT[text:title7]`|27|`INPUT[text:title27]`|
->>|8|`INPUT[text:title8]`|28|`INPUT[text:title28]`|
->>|9|`INPUT[text:title9]`|29|`INPUT[text:title29]`|
->>|10|`INPUT[text:title10]`|30|`INPUT[text:title30]`|
->>|11|`INPUT[text:title11]`|31|`INPUT[text:title31]`|
->>|12|`INPUT[text:title12]`|32|`INPUT[text:title32]`|
->>|13|`INPUT[text:title13]`|33|`INPUT[text:title33]`|
->>|14|`INPUT[text:title14]`|34|`INPUT[text:title34]`|
->>|15|`INPUT[text:title15]`|35|`INPUT[text:title35]`|
->>|16|`INPUT[text:title16]`|36|`INPUT[text:title36]`|
->>|17|`INPUT[text:title17]`|37|`INPUT[text:title37]`|
->>|18|`INPUT[text:title18]`|38|`INPUT[text:title38]`|
->>|19|`INPUT[text:title19]`|39|`INPUT[text:title39]`|
->>|20|`INPUT[text:title20]`|40|`INPUT[text:title40]`| 
+>>| :-: | ---------------- |:-:|--------|
+>>|1|`INPUT[text:title1]` |11|`INPUT[text:title11]`|
+>>|2|`INPUT[text:title2]`|12|`INPUT[text:title12]`|
+>>|3|`INPUT[text:title3]`|13|`INPUT[text:title13]`|
+>>|4|`INPUT[text:title4]`|14|`INPUT[text:title14]`|
+>>|5|`INPUT[text:title5]`|15|`INPUT[text:title15]`|
+>>|6|`INPUT[text:title6]`|16|`INPUT[text:title16]`|
+>>|7|`INPUT[text:title7]`|17|`INPUT[text:title17]`|
+>>|8|`INPUT[text:title8]`|18|`INPUT[text:title18]`|
+>>|9|`INPUT[text:title9]`|19|`INPUT[text:title19]`|
+>>|10|`INPUT[text:title10]`|20|`INPUT[text:title20]`|
+>
+>>[!dice] %%FAKE TITLE HERE%%
+>> ### Non-Encumbering Items
+>> |Slot| Item |Slot| Item 
+>>| :-: | ----------------- |:-: | -------------------------- |
+>>| 1 | `INPUT[text:Pskills69]` | 9 | `INPUT[text:Pskills8]` |
+>>| 2 | `INPUT[text:Pskills1]` | 10 | `INPUT[text:Pskills9]` |
+>>| 3 | `INPUT[text:Pskills2]` |11 | `INPUT[text:Pskills10]` |
+>>| 4 | `INPUT[text:Pskills3]` | 12 | `INPUT[text:Pskills11]` |
+>>| 5 | `INPUT[text:Pskills4]` |13 | `INPUT[text:Pskills12]` |
+>>| 6 |`INPUT[text:Pskills5]` |14 | `INPUT[text:Pskills13]` |
+>>| 7 | `INPUT[text:Pskills6]` | 15 | `INPUT[text:Pskills14]` |
+>>| 8 | `INPUT[text:Pskills7]` |16 | `INPUT[text:Pskills15]` |
+>>
 
 ---
 
@@ -343,8 +385,8 @@ Heart4: Ritual
 
 ---
 
->[!gather] %%FAKE TITLE HERE%%
->>[!gather] %%FAKE TITLE HERE%%
+>[!crafting] %%FAKE TITLE HERE%%
+>>[!crafting] %%FAKE TITLE HERE%%
 >>## Hearts
 >> |        |     |   
 >>| :-: | :----- |
@@ -354,6 +396,7 @@ Heart4: Ritual
 >>| 4 |  `INPUT[inlineSelect(option(Arcane), option(Arrow), option(Bastion), option(Blade), option(Elemental), option(Might), option(Restoration), option(Ritual), option(Shadow)):Heart4]` |
 >>
 >>&nbsp;
+>>
 >> #### Passive Skills
 >> |        |         |   
 >>| :-: | :------------- |
@@ -361,211 +404,147 @@ Heart4: Ritual
 >>| 2 | `=this.passive1` |
 >>| 3 | `=this.passive2` |
 >>| 4 | `=this.passive3` |
->>| 5 | `=this.passive4` |
->>| 6 |`=this.passive5` |
->>| 7 | `=this.passive6` |
->>| 8 | `=this.passive7` |
->>| 9 | `=this.passive8` |
->>| 10 | `=this.passive9` |
 >>
-
----
-
->[!warning] %%FAKE TITLE HERE%%
->>[!npc]  %%FAKE TITLE HERE%%
+>
+>>[!crafting]  %%FAKE TITLE HERE%%
 >>### Heart Abilities
+>> 
+>>`=this.HeartAbLink1`
 >>
->>| **Ability Name** | Life Bolt  | **Type**  | Holy, Attack, Support |
->>|:------------:|:----------:|:-----:|:---------------------:|
->>|     **Rank**     |   Novice   |  **XP**   |                       |
->>|     **Cost**     |    2 MP    | **Heart** |  Talent, Restoration  |
->>|   **Actions**    | 1 Required | **Range** |         30 m          |  
+>>| | | |
+>>|:-:|:----------:|:-----:|:---------------------:|
+>>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank1]` | **XP** |`INPUT[number:Heartexp1]`|
+>>
 >>&nbsp;
 >> 
 >>
->>Target is healed for D6+DM Health. If the target is undead, it deals damage instead.
+>>---
+>>
+>>&nbsp
+>>
+>> 
+>>`=this.HeartAbLink2`
+>>
+>>| | | |
+>>|:-:|:----------:|:-----:|:---------------------:|
+>>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank2]` | **XP** |`INPUT[number:Heartexp2]`|
 >>
 >>&nbsp;
->>**Apprentice Rank:** Amount increased to 2D6+DM 
->>**Veteran Rank:** Amount increased to 3D6+DM 
->>**Master Rank:** Amount increased to 4D6+DM
+>> 
+>>
+>>---
+>>
+>>&nbsp
+>>
+>> 
+>>`=this.HeartAbLink3`
+>>
+>>| | | |
+>>|:-:|:----------:|:-----:|:---------------------:|
+>>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank3]` | **XP** |`INPUT[number:Heartexp3]`|
+>>
 >>&nbsp;
->>*You gather divine energy in your hand, shooting off a beam of bright light.*
->>
->>&nbsp
+>> 
 >>
 >>---
 >>
 >>&nbsp
 >>
->>| **Ability Name** | Twin Shots | **Type**  | Martial, Attack |
->>| ---------------- | ---------- | --------- | --------------- |
->>| **Rank**         | Novice     | **XP**    |                 |
->>| **Cost**         | 4 ST       | **Heart** | Talent, Arrow   |
->>| **Actions**      | 1 Required | **Range** | Weapon's Range  |
+>> 
+>>`=this.HeartAbLink4`
 >>
->>&nbsp
->>You can perform two ranged attacks with a single Standard Action against the same target, each one suffering -10 to the attack check.
+>>| | | |
+>>|:-:|:----------:|:-----:|:---------------------:|
+>>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank4]` | **XP** |`INPUT[number:Heartexp4]`|
 >>
->>&nbsp
->>**Apprentice Rank:** Attacks suffer no penalty
->>**Veteran Rank:** Attacks deal +2 damage
->>**Master Rank:** Attacks receive +10 to their check
->>
->>&nbsp
->>
->>*You let loose two shots in quick succession, trusting your skill over any careful aiming.*
->>
->>&nbsp
+>>&nbsp;
+>> 
 >>
 >>---
 >>
 >>&nbsp
 >>
->>| **Ability Name** | Cleanse Body | **Type**  |    Holy, Support    |
->>|:--------------: | :----------: | :-------: | :-----------------: |
->>|     **Rank**     |    Novice    |  **XP**   |                     |
->>|     **Cost**     |     1 MP     | **Heart** | Talent, Restoration |
->>|   **Actions**    |  1 Required  | **Range** |        30 m         |
+>> 
+>>`=this.HeartAbLink5`
 >>
->>&nbsp
->>Removes 1 instance of Poison, Disease, Blind, Dazed, Freezing, Paralyzed, Slowed, Sleep or Stunned from a single target.
+>>| | | |
+>>|:-:|:----------:|:-----:|:---------------------:|
+>>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank5]` | **XP** |`INPUT[number:Heartexp5]`|
 >>
->>&nbsp
->>
->>**Veteran Rank:** Removes all physical conditions from the target
->>
->>&nbsp
->>
->>*With your divine power you pull the poison out from the target, turning it into ash once outside their body.*
->>
->>&nbsp
->>
->>---
->>
->>&nbsp
->>
->>| **Ability Name** |  Backflip  | **Type**  | Martial, Utility |
->>|:----------------:|:----------:|:---------:|:----------------:|
->>|     **Rank**     | Apprentice |  **XP**   |      1,000       |
->>|  **Cost**     |    2 ST    | **Heart** |  Talent, Arrow   |
->>|   **Actions**    |    Free    | **Range** |       Self       |
->>
->>&nbsp
->> You automatically disengage from combat and gain +10 Dodge until your next turn.
->>
->>&nbsp
->>
->> **Apprentice Rank:** Opponent suffers D4 damage 
->> **Veteran Rank:**  Dodge increased to +20
->> **Master Rank:** Your next action receives +20
->>
->>&nbsp
->>
->> *You swiftly move around your opponent, suddenly jumping backwards against them and landing on a perfect defensive guard.*
->>
->>&nbsp
->>
->>---
->>
->>&nbsp
->>
->>| Ability Name |Identify Magic Item | Type | Arcane, Utility |
->>| :----------: | :-------------: | :---: | :-------------: |
->>| Rank | Novice | XP | |
->>| Cost | 2 MP | Heart | Talent, Ritual |
->>| Actions | 1 Required | Range | Touch |
->>
->>&nbsp
->> You learn the powers of an item, allowing you to use it. You close your eyes, concentrating on the item’s aura and learning all its secrets.
->>
->>&nbsp
->>
->>*After a long incantation, you touch the item, which collapses in a rainbow shower of solid aetheryte.*
->>
->>&nbsp
->>
->>---
->>
->>&nbsp
->>
->>| Ability Name | Portal | Type | Arcane, Utility |
->>| :----------: | :-----: | :---: | :-------------: |
->>| Rank | Novice | XP | |
->>| Cost | 10 MP | Heart | Prime, Ritual |
->>| Actions | 2 Required | Range | 5 Travel Days |
->>
->>&nbsp
->>Creates linked teleportation portals that remain open for 1 min. The destination portal can be set to appear on a place the caster is familiar with, or within their line of sight.
->>
->>&nbsp
->>
->>**Apprentice Rank:** Range increased to 10 Travel Days. 
->>**Veteran Rank:** Range increased to 20 Travel Days. 
->>**Master Rank:** Range increased to 40 Travel Days. 
->>
->>&nbsp
->>
->>*After a long incantation, you touch the item, which collapses in a rainbow shower of solid aetheryte.*
->>
->>&nbsp
->>
->>---
->>
->>&nbsp
->>
->>| Ability Name | Bless| Type | Holy, Support |
->>| :----------: | :-------: | :---: | :------------: |
->>| Rank | Novice | XP | |
->>| Cost | 4 MP | Heart | Power, Restore |
->>| Actions | 1 Required | Range | 30 m. |
->>
->>&nbsp
->>Description: Increase a target’s Brawn by +20 and Dodge by +10 for D4+2 rounds.
->>
->>&nbsp
->>
->>**Apprentice Rank:** Actions Required: Free
->>**Veteran Rank:** Duration increased to D6+2 rounds
->>**Master Rank:** Effect lasts until the end of combat
->>
->>&nbsp
->>
->>*A blinding glow appears from within the target’s chest, only to
-disappear seconds later.*
->>
->>&nbsp
+>>&nbsp;
+>> 
 >>
 >>---
 >>
 >>&nbsp
 >>
 >>
->>| Ability Name |     | Type  |     |
->>| ------------ | --- | ----- | --- |
->>| Rank         |     | XP    |     |
->>| Cost         |     | Heart |     |
->>| Actions      |     | Range |     |
->>Description:
 >>
+>>
+>>| | | |
+>>|:-:|:----------:|:-----:|:---------------------:|
+>>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank6]` | **XP** |`INPUT[number:Heartexp6]`|
+>>
+>>&nbsp;
+>> 
+>>
+>>---
+>>
+>>&nbsp
+>>
+>>
+>>
+>>
+>>| | | |
+>>|:-:|:----------:|:-----:|:---------------------:|
+>>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank7]` | **XP** |`INPUT[number:Heartexp7]`|
+>>
+>>&nbsp;
+>> 
 >>
 >>---
 >>
->>| Ability Name |     | Type  |     |
->>| ------------ | --- | ----- | --- |
->>| Rank         |     | XP    |     |
->>| Cost         |     | Heart |     |
->>| Actions      |     | Range |     |
->>Description:
+>>&nbsp
 >>
+>>
+>>
+>>
+>>| | | |
+>>|:-:|:----------:|:-----:|:---------------------:|
+>>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank8]` | **XP** |`INPUT[number:Heartexp8]`|
+>>
+>>&nbsp;
+>> 
 >>
 >>---
->>| Ability Name |     | Type  |     |
->>| ------------ | --- | ----- | --- |
->>| Rank         |     | XP    |     |
->>| Cost         |     | Heart |     |
->>| Actions      |     | Range |     |
->>Description:
+>>
+>>&nbsp
+>>
+>>
+>>
+>>
+>>| | | |
+>>|:-:|:----------:|:-----:|:---------------------:|
+>>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank9]` | **XP** |`INPUT[number:Heartexp9]`|
+>>
+>>&nbsp;
+>> 
+>>
+>>---
+>>
+>>&nbsp
+>>
+>>
+>>
+>>
+>>| | | |
+>>|:-:|:----------:|:-----:|:---------------------:|
+>>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank10]` | **XP** |`INPUT[number:Heartexp10]`|
+>>
+>>&nbsp;
+>> 
+>>
+>>---
 >>
 >>
 >>---
