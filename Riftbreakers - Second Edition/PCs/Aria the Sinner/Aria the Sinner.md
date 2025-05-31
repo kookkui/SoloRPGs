@@ -22,7 +22,7 @@ Weapon3type:
 Weapon3dmg: 
 Weapon3notes: 
 rank: Apprentice
-axp: 150
+axp: 
 xp: 250
 a-N: 65
 a-a: 

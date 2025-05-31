@@ -1,5 +1,5 @@
 ---
-Title: Protector of Kar Helos
+achievement_prog: Achievement in Progress Example
 STR: 10
 DEX: 16
 CON: 18
@@ -20,7 +20,7 @@ Weapon3:
 Weapon3type: 
 Weapon3dmg: 
 Weapon3notes: 
-rank: Apprentice
+achievement_path: Path of the Explorer
 axp: 100
 xp: 1575
 a-N: "355"
@@ -118,8 +118,8 @@ Heart4: Ritual
 >> ###### Stats
 >>  |
 >> ---|---|
->> **Rank** |`INPUT[suggester(option(Novice), option(Apprentice), option(Veteran), option(Master)):rank]` |
->>  **Title** |`=this.Title` |
+>> **Current Achievement Path** |`INPUT[suggester(option(Path of Slaughter), option(Path of Shadows), option(Path of the Arcane), option(Path of the Explorer), option(Path of the Diplomat)):achievement_path]` |
+>>  **Achievement in Progress** |`=this.achievement_prog` |
 >> **Reputation** | `3` |
 >>  **HP** | **Current:**`32` **Max:** `=this.CON*3`
 >> **Aether** | `31` /`VIEW[{WIL} + {INT} + 8]` |
