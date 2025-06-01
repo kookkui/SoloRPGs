@@ -3,14 +3,14 @@ Art: "![[Riftbreaker_Female.webp|600]]"
 Title: Protector of Kar Helos
 achievement_prog: Achievement in Progress Example
 Protection: D4+3
-Weapon1: Holy Longbow of the Bear
-Weapon1dmg: 2D6+4
-Weapon1type: Piercing
-Weapon1notes: Two-handed, Holy, Arrows UD12, Range 115 m
-Weapon2: Scimitar
-Weapon2dmg: D8+4
-Weapon2type: Slashing
-Weapon2notes: Parry, Finesse
+Weapon1: Longsword
+Weapon1dmg: D6
+Weapon1type: Slashing
+Weapon1notes: Bladed, Versatile, Parry(10)
+Weapon2: 
+Weapon2dmg: 
+Weapon2type: 
+Weapon2notes: 
 Weapon3: 
 Weapon3type: 
 Weapon3dmg: 
@@ -21,6 +21,8 @@ aaaetheryte: 0
 aaetheryte: 
 gems: 
 Armor1: Plain Tunic
+Armor1rate: D3
+Armor1notes: "Max Integrity: D6"
 quest1: "**Rift Closure:** Travel 14 days and close the marked rift. (Sky Islets)."
 quest1t: false
 quest2: "**Escort:** a caravan distance is 22 travel days."
@@ -80,16 +82,16 @@ title3: Quiver
 title4: Bandage Ud12
 title5: Arrows ud12
 title6: Rations x 2
-title7: Torch Ud10
+title7: 
 title8: ""
 title9: ""
 title10: ""
 title11: ""
 title12: ""
 title13: ""
-proficiency1: Longbow
-proficiency2: Scimitar
-proficiency3: Soft Leather
+proficiency1: Longsword
+proficiency2: Hard Leather
+proficiency3: 
 title21: ""
 title15: ""
 Hearts:
@@ -97,23 +99,20 @@ Hearts:
   - Arrow
   - Ritual
   - Elemental
-passive0: "**Restoration Heart**: *Dampening Aura* Reduce all incoming damage by -1 to all allies in a 10 m radius."
-passive1: "**Arrow Heart**: *Marksman* You suffer no penalty from firing a ranged weapon at melee range. Increase the range of your equipped ranged weapons by +50 m."
-passive2: "**Ritual Heart**: *Arcane Storage* You can summon a chest that has 10 item slots. This power gains +10 item slots per rank."
-Heart1: []
-Heart2: Elemental
-Heart3: Restoration
-Heart4: Ritual
+passive0: 
+passive1: 
+passive2: 
 HeartAbLink1: "![[Cleave]]"
-HearAb1: Novice
-HeartAbRank1: Novice
-Heartexp1: 
-gear1: ""
+HeartAbLink2: '"![[Bless]]"'
+gear1: Potion of Minor Healing X2
 gear2: ""
 Appearance1: |-
   Glowing Eyes: Your eyes glow faintly in the dark, with colors ranging from eerie white to deep crimson or electric blue.
   Translucent Skin: Your skin is semi-transparent, revealing faint outlines of your veins, muscles, or even bones beneath.
   Hair: Purple
+Integrity1: D6
+heart8: true
+heart9: true
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] %%FAKE TITLE HERE%% 
@@ -130,7 +129,7 @@ Appearance1: |-
 >> **Reputation** | `0` |
 >> **HP** | **Current:**`26` **Max:** `26`
 >> **Luck** | `0` |
->> **Parry** | `0` |
+>> **Parry** | `10` |
 >> **Max Aether** | `10` |
 >> **Protection** | `=this.Protection` |
 >>
@@ -175,7 +174,6 @@ Appearance1: |-
 >> ##### Supplies
 > |  | 
 >>|---|---
->>|**Rations**|`9` |
 >>|**Torches / Lamp Oil**| `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):torch1]` |
 >>|**Bandages**|`INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(None)):Bandage]` |
 >>|**RiftLord Timer**|`INPUT[inlineSelect(option(D10), option(D8), option(D6), option(None)):RiftLord]` |
@@ -221,36 +219,36 @@ Appearance1: |-
 >> ### Skill Checks
 >>| **Skill Name** | **Skill Level** | **Skill Up**
 >>| ------------------------- | ----------- | ----------- |
->>| **Agility** (10) | `10` | `INPUT[toggle:skill1]`|
->>| **Alchemy** | `10` | `INPUT[toggle:skill2]`|
->>| **Animal Handling** | `10` |`INPUT[toggle:skill3]`|
+>>| **Agility** (10) | `20` | `INPUT[toggle:skill1]`|
+>>| **Alchemy** | `30` | `INPUT[toggle:skill2]`|
+>>| **Animal Handling** | `0` |`INPUT[toggle:skill3]`|
 >>| **Armorsmithing** | `10` |`INPUT[toggle:skill4]`|
->>| **Athletics** (10) | `10` |`INPUT[toggle:skill5]`|
->>| **Bladed Weapons** | `10` |`INPUT[toggle:skill6]`|
->>| **Bludgeoning Weapons**  | `10` |`INPUT[toggle:skill7]`|
->>| **Cooking**  | `10` |`INPUT[toggle:skill8]`|
->>|**Command** | `10` | `INPUT[toggle:skill9]`|
->>| **Endurance (10)**  | `10` |`INPUT[toggle:skill10]`
->>| **Gathering**  | `10` |`INPUT[toggle:skill11]`
->>| **Insight**  | `10` |`INPUT[toggle:skill12]`
->>| **Jewelcrafting** | `10` |`INPUT[toggle:skill13]`
->>| **Literacy**| `10` |`INPUT[toggle:skill14]`
->>| **Lockpicking** | `10` |`INPUT[toggle:skill15]`
->>| **Manipulation** | `10` |`INPUT[toggle:skill16]`
->>| **Medicine**  | `10` |`INPUT[toggle:skill17]`
->>| **Nature**  | `10` |`INPUT[toggle:skill18]`
->>| **Perception (20)** | `10` |`INPUT[toggle:skill19]`
->>| **Performance** | `10` |`INPUT[toggle:skill20]`
->>| **Ranged Weapons** | `10` |`INPUT[toggle:skill21]`
+>>| **Athletics** (10) | `20` |`INPUT[toggle:skill5]`|
+>>| **Bladed Weapons** | `60` |`INPUT[toggle:skill6]`|
+>>| **Bludgeoning Weapons**  | `0` |`INPUT[toggle:skill7]`|
+>>| **Cooking**  | `15` |`INPUT[toggle:skill8]`|
+>>|**Command** | `0` | `INPUT[toggle:skill9]`|
+>>| **Endurance (10)**  | `25` |`INPUT[toggle:skill10]`
+>>| **Gathering**  | `30` |`INPUT[toggle:skill11]`
+>>| **Insight**  | `0` |`INPUT[toggle:skill12]`
+>>| **Jewelcrafting** | `0` |`INPUT[toggle:skill13]`
+>>| **Literacy**| `40` |`INPUT[toggle:skill14]`
+>>| **Lockpicking** | `0` |`INPUT[toggle:skill15]`
+>>| **Manipulation** | `0` |`INPUT[toggle:skill16]`
+>>| **Medicine**  | `15` |`INPUT[toggle:skill17]`
+>>| **Nature**  | `0` |`INPUT[toggle:skill18]`
+>>| **Perception (20)** | `30` |`INPUT[toggle:skill19]`
+>>| **Performance** | `0` |`INPUT[toggle:skill20]`
+>>| **Ranged Weapons** | `40` |`INPUT[toggle:skill21]`
 >>| **Reason (10)** | `10` |`INPUT[toggle:skill22]`
->>| **Sailing** | `10` |`INPUT[toggle:skill23]`
->>| **Shafted Weapons** | `10` |`INPUT[toggle:skill24]`
->>| **Sleight of Hand** | `10` |`INPUT[toggle:skill25]`
->>| **Stealth** | `10` |`INPUT[toggle:skill26]`
->>| **Survival** | `10` |`INPUT[toggle:skill27]`
->>| **Tenacity (10)** | `10` |`INPUT[toggle:skill28]`
+>>| **Sailing** | `0` |`INPUT[toggle:skill23]`
+>>| **Shafted Weapons** | `0` |`INPUT[toggle:skill24]`
+>>| **Sleight of Hand** | `0` |`INPUT[toggle:skill25]`
+>>| **Stealth** | `15` |`INPUT[toggle:skill26]`
+>>| **Survival** | `40` |`INPUT[toggle:skill27]`
+>>| **Tenacity (10)** | `40` |`INPUT[toggle:skill28]`
 >>| **Unarmed Combat (10)** | `10` |`INPUT[toggle:skill29]`
->>| **Weaponsmithing** | `10` |`INPUT[toggle:skill30]`
+>>| **Weaponsmithing** | `0` |`INPUT[toggle:skill30]`
 >
 >>[!gather] %%FAKE TITLE HERE%%
 >>##### Proficiencies
@@ -465,9 +463,6 @@ Appearance1: |-
 >> 
 >>`=this.HeartAbLink2`
 >>
->>| | | |
->>|:-:|:----------:|:-----:|:---------------------:|
->>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank2]` | **XP** |`INPUT[number:Heartexp2]`|
 >>
 >>&nbsp;
 >> 

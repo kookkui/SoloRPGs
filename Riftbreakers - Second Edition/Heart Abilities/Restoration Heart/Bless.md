@@ -1,9 +1,8 @@
 ---
-HeartAbCost: 2 Stamina
-HeartAbHeart: Might
-HeartDef: "Agility"
-HeartAbActions: Standard Action
-HeartAbRange: 0
+HeartAbCost: 4
+HeartAbHeart: Restoration
+HeartDef: 
+HeartAbRange: 0-2
 prime: false
 ---
 
@@ -18,8 +17,8 @@ prime: false
 >>&nbsp;
 >> 
 >> ##### Description
->>You perform a free Weapon Strike with a melee weapon that deals its damage to 2 targets within range.
+>>Increase a target’s Endurance by +20 and Agility by +10 for D4+2 rounds.
 >>
 >>&nbsp;
->>*You swing your weapon in a wide arc, striking your foes.*
+>>*A blinding glow appears from within the target’s chest, only to disappear seconds later.*
 >>

@@ -221,35 +221,35 @@ Appearance1: |-
 >>| **Skill Name** | **Skill Level** | **Skill Up**
 >>| ------------------------- | ----------- | ----------- |
 >>| **Agility** (10) | `10` | `INPUT[toggle:skill1]`|
->>| **Alchemy** | `10` | `INPUT[toggle:skill2]`|
->>| **Animal Handling** | `10` |`INPUT[toggle:skill3]`|
->>| **Armorsmithing** | `10` |`INPUT[toggle:skill4]`|
+>>| **Alchemy** | `0` | `INPUT[toggle:skill2]`|
+>>| **Animal Handling** | `0` |`INPUT[toggle:skill3]`|
+>>| **Armorsmithing** | `0` |`INPUT[toggle:skill4]`|
 >>| **Athletics** (10) | `10` |`INPUT[toggle:skill5]`|
->>| **Bladed Weapons** | `10` |`INPUT[toggle:skill6]`|
->>| **Bludgeoning Weapons**  | `10` |`INPUT[toggle:skill7]`|
->>| **Cooking**  | `10` |`INPUT[toggle:skill8]`|
->>|**Command** | `10` | `INPUT[toggle:skill9]`|
+>>| **Bladed Weapons** | `0` |`INPUT[toggle:skill6]`|
+>>| **Bludgeoning Weapons**  | `0` |`INPUT[toggle:skill7]`|
+>>| **Cooking**  | `0` |`INPUT[toggle:skill8]`|
+>>|**Command** | `0` | `INPUT[toggle:skill9]`|
 >>| **Endurance (10)**  | `10` |`INPUT[toggle:skill10]`
->>| **Gathering**  | `10` |`INPUT[toggle:skill11]`
->>| **Insight**  | `10` |`INPUT[toggle:skill12]`
->>| **Jewelcrafting** | `10` |`INPUT[toggle:skill13]`
->>| **Literacy**| `10` |`INPUT[toggle:skill14]`
->>| **Lockpicking** | `10` |`INPUT[toggle:skill15]`
->>| **Manipulation** | `10` |`INPUT[toggle:skill16]`
->>| **Medicine**  | `10` |`INPUT[toggle:skill17]`
->>| **Nature**  | `10` |`INPUT[toggle:skill18]`
->>| **Perception (20)** | `10` |`INPUT[toggle:skill19]`
->>| **Performance** | `10` |`INPUT[toggle:skill20]`
->>| **Ranged Weapons** | `10` |`INPUT[toggle:skill21]`
+>>| **Gathering**  | `0` |`INPUT[toggle:skill11]`
+>>| **Insight**  | `0` |`INPUT[toggle:skill12]`
+>>| **Jewelcrafting** | `0` |`INPUT[toggle:skill13]`
+>>| **Literacy**| `0` |`INPUT[toggle:skill14]`
+>>| **Lockpicking** | `0` |`INPUT[toggle:skill15]`
+>>| **Manipulation** | `0` |`INPUT[toggle:skill16]`
+>>| **Medicine**  | `0` |`INPUT[toggle:skill17]`
+>>| **Nature**  | `0` |`INPUT[toggle:skill18]`
+>>| **Perception (20)** | `20` |`INPUT[toggle:skill19]`
+>>| **Performance** | `0` |`INPUT[toggle:skill20]`
+>>| **Ranged Weapons** | `0` |`INPUT[toggle:skill21]`
 >>| **Reason (10)** | `10` |`INPUT[toggle:skill22]`
->>| **Sailing** | `10` |`INPUT[toggle:skill23]`
->>| **Shafted Weapons** | `10` |`INPUT[toggle:skill24]`
->>| **Sleight of Hand** | `10` |`INPUT[toggle:skill25]`
->>| **Stealth** | `10` |`INPUT[toggle:skill26]`
->>| **Survival** | `10` |`INPUT[toggle:skill27]`
+>>| **Sailing** | `0` |`INPUT[toggle:skill23]`
+>>| **Shafted Weapons** | `0` |`INPUT[toggle:skill24]`
+>>| **Sleight of Hand** | `0` |`INPUT[toggle:skill25]`
+>>| **Stealth** | `0` |`INPUT[toggle:skill26]`
+>>| **Survival** | `0` |`INPUT[toggle:skill27]`
 >>| **Tenacity (10)** | `10` |`INPUT[toggle:skill28]`
 >>| **Unarmed Combat (10)** | `10` |`INPUT[toggle:skill29]`
->>| **Weaponsmithing** | `10` |`INPUT[toggle:skill30]`
+>>| **Weaponsmithing** | `0` |`INPUT[toggle:skill30]`
 >
 >>[!gather] %%FAKE TITLE HERE%%
 >>##### Proficiencies

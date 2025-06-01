@@ -1,9 +1,9 @@
 ---
-HeartAbCost: 4 MP
-HeartAbHeart: Death
-HeartAbType: Combat, Prime
-HeartAbActions: Standard Action
-HeartAbRange: 30 m
+HeartAbCost: 2
+HeartAbHeart: Might
+HeartDef: "Agility"
+HeartAbRange: 0
+prime: false
 ---
 
 >[!crafting]  %%FAKE TITLE HERE%%
@@ -11,18 +11,14 @@ HeartAbRange: 30 m
 >>### `=this.file.name`
 >>|  | |  |  |
 >>|:--------:|:-------:|:-----:|:--------------:|
->>| **Ability Name** | `=this.file.name` | **Type** | `=this.HeartAbType` |
+>>| **Ability Name** | `=this.file.name` | **Defense** | `=this.HeartDef` |
 >>| **Cost** | `=this.HeartAbCost` | **Heart** | `=this.HeartAbHeart` |
->>| **Actions** | `=this.HeartAbActions` | **Range** | `=this.HeartAbRange` |
+>>| **Prime** | `INPUT[toggle:prime]` | **Range** | `=this.HeartAbRange` |
 >>&nbsp;
 >> 
 >> ##### Description
->>Target is healed for D6+DM Health. If the target is undead, it deals damage instead.
+>>You perform a free Weapon Strike with a melee weapon that deals its damage to 2 targets within range.
 >>
 >>&nbsp;
->>**Apprentice Rank:** Amount increased to 2D6+DM 
->>**Veteran Rank:** Amount increased to 3D6+DM 
->>**Master Rank:** Amount increased to 4D6+DM
->>&nbsp;
->>*You gather divine energy in your hand, shooting off a beam of bright light.*
+>>*You swing your weapon in a wide arc, striking your foes.*
 >>

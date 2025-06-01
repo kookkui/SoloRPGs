@@ -1,9 +1,10 @@
 ---
-HeartAbCost: 2 Stamina
+HeartAbCost: 4
 HeartAbHeart: Might
-HeartAbType: Combat, Talent
+HeartDef: "Agility"
 HeartAbActions: Standard Action
-HeartAbRange: Melee
+HeartAbRange: 0
+prime: false
 ---
 
 >[!crafting]  %%FAKE TITLE HERE%%
@@ -11,18 +12,14 @@ HeartAbRange: Melee
 >>### `=this.file.name`
 >>|  | |  |  |
 >>|:--------:|:-------:|:-----:|:--------------:|
->>| **Ability Name** | `=this.file.name` | **Type** | `=this.HeartAbType` |
+>>| **Ability Name** | `=this.file.name` | **Defense** | `=this.HeartDef` |
 >>| **Cost** | `=this.HeartAbCost` | **Heart** | `=this.HeartAbHeart` |
->>| **Actions** | `=this.HeartAbActions` | **Range** | `=this.HeartAbRange` |
+>>| **Prime** | `INPUT[toggle:prime]` | **Range** | `=this.HeartAbRange` |
 >>&nbsp;
 >> 
 >> ##### Description
->>Perform a standard attack with your melee weapon that deals weapon+DM damage to 2 adjacent targets.
+>>You perform a free Weapon Strike with a melee weapon that deals its damage to 2 targets within range.
 >>
->>&nbsp;
->>**Apprentice Rank:** Damage dealt increased by +D4 
->>**Veteran Rank:** Damage dealt increased by +D6 
->>**Master Rank:** Damage dealt increased by +D8
 >>&nbsp;
 >>*You swing your weapon in a wide arc, striking your foes.*
 >>
