@@ -1,5 +1,5 @@
 
-| `dice:d12` | Ability  |
+| `dice:d12` | Ability Loadout  |
 | ---------- | -------- |
 | 1          | Weapon Strike (Two-Handed)     |
 | 2          | Weapon Strike (Two-Handed)      |
@@ -13,6 +13,8 @@
 | 10         | Mark  |
 | 11         | Mark    |
 | 12         | Mark   |
+
+^f99d19
 
 
 

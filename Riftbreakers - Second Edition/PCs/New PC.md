@@ -20,6 +20,7 @@ aetheryte: 14
 aaaetheryte: 0
 aaetheryte: 
 gems: 
+Armor1: Plain Tunic
 quest1: "**Rift Closure:** Travel 14 days and close the marked rift. (Sky Islets)."
 quest1t: false
 quest2: "**Escort:** a caravan distance is 22 travel days."
@@ -127,7 +128,7 @@ Appearance1: |-
 >>  **Achievement in Progress** |`=this.achievement_prog` |
 >> **Ability Pool** | `20` |
 >> **Reputation** | `0` |
->> **HP** | **Current:**`32` **Max:** `32`
+>> **HP** | **Current:**`26` **Max:** `26`
 >> **Luck** | `0` |
 >> **Parry** | `0` |
 >> **Max Aether** | `10` |
