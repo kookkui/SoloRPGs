@@ -1,8 +1,10 @@
 ---
-HeartAbCost: 2
-HeartAbHeart: Might
+HeartAbCost: 5
+HeartAbHeart: Restoration
 HeartDef: "Agility"
-HeartAbRange: 0
+HeartDes: 
+HeartFlav:
+HeartAbRange: 0-2
 prime: false
 ---
 
@@ -17,8 +19,8 @@ prime: false
 >>&nbsp;
 >> 
 >> ##### Description
->>You perform a free Weapon Strike with a melee weapon that deals its damage to 2 targets within range.
+>>`=this.HeartDes`
 >>
 >>&nbsp;
->>*You swing your weapon in a wide arc, striking your foes.*
+>>`=this.HeartFlav`
 >>

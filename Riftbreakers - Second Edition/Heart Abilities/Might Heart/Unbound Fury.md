@@ -1,11 +1,11 @@
 ---
-HeartAbCost: 4
+HeartAbCost: 5
 HeartAbHeart: Might
-HeartDef: "Agility"
-HeartDes: You perform a free Weapon Strike with a melee weapon that deals its damage to 2 targets within range.
-HeartFlav: "*You swing your weapon in a wide arc, striking your foes.*"
-HeartAbRange: 0
-prime: false
+HeartDef: Endurance
+HeartDes: All targets within the area of effect become Stunned for D4 rounds.
+HeartFlav: "*You let out a blood-curdling roar, confusing and freezing in place all your enemies.*"
+HeartAbRange: "0"
+prime: true
 ---
 
 >[!crafting]  %%FAKE TITLE HERE%%

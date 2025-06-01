@@ -1,10 +1,11 @@
 ---
-HeartAbCost: 2 Stamina
+HeartAbCost: 5
 HeartAbHeart: Might
-HeartDef: "Agility"
-HeartAbActions: Standard Action
-HeartAbRange: 0
-prime: false
+HeartDef: 
+HeartDes: For the remainder of combat, if you are wielding a two-handed weapon you deal an additional D4 damage.
+HeartFlav: "*You shift your stance slightly, focusing on a two-handed, specialized combat style.*"
+HeartAbRange: Self
+prime: true
 ---
 
 >[!crafting]  %%FAKE TITLE HERE%%
@@ -18,8 +19,8 @@ prime: false
 >>&nbsp;
 >> 
 >> ##### Description
->>You perform a free Weapon Strike with a melee weapon that deals its damage to 2 targets within range.
+>>`=this.HeartDes`
 >>
 >>&nbsp;
->>*You swing your weapon in a wide arc, striking your foes.*
+>>`=this.HeartFlav`
 >>

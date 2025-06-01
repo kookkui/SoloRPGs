@@ -1,5 +1,5 @@
 ---
-Art: "![[Riftbreaker_Female.webp|600]]"
+Art: "![[Aurielle.webp|550]]"
 Title: Protector of Kar Helos
 achievement_prog: Achievement in Progress Example
 Protection: D4+3
@@ -23,22 +23,27 @@ gems:
 Armor1: Plain Tunic
 Armor1rate: D3
 Armor1notes: "Max Integrity: D6"
-quest1: "**Rift Closure:** Travel 14 days and close the marked rift. (Sky Islets)."
+hand1:
+hand2:
+hand3:
+hand4:
+hand5:
+quest1: 
 quest1t: false
-quest2: "**Escort:** a caravan distance is 22 travel days."
+quest2: 
 quest2t: 
-quest3: "**Patrol:** Patrol the perimeter and wilds for 17 days. Mark any rifts found with a beacon. Roll a d10 each day, on a 1 or 2, there is a rift."
+quest3: 
 quest3t: 
-quest4: "**Collect:** deliver 22 Chitinous Plate."
+quest4: 
 quest4t: 
-quest5: "**Rift Closure:** Travel 14 days and close the marked rift. (Timeworn Ruins)."
+quest5: 
 quest5t: 
-quest6: "**Patrol:**the perimeter and wilds for 11 days. Mark any rifts found with a beacon. Roll a d10 each day, on a 1 or 2, there is a rift."
+quest6: 
 quest6t: 
-quest7: "**Collect:** deliver 13 Fiery Ember."
+quest7: 
 quest7t: 
-quest8: "**Escort:** a caravan distance is 21 travel days."
-quest9: "**Monster Hunt:** Travel 7 days and search for the monster. The type of monster is determined by the region."
+quest8: 
+quest9: 
 quest10: 
 headname: 
 headmagic: 
@@ -56,32 +61,30 @@ pantsname:
 pantsmagic: 
 pantsquirk: 
 pantsnotes: 
-bootname: Victorious Gloves of the Whisper
-bootmagic: Constitution +1 Charisma +1
-bootquirk: Smells like rotten flesh
-bootrank: Novice
-bootnotes: 200A, Air Earth
-ring1name: Champion's Ring of the Snake
-ring1magic: Dexterity +1, Reduce your Stamina pool by 5 (26), but increase your Aether pool by 8 (23). You no longer need to eat or drink.
-ring1quirk: It's always pristine
-ring1rank: Novice
-ring1notes: 300A Air Life 2x Boon Bane
-ring2name: Mage's Wonderful Ring
-ring2magic: Stamina +8, On command, this item works as a source of light. Illuminates in a 20 m. radius.
-ring2quirk: It's always covered in a layer of mucus
-ring2rank: Novice
-ring2notes: 300A Fire 2xPower Light
-pendantgearname: Knight's Glass Stone
-pendantgearmagic: You can detect all living beings in a 20 m. radius. Increase your luck by +5
-pendantgearquirk: It appears to be completely made of glass. It doesn't make it more fragile than it should be though
-pendantgearrank: Novice
-pendantgearnotes: Chaos Life Boon Light 200A  Rarity:Uncommon
-title1: Backpack
-title2: Extra-Dimensional bag x 0
-title3: Quiver
-title4: Bandage Ud12
-title5: Arrows ud12
-title6: Rations x 2
+bootname: 
+bootmagic: 
+bootquirk: 
+bootnotes: 
+ring1name: 
+ring1magic: 
+ring1quirk: 
+ring1notes: 
+ring2name: 
+ring2magic: 
+ring2quirk: 
+ring2rank: 
+ring2notes: 
+pendantgearname: 
+pendantgearmagic: 
+pendantgearquirk: 
+pendantgearrank: 
+pendantgearnotes: 
+title1: 
+title2: 
+title3: 
+title4: 
+title5: 
+title6: 
 title7: 
 title8: ""
 title9: ""
@@ -103,8 +106,12 @@ passive0:
 passive1: 
 passive2: 
 HeartAbLink1: "![[Cleave]]"
-HeartAbLink2: '"![[Bless]]"'
-gear1: Potion of Minor Healing X2
+HeartAbLink2: "![[Bless]]"
+HeartAbLink3: "![[Divine Shield]]"
+HeartAbLink4: "![[Two-Handed Weapon Master]]"
+HeartAbLink5: "![[Unbound Fury]]"
+HeartAbLink6: "![[Holy Weapon]]"
+gear1: "Potion of Minor Healing X2"
 gear2: ""
 Appearance1: |-
   Glowing Eyes: Your eyes glow faintly in the dark, with colors ranging from eerie white to deep crimson or electric blue.
@@ -188,11 +195,11 @@ heart9: true
 >>### Current Hand
 >>| | |
 >>| :-: | ---------------- |
->>|1|`INPUT[text:gear1]` | 
->>|2|`INPUT[text:gear2]` | 
->>|3|`INPUT[text:gear3]` |
->>|4|`INPUT[text:gear4]` |
->>|5|`INPUT[text:gear5]` |
+>>|1|`INPUT[text:hand1]` | 
+>>|2|`INPUT[text:hand2]` | 
+>>|3|`INPUT[text:hand3]` |
+>>|4|`INPUT[text:hand4]` |
+>>|5|`INPUT[text:hand5]` |
 >>
 >> &nbsp;
 >>
@@ -458,7 +465,7 @@ heart9: true
 >>
 >>---
 >>
->>&nbsp
+>>&nbsp;
 >>
 >> 
 >>`=this.HeartAbLink2`
@@ -469,42 +476,62 @@ heart9: true
 >>
 >>---
 >>
->>&nbsp
+>>&nbsp;
 >>
 >> 
 >>`=this.HeartAbLink3`
 >>
->>| | | |
->>|:-:|:----------:|:-----:|:---------------------:|
->>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank3]` | **XP** |`INPUT[number:Heartexp3]`|
 >>
 >>&nbsp;
 >> 
 >>
 >>---
 >>
->>&nbsp
+>>&nbsp;
 >>
 >> 
 >>`=this.HeartAbLink4`
 >>
->>| | | |
->>|:-:|:----------:|:-----:|:---------------------:|
->>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank4]` | **XP** |`INPUT[number:Heartexp4]`|
 >>
 >>&nbsp;
 >> 
 >>
 >>---
 >>
->>&nbsp
+>>&nbsp;
 >>
 >> 
 >>`=this.HeartAbLink5`
 >>
->>| | | |
->>|:-:|:----------:|:-----:|:---------------------:|
->>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank5]` | **XP** |`INPUT[number:Heartexp5]`|
+>>
+>>&nbsp;
+>> 
+>>
+>>---
+>>
+>>&nbsp;
+>>
+>>`=this.HeartAbLink6`
+>>
+>>
+>>&nbsp;
+>> 
+>>
+>>---
+>>
+>>&nbsp;
+>>
+>>`=this.HeartAbLink7`
+>>
+>>
+>>&nbsp;
+>> 
+>>
+>>---
+>>
+>>&nbsp;
+>>
+>>`=this.HeartAbLink8`
 >>
 >>&nbsp;
 >> 
@@ -513,78 +540,32 @@ heart9: true
 >>
 >>&nbsp
 >>
+>>`=this.HeartAbLink9`
 >>
->>
->>
->>| | | |
->>|:-:|:----------:|:-----:|:---------------------:|
->>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank6]` | **XP** |`INPUT[number:Heartexp6]`|
 >>
 >>&nbsp;
 >> 
 >>
 >>---
 >>
->>&nbsp
+>>&nbsp;
 >>
+>>`=this.HeartAbLink10`
 >>
->>
->>
->>| | | |
->>|:-:|:----------:|:-----:|:---------------------:|
->>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank7]` | **XP** |`INPUT[number:Heartexp7]`|
 >>
 >>&nbsp;
 >> 
 >>
 >>---
 >>
->>&nbsp
->>
->>
->>
->>
->>| | | |
->>|:-:|:----------:|:-----:|:---------------------:|
->>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank8]` | **XP** |`INPUT[number:Heartexp8]`|
->>
 >>&nbsp;
->> 
 >>
->>---
->>
->>&nbsp
->>
->>
->>
->>
->>| | | |
->>|:-:|:----------:|:-----:|:---------------------:|
->>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank9]` | **XP** |`INPUT[number:Heartexp9]`|
->>
->>&nbsp;
->> 
->>
->>---
->>
->>&nbsp
->>
->>
->>
->>
->>| | | |
->>|:-:|:----------:|:-----:|:---------------------:|
->>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank10]` | **XP** |`INPUT[number:Heartexp10]`|
->>
->>&nbsp;
->> 
 >>#### Character Appearance
 >>`INPUT[textArea:Appearance1]`
->>---
->>
->>
->>---
->>
+
+
+
+
 
 ```meta-bind-button
 label: Add

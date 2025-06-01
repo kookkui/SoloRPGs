@@ -1,11 +1,11 @@
 ---
-HeartAbCost: 4
-HeartAbHeart: Might
-HeartDef: "Agility"
-HeartDes: You perform a free Weapon Strike with a melee weapon that deals its damage to 2 targets within range.
-HeartFlav: "*You swing your weapon in a wide arc, striking your foes.*"
-HeartAbRange: 0
-prime: false
+HeartAbCost: 6
+HeartAbHeart: Restoration
+HeartDef: 
+HeartDes: You summon a weapon of your choice for you to wield that deals D8 Radiant damage. Any instance of Weapon Strike in your Loadout uses this weapon. The weapon lasts until the end of combat.
+HeartFlav: "*A burst of holy energy solidifies in your hand, creating a terrifying weapon of divine nature.*"
+HeartAbRange: Self
+prime: true
 ---
 
 >[!crafting]  %%FAKE TITLE HERE%%
@@ -23,4 +23,4 @@ prime: false
 >>
 >>&nbsp;
 >>`=this.HeartFlav`
->>
+

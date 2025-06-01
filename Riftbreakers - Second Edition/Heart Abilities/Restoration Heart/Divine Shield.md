@@ -1,10 +1,10 @@
 ---
-HeartAbCost: 4
-HeartAbHeart: Might
-HeartDef: "Agility"
-HeartDes: You perform a free Weapon Strike with a melee weapon that deals its damage to 2 targets within range.
-HeartFlav: "*You swing your weapon in a wide arc, striking your foes.*"
-HeartAbRange: 0
+HeartAbCost: 5
+HeartAbHeart: Restoration
+HeartDef: Agility
+HeartDes: Grants a target +3 Protection until your next turn.
+HeartFlav: "*You envelop your target in a shining halo of holy energy that deflects incoming attacks.*"
+HeartAbRange: 0-2
 prime: false
 ---
 
