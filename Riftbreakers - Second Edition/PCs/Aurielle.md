@@ -23,11 +23,11 @@ gems:
 Armor1: Plain Tunic
 Armor1rate: D3
 Armor1notes: "Max Integrity: D6"
-hand1: 
-hand2: 
-hand3: 
-hand4: 
-hand5: 
+hand1: Weapon Strike (One-Handed)
+hand2: Bless
+hand3: Holy Weapon
+hand4: ""
+hand5: Weapon Strike (Two-Handed)
 quest1: "**Monster Hunt**: The quest is to hunt a Luminous Lizard that as been terrorizing near by villages at night. Distance: 8 Hexes. Rewards: 200⟑"
 quest1t: false
 quest2: "**Monster Hunt**: A Poisonous Frog has been seen in near by rivers and bogs some say it recently ate a small child whole. Eliminate this menace. Distance: 9 Hexes. Rewards: 1x Random Companion"
@@ -413,6 +413,8 @@ reputation_rank: Initiate
 >>|3|`INPUT[text:hand3]` |
 >>|4|`INPUT[text:hand4]` |
 >>|5|`INPUT[text:hand5]` |
+>>| | |
+>>|Aether|`boxes: 8/10` |
 >>
 >> &nbsp;
 >>

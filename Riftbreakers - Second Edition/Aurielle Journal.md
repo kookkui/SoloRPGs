@@ -57,3 +57,12 @@ Combat Start
 
 PC Turn
 
+Casting Two-Handed Weapon Master -5 MP
+*For the remainder of combat, if you are wielding a two-handed weapon you deal an additional D4 damage.*
+
+Weapon Strike (Two-Handed) ⍈  
+Cost: 3 / Range: As weapon / Standard Action / Defense: Parry  
+Make a weapon skill check with your weapon. If successful, you deal D6+2 damage.  
+You wield your weapon with purpose, striking at your target.
+
+**Bladed Weapons** Check (60) 
