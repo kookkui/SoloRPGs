@@ -1,7 +1,7 @@
 ---
 Art: "![[Aurielle.webp|550]]"
-Title: Protector of Kar Helos
-achievement_prog: Achievement in Progress Example
+Title: 
+achievement_prog: "Riftbreaker: Successfully close 5 Rifts."
 Protection: D4+3
 Weapon1: Longsword
 Weapon1dmg: D6
@@ -23,11 +23,11 @@ gems:
 Armor1: Plain Tunic
 Armor1rate: D3
 Armor1notes: "Max Integrity: D6"
-hand1:
-hand2:
-hand3:
-hand4:
-hand5:
+hand1: 
+hand2: 
+hand3: 
+hand4: 
+hand5: 
 quest1: 
 quest1t: false
 quest2: 
@@ -111,7 +111,7 @@ HeartAbLink3: "![[Divine Shield]]"
 HeartAbLink4: "![[Two-Handed Weapon Master]]"
 HeartAbLink5: "![[Unbound Fury]]"
 HeartAbLink6: "![[Holy Weapon]]"
-gear1: "Potion of Minor Healing X2"
+gear1: Potion of Minor Healing X2
 gear2: ""
 Appearance1: |-
   Glowing Eyes: Your eyes glow faintly in the dark, with colors ranging from eerie white to deep crimson or electric blue.
@@ -120,6 +120,7 @@ Appearance1: |-
 Integrity1: D6
 heart8: true
 heart9: true
+reputation_rank: Initiate
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] %%FAKE TITLE HERE%% 
@@ -133,7 +134,7 @@ heart9: true
 >> **Current Achievement Path** |`INPUT[suggester(option(Path of Slaughter), option(Path of Shadows), option(Path of the Arcane), option(Path of the Explorer), option(Path of the Diplomat)):achievement_path]` |
 >>  **Achievement in Progress** |`=this.achievement_prog` |
 >> **Ability Pool** | `20` |
->> **Reputation** | `0` |
+>> **Reputation** | `0` `INPUT[suggester(option(Initiate), option(Journeyman), option(Vanguard), option(Champion), option(High Warden)):reputation_rank]` |
 >> **HP** | **Current:**`26` **Max:** `26`
 >> **Luck** | `0` |
 >> **Parry** | `10` |
