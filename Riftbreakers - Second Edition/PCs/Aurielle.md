@@ -2,7 +2,7 @@
 Art: "![[Aurielle.webp|550]]"
 Title: 
 achievement_prog: "Riftbreaker: Successfully close 5 Rifts."
-Protection: D4+3
+Protection: D3
 Weapon1: Longsword
 Weapon1dmg: D6
 Weapon1type: Slashing
@@ -28,15 +28,15 @@ hand2:
 hand3: 
 hand4: 
 hand5: 
-quest1: 
+quest1: "**Monster Hunt**: The quest is to hunt a Luminous Lizard that as been terrorizing near by villages at night. Distance: 8 Hexes. Rewards: 200⟑"
 quest1t: false
-quest2: 
+quest2: "**Monster Hunt**: A Poisonous Frog has been seen in near by rivers and bogs some say it recently ate a small child whole. Eliminate this menace. Distance: 9 Hexes. Rewards: 1x Random Companion"
 quest2t: 
-quest3: 
+quest3: "**Rift Closure:** A Rift appeared one night and is spewing out monstrosities! Distance: 6 Hexes. Rift Dominion:  Primordial Forest Rewards: 1x Random Magic Item"
 quest3t: 
-quest4: 
+quest4: "**Patrol:** A patrol duty to check the far reaches for new Rifts. Need the new lay abouts to take on some responsibility around here. Distance: 19 Hexes. 3x Skill Books"
 quest4t: 
-quest5: 
+quest5: "**Rift Closure:** A Rift appeared down by the ol' mill! Jessup damn near got eaten! Distance: 16 Hexes. Rift Dominion: Lava FieldsRewards: 1x Random Formula or Blueprint"
 quest5t: 
 quest6: 
 quest6t: 
@@ -275,15 +275,15 @@ reputation_rank: Initiate
 >>### Quests
 >>|**Quest Description** |**Completed** | **Timer/Counter**|
 >> |:---: | --- | :---------: |
->>| `=this.quest1` | `INPUT[toggle:quest1t]` | `7/14`
->> |`=this.quest2` |`INPUT[toggle:quest2t]` | `0/22`
->>| `=this.quest3` | `INPUT[toggle:quest3t]` | `0/17`
->> |`=this.quest4` |`INPUT[toggle:quest4t]` | `0/22`
->>| `=this.quest5` | `INPUT[toggle:quest5t]` | `0/14`
->> |`=this.quest6` |`INPUT[toggle:quest6t]` | `0/11`
->>| `=this.quest7` | `INPUT[toggle:ques71t]` | `0/13`
->> |`=this.quest8` |`INPUT[toggle:quest8t]` | `0/21`
->>| `=this.quest9` | `INPUT[toggle:ques91t]` | `0/7`
+>>| `=this.quest1` | `INPUT[toggle:quest1t]` | `boxes: 0/16`
+>> |`=this.quest2` |`INPUT[toggle:quest2t]` | `boxes: 0/18`
+>>| `=this.quest3` | `INPUT[toggle:quest3t]` | `boxes: 0/6`
+>> |`=this.quest4` |`INPUT[toggle:quest4t]` | `boxes: 0/19`
+>>| `=this.quest5` | `INPUT[toggle:quest5t]` | `boxes: 0/16`
+>> |`=this.quest6` |`INPUT[toggle:quest6t]` | `0`
+>>| `=this.quest7` | `INPUT[toggle:ques71t]` | `0`
+>> |`=this.quest8` |`INPUT[toggle:quest8t]` | `0`
+>>| `=this.quest9` | `INPUT[toggle:ques91t]` | `0`
 >> |`=this.quest10` |`INPUT[toggle:quest10t]` |
 
 ---

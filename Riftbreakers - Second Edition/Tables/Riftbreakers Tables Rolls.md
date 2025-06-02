@@ -64,21 +64,9 @@
 >[!npc] Gathering Tables
 >
 >##### Gathering - Type of Mineral Deposit Found
->`dice:[[General Tables#^052746]]`
 >
 >##### Type of Alchemical Ingredient Found
->`dice:[[General Tables#^145d1d]]`
 
->[!dice] Combat
->
->##### Monster Target Priority
->`dice:[[General Tables#^6d1d6b]]`
->
->##### Mender Actions
->`dice:[[General Tables#^c051eb]]`
->
->##### Bulwark Actions
->`dice:[[General Tables#^2bfe1b]]`
 
 >[!table] Loot
 >
@@ -111,6 +99,23 @@
 >
 >##### Companion Gear - Ring Magic Properties
 >`dice:[[Loot Table#^fdc448]]`
+
+>[!dice] Quest Board Tables
+>
+>##### Quest Rewards
+>`dice:[[Quest Board Tables#^18a584]]`
+>
+>##### Quest Type
+>`dice:[[Quest Board Tables#^bae968]]`
+>
+>#### Rift Dominion
+>`dice:[[Quest Board Tables#^fcb101]]`
+>
+>##### Monster Hunt Target
+>`dice:[[Quest Board Tables#^e58227]]`
+>
+>##### Type of Material to Deliver
+>`dice:[[Quest Board Tables#^39ed86]]`
 
 [[Riftbreakers House Rules#Gathering]]
 

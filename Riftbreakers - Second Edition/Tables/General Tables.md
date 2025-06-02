@@ -1,38 +1,22 @@
-| `dice: 1d6` | Area Links |
-| ----------- | ---------- |
-| 1           | One        |
-| 2-4         | Two        |
-| 5-6         | Three      |
+### Area Links
+
+|`dice:d6`|Area Links|
+|---|---|
+|1|One|
+|2-3|Two|
+|4-5|Three|
+|6|Four|
 
 ^2c2cdc
 
-| `dice: 1d12` | Type of Alchemical Ingredient Found       |
-| ------------ | ----------------------------------------- |
-| 1            | Aether Bloom (Aspect: Power) x`dice:d4`    |
-| 2            | Blackroot (Aspect: Dark) x`dice:d4`        |
-| 3            | Celestial Dust (Aspect: Light) x`dice:d4`  |
-| 4            | Dragon’s Claw (Aspect: Fire) x`dice:d4`    |
-| 5            | Ember Moss (Aspect: Fire) x`dice:d4`       |
-| 6            | Ghost Leaf (Aspect: Death) x`dice:d4`      |
-| 7            | Moonstone Shard (Aspect: Boon) x`dice:d4`  |
-| 8            | Nightshade Bloom (Aspect: Bane) x`dice:d4` |
-| 9            | Rainbow Petal (Aspect: Boon) x`dice:d4`    |
-| 10           | Shadow Fern (Aspect: Dark) x`dice:d4`      |
-| 11           | Starlight Seed (Aspect: Light) x`dice:d4`  |
-| 12           | Thunder Leaf (Aspect: Air) x`dice:d4`      |
-
-^145d1d
-
-| `dice: 1d8` | Random Direction |
-| ----------- | ---------------- |
-| 1           | North            |
-| 2           | Northeast        |
-| 3           | East             |
-| 4           | Southeast        |
-| 5           | South            |
-| 6           | Southwest        |
-| 7           | West             |
-| 8           | Northwest        |
+|`dice:d6`|Random Direction|
+|---|---|
+|1|North|
+|2|Northeast|
+|3|Southeast|
+|4|South|
+|5|Southwest|
+|6|Northwest|
 
 ^c0cced
 
