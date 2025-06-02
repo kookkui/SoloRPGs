@@ -31,3 +31,29 @@ Heading South...
 
 Interesting Find:  An Island Golem (page 256) stands in front of you motionless, covered in vines. You can attempt to sneak past it via a Stealth 
 check. Failure activates it, and it attacks immediately.
+
+Stealth Check (15) `d100 = 25` Failed!
+
+The Golem suddenly roars to life!
+
+```statblock
+creature: Island Golem
+```
+
+
+```encounter
+players:
+  - Aurielle
+creatures:
+  - Island Golem , 18, 8, 0
+```
+
+
+Perception (30) `d100 = 18`
+vs 
+Awareness (50) `d100 = 98` Failed
+
+Combat Start
+
+PC Turn
+

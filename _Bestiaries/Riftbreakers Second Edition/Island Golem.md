@@ -1,7 +1,7 @@
 ```statblock
-name: "Monster (RB)"
+name: "Island Golem"
 layout: Riftbreakers_2E
-description: "description"
+description: "*A towering humanoid creature made of stone and clay that can smash through anything in its way.*"
 
 actions: "1♟"
 agility: "10"
