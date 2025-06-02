@@ -1,74 +1,40 @@
 ```statblock
+name: "Monster (RB)"
+layout: Riftbreakers_2E
+description: "description"
 
-name: n1
+actions: "1♟"
+agility: "10"
+athletics: "80"
+cs: "60"
+endurance: "80"
+evasion: "12"
+hp: 18♟"
 
-layout: Riftbreakers
+move: "1"
+number: "1"
+parry: "0"
+perception: "50"
 
-description: "d2"
+protection: "D8"
+tenacity: "80"
+type: "Construct"
 
-Number: 1
-
-Type: Construct
-
-Speed: 15
-
-Size: Large
-
-Combat Skill: 10
-
-Coordination: 35
-
-Intellect: 20
-
-Tenacity: 40
-
-Vitality: 80
-
-Health: 45
-
-Armor: D6
-
-Perception: 40
 
 traits:
-  - name: "Special:"
-    desc: "S1"
-  - name: Apprentice Rank
-    desc: "t1"
-  - name: Veteran Rank
-    desc: "t2"
-  - name: Master Rank
-    desc: "t3"
+  - name: "Traits:"
+    desc: "Melee"
+
 actions:
-  - name: "1-3"
-    desc: "A1"
-  - name: "4"
-    desc: "A2"
-  - name: "5-6"
-    desc: "A3"
-  - name: "P4"
-    desc: "A4"
+  - name: '1-2'
+    desc: '**Rock Throw**: The Island Golem picks up a large rock and hurls it at its target. It makes a Combat Skill check, dealing D10+3 Bludgeoning damage on a hit.'
+  - name: '3-4'
+    desc: '**Ground Slam**: The Island Golem slams its fists onto the ground, creating a shockwave that deals D8+2 Bludgeoning damage to all creatures within the same Combat Zone if they fail an Agility check.'
+  - name: '5'
+    desc: '**Charge**: The Island Golem charges against a random target in any Combat Zone, dealing 3D6 Bludgeoning damage.'
+  - name: '6'
+    desc: '**Calcified Water Armor**: The Island Golem hardens its body, gaining +2 Protection until its next turn.'
 
-loot:
-  - name: "1-30"
-    desc: "20**⟑**"
-  - name: "31-40"
-    desc: "10 units of a Random Alchemical ingredient"
-  - name: "41-50"
-    desc: "1x Potion"
-  - name: "51-55"
-    desc: "l2"
-  - name: "56-72"
-    desc: "l3"
-  - name: "73-80"
-    desc: "l4"
-  - name: "81-87"
-    desc: "Essence. Roll on the Random Essence table"
-  - name: "88-95"
-    desc: "Heart. Roll on the Random Heart table "
-  - name: "96-100"
-    desc: "Random Magic Item"
+
+
 ```
-
-
-

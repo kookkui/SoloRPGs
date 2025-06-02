@@ -21,3 +21,13 @@ At the quest board, there are 5 quests listed today...
 
 - Rift Closure: A Rift appeared down by the ol' mill! Jessup damn near got eaten! Distance: 16 Hexes. Rift Dominion:  Lava Fields
 	-  Rewards: 1x Random Formula or Blueprint
+
+
+### 998-04-11
+
+Heading out on the hunt for the Poisonous Frog.
+
+Heading South...
+
+Interesting Find:  An Island Golem (page 256) stands in front of you motionless, covered in vines. You can attempt to sneak past it via a Stealth 
+check. Failure activates it, and it attacks immediately.

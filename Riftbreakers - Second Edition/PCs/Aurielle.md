@@ -133,7 +133,7 @@ reputation_rank: Initiate
 >>**Title** |`=this.Title` |
 >> **Current Achievement Path** |`INPUT[suggester(option(Path of Slaughter), option(Path of Shadows), option(Path of the Arcane), option(Path of the Explorer), option(Path of the Diplomat)):achievement_path]` |
 >>  **Achievement in Progress** |`=this.achievement_prog` |
->> **Ability Pool** | `20` |
+>> **Ability Pool** | Used: `6` **Max:** `20` |
 >> **Reputation** | `0` `INPUT[suggester(option(Initiate), option(Journeyman), option(Vanguard), option(Champion), option(High Warden)):reputation_rank]` |
 >> **HP** | **Current:**`26` **Max:** `26`
 >> **Luck** | `0` |
@@ -190,36 +190,6 @@ reputation_rank: Initiate
 >>
 
 ---
-
->[!travel] %%FAKE TITLE HERE%%
->>[!travel] %%FAKE TITLE HERE%%
->>### Current Hand
->>| | |
->>| :-: | ---------------- |
->>|1|`INPUT[text:hand1]` | 
->>|2|`INPUT[text:hand2]` | 
->>|3|`INPUT[text:hand3]` |
->>|4|`INPUT[text:hand4]` |
->>|5|`INPUT[text:hand5]` |
->>
->> &nbsp;
->>
->>### Ability Loadout
->>| `dice:d12` | Ability Loadout  |
->>| ---------- | -------- |
->>| 1          | Weapon Strike (Two-Handed)     |
->>| 2          | Weapon Strike (Two-Handed)      |
->>| 3          | Weapon Strike (Two-Handed)   |
->>| 4          | Raise Skeleton     |
->>| 5          | Weave    |
->>| 6          | Sweeping Whirlwind |
->>| 7          | Double Strike     |
->>| 8          | Demonstrate Superiority |
->>| 9          | Warning   |
->>| 10         | Mark  |
->>| 11         | Mark    |
->>| 12         | Mark   |
-
 
 >[!gather] %%FAKE TITLE HERE%%
 >>[!gather] %%FAKE TITLE HERE%%
@@ -330,13 +300,13 @@ reputation_rank: Initiate
 >>| 6 |`INPUT[text:Pskills5]` |14 | `INPUT[text:Pskills13]` |
 >>| 7 | `INPUT[text:Pskills6]` | 15 | `INPUT[text:Pskills14]` |
 >>| 8 | `INPUT[text:Pskills7]` |16 | `INPUT[text:Pskills15]` |
->>
 
 ---
 
 >[!travel] %%FAKE TITLE HERE%%
 >>[!travel] %%FAKE TITLE HERE%%
 >>## Gear
+>>
 >> &nbsp;
 >>
 >>### Head
@@ -427,8 +397,41 @@ reputation_rank: Initiate
 >>|**Quirk** | `=this.pendantgearquirk`|
 >>| **Rank** | `=this.pendantgearrank` |
 >>| **Notes** | `=this.pendantgearnotes` |
+>>
+>> &nbsp;
+>>
 
 ---
+
+>[!warning] %%FAKE TITLE HERE%%
+>>[!crafting] %%FAKE TITLE HERE%%
+>>### Current Hand
+>>| | |
+>>| :-: | ---------------- |
+>>|1|`INPUT[text:hand1]` | 
+>>|2|`INPUT[text:hand2]` | 
+>>|3|`INPUT[text:hand3]` |
+>>|4|`INPUT[text:hand4]` |
+>>|5|`INPUT[text:hand5]` |
+>>
+>> &nbsp;
+>>
+>>### Ability Loadout
+>>| `dice:d12` | Ability Loadout  |
+>>| ---------- | -------- |
+>>| 1          | Weapon Strike (Two-Handed)     |
+>>| 2          | Weapon Strike (Two-Handed)      |
+>>| 3          | Weapon Strike (Two-Handed)   |
+>>| 4          | Weapon Strike (One-Handed)     |
+>>| 5          | Unbound Fury   |
+>>| 6          | Holy Weapon |
+>>| 7          | Bless     |
+>>| 8          | Divine Shield |
+>>| 9          | Two-Handed Weapon Master   |
+>>| 10         | Two-Handed Weapon Master  |
+>>| 11         | Unbound Fury    |
+>>| 12         | Holy Weapon   |
+
 
 >[!table] %%FAKE TITLE HERE%%
 >>[!table] %%FAKE TITLE HERE%%

@@ -119,7 +119,7 @@
 
 [[Riftbreakers House Rules#Gathering]]
 
-
+[[Riftbreakers House Rules#Weapon Loadout Abilities]]
 
 
 

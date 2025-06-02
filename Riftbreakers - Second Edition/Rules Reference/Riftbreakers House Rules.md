@@ -63,3 +63,35 @@ Survival Skill has the following terrain modifiers:
 >|---|---|---|---|---|
 >|40%|70%|40%|10%|60%|
 
+
+
+## Weapon Loadout Abilities
+
+>[!dice] %%FAKE TITLE HERE%%
+>### Weapon Loadout Abilities
+>Unarmed Strike (One-Handed) ⍈
+Cost: 3 / Range: 0 / Standard Action / Defense: Parry
+Make an Unarmed Combat skill check. If successful, you deal D4 Bludgeoning damage.
+You strike at your target with your fists and feet.
+>
+> &nbsp;
+>
+>Weapon Strike (One-Handed) ⍈
+Cost: 3 / Range: As weapon / Standard Action / Defense: Parry
+Make a weapon skill check with your weapon. If successful, you deal D6 damage.
+You wield your weapon with purpose, striking at your target.
+>
+> &nbsp;
+>
+>Weapon Strike (Ranged) ⍈
+Cost: 3 / Range: As weapon / Standard Action / Defense: Evasion 
+Make a weapon skill check with your weapon. If successful, you deal D6 damage.
+You wield your weapon with purpose, striking at your target.
+>
+> &nbsp;
+>
+>Weapon Strike (Two-Handed) ⍈
+Cost: 3 / Range: As weapon / Standard Action / Defense: Parry
+Make a weapon skill check with your weapon. If successful, you deal D6+2 damage.
+You wield your weapon with purpose, striking at your target.
+>
