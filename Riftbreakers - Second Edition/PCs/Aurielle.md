@@ -2,7 +2,7 @@
 Art: "![[GoblinGirl_Token.webp|center]]"
 Title: 
 achievement_prog: "Riftbreaker: Successfully close 5 Rifts."
-Protection: "D3"
+Protection: D3
 Weapon1: Longsword
 Weapon1dmg: D6
 Weapon1type: Slashing
@@ -23,11 +23,11 @@ gems:
 Armor1: Plain Tunic
 Armor1rate: D3
 Armor1notes: "Max Integrity: D6"
-hand1: ""
+hand1: 5 Unbound Fury
 hand2: ""
-hand3: ""
+hand3: 7 Divine Shield
 hand4: ""
-hand5: ""
+hand5: 1 Weapon Strike (Two-Handed)
 quest1: "**Monster Hunt**: The quest is to hunt a Luminous Lizard that as been terrorizing near by villages at night. Distance: 8 Hexes. Rewards: 200⟑"
 quest1t: false
 quest2: "**Monster Hunt**: A Poisonous Frog has been seen in near by rivers and bogs some say it recently ate a small child whole. Eliminate this menace. Distance: 9 Hexes. Rewards: 1x Random Companion"
@@ -222,7 +222,7 @@ reputation_rank: Initiate
 >>| **Sailing** | `0` |`INPUT[toggle:skill23]`
 >>| **Shafted Weapons** | `0` |`INPUT[toggle:skill24]`
 >>| **Sleight of Hand** | `0` |`INPUT[toggle:skill25]`
->>| **Stealth** | `15` |`INPUT[toggle:skill26]`
+>>| **Stealth** | `14` |`INPUT[toggle:skill26]`
 >>| **Survival** | `40` |`INPUT[toggle:skill27]`
 >>| **Tenacity (10)** | `40` |`INPUT[toggle:skill28]`
 >>| **Unarmed Combat (10)** | `10` |`INPUT[toggle:skill29]`
@@ -414,25 +414,25 @@ reputation_rank: Initiate
 >>|4|`INPUT[text:hand4]` |
 >>|5|`INPUT[text:hand5]` |
 >>| | |
->>|Aether|`boxes: 0/10` |
+>>|Aether|`boxes: 8/10` |
 >>
 >> &nbsp;
 >>
 >>### Ability Loadout
 >>| `dice:d12` | Ability Loadout  |
 >>| ---------- | -------- |
->>| 1          | Weapon Strike (Two-Handed)     |
->>| 2          | Weapon Strike (Two-Handed)      |
->>| 3          | Weapon Strike (Two-Handed)   |
->>| 4          | Weapon Strike (One-Handed)     |
->>| 5          | Unbound Fury   |
->>| 6          | Holy Weapon |
->>| 7          | Bless     |
->>| 8          | Divine Shield |
->>| 9          | Two-Handed Weapon Master   |
->>| 10         | Two-Handed Weapon Master  |
->>| 11         | Unbound Fury    |
->>| 12         | Holy Weapon   |
+>>| 1          | [[Weapon Strike (Two-Handed)]]     |
+>>| 2          | [[Weapon Strike (Two-Handed)]]      |
+>>| 3          | [[Weapon Strike (Two-Handed)]]    |
+>>| 4          | [[Weapon Strike (One-Handed)]]     |
+>>| 5          | [[Unbound Fury]]   |
+>>| 6          | [[Holy Weapon]] |
+>>| 7          | [[Divine Shield]]     |
+>>| 8          | [[Divine Shield]] |
+>>| 9          | [[Two-Handed Weapon Master]]   |
+>>| 10         | [[Two-Handed Weapon Master]]  |
+>>| 11         | [[Unbound Fury]]    |
+>>| 12         | [[Holy Weapon]]  |
 
 
 >[!table] %%FAKE TITLE HERE%%

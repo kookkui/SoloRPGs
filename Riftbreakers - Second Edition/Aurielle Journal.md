@@ -125,3 +125,46 @@ creature: Crystal Construct
 creatures:
   - Crystal Construct , 25, 6, 0
 ```
+
+Combat Start
+
+Perception (30) 42
+
+Awareness (50) 86 Failed
+
+PC Turn
+
+Casting Holy Weapon
+
+You summon a weapon of your choice for you to wield that deals D8 Radiant damage. Any instance of Weapon Strike in your Loadout uses this weapon. The weapon lasts until the end of combat.
+
+Radiant Battle Axe D8
+
+Using Weapon Strike (Two-Handed) 
+
+**Bladed Weapons** Check (60) `d100 = 59` Hit!
+
+8 Damage - 3 Armor = 5 Damage to Golem (20)
+
+Golem Turn
+ 
+**Crystal Spike:** The Crystal Construct makes a Combat Skill check summoning a sharp spike of crystal from the ground beneath a random target that deals D8 Piercing damage and knocks them Prone.
+
+Combat Skill check (40) `d100 = 80` Failed
+
+PC Turn
+
+Casting Two-Handed Weapon Master
+For the remainder of combat, if you are wielding a two-handed weapon you deal an additional D4 damage.
+
+Using Weapon Strike (Two-Handed)
+
+**Bladed Weapons** Check (60) `d100 = 36` Hit!
+
+9 Damage - 3 Armor = 6 Damage to Golem (14)
+
+Golem Turn
+
+Disengage:
+
+Aurielle Agility Check ()
