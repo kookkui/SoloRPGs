@@ -24,9 +24,9 @@ Armor1: Plain Tunic
 Armor1rate: D3
 Armor1notes: "Max Integrity: D6"
 hand1: 5 Unbound Fury
-hand2: ""
+hand2: 2 Weapon Strike (Two-Handed)
 hand3: 7 Divine Shield
-hand4: ""
+hand4: 8 Divine Shield
 hand5: 1 Weapon Strike (Two-Handed)
 quest1: "**Monster Hunt**: The quest is to hunt a Luminous Lizard that as been terrorizing near by villages at night. Distance: 8 Hexes. Rewards: 200⟑"
 quest1t: false
@@ -113,10 +113,7 @@ HeartAbLink5: "![[Unbound Fury]]"
 HeartAbLink6: "![[Holy Weapon]]"
 gear1: Potion of Minor Healing X2
 gear2: "Potion of Liquid Shadows: You are immediately Concealed. "
-Appearance1: |-
-  Glowing Eyes: Your eyes glow faintly in the dark, with colors ranging from eerie white to deep crimson or electric blue.
-  Translucent Skin: Your skin is semi-transparent, revealing faint outlines of your veins, muscles, or even bones beneath.
-  Hair: Purple
+Appearance1: ""
 Integrity1: D6
 heart8: true
 heart9: true
@@ -133,9 +130,9 @@ reputation_rank: Initiate
 >>**Title** |`=this.Title` |
 >> **Current Achievement Path** |`INPUT[suggester(option(Path of Slaughter), option(Path of Shadows), option(Path of the Arcane), option(Path of the Explorer), option(Path of the Diplomat)):achievement_path]` |
 >>  **Achievement in Progress** |`=this.achievement_prog` |
->> **Ability Pool** | Used: `6` **Max:** `20` |
+>> **Ability Pool** | Used: `6` **Max:** `21` |
 >> **Reputation** | `0` `INPUT[suggester(option(Initiate), option(Journeyman), option(Vanguard), option(Champion), option(High Warden)):reputation_rank]` |
->> **HP** | **Current:**`14` **Max:** `26`
+>> **HP** | **Current:**`21` **Max:** `26`
 >> **Luck** | `0` |
 >> **Parry** | `10` |
 >> **Max Aether** | `10` |
@@ -197,7 +194,7 @@ reputation_rank: Initiate
 >> ### Skill Checks
 >>| **Skill Name** | **Skill Level** | **Skill Up**
 >>| ------------------------- | ----------- | ----------- |
->>| **Agility** (10) | `20` | `INPUT[toggle:skill1]`|
+>>| **Agility** (10) | `25` | `INPUT[toggle:skill1]`|
 >>| **Alchemy** | `30` | `INPUT[toggle:skill2]`|
 >>| **Animal Handling** | `0` |`INPUT[toggle:skill3]`|
 >>| **Armorsmithing** | `10` |`INPUT[toggle:skill4]`|
@@ -222,7 +219,7 @@ reputation_rank: Initiate
 >>| **Sailing** | `0` |`INPUT[toggle:skill23]`
 >>| **Shafted Weapons** | `0` |`INPUT[toggle:skill24]`
 >>| **Sleight of Hand** | `0` |`INPUT[toggle:skill25]`
->>| **Stealth** | `14` |`INPUT[toggle:skill26]`
+>>| **Stealth** | `10` |`INPUT[toggle:skill26]`
 >>| **Survival** | `40` |`INPUT[toggle:skill27]`
 >>| **Tenacity (10)** | `40` |`INPUT[toggle:skill28]`
 >>| **Unarmed Combat (10)** | `10` |`INPUT[toggle:skill29]`
@@ -414,7 +411,7 @@ reputation_rank: Initiate
 >>|4|`INPUT[text:hand4]` |
 >>|5|`INPUT[text:hand5]` |
 >>| | |
->>|Aether|`boxes: 8/10` |
+>>|Aether|`boxes: 0/10` |
 >>
 >> &nbsp;
 >>

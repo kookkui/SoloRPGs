@@ -106,6 +106,8 @@ Weapon Strike (Two-Handed)
 
 10 Damage - 4 Armor = 6 Damage to Golem (Deads)
 
+<span style="color:rgb(241, 91, 181)">Victory!</span>
+
 <font color="#ff00cc">Loots: Formula for Potion of Liquid Shadows</font>
 ## 998-04-12
 
@@ -167,4 +169,50 @@ Golem Turn
 
 Disengage:
 
-Aurielle Agility Check ()
+Aurielle Agility Check (25) `d100 = 34`
+
+Golem Agility Check (10) `d100 = 95` Failed
+
+Combat Skill Check (40) `d100 = 95` Miss!
+
+PC Turn 
+
+Using Weapon Strike (Two-Handed) 
+
+**Bladed Weapons** Check (60) `d100 = 39` Hit!
+
+9 Damage - 2 Armor = 7 Damage to Golem (7)
+
+Casting Unbound Fury
+
+All targets within the area of effect become Stunned for 3 rounds.
+
+Golem Turn
+
+Stunned...
+
+PC Turn
+
+Using Weapon Strike (Two-Handed) 
+
+**Bladed Weapons** Check (60) `d100 = 35` Hit!
+
+6 Damage - 1 Armor = 5 Damage to Golem (2)
+
+Using Weapon Strike (Two-Handed) 
+
+**Bladed Weapons** Check (60) `d100 = 31` Hit!
+
+5 Damage - 3 Armor = 2 Damage to Golem (Deads)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
+
+<font color="#de7802">Loots: Mind Essence</font> 
+
+<font color="#ff00cc">+1 Ability Pool</font> (21)
+
+Resting for the night...
+
++7 HP (21)
+## 998-04-13
+
