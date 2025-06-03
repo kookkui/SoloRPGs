@@ -23,7 +23,7 @@ At the quest board, there are 5 quests listed today...
 	-  Rewards: 1x Random Formula or Blueprint
 
 
-### 998-04-11
+## 998-04-11
 
 Heading out on the hunt for the Poisonous Frog.
 
@@ -65,4 +65,63 @@ Cost: 3 / Range: As weapon / Standard Action / Defense: Parry
 Make a weapon skill check with your weapon. If successful, you deal D6+2 damage.  
 You wield your weapon with purpose, striking at your target.
 
-**Bladed Weapons** Check (60) 
+**Bladed Weapons** Check (60) `d100: 19` Hit!
+
+8 Damage - `d8 = 2` = 6 Damage to Golem (12)
+
+Golem Turn
+
+**Charge**: The Island Golem charges against a random target in any Combat Zone, dealing 3D6 Bludgeoning damage.
+
+8 Damage to Aurielle (14)
+
+PC Turn 
+
+Casting Holy Weapon
+You summon a weapon of your choice for you to wield that deals D8 Radiant damage. Any instance of Weapon Strike in your Loadout uses this weapon. The weapon lasts until the end of combat.
+
+Weapon Strike (Two-Handed)
+
+**Bladed Weapons** Check (60) `d100: 17` Hit!
+
+6 Damage - 2 Armor = 4 Damage to Golem (8)
+
+Golem Turn
+
+**Rock Throw**: The Island Golem picks up a large rock and hurls it at its target. It makes a Combat Skill check, dealing D10+3 Bludgeoning damage on a hit.
+
+Combat Skill check (50) `d100 = 91` Miss!
+
+PC Turn
+
+Weapon Strike (Two-Handed)
+
+**Bladed Weapons** Check (60) `d100: 37` Hit!
+
+9 Damage - 6 Armor = 3 Damage to Golem (5)
+
+Weapon Strike (Two-Handed)
+
+**Bladed Weapons** Check (60) `d100: 48` Hit!
+
+10 Damage - 4 Armor = 6 Damage to Golem (Deads)
+
+<font color="#ff00cc">Loots: Formula for Potion of Liquid Shadows</font>
+## 998-04-12
+
+Travel Check: Interesting Finds
+
+A humanoid figure approaches you. As it comes closer, you realize that it appears to be some sort of construct woven from lightning and crystal shards. It mimics one of the party member’s movements perfectly, following for a while. If disturbed, it attacks (use the Crystal Construct profile, with all attacks dealing Lighting damage).
+
+Oracle check "Do I disturb the construct?" 
+
+Yes, but A new character(s), or an existing character’s true nature, is revealed (reinforcements appear, a harmless NPC is actually an enemy agent, etc.)
+
+```statblock
+creature: Crystal Construct
+```
+
+```encounter
+creatures:
+  - Crystal Construct , 25, 6, 0
+```

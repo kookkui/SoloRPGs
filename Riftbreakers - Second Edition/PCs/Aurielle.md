@@ -1,8 +1,8 @@
 ---
-Art: "![[Aurielle.webp|550]]"
+Art: "![[GoblinGirl_Token.webp|center]]"
 Title: 
 achievement_prog: "Riftbreaker: Successfully close 5 Rifts."
-Protection: D3
+Protection: "D3"
 Weapon1: Longsword
 Weapon1dmg: D6
 Weapon1type: Slashing
@@ -16,18 +16,18 @@ Weapon3type:
 Weapon3dmg: 
 Weapon3notes: 
 achievement_path: Path of the Explorer
-aetheryte: 14
+aetheryte: 0
 aaaetheryte: 0
 aaetheryte: 
 gems: 
 Armor1: Plain Tunic
 Armor1rate: D3
 Armor1notes: "Max Integrity: D6"
-hand1: Weapon Strike (One-Handed)
-hand2: Bless
-hand3: Holy Weapon
+hand1: ""
+hand2: ""
+hand3: ""
 hand4: ""
-hand5: Weapon Strike (Two-Handed)
+hand5: ""
 quest1: "**Monster Hunt**: The quest is to hunt a Luminous Lizard that as been terrorizing near by villages at night. Distance: 8 Hexes. Rewards: 200⟑"
 quest1t: false
 quest2: "**Monster Hunt**: A Poisonous Frog has been seen in near by rivers and bogs some say it recently ate a small child whole. Eliminate this menace. Distance: 9 Hexes. Rewards: 1x Random Companion"
@@ -112,7 +112,7 @@ HeartAbLink4: "![[Two-Handed Weapon Master]]"
 HeartAbLink5: "![[Unbound Fury]]"
 HeartAbLink6: "![[Holy Weapon]]"
 gear1: Potion of Minor Healing X2
-gear2: ""
+gear2: "Potion of Liquid Shadows: You are immediately Concealed. "
 Appearance1: |-
   Glowing Eyes: Your eyes glow faintly in the dark, with colors ranging from eerie white to deep crimson or electric blue.
   Translucent Skin: Your skin is semi-transparent, revealing faint outlines of your veins, muscles, or even bones beneath.
@@ -135,7 +135,7 @@ reputation_rank: Initiate
 >>  **Achievement in Progress** |`=this.achievement_prog` |
 >> **Ability Pool** | Used: `6` **Max:** `20` |
 >> **Reputation** | `0` `INPUT[suggester(option(Initiate), option(Journeyman), option(Vanguard), option(Champion), option(High Warden)):reputation_rank]` |
->> **HP** | **Current:**`26` **Max:** `26`
+>> **HP** | **Current:**`14` **Max:** `26`
 >> **Luck** | `0` |
 >> **Parry** | `10` |
 >> **Max Aether** | `10` |
@@ -246,7 +246,7 @@ reputation_rank: Initiate
 >>|**Quest Description** |**Completed** | **Timer/Counter**|
 >> |:---: | --- | :---------: |
 >>| `=this.quest1` | `INPUT[toggle:quest1t]` | `boxes: 0/16`
->> |`=this.quest2` |`INPUT[toggle:quest2t]` | `boxes: 0/18`
+>> |`=this.quest2` |`INPUT[toggle:quest2t]` | `boxes: 5/9` `boxes: 2/18`
 >>| `=this.quest3` | `INPUT[toggle:quest3t]` | `boxes: 0/6`
 >> |`=this.quest4` |`INPUT[toggle:quest4t]` | `boxes: 0/19`
 >>| `=this.quest5` | `INPUT[toggle:quest5t]` | `boxes: 0/16`
@@ -414,7 +414,7 @@ reputation_rank: Initiate
 >>|4|`INPUT[text:hand4]` |
 >>|5|`INPUT[text:hand5]` |
 >>| | |
->>|Aether|`boxes: 8/10` |
+>>|Aether|`boxes: 0/10` |
 >>
 >> &nbsp;
 >>

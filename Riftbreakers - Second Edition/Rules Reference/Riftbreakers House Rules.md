@@ -94,4 +94,35 @@ You wield your weapon with purpose, striking at your target.
 Cost: 3 / Range: As weapon / Standard Action / Defense: Parry
 Make a weapon skill check with your weapon. If successful, you deal D6+2 damage.
 You wield your weapon with purpose, striking at your target.
+
+
+
+## Travel Checks
+
+>[!travel] %%FAKE TITLE HERE%%
+>### Travel Checks
+>A result of **1-2** indicates that you’ve come across an interesting encounter. <span style="color:#00FFCC">Use the region’s Noteworthy Encounters table.</span>
 >
+> &nbsp;
+>
+>A result of **3-5** indicates that you’ve come across something of interest. <span style="color:rgb(152, 255, 152)">Use the appropriate region Interesting Finds table.</span>
+>
+> &nbsp;
+>
+>A result of 6+ indicates you’ve come across some sort of danger. <span style="color:#D81159">Use the region’s Combat Encounters table.</span>
+>
+
+
+## Hexes Per Travel Day
+
+>[!travel] %%FAKE TITLE HERE%%
+>### Hexes Per Travel Day
+>Traveling in **Kar Helos** and the surrounding farmland is the fastest, allowing a party to travel <span style="color:rgb(152, 255, 152)">3 hexes per Travel Day. </span>
+>
+> &nbsp;
+>
+>Traveling across the **Violet Sands**, the **Mudbloom Marsh**, and the **Crystal Plains** allows the party to transverse <span style="color:rgb(249, 132, 74)">2 hexes per Travel Day.</span> 
+>
+> &nbsp;
+>
+>Traveling across **Arenmist Forest** and **Bonespire Peaks** is the most difficult, and the party can expect to travel at a pace of <span style="color:rgb(241, 91, 181)">1 hex per Travel Day.</span> 
