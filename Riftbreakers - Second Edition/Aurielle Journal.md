@@ -324,4 +324,5 @@ Resting for the night...
 
 Traveling South 2 Hexes 
 
-I have arrived at the last known location of the <font color="#00b050">Poisonous Frog</font>
+I have arrived at the last known location of the <font color="#AAFF00">Poisonous Frog</font>
+

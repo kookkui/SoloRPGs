@@ -130,7 +130,7 @@ gear3: (Uncommon) Ring
 >> ---|---|
 >>**Title** |`=this.Title` |
 >> **Current Achievement Path** |`INPUT[suggester(option(Path of Slaughter), option(Path of Shadows), option(Path of the Arcane), option(Path of the Explorer), option(Path of the Diplomat)):achievement_path]` |
->>  **Achievement in Progress** |`=this.achievement_prog` |
+>>  **Achievement in Progress** |`=this.achievement_prog` `boxes: 0/5` |
 >> **Ability Pool** | Used: `6` **Max:** `21` |
 >> **Reputation** | `0` `INPUT[suggester(option(Initiate), option(Journeyman), option(Vanguard), option(Champion), option(High Warden)):reputation_rank]` |
 >> **HP** | **Current:**`20` **Max:** `26`
