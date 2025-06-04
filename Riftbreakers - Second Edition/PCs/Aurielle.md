@@ -23,11 +23,11 @@ gems:
 Armor1: Plain Tunic
 Armor1rate: D3
 Armor1notes: "Max Integrity: D6"
-hand1: 5 Unbound Fury
-hand2: 2 Weapon Strike (Two-Handed)
-hand3: 7 Divine Shield
-hand4: 8 Divine Shield
-hand5: 1 Weapon Strike (Two-Handed)
+hand1: ""
+hand2: ""
+hand3: ""
+hand4: ""
+hand5: ""
 quest1: "**Monster Hunt**: The quest is to hunt a Luminous Lizard that as been terrorizing near by villages at night. Distance: 8 Hexes. Rewards: 200⟑"
 quest1t: false
 quest2: "**Monster Hunt**: A Poisonous Frog has been seen in near by rivers and bogs some say it recently ate a small child whole. Eliminate this menace. Distance: 9 Hexes. Rewards: 1x Random Companion"
@@ -118,6 +118,7 @@ Integrity1: D6
 heart8: true
 heart9: true
 reputation_rank: Initiate
+gear3: (Uncommon) Ring
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] %%FAKE TITLE HERE%% 
@@ -132,7 +133,7 @@ reputation_rank: Initiate
 >>  **Achievement in Progress** |`=this.achievement_prog` |
 >> **Ability Pool** | Used: `6` **Max:** `21` |
 >> **Reputation** | `0` `INPUT[suggester(option(Initiate), option(Journeyman), option(Vanguard), option(Champion), option(High Warden)):reputation_rank]` |
->> **HP** | **Current:**`21` **Max:** `26`
+>> **HP** | **Current:**`20` **Max:** `26`
 >> **Luck** | `0` |
 >> **Parry** | `10` |
 >> **Max Aether** | `10` |
@@ -242,8 +243,8 @@ reputation_rank: Initiate
 >>### Quests
 >>|**Quest Description** |**Completed** | **Timer/Counter**|
 >> |:---: | --- | :---------: |
->>| `=this.quest1` | `INPUT[toggle:quest1t]` | `boxes: 0/16`
->> |`=this.quest2` |`INPUT[toggle:quest2t]` | `boxes: 5/9` `boxes: 3/18`
+>>| `=this.quest1` | `INPUT[toggle:quest1t]` | `boxes: 4/16`
+>> |`=this.quest2` |`INPUT[toggle:quest2t]` | `boxes: 9/9` `boxes: 4/18`
 >>| `=this.quest3` | `INPUT[toggle:quest3t]` | `boxes: 0/6`
 >> |`=this.quest4` |`INPUT[toggle:quest4t]` | `boxes: 0/19`
 >>| `=this.quest5` | `INPUT[toggle:quest5t]` | `boxes: 0/16`
@@ -560,11 +561,6 @@ reputation_rank: Initiate
 >> 
 >>
 >>---
->>
->>&nbsp;
->>
->>#### Character Appearance
->>`INPUT[textArea:Appearance1]`
 
 
 

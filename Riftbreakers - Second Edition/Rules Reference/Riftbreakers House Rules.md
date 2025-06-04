@@ -52,14 +52,14 @@ Survival Skill has the following terrain modifiers:
 >[!crafting] %%FAKE TITLE HERE%%
 >
 >### Chance to Find a Mineral By Terrain
->|<font color="#953734">Mountain</font>|<font color="#00b050">Forest/Jungle</font>|<font color="#92d050">Plains</font>|<font color="#ffc000">Desert</font>|<font color="#6425d0">Swamp</font>|
+>|<font color="#953734">Bonespire Peaks</font>|<font color="#00b050">Arenmist Forest</font>|<font color="#92d050">Kar Helos/The Crystal Plains</font>|<font color="#ffc000">The Violet Sands</font>|<font color="#6425d0">Mudbloom Marshes</font>|
 >|---|---|---|---|---|
 >|60%|20%|40%|30%|10%|
 
 >[!check] %%FAKE TITLE HERE%%
 >
 >### Chance to Find Plants By Terrain
->|<font color="#953734">Mountain</font>|<font color="#00b050">Forest/Jungle</font>|<font color="#92d050">Plains</font>|<font color="#ffc000">Desert</font>|<font color="#6425d0">Swamp</font>|
+>|<font color="#953734">Bonespire Peaks</font>|<font color="#00b050">Arenmist Forest</font>|<font color="#92d050">Kar Helos/The Crystal Plains</font>|<font color="#ffc000">The Violet Sands</font>|<font color="#6425d0">Mudbloom Marshes</font>|
 >|---|---|---|---|---|
 >|40%|70%|40%|10%|60%|
 

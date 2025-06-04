@@ -224,3 +224,104 @@ Travel Die Check `d10 = 6` Combat Encounter!
 creature: Storm Giant (RB)
 ```
 
+
+```encounter
+creatures:
+  - Storm Giant (RB) , 25, 6, 0
+
+```
+
+PC Perception (30) `d100 = 10` Winner
+vs
+Storm Giant (80) `d100 = 40`
+
+
+Combat Start
+
+PC Turn
+
+Casting Holy Weapon -6 Aether and casting Two-Handed Weapon Master - 5 Aether
+
+Giant Turn
+
+**Thunderstorm:** The Storm Giant creates a thunderstorm that lasts for 2 rounds, covering every Combat Zone. Every round, each affected creature takes D6 Lightning damage and must make an Endurance check or be Stunned (1).
+
+Aurielle Endurance check (25) `d100 = 24`
+
+6 Damage - 3 Armor = 3 Damage to PC (18)
+
+PC Turn
+
+Casting Unbound Fury -5 MP
+
+All targets within the area of effect become Stunned for 4 rounds.
+
+Weapon Strike (Two-Handed) -3 MP
+
+**Bladed Weapons** Check (50) `d100 = 92` Miss!
+
+Endurance check (25) `d100 = 10` Success!
+
+6 Damage - 3 Armor = 3 Damage to PC (15)
+
+Giant Turn
+
+Stunned...3
+
+PC Turn
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Check (50) `d100 = 20` Hit! 
+
+10 Damage - 3 Armor = 7 Damage to Giant (18)
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Check (50) `d100 = 20` Hit! 
+
+11 Damage - 2 Armor = 9 Damage to Giant (9)
+
+Giant Turn
+
+Stunned..2
+
+PC Turn
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Check (50) `d100 = 8` Hit! 
+
+9 Damage - 6 Armor = 3 Damage to Giant (6)
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Check (50) `d100 = 30` Hit! 
+
+8 Damage - 6 Armor = 2 Damage to Giant (4)
+
+Giant Turn
+
+Stunned..1
+
+PC Turn
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Check (50) `d100 = 19` Hit! 
+
+8 Damage -2 Armor = 3 Damage to Giant (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
+
+Loots:  <font color="#00b0f0">Magic Item</font> <font color="#ff00cc">(Uncommon) Ring</font>
+
+Resting for the night...
+
++5 HP (20)
+
+## 998-04-14
+
+Traveling South 2 Hexes 
+
+I have arrived at the last known location of the <font color="#00b050">Poisonous Frog</font>
