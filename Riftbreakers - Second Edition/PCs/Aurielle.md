@@ -243,7 +243,7 @@ reputation_rank: Initiate
 >>|**Quest Description** |**Completed** | **Timer/Counter**|
 >> |:---: | --- | :---------: |
 >>| `=this.quest1` | `INPUT[toggle:quest1t]` | `boxes: 0/16`
->> |`=this.quest2` |`INPUT[toggle:quest2t]` | `boxes: 5/9` `boxes: 2/18`
+>> |`=this.quest2` |`INPUT[toggle:quest2t]` | `boxes: 5/9` `boxes: 3/18`
 >>| `=this.quest3` | `INPUT[toggle:quest3t]` | `boxes: 0/6`
 >> |`=this.quest4` |`INPUT[toggle:quest4t]` | `boxes: 0/19`
 >>| `=this.quest5` | `INPUT[toggle:quest5t]` | `boxes: 0/16`

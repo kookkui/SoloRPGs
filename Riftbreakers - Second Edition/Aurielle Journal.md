@@ -216,3 +216,11 @@ Resting for the night...
 +7 HP (21)
 ## 998-04-13
 
+Continuing South through Crystal Plains...
+
+Travel Die Check `d10 = 6` Combat Encounter!
+
+```statblock
+creature: Storm Giant (RB)
+```
+
