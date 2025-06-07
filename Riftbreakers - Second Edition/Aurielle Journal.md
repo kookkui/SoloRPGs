@@ -326,3 +326,103 @@ Traveling South 2 Hexes
 
 I have arrived at the last known location of the <font color="#AAFF00">Poisonous Frog</font>
 
+Survival check (40) `d100 = 21` Success!
+
+I found the beast, let the battle begin!
+
+```statblock
+creature: Poisonous Frog (RB)
+```
+
+
+```encounter
+creatures:
+  - Poisonous Frog (RB) , 30, 6, 0
+```
+
+<font color="#00CAFF">+2 Psychic damage</font>
+<font color="#c00000">D8 on Actions</font>
+**7 Verdant Snare:** Roots and vines erupt from the earth at the creature’s 
+command, grasping at foes to drag them down. All creatures within 3 
+Combat Zones must make an Agility check or be Restrained. While 
+Restrained, creatures take D4 Piercing damage at the start of their turn 
+as thorns dig in.
+
+**8 Thornlash Barrage:** The creature whips its limbs or tendrils in a wide 
+arc, launching splinters and barbed thorns in every direction. All 
+enemies within 2 Combat Zones must pass an Agility check or take D8 
+Slashing damage. Additionally, those struck by the thorns must make an 
+Endurance check or begin Bleeding (2).
+
+Combat Start!
+
+PC Perception (30) `d100 = 27` Win!
+vs
+Frog Perception (60) `d100 = 79`
+
+PC Turn
+
+Casting Holy Weapon -6 MP
+
+You summon a weapon of your choice for you to wield that deals D8 Radiant damage. Any instance of Weapon Strike in your Loadout uses this weapon. The weapon lasts until the end of combat.
+
+Frog Turn
+
+Frog moves 1 Zone...
+
+PC Turn
+
+Moving 1 zone
+
+Casting Two-Handed Weapon Master -5 
+
+For the remainder of combat, if you are wielding a two-handed weapon you deal an additional D4 damage.
+
+Weapon Strike (Two-Handed) -3 
+
+Bladed Weapons Check (50) `d100 = 50` Hit! 
+
+10 Damage - 3 Armor = 7 Damage to Poisonous Frog (23) 
+
+Frog Turn
+
+**Noxious Cloud:** The Poisonous Frog releases a cloud of poisonous gas in the same Combat Zone. All creatures within it must pass an Endurance check or be Poisoned (1).
+
+Aurielle Endurance check (25) `d100 = 4` Success!
+
+PC Turn
+
+Casting Unbound Fury -5 MP
+
+All targets within the area of effect become Stunned for 4 rounds. 
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Check (50) `d100 = 22` Critical Hit! 
+
+16 Damage - 3 Armor = 7 Damage to Poisonous Frog (10) 
+
+Frog Turn
+
+Stunned...3 
+
+PC Turn
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Check (50) `d100 = 39`  Hit! 
+
+12 Damage - 3 Armor = 9 Damage to Poisonous Frog (1) 
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Check (50) `d100 = 31`  Hit! 
+
+8 Damage - 6 Armor = 9 Damage to Poisonous Frog (Deads) 
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
+
+<font color="#ff00cc">Loots:</font> <font color="#e36c09">Armor Manual</font>
+
+Using Manual gained "Mail proficiency"
+

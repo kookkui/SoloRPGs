@@ -98,37 +98,13 @@
 
 ^052746
 
-| `dice:1d12` | Precious Gem              |
-| ----------- | ------------------------- |
-| 1           | Amber. Aspect: Earth      |
-| 2           | Amethyst. Aspect: Air     |
-| 3           | Aquamarine. Aspect: Water |
-| 4           | Carnelian. Aspect: Fire   |
-| 5           | Diamond. Aspect: Fire     |
-| 6           | Emerald. Aspect: Earth    |
-| 7           | Garnet. Aspect: Fire      |
-| 8           | Onyx. Aspect: Earth       |
-| 9           | Opal. Aspect: Water       |
-| 10          | Ruby. Aspect: Fire        |
-| 11          | Sapphire. Aspect: Water   |
-| 12          | Topaz. Aspect: Fire       |
-
-^f7d46a
-
-
-| `dice:1d10` | Rift Monster Rank |
-| ----------- | ----------------- |
-| 1-9         | Your same Rank    |
-| 10          | One Rank higher   |
-
-^c162ae
 
 | `dice:1d8` | Random Difficulty  |
 | ---------- | ------------------ |
-| 1-2        | Normal (+0)        |
-| 3          | Child's play (+30) |
-| 4          | Effortless (+20)   |
-| 5          | Easy (+10)         |
+| 1          |  Child's play (+30)|
+| 2          | Effortless (+20) |
+| 3          | Easy (+10)   |
+| 4-5        |   Normal (+0)      |
 | 6          | Demanding (-10)    |
 | 7          | Hard (-20)         |
 | 8          | Impossible (-30)   |

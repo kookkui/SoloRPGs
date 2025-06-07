@@ -5,9 +5,6 @@
 >##### Random Direction
 >`dice:[[General Tables#^c0cced]]`
 >
->##### Rift Monster Rank
->`dice:[[General Tables#^c162ae]]`
->
 >##### Random Difficulty
 >`dice:[[General Tables#^35d049]]`
 >
@@ -73,6 +70,9 @@
 >##### Random Skill
 >`dice:[[General Tables#^2b1d66]]`
 >
+>##### Random Armor
+>`dice:[[Loot Table#^b8b6a4]]`
+>
 >##### Random Heart
 >`dice:[[General Tables#^4ced03]]`
 >
@@ -85,20 +85,7 @@
 >##### Random Essence
 >`dice:[[Loot Table#^87d9e3]]`
 >
->##### Companion Gear - Type
->`dice:[[Loot Table#^f79769]]`
->
->##### Companion Gear - Rarity
->`dice:[[Loot Table#^f79769]]`
->
->##### Companion Gear - Amulet Magic Properties
->`dice:[[Loot Table#^bc2db6]]`
->
->##### Companion Gear - Chest Magic Properties
->`dice:[[Loot Table#^f3fd69]]`
->
->##### Companion Gear - Ring Magic Properties
->`dice:[[Loot Table#^fdc448]]`
+
 
 >[!dice] Quest Board Tables
 >

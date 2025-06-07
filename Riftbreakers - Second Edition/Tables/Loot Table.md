@@ -37,25 +37,6 @@
 ^87d9e3
 
 
-### Companion Gear - Type
-
-|`dice:d8`|Companion Gear - Type|
-|---|---|
-|1-2|Amulet|
-|3-4|Chest|
-|5-6|Legs|
-|7-8|Ring|
-
-^f79769
-
-### Companion Gear - Rarity
-
-|`dice:d8|Companion Gear - Rarity|
-|---|---|
-|1-12|Uncommon. One magic property|
-|13-18|Rare. Two magic properties|
-|19-20|Epic. Three magicproperties|
-
 
 ### Damage Type
 
@@ -74,86 +55,21 @@
 
 ^434e99
 
+### Random Armor
 
-
-### Companion Gear - Amulet Magic Properties
-
-|`dice:d20`|Amulet Magic Properties|
+|`dice:d100`|Random Armor|
 |---|---|
-|1|Roll on the Damage Type table. This item grants the Companion damage reduction based on its rarity: +1 uncommon, +2 rare, +3 epic|
-|2|Once per day your Companion can recover D10 Health|
-|3|Your Companion can breathe underwater|
-|4|Increase your carrying capacity by +10|
-|5|Your Companion can reroll any check once a day|
-|6-8|Roll on the Damage Type table. Your Companion is Resistant to that damage type|
-|9|Your Companion gains a single use per day of the Summon Light Arcane Heart Ability (Riftbreakers, page 24)|
-|10|Your Companion gains a single use per day of the Taunt Bastion Heart Ability (Riftbreakers, page 33)|
-|11|Your Companion gains a single use per day of the Covering Strike Bastion Heart Ability (Riftbreakers, page 32)|
-|12|Your Companion gains a single use per day of the Shield Arcane Heart Ability (Riftbreakers, page 25)|
-|13|Your Companion gains a single use per day of the Cleanse Body Restoration Heart Ability (Riftbreakers, page 51)|
-|14|Your Companion gains a single use per day of the Bless Restoration Heart Ability (Riftbreakers, page 52)|
-|15|Your Companion gains a single use per combat of the Negate Rank Ritual Heart Ability (Riftbreakers, page 56)|
-|16|Your Companion gains a single use per day of the Disenchant Magic Item Ritual Heart Ability (Riftbreakers, page 55)|
-|17|Your Companion gains a single use per day of the Ice Flame Elemental Heart Ability (Riftbreakers, page 43)|
-|18|Your Companion gains a single use per day of the Obsidian Armor Elemental Heart Ability (Riftbreakers, page 44)|
-|19|Your Companion gains a single use per day of the Wither Time Heart Ability (Riftbreakers, page 65)|
-|20|A Your Companion gains a single use per day of the Accelerate Time Heart Ability (Riftbreakers, page 65)|
+|01-09|Full Plate|
+|10-18|Half Plate|
+|19-27|Hard Leather|
+|28-36|Heavy Clothing|
+|37-44|Large Shield|
+|45-52|Leather & Scales|
+|53-60|Mail|
+|61-68|Medium Shield|
+|69-76|Open Helm|
+|77-84|Small Shield|
+|85-92|Soft Leather|
+|93-100|Visored Helm|
 
-^bc2db6
-
-
-### Companion Gear - Chest Magic Properties
-
-|`dice:d20`|Chest Magic Properties|
-|---|---|
-|1|Roll on the Damage Type table. This item grants the Companion damage reduction based on its rarity: +1 uncommon, +2 rare, +3 epic|
-|2|Increase your carrying capacity by 10|
-|3|Your Companion can walk on any surface, including vertical walls and water.|
-|4|You’re Immune to Stun|
-|5|You’re Immune to Entangled|
-|6|Your Companion has Advantage on Coordination checks|
-|7|Increases all healing done by your Companion, affected by the item’s rarity (+1 uncommon, +2 rare, +3 epic)|
-|8|You can ignore the effects of one fumble each 24 hours|
-|9|Increase your walking Speed by 10 m|
-|10|Increase your Companion’s Dodge by 10|
-|11|Increase your Companion’s Health by 5|
-|12|Increase your Companion’s Vitality by 10|
-|13|You gain +5⟑ of your rank each time you loot|
-|14|Once per combat, you can choose which action your Companion takes, instead of rolling to determine it|
-|15|When your Companion deals a critical strike, they recover D10 Health|
-|16|Increase your Luck by 5|
-|17|Once per combat your Companion can reroll a failed Dodge check|
-|18|Once per encounter, your Companion can make a special kick attack that deals 2D10 Bludgeoning damage. This is a Standard Action that requires a Brawn check|
-|19|You gain a free Reaction per round|
-|20|You're Immune to Paralyzed|
-
-^f3fd69
-
-
-### Companion Gear - Ring Magic Properties
-
-
-|`dice:d20`|Ring Magic Properties|
-|---|---|
-|1|Once each 24 hours your party can teleport back to Kar Helos. Only works out of combat|
-|2|Increase your carrying capacity by 10|
-|3|Reduce the Companion’s daily fee by 50%|
-|4|You’re Immune to Stun|
-|5|You’re Immune to Entangled|
-|6|Your Companion has Advantage on Coordination checks|
-|7|Increases all healing done by your Companion, affected by the item’s rarity (+1 uncommon, +2 rare, +3 epic)|
-|8|You can ignore the effects of one fumble each 24 hours|
-|9|Increase your walking Speed by 10 m|
-|10|Increase your Companion’s Dodge by 10|
-|11|Increase your Companion’s Health by 5|
-|12|Increase your Companion’s Vitality by 10|
-|13|You gain +5⟑ of your rank each time you loot|
-|14|Once per combat, you can choose which action your Companion takes, instead of rolling to determine it|
-|15|When your Companion deals a critical strike, they recover D10 Health|
-|16|Increase your Luck by 5|
-|17|Once per combat your Companion can reroll a failed Dodge check|
-|18|Once each 24 hours, your Companion can create a pocket of fresh air around them that lasts 1 hour. This is a Free Action|
-|19|You gain a free Reaction per round|
-|20|Once per encounter, an incoming ranged attack is automatically turned against the character that fired it. This is a Free Action|
-
-^fdc448
+^b8b6a4

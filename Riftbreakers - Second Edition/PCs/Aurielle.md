@@ -24,10 +24,10 @@ Armor1: Plain Tunic
 Armor1rate: D3
 Armor1notes: "Max Integrity: D6"
 hand1: ""
-hand2: ""
-hand3: ""
+hand2: 8 Divine Shield
+hand3: 10 Weapon Strike (Two-Handed)
 hand4: ""
-hand5: ""
+hand5: 11 Unbound Fury
 quest1: "**Monster Hunt**: The quest is to hunt a Luminous Lizard that as been terrorizing near by villages at night. Distance: 8 Hexes. Rewards: 200⟑"
 quest1t: false
 quest2: "**Monster Hunt**: A Poisonous Frog has been seen in near by rivers and bogs some say it recently ate a small child whole. Eliminate this menace. Distance: 9 Hexes. Rewards: 1x Random Companion"
@@ -94,7 +94,7 @@ title12: ""
 title13: ""
 proficiency1: Longsword
 proficiency2: Hard Leather
-proficiency3: 
+proficiency3: Mail
 title21: ""
 title15: ""
 Hearts:
@@ -119,6 +119,8 @@ heart8: true
 heart9: true
 reputation_rank: Initiate
 gear3: (Uncommon) Ring
+CurrentAether: 10
+skill6: true
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] %%FAKE TITLE HERE%% 
@@ -412,7 +414,9 @@ gear3: (Uncommon) Ring
 >>|4|`INPUT[text:hand4]` |
 >>|5|`INPUT[text:hand5]` |
 >>| | |
->>|Aether|`boxes: 0/10` |
+>>```meta-bind
+>>INPUT[progressBar(class(blue-progress-bar), maxValue(10), title(Aether)):CurrentAether]
+>>```
 >>
 >> &nbsp;
 >>
