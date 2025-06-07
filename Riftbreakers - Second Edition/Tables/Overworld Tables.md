@@ -1,76 +1,28 @@
-| `dice:1d10` |                                                                                                                                                                                                  Travel - Interesting Location                                                                                                                                                                                                   |
-| :---------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|      1      |                                     Lost Ruins. The party stumbles upon a crumbling complex of ruins, long forgotten by any civilization. The mossy walls and collapsed roofs suggest that the place has been abandoned for centuries. The ruins are actually an entrance to a pocket dimension. If the party decides to explore it, use the Timeworn Ruins Rift generation rules and tables                                     |
-|      2      |                             Mysterious Cave. The party finds a small cave that seems to lead deep into the earth. The walls are slick and damp, and the air is cool and musty. The cave seems to go on forever, with no end in sight. This cave is actually an entrance to a pocket dimension. If the party decides to explore it, use the Underground Cave System Rift generation rules and tables                              |
-|      3      |                    Deserted Village. A village, once bustling with life, now stands empty and abandoned. The buildings are in disrepair, and the streets are littered with debris. The only sounds are the distant howls of wolves. A character can perform a Perception check; if they succeed, they find a trapped adventurer inside a collapsed building. The party can hire the adventurer as a Follower                     |
-|      4      |                                                                              Elemental Nexus. The players stumble upon a place where the elemental energies of the world converge. The nexus is a dangerous place, full of unpredictable and volatile magic. A party member can make a Perception check; if successful, they find a Clarity Essence                                                                              |
-|      5      |                                                                                                                   Traveling Market. The party comes across a heavily guarded market, set up there so that locals can come and trade their goods, They can buy or sell any goods, as if they were in Kar Helos                                                                                                                    |
-|      6      | Crystal Cavern. A natural cavern illuminated by large, glowing crystals that sprout from the walls and ceiling. The crystals pulsate with energy, bathing the cavern in a multicolored light. Strange noises can be heard emanating from the depths of the cavern. This cave is actually an entrance to a pocket dimension. If the party decides to explore it, use the Underground Cave System Rift generation rules and tables |
-|      7      |                Memory Tree. A massive, ancient tree that has the power to read and share memories. The tree is guarded by sentient plant-beings who make sure the intentions of those who approach the tree are pure. PCs must make a Persuasion check to convince the guardians, if they do so, they are allowed access to the tree, earning 50 XP as a surge of strange memories and experiences becomes theirs                |
-|      8      |                                                                          Frozen Well. A deep well that has frozen over from the bottom up. Strange patterns and symbols can be seen etched into the ice. A successful Literacy charges the character who read it, granting them +10 temporary Stamina and Aether. Once spent, this extra power is gone                                                                           |
-|      9      |                                                                                     Stone Circle. A circle of standing stones that emit a strange energy, making the party members feel either at ease or extremely jittery. Each PC rolls `dice:D6`: 1-3 they act with +5 for the next 24 hours; 4-6 they act with -5 for the next 24 hours                                                                                     |
-|     10      |                                                                                                                                                                           Shortcut. The party finds a shortcut that reduces their travel time by half                                                                                                                                                                            |
 
-^8d63ce
+|`dice:d20`|Noteworthy Encounters - Arenmist Forest|
+|:-:|---|
+|1|A hidden glade filled with bioluminescent mushrooms.|
+|2|A small, hidden stream surrounded by fruit-bearing trees.|
+|3|An ancient, crumbling stone bridge spanning a narrow ravine.|
+|4|A mysterious, ivy-covered ruin.|
+|5|A small, abandoned hunting lodge.|
+|6|An overgrown, abandoned stone road winding through the forest.|
+|7|An ancient, moss-covered statue in a secluded glade.|
+|8|A bandit camp.|
+|9|Ghostly apparitions, enacting some sort of ritual.|
+|10|A group of hunters who say are being hunted by a pack of monsters.|
+|11|An ancestor tree, slowly wandering across the forest.|
+|12|A lone herbalist, searching for ingredients.|
+|13|A party of Strangers, hunting after some high Rank monster.|
+|14|An old hermit who has lived in the forest for decades.|
+|15|A reclusive Stranger, who chooses to live alone in the forest.|
+|16|A wandering bard who claims to have been lost in the forest for months, and is looking for a way out.|
+|17|A group of human Kar Helosians, searching for a treasure rumored to be in the area. They seem desperate and not very capable.|
+|18|A lost caravan of merchants who have become separated from their group and are in need of assistance finding their way back.|
+|19|A group of people who have built a shrine to Gannara, Lord of the Elemental Plane of plants.|
+|20|A group of people who are mining for rare minerals in the forest, and may have information about hidden caverns and tunnels.|
 
-
-| `dice:d20` | Novice - Random Enemy Rank |
-| :-: | :-: |
-| 1-15     | Novice                     |
-| 16-17    | Apprentice                 |
-| 18-19    | Veteran                    |
-| 20       | Master                     |
-
-^166f52
-
-
-| `dice:d20` | Apprentice - Random Enemy Rank |
-| :-: | :-: |
-| 1-15      | Apprentice                     |
-| 16-17     | Veteran                        |
-| 18-19     | Novice                         |
-| 20        | Master                         |
-
-
-
-| `dice:d20` | Veteran - Random Enemy Rank |
-| --------- | --------------------------- |
-| 1-15      | Veteran                     |
-| 16-17     | Master                      |
-| 18-19     | Apprentice                  |
-| 20        | Novice                      |
-
-
-| `dice:d20` | Master - Random Enemy Rank |
-| --------- | -------------------------- |
-| 1-15      | Master                     |
-| 16-17     | Veteran                    |
-| 18-19     | Apprentice                 |
-| 20        | Novice                     |
-
-| `dice:d20` | Travel - Arenmist Forest: Intersting Finds and Encounters                                                                    |
-| :-: | :-: |
-| 1          | A hidden glade filled with bioluminescent mushrooms                                                                          |
-| 2          | A small, hidden stream surrounded by fruit-bearing trees                                                                     |
-| 3          | An ancient, crumbling stone bridge spanning a narrow ravine                                                                  |
-| 4          | A mysterious, ivy-covered ruin                                                                                               |
-| 5          | A small, abandoned hunting lodge                                                                                             |
-| 6          | An overgrown, abandoned stone road winding through the forest                                                                |
-| 7          | An ancient, moss-covered statue in a secluded glade                                                                          |
-| 8          | A bandit camp                                                                                                                |
-| 9          | Ghostly apparitions, enacting some sort of ritual                                                                            |
-| 10         | A group of hunters who say are being hunted by a pack of monsters                                                            |
-| 11         | An ancestor tree, slowly wandering across the forest                                                                         |
-| 12         | A lone herbalist, searching for ingredients                                                                                  |
-| 13         | A party of Strangers, hunting after some high Rank Monster                                                                   |
-| 14         | An old hermit who has lived in the forest for decades                                                                        |
-| 15         | A reclusive Stranger, who chooses to live alone in the forest                                                                |
-| 16         | A wandering bard who claims to have been lost in the forest for months, and is looking for a way out                         |
-| 17         | A group of human Kar Helosians, searching for a treasure rumored to be in the area. They seem desperate and not very capable |
-| 18         | A lost caravan of merchants who have become separated from their group and are in need of assistance finding their way back  |
-| 20         | A group of people who are mining for rare minerals in the forest, and may have information about hidden caverns and tunnels  |
-
-^81f9c6
+&nbsp;
 
 | `dice:d10` | Travel - Arenmist Forest: Dangerous Encounters |
 | ---------- | ---------------------------------------------- |
@@ -174,3 +126,23 @@
 |20|Winged Naga|
 
 ^c8e25a
+
+The fog thickens unnaturally, forming ghostly faces that murmur forgotten names. Anyone who listens must pass a Tenacity check or suffer D6 Psychic damage, as they’re haunted by visions of the forest’s past victims.
+A majestic stag with antlers of twisted silver and eyes like polished obsidian watches the party. If followed, it leads to a hidden glade with a magic pool containing water that restores D6 Health, but the water is guarded by a territorial Mossy Horror (page XXX). PCs can fill any container with this water if they want to take some with them, but its effects only work on the same character once each 24 hours.
+A clearing littered with animal skeletons arranged in cryptic patterns. Disturbing them summons a Shade Stalker (page XXX). A Reason check reveals the bones are an offering to a long-dead druid’s spirit. The undergrowth writhes with vine blights; avoiding them requires an Agility check. Failure to do so causes 2D4 Slashing damage.
+A cloaked figure with no face beneath its hood asks for directions in a hollow voice. If aided, it gifts a cursed silver coin (grants +5 to Perception but whispers lies at night). If attacked, it vanishes, leaving only a pile of wet leaves.
+Crumbling stone arches hum with a faint melody. Touching them triggers a vision of Kar Helos as it stood thousands of years ago, with a road connecting it to the Labyrinth, but they take D4 Psychic damage from the psychic echo.
+A Spectral Panther stalks the party. It flees if wounded but steals one random item first. Retrieving it requires tracking it to its den with a successful Survival check. Aside from the stolen item, you find a random magic item among the bones.
+You find a moss-covered altar that holds a rusty dagger and fresh blood. Taking the dagger attracts a Grove Guardian (page XXX). Leaving an offering of blood (-5 Health), coin (-100⟑) or a magic item grants Advantage on all Survival checks for the next D4 days. The dagger is a magical one with 1 random property.
+You come across a giant oak with a gaping maw-like hollow. The hollow isn’t wide enough to stick your hand into it, but you can see something inside. A successful Athletics check allows you to open it, though. Roll on the Random Findings table.
+A ring of skulls hangs from the branches above, their jaws chattering in the wind. A successful Perception check spots a trap: stepping inside the circle summons Cinder Horrors (page XXX) that burst from the ground to drag victims under.
+A pixie with moth wings flying at dazzling speed suddenly halts in front of you, offering a deal: a golden acorn (recover D20 Health when consumed) in exchange for a memory. If you accept, you forget your own name for the next week.
+A plant with crimson sap pulses like a heart in a clearing ahead. Harvesting it (requires a Gathering check) yields a potion (+20 to Athletics check for 1 hour). Uprooting it without care angers a nearby Ancient Tryam (page XXX) that mistakes the party for poachers.
+Silent figures in tattered robes glide past you, carrying a coffin. Interrupting them curses the party with dread (-10 to Tenacity check for 24 hours). A Reason check recognizes them as priests of a forgotten god; their burial site might be nearby and may hold valuable relics.
+A Beastman (page XXX) with broken tusks charges you, covered in bloody thorns. It’s fleeing an unseen hunter. If spared, it leads to its lair: a cave with a wounded ranger who begs for help getting back to civilization.
+A patch of mist shimmers with a floating stone archway; it appears to be a temporary portal to Kar Helos. IF you step through it, you find yourself in the Strangers District, but the portal closes behind you.
+You come across a burned-out campsite with 3 charred skeletons. One of them is clutching a journal. Reading it reveals they were slain by their own greed: a cursed idol that still lies in the ashes. Taking it afflicts the carrier with nightmares for the next D10 Travel Days that reduce their Tenacity and Reason by 30, but allows them to start every combat with +1 Aether.
+A crone with bark-like skin offers you her herbal cures (D4 doses, heals D6 Health) in exchange for your hair or blood (start your next fight with the Dazed (2) condition).
+A sinkhole up ahead exhales a keening wind. You can attempt to climb down with an Athletics check; the hole is 20 meters deep. At the bottom, you find a statue of a wolf-headed creature worth 200⟑.
+An Island Golem (page XXX) stands in front of you motionless, covered in vines. You can attempt to sneak past it via a Stealth check. Failure activates it, and it attacks immediately.
+A fogbank parts to reveal a crystalline tree radiating warmth. Touching it grants a vision of the forest’s origin—and a geas: “Protect the wilds or wither”. Accepting grants +20 Tenacity while in the forest; refusing summons a Grove Guardian (page XXX).
