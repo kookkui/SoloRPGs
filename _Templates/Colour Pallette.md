@@ -9,6 +9,7 @@
 #11ff00
 #f433ff
 #00caff
+#ff073a
 ```
 
 ```palette

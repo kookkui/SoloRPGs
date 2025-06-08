@@ -24,14 +24,14 @@ Armor1: Plain Tunic
 Armor1rate: D3
 Armor1notes: "Max Integrity: D6"
 hand1: ""
-hand2: 8 Divine Shield
-hand3: 10 Weapon Strike (Two-Handed)
+hand2: ""
+hand3: ""
 hand4: ""
-hand5: 11 Unbound Fury
+hand5: ""
 quest1: "**Monster Hunt**: The quest is to hunt a Luminous Lizard that as been terrorizing near by villages at night. Distance: 8 Hexes. Rewards: 200⟑"
 quest1t: false
 quest2: "**Monster Hunt**: A Poisonous Frog has been seen in near by rivers and bogs some say it recently ate a small child whole. Eliminate this menace. Distance: 9 Hexes. Rewards: 1x Random Companion"
-quest2t: 
+quest2t: true
 quest3: "**Rift Closure:** A Rift appeared one night and is spewing out monstrosities! Distance: 6 Hexes. Rift Dominion:  Primordial Forest Rewards: 1x Random Magic Item"
 quest3t: 
 quest4: "**Patrol:** A patrol duty to check the far reaches for new Rifts. Need the new lay abouts to take on some responsibility around here. Distance: 19 Hexes. 3x Skill Books"
@@ -120,7 +120,12 @@ heart9: true
 reputation_rank: Initiate
 gear3: (Uncommon) Ring
 CurrentAether: 10
-skill6: true
+skill6: false
+hp: 26
+modifier: 0
+gear4: (Rare) Amulet
+skill5: true
+gear5: (Rare) Boots
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] %%FAKE TITLE HERE%% 
@@ -135,7 +140,7 @@ skill6: true
 >>  **Achievement in Progress** |`=this.achievement_prog` `boxes: 0/5` |
 >> **Ability Pool** | Used: `6` **Max:** `21` |
 >> **Reputation** | `0` `INPUT[suggester(option(Initiate), option(Journeyman), option(Vanguard), option(Champion), option(High Warden)):reputation_rank]` |
->> **HP** | **Current:**`20` **Max:** `26`
+>> **HP** | **Current:**`26` **Max:** `26`
 >> **Luck** | `0` |
 >> **Parry** | `10` |
 >> **Max Aether** | `10` |
@@ -191,7 +196,7 @@ skill6: true
 
 ---
 
->[!gather] %%FAKE TITLE HERE%%
+>[!table] %%FAKE TITLE HERE%%
 >>[!gather] %%FAKE TITLE HERE%%
 >>
 >> ### Skill Checks
@@ -202,7 +207,7 @@ skill6: true
 >>| **Animal Handling** | `0` |`INPUT[toggle:skill3]`|
 >>| **Armorsmithing** | `10` |`INPUT[toggle:skill4]`|
 >>| **Athletics** (10) | `20` |`INPUT[toggle:skill5]`|
->>| **Bladed Weapons** | `60` |`INPUT[toggle:skill6]`|
+>>| **Bladed Weapons** | `64` |`INPUT[toggle:skill6]`|
 >>| **Bludgeoning Weapons**  | `0` |`INPUT[toggle:skill7]`|
 >>| **Cooking**  | `15` |`INPUT[toggle:skill8]`|
 >>|**Command** | `0` | `INPUT[toggle:skill9]`|
@@ -245,7 +250,7 @@ skill6: true
 >>### Quests
 >>|**Quest Description** |**Completed** | **Timer/Counter**|
 >> |:---: | --- | :---------: |
->>| `=this.quest1` | `INPUT[toggle:quest1t]` | `boxes: 4/16`
+>>| `=this.quest1` | `INPUT[toggle:quest1t]` | `boxes: 0/16`
 >> |`=this.quest2` |`INPUT[toggle:quest2t]` | `boxes: 9/9` `boxes: 4/18`
 >>| `=this.quest3` | `INPUT[toggle:quest3t]` | `boxes: 0/6`
 >> |`=this.quest4` |`INPUT[toggle:quest4t]` | `boxes: 0/19`
@@ -258,7 +263,7 @@ skill6: true
 
 ---
 
->[!table] %%FAKE TITLE HERE%%
+>[!gather] %%FAKE TITLE HERE%%
 >>[!table] %%FAKE TITLE HERE%%
 >>### Inventory
 >>| Slot | Encumbering Items | Slot| Belt Quickslots
@@ -303,7 +308,7 @@ skill6: true
 
 ---
 
->[!travel] %%FAKE TITLE HERE%%
+>[!thing] %%FAKE TITLE HERE%%
 >>[!travel] %%FAKE TITLE HERE%%
 >>## Gear
 >>
@@ -403,8 +408,8 @@ skill6: true
 
 ---
 
->[!warning] %%FAKE TITLE HERE%%
->>[!crafting] %%FAKE TITLE HERE%%
+>[!table_time] %%FAKE TITLE HERE%%
+>>[!table_time] %%FAKE TITLE HERE%%
 >>### Current Hand
 >>| | |
 >>| :-: | ---------------- |
@@ -437,8 +442,8 @@ skill6: true
 >>| 12         | [[Holy Weapon]]  |
 
 
->[!table] %%FAKE TITLE HERE%%
->>[!table] %%FAKE TITLE HERE%%
+>[!rng] %%FAKE TITLE HERE%%
+>>[!rng] %%FAKE TITLE HERE%%
 >>## Hearts
 >>| | | ||
 >>| ---------- | -------- |---------- | -------- |

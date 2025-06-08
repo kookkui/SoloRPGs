@@ -426,3 +426,180 @@ Bladed Weapons Check (50) `d100 = 31`  Hit!
 
 Using Manual gained "Mail proficiency"
 
+Bladed Weapons Skill up Check (60) `d100 = 97` Success!
+
++4 Bladed Weapons (64)
+
+Resting for the night...
+
++4 HP (22)
+## 998-04-15
+
+Heading back to Kar Helos two hexes north
+
+Travel Check
+
+```statblock
+creature: Thunderbird (RB)
+```
+
+```encounter
+creatures:
+  - Thunderbird (RB) , 20, 4, 0
+```
+
+
+PC Perception (30) `d100 = 10` Win
+vs
+Thunderbird Perception (70) `d100 = 85`
+
+Combat Start!
+
+Two-Handed Weapon Master -5 MP
+
+For the remainder of combat, if you are wielding a two-handed weapon you deal an additional D4 damage.
+
+ Casting Divine Shield -5 MP
+
+Grants a target +3 Protection until your next turn. (D3+3)
+
+Thunderbird Turn
+
+**Thunderclap**: The Thunderbird flaps its wings, creating a deafening thunderclap that deals D6 Force damage to all creatures within the same Combat Zone. Targets hit by this attack must make an Endurance check or become Stunned (1).
+
+PC is out of ranged
+
+PC Turn
+
+Casting Holy Weapon -6 MP
+
+You summon a weapon of your choice for you to wield that deals D8 Radiant damage. Any instance of Weapon Strike in your Loadout uses this weapon. The weapon lasts until the end of combat.
+
+<font color="#FFF200">Radiant Great Sword</font> (Slashing, Bladed, Two-handed)
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Skill up Check (64) `d100 = 45` Hit!
+
+10 Damage to Thunderbird (10)
+
+Thunderbird Turn
+
+Thunderbird is trying to fly to create distance!
+
+PC Agility (25) `d100 = 30` Win
+vs
+Bird Agility (60)`d100 = 81`
+
+Combat Skill Check (50) `d100 = 32` Hit!
+
+2 Damage - 5 Armor = 0 Damage to PC
+
+PC Turn
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Skill up Check (64) `d100 = 50` Hit!
+
+11 Damage to Thunderbird (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
+
+<font color="#ff00cc">Loots:</font> <font color="#00FFCC">Rare Amulet</font>
+
+## 998-04-16
+
+Heading back to Kar Helos two hexes north
+
+A localized cyclone hovers over a single crystal spire. Entering it  (requires an Athletics check, due to the strong winds) leads to the eye of the storm, where time appears to be moving slower (I hour inside = I minute outside). You can choose to camp here, which  allows you to move an additional hex during this Travel Day.
+
+Athletics check (20) `d100 = 88` Failed! Skill up chance.
+
+## 998-04-17 
+
+Heading back to Kar Helos two hexes north
+
+Travel Check, Combat Encounter!
+
+```statblock
+creature: Giant Spider (RB)
+```
+
+
+```encounter
+creatures:
+  - Giant Spider (RB) , 15, 4, 0
+```
+
+
+PC Perception (30) `d100 = 28` Winner
+vs
+Spider Perception (80) `d100 = 95`
+
+Combat Start!
+
+PC Turn
+
+Casting Holy Weapon -6 MP
+
+You summon a weapon of your choice for you to wield that deals D8 Radiant damage. Any instance of Weapon Strike in your Loadout uses this weapon. The weapon lasts until the end of combat.
+
+<font color="#FFF200">Radiant Great Sword</font> (Slashing, Bladed, Two-handed)
+
+Spider Turn
+
+**Quick Skitter**: The Giant Spider climbs and dodges, making it a difficult target. It gains +2 Protection until its next turn.
+
+PC Turn
+
+Two-Handed Weapon Master -5 MP
+
+For the remainder of combat, if you are wielding a two-handed weapon you deal an additional D4 damage.
+
+Moving 1 Combat Zone
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Skill up Check (64) `d100 = 59` Hit!
+
+7 Damage - 4 Armor = 3 Damage to Spider (12)
+
+Spider Turn
+
+**Quick Skitter**: The Giant Spider climbs and dodges, making it a difficult target. It gains +2 Protection until its next turn.
+
+PC Turn
+
+Casting Unbound Fury -5 MP
+
+All targets within the area of effect become Stunned for 3 rounds.
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Skill up Check (64) `d100 = 64` Hit! 
+
+10 Damage - 3 Armor = 7 Damage to Spider (5)
+
+Spider Turn 
+
+Stunned...
+
+PC Turn
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Skill up Check (64) `d100 = 37` Hit! 
+
+7 Damage - 2 Armor = 5 Damage to Spider (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
+
+<font color="#ff00cc">Loots:</font>  <font color="#FF073A">(Rare) Boots</font>
+## 998-04-18
+
+Back in Kar Helos!
+
+Turning in Monster Hunt quest...
+
+
+

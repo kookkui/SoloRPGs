@@ -33,30 +33,58 @@
 
 > [!crafting] Overland Travel Tables
 >##### d10 Travel Die
->`dice:[[Overworld Tables#^319324]]`
+>
 >
 >##### d12 Travel Die
->`dice:[[Overworld Tables#^a8e9b1]]`
 >
->##### Novice - Random Enemy Rank
->`dice:[[Overworld Tables#^166f52]]`
 >
 >##### Travel - Interesting Location
-> `dice:[[Overworld Tables#^8d63ce]]`
+> 
 > 
 
-> [!example] Regional Travel Tables
->##### Travel - Kar Helos: Intersting Finds and Encounters
->`dice:[[Overworld Tables#^9dc46c]]`
+> [!dice] D10 Travel Die Region Tables 
+>##### Noteworthy Encounters (1-2): Arenmist Forest
+>`dice:[[Overworld Tables#^7b1a0d]]`
 >
->##### Kar Helos: Dangerous Encounters
->`dice:[[Overworld Tables#^d86726]]`
+>##### Interesting Finds (3-5): Arenmist Forest
+>`dice:[[Overworld Tables#^b9d457]]`
 >
->##### The Violet Sand - Dangerous Encounters
-> `dice:[[Overworld Tables#^0fd971]]`
+>##### Combat Encounters (6+): Arenmist Forest
+>`dice:[[Overworld Tables#^d4d5e9]]`
 > 
->##### Crystal Plains - Dangerous Encounters
-> `dice:[[Overworld Tables#^c8e25a]]`
+>##### Noteworthy Encounters (1-2): Crystal Plains
+>`dice:[[Overworld Tables#^e93c16]]`
+>
+>##### Interesting Finds (3-5): Crystal Plains
+>`dice:[[Overworld Tables#^87b21d]]`
+>
+>##### Combat Encounters (6+): Crystal Plains
+>`dice:[[Overworld Tables#^f94f95]]`
+> 
+>##### Noteworthy Encounters (1-2): Mudbloom Marsh
+>`dice:[[Overworld Tables#^5e1227]]`
+>
+>##### Interesting Finds (3-5): Mudbloom Marsh
+>`dice:[[Overworld Tables#^7dd52a]]`
+>
+>##### Combat Encounters (6+): Mudbloom Marsh
+>`dice:[[Overworld Tables#^a0e91e]]`
+>
+
+
+> [!table_time] D12 Travel Die Region Tables 
+>##### Noteworthy Encounters - 
+>`dice:[[Overworld Tables#^e93c16]]`
+>
+>##### Interesting Finds - 
+>`dice:[[Overworld Tables#^87b21d]]`
+>
+>##### Combat Encounters - 
+>`dice:[[Overworld Tables#^f94f95]]`
+> 
+>
+> 
+
 
 >[!npc] Gathering Tables
 >
@@ -67,14 +95,14 @@
 
 >[!table] Loot
 >
->##### Random Skill
->`dice:[[General Tables#^2b1d66]]`
+>##### Monster Loot - Aberration
+>`dice:[[Loot Table#^5779a9]]`
 >
->##### Random Armor
->`dice:[[Loot Table#^b8b6a4]]`
+>##### Monster Loot - Beast
+>`dice:[[Loot Table#^98dc4e]]`
 >
->##### Random Heart
->`dice:[[General Tables#^4ced03]]`
+>##### Monster Loot - Construct
+>`dice:[[Loot Table#^691987]]`
 >
 >##### Potion & Unguents
 >`dice:[[Loot Table#^663f5f]]`
@@ -82,8 +110,13 @@
 >##### Damage Type
 >`dice:[[Loot Table#^434e99]]`
 >
->##### Random Essence
->`dice:[[Loot Table#^87d9e3]]`
+>##### Random Skill
+>`dice:[[General Tables#^2b1d66]]`
+>
+>##### Random Armor
+>`dice:[[Loot Table#^b8b6a4]]`
+>
+
 >
 
 

@@ -73,3 +73,83 @@
 |93-100|Visored Helm|
 
 ^b8b6a4
+
+
+### Monster Loot - Aberration
+
+|`dice:d100`|Monster Loot - Aberration|
+|---|---|
+|01-08|2D20⟑|
+|09-16|Random Alchemical Ingredients|
+|17-24|Alchemical Creation|
+|24-31|Skill Book|
+|32-38|Weapon Manual|
+|39-45|Random Formula|
+|46-52|Random Blueprint|
+|53-59|Attunement Crystal|
+|60-66|Heart Essence|
+|67-70|Crystalized Heart (Bastion)|
+|71-73|Random Crystalized Heart|
+|74-80|Mind Essence|
+|81-100|Magic Item|
+
+^5779a9
+
+### Monster Loot - Astral
+
+|`dice:d100`|Monster Loot - Astral|
+|---|---|
+|01-08|2D20⟑|
+|09-16|Random Alchemical Ingredients|
+|17-24|Alchemical Creation|
+|24-31|Skill Book|
+|32-38|Weapon Manual|
+|39-45|Random Formula|
+|46-52|Random Blueprint|
+|53-59|Spatial Bag|
+|60-66|Heart Essence|
+|67-69|Crystalized Heart (Arcane)|
+|70-71|Crystalized Heart (Time)|
+|72-73|Random Crystalized Heart|
+|74-80|Mind Essence|
+|81-100|Magic Item|
+
+### Monster Loot - Beast
+
+|`dice:d100`|Monster Loot - Beast|
+|---|---|
+|01-08|2D20⟑|
+|09-16|Random Monster Parts|
+|17-24|Alchemical Creation|
+|24-31|Skill Book|
+|32-38|Armor Manual|
+|39-45|Random Formula|
+|46-52|Random Blueprint|
+|53-59|Shard of Vitality|
+|60-66|Heart Essence|
+|67-70|Crystalized Heart (Might)|
+|71-73|Random Crystalized Heart|
+|74-80|Mind Essence|
+|81-100|Magic Item|
+
+^98dc4e
+
+### Monster Loot - Construct
+
+|`dice:d100`|Monster Loot - Construct|
+|---|---|
+|01-08|2D20⟑|
+|09-16|Random Ore|
+|17-24|Alchemical Creation|
+|24-31|Skill Book|
+|32-38|Armor Manual|
+|39-45|Random Formula|
+|46-52|Random Blueprint|
+|53-59|Seed of Awakening|
+|60-66|Heart Essence|
+|67-70|Crystalized Heart (Ritual)|
+|71-73|Random Crystalized Heart|
+|74-80|Mind Essence|
+|81-100|Magic Item|
+
+^691987
