@@ -23,7 +23,7 @@ type: "Construct"
 
 traits:
   - name: "Traits:"
-    desc: "Melee"
+    desc: "Melee. Resistant to Void damage, and Immune to Necrotic Damage and the Charmed, Poisoned, Bleeding, Frightened, and Asleep conditions."
 
 action:
   - name: '1-2'

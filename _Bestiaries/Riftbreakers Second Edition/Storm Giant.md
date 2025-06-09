@@ -23,7 +23,7 @@ type: "Humanoid, Elemental"
 
 traits:
   - name: "Traits:"
-    desc: "Ranged, Titanic"
+    desc: "Ranged, Titanic. Immune to Lightning damage, Necrotic Damage, as well as to the Bleeding and Poisoned conditions."
 
 action:
   - name: '1-2'

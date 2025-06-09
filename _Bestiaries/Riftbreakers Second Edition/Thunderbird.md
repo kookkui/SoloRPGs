@@ -23,7 +23,7 @@ type: "Beast,Elemental"
 
 traits:
   - name: "Traits:"
-    desc: "Ranged"
+    desc: "Ranged. Immune to Lightning damage, Necrotic Damage, as well as to the Bleeding and Poisoned conditions."
 
 action:
   - name: '1-2'

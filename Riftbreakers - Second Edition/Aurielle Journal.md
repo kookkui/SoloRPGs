@@ -650,4 +650,34 @@ Checking Quest board, there are 4 quests today...
 - Rift Closure: 13 Hexes <font color="#00b0f0">Reward: 1x Random Formula or Blueprint</font>
 
 Taking on Rift Closure: 19 Hexes <font color="#ff00cc">Reward: 1x Random Magic Item</font>
+Delivery: Mineral Ingredients x11 <font color="#e36c09">Reward: 3x Skill Books</font>
+
+Heading out to **Rift Closure:** A Rift appeared one night and is spewing out monstrosities! Distance: 6 Hexes. Rift Dominion: Primordial Forest Rewards: 1x Random Magic Item
+
+## 998-04-19
+
+Heading Northwest...
+
+Travel Check
+
+A black-market caravan sells an iron-bound crate that growls. The 
+merchant claims it’s a rare beast, but a Reason check recognizes 
+binding runes. Opening it releases a Warpstar (page 305).
+
+**Reason (10)** `d100 = 5` Success! 
+
+Oracle Check: Can I undo the binding runes without the caravan noticing?
+
+Yes, and a Complication takes place...
+The physical environment changes (weather, floor collapse, a trap is triggered, etc.)
+Secret/Hidden Knowledge
+
+You learned the Caravan is dealing in monsters from Rifts illegally. 
+
+The Warpstar is on a rampage and attacks!
+
+```statblock
+creature: Warpstar (RB)
+```
+
 

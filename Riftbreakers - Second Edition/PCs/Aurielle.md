@@ -38,7 +38,7 @@ quest4: "**Patrol:** A patrol duty to check the far reaches for new Rifts. Need 
 quest4t: 
 quest5: "**Rift Closure:** A Rift appeared down by the ol' mill! Jessup damn near got eaten! Distance: 16 Hexes. Rift Dominion: Lava FieldsRewards: 1x Random Formula or Blueprint"
 quest5t: 
-quest6: 
+quest6: "Delivery: Mineral Ingredients x11 Reward: 3x Skill Books"
 quest6t: 
 quest7: 
 quest7t: 
