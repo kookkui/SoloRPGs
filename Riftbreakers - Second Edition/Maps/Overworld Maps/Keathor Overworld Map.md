@@ -17,7 +17,7 @@ tags: [excalidraw]
 
 481006d043a73685e195f16ea31e4be86909f4e4: [[IMG-20250531144922233.webp]]
 
-5d3af6b6d3d8abad376e94b027961f40fecb6fa3: [[Token1.webp]]
+5d3af6b6d3d8abad376e94b027961f40fecb6fa3: [[Goblin_Girl_1.webp]]
 
 ca97e73cdcbe4e6563e72295d22c35613cf93a2d: [[IMG-20250531144922351.webp]]
 
