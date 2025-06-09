@@ -605,7 +605,19 @@ Athletics skill up check (50) Success!
 
 Turning in Monster Hunt quest...
 
+After turning in the quest seems a guild member was impressed and decided to join me in adventures, for a cost mind you. But I could use a healer if things get hectic so I told her to join me.
 
+Visiting the Arcane Scholar to ID some of my loot.
 
+<font color="#FB5607"> -50 ⟑ </font>
 
+<font color="#ff00cc">(Rare) Amulet</font>
+Increase a Skill of your choosing by +10. 
+Increase your luck by +5
+
+<font color="#11FF00">Amulet of Eagle Eyes: +10 Perception and +5 to Luck</font>
+
+-50 **⟑**
+
+<font color="#ff00cc">(Rare) Boots</font>
 

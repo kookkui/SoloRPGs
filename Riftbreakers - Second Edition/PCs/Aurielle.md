@@ -30,8 +30,8 @@ hand4: ""
 hand5: ""
 quest1: "**Monster Hunt**: The quest is to hunt a Luminous Lizard that as been terrorizing near by villages at night. Distance: 8 Hexes. Rewards: 200⟑"
 quest1t: false
-quest2: "**Monster Hunt**: A Poisonous Frog has been seen in near by rivers and bogs some say it recently ate a small child whole. Eliminate this menace. Distance: 9 Hexes. Rewards: 1x Random Companion"
-quest2t: true
+quest2: 
+quest2t: false
 quest3: "**Rift Closure:** A Rift appeared one night and is spewing out monstrosities! Distance: 6 Hexes. Rift Dominion:  Primordial Forest Rewards: 1x Random Magic Item"
 quest3t: 
 quest4: "**Patrol:** A patrol duty to check the far reaches for new Rifts. Need the new lay abouts to take on some responsibility around here. Distance: 19 Hexes. 3x Skill Books"
@@ -123,9 +123,9 @@ CurrentAether: 10
 skill6: false
 hp: 26
 modifier: 0
-gear4: (Rare) Amulet
+gear4: "Amulet of Eagle Eyes: +10 Perception and +5 to Luck"
 skill5: false
-gear5: (Rare) Boots
+gear5: ""
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] %%FAKE TITLE HERE%% 
@@ -251,7 +251,7 @@ gear5: (Rare) Boots
 >>|**Quest Description** |**Completed** | **Timer/Counter**|
 >> |:---: | --- | :---------: |
 >>| `=this.quest1` | `INPUT[toggle:quest1t]` | `boxes: 0/16`
->> |`=this.quest2` |`INPUT[toggle:quest2t]` | `boxes: 9/9` `boxes: 4/18`
+>> |`=this.quest2` |`INPUT[toggle:quest2t]` | `boxes: 0/9` `boxes: 0/18`
 >>| `=this.quest3` | `INPUT[toggle:quest3t]` | `boxes: 0/6`
 >> |`=this.quest4` |`INPUT[toggle:quest4t]` | `boxes: 0/19`
 >>| `=this.quest5` | `INPUT[toggle:quest5t]` | `boxes: 0/16`

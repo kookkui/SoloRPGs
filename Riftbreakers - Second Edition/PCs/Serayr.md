@@ -1,9 +1,9 @@
 ---
-Art: 
-CompanionHP: 24
+Art: "![[Fairy_Mender.webp|center]]"
+CompanionHP: 20
 dammod: 
 CompanionLOAbility: "![[Sudden Strike]]"
-rating: You have Advantage on Manipulation checks
+rating: You have Advantage on Gathering checks
 ---
 
 >[!thing] %%FAKE TITLE HERE%%
@@ -11,7 +11,7 @@ rating: You have Advantage on Manipulation checks
 >> # `=this.file.name`
 >> `=this.Art`
 >>```meta-bind
->>INPUT[progressBar(class(green-progress-bar), maxValue(24), title(HP)):CompanionHP]
+>>INPUT[progressBar(class(green-progress-bar), maxValue(20), title(HP)):CompanionHP]
 >>```
 >>
 >>&nbsp;
@@ -20,7 +20,7 @@ rating: You have Advantage on Manipulation checks
 >>| :-: | :-: |
 >>|**Role**|<font color="#7FFF00">The Mender</font>|
 >>|**Damage Modifier**|`=this.dammod`|
-|**Passive Trait**|`INPUT[inlineSelect(option(You have Advantage on Manipulation checks, Negotiator),option(Master Locksmith: You have Advantage on Lockpicking checks.), option(Assassin: You have Advantage on Stealth checks.),option(Strongman: You have Advantage on Athletics checks.),option(Scout: Takes hits for the PC.),option(Aether Battery: Increase your Aether by 1.),option(Scavenger: You have Advantage on Gathering checks.),option(Mind Reader: You have Advantage on Insight checks.),option(Scholar: You have Advantage on Literacy checks.),option(Healer: You have Advantage on Medicine checks.)):rating]`|
+|**Passive Trait**|`INPUT[inlineSelect(option(You have Advantage on Manipulation checks, Negotiator),option(You have Advantage on Lockpicking checks, Master Locksmith), option(You have Advantage on Stealth checks, Assassin),option(You have Advantage on Athletics checks, Strongman),option(Takes hits for the PC, Scout),option(Increase your Aether by 1, Aether Battery),option(You have Advantage on Gathering checks, Scavenger),option(You have Advantage on Insight checks, Mind Reader),option(You have Advantage on Literacy checks, Scholar),option(You have Advantage on Medicine checks, Healer)):rating]`|
 >>| **Companion Level** | `1`   |
 >>|**Quest Completed**|`b:0/5`|
 

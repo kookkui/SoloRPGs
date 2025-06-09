@@ -20,7 +20,7 @@ CompanionLOAbility:
 >>| :-: | :-: |
 >>|**Role**|<font color="#3A86FF">The Protector</font>|
 >>|**Damage Modifier**|`=this.dammod`|
-|**Passive Trait**|`INPUT[suggester(option(Negotiator: You have Advantage on Manipulation checks.),option(Master Locksmith: You have Advantage on Lockpicking checks.), option(Assassin: You have Advantage on Stealth checks.),option(Strongman: You have Advantage on Athletics checks.),option(Scout: Takes hits for the PC.),option(Aether Battery: Increase your Aether by 1.),option(Scavenger: You have Advantage on Gathering checks.),option(Mind Reader: You have Advantage on Insight checks.),option(Scholar: You have Advantage on Literacy checks.),option(Healer: You have Advantage on Medicine checks.)):rating]`|
+|**Passive Trait**|`INPUT[inlineSelect(option(You have Advantage on Manipulation checks, Negotiator),option(You have Advantage on Lockpicking checks, Master Locksmith), option(You have Advantage on Stealth checks, Assassin),option(You have Advantage on Athletics checks, Strongman),option(Takes hits for the PC, Scout),option(Increase your Aether by 1, Aether Battery),option(You have Advantage on Gathering checks, Scavenger),option(You have Advantage on Insight checks, Mind Reader),option(You have Advantage on Literacy checks, Scholar),option(You have Advantage on Medicine checks, Healer)):rating]`|
 >>| **Companion Level** | `0`   |
 >>|**Quest Completed**|`b:0/5`|
 
