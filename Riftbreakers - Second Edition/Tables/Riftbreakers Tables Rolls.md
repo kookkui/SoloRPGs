@@ -117,9 +117,6 @@
 >`dice:[[Loot Table#^b8b6a4]]`
 >
 
->
-
-
 >[!dice] Quest Board Tables
 >
 >##### Quest Rewards
