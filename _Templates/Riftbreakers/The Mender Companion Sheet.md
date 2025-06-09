@@ -1,9 +1,8 @@
 ---
-Art: 
+Art:
 CompanionHP: 24
-dammod: 
-CompanionLOAbility: "![[Sudden Strike]]"
-rating: You have Advantage on Manipulation checks
+dammod:
+CompanionLOAbility:
 ---
 
 >[!thing] %%FAKE TITLE HERE%%
@@ -20,8 +19,8 @@ rating: You have Advantage on Manipulation checks
 >>| :-: | :-: |
 >>|**Role**|<font color="#7FFF00">The Mender</font>|
 >>|**Damage Modifier**|`=this.dammod`|
-|**Passive Trait**|`INPUT[inlineSelect(option(You have Advantage on Manipulation checks, Negotiator),option(Master Locksmith: You have Advantage on Lockpicking checks.), option(Assassin: You have Advantage on Stealth checks.),option(Strongman: You have Advantage on Athletics checks.),option(Scout: Takes hits for the PC.),option(Aether Battery: Increase your Aether by 1.),option(Scavenger: You have Advantage on Gathering checks.),option(Mind Reader: You have Advantage on Insight checks.),option(Scholar: You have Advantage on Literacy checks.),option(Healer: You have Advantage on Medicine checks.)):rating]`|
->>| **Companion Level** | `1`   |
+|**Passive Trait**|`INPUT[suggester(option(Negotiator: You have Advantage on Manipulation checks.),option(Master Locksmith: You have Advantage on Lockpicking checks.), option(Assassin: You have Advantage on Stealth checks.),option(Strongman: You have Advantage on Athletics checks.),option(Scout: Takes hits for the PC.),option(Aether Battery: Increase your Aether by 1.),option(Scavenger: You have Advantage on Gathering checks.),option(Mind Reader: You have Advantage on Insight checks.),option(Scholar: You have Advantage on Literacy checks.),option(Healer: You have Advantage on Medicine checks.)):rating]`|
+>>| **Companion Level** | `0`   |
 >>|**Quest Completed**|`b:0/5`|
 
 >[!table] %%FAKE TITLE HERE%%
@@ -29,12 +28,12 @@ rating: You have Advantage on Manipulation checks
 >>### Core Stats
 >>| **Stats Name** | **Stats Level** | **Stats Name** | **Stats Level** |
 >>| :-----: | :-: |:------: | :-: |
->>|**Agility** |`50`| **Move**  | `1` |
->>| **Athletics** | `60` | **Parry** | `10`|
->>|**Combat Skill** | `40` | **Perception**  | `50` |
->>| **Endurance**  | `55` | **Protection**  | `1` |
->>| **Evasion**  | `15` |**Tenacity**  | `35` |
->>|**Health** |`20` |
+>>|**Agility** |`0`| **Move**  | `0` |
+>>| **Athletics** | `0` | **Parry** | `0`|
+>>|**Combat Skill** | `0` | **Perception**  | `0` |
+>>| **Endurance**  | `5` | **Protection**  | `0` |
+>>| **Evasion**  | `5` |**Tenacity**  | `5` |
+>>|**Health** |`0` |
 
 ---
 >[!rng] %%FAKE TITLE HERE%%
