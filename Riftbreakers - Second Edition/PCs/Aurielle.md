@@ -16,7 +16,7 @@ Weapon3type:
 Weapon3dmg: 
 Weapon3notes: 
 achievement_path: Path of the Explorer
-aetheryte: 0
+aetheryte: 100
 aaaetheryte: 0
 aaetheryte: 
 gems: 
@@ -124,7 +124,7 @@ skill6: false
 hp: 26
 modifier: 0
 gear4: (Rare) Amulet
-skill5: true
+skill5: false
 gear5: (Rare) Boots
 ---
 >[!dice] %%FAKE TITLE HERE%%
@@ -151,7 +151,7 @@ gear5: (Rare) Boots
 >>  ##### Wealth
 >>|  |   |
 >>| :-: | :-: |
->>|**Aetheryte (⟑)** |`=this.aetheryte`|
+>>|**Aetheryte** |`=this.aetheryte`**⟑**|
 >>| **Crystals** | `=this.gems`   |
 >>| **Add Aetheryte** | `INPUT[number:aaetheryte]` `BUTTON[addaetheryte]`|
 >>
@@ -206,7 +206,7 @@ gear5: (Rare) Boots
 >>| **Alchemy** | `30` | `INPUT[toggle:skill2]`|
 >>| **Animal Handling** | `0` |`INPUT[toggle:skill3]`|
 >>| **Armorsmithing** | `10` |`INPUT[toggle:skill4]`|
->>| **Athletics** (10) | `20` |`INPUT[toggle:skill5]`|
+>>| **Athletics** (10) | `24` |`INPUT[toggle:skill5]`|
 >>| **Bladed Weapons** | `64` |`INPUT[toggle:skill6]`|
 >>| **Bludgeoning Weapons**  | `0` |`INPUT[toggle:skill7]`|
 >>| **Cooking**  | `15` |`INPUT[toggle:skill8]`|

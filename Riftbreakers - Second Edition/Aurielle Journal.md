@@ -599,7 +599,13 @@ Bladed Weapons Skill up Check (64) `d100 = 37` Hit!
 
 Back in Kar Helos!
 
+Athletics skill up check (50) Success!
+
+ +4 to Athletics (24)
+
 Turning in Monster Hunt quest...
+
+
 
 
 
