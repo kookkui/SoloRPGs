@@ -615,9 +615,39 @@ Visiting the Arcane Scholar to ID some of my loot.
 Increase a Skill of your choosing by +10. 
 Increase your luck by +5
 
-<font color="#11FF00">Amulet of Eagle Eyes: +10 Perception and +5 to Luck</font>
+<font color="#11FF00">Amulet of Eagle Eyes: +10 Perception and +5 to Luck</font> Covered in intricate runes.
 
 -50 **⟑**
 
 <font color="#ff00cc">(Rare) Boots</font>
+
+Increase your carrying capacity by +10
+You’re Immune to Restrained. 
+
+Boots of a Strong Back: Increase your carrying capacity by +10, You’re Immune to Restrained
+
+Selling boots to a merchant in the market quarter + 200⟑
+
+Buying
+• 1x Backpack
+• 10x Bandages
+• 1x Crowbar
+• 1x Hunting Knife 
+• 1x Pickaxe
+• 1x Rope
+• 1x Sickle
+• 1x Tent
+• 10x Torches
+• Hard Leather
+
+Total: 125 **⟑**
+
+Checking Quest board, there are 4 quests today...
+
+- Delivery: Mineral Ingredients x11 <font color="#e36c09">Reward: 3x Skill Books</font>
+-  Patrol: 23 Hexes <font color="#e36c09">Reward: 3x Skill Books</font>
+- Rift Closure: 19 Hexes <font color="#ff00cc">Reward: 1x Random Magic Item</font>
+- Rift Closure: 13 Hexes <font color="#00b0f0">Reward: 1x Random Formula or Blueprint</font>
+
+Taking on Rift Closure: 19 Hexes <font color="#ff00cc">Reward: 1x Random Magic Item</font>
 

@@ -2,7 +2,7 @@
 Art: "![[GoblinGirl_Token.webp|center]]"
 Title: 
 achievement_prog: "Riftbreaker: Successfully close 5 Rifts."
-Protection: D3
+Protection: D4+1
 Weapon1: Longsword
 Weapon1dmg: D6
 Weapon1type: Slashing
@@ -16,13 +16,13 @@ Weapon3type:
 Weapon3dmg: 
 Weapon3notes: 
 achievement_path: Path of the Explorer
-aetheryte: 100
+aetheryte: 75
 aaaetheryte: 0
 aaetheryte: 
 gems: 
-Armor1: Plain Tunic
-Armor1rate: D3
-Armor1notes: "Max Integrity: D6"
+Armor1: Hard Leather
+Armor1rate: D4+1
+Armor1notes: "Max Integrity: D8"
 hand1: ""
 hand2: ""
 hand3: ""
@@ -30,7 +30,7 @@ hand4: ""
 hand5: ""
 quest1: "**Monster Hunt**: The quest is to hunt a Luminous Lizard that as been terrorizing near by villages at night. Distance: 8 Hexes. Rewards: 200⟑"
 quest1t: false
-quest2: 
+quest2: "**Rift Closure:** Distance: 19 Hexes Rift Dominion: Sky Islets Rewards: 1x Random Magic Item"
 quest2t: false
 quest3: "**Rift Closure:** A Rift appeared one night and is spewing out monstrosities! Distance: 6 Hexes. Rift Dominion:  Primordial Forest Rewards: 1x Random Magic Item"
 quest3t: 
@@ -72,15 +72,13 @@ ring1notes:
 ring2name: 
 ring2magic: 
 ring2quirk: 
-ring2rank: 
 ring2notes: 
-pendantgearname: 
-pendantgearmagic: 
-pendantgearquirk: 
-pendantgearrank: 
+pendantgearname: Amulet of Eagle Eyes
+pendantgearmagic: +10 Perception and +5 to Luck
+pendantgearquirk: Covered in intricate runes.
 pendantgearnotes: 
-title1: 
-title2: 
+title1: Tent
+title2: Torches U12
 title3: 
 title4: 
 title5: 
@@ -111,10 +109,10 @@ HeartAbLink3: "![[Divine Shield]]"
 HeartAbLink4: "![[Two-Handed Weapon Master]]"
 HeartAbLink5: "![[Unbound Fury]]"
 HeartAbLink6: "![[Holy Weapon]]"
-gear1: Potion of Minor Healing X2
+gear1: Bandages UD12
 gear2: "Potion of Liquid Shadows: You are immediately Concealed. "
 Appearance1: ""
-Integrity1: D6
+Integrity1: D8
 heart8: true
 heart9: true
 reputation_rank: Initiate
@@ -123,9 +121,18 @@ CurrentAether: 10
 skill6: false
 hp: 26
 modifier: 0
-gear4: "Amulet of Eagle Eyes: +10 Perception and +5 to Luck"
+gear4: Sickle
 skill5: false
-gear5: ""
+gear5: Crowbar
+Bandage: D12
+torch1: D12
+qbelt1: Potion of Minor Healing
+qbelt2: Potion of Minor Healing
+gear6: "Hunting Knife "
+gear7: Pickaxe
+gear9: Rope
+gear10: ""
+Pskills69: Backpack
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] %%FAKE TITLE HERE%% 
@@ -139,9 +146,9 @@ gear5: ""
 >> **Current Achievement Path** |`INPUT[suggester(option(Path of Slaughter), option(Path of Shadows), option(Path of the Arcane), option(Path of the Explorer), option(Path of the Diplomat)):achievement_path]` |
 >>  **Achievement in Progress** |`=this.achievement_prog` `boxes: 0/5` |
 >> **Ability Pool** | Used: `6` **Max:** `21` |
->> **Reputation** | `0` `INPUT[suggester(option(Initiate), option(Journeyman), option(Vanguard), option(Champion), option(High Warden)):reputation_rank]` |
+>> **Reputation** | `1` `INPUT[suggester(option(Initiate), option(Journeyman), option(Vanguard), option(Champion), option(High Warden)):reputation_rank]` |
 >> **HP** | **Current:**`26` **Max:** `26`
->> **Luck** | `0` |
+>> **Luck** | `5` |
 >> **Parry** | `10` |
 >> **Max Aether** | `10` |
 >> **Protection** | `=this.Protection` |
@@ -200,38 +207,38 @@ gear5: ""
 >>[!gather] %%FAKE TITLE HERE%%
 >>
 >> ### Skill Checks
->>| **Skill Name** | **Skill Level** | **Skill Up**
->>| ------------------------- | ----------- | ----------- |
->>| **Agility** (10) | `25` | `INPUT[toggle:skill1]`|
->>| **Alchemy** | `30` | `INPUT[toggle:skill2]`|
->>| **Animal Handling** | `0` |`INPUT[toggle:skill3]`|
->>| **Armorsmithing** | `10` |`INPUT[toggle:skill4]`|
->>| **Athletics** (10) | `24` |`INPUT[toggle:skill5]`|
->>| **Bladed Weapons** | `64` |`INPUT[toggle:skill6]`|
->>| **Bludgeoning Weapons**  | `0` |`INPUT[toggle:skill7]`|
->>| **Cooking**  | `15` |`INPUT[toggle:skill8]`|
->>|**Command** | `0` | `INPUT[toggle:skill9]`|
->>| **Endurance (10)**  | `25` |`INPUT[toggle:skill10]`
->>| **Gathering**  | `30` |`INPUT[toggle:skill11]`
->>| **Insight**  | `0` |`INPUT[toggle:skill12]`
->>| **Jewelcrafting** | `0` |`INPUT[toggle:skill13]`
->>| **Literacy**| `40` |`INPUT[toggle:skill14]`
->>| **Lockpicking** | `0` |`INPUT[toggle:skill15]`
->>| **Manipulation** | `0` |`INPUT[toggle:skill16]`
->>| **Medicine**  | `15` |`INPUT[toggle:skill17]`
->>| **Nature**  | `0` |`INPUT[toggle:skill18]`
->>| **Perception (20)** | `30` |`INPUT[toggle:skill19]`
->>| **Performance** | `0` |`INPUT[toggle:skill20]`
->>| **Ranged Weapons** | `40` |`INPUT[toggle:skill21]`
->>| **Reason (10)** | `10` |`INPUT[toggle:skill22]`
->>| **Sailing** | `0` |`INPUT[toggle:skill23]`
->>| **Shafted Weapons** | `0` |`INPUT[toggle:skill24]`
->>| **Sleight of Hand** | `0` |`INPUT[toggle:skill25]`
->>| **Stealth** | `10` |`INPUT[toggle:skill26]`
->>| **Survival** | `40` |`INPUT[toggle:skill27]`
->>| **Tenacity (10)** | `40` |`INPUT[toggle:skill28]`
->>| **Unarmed Combat (10)** | `10` |`INPUT[toggle:skill29]`
->>| **Weaponsmithing** | `0` |`INPUT[toggle:skill30]`
+>>| **Skill Name** | **Skill Level**| **Gear Mod** | **Skill Up**
+>>| ------------------------- | ----------- | -----------| ----------- |
+>>| **Agility** (10) | `25` |  `0` | `INPUT[toggle:skill1]`|
+>>| **Alchemy** | `30` |`0` | `INPUT[toggle:skill2]`|
+>>| **Animal Handling** | `0` | `0` |`INPUT[toggle:skill3]`|
+>>| **Armorsmithing** | `10` |`0` | `INPUT[toggle:skill4]`|
+>>| **Athletics** (10) | `24` |`0` |`INPUT[toggle:skill5]`|
+>>| **Bladed Weapons** | `64` |`0` |`INPUT[toggle:skill6]`|
+>>| **Bludgeoning Weapons**  | `0` |`0` |`INPUT[toggle:skill7]`|
+>>| **Cooking**  | `15` |`0` |`INPUT[toggle:skill8]`|
+>>|**Command** | `0` | `0` |`INPUT[toggle:skill9]`|
+>>| **Endurance (10)**  | `25` |`0` |`INPUT[toggle:skill10]`
+>>| **Gathering**  | `30` |`0` |`INPUT[toggle:skill11]`
+>>| **Insight**  | `0` |`0` |`INPUT[toggle:skill12]`
+>>| **Jewelcrafting** | `0` |`0` |`INPUT[toggle:skill13]`
+>>| **Literacy**| `40` |`0` |`INPUT[toggle:skill14]`
+>>| **Lockpicking** | `0` |`0` |`INPUT[toggle:skill15]`
+>>| **Manipulation** | `0` |`0` |`INPUT[toggle:skill16]`
+>>| **Medicine**  | `15` |`0` |`INPUT[toggle:skill17]`
+>>| **Nature**  | `0` |`0` |`INPUT[toggle:skill18]`
+>>| **Perception (20)** | `30` |`10` |`INPUT[toggle:skill19]`
+>>| **Performance** | `0` |`0` |`INPUT[toggle:skill20]`
+>>| **Ranged Weapons** | `40` |`0` |`INPUT[toggle:skill21]`
+>>| **Reason (10)** | `10` |`0` |`INPUT[toggle:skill22]`
+>>| **Sailing** | `0` |`0` |`INPUT[toggle:skill23]`
+>>| **Shafted Weapons** | `0` |`0` |`INPUT[toggle:skill24]`
+>>| **Sleight of Hand** | `0` |`0` |`INPUT[toggle:skill25]`
+>>| **Stealth** | `10` |`0` |`INPUT[toggle:skill26]`
+>>| **Survival** | `40` |`0` |`INPUT[toggle:skill27]`
+>>| **Tenacity (10)** | `40` |`0` |`INPUT[toggle:skill28]`
+>>| **Unarmed Combat (10)** |`1` | `0` |`INPUT[toggle:skill29]`
+>>| **Weaponsmithing** | `0` |`0` |`INPUT[toggle:skill30]`
 >
 >>[!gather] %%FAKE TITLE HERE%%
 >>##### Proficiencies
@@ -251,7 +258,7 @@ gear5: ""
 >>|**Quest Description** |**Completed** | **Timer/Counter**|
 >> |:---: | --- | :---------: |
 >>| `=this.quest1` | `INPUT[toggle:quest1t]` | `boxes: 0/16`
->> |`=this.quest2` |`INPUT[toggle:quest2t]` | `boxes: 0/9` `boxes: 0/18`
+>> |`=this.quest2` |`INPUT[toggle:quest2t]` |  `boxes: 0/19`
 >>| `=this.quest3` | `INPUT[toggle:quest3t]` | `boxes: 0/6`
 >> |`=this.quest4` |`INPUT[toggle:quest4t]` | `boxes: 0/19`
 >>| `=this.quest5` | `INPUT[toggle:quest5t]` | `boxes: 0/16`
@@ -264,7 +271,7 @@ gear5: ""
 ---
 
 >[!gather] %%FAKE TITLE HERE%%
->>[!table] %%FAKE TITLE HERE%%
+>>[!gather] %%FAKE TITLE HERE%%
 >>### Inventory
 >>| Slot | Encumbering Items | Slot| Belt Quickslots
 >>| :-: | ---------------- |:-: | ---------------- |
@@ -279,7 +286,7 @@ gear5: ""
 >>|10|`INPUT[text:gear10]` |
 >>
 >>
->>##### Backpack
+>>### Backpack 
 >>| Slot | Encumbering Items | Slot | Encumbering Items 
 >>| :-: | ---------------- |:-:|--------|
 >>|1|`INPUT[text:title1]` |11|`INPUT[text:title11]`|
@@ -320,7 +327,6 @@ gear5: ""
 >>|**Name** | `=this.headname`|
 >>|**Magic** | `=this.headmagic`|
 >>|**Quirk** | `=this.headquirk`|
->>| **Rank** | `=this.headrank` |
 >>| **Notes** | `=this.headnotes` |
 >>
 >>&nbsp;
@@ -330,7 +336,6 @@ gear5: ""
 >>|**Name** | `=this.chestname`|
 >>|**Magic** | `=this.chestmagic`|
 >>|**Quirk** | `=this.chestquirk`|
->>| **Rank** | `=this.chestrank` |
 >>| **Notes** | `=this.chestnotes` |
 >> &nbsp;
 >>
@@ -340,7 +345,6 @@ gear5: ""
 >>|**Name** | `=this.beltname`|
 >>|**Magic** | `=this.beltmagic`|
 >>|**Quirk** | `=this.beltquirk`|
->>| **Rank** | `=this.beltrank` |
 >>| **Notes** | `=this.beltnotes` |
 >> &nbsp;
 >>
@@ -350,7 +354,6 @@ gear5: ""
 >>|**Name** | `=this.pantsname`|
 >>|**Magic** | `=this.pantsmagic`|
 >>|**Quirk** | `=this.pantsquirk`|
->>| **Rank** | `=this.pantsrank` |
 >>| **Notes** | `=this.pantsnotes` |
 >> &nbsp;
 >>
@@ -370,7 +373,6 @@ gear5: ""
 >>|**Name** | `=this.bootname`|
 >>|**Magic** | `=this.bootmagic`|
 >>|**Quirk** | `=this.bootquirk`|
->>| **Rank** | `=this.bootrank` |
 >>| **Notes** | `=this.bootnotes` |
 >> &nbsp;
 >>
@@ -380,7 +382,6 @@ gear5: ""
 >>|**Name** | `=this.ring1name`|
 >>|**Magic** | `=this.ring1magic`|
 >>|**Quirk** | `=this.ring1quirk`|
->>| **Rank** | `=this.ring1rank` |
 >>| **Notes** | `=this.ring1notes` |
 >> &nbsp;
 >>
@@ -390,7 +391,6 @@ gear5: ""
 >>|**Name** | `=this.ring2name`|
 >>|**Magic** | `=this.ring2magic`|
 >>|**Quirk** | `=this.ring2quirk`|
->>| **Rank** | `=this.ring2rank` |
 >>| **Notes** | `=this.ring2notes` |
 >> &nbsp;
 >>
@@ -400,7 +400,6 @@ gear5: ""
 >>|**Name** | `=this.pendantgearname`|
 >>|**Magic** | `=this.pendantgearmagic`|
 >>|**Quirk** | `=this.pendantgearquirk`|
->>| **Rank** | `=this.pendantgearrank` |
 >>| **Notes** | `=this.pendantgearnotes` |
 >>
 >> &nbsp;
