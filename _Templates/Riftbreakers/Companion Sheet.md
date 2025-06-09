@@ -3,8 +3,9 @@ Role: The Controller
 Art:
 CompanionHP: 24
 dammod:
+CompanionLOAbility:
 ---
----
+
 >[!thing] %%FAKE TITLE HERE%%
 >>[!thing] %%FAKE TITLE HERE%%
 >> # `=this.file.name`
@@ -37,11 +38,11 @@ dammod:
 
 ---
 
->[!] %%FAKE TITLE HERE%%
->>[!crafting] %%FAKE TITLE HERE%%
+>[!table_time] %%FAKE TITLE HERE%%
+>>[!table_time] %%FAKE TITLE HERE%%
 >>### Companion Loadout Ability
 >> 
->>`=this.HeartAbLink1`
+>>`=this.CompanionLOAbility`
 >>
 >>
 >>&nbsp;

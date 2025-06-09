@@ -1,6 +1,6 @@
 ---
 HeartAbCost: 8
-HeartAbHeart: Companion
+HeartAbHeart: Summon Companion
 HeartDef: 
 HeartDes: Your Companion enters the fray.
 HeartFlav: "*You call forth your Companion, who promptly obeys you, ready for combat.*"
@@ -8,8 +8,8 @@ HeartAbRange: 0
 prime: false
 ---
 
->[!crafting]  %%FAKE TITLE HERE%%
->>[!crafting]  %%FAKE TITLE HERE%%
+>[!table_time]  %%FAKE TITLE HERE%%
+>>[!table_time]  %%FAKE TITLE HERE%%
 >>### `=this.file.name`
 >>|  | |  |  |
 >>|:--------:|:-------:|:-----:|:--------------:|
