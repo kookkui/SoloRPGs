@@ -342,9 +342,9 @@
       "obsidian-excalidraw-plugin:New drawing": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false,
       "calendarium:Open Calendarium": false,
-      "solo-rpg-toolkit:Solo RPG Toolkit": false,
-      "obsidian-git:Open Git source control": false
+      "solo-rpg-toolkit:Solo RPG Toolkit": false
     }
   },
   "active": "47b43064805c75e1",
