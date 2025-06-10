@@ -744,4 +744,10 @@ Bladed Weapons Skill up Check (64) `d100 = 14` Hit!
 
 8 Damage - 4 Armor = 4 Damage to Warpstar (Dead)
 
-Loot: Spatial Bags
+Loot: <font color="#ff00cc">Large Spatial Bag</font>
+
+## 998-04-20
+
+Traveling north 2 Hexes 
+
+Travel check encounter Beastman
