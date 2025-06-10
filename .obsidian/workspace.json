@@ -12,14 +12,10 @@
             "id": "b2ee79effc374dd2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SoloRPGs/Riftbreakers - Second Edition/Aurielle Journal.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Aurielle Journal"
+              "title": "New tab"
             }
           },
           {
@@ -73,14 +69,10 @@
             "id": "6f234e96ead7efb8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SoloRPGs/Riftbreakers - Second Edition/PCs/Serayr.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Serayr"
+              "title": "New tab"
             }
           },
           {
@@ -308,13 +300,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoloRPGs/Riftbreakers - Second Edition/Aurielle Journal.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Aurielle Journal"
+              "title": "Outline"
             }
           }
         ],
@@ -356,15 +347,14 @@
       "obsidian-excalidraw-plugin:New drawing": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "templater-obsidian:Templater": false,
-      "obsidian-git:Open Git source control": false,
       "calendarium:Open Calendarium": false,
       "solo-rpg-toolkit:Solo RPG Toolkit": false
     }
   },
-  "active": "fe32ac9541879a4c",
+  "active": "b2ee79effc374dd2",
   "lastOpenFiles": [
-    "SoloRPGs/_Templates/Colour Pallette.md",
     "SoloRPGs/Riftbreakers - Second Edition/Aurielle Journal.md",
+    "SoloRPGs/_Templates/Colour Pallette.md",
     "SoloRPGs/Riftbreakers - Second Edition/PCs/Serayr.md",
     "SoloRPGs/Riftbreakers - Second Edition/Rules Reference/Riftbreakers House Rules.md",
     "SoloRPGs/Riftbreakers - Second Edition/PCs/Aurielle.md",
