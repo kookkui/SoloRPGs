@@ -172,8 +172,8 @@
             "state": {
               "type": "MAIN_VIEW",
               "state": {},
-              "icon": "srt-ribbon",
-              "title": "Solo RPG Toolkit"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
@@ -190,7 +190,7 @@
       {
         "id": "9069df57700a3564",
         "type": "tabs",
-        "dimension": 56.59455687369155,
+        "dimension": 56.59455687369156,
         "children": [
           {
             "id": "30ad3195d21516b7",
@@ -328,6 +328,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "pexels-banner:🚩 Pixel Banner Menu": false,
       "obsidian-5e-statblocks:Open Creature pane": false,
       "markdown-importer:Open format converter": false,
@@ -341,14 +342,13 @@
       "obsidian-excalidraw-plugin:New drawing": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "templater-obsidian:Templater": false,
-      "calendarium:Open Calendarium": false,
-      "solo-rpg-toolkit:Solo RPG Toolkit": false
+      "calendarium:Open Calendarium": false
     }
   },
-  "active": "b2ee79effc374dd2",
+  "active": "64343c8cef39b146",
   "lastOpenFiles": [
-    "SoloRPGs/Riftbreakers - Second Edition/Tables/Riftbreakers Tables Rolls.md",
     "SoloRPGs/Riftbreakers - Second Edition/Aurielle Journal.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Tables/Riftbreakers Tables Rolls.md",
     "SoloRPGs/Riftbreakers - Second Edition/Maps/Overworld Maps/Keathor Overworld Map.md",
     "SoloRPGs/_Templates/Broken Shores/Raft Sheet.md",
     "SoloRPGs/_Templates/Riftbreakers/Spatial Bag Template.md",
