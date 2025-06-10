@@ -1,0 +1,102 @@
+{
+  "items": [
+    {
+      "uid": 1,
+      "title": "Line Break",
+      "subtitle": "&nbsp;",
+      "arg": "&nbsp;",
+      "key": "Line Break"
+    },
+    {
+      "uid": 2,
+      "title": "Fake Ass Title",
+      "subtitle": "%%FAKE TITLE HERE%%",
+      "arg": "%%FAKE TITLE HERE%%",
+      "key": "Fake Ass Title"
+    },
+    {
+      "uid": 3,
+      "title": "Ranged Weapons",
+      "subtitle": "**Ranged Weapons Check**",
+      "arg": "**Ranged Weapons Check**",
+      "key": "Ranged Weapons"
+    },
+    {
+      "uid": 4,
+      "title": "One-Handed Melee Check",
+      "subtitle": "**One-Handed Melee Check**",
+      "arg": "**One-Handed Melee Check**",
+      "key": "One-Handed Melee Check"
+    },
+    {
+      "uid": 5,
+      "title": "Two-Handed Melee Check",
+      "subtitle": "**Two-Handed Melee Check**",
+      "arg": "**Two-Handed Melee Check**",
+      "key": "Two-Handed Melee Check"
+    },
+    {
+      "uid": 6,
+      "title": "Parry Check",
+      "subtitle": "**Parry Check**",
+      "arg": "**Parry Check**",
+      "key": "Parry Check"
+    },
+    {
+      "uid": 7,
+      "title": "Herb Lore",
+      "subtitle": "**Herb Lore Check**",
+      "arg": "**Herb Lore Check**",
+      "key": "Herb Lore"
+    },
+    {
+      "uid": 8,
+      "title": "Perception Check",
+      "subtitle": "**Perception Check**",
+      "arg": "**Perception Check**",
+      "key": "Perception Check"
+    },
+    {
+      "uid": 9,
+      "title": "Victory!",
+      "subtitle": "<span style=\"color:rgb(241, 91, 181)\">Victory!</span>",
+      "arg": "<span style=\"color:rgb(241, 91, 181)\">Victory!</span>",
+      "key": "Victory!"
+    },
+    {
+      "uid": 10,
+      "title": "Morning",
+      "subtitle": "<span style=\"color:rgb(249, 132, 74)\">Morning</span>",
+      "arg": "<span style=\"color:rgb(249, 132, 74)\">Morning</span>",
+      "key": "Morning"
+    },
+    {
+      "uid": 11,
+      "title": "Afternoon",
+      "subtitle": "<span style=\"color:rgb(255, 255, 184)\">Afternoon</span>",
+      "arg": "<span style=\"color:rgb(255, 255, 184)\">Afternoon</span>",
+      "key": "Afternoon"
+    },
+    {
+      "uid": 12,
+      "title": "Evening",
+      "subtitle": "<span style=\"color:rgb(155, 93, 229)\">Evening</span>",
+      "arg": "<span style=\"color:rgb(155, 93, 229)\">Evening</span>",
+      "key": "Evening"
+    },
+    {
+      "uid": 13,
+      "title": "Oida Beast",
+      "subtitle": "- Domain:\n- Weshan Type:\n- Ara Pool: 20\n- <font color=\"#ff00cc\">+50% XP</font>\nWeshan:",
+      "arg": "- Domain:\n- Weshan Type:\n- Ara Pool: 20\n- <font color=\"#ff00cc\">+50% XP</font>\nWeshan:",
+      "key": "Oida Beast"
+    },
+    {
+      "uid": 14,
+      "title": "Dire Beast",
+      "subtitle": "- Domain:\n- Weshan Type:\n- Ara Pool: 10\n- <font color=\"#ff00cc\">+50% XP</font>\n- Attack skill and damage dealt increased by +2 per Spirit Stage.\nWeshan:",
+      "arg": "- Domain:\n- Weshan Type:\n- Ara Pool: 10\n- <font color=\"#ff00cc\">+50% XP</font>\n- Attack skill and damage dealt increased by +2 per Spirit Stage.\nWeshan:",
+      "key": "Dire Beast"
+    }
+  ]
+}

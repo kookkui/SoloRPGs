@@ -1,0 +1,166 @@
+{
+  "userAdmonitions": {
+    "table": {
+      "type": "table",
+      "color": "255, 0, 234",
+      "icon": {
+        "name": "dice-d20",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Table",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
+    },
+    "dice": {
+      "type": "dice",
+      "color": "134, 36, 255",
+      "icon": {
+        "name": "dice",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Dice Roll",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
+    },
+    "travel": {
+      "type": "travel",
+      "color": "0, 202, 255",
+      "icon": {
+        "name": "map",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": null,
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
+    },
+    "gather": {
+      "type": "gather",
+      "color": "255, 41, 184",
+      "icon": {
+        "name": "lucide-pickaxe",
+        "type": "obsidian"
+      },
+      "command": false,
+      "title": "Gather",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
+    },
+    "npc": {
+      "type": "npc",
+      "color": "255, 242, 0",
+      "icon": {
+        "name": "chess-pawn",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "NPC",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
+    },
+    "gear": {
+      "type": "gear",
+      "color": "0, 255, 204",
+      "icon": {
+        "name": "crossed-swords",
+        "type": "obsidian"
+      },
+      "command": false,
+      "title": "Gear",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
+    },
+    "thing": {
+      "type": "thing",
+      "color": "0, 187, 249",
+      "icon": {
+        "name": "fort-awesome",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Thing",
+      "injectColor": true,
+      "noTitle": false
+    },
+    "crafting": {
+      "type": "crafting",
+      "color": "251, 86, 7",
+      "icon": {
+        "name": "cogs",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Crafting",
+      "injectColor": true,
+      "noTitle": false
+    },
+    "table_time": {
+      "type": "table_time",
+      "color": "17, 255, 0",
+      "icon": {
+        "name": "dice-d20",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Table_Time",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
+    },
+    "gaming": {
+      "type": "gaming",
+      "color": "170, 255, 0",
+      "icon": {
+        "name": "lucide-gamepad",
+        "type": "obsidian"
+      },
+      "command": false,
+      "title": "Gaming",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
+    },
+    "rng": {
+      "type": "rng",
+      "color": "255, 7, 58",
+      "icon": {
+        "name": "random",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "RNG",
+      "injectColor": true,
+      "noTitle": false,
+      "copy": false
+    }
+  },
+  "syntaxHighlight": false,
+  "copyButton": false,
+  "version": "10.3.2",
+  "autoCollapse": true,
+  "defaultCollapseType": "open",
+  "injectColor": true,
+  "parseTitles": true,
+  "dropShadow": true,
+  "hideEmpty": false,
+  "open": {
+    "admonitions": true,
+    "icons": true,
+    "other": true,
+    "advanced": true
+  },
+  "icons": [],
+  "useFontAwesome": true,
+  "rpgDownloadedOnce": false,
+  "msDocConverted": false,
+  "useSnippet": false,
+  "snippetPath": "custom-admonitions.bd39a2"
+}

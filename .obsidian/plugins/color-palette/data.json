@@ -1,0 +1,16 @@
+{
+  "noticeDuration": 10000,
+  "errorPulse": true,
+  "aliasMode": "Both",
+  "corners": true,
+  "stabilityWhileEditing": true,
+  "reloadDelay": 5,
+  "copyFormat": "Raw",
+  "height": 150,
+  "width": 700,
+  "direction": "column",
+  "gradient": false,
+  "hover": true,
+  "hideText": false,
+  "override": false
+}

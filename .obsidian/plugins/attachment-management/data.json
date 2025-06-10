@@ -1,0 +1,21 @@
+{
+  "attachPath": {
+    "attachmentRoot": "",
+    "saveAttE": "obsFolder",
+    "attachmentPath": "${notepath}/${notename}",
+    "attachFormat": "IMG-${date}",
+    "type": "GLOBAL"
+  },
+  "dateFormat": "YYYYMMDDHHmmssSSS",
+  "excludeExtensionPattern": "",
+  "autoRenameAttachment": true,
+  "excludedPaths": "SoloRPGs;_Decks",
+  "excludePathsArray": [
+    "SoloRPGs",
+    "_Decks"
+  ],
+  "excludeSubpaths": false,
+  "originalNameStorage": [],
+  "overridePath": {},
+  "disableNotification": false
+}

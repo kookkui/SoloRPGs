@@ -1,0 +1,7 @@
+snippet.css
+
+.mb-input-type-number.big-number > number {
+    font-family: 'Space mono';
+    font-size: 16px !important;
+}
+
