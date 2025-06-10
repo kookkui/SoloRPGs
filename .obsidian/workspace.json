@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "SoloRPGs/Riftbreakers - Second Edition/Aurielle Journal.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -29,11 +29,25 @@
               "type": "markdown",
               "state": {
                 "file": "SoloRPGs/_Templates/Colour Pallette.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "Colour Pallette"
+            }
+          },
+          {
+            "id": "47b43064805c75e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SoloRPGs/_Templates/Riftbreakers/Spatial Bag Template.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Spatial Bag Template"
             }
           }
         ]
@@ -56,20 +70,6 @@
             }
           },
           {
-            "id": "47b43064805c75e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SoloRPGs/Riftbreakers - Second Edition/PCs/Aurielle.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Aurielle"
-            }
-          },
-          {
             "id": "d498724bdbe0f31b",
             "type": "leaf",
             "state": {
@@ -81,8 +81,7 @@
               "title": "Combat Zones Map Dark Mode"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -191,7 +190,7 @@
       {
         "id": "9069df57700a3564",
         "type": "tabs",
-        "dimension": 51.63991625959525,
+        "dimension": 56.59455687369155,
         "children": [
           {
             "id": "30ad3195d21516b7",
@@ -294,22 +293,22 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoloRPGs/Riftbreakers - Second Edition/PCs/Aurielle.md",
+                "file": "SoloRPGs/Riftbreakers - Second Edition/Maps/Overworld Maps/Keathor Overworld Map.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Aurielle"
+              "title": "Outline of Keathor Overworld Map"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       },
       {
         "id": "0e6a14a15862aa6f",
         "type": "tabs",
-        "dimension": 48.36008374040475,
+        "dimension": 43.40544312630844,
         "children": [
           {
             "id": "fe74df69c6024a9f",
@@ -342,17 +341,31 @@
       "obsidian-excalidraw-plugin:New drawing": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "templater-obsidian:Templater": false,
-      "obsidian-git:Open Git source control": false,
       "calendarium:Open Calendarium": false,
       "solo-rpg-toolkit:Solo RPG Toolkit": false
     }
   },
-  "active": "47b43064805c75e1",
+  "active": "b2ee79effc374dd2",
   "lastOpenFiles": [
+    "SoloRPGs/Riftbreakers - Second Edition/Tables/Riftbreakers Tables Rolls.md",
     "SoloRPGs/Riftbreakers - Second Edition/Aurielle Journal.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Maps/Overworld Maps/Keathor Overworld Map.md",
+    "SoloRPGs/_Templates/Broken Shores/Raft Sheet.md",
+    "SoloRPGs/_Templates/Riftbreakers/Spatial Bag Template.md",
     "SoloRPGs/Riftbreakers - Second Edition/PCs/Aurielle.md",
     "SoloRPGs/_Templates/Colour Pallette.md",
+    "SoloRPGs/_Templates/Machine Gods of the Noxian Expanse/PC Template.md",
+    "SoloRPGs/_Templates/Path of the Aram Thyr/Path PC Character Sheet.md",
     "SoloRPGs/Riftbreakers - Second Edition/PCs/Serayr.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map Dark Mode.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Might Heart/Two-Handed Weapon Master.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Weapon Strikes & Non-Heart Abilities/Weapon Strike (Two-Handed).md",
+    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Restoration Heart/Holy Weapon.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Companion Loadout Abilities/Summon Companion.md",
+    "SoloRPGs/_Tokens/VTT Battle Tokens/Aboleth - 0101.webp",
+    "SoloRPGs/_Tokens/VTT Battle Tokens/Doppelganger - 0106.webp",
+    "SoloRPGs/_Tokens/VTT Battle Tokens/Giant - Storm - 0101.webp",
+    "SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map.md",
     "SoloRPGs/Riftbreakers - Second Edition/Rules Reference/Riftbreakers House Rules.md",
     "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Warpstar.md",
     "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Thunderbird.md",
@@ -361,31 +374,16 @@
     "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Island Golem.md",
     "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Giant Spider.md",
     "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Crystal Construct.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Tables/Riftbreakers Tables Rolls.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Maps/Overworld Maps/Keathor Overworld Map.md",
     "SoloRPGs/Riftbreakers - Second Edition/Maps/Overworld Maps/Kar Helos City Map.md",
     "SoloRPGs/Riftbreakers - Second Edition/Tables/General Tables.md",
-    "SoloRPGs/_Templates/Riftbreakers/Character Sheet PC Second Edition.md",
-    "SoloRPGs/_Templates/Backup PC Character Sheet.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Tables/Overworld Tables.md",
     "SoloRPGs/_Tokens/Riftbreaker/CutieGoblinButts.webp",
     "SoloRPGs/_Tokens/Riftbreaker/Fairy_Mender.webp",
     "SoloRPGs/_Tokens/Riftbreaker/GoblinGirl_Token.webp",
-    "SoloRPGs/_Templates/Riftbreakers/The Protector Companion Sheet.md",
-    "SoloRPGs/_Templates/Riftbreakers/The Mender Companion Sheet.md",
-    "SoloRPGs/_Templates/Riftbreakers/The Executioner Companion Sheet.md",
-    "SoloRPGs/_Templates/Riftbreakers/The Controller Companion Sheet.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Companion Loadout Abilities/Cleanse.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Companion Loadout Abilities/Cover.md",
     "SoloRPGs/_ Assets/Goblin_Girl_1.webp",
-    "SoloRPGs/_Templates/Riftbreakers/Monster Template.md",
     "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Companion Loadout Abilities",
     "SoloRPGs/_Tokens/VTT Battle Tokens/Animal - Eagle - Giant - 0105.webp",
-    "SoloRPGs/_Tokens/VTT Battle Tokens/Aboleth - 0101.webp",
     "SoloRPGs/_Tokens/VTT Battle Tokens/Animal - Eagle - Giant - 0101 - Tier1.webp",
     "SoloRPGs/_Tokens/VTT Battle Tokens/Frog - Giant - 0103.webp",
-    "SoloRPGs/_Tokens/VTT Battle Tokens/Toad - Giant - 0105.webp",
-    "SoloRPGs/_Tokens/VTT Battle Tokens/Giant - Storm - 0101.webp",
     "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Weapon Strikes & Non-Heart Abilities",
     "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map Dark Mode",
     "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map D",

@@ -681,5 +681,67 @@ creature: Warpstar (RB)
 ```
 
 
+```encounter
+players:
+  - Aurielle
+  - Serayr
+creatures:
+  - Warpstar (RB) , 12 , 4, 0
+```
 
-Test
+
+PC Perception (40) `d100 = 58` Win
+vs
+Warpstar Perception (60) `d100 = 79`
+
+Combat Start!
+
+PC Turn
+
+Casting Holy Weapon -6 MP
+
+You summon a weapon of your choice for you to wield that deals D8 Radiant damage. Any instance of Weapon Strike in your Loadout uses this weapon. The weapon lasts until the end of combat.
+
+<font color="#FFF200">Radiant Great Sword</font> (Slashing, Bladed, Two-handed)
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Skill up Check (64) `d100 = 10` Hit!
+
+7 Damage - 3 Armor = 4 Damage to Warpstar (8)
+
+Warpstar Turn
+
+**Nebula Shift**: The Warpstar teleports away to a random Combat Zone, leaving behind an explosion of astral energy. Creatures within the Zone must pass a Tenacity check or receive 2D4+1 Arcane damage.
+
+No one in zone
+
+PC Turn
+
+Two-Handed Weapon Master -5 MP
+
+For the remainder of combat, if you are wielding a two-handed weapon you deal an additional D4 damage.
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Skill up Check (64) `d100 = 46` Hit!
+
+8 Damage - 1 Armor = 7 Damage to Warpstar (1)
+
+Warpstar Turn
+
+**Nebula Shift**: The Warpstar teleports away to a random Combat Zone, leaving behind an explosion of astral energy. Creatures within the Zone must pass a Tenacity check or receive 2D4+1 Arcane damage.
+
+PC Tenacity Check (40) `d100 = 28` Passed!
+
+PC Turn
+
+Move 1 
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Skill up Check (64) `d100 = 14` Hit!
+
+8 Damage - 4 Armor = 4 Damage to Warpstar (Dead)
+
+Loot: Spatial Bags

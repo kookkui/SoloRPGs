@@ -430,7 +430,7 @@ Pskills69: Backpack
 >>| 1          | [[Weapon Strike (Two-Handed)]]     |
 >>| 2          | [[Weapon Strike (Two-Handed)]]      |
 >>| 3          | [[Weapon Strike (Two-Handed)]]    |
->>| 4          | [[Weapon Strike (One-Handed)]]     |
+>>| 4          | [[Summon Companion]]     |
 >>| 5          | [[Unbound Fury]]   |
 >>| 6          | [[Holy Weapon]] |
 >>| 7          | [[Divine Shield]]     |

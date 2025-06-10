@@ -26,18 +26,22 @@
       "player": true
     },
     {
-      "note": "Ivana",
-      "path": "SoloRPGs/Broken Shores/PCs/Ivana.md",
-      "name": "Ivana",
-      "player": true
-    },
-    {
       "note": "Aurielle",
       "path": "SoloRPGs/Riftbreakers - Second Edition/PCs/Aurielle.md",
       "name": "Aurielle",
       "player": true,
       "hp": 26,
       "modifier": 0
+    },
+    {
+      "note": "Serayr",
+      "path": "SoloRPGs/Riftbreakers - Second Edition/PCs/Serayr.md",
+      "name": "Serayr",
+      "ac": "1",
+      "hp": 20,
+      "level": 1,
+      "modifier": 0,
+      "player": true
     }
   ],
   "parties": [],
@@ -138,10 +142,73 @@
   "playerMarker": "default",
   "monsterMarker": "default",
   "state": {
-    "creatures": [],
-    "state": false,
+    "creatures": [
+      {
+        "name": "Warpstar (RB) ",
+        "initiative": 3,
+        "static": false,
+        "modifier": 0,
+        "hp": 12,
+        "currentMaxHP": 12,
+        "ac": 4,
+        "currentAC": 4,
+        "id": "ID_baba48dbcb48",
+        "currentHP": 0,
+        "tempHP": 0,
+        "status": [
+          "Unconscious"
+        ],
+        "enabled": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false,
+        "rollHP": false
+      },
+      {
+        "name": "Aurielle",
+        "initiative": 16,
+        "static": false,
+        "modifier": 0,
+        "hp": 26,
+        "currentMaxHP": 26,
+        "note": "Aurielle",
+        "path": "SoloRPGs/Riftbreakers - Second Edition/PCs/Aurielle.md",
+        "id": "ID_9b6b4a59aaa9",
+        "currentHP": 26,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "player": true,
+        "active": true,
+        "hidden": false,
+        "friendly": false
+      },
+      {
+        "name": "Serayr",
+        "initiative": 4,
+        "static": false,
+        "modifier": 0,
+        "hp": 20,
+        "currentMaxHP": 20,
+        "ac": "1",
+        "currentAC": "1",
+        "note": "Serayr",
+        "path": "SoloRPGs/Riftbreakers - Second Edition/PCs/Serayr.md",
+        "id": "ID_aac9c8494b0b",
+        "currentHP": 20,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "level": 1,
+        "player": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false
+      }
+    ],
+    "state": true,
     "name": null,
-    "round": 1,
+    "round": 3,
     "logFile": "",
     "rollHP": false
   },

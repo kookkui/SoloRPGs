@@ -73,3 +73,17 @@ rgb(0, 0, 0)
 [Palette - Coolors]("[Palette - Coolors]([Create a Palette - Coolors](https://coolors.co/10451d-155d27-1a7431-208b3a-25a244-2dc653-4ad66d-6ede8a-92e6a7-b7efc5)")
 ```
 
+
+>>|1|`INPUT[text:spacebag31]` |2|`INPUT[text:spacebag311]`|
+>>|3|`INPUT[text:spacebag32]`|4|`INPUT[text:spacebag312]`|
+>>|5|`INPUT[text:spacebag33]`|6|`INPUT[text:spacebag313]`|
+>>|7|`INPUT[text:spacebag34]`|8|`INPUT[text:spacebag314]`|
+>>|9|`INPUT[text:spacebag35]`|10|`INPUT[text:spacebag315]`|
+>>|11|`INPUT[text:spacebag36]`|12|`INPUT[text:spacebag316]`|
+>>|13|`INPUT[text:spacebag37]`|14|`INPUT[text:spacebag317]`|
+>>|15|`INPUT[text:spacebag38]`|16|`INPUT[text:spacebag318]`|
+>>|17|`INPUT[text:spacebag39]`|18|`INPUT[text:spacebag319]`|
+>>|19|`INPUT[text:spacebag310]`|20|`INPUT[text:spacebag320]`
+>>|21|`INPUT[text:spacebag38]`|22|`INPUT[text:spacebag318]`|
+>>|23|`INPUT[text:spacebag39]`|24|`INPUT[text:spacebag319]`|
+>>|25|`INPUT[text:spacebag310]`||
