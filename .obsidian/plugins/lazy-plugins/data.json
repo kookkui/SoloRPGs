@@ -67,7 +67,7 @@
         "startupType": "instant"
       },
       "obsidian-git": {
-        "startupType": "disabled"
+        "startupType": "instant"
       },
       "obsidian-hover-editor": {
         "startupType": "instant"
