@@ -58,7 +58,7 @@ Survival Skill has the following terrain modifiers:
 
 >[!check] %%FAKE TITLE HERE%%
 >
->### Chance to Find Plants By Terrain
+>### Chance to Find Alchemical Ingredients By Terrain
 >|<font color="#953734">Bonespire Peaks</font>|<font color="#00b050">Arenmist Forest</font>|<font color="#92d050">Kar Helos/The Crystal Plains</font>|<font color="#ffc000">The Violet Sands</font>|<font color="#6425d0">Mudbloom Marshes</font>|
 >|---|---|---|---|---|
 >|40%|70%|40%|10%|60%|

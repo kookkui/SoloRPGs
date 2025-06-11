@@ -97,6 +97,13 @@
       "subtitle": "- Domain:\n- Weshan Type:\n- Ara Pool: 10\n- <font color=\"#ff00cc\">+50% XP</font>\n- Attack skill and damage dealt increased by +2 per Spirit Stage.\nWeshan:",
       "arg": "- Domain:\n- Weshan Type:\n- Ara Pool: 10\n- <font color=\"#ff00cc\">+50% XP</font>\n- Attack skill and damage dealt increased by +2 per Spirit Stage.\nWeshan:",
       "key": "Dire Beast"
+    },
+    {
+      "uid": 15,
+      "title": "Riftbreakers Encounter",
+      "subtitle": "PC Perception (40) `d100 = 10` \nvs\nEnemy Perception (50) `d100 = 10`",
+      "arg": "PC Perception (40) `d100 = 10` \nvs\nEnemy Perception (50) `d100 = 10`",
+      "key": "Riftbreakers Encounter"
     }
   ]
 }

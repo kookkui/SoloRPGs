@@ -1,9 +1,10 @@
 ---
-HeartAbCost: 4 Aether
+HeartAbCost: 4
 HeartAbHeart: Death
-HeartAbType: Combat, Talent
-HeartAbActions: Standard Action
-HeartAbRange: 30 meters
+HeartDef: Endurance
+HeartAbRange: 0-3
+HeartDes: Target suffers D6 Necrotic damage.
+HeartFlav: "*You concentrate the power of death into a bolt, launching it at your target.*"
 ---
 
 >[!dice]  %%FAKE TITLE HERE%%
@@ -11,18 +12,14 @@ HeartAbRange: 30 meters
 >>### `=this.file.name`
 >>|  | |  |  |
 >>|:--------:|:-------:|:-----:|:--------------:|
->>| **Ability Name** | `=this.file.name` | **Type** | `=this.HeartAbType` |
+>>| **Ability Name** | `=this.file.name` | **Defense** | `=this.HeartDef` |
 >>| **Cost** | `=this.HeartAbCost` | **Heart** | `=this.HeartAbHeart` |
->>| **Actions** | `=this.HeartAbActions` | **Range** | `=this.HeartAbRange` |
+>>| **Prime** | `INPUT[toggle:prime]` | **Range** | `=this.HeartAbRange` |
 >>&nbsp;
 >> 
 >> ##### Description
->>Target suffers D6+DM Necrotic damage.
+>>`=this.HeartDes`
 >>
 >>&nbsp;
->>**Apprentice Rank:** Amount increased to 2D6+DM Necrotic damage
->>**Veteran Rank:** Amount increased to 3D6+DM Necrotic damage
->>**Master Rank:** Amount increased to 4D6+DM Necrotic damage
->>&nbsp;
->>*You concentrate the power of death into a bolt, launching it at your target.*
+>>`=this.HeartFlav`
 >>

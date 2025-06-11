@@ -8,8 +8,8 @@ HeartAbRange: "0"
 prime: true
 ---
 
->[!crafting]  %%FAKE TITLE HERE%%
->>[!crafting]  %%FAKE TITLE HERE%%
+>[!rng]  %%FAKE TITLE HERE%%
+>>[!rng]  %%FAKE TITLE HERE%%
 >>### `=this.file.name`
 >>|  | |  |  |
 >>|:--------:|:-------:|:-----:|:--------------:|

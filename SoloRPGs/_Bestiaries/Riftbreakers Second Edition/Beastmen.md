@@ -9,7 +9,7 @@ athletics: "60"
 cs: "50"
 endurance: "40"
 evasion: "10"
-hp: "6♟"
+hp: "8♟"
 
 move: "1"
 number: "3"
@@ -27,7 +27,7 @@ traits:
 
 action:
   - name: '1-2'
-    desc: '**Savage Swipe**: The Beastman slashes at its target with its claws, making a Combat Skill check that deals D6+1 Slashing damage on a hit.'
+    desc: '**Savage Swipe**: The Beastman slashes at its target with its claws, making a Combat Skill check that deals D6+2 Slashing damage on a hit.'
   - name: '3-4'
     desc: '**Throwing Spear**: The Beastman hurls a spear at a random target within 2 Combat Zones. They make a Combat Skill check that deals D8 Piercing damage. If the target is in the same Combat Zone as the Beastman, the Beastman gains +20 to their attack check.'
   - name: '5'

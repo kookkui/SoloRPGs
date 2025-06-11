@@ -73,16 +73,18 @@
 
 ^2bfe1b
 
-| `dice:1d10` | Mender Actions                                                                                                          |
-| ----------- | ----------------------------------------------------------------------------------------------------------------------- |
-| 1           | Performs a standard attack with their weapon, dealing `dice:D6+2` Piercing damage                                        |
-| 2           | Ally’s next action is performed with +20                                                                                |
-| 3           | Grants a target ally +5 Armor until their next turn                                                                     |
-| 4-5         | Target ally is healed for `dice:D6+2` Health. If there’s no character in need of healing, they perform a standard attack |
-| 6           | Removes one instance of a harmful condition from an ally. If none, the Companion performs a standard attack             |
-| 7           | Target enemy must pass a Tenacity check. If they fail, they lose their next turn                                        |
-| 8           | Target ally becomes impervious to damage until their next turn                                                          |
-| 9-10        | Heals `dice:D6` Health. If at max Health, they perform a standard attack                                                |
+### Mender Actions
+
+|`dice:d10`|Mender Actions|
+|---|---|
+|1|Performs an attack with their weapon, dealing `dice:D6+2` Piercing damage.|
+|2|An ally’s next action is performed with +20.|
+|3|Grants a target ally +D4 Protection until their next turn.|
+|4-5|Target ally is healed for `dice:D6+2` Health.|
+|6|Removes one instance of a harmful condition from an ally. If none, the Companion performs an attack with their weapon, dealing D6+2 Piercing damage.|
+|7|Target enemy must pass a Tenacity check. If they fail, they are Stunned (1).|
+|8|Target ally becomes impervious to all damage until their next turn.|
+|9-10|Heals D6 Health. If at max Health, they perform an attack with their weapon, dealing D6+2 Piercing damage.|
 
 ^c051eb
 

@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RaHelmet",
       "RaGlassHeart",
       "FasCrown",
       "RaCrown",
-      "RaTwoHearts",
-      "TiNut"
+      "RaTwoHearts"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -125,7 +125,7 @@
   "SoloRPGs/Across A Thousand Dead Worlds/Zina Tanova Space Log.md": "RiComputerLine",
   "SoloRPGs/Disciples of Bone and Shadow/DBS Roll Tables.md": "FasDiceD20",
   "SoloRPGs/Riftbreakers - Second Edition": "RaFluffySwirl",
-  "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities": "FasHeart",
+  "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities": "RaTwoHearts",
   "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Might Heart": "FasHandFist",
   "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Restoration Heart": "RaHealth",
   "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Death Heart": "RaSkull",
@@ -139,7 +139,7 @@
   "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Shadow Heart": "RaPlainDagger",
   "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Time Heart": "RaClockwork",
   "SoloRPGs/Riftbreakers - Second Edition/Maps": "RaTrail",
-  "SoloRPGs/Riftbreakers - Second Edition/PCs": "RiHeartsFill",
+  "SoloRPGs/Riftbreakers - Second Edition/PCs": "RaHelmet",
   "SoloRPGs/Riftbreakers - Second Edition/Tables": "FasDiceD20",
   "SoloRPGs/Riftbreakers - Second Edition/Aurielle Journal.md": "RaScrollUnfurled",
   "SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map": "RaCrossedAxes",

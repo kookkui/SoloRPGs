@@ -1,9 +1,10 @@
 ---
-HeartAbCost: 6 Aether
+HeartAbCost: 5
 HeartAbHeart: Death
-HeartAbType: Combat, Talent
-HeartAbActions: Standard Action
-HeartAbRange: 20 meters
+HeartDef: Tenacity
+HeartAbRange: 0-2
+HeartDes: You deal D6 Necrotic damage to your target, and heal for half the damage done.
+HeartFlav: "*A bolt of putrid green light erupts from your hands, striking your opponent and draining their lifeforce.*"
 ---
 
 >[!dice]  %%FAKE TITLE HERE%%
@@ -11,18 +12,15 @@ HeartAbRange: 20 meters
 >>### `=this.file.name`
 >>|  | |  |  |
 >>|:--------:|:-------:|:-----:|:--------------:|
->>| **Ability Name** | `=this.file.name` | **Type** | `=this.HeartAbType` |
+>>| **Ability Name** | `=this.file.name` | **Defense** | `=this.HeartDef` |
 >>| **Cost** | `=this.HeartAbCost` | **Heart** | `=this.HeartAbHeart` |
->>| **Actions** | `=this.HeartAbActions` | **Range** | `=this.HeartAbRange` |
+>>| **Prime** | `INPUT[toggle:prime]` | **Range** | `=this.HeartAbRange` |
 >>&nbsp;
 >> 
 >> ##### Description
->>You deal D6+DM Necrotic damage to your target, and heal for half the damage done.
+>>`=this.HeartDes`
 >>
 >>&nbsp;
->>**Apprentice Rank:** Amount increased to 2D6+DM Necrotic damage
->>**Veteran Rank:** Amount increased to 3D6+DM Necrotic damage
->>**Master Rank:** Amount increased to 3D6+DM Necrotic damage and heal for the full amount the damage done.
->>&nbsp;
->>*A bolt of putrid green light erupts from your hands, striking your opponent and draining their lifeforce.*
->>
+>>`=this.HeartFlav`
+
+

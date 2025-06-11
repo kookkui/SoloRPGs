@@ -1,3 +1,14 @@
+> [!table_time] Overland Travel Tables
+>##### The Mender Actions
+>`dice:[[General Tables#^c051eb]]`
+>
+>##### The Protector
+>
+>##### The Controller
+> 
+>##### The Executioner
+
+
 > [!table] Rift Exploration Tables
 > ##### Area Links
 >`dice:[[General Tables#^2c2cdc]]`

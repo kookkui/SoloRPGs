@@ -46,3 +46,9 @@ Weshan:
 - <font color="#ff00cc">+50% XP</font>
 - Attack skill and damage dealt increased by +2 per Spirit Stage.
 Weshan: 
+
+
+### Riftbreakers Encounter
+PC Perception (40) `d100 = 10` 
+vs
+Enemy Perception (50) `d100 = 10` 

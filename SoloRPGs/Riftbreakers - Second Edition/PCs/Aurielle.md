@@ -133,6 +133,7 @@ gear7: Pickaxe
 gear9: Rope
 gear10: ""
 Pskills69: Backpack
+skill1: false
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] %%FAKE TITLE HERE%% 
@@ -187,7 +188,7 @@ Pskills69: Backpack
 >>| :-: | :-: | :-: | :-: | 
 >>|  <font color="#9B5DE5">Monster Part</font>  | `0`  | `0`  | `0`   | 
 >>| <font color="#2DC653">Alchemical Ingredient</font> | `0` |`0` | `0` | 
->>|  <font color="#00CCFF">Ore</font>  | `0`  | `0`  | `0`   | 
+>>|  <font color="#00CCFF">Ore</font>  | `0`  | `0`  | `1`   | 
 >>
 >> &nbsp;
 >>
@@ -209,11 +210,11 @@ Pskills69: Backpack
 >> ### Skill Checks
 >>| **Skill Name** | **Skill Level**| **Gear Mod** | **Skill Up**
 >>| ------------------------- | ----------- | -----------| ----------- |
->>| **Agility** (10) | `25` |  `0` | `INPUT[toggle:skill1]`|
+>>| **Agility** (10) | `28` |  `0` | `INPUT[toggle:skill1]`|
 >>| **Alchemy** | `30` |`0` | `INPUT[toggle:skill2]`|
 >>| **Animal Handling** | `0` | `0` |`INPUT[toggle:skill3]`|
 >>| **Armorsmithing** | `10` |`0` | `INPUT[toggle:skill4]`|
->>| **Athletics** (10) | `24` |`0` |`INPUT[toggle:skill5]`|
+>>| **Athletics** (10) | `28` |`0` |`INPUT[toggle:skill5]`|
 >>| **Bladed Weapons** | `64` |`0` |`INPUT[toggle:skill6]`|
 >>| **Bludgeoning Weapons**  | `0` |`0` |`INPUT[toggle:skill7]`|
 >>| **Cooking**  | `15` |`0` |`INPUT[toggle:skill8]`|
@@ -237,7 +238,7 @@ Pskills69: Backpack
 >>| **Stealth** | `10` |`0` |`INPUT[toggle:skill26]`
 >>| **Survival** | `40` |`0` |`INPUT[toggle:skill27]`
 >>| **Tenacity (10)** | `40` |`0` |`INPUT[toggle:skill28]`
->>| **Unarmed Combat (10)** |`1` | `0` |`INPUT[toggle:skill29]`
+>>| **Unarmed Combat (10)** |`10` | `0` |`INPUT[toggle:skill29]`
 >>| **Weaponsmithing** | `0` |`0` |`INPUT[toggle:skill30]`
 >
 >>[!gather] %%FAKE TITLE HERE%%
@@ -259,7 +260,7 @@ Pskills69: Backpack
 >> |:---: | --- | :---------: |
 >>| `=this.quest1` | `INPUT[toggle:quest1t]` | `boxes: 0/16`
 >> |`=this.quest2` |`INPUT[toggle:quest2t]` |  `boxes: 0/19`
->>| `=this.quest3` | `INPUT[toggle:quest3t]` | `boxes: 0/6`
+>>| `=this.quest3` | `INPUT[toggle:quest3t]` | `boxes: 6/6`
 >> |`=this.quest4` |`INPUT[toggle:quest4t]` | `boxes: 0/19`
 >>| `=this.quest5` | `INPUT[toggle:quest5t]` | `boxes: 0/16`
 >> |`=this.quest6` |`INPUT[toggle:quest6t]` | `0`
@@ -270,8 +271,8 @@ Pskills69: Backpack
 
 ---
 
->[!gather] %%FAKE TITLE HERE%%
->>[!gather] %%FAKE TITLE HERE%%
+>[!table] %%FAKE TITLE HERE%%
+>>[!table] %%FAKE TITLE HERE%%
 >>### Inventory
 >>| Slot | Encumbering Items | Slot| Belt Quickslots
 >>| :-: | ---------------- |:-: | ---------------- |
@@ -466,7 +467,7 @@ Pskills69: Backpack
 ---
 
 >[!crafting] %%FAKE TITLE HERE%%
->>[!crafting] %%FAKE TITLE HERE%%
+>>[!cite] %%FAKE TITLE HERE%%
 >>### Heart Abilities
 >> 
 >>`=this.HeartAbLink1`

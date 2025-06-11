@@ -925,7 +925,199 @@ Loots:
 - <font color="#8624FF">(Epic) Greatsword</font>
 - <font color="#1E90FF">(Uncommon) Amulet</font>
 
+Trying to find Minerals
+Searching Check (40) `d100 = 35` Found something
 
+Gathering Check (30) `d100 = 15` Success!
+
+Rare Ore x1  
+
+Resting +8 HP (23)
+## 998-04-21
+
+Travel Check 
+
+Combat Encounter! 
+
+```statblock
+creature: Thorn Beast (RB)
+```
+
+
+
+```encounter
+creatures:
+  - Thorn Beast (RB) , 12, 4, 0
+```
+
+PC Perception (40) `d100 = 71` 
+vs
+Thorn Beast Perception (80) `d100 = 88` Critical Failure!
+
+PC Turn
+
+Move 1
+
+Casting Holy Weapon
+
+<font color="#FFF200">Radiant Great Sword</font> (Slashing, Bladed, Two-handed)
+
+Thorn Beast Turn
+
+Move 1
+
+Razor Charge: The Thorn Beast charges towards its target, who must 
+pass an Agility check or be impaled by its thorny body and suffer D8+2 
+Piercing damage.
+
+PC Out of range...
+
+PC Turn
+
+Weapon Strike (Two-Handed) - 3 MP
+
+Bladed Weapons Skill up Check (64) `d100 = 30` Hit!
+
+5 Damage - 1 Armor = 4 Damage to Thorn Beast (20)
+
+Weapon Strike (Two-Handed) - 3 MP
+
+Bladed Weapons Skill up Check (64) `d100 = 80` Miss!
+
+Thorn Beast Turn
+
+Razor Charge: The Thorn Beast charges towards its target, who must 
+pass an Agility check or be impaled by its thorny body and suffer D8+2 
+Piercing damage.
+
+Aurielle Agility check (25) `d100 = 22` Critical Success! Skill up.
+
+PC Turn
+
+Summon Companion into battle! -8 MP
+
+Serayr enters the fray
+
+Serayr Turn
+
+Moving 1 zone 
+
+An ally’s next action is performed with +20.
+
+Thorn Beast Turn
+
+**Thorn Spray**: The Thorn Beast releases a spray of thorns that affects all creatures in the same Combat Zone, dealing D6 Piercing damage to them. Targets hit by this attack must make an Endurance check or be Poisoned (1).
+
+3 Damage - 2 Armor = 1 Damage to Aurielle (22)
+
+Aurielle Endurance check (45) `d100 = 6` Success!
+
+PC Turn
+
+Weapon Strike (Two-Handed) - 3 MP
+
+Bladed Weapons Skill up Check (64) `d100 = 60` Hit!
+
+6 Damage - 4 Armor = 2 Damage to Thorn Beast (18)
+
+Weapon Strike (Two-Handed) - 3 MP
+
+Bladed Weapons Skill up Check (64) `d100 = 61` Hit!
+
+6 Damage - 2 Armor = 4 Damage to Thorn Beast (14)
+
+Serayr Turn
+
+Heals 6 Health. If at max Health, they perform an attack with their weapon, dealing D6+2 Piercing damage.
+
++6 HP to Aurielle (26)
+
+Thorn Beast Turn
+
+**Thorn Spray**: The Thorn Beast releases a spray of thorns that affects all creatures in the same Combat Zone, dealing D6 Piercing damage to them. Targets hit by this attack must make an Endurance check or be Poisoned (1).
+
+5 Damage - 4 Armor = 1 Damage to Aurielle (25)
+
+Aurielle Endurance check (25) `d100 = 29` Failed! 
+
+Aurielle is Poisoned (1) 
+
+PC Turn
+
+Aurielle Endurance check (25) `d100 = 60` Failed! 
+
+1 Poison Damage to Aurielle (24)
+
+Weapon Strike (Two-Handed) - 3 MP
+
+Bladed Weapons Skill up Check (64) `d100 = 48` Hit!
+
+7 Damage - 3 Armor = 4 Damage to Thorn Beast (10)
+
+Casting Unbound Fury -5 MP
+
+All targets within the area of effect become Stunned for 4 rounds.
+
+Serayr Turn
+
+Removes one instance of a harmful condition from an ally. If none, the Companion performs an attack with their weapon, dealing D6+2 Piercing damage.
+
+AurIelle is no longer Poisoned (1) 
+
+Thorn Beast Turn
+
+Stunned...(3)
+
+PC Turn
+
+Two Handed Weapon Master -5 MP
+
+For the remainder of combat, if you are wielding a two-handed weapon you deal an additional D4 damage.
+
+Weapon Strike (Two-Handed) - 3 MP
+
+Bladed Weapons Skill up Check (64) `d100 = 39` Hit!
+
+7 Damage - 3 Armor = 4 Damage to Thorn Beast (6)
+
+Serayr Turn
+
+Removes one instance of a harmful condition from an ally. If none, the Companion performs an attack with their weapon, dealing 8 Piercing damage.
+
+8 Damage - 3 Armor = 5 Damage to Thorn Beast (1)
+
+Thorn Beast Turn
+
+Stunned...(2)
+
+PC Turn
+
+Weapon Strike (Two-Handed) - 3 MP
+
+Bladed Weapons Skill up Check (64) `d100 = 54` Hit!
+
+6 Damage - 3 Armor = 3 Damage to Thorn Beast (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
+
+<font color="#FF073A">Loot: Skill Book </font>
+
+Literacy check (40) `d100 = 33` Success!
+
++3 Endurance (28)
+
+Resting for the night. +5 HP (26)
+
+Skill up check Agility (25) `d100 = 33`  Success!
+
++3 Agility (28)
+## 998-04-22
+
+Moving 1 Hex and came on to the Rift!
+
+Monsters in the Rift’s vicinity...`d4 = 1`
+
+There is a monster guarding the Rift entrance...Root Ravager
 
 
 
