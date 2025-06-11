@@ -79,9 +79,9 @@ pendantgearquirk: Covered in intricate runes.
 pendantgearnotes: 
 title1: Tent
 title2: Torches U12
-title3: 
-title4: 
-title5: 
+title3: (Rare) Ring
+title4: (Epic) Greatsword
+title5: (Uncommon) Amulet
 title6: 
 title7: 
 title8: ""
@@ -283,7 +283,7 @@ Pskills69: Backpack
 >>|6|`INPUT[text:gear6]` |
 >>|7|`INPUT[text:gear7]` |
 >>|9|`INPUT[text:gear9]` |
->>|10|`INPUT[text:gear10]` |
+>>|10|`INPUT[text:gear10]` || [[Aurielle's Large Spatial Bag]]|
 >>
 >>
 >>### Backpack 
@@ -434,7 +434,7 @@ Pskills69: Backpack
 >>| 5          | [[Unbound Fury]]   |
 >>| 6          | [[Holy Weapon]] |
 >>| 7          | [[Divine Shield]]     |
->>| 8          | [[Divine Shield]] |
+>>| 8          | [[Cleave]] |
 >>| 9          | [[Two-Handed Weapon Master]]   |
 >>| 10         | [[Two-Handed Weapon Master]]  |
 >>| 11         | [[Unbound Fury]]    |

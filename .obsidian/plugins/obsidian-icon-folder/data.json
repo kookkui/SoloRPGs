@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "RaCrossedSwords",
-      "RaClockwork",
-      "RaPlainDagger",
-      "RaFireRing",
-      "RaHealth"
+      "RaGlassHeart",
+      "FasCrown",
+      "RaCrown",
+      "RaTwoHearts",
+      "TiNut"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -144,5 +144,8 @@
   "SoloRPGs/Riftbreakers - Second Edition/Aurielle Journal.md": "RaScrollUnfurled",
   "SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map": "RaCrossedAxes",
   "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Companion Loadout Abilities": "FasPersonRays",
-  "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Weapon Strikes & Non-Heart Abilities": "RaCrossedSwords"
+  "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Weapon Strikes & Non-Heart Abilities": "RaCrossedSwords",
+  "SoloRPGs/Riftbreakers - Second Edition/PCs/Aurielle's Large Spatial Bag.md": "TiNut",
+  "SoloRPGs/Riftbreakers - Second Edition/PCs/Aurielle.md": "FasCrown",
+  "SoloRPGs/Riftbreakers - Second Edition/PCs/Serayr.md": "RaGlassHeart"
 }

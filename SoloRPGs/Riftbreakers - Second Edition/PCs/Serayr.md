@@ -4,6 +4,10 @@ CompanionHP: 20
 dammod: 
 CompanionLOAbility: "![[Sudden Strike]]"
 rating: You have Advantage on Gathering checks
+ac: "1"
+hp: 20
+level: 1
+modifier: 0
 ---
 
 >[!thing] %%FAKE TITLE HERE%%

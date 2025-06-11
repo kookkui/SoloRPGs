@@ -744,6 +744,8 @@ Bladed Weapons Skill up Check (64) `d100 = 14` Hit!
 
 8 Damage - 4 Armor = 4 Damage to Warpstar (Dead)
 
+<span style="color:rgb(241, 91, 181)">Victory!</span>
+
 Loot: <font color="#ff00cc">Large Spatial Bag</font>
 
 ## 998-04-20
@@ -751,3 +753,179 @@ Loot: <font color="#ff00cc">Large Spatial Bag</font>
 Traveling north 2 Hexes 
 
 Travel check encounter Beastman
+
+```statblock
+creature: Beastman (RB)
+```
+
+
+```encounter
+creatures:
+  - Beastman (RB) 1, 6, 4, 0
+  - Beastman (RB) 2, 6, 4, 0
+  - Beastman (RB) 3, 6, 4, 0
+  
+```
+
+PC Perception (40) `d100 = 39` Winner
+vs
+Beastmen Perception (50) `d100 = 87` 
+
+Combat Start!
+
+PC Turn
+
+Move 1
+
+Casting Holy Weapon -6 MP 
+
+You summon a weapon of your choice for you to wield that deals D8 Radiant damage. Any instance of Weapon Strike in your Loadout uses this weapon. The weapon lasts until the end of combat.
+
+<font color="#FFF200">Radiant Great Sword</font> (Slashing, Bladed, Two-handed)
+
+Beastman 1 Turn
+
+Move 1 
+
+**Savage Swipe**: The Beastman slashes at its target with its claws, making a Combat Skill check that deals D6+1 Slashing damage on a hit.
+
+Out of range of PC...
+
+**Pack Tactics**: The Beastman calls out to its allies, giving them +20 to all attack checks and +D4 damage until the end of the next round.
+
+Beastman 2 Turn
+
+Move 1 
+
+**Savage Swipe** x2
+The Beastman slashes at its target with its claws, making a Combat Skill check that deals D6+1 Slashing damage on a hit.
+
+Out of range of PC...
+
+Beastman 3 Turn
+
+Move 1 
+
+**Savage Swipe** The Beastman slashes at its target with its claws, making a Combat Skill check that deals D6+1 Slashing damage on a hit.
+
+**Feral Fury**: The Beastman enters a frenzied state, making two attacks with its claws against its target. The Beastman must make a Combat Skill check for each attack, dealing D6+1 Slashing damage with each.
+
+Out of range of PC...
+
+PC Turn
+
+Two-Handed Weapon Master -5 MP
+
+For the remainder of combat, if you are wielding a two-handed weapon you deal an additional D4 damage.
+
+Moving 1 
+
+Cleave -4 MP
+
+You perform a free Weapon Strike with a melee weapon that deals its damage to 2 targets within range.
+
+Targeting Beastman 1 & 2
+
+Bladed Weapons Skill up Check (64) `d100 = 23` Hit!
+
+11 Damage - 4 Armor = 7 Damage to Beastman 1 & 2 (5)
+
+Beastman 1 Turn
+
+**Savage Swipe** x2
+The Beastman slashes at its target with its claws, making a Combat Skill check that deals D6+1 Slashing damage on a hit.
+  
+Combat Skill (50) `d100 = 60` Failed.
+
+Second Attack Combat Skill (50) `d100 = 94` Failed.
+
+Beastman 2 Turn
+
+**Throwing Spear**: The Beastman hurls a spear at a random target within 2 Combat Zones. They make a Combat Skill check that deals D8 Piercing damage. If the target is in the same Combat Zone as the Beastman, the Beastman gains +20 to their attack check.
+
+PC is in the same zone so +20 to their attack check
+
+**Savage Swipe** The Beastman slashes at its target with its claws, making a Combat Skill check that deals D6+1 Slashing damage on a hit.
+
+Combat Skill (70) `d100 = 17` Hit!
+
+6 Damage - 2 Armor = 4 Damage to Aurielle (22)
+
+Beastman 3 Turn
+
+**Throwing Spear**: The Beastman hurls a spear at a random target within 2 Combat Zones. They make a Combat Skill check that deals D8 Piercing damage. If the target is in the same Combat Zone as the Beastman, the Beastman gains +20 to their attack check.
+
+PC is in the same zone so +20 to their attack check
+
+**Savage Swipe** The Beastman slashes at its target with its claws, making a Combat Skill check that deals D6+1 Slashing damage on a hit.
+
+Combat Skill (70) `d100 = 28` Hit! 
+
+4 Damage - 2 Armor = 2 Damage to Aurielle (20)
+
+PC Turn
+
+Target Beastman 1
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Skill up Check (49) `d100 = 45` Hit!
+
+11 Damage - 2 Armor = 9 Damage to Beastman 1 (Dead)
+
+Target Beastman 2
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Skill up Check (49) `d100 = 42` Hit!
+
+13 Damage - 4 Armor = 9 Damage to Beastman 2 (Dead)
+
+Target Beastman 3
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Skill up Check (49) `d100 = 82` Miss!
+
+Beastman 3 Turn
+
+**Savage Swipe** x2
+The Beastman slashes at its target with its claws, making a Combat Skill check that deals D6+1 Slashing damage on a hit.
+
+Attack 1 Combat Skill (40) `d100 = 61` Miss! 
+
+Attack 2 Combat Skill (40) `d100 = 19` Hit! 
+
+7 Damage - 2 Armor = 5 Damage to Aurielle (15)
+
+PC Turn
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Skill up Check (49) `d100 = 30` Hit!
+
+7 Damage - 4 Armor = 3 Damage to Beastman 3 (9)
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Skill up Check (49) `d100 = 31` Hit!
+
+8 Damage - 2 Armor = 6 Damage to Beastman 3 (3)
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Skill up Check (49) `d100 = 38` Hit!
+
+9 Damage - 4 Armor = 5 Damage to Beastman 3 (Dead!)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
+
+Loots: 
+- <font color="#de7802">(Rare) Ring</font>
+- <font color="#8624FF">(Epic) Greatsword</font>
+- <font color="#1E90FF">(Uncommon) Amulet</font>
+
+
+
+
+

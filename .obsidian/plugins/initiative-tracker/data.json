@@ -144,48 +144,27 @@
   "state": {
     "creatures": [
       {
-        "name": "Warpstar (RB) ",
-        "initiative": 3,
-        "static": false,
-        "modifier": 0,
-        "hp": 12,
-        "currentMaxHP": 12,
-        "ac": 4,
-        "currentAC": 4,
-        "id": "ID_baba48dbcb48",
-        "currentHP": 0,
-        "tempHP": 0,
-        "status": [
-          "Unconscious"
-        ],
-        "enabled": true,
-        "active": false,
-        "hidden": false,
-        "friendly": false,
-        "rollHP": false
-      },
-      {
         "name": "Aurielle",
-        "initiative": 16,
+        "initiative": 15,
         "static": false,
         "modifier": 0,
         "hp": 26,
         "currentMaxHP": 26,
         "note": "Aurielle",
         "path": "SoloRPGs/Riftbreakers - Second Edition/PCs/Aurielle.md",
-        "id": "ID_bb688bcb4928",
-        "currentHP": 26,
+        "id": "ID_793af93bab78",
+        "currentHP": 15,
         "tempHP": 0,
         "status": [],
         "enabled": true,
         "player": true,
-        "active": true,
+        "active": false,
         "hidden": false,
         "friendly": false
       },
       {
         "name": "Serayr",
-        "initiative": 4,
+        "initiative": 20,
         "static": false,
         "modifier": 0,
         "hp": 20,
@@ -194,7 +173,7 @@
         "currentAC": "1",
         "note": "Serayr",
         "path": "SoloRPGs/Riftbreakers - Second Edition/PCs/Serayr.md",
-        "id": "ID_1b8949abeb89",
+        "id": "ID_a94adb6a0b59",
         "currentHP": 20,
         "tempHP": 0,
         "status": [],
@@ -206,9 +185,9 @@
         "friendly": false
       }
     ],
-    "state": true,
+    "state": false,
     "name": null,
-    "round": 3,
+    "round": 1,
     "logFile": "",
     "rollHP": false
   },
