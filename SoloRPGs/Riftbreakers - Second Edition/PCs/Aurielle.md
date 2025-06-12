@@ -4,9 +4,9 @@ Title:
 achievement_prog: "Riftbreaker: Successfully close 5 Rifts."
 Protection: D4+1
 Weapon1: Longsword
-Weapon1dmg: D6
+Weapon1dmg: D6+2
 Weapon1type: Slashing
-Weapon1notes: Bladed, Versatile, Parry(10)
+Weapon1notes: Versatile(2D6), Parry(10)
 Weapon2: 
 Weapon2dmg: 
 Weapon2type: 
@@ -23,11 +23,11 @@ gems:
 Armor1: Hard Leather
 Armor1rate: D4+1
 Armor1notes: "Max Integrity: D8"
-hand1: 1 Weapon Strike (Two-Handed)
-hand2: 5 Unbound Fury
-hand3: 3 Weapon Strike (Two-Handed)
+hand1: ""
+hand2: ""
+hand3: ""
 hand4: ""
-hand5: 8 Two-Handed Weapon Master
+hand5: ""
 quest1: "**Monster Hunt**: The quest is to hunt a Luminous Lizard that as been terrorizing near by villages at night. Distance: 8 Hexes. Rewards: 200⟑"
 quest1t: false
 quest2: "**Rift Closure:** Distance: 19 Hexes Rift Dominion: Sky Islets Rewards: 1x Random Magic Item"
@@ -83,8 +83,8 @@ title3: (Rare) Greatsword
 title4: (Epic) Item
 title5: (Uncommon) Amulet
 title6: (Uncommon) Ring
-title7: 
-title8: ""
+title7: (Epic) Magic Item
+title8: (Uncommon) Ring
 title9: ""
 title10: ""
 title11: ""
@@ -116,8 +116,8 @@ Integrity1: D8
 heart8: true
 heart9: true
 reputation_rank: Initiate
-gear3: (Uncommon) Ring
-CurrentAether: 2
+gear3: Rope
+CurrentAether: 10
 skill6: false
 hp: 26
 modifier: 0
@@ -130,7 +130,7 @@ qbelt1: Potion of Minor Healing
 qbelt2: Potion of Minor Healing
 gear6: "Hunting Knife "
 gear7: Pickaxe
-gear9: Rope
+gear9: ""
 gear10: ""
 Pskills69: Backpack
 skill1: false
@@ -171,7 +171,7 @@ skill19: true
 >> 
 >> ##### Weapons
 >>| **Weapons** | **Skill** | **Damage** | **Notes** |
->>| ------ | :-: | :-: | --------- |
+>>| :-: | :-: | :-: | :-: |
 >>| `=this.Weapon1` | `=this.Weapon1type` | `=this.Weapon1dmg` |`=this.Weapon1notes` |
 >>| `=this.Weapon2` | `=this.Weapon2type` |`=this.Weapon2dmg` | `=this.Weapon2notes` |
 >>| `=this.Weapon3` | `=this.Weapon3type`|`=this.Weapon3dmg` | `=this.Weapon3notes` |

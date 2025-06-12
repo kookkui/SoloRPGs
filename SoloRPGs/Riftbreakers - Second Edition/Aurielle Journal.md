@@ -1222,11 +1222,12 @@ Bladed Weapons Skill up Check (64) `d100 = 44` Critical Hit! Skill up!
 <span style="color:rgb(241, 91, 181)">Victory!</span>
 
 Loot: (Uncommon) Ring
+
 Bladed Weapons Skill up check (64) `d100 = 86` Success!
 
 +2 Bladed Weapons (66)
 
-## Into the Rift
+## Into the Rift (Primordial Forest 1)
 
  *A dark, foreboding forest that seems to be shrouded in perpetual gloom and shadow.*
 
@@ -1262,4 +1263,79 @@ PC Turn
 Summon Companion
 
 Serayr has entered the fray!
+
+Move 1
+
+Serayr Turn
+
+Target enemy must pass a Tenacity check. If they fail, they are Stunned (1).
+
+Ent Tenacity check (50) `d100 = 65` Failed!
+
+Ent is Stunned (1)
+
+Ancient Ent Turn
+
+Ent is Stunned (1)...
+
+PC Turn
+
+Move 1
+
+Two-Handed Weapon Master -5 MP
+
+For the remainder of combat, if you are wielding a two-handed weapon you deal an additional D4 damage.
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Skill up Check (54) `d100 = 16` Hit!
+
+17 Damage - 3 Armor = 14 Damage to Ancient Ent (26)
+
+Serayr Turn
+
+Heals D6 Health. If at max Health, they perform an attack with their weapon, dealing D6+2 Piercing damage.
+
+Aurielle at max health...
+
+7 Damage - 1 Armor = 6 Damage to Ent (20)
+
+Ancient Ent Turn
+
+Sweeping Blow: The Ancient Ent swings its branches against its target 
+and another one adjacent to it, making a Combat Skill check against 
+both and dealing D6+2 Bludgeoning damage on a hit.
+
+Combat Skill check (80) `d100 = 82` Failed!
+
+PC Turn
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Skill up Check (54) `d100 = 16` Hit!
+
+10 Damage - 3 Armor = 7 Damage to Ancient Ent (13)
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Skill up Check (54) `d100 = 12` Hit!
+
+12 Damage - 2 Armor = 7 Damage to Ancient Ent (3)
+
+Serayr Turn
+
+Performs an attack with their weapon, dealing 8 Piercing damage.
+
+4 Damage - 4 Armor = 4 Damage to Ancient Ent (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
+
+Loot: (Epic) Magic Item
+
+ Riftlord Check (D8) `d8 = 6`
+
+#### Area 2
+
+Area Feature Check: Combat Encounter
+
 
