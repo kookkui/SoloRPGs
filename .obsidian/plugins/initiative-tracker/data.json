@@ -31,7 +31,8 @@
       "name": "Aurielle",
       "player": true,
       "hp": 26,
-      "modifier": 0
+      "modifier": 0,
+      "ac": "4"
     },
     {
       "note": "Serayr",
@@ -144,15 +145,36 @@
   "state": {
     "creatures": [
       {
+        "name": "Ancient Ent (RB) ",
+        "initiative": 15,
+        "static": false,
+        "modifier": 0,
+        "hp": 40,
+        "currentMaxHP": 40,
+        "ac": 8,
+        "currentAC": 8,
+        "id": "ID_89aa6b58d9c8",
+        "currentHP": 40,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false,
+        "rollHP": false
+      },
+      {
         "name": "Aurielle",
-        "initiative": 18,
+        "initiative": 15,
         "static": false,
         "modifier": 0,
         "hp": 26,
         "currentMaxHP": 26,
+        "ac": "4",
+        "currentAC": "4",
         "note": "Aurielle",
         "path": "SoloRPGs/Riftbreakers - Second Edition/PCs/Aurielle.md",
-        "id": "ID_bb2bcb7b7a18",
+        "id": "ID_4bdad95869e8",
         "currentHP": 26,
         "tempHP": 0,
         "status": [],
@@ -164,7 +186,7 @@
       },
       {
         "name": "Serayr",
-        "initiative": 12,
+        "initiative": 3,
         "static": false,
         "modifier": 0,
         "hp": 20,
@@ -173,7 +195,7 @@
         "currentAC": "1",
         "note": "Serayr",
         "path": "SoloRPGs/Riftbreakers - Second Edition/PCs/Serayr.md",
-        "id": "ID_19993b6828f8",
+        "id": "ID_fa2af8ca4afb",
         "currentHP": 20,
         "tempHP": 0,
         "status": [],
@@ -183,33 +205,11 @@
         "active": false,
         "hidden": false,
         "friendly": false
-      },
-      {
-        "name": "Root Ravager (RB) ",
-        "initiative": 12,
-        "static": false,
-        "modifier": 0,
-        "hp": 40,
-        "currentMaxHP": 40,
-        "ac": 6,
-        "currentAC": 6,
-        "id": "ID_3a3ab9d82a69",
-        "currentHP": 0,
-        "tempHP": 0,
-        "status": [
-          "Stunned",
-          "Unconscious"
-        ],
-        "enabled": true,
-        "active": false,
-        "hidden": false,
-        "friendly": false,
-        "rollHP": false
       }
     ],
     "state": true,
     "name": null,
-    "round": 4,
+    "round": 1,
     "logFile": "",
     "rollHP": false
   },

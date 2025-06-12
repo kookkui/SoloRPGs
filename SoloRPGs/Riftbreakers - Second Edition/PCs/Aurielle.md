@@ -23,11 +23,11 @@ gems:
 Armor1: Hard Leather
 Armor1rate: D4+1
 Armor1notes: "Max Integrity: D8"
-hand1: ""
-hand2: ""
-hand3: ""
+hand1: 1 Weapon Strike (Two-Handed)
+hand2: 5 Unbound Fury
+hand3: 3 Weapon Strike (Two-Handed)
 hand4: ""
-hand5: ""
+hand5: 8 Two-Handed Weapon Master
 quest1: "**Monster Hunt**: The quest is to hunt a Luminous Lizard that as been terrorizing near by villages at night. Distance: 8 Hexes. Rewards: 200⟑"
 quest1t: false
 quest2: "**Rift Closure:** Distance: 19 Hexes Rift Dominion: Sky Islets Rewards: 1x Random Magic Item"
@@ -117,7 +117,7 @@ heart8: true
 heart9: true
 reputation_rank: Initiate
 gear3: (Uncommon) Ring
-CurrentAether: 10
+CurrentAether: 2
 skill6: false
 hp: 26
 modifier: 0
@@ -134,6 +134,9 @@ gear9: Rope
 gear10: ""
 Pskills69: Backpack
 skill1: false
+RiftLord: D8
+ac: "4"
+skill19: true
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] %%FAKE TITLE HERE%% 

@@ -1226,10 +1226,40 @@ Bladed Weapons Skill up check (64) `d100 = 86` Success!
 
 +2 Bladed Weapons (66)
 
-Into the Rift
+## Into the Rift
 
  *A dark, foreboding forest that seems to be shrouded in perpetual gloom and shadow.*
 
 Area Links Three
+#### Area 1
 
+Combat Encounter. Roll on the Primordial Forest Monsters table.
+
+```statblock
+creature: Ancient Ent (RB)
+```
+
+
+```encounter
+creatures:
+  - Ancient Ent (RB) , 40, 8, 0
+```
+
+PC Perception (40) `d100 = 44`
+vs
+Enemy Perception (30) `d100 = 93` Winner
+
+Ancient Ent Turn
+
+Move 1 
+
+**Regrowth**: The Ancient Ent concentrates its energy into regrowing, healing D8 Health.
+
+Ent is a max health...
+
+PC Turn
+
+Summon Companion
+
+Serayr has entered the fray!
 

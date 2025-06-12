@@ -47,8 +47,12 @@ Weshan:
 - Attack skill and damage dealt increased by +2 per Spirit Stage.
 Weshan: 
 
-
-### Riftbreakers Encounter
+### Riftbreakers Perception
 PC Perception (40) `d100 = 10` 
 vs
 Enemy Perception (50) `d100 = 10` 
+
+### Riftbreakers Companion
+Summon Companion -8 MP
+
+Name has entered the fray!

@@ -104,6 +104,20 @@
       "subtitle": "PC Perception (40) `d100 = 10` \nvs\nEnemy Perception (50) `d100 = 10`",
       "arg": "PC Perception (40) `d100 = 10` \nvs\nEnemy Perception (50) `d100 = 10`",
       "key": "Riftbreakers Encounter"
+    },
+    {
+      "uid": 16,
+      "title": "Riftbreakers Perception",
+      "subtitle": "PC Perception (40) `d100 = 10` \nvs\nEnemy Perception (50) `d100 = 10`",
+      "arg": "PC Perception (40) `d100 = 10` \nvs\nEnemy Perception (50) `d100 = 10`",
+      "key": "Riftbreakers Perception"
+    },
+    {
+      "uid": 17,
+      "title": "Riftbreakers Companion",
+      "subtitle": "Summon Companion\n\nName has entered the fray!",
+      "arg": "Summon Companion\n\nName has entered the fray!",
+      "key": "Riftbreakers Companion"
     }
   ]
 }
