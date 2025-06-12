@@ -1119,5 +1119,117 @@ Monsters in the Rift’s vicinity...`d4 = 1`
 
 There is a monster guarding the Rift entrance...Root Ravager
 
+```statblock
+creature: Root Ravager (RB)
+```
+
+
+```encounter
+creatures:
+  - Root Ravager (RB) , 40, 6, 0
+```
+
+PC Perception (40) `d100 = 15`  Winner
+vs
+Enemy Perception (60) `d100 = 91`
+
+Combat Start!
+
+PC Turn
+
+Move 1
+
+Casting Holy Weapon -6 MP
+
+<font color="#FFF200">Radiant Great Sword</font> (Slashing, Bladed, Two-handed)
+
+Root Ravager Turn
+
+Move 1
+
+**Tunneling Strike**: The Root Ravager sends its roots into the ground, tunneling towards its target. When they emerge, the roots 5 **Bludgeoning** damage and knocks the target Prone, unless the target passes an Agility check.
+
+Aurielle Agility check (28) `d100 = 28` Passed
+
+5 Damage - 3 Armor = 3 Damage to Aurielle (23)
+
+PC Turn
+
+Move 1
+
+Weapon Strike (Two-Handed) - 3 MP
+
+Bladed Weapons Skill up Check (64) `d100 = 31` Hit!
+
+5 Damage - 2 Armor = 3 Damage to Root Ravager (37)
+
+Casting Unbound Fury -5 MP
+
+All targets within the area of effect become Stunned for 3 rounds.
+
+Root Ravager Turn
+
+Stunned...(3)
+
+PC Turn
+
+Summon Companion -8 MP
+
+Serayr has entered the fray
+
+Serayr Turn
+
+Moving 1
+
+Heals D6 Health. If at max Health, they perform an attack with their weapon, dealing 7 Piercing damage.
+
+7 Damage - 1 Armor = 6 Damage to Root Ravager (31)
+
+Root Ravager Turn
+
+Stunned...(2)
+
+PC Turn
+
+Two-Handed Weapon Master -5 MP
+
+For the remainder of combat, if you are wielding a two-handed weapon you deal an additional D4 damage.
+
+Weapon Strike (Two-Handed) - 3 MP
+
+Bladed Weapons Skill up Check (64) `d100 = 38` Hit!
+
+12 Damage - 1 Armor = 11 Damage to Root Ravager (20)
+
+Root Ravager Turn
+
+Stunned...(1)
+
+PC Turn
+
+Weapon Strike (Two-Handed) - 3 MP
+
+Bladed Weapons Skill up Check (64) `d100 = 25` Hit!
+
+6 Damage - 1 Armor = 5 Damage to Root Ravager (15)
+
+Weapon Strike (Two-Handed) - 3 MP
+
+Bladed Weapons Skill up Check (64) `d100 = 44` Critical Hit! Skill up!
+
+20 Damage - 3 Armor = 5 Damage to Root Ravager (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
+
+Loot: (Uncommon) Ring
+Bladed Weapons Skill up check (64) `d100 = 86` Success!
+
++2 Bladed Weapons (66)
+
+Into the Rift
+
+ *A dark, foreboding forest that seems to be shrouded in perpetual gloom and shadow.*
+
+Area Links Three
 
 

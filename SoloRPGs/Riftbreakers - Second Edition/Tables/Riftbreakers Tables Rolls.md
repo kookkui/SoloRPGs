@@ -1,4 +1,4 @@
-> [!table_time] Overland Travel Tables
+> [!table_time] Companion Actions
 >##### The Mender Actions
 >`dice:[[General Tables#^c051eb]]`
 >

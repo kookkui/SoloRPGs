@@ -23,20 +23,6 @@
             }
           },
           {
-            "id": "432b4ea580127577",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Root Ravager.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Root Ravager"
-            }
-          },
-          {
             "id": "2b4f3eae5d4ef522",
             "type": "leaf",
             "state": {
@@ -50,26 +36,13 @@
               "title": "Colour Pallette"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "67b7a810c4e5f737",
         "type": "tabs",
         "dimension": 47.90996784565916,
         "children": [
-          {
-            "id": "64343c8cef39b146",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "SoloRPGs/Riftbreakers - Second Edition/Maps/Overworld Maps/Keathor Overworld Map.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Keathor Overworld Map"
-            }
-          },
           {
             "id": "b466fe65d045f1f9",
             "type": "leaf",
@@ -91,7 +64,7 @@
               "type": "markdown",
               "state": {
                 "file": "SoloRPGs/Riftbreakers - Second Edition/PCs/Serayr.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -109,9 +82,21 @@
               "icon": "excalidraw-icon",
               "title": "Combat Zones Map Dark Mode"
             }
+          },
+          {
+            "id": "7811446c16f46c25",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "SoloRPGs/Riftbreakers - Second Edition/Maps/Rift Maps/Primordial Forest Rift 1.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Primordial Forest Rift 1"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -202,8 +187,8 @@
             "state": {
               "type": "MAIN_VIEW",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "srt-ribbon",
+              "title": "Solo RPG Toolkit"
             }
           }
         ],
@@ -322,17 +307,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Root Ravager.md",
+                "file": "SoloRPGs/Riftbreakers - Second Edition/Aurielle Journal.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Root Ravager"
+              "title": "Outline of Aurielle Journal"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       },
       {
         "id": "0e6a14a15862aa6f",
@@ -374,44 +359,45 @@
       "solo-rpg-toolkit:Solo RPG Toolkit": false
     }
   },
-  "active": "432b4ea580127577",
+  "active": "9aa9184a85170983",
   "lastOpenFiles": [
-    "SoloRPGs/Riftbreakers - Second Edition/PCs/Aurielle.md",
-    "SoloRPGs/Riftbreakers - Second Edition/PCs/Serayr.md",
-    "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Root Ravager.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Maps/Rift Maps/Primordial Forest Rift 1.md",
+    "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Rift Maps/Primordial Forest Rift 1/IMG-20250611230412476.webp",
+    "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Rift Maps/Primordial Forest Rift 1",
     "SoloRPGs/Riftbreakers - Second Edition/Aurielle Journal.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Maps/Overworld Maps/Keathor Overworld Map.md",
     "SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map Dark Mode.md",
     "SoloRPGs/Riftbreakers - Second Edition/Tables/Riftbreakers Tables Rolls.md",
+    "SoloRPGs/Riftbreakers - Second Edition/PCs/Aurielle.md",
+    "SoloRPGs/Riftbreakers - Second Edition/PCs/Aurielle's Large Spatial Bag.md",
+    "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Rift Maps/Primordial Forest Rift 1/IMG-20250611230413242.webp",
+    "SoloRPGs/_Tokens/Classic Dungeon Map Symbols/DoorSlides1x1.png",
+    "SoloRPGs/_Tokens/Riftbreaker/GoblinGirl_Token.webp",
+    "SoloRPGs/_Tokens/Riftbreaker/CutieGoblinButts.webp",
+    "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Rift Maps/Primordial Forest Rift 1/IMG-20250611230412930.webp",
+    "SoloRPGs/_Tokens/Riftbreaker/Aurielle.webp",
+    "SoloRPGs/_Tokens/Riftbreaker/Rift Maps",
+    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Might Heart/Two-Handed Weapon Master.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Weapon Strikes & Non-Heart Abilities/Weapon Strike (Two-Handed).md",
+    "SoloRPGs/Riftbreakers - Second Edition/PCs/Serayr.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Might Heart/Unbound Fury.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Restoration Heart/Divine Shield.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Restoration Heart/Holy Weapon.md",
+    "SoloRPGs/_Tokens/VTT Battle Tokens/Tree Blight - 01011- Tier1.webp",
+    "SoloRPGs/_Tokens/VTT Battle Tokens/Vine Blight - 0102.webp",
+    "SoloRPGs/_Tokens/VTT Battle Tokens/Aboleth - 0101.webp",
+    "SoloRPGs/Riftbreakers - Second Edition/Maps/Overworld Maps/Keathor Overworld Map.md",
+    "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Root Ravager.md",
     "SoloRPGs/Riftbreakers - Second Edition/Rules Reference/Riftbreakers House Rules.md",
     "SoloRPGs/_Templates/Colour Pallette.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Weapon Strikes & Non-Heart Abilities/Weapon Strike (Two-Handed).md",
-    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Might Heart/Two-Handed Weapon Master.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Might Heart/Unbound Fury.md",
     "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Companion Loadout Abilities/Sudden Strike.md",
     "SoloRPGs/Riftbreakers - Second Edition/Tables/General Tables.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Restoration Heart/Holy Weapon.md",
     "SoloRPGs/_Templates/Snippets.md",
-    "SoloRPGs/Riftbreakers - Second Edition/PCs/Aurielle's Large Spatial Bag.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Restoration Heart/Divine Shield.md",
     "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Restoration Heart/Bless.md",
     "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Might Heart/Cleave.md",
     "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Death Heart/Death Bolt.md",
     "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Death Heart/Drain Lifeforce.md",
     "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Warpstar.md",
     "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Thunderbird.md",
-    "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Thorn Beast.md",
-    "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Storm Giant.md",
-    "SoloRPGs/_Tokens/VTT Battle Tokens/Thorn Beast.webp",
-    "SoloRPGs/_Tokens/VTT Battle Tokens/Werewolf - 0204.webp",
-    "SoloRPGs/_Tokens/VTT Battle Tokens/Vine Blight - 0103.webp",
-    "SoloRPGs/_Tokens/VTT Battle Tokens/Tree Blight - 01011- Tier1.webp",
-    "SoloRPGs/_Tokens/VTT Battle Tokens/Mirage Phantom.webp",
-    "SoloRPGs/_Tokens/VTT Battle Tokens/Crag Cat - 0102.webp",
-    "SoloRPGs/_Tokens/VTT Battle Tokens/Animal - Lioness - 0102.webp",
-    "SoloRPGs/_Tokens/VTT Battle Tokens/Werewolf - 0202.webp",
-    "SoloRPGs/_Tokens/VTT Battle Tokens/Werewolf - 0201.webp",
-    "SoloRPGs/_Tokens/VTT Battle Tokens/Vine Blight - 01031.webp",
     "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Companion Loadout Abilities",
     "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Weapon Strikes & Non-Heart Abilities",
     "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map Dark Mode",
@@ -421,8 +407,6 @@
     "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map",
     "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map",
     "SoloRPGs/_ Assets/Untitled",
-    "SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map",
-    "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Overworld Maps/Keathor Overworld Map",
     "SoloRPGs/Path of the Aram Thyr/Overworld Maps/Untitled.canvas",
     "SoloRPGs/Riftbreakers/Trippin' the Rift Beautiful Edition.canvas",
     "_Remote/Riftbreakers/Trippin' the Rift Beautiful Edition.canvas",

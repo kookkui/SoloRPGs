@@ -79,10 +79,10 @@ pendantgearquirk: Covered in intricate runes.
 pendantgearnotes: 
 title1: Tent
 title2: Torches U12
-title3: (Rare) Ring
-title4: (Epic) Greatsword
+title3: (Rare) Greatsword
+title4: (Epic) Item
 title5: (Uncommon) Amulet
-title6: 
+title6: (Uncommon) Ring
 title7: 
 title8: ""
 title9: ""
@@ -215,7 +215,7 @@ skill1: false
 >>| **Animal Handling** | `0` | `0` |`INPUT[toggle:skill3]`|
 >>| **Armorsmithing** | `10` |`0` | `INPUT[toggle:skill4]`|
 >>| **Athletics** (10) | `28` |`0` |`INPUT[toggle:skill5]`|
->>| **Bladed Weapons** | `64` |`0` |`INPUT[toggle:skill6]`|
+>>| **Bladed Weapons** | `66` |`0` |`INPUT[toggle:skill6]`|
 >>| **Bludgeoning Weapons**  | `0` |`0` |`INPUT[toggle:skill7]`|
 >>| **Cooking**  | `15` |`0` |`INPUT[toggle:skill8]`|
 >>|**Command** | `0` | `0` |`INPUT[toggle:skill9]`|
@@ -435,7 +435,7 @@ skill1: false
 >>| 5          | [[Unbound Fury]]   |
 >>| 6          | [[Holy Weapon]] |
 >>| 7          | [[Divine Shield]]     |
->>| 8          | [[Cleave]] |
+>>| 8          | [[Two-Handed Weapon Master]]  |
 >>| 9          | [[Two-Handed Weapon Master]]   |
 >>| 10         | [[Two-Handed Weapon Master]]  |
 >>| 11         | [[Unbound Fury]]    |
