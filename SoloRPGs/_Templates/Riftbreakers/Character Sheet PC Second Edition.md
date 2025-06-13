@@ -184,36 +184,6 @@ Appearance1: |-
 
 ---
 
->[!travel] %%FAKE TITLE HERE%%
->>[!travel] %%FAKE TITLE HERE%%
->>### Current Hand
->>| | |
->>| :-: | ---------------- |
->>|1|`INPUT[text:gear1]` | 
->>|2|`INPUT[text:gear2]` | 
->>|3|`INPUT[text:gear3]` |
->>|4|`INPUT[text:gear4]` |
->>|5|`INPUT[text:gear5]` |
->>
->> &nbsp;
->>
->>### Ability Loadout
->>| `dice:d12` | Ability Loadout  |
->>| ---------- | -------- |
->>| 1          | Weapon Strike (Two-Handed)     |
->>| 2          | Weapon Strike (Two-Handed)      |
->>| 3          | Weapon Strike (Two-Handed)   |
->>| 4          | Raise Skeleton     |
->>| 5          | Weave    |
->>| 6          | Sweeping Whirlwind |
->>| 7          | Double Strike     |
->>| 8          | Demonstrate Superiority |
->>| 9          | Warning   |
->>| 10         | Mark  |
->>| 11         | Mark    |
->>| 12         | Mark   |
-
-
 >[!gather] %%FAKE TITLE HERE%%
 >>[!gather] %%FAKE TITLE HERE%%
 >>
@@ -423,17 +393,46 @@ Appearance1: |-
 
 ---
 
+---
+
+>[!table_time] %%FAKE TITLE HERE%%
+>>[!table_time] %%FAKE TITLE HERE%%
+>>```meta-bind
+>>INPUT[progressBar(class(blue-progress-bar), maxValue(10), title(Aether)):CurrentAether]
+>>```
+>>
+>> &nbsp;
+>>
+>>### Ability Loadout
+>>| Slot | Ability Loadout  |
+>>| ---------- | -------- |
+>>| 1          | [[Weapon Strike (Two-Handed)]]     |
+>>| 2          | [[Weapon Strike (Two-Handed)]]      |
+>>| 3          | [[Weapon Strike (Two-Handed)]]    |
+>>| 4          | [[Summon Companion]]     |
+>>| 5          | [[Unbound Fury]]   |
+>>| 6          | [[Unbound Fury]] |
+>>| 7          | [[Divine Shield]]     |
+>>| 8          | [[Two-Handed Weapon Master]]  |
+>>| 9          | [[Two-Handed Weapon Master]]   |
+>>| 10         | [[Two-Handed Weapon Master]]  |
+>>| 11         |   [[Holy Weapon]]  |
+>>| 12         | [[Holy Weapon]]  |
+
+
+
+
 >[!table] %%FAKE TITLE HERE%%
 >>[!table] %%FAKE TITLE HERE%%
 >>## Hearts
 >>| | | ||
 >>| ---------- | -------- |---------- | -------- |
->>| `INPUT[toggle:heart1]` | Arcane | `INPUT[toggle:heart7]` | Elemental | 
->>| `INPUT[toggle:heart2]` | Arrow |`INPUT[toggle:heart8]` | Might |
->>| `INPUT[toggle:heart3]` | Bastion |`INPUT[toggle:heart9]` | Restoration |
->>| `INPUT[toggle:heart4]` | Blade | `INPUT[toggle:heart10]` | Ritual |
->>| `INPUT[toggle:heart5]` | Death |  `INPUT[toggle:heart11]` | Shadow |
->>| `INPUT[toggle:heart6]` | Devastation | `INPUT[toggle:heart12]` | Time |
+>>| `INPUT[toggle:heart1]` | <font color="#00CAFF">Arcane</font> | `INPUT[toggle:heart7]` | <font color="#FB5607">Elemental</font> | 
+>>| `INPUT[toggle:heart2]` | <font color="#1A7431">Arrow</font> |`INPUT[toggle:heart8]` | <font color="#FF073A">Might</font> |
+>>| `INPUT[toggle:heart3]` | <font color="#00FFCC">Bastion</font> |`INPUT[toggle:heart9]` | <font color="#11FF00">Restoration</font> |
+>>| `INPUT[toggle:heart4]` | <font color="#FF006E">Blade</font> | `INPUT[toggle:heart10]` | <font color="#2A9D8F">Ritual</font> |
+>>| `INPUT[toggle:heart5]` | <font color="#8624FF">Death Heart</font> |  `INPUT[toggle:heart11]` | <font color="#2D00F7">Shadow</font> |
+>>| `INPUT[toggle:heart6]` | <font color="#D100D1">Devastation</font> | `INPUT[toggle:heart12]` | <font color="#FFFF00">Time</font> |
 >>
 >>&nbsp;
 >>
@@ -448,7 +447,7 @@ Appearance1: |-
 ---
 
 >[!crafting] %%FAKE TITLE HERE%%
->>[!crafting] %%FAKE TITLE HERE%%
+>>[!cite] %%FAKE TITLE HERE%%
 >>### Heart Abilities
 >> 
 >>`=this.HeartAbLink1`
@@ -459,56 +458,73 @@ Appearance1: |-
 >>
 >>---
 >>
->>&nbsp
+>>&nbsp;
 >>
 >> 
 >>`=this.HeartAbLink2`
 >>
->>| | | |
->>|:-:|:----------:|:-----:|:---------------------:|
->>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank2]` | **XP** |`INPUT[number:Heartexp2]`|
 >>
 >>&nbsp;
 >> 
 >>
 >>---
 >>
->>&nbsp
+>>&nbsp;
 >>
 >> 
 >>`=this.HeartAbLink3`
 >>
->>| | | |
->>|:-:|:----------:|:-----:|:---------------------:|
->>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank3]` | **XP** |`INPUT[number:Heartexp3]`|
 >>
 >>&nbsp;
 >> 
 >>
 >>---
 >>
->>&nbsp
+>>&nbsp;
 >>
 >> 
 >>`=this.HeartAbLink4`
 >>
->>| | | |
->>|:-:|:----------:|:-----:|:---------------------:|
->>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank4]` | **XP** |`INPUT[number:Heartexp4]`|
 >>
 >>&nbsp;
 >> 
 >>
 >>---
 >>
->>&nbsp
+>>&nbsp;
 >>
 >> 
 >>`=this.HeartAbLink5`
 >>
->>| | | |
->>|:-:|:----------:|:-----:|:---------------------:|
->>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank5]` | **XP** |`INPUT[number:Heartexp5]`|
+>>
+>>&nbsp;
+>> 
+>>
+>>---
+>>
+>>&nbsp;
+>>
+>>`=this.HeartAbLink6`
+>>
+>>
+>>&nbsp;
+>> 
+>>
+>>---
+>>
+>>&nbsp;
+>>
+>>`=this.HeartAbLink7`
+>>
+>>
+>>&nbsp;
+>> 
+>>
+>>---
+>>
+>>&nbsp;
+>>
+>>`=this.HeartAbLink8`
 >>
 >>&nbsp;
 >> 
@@ -517,78 +533,23 @@ Appearance1: |-
 >>
 >>&nbsp
 >>
+>>`=this.HeartAbLink9`
 >>
->>
->>
->>| | | |
->>|:-:|:----------:|:-----:|:---------------------:|
->>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank6]` | **XP** |`INPUT[number:Heartexp6]`|
 >>
 >>&nbsp;
 >> 
 >>
 >>---
 >>
->>&nbsp
+>>&nbsp;
 >>
+>>`=this.HeartAbLink10`
 >>
->>
->>
->>| | | |
->>|:-:|:----------:|:-----:|:---------------------:|
->>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank7]` | **XP** |`INPUT[number:Heartexp7]`|
 >>
 >>&nbsp;
 >> 
 >>
 >>---
->>
->>&nbsp
->>
->>
->>
->>
->>| | | |
->>|:-:|:----------:|:-----:|:---------------------:|
->>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank8]` | **XP** |`INPUT[number:Heartexp8]`|
->>
->>&nbsp;
->> 
->>
->>---
->>
->>&nbsp
->>
->>
->>
->>
->>| | | |
->>|:-:|:----------:|:-----:|:---------------------:|
->>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank9]` | **XP** |`INPUT[number:Heartexp9]`|
->>
->>&nbsp;
->> 
->>
->>---
->>
->>&nbsp
->>
->>
->>
->>
->>| | | |
->>|:-:|:----------:|:-----:|:---------------------:|
->>| **Rank** |  `INPUT[inlineSelect(option(Novice), option(Apprentice), option(Veteran), option(Master)):HeartAbRank10]` | **XP** |`INPUT[number:Heartexp10]`|
->>
->>&nbsp;
->> 
->>#### Character Appearance
->>`INPUT[textArea:Appearance1]`
->>---
->>
->>
->>---
->>
 
 ```meta-bind-button
 label: Add

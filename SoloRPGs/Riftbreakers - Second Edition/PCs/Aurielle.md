@@ -136,7 +136,8 @@ Pskills69: Backpack
 skill1: false
 RiftLord: D8
 ac: "4"
-skill19: true
+skill19: false
+heart5: true
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] %%FAKE TITLE HERE%% 
@@ -231,7 +232,7 @@ skill19: true
 >>| **Manipulation** | `0` |`0` |`INPUT[toggle:skill16]`
 >>| **Medicine**  | `15` |`0` |`INPUT[toggle:skill17]`
 >>| **Nature**  | `0` |`0` |`INPUT[toggle:skill18]`
->>| **Perception (20)** | `30` |`10` |`INPUT[toggle:skill19]`
+>>| **Perception (20)** | `34` |`10` |`INPUT[toggle:skill19]`
 >>| **Performance** | `0` |`0` |`INPUT[toggle:skill20]`
 >>| **Ranged Weapons** | `40` |`0` |`INPUT[toggle:skill21]`
 >>| **Reason (10)** | `10` |`0` |`INPUT[toggle:skill22]`
@@ -427,12 +428,12 @@ skill19: true
 >>| 3          | [[Weapon Strike (Two-Handed)]]    |
 >>| 4          | [[Summon Companion]]     |
 >>| 5          | [[Unbound Fury]]   |
->>| 6          | [[Holy Weapon]] |
+>>| 6          | [[Unbound Fury]] |
 >>| 7          | [[Divine Shield]]     |
 >>| 8          | [[Two-Handed Weapon Master]]  |
 >>| 9          | [[Two-Handed Weapon Master]]   |
 >>| 10         | [[Two-Handed Weapon Master]]  |
->>| 11         | [[Unbound Fury]]    |
+>>| 11         |   [[Holy Weapon]]  |
 >>| 12         | [[Holy Weapon]]  |
 
 
@@ -441,12 +442,12 @@ skill19: true
 >>## Hearts
 >>| | | ||
 >>| ---------- | -------- |---------- | -------- |
->>| `INPUT[toggle:heart1]` | Arcane | `INPUT[toggle:heart7]` | Elemental | 
->>| `INPUT[toggle:heart2]` | Arrow |`INPUT[toggle:heart8]` | Might |
->>| `INPUT[toggle:heart3]` | Bastion |`INPUT[toggle:heart9]` | Restoration |
->>| `INPUT[toggle:heart4]` | Blade | `INPUT[toggle:heart10]` | Ritual |
->>| `INPUT[toggle:heart5]` | Death |  `INPUT[toggle:heart11]` | Shadow |
->>| `INPUT[toggle:heart6]` | Devastation | `INPUT[toggle:heart12]` | Time |
+>>| `INPUT[toggle:heart1]` | <font color="#00CAFF">Arcane</font> | `INPUT[toggle:heart7]` | <font color="#FB5607">Elemental</font> | 
+>>| `INPUT[toggle:heart2]` | <font color="#1A7431">Arrow</font> |`INPUT[toggle:heart8]` | <font color="#FF073A">Might</font> |
+>>| `INPUT[toggle:heart3]` | <font color="#00FFCC">Bastion</font> |`INPUT[toggle:heart9]` | <font color="#11FF00">Restoration</font> |
+>>| `INPUT[toggle:heart4]` | <font color="#FF006E">Blade</font> | `INPUT[toggle:heart10]` | <font color="#2A9D8F">Ritual</font> |
+>>| `INPUT[toggle:heart5]` | <font color="#8624FF">Death Heart</font> |  `INPUT[toggle:heart11]` | <font color="#2D00F7">Shadow</font> |
+>>| `INPUT[toggle:heart6]` | <font color="#D100D1">Devastation</font> | `INPUT[toggle:heart12]` | <font color="#FFFF00">Time</font> |
 >>
 >>&nbsp;
 >>

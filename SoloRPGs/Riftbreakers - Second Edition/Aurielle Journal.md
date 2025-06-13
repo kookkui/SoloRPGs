@@ -1336,6 +1336,10 @@ Loot: (Epic) Magic Item
 
 #### Area 2
 
+Skill up check Perception (30) `d100 = 54` 
+
++4 Perception (34)
+
 Area Feature Check: Combat Encounter
 
 ```statblock
@@ -1348,4 +1352,154 @@ creatures:
   - Mossy Horror (RB) , 36 , 6, 0
 ```
 
+
+PC Perception (44) `d100 = 31`  Winner
+vs
+Mossy Horror Perception (60) `d100 = 95`
+
+Combat Start!
+
+PC Turn
+
+Move 1 
+
+Two-Handed Weapon Master -5 MP
+
+![[SoloRPGs/_Decks/Riftbreakers Current Ability Loadout/Might_Two-Handed Weapon Master_3.webp|400]]
+
+Mossy Horror Turn
+
+Move 1
+
+**Vicious Vine Strike**: The Mossy Horror lashes out with its sharp, thorn-covered vines, making a Combat Skill check and dealing D6+2 Piercing damage on a hit.
+
+PC is out of Range...
+
+PC Turn
+
+Move 1
+
+![[SoloRPGs/_Decks/Riftbreakers Current Ability Loadout/Weapon_Strike_Two_Handed_3.webp|400]]
+
+Two-Handed Weapon Master -3 MP
+
+Bladed Weapons Skill up Check (56) `d100 = 15` Hit!
+
+6 Damage - 3 Armor = 3 Damage to Mossy Horror (33)
+
+Again,
+
+Two-Handed Weapon Master -3 MP
+
+Bladed Weapons Skill up Check (56) `d100 = 14` Hit!
+
+10 Damage - 5 Armor = 5 Damage to Mossy Horror (28)
+
+Mossy Horror Turn
+
+**Vicious Vine Strike**: The Mossy Horror lashes out with its sharp, thorn-covered vines, making a Combat Skill check and dealing D6+2 Piercing damage on a hit.
+
+Combat Skill check (50) `d100 = 73` Missed!
+
+Again
+
+**Vicious Vine Strike**: The Mossy Horror lashes out with its sharp, thorn-covered vines, making a Combat Skill check and dealing D6+2 Piercing damage on a hit.
+
+Combat Skill check (50) `d100 = 29` Hit!
+
+5 Damage - 5 Armor = 0 Damage to Aurielle (26)
+
+PC Turn
+
+![[SoloRPGs/_Decks/Riftbreakers Current Ability Loadout/Companion_Summon_Companion_1.webp|400]]
+
+Serayr enters the fray -8 MP
+
+Serayr's Turn
+
+Move 1
+
+Performs an attack with their weapon, dealing 5 Piercing damage.
+
+5 Damage - 3 Armor = 2 Damage to Mossy Horror (26)
+
+Mossy Horror Turn
+
+**Vicious Vine Strike**: The Mossy Horror lashes out with its sharp, thorn-covered vines, making a Combat Skill check and dealing D6+2 Piercing damage on a hit.
+
+Combat Skill check (50) `d100 = 73` Miss!
+
+**Blend In**: The Mossy Horror blends into the surrounding foliage, becoming *Concealed*.
+
+PC Turn
+
+PC Perception (44) `d100 = 28` Success!
+
+Aurielle is able to see the Mossy Horror in the brush!
+
+Two-Handed Weapon Master -3 MP
+
+Bladed Weapons Skill up Check (56) `d100 = 56` Hit!
+
+9 Damage - 5 Armor = 4 Damage to Mossy Horror (22)
+
+Casting  Sudden Strike -3 MP
+
+Your deal D6+2 Arcane damage to a target.
+
+8 Arcane Damage (Unblockable) to Mossy Horror (14)
+
+Serayr's Turn 
+
+Heals D6 Health. If at max Health, they perform an attack with their weapon, dealing D6+2 Piercing damage.
+
+PC is at full health
+
+8 Damage - 4 Armor = 4 Damage to Mossy Horror (10)
+
+Mossy Horror Turn
+
+**Stranglehold**: The Mossy Horror makes a Combat Skill check, attempting to wrap its vines around its target. If successful, the target suffers D6+1 Bludgeoning damage and is Restrained until they free themselves.
+
+Combat Skill check (50) `d100 = 50` Hit
+
+4 Damage - 3 Armor = 1 Damage to PC (25)
+
+**Blend In**: The Mossy Horror blends into the surrounding foliage, becoming *Concealed*.
+
+PC Turn
+
+Athletics check (28) `d100 = 26` Aurielle breaks free!
+
+PC Perception (44) `d100 = 20` Success! 
+
+Aurielle spots the mossy horror under a tree...
+
+Two-Handed Weapon Strike -3 MP
+
+Bladed Weapons Skill up Check (56) `d100 = 26` Hit!
+
+7 Damage - 2 Armor = 5 Damage to Mossy Horror (5)
+
+Again,
+
+Two-Handed Weapon Strike -3 MP
+
+Bladed Weapons Skill up Check (56) `d100 = 26` Missed!
+
+Serayr's Turn 
+
+Removes one instance of a harmful condition from an ally. If none, the Companion performs an attack with their weapon, dealing D6+2 Piercing damage.
+
+PC has no conditions.
+
+7 Damage - 2 Armor = 5 Damage to Mossy Horror (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
+
+Loot: <font color="#8624FF">Death Heart</font>
+
+Aurielle Absorbs the <font color="#8624FF">Death Heart</font>
+
+ Riftlord Check (D8) `d8 = 6`
 

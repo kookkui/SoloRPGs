@@ -146,7 +146,7 @@
     "creatures": [
       {
         "name": "Aurielle",
-        "initiative": 15,
+        "initiative": 20,
         "static": false,
         "modifier": 0,
         "hp": 26,
@@ -155,8 +155,8 @@
         "currentAC": "4",
         "note": "Aurielle",
         "path": "SoloRPGs/Riftbreakers - Second Edition/PCs/Aurielle.md",
-        "id": "ID_1a6b58099a1b",
-        "currentHP": 26,
+        "id": "ID_bb9ada99d90a",
+        "currentHP": 25,
         "tempHP": 0,
         "status": [],
         "enabled": true,
@@ -176,14 +176,14 @@
         "currentAC": "1",
         "note": "Serayr",
         "path": "SoloRPGs/Riftbreakers - Second Edition/PCs/Serayr.md",
-        "id": "ID_4bf8d92b3aba",
+        "id": "ID_79ea487acbba",
         "currentHP": 20,
         "tempHP": 0,
         "status": [],
         "enabled": true,
         "level": 1,
         "player": true,
-        "active": false,
+        "active": true,
         "hidden": false,
         "friendly": false
       },
@@ -197,9 +197,11 @@
         "ac": 6,
         "currentAC": 6,
         "id": "ID_795a186b88c9",
-        "currentHP": 36,
+        "currentHP": 0,
         "tempHP": 0,
-        "status": [],
+        "status": [
+          "Unconscious"
+        ],
         "enabled": true,
         "active": false,
         "hidden": false,
@@ -207,9 +209,9 @@
         "rollHP": false
       }
     ],
-    "state": false,
+    "state": true,
     "name": null,
-    "round": 1,
+    "round": 5,
     "logFile": "",
     "rollHP": false
   },
