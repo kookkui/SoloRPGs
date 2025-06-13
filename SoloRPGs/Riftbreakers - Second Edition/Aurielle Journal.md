@@ -1338,4 +1338,6 @@ Loot: (Epic) Magic Item
 
 Area Feature Check: Combat Encounter
 
-
+```statblock
+creature: Mossy Horror (RB)
+```

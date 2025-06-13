@@ -6,7 +6,7 @@
       {
         "id": "f4b94943e144f358",
         "type": "tabs",
-        "dimension": 52.09003215434084,
+        "dimension": 53.092369477911646,
         "children": [
           {
             "id": "9aa9184a85170983",
@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoloRPGs/Riftbreakers - Second Edition/Aurielle Journal.md",
-                "mode": "source",
+                "file": "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Mossy Horror.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Aurielle Journal"
+              "title": "Mossy Horror"
             }
           },
           {
@@ -41,7 +41,7 @@
       {
         "id": "67b7a810c4e5f737",
         "type": "tabs",
-        "dimension": 47.90996784565916,
+        "dimension": 46.907630522088354,
         "children": [
           {
             "id": "7811446c16f46c25",
@@ -307,17 +307,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoloRPGs/Riftbreakers - Second Edition/Aurielle Journal.md",
+                "file": "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Mossy Horror.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Aurielle Journal"
+              "title": "Outline of Mossy Horror"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       },
       {
         "id": "0e6a14a15862aa6f",
@@ -362,13 +362,13 @@
   },
   "active": "9aa9184a85170983",
   "lastOpenFiles": [
-    "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Rift Maps/Primordial Forest Rift 1/IMG-20250611230412476.webp",
-    "SoloRPGs/Riftbreakers - Second Edition/Maps/Rift Maps/Primordial Forest Rift 1.md",
     "SoloRPGs/Riftbreakers - Second Edition/Aurielle Journal.md",
     "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Mossy Horror.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Maps/Rift Maps/Primordial Forest Rift 1.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Tables/Riftbreakers Tables Rolls.md",
+    "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Rift Maps/Primordial Forest Rift 1/IMG-20250611230412476.webp",
     "SoloRPGs/_Templates/Snippets.md",
     "SoloRPGs/_Templates/Colour Pallette.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Tables/Riftbreakers Tables Rolls.md",
     "SoloRPGs/Riftbreakers - Second Edition/PCs/Aurielle.md",
     "SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map Dark Mode.md",
     "SoloRPGs/_Tokens/VTT Battle Tokens/Treant - 0101.webp",
