@@ -1341,3 +1341,11 @@ Area Feature Check: Combat Encounter
 ```statblock
 creature: Mossy Horror (RB)
 ```
+
+
+```encounter
+creatures:
+  - Mossy Horror (RB) , 36 , 6, 0
+```
+
+
