@@ -134,10 +134,11 @@ gear9: ""
 gear10: ""
 Pskills69: Backpack
 skill1: false
-RiftLord: D8
+RiftLord: D6
 ac: "4"
 skill19: false
 heart5: true
+heart1: true
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] %%FAKE TITLE HERE%% 
@@ -152,7 +153,7 @@ heart5: true
 >>  **Achievement in Progress** |`=this.achievement_prog` `boxes: 0/5` |
 >> **Ability Pool** | Used: `6` **Max:** `21` |
 >> **Reputation** | `1` `INPUT[suggester(option(Initiate), option(Journeyman), option(Vanguard), option(Champion), option(High Warden)):reputation_rank]` |
->> **HP** | **Current:**`26` **Max:** `26`
+>> **HP** | **Current:**`22` **Max:** `26`
 >> **Luck** | `5` |
 >> **Parry** | `10` |
 >> **Max Aether** | `10` |
@@ -200,8 +201,8 @@ heart5: true
 > |  | 
 >>|---|---
 >>|**Torches / Lamp Oil**| `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):torch1]` |
->>|**Bandages**|`INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(None)):Bandage]` |
->>|**RiftLord Timer**|`INPUT[inlineSelect(option(D10), option(D8), option(D6), option(None)):RiftLord]` |
+>>|**Bandages**|`INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):Bandage]` |
+>>|**RiftLord Timer**|`INPUT[inlineSelect(option(D8), option(D6), option(D4), option(None)):RiftLord]` |
 >>
 >> &nbsp;
 >>
@@ -214,7 +215,7 @@ heart5: true
 >> ### Skill Checks
 >>| **Skill Name** | **Skill Level**| **Gear Mod** | **Skill Up**
 >>| ------------------------- | ----------- | -----------| ----------- |
->>| **Agility** (10) | `28` |  `0` | `INPUT[toggle:skill1]`|
+>>| **Agility** (10) | `31` |  `0` | `INPUT[toggle:skill1]`|
 >>| **Alchemy** | `30` |`0` | `INPUT[toggle:skill2]`|
 >>| **Animal Handling** | `0` | `0` |`INPUT[toggle:skill3]`|
 >>| **Armorsmithing** | `10` |`0` | `INPUT[toggle:skill4]`|
@@ -433,7 +434,7 @@ heart5: true
 >>| 8          | [[Two-Handed Weapon Master]]  |
 >>| 9          | [[Two-Handed Weapon Master]]   |
 >>| 10         | [[Two-Handed Weapon Master]]  |
->>| 11         |   [[Holy Weapon]]  |
+>>| 11         |  [[Cleave]]  |
 >>| 12         | [[Holy Weapon]]  |
 
 

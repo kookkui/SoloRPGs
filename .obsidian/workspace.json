@@ -82,6 +82,18 @@
               "icon": "lucide-file",
               "title": "Serayr"
             }
+          },
+          {
+            "id": "bdfe3bc83adbda04",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "SoloRPGs/Riftbreakers - Second Edition/Maps/Rift Maps/Primordial Forest Rift 1.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Primordial Forest Rift 1"
+            }
           }
         ],
         "currentTab": 1
@@ -295,13 +307,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Mossy Horror.md",
+                "file": "SoloRPGs/Riftbreakers - Second Edition/Aurielle Journal.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Mossy Horror"
+              "title": "Outline of Aurielle Journal"
             }
           }
         ],
@@ -350,33 +362,35 @@
   "active": "9aa9184a85170983",
   "lastOpenFiles": [
     "SoloRPGs/Riftbreakers - Second Edition/PCs/Aurielle.md",
-    "SoloRPGs/_Templates/Riftbreakers/Character Sheet PC Second Edition.md",
     "SoloRPGs/Riftbreakers - Second Edition/Aurielle Journal.md",
     "SoloRPGs/_Templates/Colour Pallette.md",
     "SoloRPGs/Riftbreakers - Second Edition/Tables/Riftbreakers Tables Rolls.md",
-    "SoloRPGs/Riftbreakers - Second Edition/PCs/Serayr.md",
     "SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map Dark Mode.md",
-    "SoloRPGs/_Decks/Riftbreakers Current Ability Loadout/Companion_Summon_Companion_1.webp",
-    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Weapon Strikes & Non-Heart Abilities/Weapon Strike (Two-Handed).md",
-    "SoloRPGs/_Tokens/VTT Battle Tokens/Vine Blight - 0102.webp",
-    "SoloRPGs/_Tokens/VTT Battle Tokens/Vine Blight - 01031.webp",
-    "SoloRPGs/_Tokens/VTT Battle Tokens/Vine Blight - 0103.webp",
-    "SoloRPGs/_Tokens/VTT Battle Tokens/Tree Blight - 01011- Tier1.webp",
-    "SoloRPGs/_Tokens/VTT Battle Tokens/Animal - Lioness - 0102.webp",
+    "SoloRPGs/_Decks/Riftbreakers Current Ability Loadout/Might_Cleave_1.webp",
+    "SoloRPGs/_Decks/Riftbreakers Ability Cards/Might_Unbound Fury_3.webp",
+    "SoloRPGs/_Templates/Snippets.md",
+    "SoloRPGs/_Tokens/VTT Battle Tokens/Drake - White - 0101.webp",
+    "SoloRPGs/_Tokens/VTT Battle Tokens/Drake - 0104.webp",
+    "SoloRPGs/_Tokens/VTT Battle Tokens/Large Snake 01.webp",
+    "SoloRPGs/_Tokens/VTT Battle Tokens/Frog - Giant - 0103.webp",
+    "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Luminous Lizard.md",
     "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Rift Maps/Primordial Forest Rift 1/IMG-20250611230412476.webp",
     "SoloRPGs/Riftbreakers - Second Edition/Maps/Rift Maps/Primordial Forest Rift 1.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Might Heart/Two-Handed Weapon Master.md",
+    "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Giant Spider.md",
     "SoloRPGs/Riftbreakers - Second Edition/PCs/Aurielle's Large Spatial Bag.md",
+    "SoloRPGs/_Tokens/VTT Battle Tokens/Vine Blight - 0102.webp",
+    "SoloRPGs/_Templates/Riftbreakers/Character Sheet PC Second Edition.md",
+    "SoloRPGs/Riftbreakers - Second Edition/PCs/Serayr.md",
+    "SoloRPGs/_Decks/Riftbreakers Current Ability Loadout/Companion_Summon_Companion_1.webp",
+    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Weapon Strikes & Non-Heart Abilities/Weapon Strike (Two-Handed).md",
+    "SoloRPGs/_Tokens/VTT Battle Tokens/Vine Blight - 01031.webp",
+    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Might Heart/Two-Handed Weapon Master.md",
     "SoloRPGs/Riftbreakers - Second Edition/Rules Reference/Character Sheet Backups.md",
     "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Mossy Horror.md",
-    "SoloRPGs/_Decks/Riftbreakers Current Ability Loadout/Might_Two-Handed Weapon Master_3.webp",
-    "SoloRPGs/_Decks/Riftbreakers Current Ability Loadout/Might_Two-Handed Weapon Master_2.webp",
-    "SoloRPGs/_Decks/Riftbreakers Current Ability Loadout/Might_Two-Handed Weapon Master_1.webp",
     "SoloRPGs/_Decks/Riftbreakers Current Ability Loadout",
     "SoloRPGs/_Decks/Untitled.md",
     "SoloRPGs/_Decks/Riftbreakers Ability Cards",
     "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Companion Loadout Abilities/Summon Companion.md",
-    "SoloRPGs/_Templates/Snippets.md",
     "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Ancient Ent.md",
     "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Rift Maps/Primordial Forest Rift 1",
     "SoloRPGs/_Tokens/Riftbreaker/Rift Maps",
@@ -386,9 +400,6 @@
     "SoloRPGs/Riftbreakers - Second Edition/Maps/Overworld Maps/Keathor Overworld Map.md",
     "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Root Ravager.md",
     "SoloRPGs/Riftbreakers - Second Edition/Rules Reference/Riftbreakers House Rules.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Companion Loadout Abilities/Sudden Strike.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Tables/General Tables.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Restoration Heart/Bless.md",
     "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Companion Loadout Abilities",
     "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Weapon Strikes & Non-Heart Abilities",
     "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map Dark Mode",

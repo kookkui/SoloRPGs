@@ -1497,9 +1497,151 @@ PC has no conditions.
 
 <span style="color:rgb(241, 91, 181)">Victory!</span>
 
-Loot: <font color="#8624FF">Death Heart</font>
+Loot: Crystalized Heart (<font color="#8624FF">Death </font>) 
 
 Aurielle Absorbs the <font color="#8624FF">Death Heart</font>
 
- Riftlord Check (D8) `d8 = 6`
+Riftlord Check (D8) `d8 = 6`
+
+Area Link Two
+
+#### Area 3
+
+Falling Tree. With a loud crack, a tree falls right towards you. A 
+random PC must pass an Agility check or suffer D4+3 Bludgeoning 
+damage.
+
+Agility check (28) `d100 = 55` Critical Failure! But Skill up. 
+
+3 Damage to Aurielle (22)
+
+Riftlord Check (D8) `d8 = 1` Riftlord die changes from d8 > d6!
+
+Area Link Two
+
+Agility Skill up check (28) `d100 = 53`  Success!  +3 Agility ()
+#### Area 4
+
+Travel Check, a Combat encounter!
+
+
+```statblock
+creature: Luminous Lizard (RB)
+```
+
+
+
+```encounter
+creatures:
+  - Luminous Lizard (RB) 1, 12, 3, 0
+  - Luminous Lizard (RB) 2, 12, 3, 0
+```
+
+
+PC Perception (44) `d100 = 10` Winner!
+vs
+Enemy Perception (50) `d100 = 39` 
+
+Combat Start!
+
+PC Turn
+
+Move 1
+
+![[SoloRPGs/_Decks/Riftbreakers Current Ability Loadout/Might_Two-Handed Weapon Master_2.webp|400]]
+
+Two-Handed Weapon Master -5 MP
+
+Lizard 1 Turn
+
+Moving 2
+
+**Radiant Strike**: The Luminous Lizard makes a Combat Skill check and charges towards its target, dealing D8+2 Radiant damage.
+
+Combat Skill check (40) `d100 = 38` Hit
+
+6 Damage - 5 Armor = 1 Damage to Aurielle (21)
+
+Lizard 2 Turn
+
+Moving 2
+
+**Tail Whip**: The Luminous Lizard whips its tail, making a Combat Skill check and dealing D6+1 Bludgeoning damage to its target. The target must pass an Athletics check or be knocked Prone.
+
+Combat Skill check (40) `d100 = 46`
+
+PC Turn
+
+![[SoloRPGs/_Decks/Riftbreakers Current Ability Loadout/Companion_Summon_Companion_1.webp|400]]
+
+Summon Companion -8 MP
+
+Serayr enters the fray!
+
+Serayr Turn
+
+Moving 1 
+
+Target ally becomes impervious to all damage until their next turn.
+
+Lizard 1 Turn
+
+**Tail Whip**: The Luminous Lizard whips its tail, making a Combat Skill check and dealing D6+1 Bludgeoning damage to its target. The target must pass an Athletics check or be knocked Prone.
+
+Combat Skill check (40) `d100 = 86` Failed
+
+Lizard 2 Turn 
+
+**Radiant Strike**: The Luminous Lizard makes a Combat Skill check and charges towards its target, dealing D8+2 Radiant damage.
+
+Combat Skill check (40) `d100 = 83` Failed
+
+PC Turn
+
+Targeting Lizard 1 
+
+Two-Handed Weapon Strike -3 MP
+
+Bladed Weapons Skill up Check (66) `d100 = 2` Hit!
+
+10 Damage - 1 Armor = 9 Damage to Luminous Lizard (3)
+
+Again
+
+Two-Handed Weapon Strike -3 MP
+
+Bladed Weapons Skill up Check (66) `d100 = 65` Hit!
+
+11 Damage - 3 Armor = 8 Damage to Luminous Lizard 1 (Dead)
+
+Targeting Lizard 2
+
+Two-Handed Weapon Strike -3 MP
+
+Bladed Weapons Skill up Check (66) `d100 = 59` Hit!
+
+8 Damage - 2 Armor = 6 Damage to Luminous Lizard 2 (6)
+
+Serayr Turn
+
+Removes one instance of a harmful condition from an ally. If none, the Companion performs an attack with their weapon, dealing D6+2 Piercing damage.
+
+No Condition...
+
+7 Damage - 1 Armor = 6 Damage to Luminous Lizard 2 (Deads)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
+
+Loot: Crystalized Heart (<font color="#00CAFF">Arcane</font>)
+
+Aurielle absorbs the power of the Crystalized Heart (<font color="#00CAFF">Arcane</font>)
+
+Riftlord Timer check (D6) `d6 = 6` The search continues
+
+
+
+
+
+
+
 

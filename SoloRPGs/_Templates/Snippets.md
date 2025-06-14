@@ -48,7 +48,7 @@ Weshan:
 Weshan: 
 
 ### Riftbreakers Perception
-PC Perception (40) `d100 = 10` 
+PC Perception (44) `d100 = 10` 
 vs
 Enemy Perception (50) `d100 = 10` 
 
