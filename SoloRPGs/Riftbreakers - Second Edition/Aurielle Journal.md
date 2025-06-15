@@ -1801,4 +1801,76 @@ Riftlord Check (D6) `d8 = 2` Riftlord is near the die changes from D6 > D4
 
 Area Feature Check 
 
+Combat encounter
+
+```statblock
+creature: Spirit Bear (RB)
+```
+
+```encounter
+creatures:
+  - Spirit Bear (RB) , 40, 8, 0
+```
+
+PC Perception (44) `d100 = 37` Winner
+vs
+Enemy Perception (60) `d100 = 84`
+
+Combat Start!
+
+PC Turn
+
+Move 1
+
+Two-Handed Weapon Master -5 MP
+
+For the remainder of combat, if you are wielding a two-handed weapon you deal an additional D4 damage.
+
+![[SoloRPGs/_Decks/Riftbreakers Current Ability Loadout/Death_Chill_of_Death_1.webp|400]]
+
+Casting Chill of Death -5 MP
+
+4 Necrotic Damage which heals the bear but it is at full health...
+
+Spirit Bear is now *Freezing* The afflicted has Disadvantage on all checks. They must pass a free Endurance check after the first round to recover. If failed, re-attempt each round until success. 
+
+Bear Turn
+
+Endurance check (40) `d100 = 87` Failed... Still freezing...
+
+Move 1
+
+**Earthquake Slam**: The Spirit Bear slams its massive paws into the ground, causing a tremor that forces all characters in the same Combat Zone to pass an Agility check or suffer D8+2 Bludgeoning damage.
+
+No characters in the same zone..
+
+PC Turn
+
+Move 1
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Skill up Check (56) `d100 = 32` Hit!
+
+12 Damage - 1 Armor = 11 Damage to Grove Guardian (29)
+
+<font color="#11FF00">+10 to PARRY</font>
+
+Aurielle Swings the sword back around for another hit
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Skill up Check (56) `d100 = 16` Hit!
+
+9 Damage - 4 Armor = 5 Damage to Grove Guardian (24)
+
+A final downward swing from Aurielle!
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Skill up Check (56) `d100 = 24` Hit!
+
+9 Damage - 1 Armor = 8 Damage to Grove Guardian (16)
+
+
 

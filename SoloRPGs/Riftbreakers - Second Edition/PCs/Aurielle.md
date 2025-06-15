@@ -118,7 +118,7 @@ heart8: true
 heart9: true
 reputation_rank: Initiate
 gear3: Rope
-CurrentAether: 10
+CurrentAether: 1
 skill6: false
 hp: 26
 modifier: 0
@@ -157,7 +157,7 @@ heart1: true
 >> **Reputation** | `1` `INPUT[suggester(option(Initiate), option(Journeyman), option(Vanguard), option(Champion), option(High Warden)):reputation_rank]` |
 >> **HP** | **Current:**`25` **Max:** `26`
 >> **Luck** | `5` |
->> **Parry** | `10` |
+>> **Parry** | `0` |
 >> **Max Aether** | `10` |
 >> **Protection** | `=this.Protection` |
 >>
@@ -436,12 +436,12 @@ heart1: true
 >>| 3          | [[Weapon Strike (Two-Handed)]]    |
 >>| 4          | [[Summon Companion]]     |
 >>| 5          | [[Unbound Fury]]   |
->>| 6          | [[Unbound Fury]] |
->>| 7          | [[Divine Shield]]     |
+>>| 6          | [[Chill of Death]] |
+>>| 7          | [[Chill of Death]]  |
 >>| 8          | [[Two-Handed Weapon Master]]  |
 >>| 9          | [[Two-Handed Weapon Master]]   |
 >>| 10         | [[Two-Handed Weapon Master]]  |
->>| 11         |  [[Cleave]]  |
+>>| 11         | [[Divine Shield]]   |
 >>| 12         | [[Holy Weapon]]  |
 
 ## Hearts
