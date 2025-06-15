@@ -1636,12 +1636,169 @@ Loot: Crystalized Heart (<font color="#00CAFF">Arcane</font>)
 
 Aurielle absorbs the power of the Crystalized Heart (<font color="#00CAFF">Arcane</font>)
 
++1 Attunement Crystal
+
 Riftlord Timer check (D6) `d6 = 6` The search continues
 
+Area Links One
+
+#### Area 5
+
+Riftlord Check (D6) `d8 = 3` No Change
+
+Travel Check
+
+**Ambush!**
+
+```statblock
+creature: Grove Guardian (RB)
+```
 
 
+```encounter
+creatures:
+  - Grove Guardian (RB) , 44, 8, 0
+```
+
+PC Perception (44) `d100 = 21` Winner
+vs
+Enemy Perception (60) `d100 = 18` 
+
+Combat Start
+
+PC Turn
+
+Move 1
+
+![[SoloRPGs/_Decks/Riftbreakers Current Ability Loadout/Companion_Summon_Companion_1.webp|400]]
 
 
+Serayr Enters the fray.
 
+Serayr Turn
+
+An ally’s next action is performed with +20.
+
+Grove Guardian Turn
+
+Move 1
+
+ **Entangling Roots**: The Grove Guardian targets up to three creatures within its Combat Zone, causing roots to grow from the ground. Targets must pass an Agility check or become Restrained. Restrained characters suffer 1 Piercing damage every round.
+
+No one is in the zone...
+
+PC Turn
+
+Move 1
+
+
+![[SoloRPGs/_Decks/Riftbreakers Current Ability Loadout/Might_Two-Handed Weapon Master_3.webp|400]]
+
+Two-Handed Weapon Master -5 MP
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Skill up Check (46) `d100 = 27` Hit!
+
+9 Damage - 1 Armor = 8 Damage to Grove Guardian (36)
+
+Serayr Turn
+
+Heals D6 Health. If at max Health, they perform an attack with their weapon, dealing D6+2 Piercing damage.
+
++8 HP to Aurielle (26)
+
+Grove Guardian Turn
+
+**Bear Swipe**: The Grove Guardian makes a Combat Skill check, attacking with its clawed paw and dealing D8+2 Slashing damage to its target on a hit.
+
+Combat Skill check (50) `d100 = 51` Miss!
+ 
+**Earthquake**: The Grove Guardian slams its massive paw onto the ground, causing an earthquake in its Combat Zone. All creatures within the area must make an Athletics check or be knocked Prone and take D8 Bludgeoning damage. Creatures that succeed take half damage and are not knocked Prone.
+
+Athletics check (28) `d100 = 21` Success
+
+2 Damage - 3 Armor = 0 Damage to Aurielle
+
+PC Turn
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Skill up Check (46) `d100 = 7` Hit!
+
+12 Damage - 2 Armor = 10 Damage to Grove Guardian (26)
+
+Aurielle Swings the sword again
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Skill up Check (46) `d100 = 52` Missed!
+
+She spins around one more time for a backhanded slash!
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Skill up Check (46) `d100 = 43` Hit!
+
+16 Damage - 1 Armor = 15 Damage to Grove Guardian (11)
+
+Serayr Turn
+
+Performs an attack with their weapon, dealing 5 Piercing damage.
+
+5 Damage - 1 Armor = 4 Damage to Grove Guardian (7)
+
+Grove Guardian Turn
+
+**Bear Swipe**: The Grove Guardian makes a Combat Skill check, attacking with its clawed paw and dealing D8+2 Slashing damage to its target on a hit.
+
+Combat Skill check (50) `d100 = 99` 
+
+Grove Guardian is now *Stunned*
+
+PC Turn
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Skill up Check (46) `d100 = 58` Miss!
+
+Sudden Strike -3 MP
+
+Your deal D6+2 Arcane damage to a target. 
+
+8 Damage to Grove Guardian(Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
+
+Using an Attunement Crystal on <font color="#ff00cc">(Rare) Greatsword</font>
+
+<font color="#8624FF">Greatsword of the Warmonger</font> (When you deal a critical hit with this weapon, you deal the maximum damage possible.  When you deal damage with this weapon, gain +10 parry until your next turn. )
+
+When you deal a critical hit with this weapon, you deal the maximum damage possible. 
+ When you deal damage with this weapon, gain +10 parry until your next turn. 
+
+Loot: <font color="#ff00cc">Heart Essence</font>
+
+Absorbing <font color="#ff00cc">Heart Essence</font> gaining  
+
+![[Chill of Death]]
+
+
+Area link check: Three
+
+#### Area 6
+
+Riftlord Check (D6) `d8 = 3` No Change
+
+<font color="#2A9D8F">Poisonous Plants.</font> A random PC runs into a plant, being stung by its 
+poisonous barbs. They must pass an Endurance check or reduce their 
+max Health by -1 for the next 24 hours.
+
+Endurance check (25) `d100 = 83` Failed!
+#### Area 7
+
+Riftlord Check (D6) `d8 = 2` Riftlord is near the die changes from D6 > D4
+
+Area Feature Check 
 
 

@@ -2,55 +2,61 @@
 
 ### Landmark - Interaction
 
-|`dice:d8`|Landmark - Interaction|
-|---|---|
-|1-2|Landmark - Inert|
-|3-4|Obelisk Puzzle - Intellect check, if fail roll on Rift Lord Reaction Table|
-|5-6|Falling Statue - Brawn or Coordination check, failure results in rolling on Cursed Table|
-|7-8|Spirit Guardian - Charisma check, failure results in rolling on the Undead encounter table, all Undead are +1 rank than you.|
+| `dice:d8` | Landmark - Interaction                                                                                                                              |
+| --------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-2       | Landmark - Inert                                                                                                                                    |
+| 3-4       | Obelisk Puzzle - Reason or Insight check, if fail roll on Rift Lord Reaction Table                                                                  |
+| 5-6       | Falling Statue - **Athletics** or **Agility** check, failure results in rolling on Cursed Table                                                     |
+| 7-8       | Spirit Guardian - **Stealth** or **Manipulation** check, failure results in rolling on the Undead encounter table, all Undead are +1 rank than you. |
 
 ^7660c6
 
 ### Landmark - Rewards
 
-|`dice:d4`|Landmark - Rewards|
+|`dice:d20`|Landmark - Rewards|
 |---|---|
-|1|D4 x10 Aetheryte +10 for Demanding and +20 for Hard|
-|2|D4 Minerals +1 for Demanding and +2 for Hard|
-|3|D4 Alchemical Ingredient +1 for Demanding and +2 for Hard|
-|4|D4 Rations +1 for Demanding and +2 for Hard|
+|1-3|`dice:2D20`⟑|
+|4-7|Random Ore. Roll on the Mineral Deposits Content table|
+|8-11|Random Alchemical Ingredients. Roll on the Alchemical Ingredients|
+|12|Weapon. Roll on the Random Weapon table on page XXX.|
+|13|Armor. Roll on the Random Armor table on page XXX.|
+|14|Alchemical Creation. Roll on the Alchemical Creation tables on page XXX.|
+|15-17|Skill Book.|
+|18|Weapon Manual.|
+|19|Armor Manual.|
+|20|Magic Item. Roll on the Magic Item Rarity table (page XXX), and then proceed to generate its properties, if necessary.|
 
 ^6c97e1
 
 ### Landmark - Undead Encounter
 
-|`dice:d6`|Landmark - Undead Encounter|
-|---|---|
-|1|Cursed Archer|
-|2|Mirage Phantom|
-|3|Mummy Guardian|
-|4|Spectral Wraith|
-|5|Whirlwind Wraith|
-|6|Cinder Horror|
+| `dice:d6` | Landmark - Undead Encounter |
+| --------- | --------------------------- |
+| 1         | Blighted Bats               |
+| 2         | Skeleton                    |
+| 3         | Mirage Phantom              |
+| 4         | Ocean Wraith                |
+| 5         | Cinder Horrors              |
+| 6         | Whirlwind Wraith            |
 
 ^1ff8b8
 
 ### Landmark - Cursed!
 
-|`dice:d6`|Landmark - Cursed!|
-|---|---|
-|1|Curse of Frailty - Your mind and body feel weaker. Reduce DM to 0 for D4 locations.|
-|2|Curse of Vulnerability - Pain... Pain hurts more. Take +1 additional damage from all sources for D4 locations.|
-|3|Curse of Clumsiness - You've developed tremors. Increase Fumble chance to 90-100 for D4 locations.|
-|4|Curse of Misfortune - Your purse jingles, then suddenly feels lighter. Lose D6+1 x10 Aetheryte of your current Rank.|
-|5|Curse of Fracture - Scratching! Always Scratching! Reduce Aether by D8 for D4 Locations.|
-|6|Curse of Incompetence - Derp! -5 to all checks for D4 locations|
+| `dice:d6` | Landmark - Cursed!                                                                                                   |
+| --------- | -------------------------------------------------------------------------------------------------------------------- |
+| 1         | Curse of Frailty - Your mind and body feel weaker. Reduce Weapon Skills by -10 for `dice:D4` areas.                       |
+| 2         | Curse of Vulnerability - Pain... Pain hurts more. Take +1 additional damage from all sources for `dice:D4` areas.    |
+| 3         | Curse of Clumsiness - You've developed tremors. Increase Fumble chance to 90-100 for `dice:D4` areas.                   |
+| 4         | Curse of Misfortune - Your purse jingles, then suddenly feels lighter. Lose D4+1 x10 Aetheryte. |
+| 5         | Curse of Fracture - Scratching! Always Scratching! Reduce Aether by `dice:D8` for `dice:D4` areas.                             |
+| 6         | Curse of Incompetence - Derp! -5 to all checks for `dice:D4` areas.                                                     |
 
 ### Landmark - Rift Lord Reaction
 
 |`dice:d20`|Landmark - Rift Lord Reaction|
 |---|---|
-|1-14|The Riftlord sends personal guard. Roll on the Encounter table for the Rift Dominion. The encounter is one Rank higher than you.|
+|1-14|The Riftlord sends personal guard. Roll on the Encounter table for the Rift Dominion.|
 |15-17|You anger the Riftlord. Advance the Riftlord timer die by one. The Riftlord gains +1 damage to all sources (cumulative). If the existing timer is D4, immediately resolve combat with the Riftlord.|
 |18-20|The Riftlord becomes skittish. Reverse the Riftlord timer die by one. This cannot exceed D10.|
 
@@ -114,20 +120,41 @@
 
 ^54fbbe
 
-
-### Underground Cave System: Area Feature 
-
-|`dice:d10`|Underground Cave System: Area Feature|
+### Primordial Forest - Area Feature
+|`dice:d10`|Primordial Forest - Area Feature|
 |---|---|
-|1-2|None. A regular cave or series of caves and tunnels, with nothing remarkable about them.|
-|3-7|`dice:[[Rift Tables#^54fbbe]]`|
-|8-10|`dice:[[Rift Tables#^7660c6]]`|
+|1-2|<font color="#FBF8CC">None</font>. Just another section of dense, ancient forest with nothing remarkable about it.|
+|3-7|`dice:[[Rift Tables#^5d21e3]]`|
+|8-10|<font color="#00CAFF">Landmark</font>. Roll on the Landmark tables to learn about what you see of interest in the vicinity.|
 
-^1ee84b
-
-
+^dc79a7
 
 
+### Primordial Forest Dangers 
+| `dice:d20` | Primordial Forest Dangers                                                                                                                                                          |
+| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1-5        | **Ambush!** You are ambushed and surprised by a Monster, and cannot avoid combat. Roll on the Primordial Forest Monsters table to see what you’ll be facing.                       |
+| 6-12       | `dice:[[Rift Tables#^c3e9b2]]`                                                                                                                |
+| 13-14      | **Poisonous Plants.** A random PC runs into a plant, being stung by its poisonous barbs. They must pass an Endurance check or reduce their max Health by -1 for the next 24 hours. |
+| 15-16      | **Falling Tree.** With a loud crack, a tree falls right towards you. A random PC must pass an Agility check or suffer D4+3 Bludgeoning damage.                                     |
+| 17-18      | **Sinkhole.** The dense undergrowth has completely covered a small sinkhole. A random PC must pass a Perception check or fall into it, suffering `dice:D6` Bludgeoning damage.     |
+| 19-20      | **Flash Flood.** With a roar, a sudden burst of water appears. All characters must pass an Agility check or lose one random item from their bags.                                  |
+
+^5d21e3
 
 
+### Primordial Forest Monsters
+|`dice:d10`|Primordial Forest Monsters|
+|---|---|
+|1|Ancient Ent|
+|2|Beastman|
+|3|Grove Guardian|
+|4|Giant Spider|
+|5|Luminous Lizard|
+|6|Mossy Horror|
+|7|Poisonous Frog|
+|8|Root Ravager|
+|9|Thorn Beast|
+|10|Spirit Bear|
 
+^c3e9b2

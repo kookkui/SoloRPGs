@@ -3915,6 +3915,100 @@
         ],
         "source": "Homebrew"
       }
+    ],
+    [
+      "Grove Guardian (RB)",
+      {
+        "name": "Grove Guardian (RB)",
+        "layout": "Riftbreakers_2E",
+        "description": "*A fierce creature that resembles a mix between a bear and a tree, that defends its territory with brute force.*",
+        "actions": "1♟",
+        "agility": "30",
+        "athletics": "80",
+        "cs": "60",
+        "endurance": "80",
+        "evasion": "0",
+        "hp": "22♟",
+        "move": "1",
+        "number": "1",
+        "parry": "10",
+        "perception": "60",
+        "protection": "D8",
+        "tenacity": "60",
+        "type": "Beast, Plant",
+        "traits": [
+          {
+            "name": "Traits:",
+            "desc": "Melee, Suppression Aura. Vulnerable to Fire damage, but Immune to the Frightened and Blinded conditions."
+          }
+        ],
+        "action": [
+          {
+            "name": "1-2",
+            "desc": "**Bear Swipe**: The Grove Guardian makes a Combat Skill check, attacking with its clawed paw and dealing D8+2 Slashing damage to its target on a hit."
+          },
+          {
+            "name": "3-4",
+            "desc": "**Entangling Roots**: The Grove Guardian targets up to three creatures within its Combat Zone, causing roots to grow from the ground. Targets must pass an Agility check or become Restrained. Restrained characters suffer 1 Piercing damage every round."
+          },
+          {
+            "name": "5",
+            "desc": "**Feral Roar**: The Grove Guardian lets out a feral roar that terrifies all creatures within its Combat Zone, forcing them to make a Tenacity check. Those who fail the check are Frightened (20)."
+          },
+          {
+            "name": "6",
+            "desc": "**Earthquake**: The Grove Guardian slams its massive paw onto the ground, causing an earthquake in its Combat Zone. All creatures within the area must make an Athletics check or be knocked Prone and take D8 Bludgeoning damage. Creatures that succeed take half damage and are not knocked Prone."
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Spirit Bear (RB)",
+      {
+        "name": "Spirit Bear (RB)",
+        "layout": "Riftbreakers_2E",
+        "description": "*A powerful creature that retains some of the traits from its former life, and is said to embody the spirit of the Primordial Forest itself.*",
+        "actions": "1♟",
+        "agility": "40",
+        "athletics": "60",
+        "cs": "60",
+        "endurance": "40",
+        "evasion": "10",
+        "hp": "20♟",
+        "move": "1",
+        "number": "1",
+        "parry": "10",
+        "perception": "60",
+        "protection": "D8",
+        "tenacity": "40",
+        "type": "Undead,Beast",
+        "traits": [
+          {
+            "name": "Traits:",
+            "desc": "Melee. Vulnerable to Radiant damage, Restored by Necrotic Damage, and Immune to the Bleeding, Poisoned, and Frightened conditions."
+          }
+        ],
+        "action": [
+          {
+            "name": "1-2",
+            "desc": "**Earthquake Slam**: The Spirit Bear slams its massive paws into the ground, causing a tremor that forces all characters in the same Combat Zone to pass an Agility check or suffer D8+2 Bludgeoning damage."
+          },
+          {
+            "name": "3-4",
+            "desc": "**Nature's Fury**: The Spirit Bear unleashes the fury of the forest, causing trees and rocks to come to life and attack its target. The target must pass an Agility check or suffer D6+1 Bludgeoning damage and become Restrained for 2 rounds by roots and vines."
+          },
+          {
+            "name": "5",
+            "desc": "**Spirit Step**: The Spirit Bear phases through trees and rocks, reappearing behind its target to deliver a powerful swipe with its claws. makes a Combat Skill check with +10, dealing D10+3 Slashing damage on a hit."
+          },
+          {
+            "name": "6",
+            "desc": "**Ancestral Form**: The Spirit Bear transforms into a huge, hulking bear, gaining 10 temporary Health."
+          }
+        ],
+        "source": "Homebrew"
+      }
     ]
   ],
   "defaultLayouts": {},

@@ -101,8 +101,8 @@
     {
       "uid": 15,
       "title": "Riftbreakers Perception",
-      "subtitle": "PC Perception (40) `d100 = 10` \nvs\nEnemy Perception (50) `d100 = 10`",
-      "arg": "PC Perception (40) `d100 = 10` \nvs\nEnemy Perception (50) `d100 = 10`",
+      "subtitle": "PC Perception (44) `d100 = 10` \nvs\nEnemy Perception (50) `d100 = 10`",
+      "arg": "PC Perception (44) `d100 = 10` \nvs\nEnemy Perception (50) `d100 = 10`",
       "key": "Riftbreakers Perception"
     },
     {

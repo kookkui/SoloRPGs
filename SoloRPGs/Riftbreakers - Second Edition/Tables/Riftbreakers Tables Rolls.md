@@ -1,3 +1,5 @@
+
+### Companion Actions
 > [!table_time] Companion Actions
 >##### The Mender Actions
 >`dice:[[General Tables#^c051eb]]`
@@ -8,7 +10,7 @@
 > 
 >##### The Executioner
 
-
+### Rift Exploration Tables
 > [!table] Rift Exploration Tables
 > ##### Area Links
 >`dice:[[General Tables#^2c2cdc]]`
@@ -31,17 +33,19 @@
 > ##### Landmark - Rift Lord Reaction
 >`dice:[[Rift Tables#^0a8998]]`
 
+### Rift Dominion Specific Tables
 > [!thing] Rift Dominion Specific Tables
->##### Underground Cave System: Area Feature
->`dice:[[Rift Tables#^1ee84b]]`
+>##### Primordial Forest - Area Feature
+>`dice:[[Rift Tables#^dc79a7]]`
 >
->##### Underground Cave System: Monsters
->`dice:[[Rift Tables#^a933af]]`
 >
-> ##### Underground Cave System: Overall Description
->`dice:[[Rift Tables#^aec560]]`
+>##### Primordial Forest Monsters
+>`dice:[[Rift Tables#^c3e9b2]]`
+>
+> 
 >
 
+### Overland Travel Tables
 > [!crafting] Overland Travel Tables
 >##### d10 Travel Die
 >
@@ -53,6 +57,7 @@
 > 
 > 
 
+### D10 Travel Die Region Tables
 > [!dice] D10 Travel Die Region Tables 
 >##### Noteworthy Encounters (1-2): Arenmist Forest
 >`dice:[[Overworld Tables#^7b1a0d]]`
@@ -82,8 +87,8 @@
 >`dice:[[Overworld Tables#^a0e91e]]`
 >
 
-
-> [!table_time] D12 Travel Die Region Tables 
+### D12 Travel Die Region Tables
+> [!table_time] D12 Travel Die Region Tables
 >##### Noteworthy Encounters - 
 >`dice:[[Overworld Tables#^e93c16]]`
 >
@@ -96,14 +101,14 @@
 >
 > 
 
-
+### Gathering Tables
 >[!npc] Gathering Tables
 >
 >##### Gathering - Type of Mineral Deposit Found
 >
 >##### Type of Alchemical Ingredient Found
 
-
+### Loot Tables
 >[!table] Loot
 >
 >##### Monster Loot - Aberration
@@ -128,6 +133,7 @@
 >`dice:[[Loot Table#^b8b6a4]]`
 >
 
+### Quest Board Tables
 >[!dice] Quest Board Tables
 >
 >##### Quest Rewards
@@ -145,6 +151,7 @@
 >##### Type of Material to Deliver
 >`dice:[[Quest Board Tables#^39ed86]]`
 
+### References 
 [[Riftbreakers House Rules#Hexes Per Travel Day]]
 
 [[Riftbreakers House Rules#Travel Checks]]

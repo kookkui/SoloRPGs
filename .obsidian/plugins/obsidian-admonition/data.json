@@ -143,7 +143,7 @@
     },
     "abstract": {
       "type": "abstract",
-      "color": "255, 255, 125",
+      "color": "251, 248, 204",
       "icon": {
         "name": "bookmark",
         "type": "font-awesome"
@@ -151,7 +151,8 @@
       "command": false,
       "title": "Abstract",
       "injectColor": true,
-      "noTitle": false
+      "noTitle": false,
+      "copy": false
     }
   },
   "syntaxHighlight": false,

@@ -3,10 +3,10 @@ Art: "![[GoblinGirl_Token.webp|center]]"
 Title: 
 achievement_prog: "Riftbreaker: Successfully close 5 Rifts."
 Protection: D4+1
-Weapon1: Longsword
-Weapon1dmg: D6+2
+Weapon1: <font color="#8624FF">Greatsword of the Warmonger</font>
+Weapon1dmg: 2D6
 Weapon1type: Slashing
-Weapon1notes: Versatile(2D6), Parry(10)
+Weapon1notes: Two-handed, Critical hit with this weapon, you deal the maximum damage possible. When you deal damage with this weapon, gain +10 parry until your next turn.
 Weapon2: 
 Weapon2dmg: 
 Weapon2type: 
@@ -103,12 +103,13 @@ Hearts:
 passive0: 
 passive1: 
 passive2: 
-HeartAbLink1: "![[Cleave]]"
+HeartAbLink1: "![[Chill of Death]]"
 HeartAbLink2: "![[Bless]]"
 HeartAbLink3: "![[Divine Shield]]"
 HeartAbLink4: "![[Two-Handed Weapon Master]]"
 HeartAbLink5: "![[Unbound Fury]]"
 HeartAbLink6: "![[Holy Weapon]]"
+HeartAbLink7: "![[Cleave]]"
 gear1: Bandages UD12
 gear2: "Potion of Liquid Shadows: You are immediately Concealed. "
 Appearance1: ""
@@ -140,6 +141,7 @@ skill19: false
 heart5: true
 heart1: true
 ---
+## Aurielle Sheet
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] %%FAKE TITLE HERE%% 
 >> # `=this.file.name`
@@ -151,9 +153,9 @@ heart1: true
 >>**Title** |`=this.Title` |
 >> **Current Achievement Path** |`INPUT[suggester(option(Path of Slaughter), option(Path of Shadows), option(Path of the Arcane), option(Path of the Explorer), option(Path of the Diplomat)):achievement_path]` |
 >>  **Achievement in Progress** |`=this.achievement_prog` `boxes: 0/5` |
->> **Ability Pool** | Used: `6` **Max:** `21` |
+>> **Ability Pool** | Used: `7` **Max:** `21` |
 >> **Reputation** | `1` `INPUT[suggester(option(Initiate), option(Journeyman), option(Vanguard), option(Champion), option(High Warden)):reputation_rank]` |
->> **HP** | **Current:**`22` **Max:** `26`
+>> **HP** | **Current:**`25` **Max:** `26`
 >> **Luck** | `5` |
 >> **Parry** | `10` |
 >> **Max Aether** | `10` |
@@ -209,10 +211,11 @@ heart1: true
 
 ---
 
+## Skills
 >[!table] %%FAKE TITLE HERE%%
->>[!gather] %%FAKE TITLE HERE%%
+>>[!table] %%FAKE TITLE HERE%%
 >>
->> ### Skill Checks
+>> ### Skills
 >>| **Skill Name** | **Skill Level**| **Gear Mod** | **Skill Up**
 >>| ------------------------- | ----------- | -----------| ----------- |
 >>| **Agility** (10) | `31` |  `0` | `INPUT[toggle:skill1]`|
@@ -258,6 +261,7 @@ heart1: true
 
 ---
 
+## Quests
 >[!travel] %%FAKE TITLE HERE%%
 >>[!travel] %%FAKE TITLE HERE%%
 >>### Quests
@@ -276,6 +280,7 @@ heart1: true
 
 ---
 
+## Inventory
 >[!table] %%FAKE TITLE HERE%%
 >>[!table] %%FAKE TITLE HERE%%
 >>### Inventory
@@ -321,7 +326,8 @@ heart1: true
 
 ---
 
->[!thing] %%FAKE TITLE HERE%%
+## Gear
+>[!travel] %%FAKE TITLE HERE%%
 >>[!travel] %%FAKE TITLE HERE%%
 >>## Gear
 >>
@@ -413,6 +419,7 @@ heart1: true
 
 ---
 
+## Ability Loadout
 >[!table_time] %%FAKE TITLE HERE%%
 >>[!table_time] %%FAKE TITLE HERE%%
 >>```meta-bind
@@ -437,7 +444,7 @@ heart1: true
 >>| 11         |  [[Cleave]]  |
 >>| 12         | [[Holy Weapon]]  |
 
-
+## Hearts
 >[!rng] %%FAKE TITLE HERE%%
 >>[!rng] %%FAKE TITLE HERE%%
 >>## Hearts
@@ -462,110 +469,66 @@ heart1: true
 
 ---
 
->[!crafting] %%FAKE TITLE HERE%%
->>[!cite] %%FAKE TITLE HERE%%
->>### Heart Abilities
->> 
->>`=this.HeartAbLink1`
->>
->>
->>&nbsp;
->> 
->>
->>---
->>
->>&nbsp;
->>
->> 
->>`=this.HeartAbLink2`
->>
->>
->>&nbsp;
->> 
->>
->>---
->>
->>&nbsp;
->>
->> 
->>`=this.HeartAbLink3`
->>
->>
->>&nbsp;
->> 
->>
->>---
->>
->>&nbsp;
->>
->> 
->>`=this.HeartAbLink4`
->>
->>
->>&nbsp;
->> 
->>
->>---
->>
->>&nbsp;
->>
->> 
->>`=this.HeartAbLink5`
->>
->>
->>&nbsp;
->> 
->>
->>---
->>
->>&nbsp;
->>
->>`=this.HeartAbLink6`
->>
->>
->>&nbsp;
->> 
->>
->>---
->>
->>&nbsp;
->>
->>`=this.HeartAbLink7`
->>
->>
->>&nbsp;
->> 
->>
->>---
->>
->>&nbsp;
->>
->>`=this.HeartAbLink8`
->>
->>&nbsp;
->> 
->>
->>---
->>
->>&nbsp
->>
->>`=this.HeartAbLink9`
->>
->>
->>&nbsp;
->> 
->>
->>---
->>
->>&nbsp;
->>
->>`=this.HeartAbLink10`
->>
->>
->>&nbsp;
->> 
->>
->>---
+
+### Heart Abilities
+ 
+`=this.HeartAbLink1`
+
+
+---
+
+`=this.HeartAbLink2`
+
+
+---
+
+
+`=this.HeartAbLink3`
+
+
+---
+
+
+`=this.HeartAbLink4`
+
+
+---
+
+
+`=this.HeartAbLink5`
+
+
+------
+
+
+`=this.HeartAbLink6`
+
+
+---
+
+
+`=this.HeartAbLink7`
+
+
+---
+
+
+`=this.HeartAbLink8`
+
+
+---
+
+
+`=this.HeartAbLink9`
+
+
+---
+
+
+`=this.HeartAbLink10`
+
+
+---
 
 
 
