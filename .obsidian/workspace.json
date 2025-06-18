@@ -44,7 +44,7 @@
         "dimension": 46.907630522088354,
         "children": [
           {
-            "id": "d498724bdbe0f31b",
+            "id": "59ac4ba6d2230ff3",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -63,7 +63,7 @@
               "state": {
                 "file": "SoloRPGs/Riftbreakers - Second Edition/PCs/Aurielle.md",
                 "mode": "preview",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "Aurielle"
@@ -95,8 +95,7 @@
               "title": "Primordial Forest Rift 1"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -317,7 +316,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "0e6a14a15862aa6f",
@@ -337,7 +336,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 505
+    "width": 500
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -359,26 +358,33 @@
       "solo-rpg-toolkit:Solo RPG Toolkit": false
     }
   },
-  "active": "9aa9184a85170983",
+  "active": "59ac4ba6d2230ff3",
   "lastOpenFiles": [
-    "SoloRPGs/Riftbreakers - Second Edition/PCs/Aurielle.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Aurielle Journal.md",
-    "SoloRPGs/_Templates/Colour Pallette.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map.md",
+    "SoloRPGs/_Tokens/VTT Battle Tokens/Giant - Storm - 0101.webp",
+    "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map/IMG-20250531165008094.webp",
+    "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map Dark Mode/IMG-20250602223656096.webp",
+    "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map Dark Mode/IMG-20250618173237295.webp",
+    "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map Dark Mode/IMG-20250602223656363.webp",
     "SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map Dark Mode.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Maps/Rift Maps/Primordial Forest Rift 1.md",
+    "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Rift Maps/Primordial Forest Rift 1/IMG-20250611230412476.webp",
+    "SoloRPGs/Riftbreakers - Second Edition/PCs/Aurielle.md",
+    "SoloRPGs/Riftbreakers - Second Edition/PCs/Serayr.md",
+    "SoloRPGs/_Tokens/VTT Battle Tokens/Animal - Spirit Bear.webp",
+    "SoloRPGs/Riftbreakers - Second Edition/Aurielle Journal.md",
+    "SoloRPGs/Riftbreakers - Second Edition/PCs/Aurielle's Large Spatial Bag.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Restoration Heart/Holy Weapon.md",
+    "SoloRPGs/_Templates/Colour Pallette.md",
     "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Might Heart/Two-Handed Weapon Master.md",
     "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Weapon Strikes & Non-Heart Abilities/Weapon Strike (Two-Handed).md",
-    "SoloRPGs/Riftbreakers - Second Edition/Maps/Rift Maps/Primordial Forest Rift 1.md",
     "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Spirit Bear.md",
     "SoloRPGs/_Tokens/VTT Battle Tokens/Animal - Raven - 01011.webp",
-    "SoloRPGs/_Tokens/VTT Battle Tokens/Animal - Spirit Bear.webp",
-    "SoloRPGs/Riftbreakers - Second Edition/PCs/Aurielle's Large Spatial Bag.md",
-    "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Rift Maps/Primordial Forest Rift 1/IMG-20250611230412476.webp",
     "SoloRPGs/Riftbreakers - Second Edition/Tables/Riftbreakers Tables Rolls.md",
     "SoloRPGs/Riftbreakers - Second Edition/Tables/Rift Tables.md",
     "SoloRPGs/Riftbreakers - Second Edition/Tables/Loot Table.md",
     "SoloRPGs/Riftbreakers - Second Edition/Tables/General Tables.md",
     "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Might Heart/Unbound Fury.md",
-    "SoloRPGs/Riftbreakers - Second Edition/PCs/Serayr.md",
     "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Death Heart/Chill of Death.md",
     "SoloRPGs/_Decks/Riftbreakers Ability Cards/Might_Unbound Fury_2.webp",
     "SoloRPGs/_Decks/Riftbreakers Ability Cards/Might_Cleave_1.webp",
@@ -388,15 +394,6 @@
     "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Luminous Lizard.md",
     "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Mossy Horror.md",
     "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Island Golem.md",
-    "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Grove Guardian.md",
-    "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Giant Spider.md",
-    "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Crystal Construct.md",
-    "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Beastmen.md",
-    "SoloRPGs/_Tokens/VTT Battle Tokens/Toad - Giant - 0105.webp",
-    "SoloRPGs/_Tokens/VTT Battle Tokens/Animal - Panther - 0103.webp",
-    "SoloRPGs/_Tokens/VTT Battle Tokens/Animal - Panther - 0101.webp",
-    "SoloRPGs/_Tokens/VTT Battle Tokens/Animal - Lioness - 0102.webp",
-    "SoloRPGs/_Tokens/VTT Battle Tokens/Animal - Eagle - Giant - 0105.webp",
     "SoloRPGs/_Decks/Riftbreakers Current Ability Loadout",
     "SoloRPGs/_Decks/Riftbreakers Ability Cards",
     "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Rift Maps/Primordial Forest Rift 1",

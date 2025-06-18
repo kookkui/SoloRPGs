@@ -1,5 +1,5 @@
 ---
-Art: "![[Fairy_Mender.webp|center]]"
+Art: "![[Fairy_Mender.webp|center|550]]"
 CompanionHP: 20
 dammod: 
 CompanionLOAbility: "![[Sudden Strike]]"

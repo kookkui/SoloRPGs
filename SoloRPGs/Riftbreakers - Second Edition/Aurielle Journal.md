@@ -1872,5 +1872,54 @@ Bladed Weapons Skill up Check (56) `d100 = 24` Hit!
 
 9 Damage - 1 Armor = 8 Damage to Grove Guardian (16)
 
+Bear Turn
 
+Endurance check (40) `d100 = 60` Failed... Still freezing...
 
+**Earthquake Slam**: The Spirit Bear slams its massive paws into the ground, causing a tremor that forces all characters in the same Combat Zone to pass an Agility check or suffer D8+2 Bludgeoning damage.
+
+PC Agility check (31) `d100 = 85` Failed
+
+3 Damage - 4 Armor = 0 Damage to Aurielle
+
+**Nature's Fury**: The Spirit Bear unleashes the fury of the forest, causing trees and rocks to come to life and attack its target. The target must pass an Agility check or suffer D6+1 Bludgeoning damage and become Restrained for 2 rounds by roots and vines.
+
+PC Agility check (31) `d100 = 23` Success!
+
+PC Turn
+
+Casting Holy Weapon -6 MP
+
+You summon a weapon of your choice for you to wield that deals D8 Radiant damage. Any instance of Weapon Strike in your Loadout uses this weapon. The weapon lasts until the end of combat.
+
+<font color="#FFF200">Radiant Great Sword</font> (Slashing, Bladed, Two-handed)
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Skill up Check (56) `d100 = 41` Hit!
+
+14 Damage - 2 Armor = 12 Damage to Grove Guardian (4)
+
+Bear Turn
+
+Endurance check (40) `d100 = 92` Failed... Still freezing...
+
+**Earthquake Slam**: The Spirit Bear slams its massive paws into the ground, causing a tremor that forces all characters in the same Combat Zone to pass an Agility check or suffer D8+2 Bludgeoning damage.
+
+PC Agility check (31) `d100 = 5` Success!
+
+**Nature's Fury**: The Spirit Bear unleashes the fury of the forest, causing trees and rocks to come to life and attack its target. The target must pass an Agility check or suffer D6+1 Bludgeoning damage and become Restrained for 2 rounds by roots and vines.
+
+PC Agility check (31) `d100 = 17` Success!
+
+PC Tur
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Skill up Check (56) `d100 = 12` Hit!
+
+20 Damage - 4 Armor = 16 Damage to Grove Guardian (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
+
+Loots: <font color="#ff00cc">(Rare) Belt</font>

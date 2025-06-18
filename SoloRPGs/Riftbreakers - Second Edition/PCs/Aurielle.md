@@ -85,7 +85,7 @@ title5: (Uncommon) Amulet
 title6: (Uncommon) Ring
 title7: (Epic) Magic Item
 title8: (Uncommon) Ring
-title9: ""
+title9: (Rare) Belt
 title10: ""
 title11: ""
 title12: ""
@@ -135,7 +135,7 @@ gear9: ""
 gear10: ""
 Pskills69: Backpack
 skill1: false
-RiftLord: D6
+RiftLord: D4
 ac: "4"
 skill19: false
 heart5: true
