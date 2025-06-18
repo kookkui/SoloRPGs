@@ -1912,7 +1912,7 @@ PC Agility check (31) `d100 = 5` Success!
 
 PC Agility check (31) `d100 = 17` Success!
 
-PC Tur
+PC Turn
 
 Weapon Strike (Two-Handed) -3 MP
 
@@ -1923,3 +1923,163 @@ Bladed Weapons Skill up Check (56) `d100 = 12` Hit!
 <span style="color:rgb(241, 91, 181)">Victory!</span>
 
 Loots: <font color="#ff00cc">(Rare) Belt</font>
+
+Area links Four
+#### Area 8
+
+Riftlord check `d4 = 1` Riftlord found!
+
+```statblock
+creature: Poisonous Frog (RB)
+```
+
+```encounter
+creatures:
+  - Poisonous Frog (RB) Riftlord, 60, 6, 0
+```
+
++2 Psychic damage
+
+The battle scares and disturbs nearby fauna. At the start of every round, <font color="#00b050">roll D4</font>: a result of 1 means that all party members must pass an <font color="#ff00cc">Agility check</font> or be trampled by a stampede of creatures rushing in, suffering <font color="#ff0000">D6 Bludgeoning damage</font>.
+
+PC Perception (44) `d100 = 20` Winner
+vs
+Enemy Perception (50) `d100 = 96` 
+
+Combat Start!
+
+PC Turn
+
+Trample check `d4 = 3`
+
+Move 1
+
+Two-Handed Weapon Master -5 MP
+
+For the remainder of combat, if you are wielding a two-handed weapon you deal an additional D4 damage.
+
+Riftlord Turn
+
+Move 1
+
+**Noxious Cloud:** The Poisonous Frog releases a cloud of poisonous gas in the same Combat Zone. All creatures within it must pass an Endurance check or be Poisoned (1).
+
+No one else in his zone
+
+Second action 
+
+**Noxious Cloud:** The Poisonous Frog releases a cloud of poisonous gas in the same Combat Zone. All creatures within it must pass an Endurance check or be Poisoned (1).
+
+No one else in his zone
+
+PC Turn
+
+Trample check `d4 = 3`
+
+Move 1
+
+Casting Chill of Death -5
+
+Target suffers D6 Necrotic damage and is Freezing.
+Defense: Endurance
+
+Riftlord Endurance Check (40) `d100: 42` Failed!
+
+6 Necrotic Damage to Riftlord (54) and Riftlord is now *Freezing*
+
+Riftlord Endurance Check (40) `d100 = 50` Failed
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Skill up Check (56) `d100 = 17` Hit!
+
+12 Damage - 1 Armor = 11 Damage to Riftlord (43)
+
+Riftlord Turn
+
+**Agile Leap:** The Poisonous Frog jumps constantly away, increasing its Parry and Evasion by +30 for 2 rounds.
+
+Second action
+
+**Venomous Bite:** The Poisonous Frog jumps and attempts to bite its target, making a Combat Skill check. If successful, it injects them with a toxic venom that deals D6+2 Poison damage.
+
+Combat Skill check (50) `d100 = 93` Failed
+
+PC turn
+
+Trample check `d4 = 2`
+
+Summoning Companion -8 MP
+
+Serayr enters the fray!
+
+Serayr Turn
+
+Target ally becomes impervious to all damage until their next turn.
+
+Riftlord turn
+
+**Venomous Bite:** The Poisonous Frog jumps and attempts to bite its target, making a Combat Skill check. If successful, it injects them with a toxic venom that deals D6+2 Poison damage.
+
+Combat Skill check (60) `d100 = 93` Failed
+
+Second action
+
+**Noxious Cloud:** The Poisonous Frog releases a cloud of poisonous gas in the same Combat Zone. All creatures within it must pass an Endurance check or be Poisoned (1).
+
+Aurielle Endurance check (25) `d100 = 13` Success!
+
+Serayr Endurance check (55) `d100 = 10` Success
+
+PC Turn
+
+Casting Unbound Fury! -5 MP
+
+All targets within the area of effect become Stunned for 4 rounds.
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Skill up Check (56) `d100 = 33` Critical Hit! Skill up.
+
+24 Damage - 3 Armor = 21 Damage to Riftlord (22)
+
+Serayr Turn
+
+Heals D6 Health. If at max Health, they perform an attack with their weapon, dealing D6+2 Piercing damage.
+
+Max HP
+
+7 Damage - 1 Armor = 6 Damage to Riftlord (16)
+
+Riftlord Turn
+
+Stunned...(3)
+
+PC Turn
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Skill up Check (56) `d100 = 36` Hit!
+
+14 Damage - 2 Armor = 12 Damage to Riftlord (4)
+
+Another Swing
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Skill up Check (56) `d100 = 21` Hit!
+
+8 Damage - 1 Armor = 7 Damage to Riftlord (Dead!)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
+
+Loots: Endurance Skill Book
+
+
+
+
+
+
+
+
+

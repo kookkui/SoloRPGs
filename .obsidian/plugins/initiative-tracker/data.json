@@ -161,7 +161,7 @@
         "status": [],
         "enabled": true,
         "player": true,
-        "active": false,
+        "active": true,
         "hidden": false,
         "friendly": false
       },
@@ -186,11 +186,34 @@
         "active": false,
         "hidden": false,
         "friendly": false
+      },
+      {
+        "name": "Poisonous Frog (RB) ",
+        "display": "Riftlord Poisonous Frog",
+        "initiative": 14,
+        "static": false,
+        "modifier": 0,
+        "hp": 60,
+        "currentMaxHP": 60,
+        "ac": 6,
+        "currentAC": 6,
+        "id": "ID_59986bfa484a",
+        "currentHP": 0,
+        "tempHP": 0,
+        "status": [
+          "Restrained",
+          "Unconscious"
+        ],
+        "enabled": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false,
+        "rollHP": false
       }
     ],
-    "state": false,
+    "state": true,
     "name": null,
-    "round": 1,
+    "round": 5,
     "logFile": "",
     "rollHP": false
   },

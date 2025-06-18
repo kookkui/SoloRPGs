@@ -1,6 +1,8 @@
+
+## Minor Spatial Bag
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] %%FAKE TITLE HERE%%
->>### Minor Spatial Bag
+>>### Minor Spatial Bag (25 Slots)
 >>| Slot | Encumbering Items | Slot | Encumbering Items 
 >>| :-: | ---------------- |:-:|--------|
 >>|1|`INPUT[text:spacebag1]` |2|`INPUT[text:spacebag11]`|
@@ -19,9 +21,10 @@
 
 ---
 
+## Standard Spatial Bag
 >[!rng] %%FAKE TITLE HERE%%
 >>[!rng] %%FAKE TITLE HERE%%
->>### Standard Spatial Bag
+>>### Standard Spatial Bag (50 Slots)
 >>| Slot | Encumbering Items | Slot | Encumbering Items 
 >>| :-: | ---------------- |:-:|--------|
 >>|1|`INPUT[text:spacebag21]` |2|`INPUT[text:spacebag211]`|
@@ -40,9 +43,10 @@
 
 ---
 
+## Large Spatial Bag
 >[!table_time] %%FAKE TITLE HERE%%
 >>[!table_time] %%FAKE TITLE HERE%%
->>### Large Spatial Bag
+>>### Large Spatial Bag (100 Slots)
 >>| Slot | Encumbering Items | Slot | Encumbering Items 
 >>| :-: | ---------------- |:-:|--------|
 >>|1|`INPUT[text:spacebag31]` |2|`INPUT[text:spacebag311]`|

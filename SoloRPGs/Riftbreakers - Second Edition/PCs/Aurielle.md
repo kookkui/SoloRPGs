@@ -118,8 +118,8 @@ heart8: true
 heart9: true
 reputation_rank: Initiate
 gear3: Rope
-CurrentAether: 1
-skill6: false
+CurrentAether: 10
+skill6: true
 hp: 26
 modifier: 0
 gear4: Sickle
@@ -131,7 +131,7 @@ qbelt1: Potion of Minor Healing
 qbelt2: Potion of Minor Healing
 gear6: "Hunting Knife "
 gear7: Pickaxe
-gear9: ""
+gear9: Endurance Skill Book
 gear10: ""
 Pskills69: Backpack
 skill1: false
