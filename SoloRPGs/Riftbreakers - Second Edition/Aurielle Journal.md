@@ -2075,11 +2075,51 @@ Bladed Weapons Skill up Check (56) `d100 = 21` Hit!
 
 Loots: Endurance Skill Book
 
+Bladed Weapons skill up check (66) `d100 = 97` Success!
 
++3 Bladed Weapons (69)
 
+Using Endurance Skill Book
 
+Literacy Check (40) `d100 = 20` Success!
 
++3 Endurance (28)
 
+Heading back to the portal...
 
+#### Back track Area 7
 
+Survival Check (40) `d100 = 22` Critical Success! Skill up
+
+#### Back track Area 6
+
+Survival Check (40) `d100 = 10` Success!
+
+#### Back track Area 1
+
+Survival Check (40) `d100 = 7` Success!
+
+## 998-04-22
+
+Back out of the Rift as it conveniently closes behind us. 
+
+Now to travel back to Kar Helos...
+
+Heading south
+
+A cloaked figure with no face beneath its hood asks for directions in 
+a hollow voice. If aided, it gifts a cursed silver coin (grants +5 to 
+Perception but whispers lies at night). If attacked, it vanishes, leaving 
+only a pile of wet leaves.
+
+We aid the cloaked figure cautiously as he walks off into the night he tosses a coin witcherly to us. <font color="#FF29B8">The Liar's Eyes Coin </font> (grants +5 to 
+Perception but whispers lies at night)
+
+We rest for the night...
+
+## 998-04-23
+
+An old, crumbling temple.
+
+It seems it has already been well looted over the past centuries. 
 

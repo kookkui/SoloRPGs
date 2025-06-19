@@ -146,7 +146,7 @@
     "creatures": [
       {
         "name": "Aurielle",
-        "initiative": 19,
+        "initiative": 5,
         "static": false,
         "modifier": 0,
         "hp": 26,
@@ -155,19 +155,19 @@
         "currentAC": "4",
         "note": "Aurielle",
         "path": "SoloRPGs/Riftbreakers - Second Edition/PCs/Aurielle.md",
-        "id": "ID_782beb08bb98",
+        "id": "ID_7bb8fb981b8a",
         "currentHP": 25,
         "tempHP": 0,
         "status": [],
         "enabled": true,
         "player": true,
-        "active": true,
+        "active": false,
         "hidden": false,
         "friendly": false
       },
       {
         "name": "Serayr",
-        "initiative": 15,
+        "initiative": 16,
         "static": false,
         "modifier": 0,
         "hp": 20,
@@ -176,7 +176,7 @@
         "currentAC": "1",
         "note": "Serayr",
         "path": "SoloRPGs/Riftbreakers - Second Edition/PCs/Serayr.md",
-        "id": "ID_6beaa95b0a18",
+        "id": "ID_1bf838e978da",
         "currentHP": 20,
         "tempHP": 0,
         "status": [],
@@ -186,34 +186,11 @@
         "active": false,
         "hidden": false,
         "friendly": false
-      },
-      {
-        "name": "Poisonous Frog (RB) ",
-        "display": "Riftlord Poisonous Frog",
-        "initiative": 14,
-        "static": false,
-        "modifier": 0,
-        "hp": 60,
-        "currentMaxHP": 60,
-        "ac": 6,
-        "currentAC": 6,
-        "id": "ID_59986bfa484a",
-        "currentHP": 0,
-        "tempHP": 0,
-        "status": [
-          "Restrained",
-          "Unconscious"
-        ],
-        "enabled": true,
-        "active": false,
-        "hidden": false,
-        "friendly": false,
-        "rollHP": false
       }
     ],
-    "state": true,
+    "state": false,
     "name": null,
-    "round": 5,
+    "round": 1,
     "logFile": "",
     "rollHP": false
   },

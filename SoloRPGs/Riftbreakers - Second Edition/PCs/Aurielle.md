@@ -119,7 +119,7 @@ heart9: true
 reputation_rank: Initiate
 gear3: Rope
 CurrentAether: 10
-skill6: true
+skill6: false
 hp: 26
 modifier: 0
 gear4: Sickle
@@ -140,6 +140,8 @@ ac: "4"
 skill19: false
 heart5: true
 heart1: true
+skill27: true
+Pskills1: The Liar's Eyes Coin (grants +5 to  Perception but whispers lies at night)
 ---
 ## Aurielle Sheet
 >[!dice] %%FAKE TITLE HERE%%
@@ -155,7 +157,7 @@ heart1: true
 >>  **Achievement in Progress** |`=this.achievement_prog` `boxes: 0/5` |
 >> **Ability Pool** | Used: `7` **Max:** `21` |
 >> **Reputation** | `1` `INPUT[suggester(option(Initiate), option(Journeyman), option(Vanguard), option(Champion), option(High Warden)):reputation_rank]` |
->> **HP** | **Current:**`25` **Max:** `26`
+>> **HP** | **Current:**`26` **Max:** `26`
 >> **Luck** | `5` |
 >> **Parry** | `0` |
 >> **Max Aether** | `10` |
@@ -223,11 +225,11 @@ heart1: true
 >>| **Animal Handling** | `0` | `0` |`INPUT[toggle:skill3]`|
 >>| **Armorsmithing** | `10` |`0` | `INPUT[toggle:skill4]`|
 >>| **Athletics** (10) | `28` |`0` |`INPUT[toggle:skill5]`|
->>| **Bladed Weapons** | `66` |`0` |`INPUT[toggle:skill6]`|
+>>| **Bladed Weapons** | `69` |`0` |`INPUT[toggle:skill6]`|
 >>| **Bludgeoning Weapons**  | `0` |`0` |`INPUT[toggle:skill7]`|
 >>| **Cooking**  | `15` |`0` |`INPUT[toggle:skill8]`|
 >>|**Command** | `0` | `0` |`INPUT[toggle:skill9]`|
->>| **Endurance (10)**  | `25` |`0` |`INPUT[toggle:skill10]`
+>>| **Endurance (10)**  | `28` |`0` |`INPUT[toggle:skill10]`
 >>| **Gathering**  | `30` |`0` |`INPUT[toggle:skill11]`
 >>| **Insight**  | `0` |`0` |`INPUT[toggle:skill12]`
 >>| **Jewelcrafting** | `0` |`0` |`INPUT[toggle:skill13]`
@@ -236,7 +238,7 @@ heart1: true
 >>| **Manipulation** | `0` |`0` |`INPUT[toggle:skill16]`
 >>| **Medicine**  | `15` |`0` |`INPUT[toggle:skill17]`
 >>| **Nature**  | `0` |`0` |`INPUT[toggle:skill18]`
->>| **Perception (20)** | `34` |`10` |`INPUT[toggle:skill19]`
+>>| **Perception (20)** | `34` |`15` |`INPUT[toggle:skill19]`
 >>| **Performance** | `0` |`0` |`INPUT[toggle:skill20]`
 >>| **Ranged Weapons** | `40` |`0` |`INPUT[toggle:skill21]`
 >>| **Reason (10)** | `10` |`0` |`INPUT[toggle:skill22]`
