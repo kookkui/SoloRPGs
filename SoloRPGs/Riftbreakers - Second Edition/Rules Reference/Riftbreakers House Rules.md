@@ -126,3 +126,14 @@ You wield your weapon with purpose, striking at your target.
 > &nbsp;
 >
 >Traveling across **Arenmist Forest** and **Bonespire Peaks** is the most difficult, and the party can expect to travel at a pace of <span style="color:rgb(241, 91, 181)">1 hex per Travel Day.</span> 
+
+
+
+## Selling Magic Items
+
+>[!travel] %%FAKE TITLE HERE%%
+>### Selling Magic Items
+>#### • Uncommon magic items sell for 100⟑
+>#### • Rare magic items sell for 200⟑
+>#### • Epic magic items sell for 400⟑ 
+>#### • Other unique magic items cannot be sold.

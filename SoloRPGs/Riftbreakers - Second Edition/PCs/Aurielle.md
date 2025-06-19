@@ -3,10 +3,10 @@ Art: "![[GoblinGirl_Token.webp|center]]"
 Title: 
 achievement_prog: "Riftbreaker: Successfully close 5 Rifts."
 Protection: D4+1
-Weapon1: <font color="#8624FF">Greatsword of the Warmonger</font>
+Weapon1: <font color="#8624FF">Greatsword of Expertise </font>
 Weapon1dmg: 2D6
 Weapon1type: Slashing
-Weapon1notes: Two-handed, Critical hit with this weapon, you deal the maximum damage possible. When you deal damage with this weapon, gain +10 parry until your next turn.
+Weapon1notes: When you deal a critical hit with this weapon, you deal the maximum damage possible. Increase the weapon Skill required to wield this weapon by +10.
 Weapon2: 
 Weapon2dmg: 
 Weapon2type: 
@@ -16,7 +16,7 @@ Weapon3type:
 Weapon3dmg: 
 Weapon3notes: 
 achievement_path: Path of the Explorer
-aetheryte: 75
+aetheryte: 455
 aaaetheryte: 0
 aaetheryte: 
 gems: 
@@ -32,7 +32,7 @@ quest1: "**Monster Hunt**: The quest is to hunt a Luminous Lizard that as been t
 quest1t: false
 quest2: "**Rift Closure:** Distance: 19 Hexes Rift Dominion: Sky Islets Rewards: 1x Random Magic Item"
 quest2t: false
-quest3: "**Rift Closure:** A Rift appeared one night and is spewing out monstrosities! Distance: 6 Hexes. Rift Dominion:  Primordial Forest Rewards: 1x Random Magic Item"
+quest3: 
 quest3t: 
 quest4: "**Patrol:** A patrol duty to check the far reaches for new Rifts. Need the new lay abouts to take on some responsibility around here. Distance: 19 Hexes. 3x Skill Books"
 quest4t: 
@@ -65,8 +65,8 @@ bootname:
 bootmagic: 
 bootquirk: 
 bootnotes: 
-ring1name: 
-ring1magic: 
+ring1name: Ring of the Elements
+ring1magic: "Pick one: Lightning, Fire, Force, or Cold. All your melee attacks deal damage of the chosen type. This can be changed at will, *but only out of combat*."
 ring1quirk: 
 ring1notes: 
 ring2name: 
@@ -79,13 +79,13 @@ pendantgearquirk: Covered in intricate runes.
 pendantgearnotes: 
 title1: Tent
 title2: Torches U12
-title3: (Rare) Greatsword
-title4: (Epic) Item
-title5: (Uncommon) Amulet
-title6: (Uncommon) Ring
-title7: (Epic) Magic Item
-title8: (Uncommon) Ring
-title9: (Rare) Belt
+title3: (Uncommon) Ring
+title4: ""
+title5: ""
+title6: ""
+title7: ""
+title8: ""
+title9: ""
 title10: ""
 title11: ""
 title12: ""
@@ -131,16 +131,16 @@ qbelt1: Potion of Minor Healing
 qbelt2: Potion of Minor Healing
 gear6: "Hunting Knife "
 gear7: Pickaxe
-gear9: Endurance Skill Book
+gear9: ""
 gear10: ""
 Pskills69: Backpack
 skill1: false
-RiftLord: D4
+RiftLord: None
 ac: "4"
 skill19: false
 heart5: true
 heart1: true
-skill27: true
+skill27: false
 Pskills1: The Liar's Eyes Coin (grants +5 to  Perception but whispers lies at night)
 ---
 ## Aurielle Sheet
@@ -154,10 +154,10 @@ Pskills1: The Liar's Eyes Coin (grants +5 to  Perception but whispers lies at ni
 >> ---|---|
 >>**Title** |`=this.Title` |
 >> **Current Achievement Path** |`INPUT[suggester(option(Path of Slaughter), option(Path of Shadows), option(Path of the Arcane), option(Path of the Explorer), option(Path of the Diplomat)):achievement_path]` |
->>  **Achievement in Progress** |`=this.achievement_prog` `boxes: 0/5` |
+>>  **Achievement in Progress** |`=this.achievement_prog` `boxes: 1/5` |
 >> **Ability Pool** | Used: `7` **Max:** `21` |
 >> **Reputation** | `1` `INPUT[suggester(option(Initiate), option(Journeyman), option(Vanguard), option(Champion), option(High Warden)):reputation_rank]` |
->> **HP** | **Current:**`26` **Max:** `26`
+>> **HP** | **Current:**`31` **Max:** `31`
 >> **Luck** | `5` |
 >> **Parry** | `0` |
 >> **Max Aether** | `10` |
@@ -225,11 +225,11 @@ Pskills1: The Liar's Eyes Coin (grants +5 to  Perception but whispers lies at ni
 >>| **Animal Handling** | `0` | `0` |`INPUT[toggle:skill3]`|
 >>| **Armorsmithing** | `10` |`0` | `INPUT[toggle:skill4]`|
 >>| **Athletics** (10) | `28` |`0` |`INPUT[toggle:skill5]`|
->>| **Bladed Weapons** | `69` |`0` |`INPUT[toggle:skill6]`|
+>>| **Bladed Weapons** | `69` |`10` |`INPUT[toggle:skill6]`|
 >>| **Bludgeoning Weapons**  | `0` |`0` |`INPUT[toggle:skill7]`|
 >>| **Cooking**  | `15` |`0` |`INPUT[toggle:skill8]`|
 >>|**Command** | `0` | `0` |`INPUT[toggle:skill9]`|
->>| **Endurance (10)**  | `28` |`0` |`INPUT[toggle:skill10]`
+>>| **Endurance (10)**  | `31` |`0` |`INPUT[toggle:skill10]`
 >>| **Gathering**  | `30` |`0` |`INPUT[toggle:skill11]`
 >>| **Insight**  | `0` |`0` |`INPUT[toggle:skill12]`
 >>| **Jewelcrafting** | `0` |`0` |`INPUT[toggle:skill13]`
@@ -246,7 +246,7 @@ Pskills1: The Liar's Eyes Coin (grants +5 to  Perception but whispers lies at ni
 >>| **Shafted Weapons** | `0` |`0` |`INPUT[toggle:skill24]`
 >>| **Sleight of Hand** | `0` |`0` |`INPUT[toggle:skill25]`
 >>| **Stealth** | `10` |`0` |`INPUT[toggle:skill26]`
->>| **Survival** | `40` |`0` |`INPUT[toggle:skill27]`
+>>| **Survival** | `44` |`0` |`INPUT[toggle:skill27]`
 >>| **Tenacity (10)** | `40` |`0` |`INPUT[toggle:skill28]`
 >>| **Unarmed Combat (10)** |`10` | `0` |`INPUT[toggle:skill29]`
 >>| **Weaponsmithing** | `0` |`0` |`INPUT[toggle:skill30]`
@@ -271,10 +271,10 @@ Pskills1: The Liar's Eyes Coin (grants +5 to  Perception but whispers lies at ni
 >> |:---: | --- | :---------: |
 >>| `=this.quest1` | `INPUT[toggle:quest1t]` | `boxes: 0/16`
 >> |`=this.quest2` |`INPUT[toggle:quest2t]` |  `boxes: 0/19`
->>| `=this.quest3` | `INPUT[toggle:quest3t]` | `boxes: 6/6`
+>>| `=this.quest3` | `INPUT[toggle:quest3t]` | `boxes: 0/6`
 >> |`=this.quest4` |`INPUT[toggle:quest4t]` | `boxes: 0/19`
 >>| `=this.quest5` | `INPUT[toggle:quest5t]` | `boxes: 0/16`
->> |`=this.quest6` |`INPUT[toggle:quest6t]` | `0`
+>> |`=this.quest6` |`INPUT[toggle:quest6t]` | `1`
 >>| `=this.quest7` | `INPUT[toggle:ques71t]` | `0`
 >> |`=this.quest8` |`INPUT[toggle:quest8t]` | `0`
 >>| `=this.quest9` | `INPUT[toggle:ques91t]` | `0`

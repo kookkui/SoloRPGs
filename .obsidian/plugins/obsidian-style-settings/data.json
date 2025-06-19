@@ -50,7 +50,7 @@
   "anuppuccin-theme-settings@@anp-colorful-frame": false,
   "anuppuccin-theme-settings@@anp-file-icons": false,
   "anuppuccin-theme-settings@@anp-bg-fix": false,
-  "anuppuccin-theme-settings@@anuppuccin-light-theme-accents": "ctp-accent-light-rosewater",
+  "anuppuccin-theme-settings@@anuppuccin-light-theme-accents": "ctp-accent-light-pink",
   "anuppuccin-theme-settings@@anp-callout-select": "none",
   "anuppuccin-theme-settings@@cards-padding": "1.0em",
   "anuppuccin-theme-settings@@anp-color-transition-toggle": false,
@@ -85,5 +85,9 @@
   "anuppuccin-theme-settings@@h3-font": "SN Pro",
   "anuppuccin-theme-settings@@h4-font": "SN Pro",
   "anuppuccin-theme-settings@@h6-font": "SN Pro",
-  "anuppuccin-theme-settings@@h5-font": "SN Pro"
+  "anuppuccin-theme-settings@@h5-font": "SN Pro",
+  "sanctum@@color-accent-rgb-l": "236, 90, 118",
+  "sanctum@@color-accent-rgb-d": "236, 90, 118",
+  "royal-velvet@@inline-document-title-color": "doc-title-h4",
+  "anuppuccin-theme-settings@@anuppuccin-theme-light": "ctp-latte"
 }

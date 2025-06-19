@@ -26,7 +26,7 @@ modifier: 0
 >>|**Damage Modifier**|`=this.dammod`|
 |**Passive Trait**|`INPUT[inlineSelect(option(You have Advantage on Manipulation checks, Negotiator),option(You have Advantage on Lockpicking checks, Master Locksmith), option(You have Advantage on Stealth checks, Assassin),option(You have Advantage on Athletics checks, Strongman),option(Takes hits for the PC, Scout),option(Increase your Aether by 1, Aether Battery),option(You have Advantage on Gathering checks, Scavenger),option(You have Advantage on Insight checks, Mind Reader),option(You have Advantage on Literacy checks, Scholar),option(You have Advantage on Medicine checks, Healer)):rating]`|
 >>| **Companion Level** | `1`   |
->>|**Quest Completed**|`b:0/5`|
+>>|**Quest Completed**|`boxes: 1/5`|
 
 >[!table] %%FAKE TITLE HERE%%
 >>[!table] %%FAKE TITLE HERE%%

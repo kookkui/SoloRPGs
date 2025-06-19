@@ -158,6 +158,8 @@
 
 [[Riftbreakers House Rules#Gathering]]
 
+[[Riftbreakers House Rules#Selling Magic Items]]
+
 [[Riftbreakers House Rules#Weapon Loadout Abilities]]
 
 

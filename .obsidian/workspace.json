@@ -63,7 +63,7 @@
               "state": {
                 "file": "SoloRPGs/Riftbreakers - Second Edition/PCs/Aurielle.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "Aurielle"
@@ -192,7 +192,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -298,13 +298,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoloRPGs/Riftbreakers - Second Edition/Aurielle Journal.md",
+                "file": "SoloRPGs/Riftbreakers - Second Edition/Maps/Overworld Maps/Keathor Overworld Map.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Aurielle Journal"
+              "title": "Outline of Keathor Overworld Map"
             }
           },
           {
@@ -363,18 +363,18 @@
   },
   "active": "9aa9184a85170983",
   "lastOpenFiles": [
-    "SoloRPGs/Riftbreakers - Second Edition/Tables/Riftbreakers Tables Rolls.md",
     "SoloRPGs/Riftbreakers - Second Edition/Aurielle Journal.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Rules Reference/Riftbreakers House Rules.md",
     "SoloRPGs/Riftbreakers - Second Edition/PCs/Aurielle.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Maps/Overworld Maps/Keathor Overworld Map.md",
+    "SoloRPGs/Riftbreakers - Second Edition/PCs/Aurielle's Large Spatial Bag.md",
     "SoloRPGs/_Templates/Colour Pallette.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Tables/Riftbreakers Tables Rolls.md",
+    "SoloRPGs/Riftbreakers - Second Edition/PCs/Serayr.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Maps/Overworld Maps/Keathor Overworld Map.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Rules Reference/Riftbreakers House Rules.md",
     "SoloRPGs/Riftbreakers - Second Edition/Maps/Rift Maps/Primordial Forest Rift 1.md",
     "SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map Dark Mode.md",
-    "SoloRPGs/Riftbreakers - Second Edition/PCs/Serayr.md",
     "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Rift Maps/Primordial Forest Rift 1/IMG-20250611230412476.webp",
     "SoloRPGs/_Tokens/VTT Battle Tokens/Toad - Giant - 0105 1.webp",
-    "SoloRPGs/Riftbreakers - Second Edition/PCs/Aurielle's Large Spatial Bag.md",
     "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Might Heart/Two-Handed Weapon Master.md",
     "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Might Heart/Unbound Fury.md",
     "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Weapon Strikes & Non-Heart Abilities/Weapon Strike (Two-Handed).md",

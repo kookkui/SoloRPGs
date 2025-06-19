@@ -2123,3 +2123,62 @@ An old, crumbling temple.
 
 It seems it has already been well looted over the past centuries. 
 
+We rest for the night...
+
+## 998-04-24
+
+We have returned to Kar Helos..
+
+Turning in
+*Rift Closure: A Rift appeared one night and is spewing out monstrosities! Distance: 6 Hexes. Rift Dominion:  Primordial Forest Rewards: 1x Random Magic Item*
+
+<font color="#8624FF">+1 Epic Magic Item</font>
+
+Identifying (Uncommon) Ring -50⟑
+
+(Uncommon) Ring Increase your Ability Pool by +5. 
+
+Selling Ring for +100⟑ (125⟑)
+
+-70⟑ for Serayr's wages (55⟑) 
+
+Identifying (Uncommon) Amulet -50⟑
+
+You can make an additional Move Action per round. 
+
+Selling Ring for +100⟑ (105⟑)
+
+Selling (Rare) Belt for +200⟑ (305⟑)
+
+Identifying (Rare) Greatsword -50⟑
+
+Greatsword of Expertise 
+When you deal a critical hit with this weapon, you deal the maximum damage possible. Increase the weapon Skill required to wield this weapon by +10. 
+
+Selling Greatsword of the Warmonger +200⟑(455⟑)
+
+Identifying (Epic) Magic Item -50⟑(405⟑)
+
+<font color="#7FFF00">Shard of Vitality:</font> Increase your Health by +5 permanently after consuming this.
+
+Consuming the shard immediately +5 Max HP (31)
+
+Survival Skill up check (40) `d100 = 50` Success!
+
++4 Survival (44)
+
+Literacy Check to read the Endurance Skill Book (40) `d100 = 59` Success!
+
++3 Endurance (31)
+
+Identifying (Epic) Magic Item -50⟑(355⟑)
+
+<font color="#FB5607">Ring of the Elements:</font> Pick one: Lightning, Fire, Force, or Cold. All your melee attacks deal damage of the chosen type. This can be changed at will, but only out of combat (Item slot: Ring).
+
+Checking the Quest Board...
+5 Quests have been posted
+
+- Monster Hunt: Reward 1x Random Magic Item
+- Delivery: Reward  3x Skill Book
+- Rift Closure: Rewards 
+- 
