@@ -8,7 +8,7 @@
   "Appearance@@accent@@light": "#8300FF",
   "Appearance@@accent@@dark": "#8300FF",
   "Editor@@callout-style-select": "callout-style-customize",
-  "anuppuccin-theme-settings@@anuppuccin-theme-dark": "ctp-mocha",
+  "anuppuccin-theme-settings@@anuppuccin-theme-dark": "ctp-macchiato",
   "anuppuccin-theme-settings@@anuppuccin-theme-accents": "ctp-accent-lavender",
   "catppuccin-theme-settings@@catppuccin-theme-dark": "ctp-mocha",
   "catppuccin-theme-settings@@catppuccin-theme-accents": "ctp-accent-lavender",
@@ -50,7 +50,7 @@
   "anuppuccin-theme-settings@@anp-colorful-frame": false,
   "anuppuccin-theme-settings@@anp-file-icons": false,
   "anuppuccin-theme-settings@@anp-bg-fix": false,
-  "anuppuccin-theme-settings@@anuppuccin-light-theme-accents": "ctp-accent-light-pink",
+  "anuppuccin-theme-settings@@anuppuccin-light-theme-accents": "ctp-accent-light-mauve",
   "anuppuccin-theme-settings@@anp-callout-select": "none",
   "anuppuccin-theme-settings@@cards-padding": "1.0em",
   "anuppuccin-theme-settings@@anp-color-transition-toggle": false,
@@ -89,5 +89,5 @@
   "sanctum@@color-accent-rgb-l": "236, 90, 118",
   "sanctum@@color-accent-rgb-d": "236, 90, 118",
   "royal-velvet@@inline-document-title-color": "doc-title-h4",
-  "anuppuccin-theme-settings@@anuppuccin-theme-light": "ctp-latte"
+  "anuppuccin-theme-settings@@anuppuccin-theme-light": "ctp-rosepine-light"
 }

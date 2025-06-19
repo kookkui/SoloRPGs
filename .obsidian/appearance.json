@@ -1,7 +1,7 @@
 {
   "cssTheme": "AnuPpuccin",
   "theme": "obsidian",
-  "accentColor": "",
+  "accentColor": "#8624ff",
   "monospaceFontFamily": "JetBrainsMono NF,GeistMono Nerd Font,IosevkaTerm Nerd Font Mono",
   "interfaceFontFamily": "Atkinson Hyperlegible",
   "enabledCssSnippets": [

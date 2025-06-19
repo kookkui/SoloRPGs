@@ -2179,6 +2179,72 @@ Checking the Quest Board...
 5 Quests have been posted
 
 - Monster Hunt: Reward 1x Random Magic Item
-- Delivery: Reward  3x Skill Book
-- Rift Closure: Rewards 
-- 
+- Delivery: Mineral Ingredients: roll on the Mineral Deposit x10 Reward  3x Skill Book
+- Rift Closure: Underground Cave System 25 Hexes  Rewards 1x Random Companion
+- Monster Hunt: Thunderbird, 10 Hexes, Rewards 200⟑-
+- Rift Closure: 1x Random Magic Item
+
+Heading out to hunt the Luminous Lizard..
+
+## 998-04-25
+
+Heading East 3 Hexes
+
+Travel check Interesting Finds
+
+A drunk merchant slurs about a hidden cellar beneath the tavern 
+where “things that shouldn’t exist” are auctioned. Getting invited 
+requires winning a high-stakes dice game (or stealing a lacquered 
+invitation from a noble’s pocket).
+
+We decide it sounds like too much trouble and would like to keep our nose clean.
+
+## 998-04-26
+
+Heading east 3 more hexes
+
+Combat Encounter!
+
+```statblock
+creature: Bog Snake (RB)
+```
+
+```encounter
+creatures:
+  - Bog Snake (RB) , 36, 6, 0
+```
+
+PC Perception (49) `d100 = 53` 
+vs
+Bog Snake Perception (70) `d100 = 67` Winner
+
+Combat Start!
+
+Bog Snake Turn
+
+Moves 1
+
+**Constricting Coil**: The Bog Snake attempts to wrap its massive body around its target. The target must succeed on an Athletics check or become Restrained. While Restrained, the target takes D6 Bludgeoning damage at the start of each of their turns.
+
+No one is in the same zone...
+
+Action 2
+
+**Constricting Coil**: The Bog Snake attempts to wrap its massive body around its target. The target must succeed on an Athletics check or become Restrained. While Restrained, the target takes D6 Bludgeoning damage at the start of each of their turns.
+
+No one is in the same zone...
+
+PC Turn
+
+Move 1 
+
+Summon Companion -8 MP
+
+Serayr enters the fray!
+
+Serayr Turn
+
+Removes one instance of a harmful condition from an ally. If none, the Companion performs an attack with their weapon, dealing D6+2 Piercing damage.
+
+7 Damage - 4 Armor = 3 Damage to Bog Snake (33)
+

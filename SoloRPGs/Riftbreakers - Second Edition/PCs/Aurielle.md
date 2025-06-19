@@ -2,7 +2,7 @@
 Art: "![[GoblinGirl_Token.webp|center]]"
 Title: 
 achievement_prog: "Riftbreaker: Successfully close 5 Rifts."
-Protection: D4+1
+Protection: D6+1
 Weapon1: <font color="#8624FF">Greatsword of Expertise </font>
 Weapon1dmg: 2D6
 Weapon1type: Slashing
@@ -20,9 +20,9 @@ aetheryte: 455
 aaaetheryte: 0
 aaetheryte: 
 gems: 
-Armor1: Hard Leather
-Armor1rate: D4+1
-Armor1notes: "Max Integrity: D8"
+Armor1: Mail
+Armor1rate: D6+1
+Armor1notes: "Max Integrity: D10"
 hand1: ""
 hand2: ""
 hand3: ""
@@ -32,17 +32,17 @@ quest1: "**Monster Hunt**: The quest is to hunt a Luminous Lizard that as been t
 quest1t: false
 quest2: "**Rift Closure:** Distance: 19 Hexes Rift Dominion: Sky Islets Rewards: 1x Random Magic Item"
 quest2t: false
-quest3: 
+quest3: "**Monster Hunt:** Thunderbird, 10 Hexes, Rewards 200⟑"
 quest3t: 
 quest4: "**Patrol:** A patrol duty to check the far reaches for new Rifts. Need the new lay abouts to take on some responsibility around here. Distance: 19 Hexes. 3x Skill Books"
 quest4t: 
 quest5: "**Rift Closure:** A Rift appeared down by the ol' mill! Jessup damn near got eaten! Distance: 16 Hexes. Rift Dominion: Lava FieldsRewards: 1x Random Formula or Blueprint"
 quest5t: 
-quest6: "Delivery: Mineral Ingredients x11 Reward: 3x Skill Books"
+quest6: "**Delivery:** Mineral Ingredients x11 Reward: 3x Skill Books"
 quest6t: 
-quest7: 
+quest7: "**Delivery:**  Mineral Ingredients: roll on the Mineral Deposit x10 Reward  3x Skill Book"
 quest7t: 
-quest8: 
+quest8: "Rift Closure: Underground Cave System 25 Hexes  Rewards 1x Random Companion"
 quest9: 
 quest10: 
 headname: 
@@ -113,14 +113,14 @@ HeartAbLink7: "![[Cleave]]"
 gear1: Bandages UD12
 gear2: "Potion of Liquid Shadows: You are immediately Concealed. "
 Appearance1: ""
-Integrity1: D8
+Integrity1: D10
 heart8: true
 heart9: true
 reputation_rank: Initiate
 gear3: Rope
-CurrentAether: 10
+CurrentAether: 2
 skill6: false
-hp: 26
+hp: 31
 modifier: 0
 gear4: Sickle
 skill5: false
@@ -136,7 +136,7 @@ gear10: ""
 Pskills69: Backpack
 skill1: false
 RiftLord: None
-ac: "4"
+ac: "6"
 skill19: false
 heart5: true
 heart1: true
@@ -156,7 +156,7 @@ Pskills1: The Liar's Eyes Coin (grants +5 to  Perception but whispers lies at ni
 >> **Current Achievement Path** |`INPUT[suggester(option(Path of Slaughter), option(Path of Shadows), option(Path of the Arcane), option(Path of the Explorer), option(Path of the Diplomat)):achievement_path]` |
 >>  **Achievement in Progress** |`=this.achievement_prog` `boxes: 1/5` |
 >> **Ability Pool** | Used: `7` **Max:** `21` |
->> **Reputation** | `1` `INPUT[suggester(option(Initiate), option(Journeyman), option(Vanguard), option(Champion), option(High Warden)):reputation_rank]` |
+>> **Reputation** | `2` `INPUT[suggester(option(Initiate), option(Journeyman), option(Vanguard), option(Champion), option(High Warden)):reputation_rank]` |
 >> **HP** | **Current:**`31` **Max:** `31`
 >> **Luck** | `5` |
 >> **Parry** | `0` |
@@ -269,14 +269,14 @@ Pskills1: The Liar's Eyes Coin (grants +5 to  Perception but whispers lies at ni
 >>### Quests
 >>|**Quest Description** |**Completed** | **Timer/Counter**|
 >> |:---: | --- | :---------: |
->>| `=this.quest1` | `INPUT[toggle:quest1t]` | `boxes: 0/16`
+>>| `=this.quest1` | `INPUT[toggle:quest1t]` | `boxes: 1/16`
 >> |`=this.quest2` |`INPUT[toggle:quest2t]` |  `boxes: 0/19`
->>| `=this.quest3` | `INPUT[toggle:quest3t]` | `boxes: 0/6`
+>>| `=this.quest3` | `INPUT[toggle:quest3t]` | `boxes: 0/10`
 >> |`=this.quest4` |`INPUT[toggle:quest4t]` | `boxes: 0/19`
 >>| `=this.quest5` | `INPUT[toggle:quest5t]` | `boxes: 0/16`
 >> |`=this.quest6` |`INPUT[toggle:quest6t]` | `1`
 >>| `=this.quest7` | `INPUT[toggle:ques71t]` | `0`
->> |`=this.quest8` |`INPUT[toggle:quest8t]` | `0`
+>> |`=this.quest8` |`INPUT[toggle:quest8t]` | `boxes: 0/25`
 >>| `=this.quest9` | `INPUT[toggle:ques91t]` | `0`
 >> |`=this.quest10` |`INPUT[toggle:quest10t]` |
 

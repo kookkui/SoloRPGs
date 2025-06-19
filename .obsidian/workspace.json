@@ -44,15 +44,15 @@
         "dimension": 46.907630522088354,
         "children": [
           {
-            "id": "b0a5dcd1de9df8ca",
+            "id": "59ac4ba6d2230ff3",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "SoloRPGs/Riftbreakers - Second Edition/Maps/Overworld Maps/Keathor Overworld Map.md"
+                "file": "SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map Dark Mode.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Keathor Overworld Map"
+              "title": "Combat Zones Map Dark Mode"
             }
           },
           {
@@ -84,15 +84,15 @@
             }
           },
           {
-            "id": "59ac4ba6d2230ff3",
+            "id": "b0a5dcd1de9df8ca",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map Dark Mode.md"
+                "file": "SoloRPGs/Riftbreakers - Second Edition/Maps/Overworld Maps/Keathor Overworld Map.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Combat Zones Map Dark Mode"
+              "title": "Keathor Overworld Map"
             }
           }
         ],
@@ -196,7 +196,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 487.01103591918945
+    "width": 486.51103591918945
   },
   "right": {
     "id": "41ee323e71ace92d",
@@ -318,7 +318,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       },
       {
         "id": "0e6a14a15862aa6f",
@@ -361,18 +361,23 @@
       "solo-rpg-toolkit:Solo RPG Toolkit": false
     }
   },
-  "active": "9aa9184a85170983",
+  "active": "fe74df69c6024a9f",
   "lastOpenFiles": [
+    "SoloRPGs/_Templates/Snippets.md",
     "SoloRPGs/Riftbreakers - Second Edition/Aurielle Journal.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Tables/Riftbreakers Tables Rolls.md",
     "SoloRPGs/Riftbreakers - Second Edition/PCs/Aurielle.md",
+    "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Ancient Ent.md",
+    "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Bog Snake.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map Dark Mode.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Maps/Overworld Maps/Keathor Overworld Map.md",
+    "SoloRPGs/_Tokens/VTT Battle Tokens/Large Snake 04.webp",
+    "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Dark Dwellers.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Rules Reference/Riftbreakers House Rules.md",
     "SoloRPGs/Riftbreakers - Second Edition/PCs/Aurielle's Large Spatial Bag.md",
     "SoloRPGs/_Templates/Colour Pallette.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Tables/Riftbreakers Tables Rolls.md",
     "SoloRPGs/Riftbreakers - Second Edition/PCs/Serayr.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Maps/Overworld Maps/Keathor Overworld Map.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Rules Reference/Riftbreakers House Rules.md",
     "SoloRPGs/Riftbreakers - Second Edition/Maps/Rift Maps/Primordial Forest Rift 1.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map Dark Mode.md",
     "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Rift Maps/Primordial Forest Rift 1/IMG-20250611230412476.webp",
     "SoloRPGs/_Tokens/VTT Battle Tokens/Toad - Giant - 0105 1.webp",
     "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Might Heart/Two-Handed Weapon Master.md",
@@ -392,13 +397,8 @@
     "SoloRPGs/Riftbreakers - Second Edition/Tables/Rift Tables.md",
     "SoloRPGs/Riftbreakers - Second Edition/Tables/Loot Table.md",
     "SoloRPGs/Riftbreakers - Second Edition/Tables/General Tables.md",
-    "SoloRPGs/_Decks/Riftbreakers Ability Cards/Might_Unbound Fury_2.webp",
     "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Death Heart/Drain Lifeforce.md",
     "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Death Heart/Death Bolt.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Restoration Heart/Divine Shield.md",
-    "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Luminous Lizard.md",
-    "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Mossy Horror.md",
-    "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Island Golem.md",
     "SoloRPGs/_Decks/Riftbreakers Current Ability Loadout",
     "SoloRPGs/_Decks/Riftbreakers Ability Cards",
     "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Rift Maps/Primordial Forest Rift 1",

@@ -56,3 +56,7 @@ Enemy Perception (50) `d100 = 10`
 Summon Companion -8 MP
 
 Name has entered the fray!
+
+### Riftbreakers Damage Formula
+
+00 Damage - 00 Armor = 00 Damage to Enemy (00)

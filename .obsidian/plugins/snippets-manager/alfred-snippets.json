@@ -111,6 +111,13 @@
       "subtitle": "Summon Companion -8 MP\n\nName has entered the fray!",
       "arg": "Summon Companion -8 MP\n\nName has entered the fray!",
       "key": "Riftbreakers Companion"
+    },
+    {
+      "uid": 17,
+      "title": "Riftbreakers Damage Formula",
+      "subtitle": "00 Damage - 00 Armor = 00 Damage to Enemy (00)",
+      "arg": "00 Damage - 00 Armor = 00 Damage to Enemy (00)",
+      "key": "Riftbreakers Damage Formula"
     }
   ]
 }
