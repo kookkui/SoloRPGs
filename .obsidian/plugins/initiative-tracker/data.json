@@ -26,8 +26,8 @@
       "player": true
     },
     {
-      "note": "Aurielle",
-      "path": "SoloRPGs/Riftbreakers - Second Edition/PCs/Aurielle.md",
+      "note": "Azel",
+      "path": "SoloRPGs/Riftbreakers - Second Edition/PCs/Azel.md",
       "name": "Aurielle",
       "player": true,
       "hp": 31,
@@ -154,9 +154,11 @@
         "ac": 6,
         "currentAC": 6,
         "id": "ID_a98ab958584b",
-        "currentHP": 33,
+        "currentHP": 2,
         "tempHP": 0,
-        "status": [],
+        "status": [
+          "Restrained"
+        ],
         "enabled": true,
         "active": false,
         "hidden": false,
@@ -165,10 +167,11 @@
       },
       {
         "name": "Aurielle",
+        "display": "Azel",
         "initiative": 16,
         "static": false,
         "modifier": 0,
-        "hp": 26,
+        "hp": 31,
         "currentMaxHP": 31,
         "ac": "4",
         "currentAC": "6",
@@ -180,7 +183,7 @@
         "status": [],
         "enabled": true,
         "player": true,
-        "active": false,
+        "active": true,
         "hidden": false,
         "friendly": false
       },
@@ -202,14 +205,14 @@
         "enabled": true,
         "level": 1,
         "player": true,
-        "active": true,
+        "active": false,
         "hidden": false,
         "friendly": false
       }
     ],
     "state": true,
     "name": null,
-    "round": 1,
+    "round": 3,
     "logFile": "",
     "rollHP": false
   },

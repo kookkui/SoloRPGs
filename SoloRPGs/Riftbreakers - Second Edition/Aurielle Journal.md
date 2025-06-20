@@ -43,7 +43,7 @@ creature: Island Golem
 
 ```encounter
 players:
-  - Aurielle
+  - Azel
 creatures:
   - Island Golem , 18, 8, 0
 ```
@@ -73,7 +73,7 @@ Golem Turn
 
 **Charge**: The Island Golem charges against a random target in any Combat Zone, dealing 3D6 Bludgeoning damage.
 
-8 Damage to Aurielle (14)
+8 Damage to Azel (14)
 
 PC Turn 
 
@@ -169,7 +169,7 @@ Golem Turn
 
 Disengage:
 
-Aurielle Agility Check (25) `d100 = 34`
+Azel Agility Check (25) `d100 = 34`
 
 Golem Agility Check (10) `d100 = 95` Failed
 
@@ -246,7 +246,7 @@ Giant Turn
 
 **Thunderstorm:** The Storm Giant creates a thunderstorm that lasts for 2 rounds, covering every Combat Zone. Every round, each affected creature takes D6 Lightning damage and must make an Endurance check or be Stunned (1).
 
-Aurielle Endurance check (25) `d100 = 24`
+Azel Endurance check (25) `d100 = 24`
 
 6 Damage - 3 Armor = 3 Damage to PC (18)
 
@@ -388,7 +388,7 @@ Frog Turn
 
 **Noxious Cloud:** The Poisonous Frog releases a cloud of poisonous gas in the same Combat Zone. All creatures within it must pass an Endurance check or be Poisoned (1).
 
-Aurielle Endurance check (25) `d100 = 4` Success!
+Azel Endurance check (25) `d100 = 4` Success!
 
 PC Turn
 
@@ -683,7 +683,7 @@ creature: Warpstar (RB)
 
 ```encounter
 players:
-  - Aurielle
+  - Azel
   - Serayr
 creatures:
   - Warpstar (RB) , 12 , 4, 0
@@ -849,7 +849,7 @@ PC is in the same zone so +20 to their attack check
 
 Combat Skill (70) `d100 = 17` Hit!
 
-6 Damage - 2 Armor = 4 Damage to Aurielle (22)
+6 Damage - 2 Armor = 4 Damage to Azel (22)
 
 Beastman 3 Turn
 
@@ -861,7 +861,7 @@ PC is in the same zone so +20 to their attack check
 
 Combat Skill (70) `d100 = 28` Hit! 
 
-4 Damage - 2 Armor = 2 Damage to Aurielle (20)
+4 Damage - 2 Armor = 2 Damage to Azel (20)
 
 PC Turn
 
@@ -896,7 +896,7 @@ Attack 1 Combat Skill (40) `d100 = 61` Miss!
 
 Attack 2 Combat Skill (40) `d100 = 19` Hit! 
 
-7 Damage - 2 Armor = 5 Damage to Aurielle (15)
+7 Damage - 2 Armor = 5 Damage to Azel (15)
 
 PC Turn
 
@@ -990,7 +990,7 @@ Razor Charge: The Thorn Beast charges towards its target, who must
 pass an Agility check or be impaled by its thorny body and suffer D8+2 
 Piercing damage.
 
-Aurielle Agility check (25) `d100 = 22` Critical Success! Skill up.
+Azel Agility check (25) `d100 = 22` Critical Success! Skill up.
 
 PC Turn
 
@@ -1008,9 +1008,9 @@ Thorn Beast Turn
 
 **Thorn Spray**: The Thorn Beast releases a spray of thorns that affects all creatures in the same Combat Zone, dealing D6 Piercing damage to them. Targets hit by this attack must make an Endurance check or be Poisoned (1).
 
-3 Damage - 2 Armor = 1 Damage to Aurielle (22)
+3 Damage - 2 Armor = 1 Damage to Azel (22)
 
-Aurielle Endurance check (45) `d100 = 6` Success!
+Azel Endurance check (45) `d100 = 6` Success!
 
 PC Turn
 
@@ -1030,23 +1030,23 @@ Serayr Turn
 
 Heals 6 Health. If at max Health, they perform an attack with their weapon, dealing D6+2 Piercing damage.
 
-+6 HP to Aurielle (26)
++6 HP to Azel (26)
 
 Thorn Beast Turn
 
 **Thorn Spray**: The Thorn Beast releases a spray of thorns that affects all creatures in the same Combat Zone, dealing D6 Piercing damage to them. Targets hit by this attack must make an Endurance check or be Poisoned (1).
 
-5 Damage - 4 Armor = 1 Damage to Aurielle (25)
+5 Damage - 4 Armor = 1 Damage to Azel (25)
 
-Aurielle Endurance check (25) `d100 = 29` Failed! 
+Azel Endurance check (25) `d100 = 29` Failed! 
 
-Aurielle is Poisoned (1) 
+Azel is Poisoned (1) 
 
 PC Turn
 
-Aurielle Endurance check (25) `d100 = 60` Failed! 
+Azel Endurance check (25) `d100 = 60` Failed! 
 
-1 Poison Damage to Aurielle (24)
+1 Poison Damage to Azel (24)
 
 Weapon Strike (Two-Handed) - 3 MP
 
@@ -1062,7 +1062,7 @@ Serayr Turn
 
 Removes one instance of a harmful condition from an ally. If none, the Companion performs an attack with their weapon, dealing D6+2 Piercing damage.
 
-AurIelle is no longer Poisoned (1) 
+Azel is no longer Poisoned (1) 
 
 Thorn Beast Turn
 
@@ -1149,9 +1149,9 @@ Move 1
 
 **Tunneling Strike**: The Root Ravager sends its roots into the ground, tunneling towards its target. When they emerge, the roots 5 **Bludgeoning** damage and knocks the target Prone, unless the target passes an Agility check.
 
-Aurielle Agility check (28) `d100 = 28` Passed
+Azel Agility check (28) `d100 = 28` Passed
 
-5 Damage - 3 Armor = 3 Damage to Aurielle (23)
+5 Damage - 3 Armor = 3 Damage to Azel (23)
 
 PC Turn
 
@@ -1296,7 +1296,7 @@ Serayr Turn
 
 Heals D6 Health. If at max Health, they perform an attack with their weapon, dealing D6+2 Piercing damage.
 
-Aurielle at max health...
+Azel at max health...
 
 7 Damage - 1 Armor = 6 Damage to Ent (20)
 
@@ -1407,7 +1407,7 @@ Again
 
 Combat Skill check (50) `d100 = 29` Hit!
 
-5 Damage - 5 Armor = 0 Damage to Aurielle (26)
+5 Damage - 5 Armor = 0 Damage to Azel (26)
 
 PC Turn
 
@@ -1435,7 +1435,7 @@ PC Turn
 
 PC Perception (44) `d100 = 28` Success!
 
-Aurielle is able to see the Mossy Horror in the brush!
+Azel is able to see the Mossy Horror in the brush!
 
 Two-Handed Weapon Master -3 MP
 
@@ -1469,11 +1469,11 @@ Combat Skill check (50) `d100 = 50` Hit
 
 PC Turn
 
-Athletics check (28) `d100 = 26` Aurielle breaks free!
+Athletics check (28) `d100 = 26` Azel breaks free!
 
 PC Perception (44) `d100 = 20` Success! 
 
-Aurielle spots the mossy horror under a tree...
+Azel spots the mossy horror under a tree...
 
 Two-Handed Weapon Strike -3 MP
 
@@ -1499,7 +1499,7 @@ PC has no conditions.
 
 Loot: Crystalized Heart (<font color="#8624FF">Death </font>) 
 
-Aurielle Absorbs the <font color="#8624FF">Death Heart</font>
+Azel Absorbs the <font color="#8624FF">Death Heart</font>
 
 Riftlord Check (D8) `d8 = 6`
 
@@ -1513,7 +1513,7 @@ damage.
 
 Agility check (28) `d100 = 55` Critical Failure! But Skill up. 
 
-3 Damage to Aurielle (22)
+3 Damage to Azel (22)
 
 Riftlord Check (D8) `d8 = 1` Riftlord die changes from d8 > d6!
 
@@ -1560,7 +1560,7 @@ Moving 2
 
 Combat Skill check (40) `d100 = 38` Hit
 
-6 Damage - 5 Armor = 1 Damage to Aurielle (21)
+6 Damage - 5 Armor = 1 Damage to Azel (21)
 
 Lizard 2 Turn
 
@@ -1634,7 +1634,7 @@ No Condition...
 
 Loot: Crystalized Heart (<font color="#00CAFF">Arcane</font>)
 
-Aurielle absorbs the power of the Crystalized Heart (<font color="#00CAFF">Arcane</font>)
+Azel absorbs the power of the Crystalized Heart (<font color="#00CAFF">Arcane</font>)
 
 +1 Attunement Crystal
 
@@ -1706,7 +1706,7 @@ Serayr Turn
 
 Heals D6 Health. If at max Health, they perform an attack with their weapon, dealing D6+2 Piercing damage.
 
-+8 HP to Aurielle (26)
++8 HP to Azel (26)
 
 Grove Guardian Turn
 
@@ -1718,7 +1718,7 @@ Combat Skill check (50) `d100 = 51` Miss!
 
 Athletics check (28) `d100 = 21` Success
 
-2 Damage - 3 Armor = 0 Damage to Aurielle
+2 Damage - 3 Armor = 0 Damage to Azel
 
 PC Turn
 
@@ -1728,7 +1728,7 @@ Bladed Weapons Skill up Check (46) `d100 = 7` Hit!
 
 12 Damage - 2 Armor = 10 Damage to Grove Guardian (26)
 
-Aurielle Swings the sword again
+Azel Swings the sword again
 
 Weapon Strike (Two-Handed) -3 MP
 
@@ -1856,7 +1856,7 @@ Bladed Weapons Skill up Check (56) `d100 = 32` Hit!
 
 <font color="#11FF00">+10 to PARRY</font>
 
-Aurielle Swings the sword back around for another hit
+Azel Swings the sword back around for another hit
 
 Weapon Strike (Two-Handed) -3 MP
 
@@ -1864,7 +1864,7 @@ Bladed Weapons Skill up Check (56) `d100 = 16` Hit!
 
 9 Damage - 4 Armor = 5 Damage to Grove Guardian (24)
 
-A final downward swing from Aurielle!
+A final downward swing from Azel!
 
 Weapon Strike (Two-Handed) -3 MP
 
@@ -1880,7 +1880,7 @@ Endurance check (40) `d100 = 60` Failed... Still freezing...
 
 PC Agility check (31) `d100 = 85` Failed
 
-3 Damage - 4 Armor = 0 Damage to Aurielle
+3 Damage - 4 Armor = 0 Damage to Azel
 
 **Nature's Fury**: The Spirit Bear unleashes the fury of the forest, causing trees and rocks to come to life and attack its target. The target must pass an Agility check or suffer D6+1 Bludgeoning damage and become Restrained for 2 rounds by roots and vines.
 
@@ -2027,7 +2027,7 @@ Second action
 
 **Noxious Cloud:** The Poisonous Frog releases a cloud of poisonous gas in the same Combat Zone. All creatures within it must pass an Endurance check or be Poisoned (1).
 
-Aurielle Endurance check (25) `d100 = 13` Success!
+Azel Endurance check (25) `d100 = 13` Success!
 
 Serayr Endurance check (55) `d100 = 10` Success
 
@@ -2247,4 +2247,89 @@ Serayr Turn
 Removes one instance of a harmful condition from an ally. If none, the Companion performs an attack with their weapon, dealing D6+2 Piercing damage.
 
 7 Damage - 4 Armor = 3 Damage to Bog Snake (33)
+
+Bog Snake Turn
+
+Moves 1
+
+**Ambush Strike**: The Bog Snake lashes out from the water or underbrush with startling speed. It makes a Combat Skill check against its target, dealing 2D6 Piercing damage on a hit. If the target was unaware of the Bog Snake at the start of this turn, the attack has Advantage, and the target must pass a Tenacity check or be Dazed (1).
+
+Combat Skill (70) `d100 = 70` Success 
+
+4 Damage - 6 Armor = 0 Damage to Azel (33)
+
+Azel Tenacity check (40) `d100 = 34` Success!
+
+**Constricting Coil**: The Bog Snake attempts to wrap its massive body around its target. The target must succeed on an Athletics check or become Restrained. While Restrained, the target takes D6 Bludgeoning damage at the start of each of their turns.
+
+Azel Athletics check (28) `d100 = 20` Success!
+
+PC Turn
+
+Casting Chill of Death -5 MP on the Bog Snake
+
+Target suffers D6 Necrotic damage and is Freezing.
+
+6 Damage to the Bog Snake (27)
+
+Snake Endurance check (60) `d100 = 62` Failed.
+
+Bog Snake is *Freezing*
+
+Two-Handed Master -5 MP 
+
+For the remainder of combat, if you are wielding a two-handed weapon you deal an additional D4 damage.
+
+Serayr Turn
+
+Move 1
+
+Heals D6 Health. If at max Health, they perform an attack with their weapon, dealing D6+2 Piercing damage.
+
+6 Damage - 1 Armor = 5 Damage to Bog Snake (22)
+
+Bog Snake Turn
+
+**Ambush Strike**: The Bog Snake lashes out from the water or underbrush with startling speed. It makes a Combat Skill check against its target, dealing 2D6 Piercing damage on a hit. If the target was unaware of the Bog Snake at the start of this turn, the attack has Advantage, and the target must pass a Tenacity check or be Dazed (1).
+
+Combat Skill check(70) `d100 = 70` Success
+
+4 Damage - 5 Armor = 0 Damage to Azel
+
+**Constricting Coil**: The Bog Snake attempts to wrap its massive body around its target. The target must succeed on an Athletics check or become Restrained. While Restrained, the target takes D6 Bludgeoning damage at the start of each of their turns.
+
+Azel Athletics check (28) `d100 = 30` Failed
+
+Restrained...
+
+Azel Turn
+
+Azel Athletics check (28) `d100 = 15` Freed
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Skill up Check (79) `d100 = 11` Critical Hit! Skill up chance.
+
+22 Damage - 2 Armor = 20 Damage to Bog Snake (2)
+
+Azel brings the sword down for another hit!
+
+Weapon Strike (Two-Handed) -3 MP
+
+Bladed Weapons Skill up Check (79) `d100 = 32` Hit! 
+
+10 Damage - 1 Armor = 9 Damage to Bog Snake (Dead)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
+
+Loots: <font color="#6425d0">Heart Essence</font>
+
+Absorbing Heart Essence
+
+FORCE BALL ⍈
+(Prime)
+Cost: 6 / Range: 0-1 / Standard Action / Defense: Agility
+The primary target suffers 2D8+2 Arcane damage. All other targets within 
+range suffer D8 Arcane damage.
+A sphere of pure arcane energy erupts among your targets.
 

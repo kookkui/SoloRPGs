@@ -118,8 +118,8 @@ heart8: true
 heart9: true
 reputation_rank: Initiate
 gear3: Rope
-CurrentAether: 2
-skill6: false
+CurrentAether: 4
+skill6: true
 hp: 31
 modifier: 0
 gear4: Sickle
@@ -143,7 +143,7 @@ heart1: true
 skill27: false
 Pskills1: The Liar's Eyes Coin (grants +5 to  Perception but whispers lies at night)
 ---
-## Aurielle Sheet
+## Azel Sheet
 >[!dice] %%FAKE TITLE HERE%%
 >>[!dice] %%FAKE TITLE HERE%% 
 >> # `=this.file.name`
