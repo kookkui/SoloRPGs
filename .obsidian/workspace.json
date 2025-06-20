@@ -44,18 +44,6 @@
         "dimension": 46.907630522088354,
         "children": [
           {
-            "id": "59ac4ba6d2230ff3",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map Dark Mode.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Combat Zones Map Dark Mode"
-            }
-          },
-          {
             "id": "b466fe65d045f1f9",
             "type": "leaf",
             "state": {
@@ -89,14 +77,14 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "SoloRPGs/Riftbreakers - Second Edition/Maps/Overworld Maps/Keathor Overworld Map.md"
+                "file": "SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map Dark Mode.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Keathor Overworld Map"
+              "title": "Combat Zones Map Dark Mode"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -187,8 +175,8 @@
             "state": {
               "type": "MAIN_VIEW",
               "state": {},
-              "icon": "srt-ribbon",
-              "title": "Solo RPG Toolkit"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
@@ -361,15 +349,17 @@
       "solo-rpg-toolkit:Solo RPG Toolkit": false
     }
   },
-  "active": "9aa9184a85170983",
+  "active": "b0a5dcd1de9df8ca",
   "lastOpenFiles": [
-    "SoloRPGs/Riftbreakers - Second Edition/PCs/Azel.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Maps/Overworld Maps/Keathor Overworld Map.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map Dark Mode.md",
     "SoloRPGs/Riftbreakers - Second Edition/Aurielle Journal.md",
+    "SoloRPGs/_Tokens/VTT Battle Tokens/Large Snake 04.webp",
+    "SoloRPGs/Riftbreakers - Second Edition/PCs/Serayr.md",
+    "SoloRPGs/Riftbreakers - Second Edition/PCs/Azel.md",
+    "SoloRPGs/Riftbreakers - Second Edition/PCs/Aurielle's Large Spatial Bag.md",
     "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Might Heart/Two-Handed Weapon Master.md",
     "SoloRPGs/Riftbreakers - Second Edition/Tables/Riftbreakers Tables Rolls.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map Dark Mode.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Maps/Overworld Maps/Keathor Overworld Map.md",
-    "SoloRPGs/Riftbreakers - Second Edition/PCs/Serayr.md",
     "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Death Heart/Chill of Death.md",
     "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/PCs/Azel/GoblinGirl_Token.webp",
     "SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map.md",
@@ -377,10 +367,8 @@
     "SoloRPGs/_Templates/Snippets.md",
     "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Ancient Ent.md",
     "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Bog Snake.md",
-    "SoloRPGs/_Tokens/VTT Battle Tokens/Large Snake 04.webp",
     "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Dark Dwellers.md",
     "SoloRPGs/Riftbreakers - Second Edition/Rules Reference/Riftbreakers House Rules.md",
-    "SoloRPGs/Riftbreakers - Second Edition/PCs/Aurielle's Large Spatial Bag.md",
     "SoloRPGs/_Templates/Colour Pallette.md",
     "SoloRPGs/Riftbreakers - Second Edition/Maps/Rift Maps/Primordial Forest Rift 1.md",
     "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Rift Maps/Primordial Forest Rift 1/IMG-20250611230412476.webp",

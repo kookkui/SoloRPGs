@@ -2326,10 +2326,9 @@ Loots: <font color="#6425d0">Heart Essence</font>
 
 Absorbing Heart Essence
 
-FORCE BALL ⍈
+Force Ball ⍈
 (Prime)
 Cost: 6 / Range: 0-1 / Standard Action / Defense: Agility
-The primary target suffers 2D8+2 Arcane damage. All other targets within 
-range suffer D8 Arcane damage.
+The primary target suffers 2D8+2 Arcane damage. All other targets within range suffer D8 Arcane damage.
 A sphere of pure arcane energy erupts among your targets.
 
