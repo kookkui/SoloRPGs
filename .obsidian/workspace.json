@@ -175,12 +175,12 @@
             "state": {
               "type": "MAIN_VIEW",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "srt-ribbon",
+              "title": "Solo RPG Toolkit"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -349,17 +349,17 @@
       "solo-rpg-toolkit:Solo RPG Toolkit": false
     }
   },
-  "active": "b0a5dcd1de9df8ca",
+  "active": "9aa9184a85170983",
   "lastOpenFiles": [
-    "SoloRPGs/Riftbreakers - Second Edition/Maps/Overworld Maps/Keathor Overworld Map.md",
     "SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map Dark Mode.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Aurielle Journal.md",
-    "SoloRPGs/_Tokens/VTT Battle Tokens/Large Snake 04.webp",
     "SoloRPGs/Riftbreakers - Second Edition/PCs/Serayr.md",
     "SoloRPGs/Riftbreakers - Second Edition/PCs/Azel.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Aurielle Journal.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Tables/Riftbreakers Tables Rolls.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Maps/Overworld Maps/Keathor Overworld Map.md",
+    "SoloRPGs/_Tokens/VTT Battle Tokens/Large Snake 04.webp",
     "SoloRPGs/Riftbreakers - Second Edition/PCs/Aurielle's Large Spatial Bag.md",
     "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Might Heart/Two-Handed Weapon Master.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Tables/Riftbreakers Tables Rolls.md",
     "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Death Heart/Chill of Death.md",
     "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/PCs/Azel/GoblinGirl_Token.webp",
     "SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map.md",

@@ -145,29 +145,8 @@
   "state": {
     "creatures": [
       {
-        "name": "Bog Snake (RB) ",
-        "initiative": 16,
-        "static": false,
-        "modifier": 0,
-        "hp": 36,
-        "currentMaxHP": 36,
-        "ac": 6,
-        "currentAC": 6,
-        "id": "ID_a98ab958584b",
-        "currentHP": 2,
-        "tempHP": 0,
-        "status": [
-          "Restrained"
-        ],
-        "enabled": true,
-        "active": false,
-        "hidden": false,
-        "friendly": false,
-        "rollHP": false
-      },
-      {
         "name": "Aurielle",
-        "initiative": 16,
+        "initiative": 13,
         "static": false,
         "modifier": 0,
         "hp": 31,
@@ -176,19 +155,19 @@
         "currentAC": "6",
         "note": "Azel",
         "path": "SoloRPGs/Riftbreakers - Second Edition/PCs/Azel.md",
-        "id": "ID_aacbd90a4899",
+        "id": "ID_782a2bdb5a58",
         "currentHP": 31,
         "tempHP": 0,
         "status": [],
         "enabled": true,
         "player": true,
-        "active": true,
+        "active": false,
         "hidden": false,
         "friendly": false
       },
       {
         "name": "Serayr",
-        "initiative": 16,
+        "initiative": 4,
         "static": false,
         "modifier": 0,
         "hp": 20,
@@ -197,7 +176,7 @@
         "currentAC": "1",
         "note": "Serayr",
         "path": "SoloRPGs/Riftbreakers - Second Edition/PCs/Serayr.md",
-        "id": "ID_b8a929baabca",
+        "id": "ID_8868f968191a",
         "currentHP": 20,
         "tempHP": 0,
         "status": [],
@@ -209,9 +188,9 @@
         "friendly": false
       }
     ],
-    "state": true,
+    "state": false,
     "name": null,
-    "round": 3,
+    "round": 1,
     "logFile": "",
     "rollHP": false
   },
