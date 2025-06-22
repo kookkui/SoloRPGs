@@ -1,0 +1,144 @@
+{
+  "dualConfigs": false,
+  "showConsoleLog": false,
+  "desktop": {
+    "shortDelaySeconds": 5,
+    "longDelaySeconds": 15,
+    "delayBetweenPlugins": 40,
+    "defaultStartupType": null,
+    "showDescriptions": true,
+    "enableDependencies": false,
+    "plugins": {
+      "obsidian-admonition": {
+        "startupType": "instant"
+      },
+      "table-editor-obsidian": {
+        "startupType": "instant"
+      },
+      "attachment-management": {
+        "startupType": "instant"
+      },
+      "obsidian-auto-link-title": {
+        "startupType": "instant"
+      },
+      "obsidian-bulk-rename-plugin": {
+        "startupType": "instant"
+      },
+      "calendarium": {
+        "startupType": "instant"
+      },
+      "color-palette": {
+        "startupType": "instant"
+      },
+      "colored-text": {
+        "startupType": "instant"
+      },
+      "cmdr": {
+        "startupType": "instant"
+      },
+      "copilot": {
+        "startupType": "disabled"
+      },
+      "dataview": {
+        "startupType": "instant"
+      },
+      "obsidian-dice-roller": {
+        "startupType": "instant"
+      },
+      "editing-toolbar": {
+        "startupType": "instant"
+      },
+      "obsidian-enhancing-export": {
+        "startupType": "disabled"
+      },
+      "obsidian-excalidraw-plugin": {
+        "startupType": "instant"
+      },
+      "fantasy-content-generator": {
+        "startupType": "instant"
+      },
+      "fantasy-name": {
+        "startupType": "instant"
+      },
+      "obsidian-5e-statblocks": {
+        "startupType": "instant"
+      },
+      "obsidian-file-color": {
+        "startupType": "instant"
+      },
+      "obsidian-git": {
+        "startupType": "disabled"
+      },
+      "obsidian-hover-editor": {
+        "startupType": "instant"
+      },
+      "obsidian-icon-folder": {
+        "startupType": "instant"
+      },
+      "image-converter": {
+        "startupType": "disabled"
+      },
+      "initiative-tracker": {
+        "startupType": "instant"
+      },
+      "js-engine": {
+        "startupType": "instant"
+      },
+      "obsidian-leaflet-plugin": {
+        "startupType": "instant"
+      },
+      "obsidian-meta-bind-plugin": {
+        "startupType": "instant"
+      },
+      "obsidian-minimal-settings": {
+        "startupType": "disabled"
+      },
+      "multi-column-markdown": {
+        "startupType": "instant"
+      },
+      "obsidian-plugin-update-tracker": {
+        "startupType": "short"
+      },
+      "settings-search": {
+        "startupType": "instant"
+      },
+      "snippets-manager": {
+        "startupType": "instant"
+      },
+      "solo-rpg-toolkit": {
+        "startupType": "short"
+      },
+      "obsidian-style-settings": {
+        "startupType": "instant"
+      },
+      "templater-obsidian": {
+        "startupType": "instant"
+      },
+      "text-extractor": {
+        "startupType": "instant"
+      },
+      "obsidian-text-format": {
+        "startupType": "instant"
+      },
+      "obsidian-banners": {
+        "startupType": "disabled"
+      },
+      "obsidian42-brat": {
+        "startupType": "disabled"
+      },
+      "highlightr-plugin": {
+        "startupType": "disabled"
+      },
+      "supercharged-links-obsidian": {
+        "startupType": "disabled"
+      },
+      "open-gate": {
+        "startupType": "instant"
+      },
+      "pexels-banner": {
+        "startupType": "instant"
+      }
+    },
+    "loadOrder": []
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "confirmDeletion": true,
+  "showAddCommand": true,
+  "debug": false,
+  "editorMenu": [
+    {
+      "id": "obsidian-text-format:remove-redundant-spaces",
+      "icon": "space",
+      "name": "Text Format: Remove redundant spaces in selection",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-text-format:custom-replace:remove-blank-line",
+      "icon": "a-large-small",
+      "name": "Text Format: Custom Replace - Remove blank line(s)",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-text-format:merge-line",
+      "icon": "wrap-text",
+      "name": "Text Format: Merge broken paragraph(s) in selection",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-text-format:custom-replace:32bac40f-1c3f-424d-9988-d2bfdd597e23",
+      "icon": "a-large-small",
+      "name": "Text Format: Custom Replace - Remove / and replace with New Line",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-text-format:title-case",
+      "icon": "case-sensitive",
+      "name": "Text Format: Title-case",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-text-format:custom-replace:9462c160-3c86-4d65-b9d1-963caf47df99",
+      "icon": "a-large-small",
+      "name": "Text Format: Custom Replace - Turn Blank Space into Comma Space",
+      "mode": "any"
+    }
+  ],
+  "fileMenu": [],
+  "leftRibbon": [],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [],
+  "pageHeader": [
+    {
+      "id": "templater-obsidian:insert-templater",
+      "icon": "lucide-notebook-tabs",
+      "name": "Templater: Open insert template modal",
+      "mode": "any"
+    },
+    {
+      "id": "snippets-manager:open-snippet-search",
+      "icon": "lucide-scissors-line-dashed",
+      "name": "Snippets Manager: Search Snippets",
+      "mode": "any"
+    },
+    {
+      "id": "editor:fold-all",
+      "icon": "lucide-minimize-2",
+      "name": "Fold all headings and lists",
+      "mode": "any"
+    },
+    {
+      "id": "editor:unfold-all",
+      "icon": "lucide-maximize-2",
+      "name": "Unfold all headings and lists",
+      "mode": "any"
+    },
+    {
+      "id": "editor:toggle-source",
+      "icon": "lucide-code-2",
+      "name": "Toggle Live Preview/Source mode",
+      "mode": "any"
+    }
+  ],
+  "macros": [],
+  "explorer": [],
+  "hide": {
+    "statusbar": [],
+    "leftRibbon": []
+  },
+  "spacing": 8,
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 1,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": false,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 0
+  }
+}

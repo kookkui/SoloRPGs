@@ -1,0 +1,608 @@
+{
+  "cascadeColors": false,
+  "colorBackground": false,
+  "palette": [
+    {
+      "id": "zCktIUMr-bIdkFXD6hxqk",
+      "name": "Light Purple",
+      "value": "#ce33ff"
+    },
+    {
+      "id": "cKjisgJPb38E_p10IXkjU",
+      "name": "Hot Pink",
+      "value": "#ff69b4"
+    },
+    {
+      "id": "Exegx5Csoil7lc9DPrgKh",
+      "name": "Bright Turquoise",
+      "value": "#16e2f5"
+    },
+    {
+      "id": "-DyKPsmvPE4BMAhVpPv4q",
+      "name": "Dragon Green",
+      "value": "#6afb92"
+    },
+    {
+      "id": "usQB93PlkTJVLFvVBFQUp",
+      "name": "Red",
+      "value": "#ff0000"
+    },
+    {
+      "id": "0auoW_nA8Che9PxJzMRJK",
+      "name": "Cyan",
+      "value": "#00ffff"
+    },
+    {
+      "id": "PxQVkfRiLdIylGAMknH8L",
+      "name": "Easter Yellow",
+      "value": "#ffff7d"
+    },
+    {
+      "id": "4_vEmCvFDG2xa-RYIOJ3R",
+      "name": "Dodge Blue",
+      "value": "#1e90ff"
+    },
+    {
+      "id": "rLOc6yV_O6S6HFVqmgU9g",
+      "name": "Watermelon",
+      "value": "#d8006f"
+    },
+    {
+      "id": "nJEclkhhQ8dfvQIwJ5pUX",
+      "name": "Trangerine",
+      "value": "#fcb917"
+    },
+    {
+      "id": "1OoZmSTRNoCtkm3TX80Az",
+      "name": "Pumpkin",
+      "value": "#f58120"
+    },
+    {
+      "id": "OF88jR0-B3HwVFkSaWDJM",
+      "name": "Blue Magenta",
+      "value": "#9752ff"
+    },
+    {
+      "id": "ZKjDKZTd9AbGk4tysDpD3",
+      "name": "Bright Neon Pink",
+      "value": "#f433ff"
+    },
+    {
+      "id": "HZFG4bZLp90SUEPF_flTK",
+      "name": "Mint Green",
+      "value": "#98ff98"
+    },
+    {
+      "id": "SGVnnWlp6gUUQLOIV5yk9",
+      "name": "Tiffany Blue",
+      "value": "#81d8d0"
+    },
+    {
+      "id": "VvRC_rOmMM_1Htw13dJDd",
+      "name": "Mango Orange",
+      "value": "#ff8040"
+    },
+    {
+      "id": "edxRNdgoLWrBuhViPLWQj",
+      "name": "Chartreuse",
+      "value": "#7fff00"
+    },
+    {
+      "id": "kmf0tZAAlEbxjHLxDKfht",
+      "name": "Pastel Yellow",
+      "value": "#ffffb5"
+    },
+    {
+      "id": "yvtjG5SaZvMt9A_M5MVyQ",
+      "name": "Light Sea Green",
+      "value": "#20b2aa"
+    },
+    {
+      "id": "qFjF3HNl1ByVLjOhkoH7B",
+      "name": "Soft Orange",
+      "value": "#f4a261"
+    },
+    {
+      "id": "fWqjCE5W1xiSih8nP2WNA",
+      "name": "Fuchsia Pink",
+      "value": "#ff77ff"
+    },
+    {
+      "id": "em1JXtknIpDa_79QQadUX",
+      "name": "Pastel Blue",
+      "value": "#7dffff"
+    },
+    {
+      "id": "UmVtOfxqzdsQurxhAX0BA",
+      "name": "MediumSpringGreen",
+      "value": "#00fa9a"
+    },
+    {
+      "id": "nx0DLBWpw5GPYwqqq3D6p",
+      "name": "DeepSkyBlue",
+      "value": "#00bfff"
+    },
+    {
+      "id": "q7kuIQS0Z8Gphqus14kd9",
+      "name": "Blurple",
+      "value": "#5865f2"
+    },
+    {
+      "id": "K5kMrPV45S_p-gsDXYx_V",
+      "name": "Purple Mimosa",
+      "value": "#9e7bff"
+    },
+    {
+      "id": "PUdtIij3CJ8Cij1VADjI9",
+      "name": "Neon Blue",
+      "value": "#00caff"
+    },
+    {
+      "id": "e6mqIiJo0Bg9BlEVarX5d",
+      "name": "Neon Green",
+      "value": "#11ff00"
+    },
+    {
+      "id": "0o6HSq0bbqkfOVMovz-5y",
+      "name": "Neon Purple",
+      "value": "#8624ff"
+    },
+    {
+      "id": "x24JgSjNb4AWqWDgGNXSG",
+      "name": "Neon Pink",
+      "value": "#ff29b8"
+    },
+    {
+      "id": "459blKyA_NLXyMGm-lS9Y",
+      "name": "Neon Puke",
+      "value": "#aaff00"
+    },
+    {
+      "id": "Iy-QkYGdIUvu4py4hO8eG",
+      "name": "Neon Yellow",
+      "value": "#fff200"
+    }
+  ],
+  "fileColors": [
+    {
+      "path": "SoloRPGs/Disciples of Bone and Shadow/PCs",
+      "color": "nJEclkhhQ8dfvQIwJ5pUX"
+    },
+    {
+      "path": "SoloRPGs/Disciples of Bone and Shadow/Tables",
+      "color": "cKjisgJPb38E_p10IXkjU"
+    },
+    {
+      "path": "SoloRPGs/Disciples of Bone and Shadow/Tables/DBS Exploration Tables.md",
+      "color": "1OoZmSTRNoCtkm3TX80Az"
+    },
+    {
+      "path": "SoloRPGs/Disciples of Bone and Shadow/DBS Roll Tables.md",
+      "color": "ZKjDKZTd9AbGk4tysDpD3"
+    },
+    {
+      "path": "SoloRPGs/Disciples of Bone and Shadow/Tables/DBS Tables.md",
+      "color": "edxRNdgoLWrBuhViPLWQj"
+    },
+    {
+      "path": "SoloRPGs/Disciples of Bone and Shadow/Maps/Interior Maps",
+      "color": "OF88jR0-B3HwVFkSaWDJM"
+    },
+    {
+      "path": "SoloRPGs/Disciples of Bone and Shadow/Maps",
+      "color": "4_vEmCvFDG2xa-RYIOJ3R"
+    },
+    {
+      "path": "SoloRPGs/Disciples of Bone and Shadow/DoBS Rules Reference",
+      "color": "yvtjG5SaZvMt9A_M5MVyQ"
+    },
+    {
+      "path": "SoloRPGs/Disciples of Bone and Shadow",
+      "color": "OF88jR0-B3HwVFkSaWDJM"
+    },
+    {
+      "path": "SoloRPGs/_Tokens",
+      "color": "VvRC_rOmMM_1Htw13dJDd"
+    },
+    {
+      "path": "SoloRPGs/_Templates",
+      "color": "zCktIUMr-bIdkFXD6hxqk"
+    },
+    {
+      "path": "SoloRPGs/_Bestiaries",
+      "color": "4_vEmCvFDG2xa-RYIOJ3R"
+    },
+    {
+      "path": "SoloRPGs/_ Assets",
+      "color": "nJEclkhhQ8dfvQIwJ5pUX"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers",
+      "color": "0auoW_nA8Che9PxJzMRJK"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers/Maps",
+      "color": "4_vEmCvFDG2xa-RYIOJ3R"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers/PCs",
+      "color": "HZFG4bZLp90SUEPF_flTK"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers/Rules Reference",
+      "color": "yvtjG5SaZvMt9A_M5MVyQ"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers/Tables",
+      "color": "rLOc6yV_O6S6HFVqmgU9g"
+    },
+    {
+      "path": "SoloRPGs/_Decks",
+      "color": "cKjisgJPb38E_p10IXkjU"
+    },
+    {
+      "path": "SoloRPGs/Broken Shores",
+      "color": "PUdtIij3CJ8Cij1VADjI9"
+    },
+    {
+      "path": "SoloRPGs/Broken Shores/PCs",
+      "color": "cKjisgJPb38E_p10IXkjU"
+    },
+    {
+      "path": "SoloRPGs/Broken Shores/Maps/Island Maps",
+      "color": "em1JXtknIpDa_79QQadUX"
+    },
+    {
+      "path": "SoloRPGs/Broken Shores/Maps",
+      "color": "4_vEmCvFDG2xa-RYIOJ3R"
+    },
+    {
+      "path": "SoloRPGs/Broken Shores/Tables",
+      "color": "qFjF3HNl1ByVLjOhkoH7B"
+    },
+    {
+      "path": "SoloRPGs/Disciples of Bone and Shadow/Tables/DBS Encounter Tables.md",
+      "color": "rLOc6yV_O6S6HFVqmgU9g"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers/Rules Reference/Riftbreakers House Rules.md",
+      "color": "zCktIUMr-bIdkFXD6hxqk"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers/Rules Reference/Table of Contents.md",
+      "color": "PxQVkfRiLdIylGAMknH8L"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers/Tables/General Tables.md",
+      "color": "1OoZmSTRNoCtkm3TX80Az"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers/Tables/Overworld Tables.md",
+      "color": "0auoW_nA8Che9PxJzMRJK"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers/Maps/Battlemaps",
+      "color": "nJEclkhhQ8dfvQIwJ5pUX"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers/Maps/Rift Maps",
+      "color": "HZFG4bZLp90SUEPF_flTK"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers/Maps/Overworld Maps",
+      "color": "SGVnnWlp6gUUQLOIV5yk9"
+    },
+    {
+      "path": "SoloRPGs/Ker Nethalas - Into the Midnight Throne",
+      "color": "-DyKPsmvPE4BMAhVpPv4q"
+    },
+    {
+      "path": "SoloRPGs/Disciples of Bone and Shadow/Maps/Overworld Maps",
+      "color": "HZFG4bZLp90SUEPF_flTK"
+    },
+    {
+      "path": "SoloRPGs/Disciples of Bone and Shadow/Tables/DBS GM Emulation.md",
+      "color": "kmf0tZAAlEbxjHLxDKfht"
+    },
+    {
+      "path": "SoloRPGs/Broken Shores/BS Rules Reference & House Rules",
+      "color": "HZFG4bZLp90SUEPF_flTK"
+    },
+    {
+      "path": "SoloRPGs/Broken Shores/PCs/Ivana's Raft.md",
+      "color": "4_vEmCvFDG2xa-RYIOJ3R"
+    },
+    {
+      "path": "SoloRPGs/Broken Shores/PCs/Ivana.md",
+      "color": "em1JXtknIpDa_79QQadUX"
+    },
+    {
+      "path": "SoloRPGs/Disciples of Bone and Shadow/DoBS Rules Reference/DoBS House Rules.md",
+      "color": "qFjF3HNl1ByVLjOhkoH7B"
+    },
+    {
+      "path": "SoloRPGs/Broken Shores/Maps/Interior Maps",
+      "color": "OF88jR0-B3HwVFkSaWDJM"
+    },
+    {
+      "path": "SoloRPGs/Broken Shores/Settlements & NPCs",
+      "color": "OF88jR0-B3HwVFkSaWDJM"
+    },
+    {
+      "path": "SoloRPGs/_Tokens/Hexes",
+      "color": "ZKjDKZTd9AbGk4tysDpD3"
+    },
+    {
+      "path": "SoloRPGs/Disciples of Bone and Shadow/Archive",
+      "color": "nJEclkhhQ8dfvQIwJ5pUX"
+    },
+    {
+      "path": "SoloRPGs/Disciples of Bone and Shadow/PCs/Hema.md",
+      "color": "4_vEmCvFDG2xa-RYIOJ3R"
+    },
+    {
+      "path": "SoloRPGs/Disciples of Bone and Shadow/Hema's Journal.md",
+      "color": "SGVnnWlp6gUUQLOIV5yk9"
+    },
+    {
+      "path": "SoloRPGs/Path of the Aram Thyr",
+      "color": "HZFG4bZLp90SUEPF_flTK"
+    },
+    {
+      "path": "SoloRPGs/Path of the Aram Thyr/PCs",
+      "color": "yvtjG5SaZvMt9A_M5MVyQ"
+    },
+    {
+      "path": "SoloRPGs/Path of the Aram Thyr/Tables/Rules Reference",
+      "color": "zCktIUMr-bIdkFXD6hxqk"
+    },
+    {
+      "path": "SoloRPGs/Path of the Aram Thyr/Tables/Rules Reference/Rules Reference Board.md",
+      "color": "SGVnnWlp6gUUQLOIV5yk9"
+    },
+    {
+      "path": "SoloRPGs/Path of the Aram Thyr/Tables",
+      "color": "rLOc6yV_O6S6HFVqmgU9g"
+    },
+    {
+      "path": "SoloRPGs/Path of the Aram Thyr/Téa'lad Kylha Journal.md",
+      "color": "HZFG4bZLp90SUEPF_flTK"
+    },
+    {
+      "path": "SoloRPGs/Path of the Aram Thyr/Tables/Aram Thyr Roll Tables.md",
+      "color": "ZKjDKZTd9AbGk4tysDpD3"
+    },
+    {
+      "path": "SoloRPGs/Path of the Aram Thyr/PCs/Téa'lad Kylha.md",
+      "color": "ZKjDKZTd9AbGk4tysDpD3"
+    },
+    {
+      "path": "SoloRPGs/Machine Gods of the Noxian Expanse",
+      "color": "ZKjDKZTd9AbGk4tysDpD3"
+    },
+    {
+      "path": "SoloRPGs/Machine Gods of the Noxian Expanse/Machine Gods Maps",
+      "color": "4_vEmCvFDG2xa-RYIOJ3R"
+    },
+    {
+      "path": "SoloRPGs/Machine Gods of the Noxian Expanse/PCs",
+      "color": "0auoW_nA8Che9PxJzMRJK"
+    },
+    {
+      "path": "SoloRPGs/Machine Gods of the Noxian Expanse/PCs/Gwynn.md",
+      "color": "ZKjDKZTd9AbGk4tysDpD3"
+    },
+    {
+      "path": "SoloRPGs/Machine Gods of the Noxian Expanse/Rules Reference",
+      "color": "edxRNdgoLWrBuhViPLWQj"
+    },
+    {
+      "path": "SoloRPGs/Machine Gods of the Noxian Expanse/Tables",
+      "color": "1OoZmSTRNoCtkm3TX80Az"
+    },
+    {
+      "path": "SoloRPGs/_Tokens/Map Symbols",
+      "color": "VvRC_rOmMM_1Htw13dJDd"
+    },
+    {
+      "path": "SoloRPGs/Ker Nethalas - Into the Midnight Throne/Nazkrig Journal.md",
+      "color": "4_vEmCvFDG2xa-RYIOJ3R"
+    },
+    {
+      "path": "SoloRPGs/Ker Nethalas - Into the Midnight Throne/Tables",
+      "color": "0auoW_nA8Che9PxJzMRJK"
+    },
+    {
+      "path": "SoloRPGs/Ker Nethalas - Into the Midnight Throne/PCs/Nazkrig.md",
+      "color": "HZFG4bZLp90SUEPF_flTK"
+    },
+    {
+      "path": "SoloRPGs/Ker Nethalas - Into the Midnight Throne/PCs",
+      "color": "zCktIUMr-bIdkFXD6hxqk"
+    },
+    {
+      "path": "SoloRPGs/Ker Nethalas - Into the Midnight Throne/Maps",
+      "color": "em1JXtknIpDa_79QQadUX"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers/Heart Abilities",
+      "color": "ZKjDKZTd9AbGk4tysDpD3"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers/PCs/Aria the Sinner",
+      "color": "OF88jR0-B3HwVFkSaWDJM"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers/PCs/Kyrielle the Mender.md",
+      "color": "VvRC_rOmMM_1Htw13dJDd"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers/PCs/Aria the Sinner/Aria the Sinner.md",
+      "color": "ZKjDKZTd9AbGk4tysDpD3"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers/PCs/Aria the Sinner/Aria the Sinner Achievements.md",
+      "color": "PxQVkfRiLdIylGAMknH8L"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers/Aria the Sinner Journal.md",
+      "color": "4_vEmCvFDG2xa-RYIOJ3R"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers/Tables/Rift Tables.md",
+      "color": "HZFG4bZLp90SUEPF_flTK"
+    },
+    {
+      "path": "SoloRPGs/Broken Shores/Ivana's Journal.md",
+      "color": "0auoW_nA8Che9PxJzMRJK"
+    },
+    {
+      "path": "SoloRPGs/Broken Shores/Maps/Interior Maps/The Lighthouse of Gothmog of Udun.md",
+      "color": "cKjisgJPb38E_p10IXkjU"
+    },
+    {
+      "path": "SoloRPGs/Broken Shores/Maps/Map of The One Sea.md",
+      "color": "yvtjG5SaZvMt9A_M5MVyQ"
+    },
+    {
+      "path": "SoloRPGs/Broken Shores/BS Table Rolls.md",
+      "color": "fWqjCE5W1xiSih8nP2WNA"
+    },
+    {
+      "path": "SoloRPGs/Path of the Aram Thyr/Maps/Overworld Maps/Gill’Séo.md",
+      "color": "-DyKPsmvPE4BMAhVpPv4q"
+    },
+    {
+      "path": "SoloRPGs/Path of the Aram Thyr/Maps/Overworld Maps/Ebon Hills.md",
+      "color": "OF88jR0-B3HwVFkSaWDJM"
+    },
+    {
+      "path": "SoloRPGs/Path of the Aram Thyr/Maps/Overworld Maps",
+      "color": "edxRNdgoLWrBuhViPLWQj"
+    },
+    {
+      "path": "SoloRPGs/Across A Thousand Dead Worlds",
+      "color": "e6mqIiJo0Bg9BlEVarX5d"
+    },
+    {
+      "path": "SoloRPGs/Across A Thousand Dead Worlds/Maps",
+      "color": "PUdtIij3CJ8Cij1VADjI9"
+    },
+    {
+      "path": "SoloRPGs/Across A Thousand Dead Worlds/PC/Green Trinity (KRM-01 “Circle”).md",
+      "color": "0auoW_nA8Che9PxJzMRJK"
+    },
+    {
+      "path": "SoloRPGs/Across A Thousand Dead Worlds/PC/Zina Tanova.md",
+      "color": "e6mqIiJo0Bg9BlEVarX5d"
+    },
+    {
+      "path": "SoloRPGs/Across A Thousand Dead Worlds/Zina Tanova Space Log.md",
+      "color": "UmVtOfxqzdsQurxhAX0BA"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers - Second Edition",
+      "color": "q7kuIQS0Z8Gphqus14kd9"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities",
+      "color": "rLOc6yV_O6S6HFVqmgU9g"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Might Heart",
+      "color": "rLOc6yV_O6S6HFVqmgU9g"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Restoration Heart",
+      "color": "UmVtOfxqzdsQurxhAX0BA"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Death Heart",
+      "color": "q7kuIQS0Z8Gphqus14kd9"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Arcane Heart",
+      "color": "HZFG4bZLp90SUEPF_flTK"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers - Second Edition/Maps",
+      "color": "HZFG4bZLp90SUEPF_flTK"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers - Second Edition/PCs",
+      "color": "cKjisgJPb38E_p10IXkjU"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers - Second Edition/Tables",
+      "color": "VvRC_rOmMM_1Htw13dJDd"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers - Second Edition/Aurielle Journal.md",
+      "color": "PUdtIij3CJ8Cij1VADjI9"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Weapon Strikes & Non-Heart Abilities",
+      "color": "PUdtIij3CJ8Cij1VADjI9"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Time Heart",
+      "color": "PxQVkfRiLdIylGAMknH8L"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Shadow Heart",
+      "color": "0o6HSq0bbqkfOVMovz-5y"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Ritual Heart",
+      "color": "yvtjG5SaZvMt9A_M5MVyQ"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Elemental Heart",
+      "color": "VvRC_rOmMM_1Htw13dJDd"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Devastation Heart",
+      "color": "fWqjCE5W1xiSih8nP2WNA"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Blade Heart",
+      "color": "x24JgSjNb4AWqWDgGNXSG"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Arrow Heart",
+      "color": "nJEclkhhQ8dfvQIwJ5pUX"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Bastion Heart",
+      "color": "PUdtIij3CJ8Cij1VADjI9"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map",
+      "color": "K5kMrPV45S_p-gsDXYx_V"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers - Second Edition/PCs/Azel.md",
+      "color": "x24JgSjNb4AWqWDgGNXSG"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Companion Loadout Abilities",
+      "color": "e6mqIiJo0Bg9BlEVarX5d"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers - Second Edition/PCs/Serayr.md",
+      "color": "e6mqIiJo0Bg9BlEVarX5d"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers - Second Edition/PCs/Aurielle's Large Spatial Bag.md",
+      "color": "PUdtIij3CJ8Cij1VADjI9"
+    },
+    {
+      "path": "SoloRPGs/Riftbreakers - Second Edition/Rules Reference",
+      "color": "yvtjG5SaZvMt9A_M5MVyQ"
+    },
+    {
+      "path": "SoloRPGs/Just One Torch",
+      "color": "qFjF3HNl1ByVLjOhkoH7B"
+    }
+  ]
+}

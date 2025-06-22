@@ -1,0 +1,19 @@
+{
+  "cssTheme": "AnuPpuccin",
+  "theme": "obsidian",
+  "accentColor": "#8624ff",
+  "monospaceFontFamily": "JetBrainsMono NF,GeistMono Nerd Font,IosevkaTerm Nerd Font Mono",
+  "interfaceFontFamily": "Atkinson Hyperlegible",
+  "enabledCssSnippets": [
+    "HideProps",
+    "numberblock",
+    "Greenprogress",
+    "pinkprogress",
+    "orangeprogress",
+    "CalloutTest",
+    "Center_Embed_Img"
+  ],
+  "baseFontSizeAction": true,
+  "baseFontSize": 21,
+  "textFontFamily": "iMWritingQuat Nerd Font,SN Pro,Atkinson Hyperlegible,JetBrainsMono NF"
+}

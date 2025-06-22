@@ -1,0 +1,5634 @@
+{
+  "monsters": [
+    [
+      "Ancient Golem",
+      {
+        "name": "Ancient Golem",
+        "layout": "Riftbreakers",
+        "description": "*A massive construct made of stone and metal, that can smash anything in its path with its powerful fists.*",
+        "Number": 1,
+        "Type": "Construct",
+        "Speed": 15,
+        "Size": "Large",
+        "Combat Skill": 10,
+        "Coordination": 35,
+        "Intellect": 20,
+        "Tenacity": 40,
+        "Vitality": 80,
+        "Health": 45,
+        "Armor": "D6",
+        "Perception": 40,
+        "traits": [
+          {
+            "name": "Special:",
+            "desc": "Resistant to Bludgeoning damage."
+          },
+          {
+            "name": "Apprentice Rank",
+            "desc": "90 Health, +2 damage, Combat Skill: +10"
+          },
+          {
+            "name": "Veteran Rank",
+            "desc": "135 Health, +3 damage, Combat Skill: +20"
+          },
+          {
+            "name": "Master Rank",
+            "desc": "180 Health, +4 damage, Combat Skill: +30"
+          }
+        ],
+        "actions": [
+          {
+            "name": "1-2",
+            "desc": "**Thunderous Slam:** The golem slams its fists onto the ground, creating a shockwave that deals D8+2 Bludgeoning damage to all creatures within a 15 m radius. Targets caught in the shockwave must make a Coordination check or be knocked Prone."
+          },
+          {
+            "name": "3-4",
+            "desc": "**Stone Fist:** The golem punches its target with its stone fist, dealing A massive construct made of stone and metal, that can smash anything in its path with its powerful fists.0+3 Bludgeoning damage. If the target is a structure or object, it takes double damage."
+          },
+          {
+            "name": "5",
+            "desc": "**Stone Shield:** The golem creates a shield, reducing all incoming damage by 50% until the start of its next turn. While the shield is active, any creature that hits the golem with a melee attack takes D6 Piercing damage."
+          },
+          {
+            "name": "6",
+            "desc": "**Meteor Strike:** The golem leaps into the air and crashes down onto its target, dealing 3D10 Bludgeoning damage. All creatures within a 10 m radius of the impact must make a Coordination check, a success reduces the damage taken by 50%. The golem takes D6 damage from the impact."
+          }
+        ],
+        "loot": [
+          {
+            "name": "1-30",
+            "desc": "20**⟑**"
+          },
+          {
+            "name": "31-40",
+            "desc": "10 units of a Random ore"
+          },
+          {
+            "name": "41-50",
+            "desc": "1xPotion"
+          },
+          {
+            "name": "51-55",
+            "desc": "Morphing Essence of Stamina"
+          },
+          {
+            "name": "56-72",
+            "desc": "Skill Book"
+          },
+          {
+            "name": "73-80",
+            "desc": "Armor Manual"
+          },
+          {
+            "name": "81-87",
+            "desc": "Essence. Roll on the Random Essence table"
+          },
+          {
+            "name": "88-95",
+            "desc": "Heart. Roll on the Random Heart table "
+          },
+          {
+            "name": "96-100",
+            "desc": "Random Magic Item"
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Cutpurse",
+      {
+        "name": "Cutpurse",
+        "layout": "Riftbreakers",
+        "description": "A nimble thief specialized in stealing valuables from their victims, preferably without them noticing.",
+        "Number": 3,
+        "Type": "Humanoid",
+        "Speed": 20,
+        "Size": "Medium",
+        "Combat Skill": 5,
+        "Coordination": 80,
+        "Intellect": 60,
+        "Tenacity": 20,
+        "Vitality": 40,
+        "Health": 15,
+        "Perception": 90,
+        "traits": [
+          {
+            "name": "Apprentice Rank",
+            "desc": "30 Health, +2 damage, Combat Skill: +10"
+          },
+          {
+            "name": "Veteran Rank",
+            "desc": "45 Health, +3 damage, Combat Skill: +20"
+          },
+          {
+            "name": "Master Rank",
+            "desc": "60 Health, +4 damage, Combat Skill: +30"
+          }
+        ],
+        "actions": [
+          {
+            "name": "1-2",
+            "desc": "**Quick Strike:** The cutpurse makes a quick strike with a small blade, dealing D4 Piercing damage to their target."
+          },
+          {
+            "name": "3-4",
+            "desc": "**Steal Item:** The cutpurse attempts to steal an item from their target. Make a Coordination vs Perception opposed check. On a success, the cutpurse successfully steals a small item from their target, such as a purse or piece of jewelry."
+          },
+          {
+            "name": "5",
+            "desc": "**Dirty Tricks:** The cutpurse throws dirst or sand in to the eyes of the target, Blinding them until the next turn."
+          },
+          {
+            "name": "6",
+            "desc": "**Shadow Step:** The cutpurse disappears into the shadows,becoming Concealed for 1 round. If they have stolen something during the fight, they leave combat."
+          }
+        ],
+        "loot": [
+          {
+            "name": "1-50",
+            "desc": "10**⟑**"
+          },
+          {
+            "name": "51-90",
+            "desc": "1x Potion"
+          },
+          {
+            "name": "91-100",
+            "desc": "Random Magic Item"
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Ancient Ent",
+      {
+        "name": "Ancient Ent",
+        "layout": "Riftbreakers",
+        "description": "A massive tree-like creature that guards primordial forests and ancient groves. It can uproot itself to attack intruders with its branches and massive body.",
+        "Number": 1,
+        "Type": "Plant",
+        "Speed": 15,
+        "Size": "Huge",
+        "Combat Skill": 10,
+        "Coordination": 30,
+        "Intellect": 20,
+        "Tenacity": 40,
+        "Vitality": 80,
+        "Health": 35,
+        "Armor": "D6",
+        "Perception": 40,
+        "traits": [
+          {
+            "name": "Special:",
+            "desc": "Vulnerable to Fire damage, Resistant to Bludgeoning damage."
+          },
+          {
+            "name": "Apprentice Rank",
+            "desc": "70 Health, +2 damage, Combat Skill: +10"
+          },
+          {
+            "name": "Veteran Rank",
+            "desc": "105 Health, +3 damage, Combat Skill: +20"
+          },
+          {
+            "name": "Master Rank",
+            "desc": "105 Health, +3 damage, Combat Skill: +20"
+          }
+        ],
+        "actions": [
+          {
+            "name": "1-3",
+            "desc": "**Sweeping blow:** The monster swings its branches against its target and another one adjacent to it, dealing D6+1 Bludgeoning damage."
+          },
+          {
+            "name": "4",
+            "desc": "**Strangling roots:** The monster spreads its roots towards its target, Entangling them. Each round a target remains Entangled, they suffer D4 Bludgeoning damage."
+          },
+          {
+            "name": "5-6",
+            "desc": "**Crush:** The Ent attempts to crush its target, dealing 2D8 Bludgeoning damage if it succeeds."
+          }
+        ],
+        "loot": [
+          {
+            "name": "1-30",
+            "desc": "20**⟑**"
+          },
+          {
+            "name": "31-40",
+            "desc": "1x Potion"
+          },
+          {
+            "name": "41-50",
+            "desc": "10 units of a Random Alchemical ingredient"
+          },
+          {
+            "name": "51-55",
+            "desc": "Enhanced Sickle"
+          },
+          {
+            "name": "56-72",
+            "desc": "Skill Book"
+          },
+          {
+            "name": "73-80",
+            "desc": "Weapon Manual"
+          },
+          {
+            "name": "81-87",
+            "desc": "Essence. Roll on the Random Essence table"
+          },
+          {
+            "name": "88-95",
+            "desc": "Heart. Roll on the Random Heart table "
+          },
+          {
+            "name": "96-98",
+            "desc": "Random Magic Item"
+          },
+          {
+            "name": "91-100",
+            "desc": "Growth Formula"
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Cactus Demon",
+      {
+        "name": "Cactus Demon",
+        "layout": "Riftbreakers",
+        "description": "A monstrous creature that resembles a giant cactus, with deadly  spines and tendrils that ensnare its prey.",
+        "Number": 1,
+        "Type": "Plant, Demon",
+        "Speed": 10,
+        "Size": "Large",
+        "Combat Skill": 10,
+        "Coordination": 30,
+        "Intellect": 20,
+        "Tenacity": 70,
+        "Vitality": 50,
+        "Health": 25,
+        "Perception": 40,
+        "traits": [
+          {
+            "name": "Special:",
+            "desc": "Vulnerable to Fire and Holy damage, Immune to Poison  damage."
+          },
+          {
+            "name": "Apprentice Rank",
+            "desc": "50 Health, +3 damage,Combat Skill: +10"
+          },
+          {
+            "name": "Veteran Rank",
+            "desc": "75 Health, +4 damage, Combat Skill: +20"
+          },
+          {
+            "name": "Master Rank",
+            "desc": "100 Health, +5 damage, Combat Skill: +30"
+          }
+        ],
+        "actions": [
+          {
+            "name": "1-2",
+            "desc": "**Needle Volley**: The cactus demon launches a volley of needle-like spines at a target within 20 m, dealing 2D6 Piercing damage. Any creature within 5 m of the target must make a Coordination check or take D6 Piercing damage as well."
+          },
+          {
+            "name": "3-4",
+            "desc": "**Ensnaring Tendrils**: The monster extends its tendrils towards a target within 10 m attempting to Ensnare them. The target must make a Brawn check or be restrained until the start of the cactus demon's next turn, taking D6 Piercing damage each round they remain restrained."
+          },
+          {
+            "name": "5",
+            "desc": "**Poisonous Thorns**: The cactus demon launches a barrage of thorns at a target within 20 m, dealing 2D6 Piercing damage and potentially poisoning the target. The target must make a Vitality check or take D6 Poison damage each round for the next 3 rounds."
+          },
+          {
+            "name": "6",
+            "desc": "**Root Bind**:The demon tendrils extend into the ground, wrapping around the legs of all creatures within a 10 m radius. Targets must make a Brawn check or become Entangled."
+          }
+        ],
+        "loot": [
+          {
+            "name": "1-30",
+            "desc": "20**⟑**"
+          },
+          {
+            "name": "31-40",
+            "desc": "10 units of a Random Alchemical ingredient"
+          },
+          {
+            "name": "41-50",
+            "desc": "1x Potion"
+          },
+          {
+            "name": "51-55",
+            "desc": "Alchemical formula. Roll on the Potions & Unguents table"
+          },
+          {
+            "name": "56-72",
+            "desc": "Skill Book"
+          },
+          {
+            "name": "73-80",
+            "desc": "Enhanced Sickle"
+          },
+          {
+            "name": "81-87",
+            "desc": "Essence. Roll on the Random Essence table"
+          },
+          {
+            "name": "88-95",
+            "desc": "Heart. Roll on the Random Heart table "
+          },
+          {
+            "name": "96-100",
+            "desc": "Random Magic Item"
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Mirage Phantom",
+      {
+        "name": "Mirage Phantom",
+        "layout": "Riftbreakers",
+        "description": "A ghostly apparition that haunts the desert, appearing as a mirage to lure travelers to their doom.",
+        "Number": 1,
+        "Type": "Undead",
+        "Speed": "40 (Flying)",
+        "Size": "Medium",
+        "Combat Skill": 10,
+        "Coordination": 35,
+        "Intellect": 20,
+        "Tenacity": 40,
+        "Vitality": 80,
+        "Health": 25,
+        "Perception": 40,
+        "traits": [
+          {
+            "name": "Special:",
+            "desc": "Immune to Bludgeoning, Necrotic and Poison damage, Immune to Charm, Vulnerable to Holy damage."
+          },
+          {
+            "name": "Apprentice Rank",
+            "desc": "50 Health, +2 damage, Combat Skill: +10"
+          },
+          {
+            "name": "Veteran Rank",
+            "desc": "75 Health, +3 damage, Combat Skill: +20 "
+          },
+          {
+            "name": "Master Rank",
+            "desc": "Master Rank: 90 Health, +4 damage, Combat Skill: +30"
+          }
+        ],
+        "actions": [
+          {
+            "name": "1-2",
+            "desc": "**Phantasmal Assault**: The phantom attacks its target with a barrage of ghostly strikes, dealing D6+2 Necrotic damage."
+          },
+          {
+            "name": "3-4",
+            "desc": "**Mirage Form**: The phantom shimmers and distorts, becoming blurry and difficult to hit. Until the start of its next turn, the phantom is Resistant to all damage."
+          },
+          {
+            "name": "5",
+            "desc": "**Sandstorm**: The phantom conjures a sandstorm, reducing the visibility of all creatures within a 15 m radius. All ranged attacks within the area suffer -20 until the end of the phantom's next turn. Additionally, creatures that start their turn within the sandstorm take D6 Necrotic damage as the phantom drains their life force."
+          },
+          {
+            "name": "6",
+            "desc": "**Illusory Oasis**: The phantom creates an illusory oasis, luring creatures towards it with the promise of water. Any creature that starts its turn within 10 m of the oasis must pass a Tenacity check or be Charmed by the phantom for 1 round. While charmed, the creature moves towards the oasis and takes no other actions. Additionally, any creature that enters the oasis takes D8 Necrotic damage as the phantom drains their life force."
+          }
+        ],
+        "loot": [
+          {
+            "name": "1-50",
+            "desc": "50**⟑**"
+          },
+          {
+            "name": "51-55",
+            "desc": "1xPotion"
+          },
+          {
+            "name": "56-72",
+            "desc": "Skill Book"
+          },
+          {
+            "name": "73-80",
+            "desc": "Morphing Essence of Stamina"
+          },
+          {
+            "name": "81-87",
+            "desc": "Essence. Roll on the Random Essence table"
+          },
+          {
+            "name": "88-95",
+            "desc": "Heart. Roll on the Random Heart table "
+          },
+          {
+            "name": "96-100",
+            "desc": "Random Magic Item"
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Blessed One",
+      {
+        "name": "Blessed One",
+        "layout": "DBS",
+        "type": "Humanoid (Elite)",
+        "loot": "Rare +5",
+        "DEF": "TL5",
+        "OFF": "TL10",
+        "damage": "1D4+TL1",
+        "hp": "12+TL20",
+        "awareness": 20,
+        "initiative": 12,
+        "traits": [
+          {
+            "name": "Special I:",
+            "desc": "On the Blessed One's turn, roll a D10. On a 1-4, it casts Shadow Flames instead of attacking."
+          },
+          {
+            "name": "Special II:",
+            "desc": "All the Blessed One’s physical attacks inflict the Chilled condition."
+          }
+        ],
+        "stats": [
+          10,
+          12,
+          12,
+          20,
+          18,
+          10
+        ],
+        "number": 1,
+        "skills": "Alchemy 50, Command Skills 25, Disguise 40, Forbidden Lore 70, Literacy 80, Persuasion 40, Perception 50",
+        "description": "A Blessed One is a true disciple of the Primordial Ones, an acolyte of the dark powers, slave to their own ambition. Their mind is fragmented but the pieces are still threaded together, leaving a sliver of humanity. These are some of the most dangerous spellcasters a person will find during their travels, and are commonly used by the Primordial Ones as agents when direct, decisive action is required.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Madari Rats",
+      {
+        "name": "Madari Rats",
+        "layout": "DBS",
+        "type": "Beast Morale -1",
+        "loot": "No Loot",
+        "DEF": "TL5",
+        "OFF": "TL5",
+        "damage": " 1+TL1",
+        "hp": "1+TL1",
+        "awareness": 18,
+        "initiative": 14,
+        "stats": [
+          4,
+          14,
+          4,
+          12,
+          4,
+          0
+        ],
+        "number": "2+TL1",
+        "description": "These giant rats were originally bred at the Madari Arena, hundreds of years ago. They were used to feed the giant lizards and other beasts that fought in forced combat during the reign of Ghatr the Execrable. Following the destruction of Madari, they escaped and have since thrived all over the region and beyond.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Risen (Drowned One)",
+      {
+        "name": "Risen (Drowned One)",
+        "layout": "DBS",
+        "type": "Undead (Common)",
+        "loot": "Valuable",
+        "DEF": 0,
+        "OFF": "TL5",
+        "damage": "D6+TL1",
+        "hp": "13+TL2",
+        "awareness": 5,
+        "initiative": 5,
+        "traits": [
+          {
+            "name": "Special:",
+            "desc": "Their attacks cause Rot (2) unless a CON test is passed. Nonstackable"
+          }
+        ],
+        "stats": [
+          12,
+          10,
+          13,
+          0,
+          0,
+          0
+        ],
+        "number": "1+TL1",
+        "description": "It is commonly said that the wandering dead far surpass the number of the living in the Whiteteeth Peninsula. Reanimated by accident or intentionally, these once- human creatures attack viciously any living thing that crosses their path. Many of the dead at sea return to the land of the living years after, some say trying to reunite with their loved ones, a will stronger than death.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Pale Ghar",
+      {
+        "name": "Pale Ghar",
+        "layout": "DBS",
+        "type": "Beast (Common)",
+        "loot": "No Loot, `dice:D10` claws that sell for 20 jats each",
+        "DEF": 0,
+        "OFF": "TL10",
+        "damage": "D4+TL1",
+        "hp": "15+TL10",
+        "awareness": 10,
+        "initiative": 18,
+        "traits": [
+          {
+            "name": "Special:",
+            "desc": "Their bite applies a poison that deals D4 damage every turn (nonstackable) unless a CON (-5) test is passed"
+          }
+        ],
+        "stats": [
+          12,
+          22,
+          15,
+          10,
+          2,
+          0
+        ],
+        "number": 1,
+        "description": "These lizards can grow to the size of a horse and use their dark, slick skin to hide in the shadows, waiting for the perfect opportunity to pounce over their unsuspecting prey. If their sharp fangs and claws aren't enough to finish a fight quickly, usually their poison finishes the job sooner or later.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Deathrot Crocodile",
+      {
+        "name": "Deathrot Crocodile",
+        "layout": "DBS",
+        "type": "Beast (Common)",
+        "loot": "Harvest, `dice:D10` claws that sell for 20 jats each",
+        "DEF": 0,
+        "OFF": "TL10",
+        "damage": "D6+TL1",
+        "hp": "15+TL10",
+        "awareness": 10,
+        "initiative": 18,
+        "traits": [
+          {
+            "name": "Bite:",
+            "desc": "Their powerful bite deals damage and applies a poison that deals D4 damage every turn (nonstackable) unless a CON (-5) test is passed."
+          },
+          {
+            "name": "Armor Penetration (1):",
+            "desc": "Their bite has a chance to ignore armor, dealing additional damage."
+          }
+        ],
+        "stats": [
+          12,
+          22,
+          15,
+          10,
+          2,
+          0
+        ],
+        "number": 1,
+        "description": "These massive crocodiles are known for their relentless nature and dangerous bite. They use their strength to maul prey, often applying poison to finish off injured enemies. Deathrot Crocodiles are typically found in swampy areas and are known to be quite aggressive, making them a formidable opponent in combat.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Fire Bats",
+      {
+        "name": "Fire Bats",
+        "layout": "DBS",
+        "type": "Beast (Vermin)",
+        "loot": "No Loot Morale test: -1",
+        "DEF": 0,
+        "OFF": 0,
+        "damage": "1+TL1",
+        "hp": "1+TL1",
+        "awareness": 10,
+        "initiative": 12,
+        "stats": [
+          1,
+          22,
+          2,
+          10,
+          2,
+          0
+        ],
+        "number": "`dice:D4`+TL1",
+        "traits": [],
+        "description": "An unfortunately common sight in most caves and ruins, these flying nightmares have a very painful bite that can easily become infected if not tended to immediately.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Tundra Rats",
+      {
+        "name": "Tundra Rats",
+        "layout": "DBS",
+        "type": "Beast (Common)",
+        "loot": "No Loot",
+        "DEF": 0,
+        "OFF": "TL10",
+        "damage": "D6+TL1",
+        "hp": "15+TL10",
+        "awareness": 18,
+        "initiative": 18,
+        "number": "1+TL1",
+        "stats": [
+          7,
+          12,
+          6,
+          12,
+          6,
+          0
+        ],
+        "traits": [],
+        "description": "tundra rats are small, icy creatures found in the frozen tundras of the northern regions. they are known for their ability to survive extreme cold and their relentless pursuit of prey.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Night Beetles",
+      {
+        "name": "Night Beetles",
+        "layout": "DBS",
+        "type": "Insect (Vermin)",
+        "loot": "No Loot",
+        "DEF": 0,
+        "OFF": "TL5",
+        "damage": "1+TL1",
+        "hp": "2+TL1",
+        "awareness": 10,
+        "initiative": 8,
+        "stats": [
+          2,
+          12,
+          3,
+          2,
+          1,
+          0
+        ],
+        "number": "1+TL1",
+        "description": "When these giant carnivorous insects attack, they swarm and go after prey much larger than themselves, usually taking them down with ease using their powerful mandibles.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Crawlers",
+      {
+        "name": "Crawlers",
+        "layout": "DBS",
+        "type": "Beast (Common)",
+        "loot": "Harvest, `dice:D6` fangs that sell for 25 jats each",
+        "DEF": "TL10",
+        "OFF": 0,
+        "damage": "D4+TL1",
+        "hp": "15+TL2",
+        "awareness": 15,
+        "initiative": 10,
+        "stats": [
+          16,
+          12,
+          15,
+          6,
+          3,
+          0
+        ],
+        "number": 1,
+        "description": "These armored beasts like to hide in dark, closed places like ruins and caves, where they find mosses and other vegetable matter to eat. Extremely territorial, they will immediately charge anyone or anything that comes near them. Their giant pincers can tear apart a grown man in minutes, so travelers tend to simply run away instead of confronting them.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Sun Reaper",
+      {
+        "name": "Sun Reaper",
+        "layout": "Riftbreakers",
+        "description": "A skeletal creature that thrives in the intense heat of the desert and wields a deadly scythe.",
+        "Number": 3,
+        "Type": "Undead Elemental",
+        "Speed": 15,
+        "Size": "Medium",
+        "Combat Skill": 5,
+        "Coordination": 20,
+        "Intellect": 40,
+        "Tenacity": 40,
+        "Vitality": 30,
+        "Health": 15,
+        "Armor": "D4",
+        "Perception": 40,
+        "traits": [
+          {
+            "name": "Special:",
+            "desc": "Immune to Fire damage, Charm, Poison and Disease, Vulnerable to Cold damage."
+          },
+          {
+            "name": "Apprentice Rank",
+            "desc": "30 Health, +2 damage, Combat Skill: +5"
+          },
+          {
+            "name": "Veteran Rank",
+            "desc": "45 Health, +3 damage, Combat Skill: +10"
+          },
+          {
+            "name": "Master Rank",
+            "desc": "Master Rank: 60 Health, +4 damage, Combat Skill: +15"
+          }
+        ],
+        "actions": [
+          {
+            "name": "1-2",
+            "desc": "**Scythe Swipe**: The sun reaper swings its scythe in a wide arc, dealing D8+1 Slashing damage to all creatures within 3 m of it."
+          },
+          {
+            "name": "3-4",
+            "desc": "**Heat Wave**: The sun reaper channels intense heat in a cone-shaped area up to 10 m long, forcing all creatures caught in it to make a Vitality check or take D6 Fire damage and be Blinded for one round."
+          },
+          {
+            "name": "5",
+            "desc": "**Soul Harvest**: The reaper targets a creature within melee range, dealing `dice:D10` Necrotic damage and healing itself for half the damage dealt. If the target is reduced to 0 Health, its soul is consumed by the sun reaper, which gains temporary Health equal to the target's maximum Health."
+          },
+          {
+            "name": "6",
+            "desc": "**Blazing Strike**: The sun reaper imbues its scythe with flames and delivers a powerful strike, dealing `dice:2D8` Fire damage on a hit. The target must make a Vitality check or catch on fire, taking `dice:D6` Fire damage at the start of each of its turns until it spends a Standard Action to extinguish the flames."
+          }
+        ],
+        "loot": [
+          {
+            "name": "1-50",
+            "desc": "50**⟑**"
+          },
+          {
+            "name": "51-55",
+            "desc": "1xPotion"
+          },
+          {
+            "name": "56-72",
+            "desc": "Skill Book"
+          },
+          {
+            "name": "73-80",
+            "desc": "Morphing Essence of Aether"
+          },
+          {
+            "name": "81-87",
+            "desc": "Essence. Roll on the Random Essence table"
+          },
+          {
+            "name": "88-95",
+            "desc": "Heart. Roll on the Random Heart table "
+          },
+          {
+            "name": "96-100",
+            "desc": "Random Magic Item"
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Sand Goliath",
+      {
+        "name": "Sand Goliath",
+        "layout": "Riftbreakers",
+        "description": "A massive, towering beast made of living sand that crushes everything in its path, constantly reforming and falling apart.",
+        "Number": 1,
+        "Type": "Construct, Elemental",
+        "Speed": 15,
+        "Size": "Large",
+        "Combat Skill": 10,
+        "Coordination": 40,
+        "Intellect": 20,
+        "Tenacity": 50,
+        "Vitality": 80,
+        "Health": 40,
+        "Armor": "D8",
+        "Perception": 40,
+        "traits": [
+          {
+            "name": "Special:",
+            "desc": "Immune to Poison damage and Charm."
+          },
+          {
+            "name": "Apprentice Rank",
+            "desc": "Rank: 80 Health, +2 damage, Combat Skill: +10"
+          },
+          {
+            "name": "Veteran Rank",
+            "desc": "120 Health, +3 damage, Combat Skill: +20"
+          },
+          {
+            "name": "Master Rank",
+            "desc": "Master Rank: 160 Health, +4 damage, Combat Skill: +30"
+          }
+        ],
+        "actions": [
+          {
+            "name": "1-2",
+            "desc": "**Sandstorm:** The sand goliath creates a fierce sandstorm that deals `dice:D6+1` Earth damage to all creatures within a 10 m radius. Targets caught in the storm must make a Brawn check or be pushed back 5 meters and knocked Prone."
+          },
+          {
+            "name": "3-4",
+            "desc": "**Sand Blast:** The goliath launches a powerful blast of sand at its target, dealing `dice:D8+2` Bludgeoning damage and Blinding them for 1 round unless they pass a Vitality check."
+          },
+          {
+            "name": "5",
+            "desc": "**Reformation:** The sand goliath reforms itself, restoring D10 Health and gaining temporary Health equal to the amount healed. While its temporary Health is active, the goliath gains resistance to all damage."
+          },
+          {
+            "name": "6",
+            "desc": "**Sand Trap:** The sand goliath creates a large sinkhole, pulling all creatures within a 10 m radius into the sand. Targets caught in the trap suffer `dice:D12` Bludgeoning damage and are Entangled."
+          }
+        ],
+        "loot": [
+          {
+            "name": "1-30",
+            "desc": "20**⟑**"
+          },
+          {
+            "name": "31-50",
+            "desc": "10 units of a Random Alchemical ingredient"
+          },
+          {
+            "name": "51-55",
+            "desc": "1xPotion"
+          },
+          {
+            "name": "56-72",
+            "desc": "Skill Book"
+          },
+          {
+            "name": "73-80",
+            "desc": "Alchemical formula. Roll on the Potions & Unguents table"
+          },
+          {
+            "name": "81-87",
+            "desc": "Essence. Roll on the Random Essence table"
+          },
+          {
+            "name": "88-95",
+            "desc": "Heart. Roll on the Random Heart table "
+          },
+          {
+            "name": "96-100",
+            "desc": "Random Magic Item"
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Steel Deer",
+      {
+        "name": "Steel Deer",
+        "layout": "DBS",
+        "type": "Beast (Common)",
+        "loot": "No loot. Antlers sell for 300 jats",
+        "DEF": "TL5",
+        "OFF": "TL5",
+        "damage": "D6+TL1",
+        "hp": "8+TL10",
+        "awareness": 25,
+        "initiative": 18,
+        "traits": [
+          {
+            "name": "Special I:",
+            "desc": "Armor Penetration (1)."
+          }
+        ],
+        "stats": [
+          12,
+          20,
+          8,
+          8,
+          5,
+          0
+        ],
+        "number": 1,
+        "description": "These fragile but majestic creatures are hunted all across the Whiteteeth Peninsula for their valuable antlers, strong as steel and a key component in lots of weapons and tools used.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Nomad",
+      {
+        "name": "Nomad",
+        "layout": "DBS",
+        "type": "Humanoid (Common/Elite)",
+        "loot": "Common loot",
+        "DEF": "TL5",
+        "OFF": "TL5",
+        "damage": "1+TL1",
+        "hp": "15+TL5",
+        "awareness": 20,
+        "initiative": 12,
+        "stats": [
+          14,
+          14,
+          15,
+          13,
+          12,
+          12
+        ],
+        "number": 1,
+        "skills": "Animal Handling 60, Dodge 50, Literacy 10, One-Handed Weapon 60, Persuasion 20, Perception 60, Tracking 60, Orientation 60, Sailing 40, Traditional Lore 40, Herb Lore 40, Outdoor Survival 40, Crafting 60, First Aid 40, Ranged Weapon 60",
+        "gear": "Knife, Long Bow (`dice:d100' 50% chance), Light leather armor",
+        "description": "The average inhabitant of the Whiteteeth Peninsula is used to living a rough life where they must fight to get everything they have. Their lack of initiative is only surpassed by their determination; above all, they are survivors.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Predatory Vine",
+      {
+        "name": "Predatory Vine",
+        "layout": "DBS",
+        "type": "Plant (Common)",
+        "loot": "Valuable loot",
+        "DEF": 0,
+        "OFF": "TL10",
+        "damage": "D4+TL2",
+        "hp": "15+TL5",
+        "awareness": 10,
+        "initiative": 10,
+        "traits": [
+          {
+            "name": "Special I:",
+            "desc": "Roll a `dice:D10` every turn: on a roll of 1-2, the Predatory Vine attempts to entangle a random character instead of attacking. The character performs a DEX Test. If they fail, they are trapped and cannot attack, and the Predatory Vine will focus on the other characters. Each turn, the trapped character may roll against DEX (-3) to release themselves. If all characters become trapped, the Predatory Vine will attack them until they are all dead. While trapped, characters may not use defensive skills, only armor bonuses are applied."
+          }
+        ],
+        "stats": [
+          22,
+          12,
+          15,
+          2,
+          0,
+          0
+        ],
+        "number": 1,
+        "description": "Only found in the deepest and darkest of marshes and swamps, these deadly plants feed on any living creature foolish enough to approach their ordinary-looking leaves and vines. Sensing their prey through the vibrations caused by passing nearby, these plants will immediately shoot their vines, acting as tentacles that will strangle and constrict the hapless victim, until it can be slowly absorbed by it.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Skeba",
+      {
+        "name": "Skeba",
+        "layout": "DBS",
+        "type": "Beast (Common)",
+        "loot": "No Loot",
+        "DEF": "TL5",
+        "OFF": "TL5",
+        "damage": "D6",
+        "hp": "10+TL5",
+        "awareness": 30,
+        "initiative": 18,
+        "stats": [
+          12,
+          20,
+          10,
+          7,
+          6,
+          0
+        ],
+        "number": 2,
+        "description": "Terrifying and deadly, these three-eyed birds of prey hunt always in pairs; while one harasses their chosen prey from the front the other one attacks from behind, usually finishing the job. Their large size (as tall as a standing man) allows them to go after all types of prey, including unsuspected humans.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Wild Ghaln",
+      {
+        "name": "Wild Ghaln",
+        "layout": "DBS",
+        "type": "Beast",
+        "loot": "No Loot, Skin may be sold for 100 jats",
+        "DEF": "TL5",
+        "OFF": 0,
+        "damage": "D4+TL1",
+        "hp": "20+TL10",
+        "awareness": 15,
+        "initiative": 14,
+        "traits": [
+          {
+            "name": "Special I:",
+            "desc": "Armor (2)"
+          }
+        ],
+        "stats": [
+          22,
+          14,
+          20,
+          10,
+          5,
+          0
+        ],
+        "number": "D4",
+        "description": "Ghalns are the backbone of many societies in the Whiteteeth Peninsula, especially in Shadowstretch. Although domesticated Ghalns are docile, gentle beasts, their wild cousins are highly territorial. Generally living in small herds dominated by an alpha male, when faced with a thread the females and small ones will run away, while the male ones will charge without hesitation. Their rough skin allows them to face predators that otherwise would have no problem dealing with these (usually) calm creatures.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Acolyte",
+      {
+        "name": "Acolyte",
+        "layout": "DBS",
+        "type": "Humanoid (Common/Elite)",
+        "loot": "Valuable loot",
+        "DEF": "TL5",
+        "OFF": "TL5",
+        "damage": "D6",
+        "hp": "12+TL3",
+        "awareness": 20,
+        "initiative": 10,
+        "traits": [
+          {
+            "name": "Special I:",
+            "desc": "Knows D6 random Primordial spells. If it's an offensive one, they'll cast it on a roll of 1-2 on a D10."
+          }
+        ],
+        "stats": [
+          12,
+          12,
+          12,
+          18,
+          18,
+          12
+        ],
+        "number": 1,
+        "skills": "Command Skills 75, Dodge 60, Literacy 80, Persuasion 80, Perception 60, Tracking 20, One-Handed Weapon 40, Orientation 20, Traditional Lore 60, Forbidden Knowledge 60, Herb Lore 50, Alchemy 60",
+        "gear": "Iron dagger, Mail armor, horse",
+        "description": "Coming across the path of someone who's walking the path of the Primordial Ones is never good news. It may be someone who has just started their path towards damnation, or it may be someone who has been corrupted for years and no longer sees other humans as their kin; whatever the case, these power-hungry individuals are usually bad news, and one can expect to feel their wrath if their demands are not met.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Dusk Blade",
+      {
+        "name": "Dusk Blade",
+        "layout": "DBS",
+        "type": "Humanoid (Common/Elite)",
+        "loot": "Common loot +5",
+        "DEF": "TL5",
+        "OFF": "TL5",
+        "damage": "D6",
+        "hp": "14+TL10",
+        "awareness": 18,
+        "initiative": 14,
+        "stats": [
+          16,
+          16,
+          14,
+          12,
+          10,
+          10
+        ],
+        "number": 1,
+        "skills": "Command Skills 25, Literacy 20, One-Handed Weapon 80, Parry 60, Persuasion 40, Perception 60, Tracking 80, Orientation 70, First Aid 40",
+        "gear": "Light leather armor, Helmet, One-handed Shalvan Wood sword, Shield",
+        "description": "The backbone of Madari's military, as well as their city guard, Dusk Blades are among the best trained and equipped troops in all of the Whiteteeth Peninsula. Their rigid military hierarchy ensures they listen to their commanding officer, and groups of dusk blades are a common sight in the lands surrounding Madari, both hunting for escaped slaves and to ensure the safety of the land.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Deathless Guardian",
+      {
+        "name": "Deathless Guardian",
+        "layout": "Broken_Shores",
+        "type": "Undead Humanoid",
+        "loot": "50% Valuable Loot Drop",
+        "number": "`dice:D4`",
+        "armor": "D8",
+        "hp": "15",
+        "dodge": "40%",
+        "perception": "30%",
+        "parry": "No",
+        "traits": [
+          {
+            "name": "Attack:",
+            "desc": "War Pick 50% (D6+2 bludgeoning damage)"
+          },
+          {
+            "name": "Special:",
+            "desc": "Immune to morale effects, poisons, and bleeding"
+          }
+        ],
+        "stats": [
+          14,
+          7,
+          12,
+          12,
+          10,
+          1
+        ],
+        "description": "Undying abominations brought to life through vile sorcery.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Giant Mosquitoes",
+      {
+        "name": "Giant Mosquitoes",
+        "layout": "DBS",
+        "type": "Insect (Vermin)",
+        "loot": "No Loot",
+        "DEF": "TL5",
+        "OFF": "TL5",
+        "damage": "1+TL1",
+        "hp": "1",
+        "awareness": 18,
+        "initiative": 18,
+        "traits": [
+          {
+            "name": "Special:",
+            "desc": "May inflict Rot (1) on a roll of 1 in a D20 each time they successfully damage a character."
+          }
+        ],
+        "stats": [
+          1,
+          16,
+          1,
+          2,
+          1,
+          0
+        ],
+        "number": "3+TL1",
+        "description": "These ever-present pests, the size of fists, are found in all corners of the Whiteteeth Peninsula, where they feed on any living creature they can find. They swarm their victims with a ferocity rarely seen on a creature their size, especially right after a big storm. The worst part is that their bite can transmit a particularly nasty disease that rots the flesh, this being the reason why they are killed on sight by any sane person.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Ice Leeches",
+      {
+        "name": "Ice Leeches",
+        "layout": "DBS",
+        "type": "Abomination (Vermin)",
+        "loot": "No Loot",
+        "DEF": "TL1",
+        "OFF": "TL1",
+        "damage": "1+TL2",
+        "hp": "2+TL1",
+        "awareness": 10,
+        "initiative": 8,
+        "stats": [
+          3,
+          22,
+          3,
+          6,
+          4,
+          0
+        ],
+        "number": "1+TL1",
+        "description": "These pernicious creatures live in small burrows, preferably created in the ice or snow. They can sense the heat of living creatures, waiting for the last second to jump out of their hiding place and attach themselves to the victim, sucking it dry of blood.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Spawnlings of Vhol'est",
+      {
+        "name": "Spawnlings of Vhol'est",
+        "layout": "DBS",
+        "hp": "2+TL2",
+        "awareness": 10,
+        "initiative": 8,
+        "DEF": "TL5",
+        "OFF": "TL5",
+        "damage": "2+TL2",
+        "type": "Abomination (Elite)",
+        "loot": "No Loot",
+        "stats": [
+          6,
+          5,
+          6,
+          12,
+          8,
+          0
+        ],
+        "number": "D4+TL1",
+        "description": "While the origin of these twisted and ever-changing creatures is unknown, it is clear they are not native to any region known to man. Somewhat weak in their infancy, they survive by hunting in groups which decrease in number as they age, as they betray their own and devour one another. The survivor will then become a terrifying (and lethal) sight for anyone unfortunate enough to cross its path.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Cannibal (Common)",
+      {
+        "name": "Cannibal (Common)",
+        "layout": "DBS",
+        "type": "Humanoid",
+        "loot": "Common loot.",
+        "DEF": "TL5",
+        "OFF": "TL5",
+        "damage": "D6",
+        "hp": "15+TL10",
+        "awareness": 20,
+        "initiative": 14,
+        "stats": [
+          16,
+          16,
+          15,
+          13,
+          8,
+          3
+        ],
+        "number": 1,
+        "skills": "Dodge 50, Perception 80, Tracking 80, One-Handed Weapon 80, Orientation 80, Herb Lore 50, Outdoor Survival 80, First Aid 40",
+        "gear": "Knife",
+        "description": "Life is harsh in the Whiteteeth Peninsula, and many of its inhabitants cannot cope with the pressure. The lands are filled with deranged, dangerous people who sometimes group together, casting most of their humanity aside. These quasi-bestial individuals are feared by all due to their unpredictability, relentlessness, and viciousness, and taste for human flesh. There are rumors of cannibal cults in remote areas, but no proof of any organized groups has been found so far.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Deathless Captain",
+      {
+        "name": "Deathless Captain",
+        "layout": "Broken_Shores",
+        "type": "Undead Humanoid",
+        "loot": "80% Valuable Loot Drop",
+        "stats": [
+          16,
+          8,
+          14,
+          12,
+          10,
+          1
+        ],
+        "hp": "15",
+        "armor": "D8",
+        "number": "1",
+        "traits": [
+          {
+            "name": "Attack:",
+            "desc": "Rusty Blade 60% (D8 slashing damage)"
+          },
+          {
+            "name": "Special:",
+            "desc": "Immune to morale effects, poisons, and bleeding"
+          }
+        ],
+        "dodge": "40%",
+        "perception": "50%",
+        "parry": "Yes",
+        "description": "The captain of Armestus’ city guard, once proud and loyal, now rotting and full of rage.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Rotting Amalgamation",
+      {
+        "name": "Rotting Amalgamation",
+        "layout": "Broken_Shores",
+        "type": "Undead Humanoid",
+        "loot": "80% Mundane Loot Drop",
+        "stats": [
+          15,
+          7,
+          10,
+          8,
+          5,
+          1
+        ],
+        "hp": "20",
+        "armor": "D4",
+        "number": "2",
+        "traits": [
+          {
+            "name": "Attack I:",
+            "desc": "Pummel 70% (D8 bludgeoning damage)"
+          },
+          {
+            "name": "Special:",
+            "desc": "Immune to morale effects, poisons, and bleeding"
+          }
+        ],
+        "dodge": "20%",
+        "perception": "30%",
+        "parry": "No",
+        "description": "Piles of human corpses that have meld together into a grotesque mass of semi-liquid organic matter.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Rotting Dead",
+      {
+        "name": "Rotting Dead",
+        "layout": "Broken_Shores",
+        "type": "Undead Humanoid",
+        "loot": "50% Mundane Loot Drop",
+        "stats": [
+          10,
+          7,
+          10,
+          8,
+          10,
+          1
+        ],
+        "hp": "10",
+        "armor": "D4",
+        "number": "`dice:D4`",
+        "traits": [
+          {
+            "name": "Attack:",
+            "desc": "Fist 50% (D4+1 bludgeoning damage)"
+          },
+          {
+            "name": "Special:",
+            "desc": "Immune to morale effects, poisons and bleeding"
+          }
+        ],
+        "dodge": "40%",
+        "perception": "30%",
+        "parry": "No",
+        "description": "This is all that’s left of the once proud citizens of Egrastea shambling, mindless, bloated corpses.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Stone Warden",
+      {
+        "name": "Stone Warden",
+        "layout": "Broken_Shores",
+        "type": "Undead",
+        "loot": "40% Valuable Loot Drop",
+        "stats": [
+          10,
+          14,
+          12,
+          18,
+          12,
+          1
+        ],
+        "hp": "12",
+        "armor": "D4-1",
+        "number": "1",
+        "traits": [
+          {
+            "name": "Attack:",
+            "desc": "Ethereal Grasp 60% (2D4+1 necrotic damage)"
+          },
+          {
+            "name": "Special:",
+            "desc": "Immune to all morale effects. Receives half damage from non-magical attacks."
+          }
+        ],
+        "dodge": "40%",
+        "perception": "40%",
+        "parry": "No",
+        "description": "A ghastly apparition that still clings to the remnants of their past life.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Stormcrab",
+      {
+        "name": "Stormcrab",
+        "layout": "Broken_Shores",
+        "type": "Animal",
+        "loot": "Can be harvested",
+        "stats": [
+          21,
+          15,
+          16,
+          8,
+          5,
+          1
+        ],
+        "hp": "10",
+        "armor": "D8",
+        "number": "1",
+        "traits": [
+          {
+            "name": "Attack:",
+            "desc": "Claw 60% (D10 bludgeoning damage, +2 air damage"
+          }
+        ],
+        "dodge": "20%",
+        "perception": "30%",
+        "parry": "No",
+        "description": "Stormcrab are a common threat near coasts and shallow waters, relying on their thick carapace and air affinity to go after all sorts of prey.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Skeleton",
+      {
+        "name": "Skeleton",
+        "layout": "Broken_Shores",
+        "type": "Undead Humanoid",
+        "loot": "40% Valuable Loot Drop",
+        "stats": [
+          12,
+          8,
+          10,
+          10,
+          5,
+          1
+        ],
+        "hp": "5",
+        "armor": "D4",
+        "number": "`dice:D4`",
+        "traits": [
+          {
+            "name": "Attack I:",
+            "desc": "Rusty Blade 40% (D8 slashing damage)"
+          },
+          {
+            "name": "Special:",
+            "desc": "Immune to morale effects, poisons, and bleeding"
+          }
+        ],
+        "dodge": "40%",
+        "perception": "50%",
+        "parry": "Yes",
+        "description": "Animated bones and sinews, barely capable of holding a weapon together, yet still deadly.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Deathless Warrior",
+      {
+        "name": "Deathless Warrior",
+        "layout": "Broken_Shores",
+        "type": "Undead Humanoid",
+        "loot": "80% Valuable Loot Drop",
+        "stats": [
+          16,
+          12,
+          14,
+          12,
+          10,
+          1
+        ],
+        "hp": "12",
+        "armor": "D8",
+        "number": "1",
+        "traits": [
+          {
+            "name": "Attack:",
+            "desc": "Two-handed axe 60% (D10+1 slashing damage)"
+          },
+          {
+            "name": "Special:",
+            "desc": "Immune to morale effects, poisons, and bleeding"
+          }
+        ],
+        "dodge": "50%",
+        "perception": "50%",
+        "parry": "No",
+        "description": "A warrior of superb skill, now condemned to forever fight the living after its death.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Fire Elemental",
+      {
+        "name": "Fire Elemental",
+        "layout": "Broken_Shores",
+        "type": "Elemental",
+        "loot": "10% Fire Elemental Essence Loot Drop",
+        "stats": [
+          14,
+          16,
+          14,
+          12,
+          12,
+          3
+        ],
+        "hp": "20",
+        "armor": "D4",
+        "number": "1",
+        "traits": [
+          {
+            "name": "Attack I:",
+            "desc": "Fire Blast 80% (Ranged, 2D6 fire damage)"
+          },
+          {
+            "name": "Attack II:",
+            "desc": "Flaming Fist 60% (D6+2 fire damage)"
+          },
+          {
+            "name": "Special:",
+            "desc": "Immune to non-magical attacks and fire attacks. Vulnerable to water damage."
+          }
+        ],
+        "dodge": "50%",
+        "perception": "30%",
+        "parry": "No",
+        "description": "A shape-shifting, animated being that alternates moving like a flickering flame or a raging firestorm.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Giant Spider",
+      {
+        "name": "Giant Spider",
+        "layout": "Broken_Shores",
+        "type": "Animal",
+        "loot": "40% Valuable Loot Drop",
+        "stats": [
+          14,
+          16,
+          14,
+          10,
+          10,
+          3
+        ],
+        "hp": "20",
+        "number": "`dice:D4`",
+        "traits": [
+          {
+            "name": "Attack I:",
+            "desc": "50% Bite (2D4 piercing damage)"
+          },
+          {
+            "name": "Special:",
+            "desc": "Poisonous: If a character is bitten by a Giant Spider, they must pass a Vitality Check (Demanding -10). Failure means suffering D6 poison damage instantly and the loss of 1 CHA from scarring in D6 days, unless an antidote is found."
+          }
+        ],
+        "dodge": "40%",
+        "perception": "60%",
+        "parry": "No",
+        "description": "These dangerous beasts lurk in caves and forgotten ruins, eating anything that crosses their path. They usually prefer to wait for their prey to come to them, but there are some cases of Drifters swearing they were chased by particularly vicious individuals.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Monstrous Frog",
+      {
+        "name": "Monstrous Frog",
+        "layout": "Broken_Shores",
+        "type": "Animal",
+        "loot": "50% Mundane Loot Drop",
+        "stats": [
+          14,
+          14,
+          10,
+          7,
+          8,
+          1
+        ],
+        "hp": "15",
+        "number": "`dice:D4+1`",
+        "traits": [
+          {
+            "name": "Attack:",
+            "desc": "60% Bite (2D4 piercing damage)"
+          },
+          {
+            "name": "Special:",
+            "desc": "Immune to water attacks. Vulnerable to fire damage."
+          }
+        ],
+        "dodge": "60%",
+        "perception": "40%",
+        "parry": "No",
+        "description": "These large amphibious inhabit anywhere where water and land meet. They are surprisingly vicious carnivores that devour their prey whole in a single movement.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Ghast",
+      {
+        "name": "Ghast",
+        "layout": "Broken_Shores",
+        "type": "Undead Humanoid",
+        "loot": "50% Valuable Loot Drop",
+        "stats": [
+          10,
+          11,
+          10,
+          10,
+          4,
+          0
+        ],
+        "hp": "15",
+        "armor": "D4",
+        "number": "`dice:D4`",
+        "traits": [
+          {
+            "name": "Attack I:",
+            "desc": "Claws 60% (D4 slashing damage)"
+          },
+          {
+            "name": "Attack II:",
+            "desc": "Bite(every other round) 50% (D8 piercing damage)"
+          },
+          {
+            "name": "Special I:",
+            "desc": "Paralyzing Bite: After being bitten by a Ghast, the victim must pass a Vitality Check or become paralyzed for D4 rounds."
+          },
+          {
+            "name": "Special II:",
+            "desc": "Immune to morale effects, poisons, and bleeding"
+          }
+        ],
+        "dodge": "40%",
+        "perception": "50%",
+        "parry": "No",
+        "description": "*Ghasts are powerful spirits that have taken over a corpse long enough to make it their own, deepening their connection to the material world. They are fast moving, vicious predators that will attack and kill anything in their way.*",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Deathless Sorcerer",
+      {
+        "name": "Deathless Sorcerer",
+        "layout": "Broken_Shores",
+        "type": "Undead Humanoid",
+        "loot": "70% Valuable Loot Drop",
+        "stats": [
+          10,
+          10,
+          12,
+          20,
+          18,
+          1
+        ],
+        "hp": "12",
+        "armor": "1",
+        "number": "1",
+        "traits": [
+          {
+            "name": "Attack I:",
+            "desc": "Dagger 40% (D4+1 piercing damage)"
+          },
+          {
+            "name": "Attack II:",
+            "desc": "Will cast Stun and Flaming Hands every second round. +30 to the Spell Effect roll."
+          },
+          {
+            "name": "Special:",
+            "desc": "Immune to morale effects, poisons, and bleeding."
+          }
+        ],
+        "dodge": "40%",
+        "perception": "30%",
+        "parry": "No",
+        "description": "A twisted mockery of life, even more powerful in death.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Sea Hag",
+      {
+        "name": "Sea Hag",
+        "layout": "Broken_Shores",
+        "type": "Aberration",
+        "loot": "70% Valuable Loot Drop",
+        "stats": [
+          10,
+          9,
+          12,
+          20,
+          18,
+          0
+        ],
+        "hp": "15",
+        "armor": "2",
+        "number": "1",
+        "traits": [
+          {
+            "name": "Attack I:",
+            "desc": "Dagger 40% (D4+1 piercing damage)"
+          },
+          {
+            "name": "Attack II:",
+            "desc": "Will cast Drown every second round. +30 to the Spell Effect roll."
+          },
+          {
+            "name": "Special:",
+            "desc": "Hideous visage: Anyone who looks at a sea hag must pass a Tenacity check or be weakened (–20 penalty to attacks) for 1d6 turns."
+          }
+        ],
+        "dodge": "40%",
+        "perception": "30%",
+        "parry": "No",
+        "description": "Ghastly, green-skinned, weed-festooned crones who crave humanoid flesh. Dwell in seaweed forests in warm waters.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Giant Jellyfish",
+      {
+        "name": "Giant Jellyfish",
+        "layout": "Broken_Shores",
+        "type": "Animal",
+        "loot": "Can be harvested",
+        "stats": [
+          12,
+          12,
+          12,
+          10,
+          3,
+          1
+        ],
+        "hp": "20",
+        "number": "1",
+        "traits": [
+          {
+            "name": "Attack:",
+            "desc": "Tentacle 80% (D4+1 bludgeoning damage)"
+          },
+          {
+            "name": "Special:",
+            "desc": "Attacks twice per round. After each attack the victim must pass a Vitality Check or become paralyzed for D6 rounds."
+          }
+        ],
+        "dodge": "40%",
+        "perception": "50%",
+        "parry": "No",
+        "description": "Huge, transparent sea creatures which float near the surface of warm seas. Have 40 tentacles (each 100’ long) which drift through the surrounding waters, seeking prey.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Afrana",
+      {
+        "name": "Afrana",
+        "layout": "Broken_Shores",
+        "type": "Aberration",
+        "loot": "20% Valuable Loot Drop",
+        "stats": [
+          12,
+          12,
+          12,
+          10,
+          10,
+          1
+        ],
+        "hp": "10",
+        "number": "`dice:D4`",
+        "traits": [
+          {
+            "name": "Attack I:",
+            "desc": "Spear 50% (D6+1 piercing damage)"
+          },
+          {
+            "name": "Attack II:",
+            "desc": " Tentacle 80% (D4+2 bludgeoning damage)"
+          },
+          {
+            "name": "Special:",
+            "desc": "Special"
+          }
+        ],
+        "dodge": "40%",
+        "perception": "60%",
+        "parry": "No",
+        "description": "Strange, ocean-dwelling humanoid creatures with a mass of writhing tentacles waist down.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Ebonlodon",
+      {
+        "name": "Ebonlodon",
+        "layout": "Broken_Shores",
+        "type": "Aberration",
+        "loot": "Special, Two chances 80% Valuable Loot Drop",
+        "stats": [
+          20,
+          18,
+          16,
+          14,
+          18,
+          1
+        ],
+        "hp": "40",
+        "armor": "D8",
+        "number": "1",
+        "traits": [
+          {
+            "name": "Attack:",
+            "desc": "Bite 80% (D10+2 damage)"
+          },
+          {
+            "name": "Special I:",
+            "desc": "**Terrifying**, at the start of combat the PC must pass a Tencity check or suffer the effects of *Fear* for D4 Rounds."
+          },
+          {
+            "name": "Special II:",
+            "desc": "Every other round there is a 50% chance Ebonlodon will ram your raft, causing 1 Hull damage and you must pass a Coordination Check or be thrown into the water. If thrown into the water PC must pass Athletics check to climb back on to the raft."
+          }
+        ],
+        "dodge": "40%",
+        "perception": "60%",
+        "parry": "No",
+        "description": "*It is unclear if is a more mature Ebon Fin or some nightmarish mutation but this gargantuan shark-like creature dwarfs the Ebon Fin. It is far larger, more aggressive and cunning than its smaller variant. Drifters have told tales claiming whole boats were swallowed by these beasts. It is said they lurk in huge caves in the depths of the ocean, only rarely coming to the surface.*",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Demon (DBS)",
+      {
+        "name": "Demon (DBS)",
+        "layout": "DBS",
+        "hp": "20+TL15",
+        "awareness": 15,
+        "initiative": 19,
+        "DEF": "TL10",
+        "OFF": "TL10",
+        "damage": "D8+TL2",
+        "type": "Abomination (Elite)",
+        "loot": "Rare loot +5",
+        "stats": [
+          14,
+          18,
+          18,
+          18,
+          12,
+          0
+        ],
+        "number": 1,
+        "traits": [
+          {
+            "name": "Special I:",
+            "desc": "When encountering a demon, we must determine its category to learn how many powers it has. If the same effect is rolled twice, add up its powers."
+          }
+        ],
+        "description": "Evil incarnate pulled from the Netherrealm.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Possessed",
+      {
+        "name": "Possessed",
+        "layout": "Broken_Shores",
+        "type": "Humanoid Aberration",
+        "loot": "40% Valuable Loot Drop",
+        "stats": [
+          18,
+          14,
+          17,
+          12,
+          8,
+          1
+        ],
+        "hp": "16",
+        "armor": "D4-1",
+        "number": "1",
+        "traits": [
+          {
+            "name": "Attack:",
+            "desc": "Pummel 60% (2D4+1 bludgeoning damage)"
+          },
+          {
+            "name": "Special:",
+            "desc": "Immune to all morale effects. Receives half damage from non-magical attacks."
+          }
+        ],
+        "dodge": "40%",
+        "perception": "40%",
+        "parry": "No",
+        "description": "Poor bastards whose bodies have been taken by demonic forces from beyond the veil.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Demon (BS)",
+      {
+        "name": "Demon (BS)",
+        "layout": "Broken_Shores",
+        "type": "Aberration",
+        "loot": "70% Valuable Loot Drop",
+        "stats": [
+          14,
+          14,
+          12,
+          12,
+          12,
+          1
+        ],
+        "hp": "12",
+        "armor": "D4",
+        "number": "1",
+        "traits": [
+          {
+            "name": "Attack:",
+            "desc": "Fist 80% (D8+1 piercing damage)"
+          },
+          {
+            "name": "Special:",
+            "desc": "Immune to moralee effects, poisons, and bleeding."
+          }
+        ],
+        "dodge": "40%",
+        "perception": "30%",
+        "parry": "No",
+        "description": "Evil incarnate pulled from the Netherrealm. When encountering a demon, we must determine its category to learn how many powers it has. If the same effect is rolled twice, add up its powers.\"",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Krothok",
+      {
+        "name": "Krothok",
+        "layout": "Broken_Shores",
+        "type": "Humanoid",
+        "loot": "60% Mundane Loot Drop",
+        "stats": [
+          12,
+          16,
+          12,
+          10,
+          10,
+          2
+        ],
+        "hp": "15",
+        "armor": "D4",
+        "number": "`dice:D6`",
+        "traits": [
+          {
+            "name": "Attack:",
+            "desc": "Spear 50% (D6 Piercing damage)"
+          }
+        ],
+        "dodge": "50%",
+        "perception": "60%",
+        "parry": "Yes",
+        "description": "Strange barbaric creatures that live underwater, with the upper half of their body appearing to be some sort of humanoid, and the lower part being completely adapted to swimming, with a long, fish-like tail.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Cannibal",
+      {
+        "name": "Cannibal",
+        "layout": "DBS",
+        "type": "Humanoid (Common)",
+        "loot": "Common loot.",
+        "DEF": "TL5",
+        "OFF": "TL5",
+        "damage": "D6",
+        "hp": "15+TL10",
+        "awareness": 20,
+        "initiative": 14,
+        "stats": [
+          16,
+          16,
+          15,
+          13,
+          8,
+          3
+        ],
+        "number": 1,
+        "skills": "Dodge 50, Perception 80, Tracking 80, One-Handed Weapon 80, Orientation 80, Herb Lore 50, Outdoor Survival 80, First Aid 40",
+        "gear": "Knife",
+        "description": "Life is harsh in the Whiteteeth Peninsula, and many of its inhabitants cannot cope with the pressure. The lands are filled with deranged, dangerous people who sometimes group together, casting most of their humanity aside. These quasi-bestial individuals are feared by all due to their unpredictability, relentlessness, and viciousness, and taste for human flesh. There are rumors of cannibal cults in remote areas, but no proof of any organized groups has been found so far.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Cave Dweller",
+      {
+        "name": "Cave Dweller",
+        "layout": "DBS",
+        "hp": "15+TL10",
+        "awareness": 15,
+        "initiative": 10,
+        "DEF": "TL5",
+        "OFF": "TL5",
+        "damage": "D8+TL2",
+        "type": "Humanoid (Common)",
+        "loot": "Valuable Loot",
+        "stats": [
+          17,
+          14,
+          16,
+          12,
+          3,
+          1
+        ],
+        "number": 1,
+        "traits": [
+          {
+            "name": "Special I:",
+            "desc": "Attacks twice each round (randomize the targets)"
+          },
+          {
+            "name": "Special II:",
+            "desc": "Every successful attack a Preception test must be passed or the Cave Dweller will become hidden and can not be attacked next turn."
+          }
+        ],
+        "description": "These humanoids have dark blue/purple skin and alien yellow eyes. They live deep in caves their whole lives using the dark to their advantage. It is rumored they were human once but after a millennia of living in caves they became ruthless monsters.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Chrome Giant (MG)",
+      {
+        "name": "Chrome Giant (MG)",
+        "layout": "Machine_Gods",
+        "description": "A massive humanoid composed of incredibly strong alloys.",
+        "hp": "20♟",
+        "attack": "Average",
+        "dr": "Average",
+        "initiative": "5",
+        "constitution": "Hard",
+        "strength": "Very Hard",
+        "willpower": "Easy",
+        "dexterity": "Easy",
+        "number": "1",
+        "xp": "5",
+        "preception": "Easy",
+        "type": "Construct",
+        "traits": [
+          {
+            "name": "Standard Attack:",
+            "desc": "**Giant Fist** (Engaged, D8 damage)."
+          },
+          {
+            "name": "Special Attack:",
+            "desc": "**Seismic Stomp**: (Engaged).All Nearby creatures suffer D6 damage and must pass an Average DEX check or become Prone."
+          },
+          {
+            "name": "Support Action:",
+            "desc": "**Reinforce**: Increase its DR to hard for the next 2 rounds."
+          },
+          {
+            "name": "Loot:",
+            "desc": "None."
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Fallen Custodian (MG)",
+      {
+        "name": "Fallen Custodian (MG)",
+        "layout": "Machine_Gods",
+        "description": "A corrupt security droid.",
+        "hp": "10♟",
+        "attack": "Easy",
+        "dr": "Average",
+        "initiative": "15",
+        "constitution": "Hard",
+        "strength": "Easy",
+        "willpower": "Easy",
+        "dexterity": "Average",
+        "number": "2",
+        "xp": "2",
+        "preception": "Average",
+        "type": "Construct",
+        "traits": [
+          {
+            "name": "Standard Attack:",
+            "desc": "**Shock Pulse** (Engaged, D6+1 damage)."
+          },
+          {
+            "name": "Special Attack:",
+            "desc": "**Stun Bolt**: (Nearby, 2 damage). Target must pass an Average CON check or become Stunned (1)."
+          },
+          {
+            "name": "**Support Action**:",
+            "desc": "**Overload**: (Engaged) The Fallen Custodian takes D4 damage and deals D10 damage to all creatures within range."
+          },
+          {
+            "name": "**Loot**:",
+            "desc": "1 roll on the Scavenging table."
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Yursan (Path)",
+      {
+        "name": "Yursan (Path)",
+        "layout": "PathAram",
+        "type": "Beast",
+        "stats": [
+          14,
+          14,
+          11,
+          3,
+          14,
+          5
+        ],
+        "hp": "(🜶)10+8 per Stage Above Wood",
+        "armor": "14",
+        "number": "1",
+        "traits": [
+          {
+            "name": "Skill Check Modifier:",
+            "desc": "**Wood Stage:** +0, **Bronze Stage:** +1, **Iron Stage:** +2"
+          },
+          {
+            "name": "Beak:",
+            "desc": "**Wood Stage:** +4, D6 Piercing damage  **Bronze Stage:** +4, D6+2 Piercing damage **Iron Stage:** +5, D6+4 Piercing damage"
+          },
+          {
+            "name": "Tentacle:",
+            "desc": "**Wood Stage:** +3, 2D4 Bludgeoning damage  **Bronze Stage:** +3, 2D4+2 Bludgeoning damage **Iron Stage:** +5, 2D4+4 Bludgeoning damage"
+          },
+          {
+            "name": "Multiattack:",
+            "desc": "Iron Stage Yursan can attack both with their beaks and tentacles on the same round."
+          }
+        ],
+        "description": "A terrifying creature that looks like a snake with a hard beak and tentacles, most people believe this unnatural aberration is the result of some sort of experimentation into the nature of Life Ara and its power to manifest change.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Blackstorm Cultist (Path)",
+      {
+        "name": "Blackstorm Cultist (Path)",
+        "layout": "PathAram",
+        "type": "Humanoid",
+        "stats": [
+          10,
+          13,
+          12,
+          14,
+          16,
+          10
+        ],
+        "hp": "12+8 per Stage Above Wood",
+        "armor": "12 (padded cloth)",
+        "number": "🜶2",
+        "traits": [
+          {
+            "name": "Skill Check Modifier:",
+            "desc": "**Wood Stage:** +1, **Bronze Stage:** +2, **Iron Stage:** +3"
+          },
+          {
+            "name": "Mace:",
+            "desc": "**Wood Stage:** +4, D6+1 Bludgeoning damage, **Bronze Stage:** +5, D6+1 Bludgeoning damage, **Iron Stage:** +6, D6+1 Bludgeoning damage"
+          },
+          {
+            "name": "Blackstorm’s Gifts:",
+            "desc": "Blackstorm Cultists possess 1 random Fire weshan and 1 random Darkness weshan."
+          }
+        ],
+        "description": "The insidious worshippers of the legendary dread beast known as Blackstorm, these powerful individuals do whatever it takes to advance their",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Wolf (Path)",
+      {
+        "name": "Wolf (Path)",
+        "layout": "PathAram",
+        "type": "Beast",
+        "stats": [
+          12,
+          15,
+          13,
+          2,
+          12,
+          8
+        ],
+        "hp": "10+5 per Stage Above Wood",
+        "armor": "12",
+        "number": "🜶5",
+        "traits": [
+          {
+            "name": "Skill Check Modifier:",
+            "desc": "**Wood Stage:** 0, **Bronze Stage:** +1, **Iron Stage:** +2"
+          },
+          {
+            "name": "Bite:",
+            "desc": "**Wood Stage:** +4, 2D4 Piercing damage **Bronze Stage:** +4, 2D4+2 Piercing damage **Iron Stage:** +5, 2D4+4 Piercing damage"
+          },
+          {
+            "name": "Pack Tactics:",
+            "desc": "Wolves have Advantage on an attack roll against a creature if at least one of their allies is within 5 ft of the creature and the ally isn't incapacitated."
+          }
+        ],
+        "description": "One of the most common predators in the continent, wolves are feared by most people due to their cunning and willingness to chase after prey for days, if necessary.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Bobcat (Path)",
+      {
+        "name": "Bobcat (Path)",
+        "layout": "PathAram",
+        "type": "Beast",
+        "stats": [
+          12,
+          15,
+          10,
+          3,
+          12,
+          7
+        ],
+        "hp": "(🜶)7+10 per Stage Above Wood",
+        "armor": "12",
+        "number": "1",
+        "traits": [
+          {
+            "name": "Skill Check Modifier:",
+            "desc": "**Wood Stage:** +0, **Bronze Stage:** +1, **Iron Stage:** +2"
+          },
+          {
+            "name": "Bite:",
+            "desc": "**Wood Stage:** +3, D4+1 Piercing damage  **Bronze Stage:** +4, D6+2 Piercing damage **Iron Stage:** +5, D8+4 Piercing damage"
+          },
+          {
+            "name": "Claw:",
+            "desc": "**Wood Stage:** +4, D4+1 Slashing damage **Bronze Stage:** +5, D8+1 Slashing damage **Iron Stage:** +6, 2D6+4 Slashing damage"
+          },
+          {
+            "name": "Pounce:",
+            "desc": "If the bobcat moves at least 20 ft straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a STR saving throw (TN12) or be knocked prone."
+          }
+        ],
+        "description": "Bobcats are adaptable predators that can be found across a wide range of terrain, posing a threat mostly to ranchers and nomadic tribes. They are usually weary of humans but they will attack if hungry enough.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Forest Elder (Path)",
+      {
+        "name": "Forest Elder (Path)",
+        "layout": "PathAram",
+        "type": "Beast",
+        "stats": [
+          19,
+          6,
+          15,
+          12,
+          12,
+          7
+        ],
+        "hp": "(🜶)20+10 per Stage Above Wood",
+        "armor": "18",
+        "number": "1",
+        "traits": [
+          {
+            "name": "Slam:",
+            "desc": "**Wood Stage:** +4, 2D4+1 Bludgeoning damage  **Bronze Stage:** +4, 2D6+1 Bludgeoning damage **Iron Stage:** +4, 2D8+1 Bludgeoning damage"
+          },
+          {
+            "name": "Just Another Tree:",
+            "desc": "While remaining motionless, a Forest Elder is indistinguishable from a normal tree, making them virtually invisible in a forest."
+          },
+          {
+            "name": "Made of Wood",
+            "desc": "**Vulnerable to fire.**"
+          }
+        ],
+        "description": "These large, animated trees roam the forest as their protectors, chasing trespassers and poachers with relentless determination.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Dire Vine (Path)",
+      {
+        "name": "Dire Vine (Path)",
+        "layout": "PathAram",
+        "type": "Beast",
+        "stats": [
+          16,
+          18,
+          12,
+          2,
+          13,
+          5
+        ],
+        "hp": "4+2 per Stage Above Wood",
+        "armor": "11",
+        "number": "🜶5",
+        "traits": [
+          {
+            "name": "Constrict:",
+            "desc": "**Wood Stage:** +4, D6+1 Bludgeoning damage  **Bronze Stage:** +4, D6+1 Bludgeoning damage **Iron Stage:** +4, D6+1 Bludgeoning damage"
+          },
+          {
+            "name": "Constricted:",
+            "desc": "After being struck by this attack, the character must pass a DEX saving throw (TN 12) or become paralyzed, receiving D6 damage/ round until they succeed at freeing themselves."
+          }
+        ],
+        "description": "Despite its name, not all dire vines are necessarily corrupted oida plants; they are naturally predatory vines that wait patiently for their next meal, which they slowly digest after trapping a creature and asphyxiating it.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Bear (Path)",
+      {
+        "name": "Bear (Path)",
+        "layout": "PathAram",
+        "type": "Beast",
+        "stats": [
+          19,
+          10,
+          16,
+          2,
+          13,
+          7
+        ],
+        "hp": "(🜶)15+20 per Stage Above Wood",
+        "armor": "15",
+        "number": "1",
+        "traits": [
+          {
+            "name": "Skill Check Modifier:",
+            "desc": "**Wood Stage:** +0, **Bronze Stage:** +1, **Iron Stage:** +2"
+          },
+          {
+            "name": "Bite:",
+            "desc": "**Wood Stage:** +2, D6 Piercing damage **Bronze Stage:** +3, D6+1 Piercing damage **Iron Stage:** +4, D6+4 Piercing damage"
+          },
+          {
+            "name": "Claw:",
+            "desc": "**Wood Stage:** +2, D8 Slashing damage **Bronze Stage:** +2, D8+1 Slashing damage **Iron Stage:** +4, 2D6+4 Slashing damage"
+          }
+        ],
+        "description": "A territorial albeit shy creature that can be found across most of the continent. Only hunger or the protection of its young will drive them to attack a human.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Aram Thyr (Path)",
+      {
+        "name": "Aram Thyr (Path)",
+        "layout": "PathAram",
+        "type": "Humanoid",
+        "stats": [
+          16,
+          12,
+          16,
+          12,
+          11,
+          10
+        ],
+        "hp": "12+8 per Stage Above Wood",
+        "armor": "14 (Leather Armor)",
+        "number": "🜶1",
+        "traits": [
+          {
+            "name": "Skill Check Modifier:",
+            "desc": "**Wood Stage:** +1, **Bronze Stage:** +2, **Iron Stage:** +3"
+          },
+          {
+            "name": "Spear:",
+            "desc": "**Wood Stage:** +4, D6+2 Piercing damage  **Bronze Stage:** +5, D6+2 Piercing damage **Iron Stage:** +6, D6+2 Piercing damage"
+          },
+          {
+            "name": "Spiritual Warrior:",
+            "desc": "When facing an Aram Thyr, follow the same procedure as with an oida beast to determine their domain and weshan known."
+          }
+        ],
+        "description": "After the disappearance of the mists, many mystical warriors from Eorna Gynn made the trip to Aestran, where they now travel the land searching for new challenges and power.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Giant Snake (Path)",
+      {
+        "name": "Giant Snake (Path)",
+        "layout": "PathAram",
+        "type": "Beast",
+        "stats": [
+          19,
+          14,
+          12,
+          1,
+          10,
+          3
+        ],
+        "hp": "🜶10+10 per Stage Above Wood",
+        "armor": "12",
+        "number": "1",
+        "traits": [
+          {
+            "name": "Skill Check Modifier:",
+            "desc": "**Wood Stage:** +0, **Bronze Stage:** +1, **Iron Stage:** +2"
+          },
+          {
+            "name": "Bite:",
+            "desc": "**Wood Stage:** +3, D8 Piercing damage  **Bronze Stage:** +4, D8+2 Piercing damage **Iron Stage:** +5, D8+4 Piercing damage"
+          },
+          {
+            "name": "Constrict:",
+            "desc": "After successfully using a Bite attack, on their next round the Giant Snake will attempt to wrap itself around its target. The character must pass a DEX saving throw (TN 12) or become paralyzed, receiving D6 damage/round until they succeed at freeing themselves."
+          }
+        ],
+        "description": "A wide variety of giant, non-poisonous snakes abound in Aestran. Although they usually target prey that will not fight as much, they will not hesitate attacking a human, if they get the chance.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Cockatrice (Path)",
+      {
+        "name": "Cockatrice (Path)",
+        "layout": "PathAram",
+        "type": "Beast",
+        "stats": [
+          6,
+          12,
+          12,
+          2,
+          13,
+          5
+        ],
+        "hp": "(🜶)12+10 per Stage Above Wood",
+        "armor": "12",
+        "number": "1",
+        "traits": [
+          {
+            "name": "Skill Check Modifier:",
+            "desc": "**Wood Stage:** +0, **Bronze Stage:** +1, **Iron Stage:** +2"
+          },
+          {
+            "name": "Bite:",
+            "desc": "**Wood Stage:** +3, D4+1 Piercing damage  **Bronze Stage:** +4, D6+1 Piercing damage **Iron Stage:** +5, D8+1 Piercing damage"
+          },
+          {
+            "name": "Bitten:",
+            "desc": "After a successful Bite attack the target must succeed on a CON saving throw (TN 10) or become petrified. On a failed save, the creature begins to turn to stone and is Paralyzed. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is petrified for 24 hours."
+          }
+        ],
+        "description": "Small land-dwelling birds that look closer to lizards, cockatrices are a feared species due to its extremely foul temper and aggressive behavior, even against an opponent several times their size. Their feathers are extremely precious to some Earth Ara paths though due to their natural affinity with that type of Ara.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Éarc Lúddan (Path)",
+      {
+        "name": "Éarc Lúddan (Path)",
+        "layout": "PathAram",
+        "type": "Humanoid",
+        "stats": [
+          15,
+          10,
+          13,
+          7,
+          12,
+          7
+        ],
+        "hp": "12+15 per Stage Above Wood",
+        "armor": "14",
+        "number": "🜶2",
+        "traits": [
+          {
+            "name": "Skill Check Modifier:",
+            "desc": "**Wood Stage:** +0, **Bronze Stage:** +1, **Iron Stage:** +2"
+          },
+          {
+            "name": "Bite:",
+            "desc": "**Wood Stage:** +2, D6+2 Piercing damage **Bronze Stage:** +3, 2D6+2 Piercing damage **Iron Stage:** +4, 3D6+2 Piercing damage"
+          },
+          {
+            "name": "Club:",
+            "desc": "**Wood Stage:** +4, D6+2 Bludgeoning damage **Bronze Stage:** +4, D6+2 Bludgeoning damage **Iron Stage:** +4, D6+2 Bludgeoning damage"
+          }
+        ],
+        "description": "Hostile, humanoid lizards that take no prisoners, usually preferring to devour their victims. They often raid settlements and are a common problem for most communities. Highly territorial, their constant in-fighting is the only reason they aren’t a bigger problem.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Giant Lizard (Path)",
+      {
+        "name": "Giant Lizard (Path)",
+        "layout": "PathAram",
+        "type": "Beast",
+        "stats": [
+          15,
+          12,
+          13,
+          2,
+          10,
+          5
+        ],
+        "hp": "🜶12+10 per Stage Above Wood",
+        "armor": "14",
+        "number": "1",
+        "traits": [
+          {
+            "name": "Skill Check Modifier:",
+            "desc": "**Wood Stage:** +0, **Bronze Stage:** +1, **Iron Stage:** +2"
+          },
+          {
+            "name": "Bite:",
+            "desc": "**Wood Stage:** +3, D6+1 Piercing damage  **Bronze Stage:** +4, D8+2 Piercing damage **Iron Stage:** +5, 2D8+4 Piercing damage"
+          }
+        ],
+        "description": "Large, carnivorous lizards that can be found across most of the continent, they are a real danger for those exploring rocky terrain and mountains, their favorite hunting grounds",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Boar (Path)",
+      {
+        "name": "Boar (Path)",
+        "layout": "PathAram",
+        "type": "Beast",
+        "stats": [
+          13,
+          11,
+          12,
+          2,
+          9,
+          5
+        ],
+        "hp": "(🜶)12+12 per Stage Above Wood",
+        "armor": "12",
+        "number": "1",
+        "traits": [
+          {
+            "name": "Skill Check Modifier:",
+            "desc": "**Wood Stage:** +0, **Bronze Stage:** +1, **Iron Stage:** +2"
+          },
+          {
+            "name": "Charge (Tusks):",
+            "desc": "**Wood Stage:** +3, D6+1 Piercing damage **Bronze Stage:** +3, D6+4 Piercing damage **Iron Stage:** +4, D8+4 Piercing damage"
+          }
+        ],
+        "description": "Large omnivorous beasts that are highly territorial. They rarely back off from a fight, and will usually chase intruders until their last breath. Their brutal-looking tusks have been the end of countless hunters.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Shadow Hound (DBS)",
+      {
+        "name": "Shadow Hound (DBS)",
+        "layout": "DBS",
+        "type": "Abomination (Common)",
+        "loot": "No Loot",
+        "DEF": "TL5",
+        "OFF": "TL5",
+        "damage": "1+TL1",
+        "hp": "18+TL2",
+        "awareness": 25,
+        "initiative": 18,
+        "stats": [
+          14,
+          18,
+          18,
+          18,
+          16,
+          0
+        ],
+        "number": "1+TL1",
+        "description": "Shadow Hounds are terrible servants of the Tyrants, unleashed upon the world to do their bidding. Sometimes they are seen dragging their victims back to a Fortress other times they simply tear to pieces anything that crosses their path. With their bluish hue and smooth, eyeless face, these beasts are clearly foreign to this world.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Centipedes (DBS)",
+      {
+        "name": "Centipedes (DBS)",
+        "layout": "DBS",
+        "type": "Beast (Vermin)",
+        "loot": "No Loot",
+        "DEF": "TL2",
+        "OFF": "TL2",
+        "damage": "1+TL1",
+        "hp": "2+TL1",
+        "awareness": 10,
+        "initiative": 14,
+        "number": "1+TL1",
+        "stats": [
+          3,
+          12,
+          5,
+          6,
+          2,
+          0
+        ],
+        "description": "Centipedes are creepy crawlies known for their segmented bodies and deadly bites. They are often found in caves and ruins, where they wait for prey to grow weak before striking.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Wolf (DBS)",
+      {
+        "name": "Wolf (DBS)",
+        "layout": "DBS",
+        "type": "Beast (Common)",
+        "loot": "No loot. Pelt sells for 100 jats",
+        "DEF": 0,
+        "OFF": "TL5",
+        "damage": "D4+TL1",
+        "hp": "15+TL5",
+        "awareness": 25,
+        "initiative": 14,
+        "stats": [
+          12,
+          20,
+          13,
+          8,
+          5,
+          0
+        ],
+        "number": "`dice:D6`",
+        "Special I": "Wolves have +5 OFF per each wolf alive",
+        "description": "Wolves are a common sight everywhere across the Whiteteeth Peninsula. Relentless pack hunters, they will hound any potential prey for hours, before circling it and launching a coordinated attack.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Grey Ooze (DBS)",
+      {
+        "name": "Grey Ooze (DBS)",
+        "layout": "DBS",
+        "hp": "15+TL5",
+        "awareness": 10,
+        "initiative": 10,
+        "DEF": "TL5",
+        "OFF": "TL5",
+        "damage": "D6+TL2",
+        "type": "Abomination (Common)",
+        "loot": "Valuable Loot",
+        "stats": [
+          12,
+          10,
+          15,
+          3,
+          0,
+          0
+        ],
+        "number": 1,
+        "traits": [
+          {
+            "name": "Special:",
+            "desc": "Engulf: For every successful attack the gray ooze attempts to completely cover its target. The victim must pass a DEX test to avoid becoming engulfed. The engulfed target begins to drown and suffers D6 acid damage/round. The victim can perform a STR test on each of their turns to free themself."
+          }
+        ],
+        "description": "An amorphous mass of animated hunger and never ending appetite for destruction.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Sabershadow (DBS)",
+      {
+        "name": "Sabershadow (DBS)",
+        "layout": "DBS",
+        "type": "Beast (Common)",
+        "loot": "No loot. Pelt sells for 200 jats",
+        "DEF": "TL5",
+        "OFF": "TL5",
+        "damage": "D6+TL1",
+        "hp": "15+TL5",
+        "awareness": 18,
+        "initiative": 18,
+        "traits": [
+          {
+            "name": "Special I:",
+            "desc": "Armor Penetration (1)"
+          }
+        ],
+        "stats": [
+          16,
+          22,
+          15,
+          12,
+          8,
+          0
+        ],
+        "number": 1,
+        "description": "Sabershadows are fierce cat-like predators, the size of a large dog. They are solitary hunters that can stalk their prey for miles, waiting for the right moment to attack. They are relentless when they do so, and their enormous fangs can pierce through the strongest of armors without a problem.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Skeleton (DBS)",
+      {
+        "name": "Skeleton (DBS)",
+        "layout": "DBS",
+        "hp": "13+TL2",
+        "awareness": 5,
+        "initiative": 6,
+        "DEF": 0,
+        "OFF": "TL5",
+        "damage": "D6+TL1",
+        "type": "Undead (Common)",
+        "loot": "Valuable loot",
+        "stats": [
+          12,
+          8,
+          10,
+          0,
+          0,
+          0
+        ],
+        "number": "1 + TL1",
+        "traits": [
+          {
+            "name": "Special I:",
+            "desc": "Their attacks cause Rot (2) unless a CON test is passed. Nonstackable"
+          },
+          {
+            "name": "Special II:",
+            "desc": "Immune to morale effects, poisons, and bleeding."
+          }
+        ],
+        "description": "Animated bones and sinews, barely capable of holding a weapon together, yet still deadly.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Ghast (DBS)",
+      {
+        "name": "Ghast (DBS)",
+        "layout": "DBS",
+        "hp": "15+TL10",
+        "awareness": 10,
+        "initiative": 8,
+        "DEF": "TL5",
+        "OFF": "TL5",
+        "damage": "D6+TL2",
+        "type": "Undead (Common)",
+        "loot": "Valuable loot",
+        "stats": [
+          10,
+          11,
+          10,
+          10,
+          4,
+          0
+        ],
+        "number": 1,
+        "traits": [
+          {
+            "name": "Stunning Bite:",
+            "desc": "After being bitten by a Ghast, the victim must pass a CON Test or become stunned for D4 rounds."
+          },
+          {
+            "name": "Special:",
+            "desc": "Immune to morale effects, poisons, and bleeding"
+          }
+        ],
+        "description": "Ghasts are powerful spirits that have taken over a corpse long enough to make it their own, deepening their connection to the material world. They are fast moving, vicious predators that will attack and kill anything in their way.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Bandit (RB)",
+      {
+        "name": "Bandit (RB)",
+        "layout": "Riftbreakers",
+        "description": "Ruthless men and women who profit from assaulting the trade caravans and lone travelers in the area. They are skilled in both ranged and melee combat, and are not afraid to resort to dirty tactics to gain the upper hand.",
+        "Number": 3,
+        "Type": "Humanoid",
+        "Speed": 20,
+        "Size": "Medium",
+        "Combat Skill": 5,
+        "Coordination": 60,
+        "Intellect": 40,
+        "Tenacity": 30,
+        "Vitality": 80,
+        "Health": 18,
+        "Armor": "D6",
+        "Perception": 70,
+        "traits": [
+          {
+            "name": "Special:",
+            "desc": "Vulnerable to Fire damage, Resistant to Bludgeoning damage."
+          },
+          {
+            "name": "Apprentice Rank",
+            "desc": "70 Health, +2 damage, Combat Skill: +10"
+          },
+          {
+            "name": "Veteran Rank",
+            "desc": "105 Health, +3 damage, Combat Skill: +20"
+          },
+          {
+            "name": "Master Rank",
+            "desc": "105 Health, +3 damage, Combat Skill: +20"
+          }
+        ],
+        "actions": [
+          {
+            "name": "1-3",
+            "desc": "**Sweeping blow:** The monster swings its branches against its target and another one adjacent to it, dealing D6+1 Bludgeoning damage."
+          },
+          {
+            "name": "4",
+            "desc": "**Strangling roots:** The monster spreads its roots towards its target, Entangling them. Each round a target remains Entangled, they suffer D4 Bludgeoning damage."
+          },
+          {
+            "name": "5-6",
+            "desc": "**Crush:** The Ent attempts to crush its target, dealing 2D8 Bludgeoning damage if it succeeds."
+          }
+        ],
+        "loot": [
+          {
+            "name": "1-50",
+            "desc": "30**⟑**"
+          },
+          {
+            "name": "51-90",
+            "desc": "1x Potion"
+          },
+          {
+            "name": "91-100",
+            "desc": "Random Magic Item"
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Tidal Drake",
+      {
+        "name": "Tidal Drake",
+        "layout": "Riftbreakers",
+        "description": "A dragon-like creature that can control water and rain, creating floods and tidal waves.",
+        "Number": 1,
+        "Type": "Animal, Elemental",
+        "Speed": 20,
+        "Size": "Large",
+        "Combat Skill": 10,
+        "Coordination": 30,
+        "Intellect": 20,
+        "Tenacity": 40,
+        "Vitality": 40,
+        "Health": 25,
+        "Armor": "D4",
+        "Perception": 60,
+        "traits": [
+          {
+            "name": "Special:",
+            "desc": "Vulnerable to Fire damage, Immune to Water damage."
+          },
+          {
+            "name": "Apprentice Rank",
+            "desc": "50 Health, +2 damage, Combat Skill: +10"
+          },
+          {
+            "name": "Veteran Rank",
+            "desc": "75 Health, +3 damage, Combat Skill: +20"
+          },
+          {
+            "name": "Master Rank",
+            "desc": "100 Health, +4 damage, Combat Skill: +30"
+          }
+        ],
+        "actions": [
+          {
+            "name": "1-2",
+            "desc": "**Tidal Wave**: The tidal drake summons a massive wave that crashes into its target and all creatures within a 10 m cone, dealing D8+2 Water damage and pushing them back 3 m. Targets hit by this attack must make a Brawn check or be knocked Prone."
+          },
+          {
+            "name": "3-4",
+            "desc": "**Hydro Burst**: The tidal drake unleashes a burst of water, dealing D6 Water damage to all creatures within a 5 m cone. Targets hit by this attack must make a Brawn check or be pushed back 1 m."
+          },
+          {
+            "name": "5",
+            "desc": "**Torrential Rain**: The drake creates a torrential downpour that lasts D4 rounds, reducing visibility to 3 m. While the rain is active, the tidal drake regains D6 Health each round."
+          },
+          {
+            "name": "6",
+            "desc": "**Flood Surge**: The tidal drake creates a surge of water that floods the area, covering everything in a 10 m radius around it. Creatures caught in the flood must make an Athletics check or be swept away, taking D8 Bludgeoning damage and being moved 10 m downstream. Creatures that fail the check must also make a Coordination check or be submerged and begin to Drown."
+          }
+        ],
+        "loot": [
+          {
+            "name": "1-50",
+            "desc": "50**⟑**"
+          },
+          {
+            "name": "51-55",
+            "desc": "1xPotion"
+          },
+          {
+            "name": "56-72",
+            "desc": "Skill Book"
+          },
+          {
+            "name": "73-80",
+            "desc": "Morphing Essence of Stamina"
+          },
+          {
+            "name": "81-87",
+            "desc": "Essence. Roll on the Random Essence table"
+          },
+          {
+            "name": "88-95",
+            "desc": "Heart. Roll on the Random Heart table "
+          },
+          {
+            "name": "96-100",
+            "desc": "Random Magic Item"
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Thunderbird (RB)",
+      {
+        "name": "Thunderbird (RB)",
+        "layout": "Riftbreakers_2E",
+        "description": "*A giant bird with powerful wings that can create deafening thunderclaps and lightning strikes, making it a feared predator.*",
+        "actions": "1♟",
+        "agility": "60",
+        "athletics": "80",
+        "cs": "60",
+        "endurance": "80",
+        "evasion": "10",
+        "hp": "20♟",
+        "move": "1",
+        "number": "1",
+        "parry": "0",
+        "perception": "70",
+        "protection": "D4",
+        "tenacity": "40",
+        "type": "Beast,Elemental",
+        "traits": [
+          {
+            "name": "Traits:",
+            "desc": "Ranged. Immune to Lightning damage, Necrotic Damage, as well as to the Bleeding and Poisoned conditions."
+          }
+        ],
+        "action": [
+          {
+            "name": "1-2",
+            "desc": "**Thunderclap**: The Thunderbird flaps its wings, creating a deafening thunderclap that deals D6 Force damage to all creatures within the same Combat Zone. Targets hit by this attack must make an Endurance check or become Stunned (1)."
+          },
+          {
+            "name": "3-4",
+            "desc": "**Lightning Strike**: The Thunderbird casts a lightning strike against its target. The target must pass an Agility check or receive D8+2 Lightning damage. If the target is wearing metal armor, they suffer an additional D4 damage."
+          },
+          {
+            "name": "5",
+            "desc": "**Wind Gust**: The Thunderbird flaps its wings, creating a powerful wind gust that pushes all creatures within the same Combat Zone away from it. Targets pushed by this attack take D4 Bludgeoning damage and must make an Agility check or be knocked Prone."
+          },
+          {
+            "name": "6",
+            "desc": "**Thunderstorm**: The Thunderbird creates a thunderstorm within a random Combat Zone, causing lightning to strike at random locations. Each creature within the Zone must make an Agility check or take 2D6 Lightning damage."
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Storm Giant (RB)",
+      {
+        "name": "Storm Giant (RB)",
+        "layout": "Riftbreakers_2E",
+        "description": "*A towering humanoid creature that controls the weather, summoning thunderstorms and tornadoes with ease.*",
+        "actions": "1♟",
+        "agility": "20",
+        "athletics": "80",
+        "cs": "60",
+        "endurance": "80",
+        "evasion": "0",
+        "hp": "25♟",
+        "move": "1",
+        "number": "1",
+        "parry": "10",
+        "perception": "80",
+        "protection": "D6",
+        "tenacity": "50",
+        "type": "Humanoid, Elemental",
+        "traits": [
+          {
+            "name": "Traits:",
+            "desc": "Ranged, Titanic. Immune to Lightning damage, Necrotic Damage, as well as to the Bleeding and Poisoned conditions."
+          }
+        ],
+        "action": [
+          {
+            "name": "1-2",
+            "desc": "**Gale Force Winds**: The Storm Giant creates a powerful gust of wind, pushing all creatures within the same Combat Zone away from itself and into an adjacent Combat Zone. Affected creatures must pass an Athletics check or take D6+1 Bludgeoning damage as well."
+          },
+          {
+            "name": "3-4",
+            "desc": "**Hailstorm:** The Storm Giant summons a hailstorm that pummels all creatures within a random Combat Zone with icy chunks of hail. Targets must pass an Agility check or take D8+2 Cold damage and suffer -20 to weapon attack checks until the start of their next turn."
+          },
+          {
+            "name": "5",
+            "desc": "**Thunderstorm:** The Storm Giant creates a thunderstorm that lasts for 2 rounds, covering every Combat Zone. Every round, each affected creature takes D6 Lightning damage and must make an Endurance check or be Stunned (1)."
+          },
+          {
+            "name": "6",
+            "desc": "**Hurricane:** The Storm Giant creates a hurricane that moves from its Combat Zone, and then moves to a different, adjacent Zone every round for 3 rounds. Creatures caught in the hurricane must make an Athletics check or suffer D6+1 Bludgeoning damage. The hurricane lasts for 3 rounds."
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Underworld Dragon",
+      {
+        "name": "Underworld Dragon",
+        "layout": "Riftbreakers",
+        "description": "A creature that dwells in the deepest depths of the underground caves and tunnels, breathing fire and attacking with its massive talons.",
+        "Number": 1,
+        "Type": "Animal",
+        "Speed": "10 (50 flying)",
+        "Size": "Large",
+        "Combat Skill": 10,
+        "Coordination": 60,
+        "Intellect": 20,
+        "Tenacity": 60,
+        "Vitality": 40,
+        "Health": 35,
+        "Armor": "D6",
+        "Perception": 50,
+        "traits": [
+          {
+            "name": "Special:",
+            "desc": "Vulnerable to Cold damage."
+          },
+          {
+            "name": "Apprentice Rank",
+            "desc": "70 Health, +2 damage, Combat Skill: +10"
+          },
+          {
+            "name": "Veteran Rank",
+            "desc": "105 Health, +3 damage, Combat Skill: +20"
+          },
+          {
+            "name": "Master Rank",
+            "desc": "140 Health, +4 damage, Combat Skill: +30"
+          }
+        ],
+        "actions": [
+          {
+            "name": "1-2",
+            "desc": "**Fire Breath**: The dragon breathes a cone of fire in front of it, dealing 3D6 Fire damage to all creatures within a 5 m cone."
+          },
+          {
+            "name": "3-4",
+            "desc": "**Talon Strike**: The dragon slashes at a target with its massive talons, dealing 2D8+4 Slashing damage."
+          },
+          {
+            "name": "5",
+            "desc": "**Deafening Roar**: The dragon unleashes a terrifying roar that echoes through the underground tunnels, Stunning all creatures within a 10 m radius around it for 1 round."
+          },
+          {
+            "name": "6",
+            "desc": "**Shadow Step**: The underworld dragon vanishes from its current location, leaving behind a shadow clone, and reappearing up to 20 m away in a location it can see. Characters must pass an Intellect check or be forced to attack the clone during their next turn, dealing no damage."
+          }
+        ],
+        "loot": [
+          {
+            "name": "1-30",
+            "desc": "20**⟑**"
+          },
+          {
+            "name": "31-40",
+            "desc": "10 units of a Random Alchemical ingredient"
+          },
+          {
+            "name": "41-50",
+            "desc": "1x Potion"
+          },
+          {
+            "name": "51-55",
+            "desc": "Alchemical formula. Roll on the Potions & Unguents table"
+          },
+          {
+            "name": "56-72",
+            "desc": "Skill Book"
+          },
+          {
+            "name": "73-80",
+            "desc": "Armor Manual"
+          },
+          {
+            "name": "81-87",
+            "desc": "Essence. Roll on the Random Essence table"
+          },
+          {
+            "name": "88-95",
+            "desc": "Heart. Roll on the Random Heart table "
+          },
+          {
+            "name": "96-100",
+            "desc": "Random Magic Item"
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Cinder Horror",
+      {
+        "name": "Cinder Horror",
+        "layout": "Riftbreakers",
+        "description": "A skeletal creature that was resurrected by the heat of the Lava Fields, and now wields fiery magic to attack its prey.",
+        "Number": 3,
+        "Type": "Undead, Elemental",
+        "Speed": 15,
+        "Size": "Medium",
+        "Combat Skill": 5,
+        "Coordination": 60,
+        "Intellect": 40,
+        "Tenacity": 40,
+        "Vitality": 30,
+        "Health": 15,
+        "Armor": "D4",
+        "Perception": 40,
+        "traits": [
+          {
+            "name": "Special:",
+            "desc": "Immune to Fire damage, Charm, Poison and Disease, Vulnerable to Cold damage."
+          },
+          {
+            "name": "Apprentice Rank",
+            "desc": "30 Health, +2 damage, Combat Skill: +15"
+          },
+          {
+            "name": "Veteran Rank",
+            "desc": "45 Health, +3 damage, Combat Skill: +25"
+          },
+          {
+            "name": "Master Rank",
+            "desc": "60 Health, +4 damage, Combat Skill: +35"
+          }
+        ],
+        "actions": [
+          {
+            "name": "1-2",
+            "desc": "**Fireball**: The cinder horror casts a fireball spell, dealing 2D6 Fire damage to a single target within 10 m."
+          },
+          {
+            "name": "3-4",
+            "desc": "**Flame Strike**: The abomination conjures a column of flames that erupts from the ground, dealing 3D8 Fire damage to all creatures in a 3 m radius. Targets caught in the flames must make a Coordination check or take an additional D6 Fire damage."
+          },
+          {
+            "name": "5",
+            "desc": "**Bone Shield**: The cinder horror summons a shield made of charred bones, granting itself resistance to all physical damage until the start of its next turn."
+          },
+          {
+            "name": "6",
+            "desc": "**Fiery Aura**: The cinder horror ignites its bones with flames, creating a fiery aura that deals D6 Fire damage to any creature that starts its turn within 3 m of the cinder horror. This effect accumulates each time the monster uses this ability."
+          }
+        ],
+        "loot": [
+          {
+            "name": "1-50",
+            "desc": "50**⟑**"
+          },
+          {
+            "name": "51-55",
+            "desc": "1xPotion"
+          },
+          {
+            "name": "56-72",
+            "desc": "Skill Book"
+          },
+          {
+            "name": "73-80",
+            "desc": "Morphing Essence of Aether"
+          },
+          {
+            "name": "81-87",
+            "desc": "Essence. Roll on the Random Essence table"
+          },
+          {
+            "name": "88-95",
+            "desc": "Heart. Roll on the Random Heart table"
+          },
+          {
+            "name": "96-100",
+            "desc": "Random Magic Item"
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Giant Snake (DBS)",
+      {
+        "name": "Giant Snake (DBS)",
+        "layout": "DBS",
+        "hp": "15+TL10",
+        "awareness": 30,
+        "initiative": 12,
+        "DEF": "TL10",
+        "OFF": "TL10",
+        "damage": "D8+TL1",
+        "type": "Beast (Elite)",
+        "loot": "No loot. Skin sells for 400 jats",
+        "stats": [
+          25,
+          22,
+          12,
+          12,
+          6,
+          0
+        ],
+        "number": 1,
+        "traits": [
+          {
+            "name": "Special I:",
+            "desc": "Attacks twice each round (randomize the targets)"
+          },
+          {
+            "name": "Special II:",
+            "desc": "All successful attacks cause Poison. Stackable."
+          }
+        ],
+        "description": "These slithering monstrosities are as large as they are ancient. Lurking and waiting in the shadows for their next meal, they'll not hesitate to attack almost any living thing that crosses their way. Although capable of moving at very high speeds, they prefer to wait for their prey to pass near their hiding place, instead of chasing them down, although there are stories of horses having been run down by a ravenous enough giant snake.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Spawn of Vhol'est",
+      {
+        "name": "Spawn of Vhol'est",
+        "layout": "DBS",
+        "hp": "20+TL2`dice:D10`",
+        "awareness": 10,
+        "initiative": 14,
+        "DEF": "TL10",
+        "OFF": "TL10",
+        "damage": "D6+TL2",
+        "type": "Abomination (Elite)",
+        "loot": "Rare Loot",
+        "stats": [
+          20,
+          18,
+          18,
+          18,
+          12,
+          0
+        ],
+        "number": 1,
+        "traits": [
+          {
+            "name": "Special:",
+            "desc": "Attacks twice each round (randomize the targets)"
+          }
+        ],
+        "description": "After devouring and assimilating its brethren, a Spawn of Vhol'est will grow to the size of two men, with maws opening all across its body and tentacles shooting from unexpected places. Their purpose and goals unknown, they roam the land killing anything that crosses their path.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Crog",
+      {
+        "name": "Crog",
+        "layout": "DBS",
+        "hp": "20+TL30",
+        "awareness": 10,
+        "initiative": 10,
+        "DEF": "TL10",
+        "OFF": "TL10",
+        "damage": "D6+TL1D4",
+        "type": "Abomination (Elite)",
+        "loot": "Rare Loot",
+        "stats": [
+          20,
+          10,
+          18,
+          10,
+          5,
+          0
+        ],
+        "number": 1,
+        "traits": [
+          {
+            "name": "Special I:",
+            "desc": "Attacks twice each round (randomize the targets)"
+          },
+          {
+            "name": "Special II:",
+            "desc": "Successful attacks cause Rot (1). Stackable"
+          }
+        ],
+        "description": "Rumored to be the result of one of Urthan Fleshwarper's many experiments, Crogs are humanoid creatures covered in pustules and decaying flesh. They are not always prone to violence but are easily scared, resulting in them attacking almost any living creature that happens to startle them. They seem to be content sitting on the floor while peeling away sections of their own decaying flesh.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Cult Fanatics",
+      {
+        "name": "Cult Fanatics",
+        "layout": "Broken_Shores",
+        "type": "Humanoid",
+        "loot": "80% Mundane Loot Drop",
+        "stats": [
+          12,
+          10,
+          12,
+          16,
+          10,
+          12
+        ],
+        "hp": "15",
+        "armor": "D6",
+        "number": "`dice:D4+2`",
+        "traits": [
+          {
+            "name": "Attack:",
+            "desc": "**Club 50%** (D6 bludgeoning damage)"
+          },
+          {
+            "name": "Special:",
+            "desc": "Immune to morale effects"
+          }
+        ],
+        "dodge": "40%",
+        "perception": "70%",
+        "parry": "Yes",
+        "description": "Hordes of cultists are an unfortunate sight across the One Sea, their fanaticism and devotion unquestionable.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Egrastean Soldiers",
+      {
+        "name": "Egrastean Soldiers",
+        "layout": "Broken_Shores",
+        "type": "Humanoid",
+        "loot": "60% Valuable Loot Drop",
+        "stats": [
+          14,
+          12,
+          12,
+          12,
+          10,
+          10
+        ],
+        "hp": "12",
+        "armor": "D6",
+        "number": "`dice:D6+2`",
+        "traits": [
+          {
+            "name": "Attack I:",
+            "desc": "Scimitar 60% (D8+1 Slashing damage)"
+          },
+          {
+            "name": "Attack II:",
+            "desc": "Bow (D6+1 Piercing damage)"
+          }
+        ],
+        "dodge": "50%",
+        "perception": "50%",
+        "parry": "Yes",
+        "description": "***Proud, cocky bastards that can back their loud mouths with skill and the best gear.***",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Agrix",
+      {
+        "name": "Agrix",
+        "layout": "DBS",
+        "hp": "18+TL2D10",
+        "awareness": 20,
+        "initiative": 14,
+        "DEF": "TL10",
+        "OFF": "TL10",
+        "damage": "D8+TL5",
+        "type": "Abomination",
+        "loot": "Rare Loot",
+        "stats": [
+          20,
+          13,
+          18,
+          10,
+          5,
+          0
+        ],
+        "number": 1,
+        "traits": [
+          {
+            "name": "Special :",
+            "desc": "Attacks twice each round (randomize the targets)"
+          }
+        ],
+        "description": "A walking humanoid creature covered in thick fur, an Agrix is a sight few can tell they have survived. Possessed by an unstoppable blood-lust, an Agrix may be peacefully walking one moment and rushing to kill any living thing the second they notice it. They are completely relentless, vicious killing machines that will only stop when dead.",
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Island Golem",
+      {
+        "name": "Island Golem",
+        "layout": "Riftbreakers_2E",
+        "description": "*A towering humanoid creature made of stone and clay that can smash through anything in its way.*",
+        "actions": "1♟",
+        "agility": "10",
+        "athletics": "80",
+        "cs": "60",
+        "endurance": "80",
+        "evasion": "12",
+        "hp": "18♟",
+        "move": "1",
+        "number": "1",
+        "parry": "0",
+        "perception": "50",
+        "protection": "D8",
+        "tenacity": "80",
+        "type": "Construct",
+        "traits": [
+          {
+            "name": "Traits:",
+            "desc": "Melee. Resistant to Void damage, and Immune to Necrotic Damage and the Charmed, Poisoned, Bleeding, Frightened, and Asleep conditions."
+          }
+        ],
+        "action": [
+          {
+            "name": "1-2",
+            "desc": "**Rock Throw**: The Island Golem picks up a large rock and hurls it at its target. It makes a Combat Skill check, dealing D10+3 Bludgeoning damage on a hit."
+          },
+          {
+            "name": "3-4",
+            "desc": "**Ground Slam**: The Island Golem slams its fists onto the ground, creating a shockwave that deals D8+2 Bludgeoning damage to all creatures within the same Combat Zone if they fail an Agility check."
+          },
+          {
+            "name": "5",
+            "desc": "**Charge**: The Island Golem charges against a random target in any Combat Zone, dealing 3D6 Bludgeoning damage."
+          },
+          {
+            "name": "6",
+            "desc": "**Calcified Water Armor**: The Island Golem hardens its body, gaining +2 Protection until its next turn."
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Crystal Construct",
+      {
+        "name": "Crystal Construct",
+        "layout": "Riftbreakers_2E",
+        "description": "*A creature made entirely of crystal, that can shoot sharp crystal shards and use its tough, armor-like body to compensate for its slow movement.*",
+        "actions": "1♟",
+        "agility": "10",
+        "athletics": "80",
+        "cs": "50",
+        "endurance": "80",
+        "evasion": "0",
+        "hp": "25♟",
+        "move": "1",
+        "number": "1",
+        "parry": "0",
+        "perception": "50",
+        "protection": "D6+2",
+        "tenacity": "40",
+        "type": "Construct",
+        "traits": [
+          {
+            "name": "Traits:",
+            "desc": "Ranged, Titanic. Resistant to Void damage, and Immune to Necrotic Damage and the Charmed, Poisoned, Bleeding, Frightened, and Asleep conditions."
+          }
+        ],
+        "action": [
+          {
+            "name": "1-2",
+            "desc": "**Crystal Shard:** The Crystal Construct shoots sharp crystal shards at a target, making a Combat Skill check that deals 2D6 Piercing damage on a hit."
+          },
+          {
+            "name": "3-4",
+            "desc": "**Crystal Spike:** The Crystal Construct makes a Combat Skill check summoning a sharp spike of crystal from the ground beneath a random target that deals D8 Piercing damage and knocks them Prone."
+          },
+          {
+            "name": "5",
+            "desc": "**Reflective Shield:** The Crystal Construct creates a reflective shield that lasts until the end of its next turn. Any ranged attacks made against the construct during this time are reflected back at the attacker."
+          },
+          {
+            "name": "6",
+            "desc": "**Crystalize:** The Crystal Construct channels energy into a single target,attempting to transform them into a crystal statue. The target must make an Endurance check or be *Paralyzed (2)*."
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Poisonous Frog (RB)",
+      {
+        "name": "Poisonous Frog (RB)",
+        "layout": "Riftbreakers_2E",
+        "description": "*A large, brightly colored amphibian that secretes deadly toxins, and can jump vast distances to avoid danger.*",
+        "actions": "1♟",
+        "agility": "80",
+        "athletics": "40",
+        "cs": "60",
+        "endurance": "40",
+        "evasion": "20",
+        "hp": "15♟",
+        "move": "1",
+        "number": "1",
+        "parry": "10",
+        "perception": "60",
+        "protection": "D6",
+        "tenacity": "30",
+        "type": "Beast",
+        "traits": [
+          {
+            "name": "Traits:",
+            "desc": "Melee"
+          }
+        ],
+        "action": [
+          {
+            "name": "1-2",
+            "desc": "**Venomous Bite:** The Poisonous Frog jumps and attempts to bite its target, making a Combat Skill check. If successful, it injects them with a toxic venom that deals D6+2 Poison damage."
+          },
+          {
+            "name": "3-4",
+            "desc": "**Noxious Cloud:** The Poisonous Frog releases a cloud of poisonous gas in the same Combat Zone. All creatures within it must pass an Endurance check or be Poisoned (1)."
+          },
+          {
+            "name": "5",
+            "desc": "**Agile Leap:** The Poisonous Frog jumps constantly away, increasing its Parry and Evasion by +30 for 2 rounds."
+          },
+          {
+            "name": "6",
+            "desc": "**Sticky Tongue:** The Poisonous Frog extends its long, sticky tongue to grapple its target. The target must pass an Agility check or be Restrained for D4 rounds, taking D4 damage that ignores all Protection every round."
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Giant Spider (RB)",
+      {
+        "name": "Giant Spider (RB)",
+        "layout": "Riftbreakers_2E",
+        "description": "*A venomous arachnid that weaves webs between the trees and hunts its prey with deadly precision.*",
+        "actions": "1♟",
+        "agility": "60",
+        "athletics": "50",
+        "cs": "60",
+        "endurance": "50",
+        "evasion": "10",
+        "hp": "15♟",
+        "move": "1",
+        "number": "1",
+        "parry": "0",
+        "perception": "80",
+        "protection": "D4+1",
+        "tenacity": "20",
+        "type": "Beast",
+        "traits": [
+          {
+            "name": "Traits:",
+            "desc": "Melee, Stalker"
+          }
+        ],
+        "action": [
+          {
+            "name": "1-2",
+            "desc": "**Venomous Bite**: The Giant Spider makes a Combat Skill check, lunging forward to bite its target. The attack deals D8+2 Piercing damage, and the target must make an Endurance check or become Poisoned (1)."
+          },
+          {
+            "name": "3-4",
+            "desc": "**Web Shot**: The Giant Spider spits a web at a random target within 2 Combat Zones. On a hit, the target is Restrained."
+          },
+          {
+            "name": "5",
+            "desc": "**Quick Skitter**: The Giant Spider climbs and dodges, making it a difficult target. It gains +2 Protection until its next turn."
+          },
+          {
+            "name": "6",
+            "desc": "**Poison Cloud**: The Giant Spider releases a cloud of poisonous gas in the same Combat Zone. All characters in the affected area must pass an Endurance check or suffer D6 Poison damage and become Poisoned (1)."
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Warpstar (RB)",
+      {
+        "name": "Warpstar (RB)",
+        "layout": "Riftbreakers_2E",
+        "description": "*A humanoid being from the astral that appears as a black shroud containing a nebula within and a floating set of red eyes hidden under the hood.*",
+        "actions": "1♟",
+        "agility": "40",
+        "athletics": "40",
+        "cs": "60",
+        "endurance": "40",
+        "evasion": "0",
+        "hp": "12♟",
+        "move": "1",
+        "number": "1",
+        "parry": "0",
+        "perception": "60",
+        "protection": "D4",
+        "tenacity": "80",
+        "type": "Astral",
+        "traits": [
+          {
+            "name": "Traits:",
+            "desc": "Ranged. Immune to the Bleeding, Poisoned, and Frightened conditions."
+          }
+        ],
+        "action": [
+          {
+            "name": "1-2",
+            "desc": "**Astral Blast**: The Warpstar releases a burst of astral energy from its body against a target, forcing them to make an Agility check or suffer D8+2 Arcane damage."
+          },
+          {
+            "name": "3-4",
+            "desc": "**Nebula Shift**: The Warpstar teleports away to a random Combat Zone, leaving behind an explosion of astral energy. Creatures within the Zone must pass a Tenacity check or receive 2D4+1 Arcane damage."
+          },
+          {
+            "name": "5",
+            "desc": "**Void Warp**: The Warpstar opens a portal to the astral plane, summoning a ball of chaotic astral energies against its target, forcing them to pass a Tenacity check or suffer 2D6 Arcane damage."
+          },
+          {
+            "name": "6",
+            "desc": "**Star Collapse**: The Warpstar releases a burst of astral energy that creates a miniature black hole. All creatures within the same Combat Zone must pass a Tenacity check or suffer Burning and Dazed (2)."
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Beastman (RB)",
+      {
+        "name": "Beastman (RB)",
+        "layout": "Riftbreakers_2E",
+        "description": "*Humanoid creatures with the features of wild animals that have adapted to the dense underbrush of the forest. They hunt with primitive weapons and are extremely territorial and aggressive.*",
+        "actions": "1♟",
+        "agility": "60",
+        "athletics": "60",
+        "cs": "50",
+        "endurance": "40",
+        "evasion": "10",
+        "hp": "8♟",
+        "move": "1",
+        "number": "3",
+        "parry": "15",
+        "perception": "50",
+        "protection": "D4+1",
+        "tenacity": "30",
+        "type": "Humanoid",
+        "traits": [
+          {
+            "name": "Traits:",
+            "desc": "Melee, Vicious"
+          }
+        ],
+        "action": [
+          {
+            "name": "1-2",
+            "desc": "**Savage Swipe**: The Beastman slashes at its target with its claws, making a Combat Skill check that deals D6+2 Slashing damage on a hit."
+          },
+          {
+            "name": "3-4",
+            "desc": "**Throwing Spear**: The Beastman hurls a spear at a random target within 2 Combat Zones. They make a Combat Skill check that deals D8 Piercing damage. If the target is in the same Combat Zone as the Beastman, the Beastman gains +20 to their attack check."
+          },
+          {
+            "name": "5",
+            "desc": "**Pack Tactics**: The Beastman calls out to its allies, giving them +20 to all attack checks and +D4 damage until the end of the next round."
+          },
+          {
+            "name": "6",
+            "desc": "**Feral Fury**: The Beastman enters a frenzied state, making two attacks with its claws against its target. The Beastman must make a Combat Skill check for each attack, dealing D6+1 Slashing damage with each."
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Thorn Beast (RB)",
+      {
+        "name": "Thorn Beast (RB)",
+        "layout": "Riftbreakers_2E",
+        "description": "*A ferocious creature covered in razor-sharp thorns, that can charge through the underbrush and unexpectedly impale its prey.*",
+        "actions": "1♟",
+        "agility": "60",
+        "athletics": "20",
+        "cs": "60",
+        "endurance": "60",
+        "evasion": "10",
+        "hp": "12♟",
+        "move": "1",
+        "number": "1",
+        "parry": "0",
+        "perception": "80",
+        "protection": "D4+1",
+        "tenacity": "30",
+        "type": "Beast",
+        "traits": [
+          {
+            "name": "Traits:",
+            "desc": "Melee"
+          }
+        ],
+        "action": [
+          {
+            "name": "1-2",
+            "desc": "**Razor Charge**: The Thorn Beast charges towards its target, who must pass an Agility check or be impaled by its thorny body and suffer D8+2 Piercing damage."
+          },
+          {
+            "name": "3-4",
+            "desc": "**Thorn Spray**: The Thorn Beast releases a spray of thorns that affects all creatures in the same Combat Zone, dealing D6 Piercing damage to them. Targets hit by this attack must make an Endurance check or be Poisoned (1)."
+          },
+          {
+            "name": "5",
+            "desc": "**Entangling Roots**: The Thorn Beast spreads its roots towards its target. The target must pass an Agility check or be Restrained."
+          },
+          {
+            "name": "6",
+            "desc": "**Thorny Rampage**: The Thorn Beast goes into a frenzy, charging towards every character in play and dealing D6+1 Piercing damage to each unless they pass an Agility check."
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Root Ravager (RB)",
+      {
+        "name": "Root Ravager (RB)",
+        "layout": "Riftbreakers_2E",
+        "description": "*A humanoid creature with roots instead of legs, that can tunnel through the ground and burst forth to attack with its powerful arms.*",
+        "actions": "1♟",
+        "agility": "39",
+        "athletics": "69",
+        "cs": "60",
+        "endurance": "40",
+        "evasion": "0",
+        "hp": "20♟",
+        "move": "1",
+        "number": "1",
+        "parry": "10",
+        "perception": "60",
+        "protection": "D6",
+        "tenacity": "40",
+        "type": "Plant, Humanoid",
+        "traits": [
+          {
+            "name": "Traits:",
+            "desc": "Melee, Titanic"
+          }
+        ],
+        "action": [
+          {
+            "name": "1-2",
+            "desc": "**Ground Slam**: The Root Ravager slams the ground with its fists, making a Combat Skill check and creating a shockwave that deals D6+2 Bludgeoning damage to all creatures within the same Combat Zone."
+          },
+          {
+            "name": "3-4",
+            "desc": "**Root Grapple**: The Root Ravager extends its roots to grapple its target. It makes a Combat Skill check, and if the attack hits, the target is Restrained and takes D6+1 Bludgeoning damage each turn until they break free. If you roll this action and the target is already restrained, the Root Ravage makes a basic attack."
+          },
+          {
+            "name": "5",
+            "desc": "**Smash**: The Root Ravager attempts to step on its target, making a Combat Skill check and dealing 2D6+3 Bludgeoning damage on a hit."
+          },
+          {
+            "name": "6",
+            "desc": "**Tunneling Strike**: The Root Ravager sends its roots into the ground, tunneling towards its target. When they emerge, the roots 2D6 Bludgeoning damage and knocks the target Prone, unless the target passes an Agility check."
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Ancient Ent (RB)",
+      {
+        "name": "Ancient Ent (RB)",
+        "layout": "Riftbreakers_2E",
+        "description": "*A massive tree-like creature that guards primordial forests and ancient groves. It can uproot itself to attack intruders with its branches and massive body.*",
+        "actions": "1♟",
+        "agility": "10",
+        "athletics": "80",
+        "cs": "80",
+        "endurance": "80",
+        "evasion": "0",
+        "hp": "20♟",
+        "move": "1",
+        "number": "1",
+        "parry": "10",
+        "perception": "30",
+        "protection": "D8",
+        "tenacity": "50",
+        "type": "Plant",
+        "traits": [
+          {
+            "name": "Traits:",
+            "desc": "Melee, Titanic, Savage. Vulnerable to Fire damage, but Immune to the Frightened and Blinded conditions."
+          }
+        ],
+        "action": [
+          {
+            "name": "1-2",
+            "desc": "**Sweeping Blow**: The Ancient Ent swings its branches against its target and another one adjacent to it, making a Combat Skill check against both and dealing D6+2 Bludgeoning damage on a hit."
+          },
+          {
+            "name": "3-4",
+            "desc": "**Strangling Roots**: The Ancient Ent spreads its roots towards its target, who must make an Agility check or become Restrained. Every round that a target remains Restrained, they suffer D4 Force damage."
+          },
+          {
+            "name": "5",
+            "desc": "**Regrowth**: The Ancient Ent concentrates its energy into regrowing, healing D8 Health."
+          },
+          {
+            "name": "6",
+            "desc": "**Crush**: The Ancient Ent attempts to crush its target, making a Combat Skill check and dealing 2D8 Bludgeoning damage if it succeeds."
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Mossy Horror (RB)",
+      {
+        "name": "Mossy Horror (RB)",
+        "layout": "Riftbreakers_2E",
+        "description": "*A grotesque creature made entirely of moss and vines that help it blend into the surrounding foliage and ambush its prey.*",
+        "actions": "1♟",
+        "agility": "40",
+        "athletics": "50",
+        "cs": "60",
+        "endurance": "60",
+        "evasion": "0",
+        "hp": "18♟",
+        "move": "1",
+        "number": "1",
+        "parry": "10",
+        "perception": "60",
+        "protection": "D6",
+        "tenacity": "60",
+        "type": "Elemental, Construct",
+        "traits": [
+          {
+            "name": "Traits:",
+            "desc": "Melee, Stalker. Resistant to Void damage, and Immune to Necrotic Damage and the Charmed, Poisoned, Bleeding, Frightened, and Asleep conditions"
+          }
+        ],
+        "action": [
+          {
+            "name": "1-2",
+            "desc": "**Vicious Vine Strike**: The Mossy Horror lashes out with its sharp, thorn-covered vines, making a Combat Skill check and dealing D6+2 Piercing damage on a hit."
+          },
+          {
+            "name": "3-4",
+            "desc": "**Blend In**: The Mossy Horror blends into the surrounding foliage, becoming Concealed."
+          },
+          {
+            "name": "5",
+            "desc": "**Poisonous Spores**: The Mossy Horror releases a cloud of poisonous spores, attempting to poison all creatures within the same Combat Zone. Characters within the Zone must pass an Endurance check or suffer D6 Poison damage and become Poisoned (1)."
+          },
+          {
+            "name": "6",
+            "desc": "**Stranglehold**: The Mossy Horror makes a Combat Skill check, attempting to wrap its vines around its target. If successful, the target suffers D6+1 Bludgeoning damage and is Restrained until they free themselves."
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Luminous Lizard (RB)",
+      {
+        "name": "Luminous Lizard (RB)",
+        "layout": "Riftbreakers_2E",
+        "description": "*A relatively small reptile that glows in the dark, and can shoot bursts of blinding light to disorient its prey.*",
+        "actions": "1",
+        "agility": "40",
+        "athletics": "30",
+        "cs": "50",
+        "endurance": "40",
+        "evasion": "10",
+        "hp": "12",
+        "move": "1",
+        "number": "1♟",
+        "parry": "0",
+        "perception": "80",
+        "protection": "D3",
+        "tenacity": "40",
+        "type": "Beast, Astral",
+        "traits": [
+          {
+            "name": "Traits:",
+            "desc": "Melee, Swift. Immune to the Bleeding, Poisoned, and Frightened conditions."
+          }
+        ],
+        "action": [
+          {
+            "name": "1-2",
+            "desc": "**Radiant Strike**: The Luminous Lizard makes a Combat Skill check and charges towards its target, dealing D8+2 Radiant damage."
+          },
+          {
+            "name": "3-4",
+            "desc": "**Tail Whip**: The Luminous Lizard whips its tail, making a Combat Skill check and dealing D6+1 Bludgeoning damage to its target. The target must pass an Athletics check or be knocked Prone."
+          },
+          {
+            "name": "5",
+            "desc": "**Blinding Flash**: The Luminous Lizard emits a burst of blinding light, forcing all creatures within the same Combat Zone to make an Endurance check or be Blinded for D4 rounds."
+          },
+          {
+            "name": "6",
+            "desc": "**Fiery Aura**: The Luminous Lizard emits a glowing aura, forcing all targets in the same Combat Zone to pass an Endurance check or suffer D6 Radiant damage and be Burning."
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Grove Guardian (RB)",
+      {
+        "name": "Grove Guardian (RB)",
+        "layout": "Riftbreakers_2E",
+        "description": "*A fierce creature that resembles a mix between a bear and a tree, that defends its territory with brute force.*",
+        "actions": "1♟",
+        "agility": "30",
+        "athletics": "80",
+        "cs": "60",
+        "endurance": "80",
+        "evasion": "0",
+        "hp": "22♟",
+        "move": "1",
+        "number": "1",
+        "parry": "10",
+        "perception": "60",
+        "protection": "D8",
+        "tenacity": "60",
+        "type": "Beast, Plant",
+        "traits": [
+          {
+            "name": "Traits:",
+            "desc": "Melee, Suppression Aura. Vulnerable to Fire damage, but Immune to the Frightened and Blinded conditions."
+          }
+        ],
+        "action": [
+          {
+            "name": "1-2",
+            "desc": "**Bear Swipe**: The Grove Guardian makes a Combat Skill check, attacking with its clawed paw and dealing D8+2 Slashing damage to its target on a hit."
+          },
+          {
+            "name": "3-4",
+            "desc": "**Entangling Roots**: The Grove Guardian targets up to three creatures within its Combat Zone, causing roots to grow from the ground. Targets must pass an Agility check or become Restrained. Restrained characters suffer 1 Piercing damage every round."
+          },
+          {
+            "name": "5",
+            "desc": "**Feral Roar**: The Grove Guardian lets out a feral roar that terrifies all creatures within its Combat Zone, forcing them to make a Tenacity check. Those who fail the check are Frightened (20)."
+          },
+          {
+            "name": "6",
+            "desc": "**Earthquake**: The Grove Guardian slams its massive paw onto the ground, causing an earthquake in its Combat Zone. All creatures within the area must make an Athletics check or be knocked Prone and take D8 Bludgeoning damage. Creatures that succeed take half damage and are not knocked Prone."
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Spirit Bear (RB)",
+      {
+        "name": "Spirit Bear (RB)",
+        "layout": "Riftbreakers_2E",
+        "description": "*A powerful creature that retains some of the traits from its former life, and is said to embody the spirit of the Primordial Forest itself.*",
+        "actions": "1♟",
+        "agility": "40",
+        "athletics": "60",
+        "cs": "60",
+        "endurance": "40",
+        "evasion": "10",
+        "hp": "20♟",
+        "move": "1",
+        "number": "1",
+        "parry": "10",
+        "perception": "60",
+        "protection": "D8",
+        "tenacity": "40",
+        "type": "Undead,Beast",
+        "traits": [
+          {
+            "name": "Traits:",
+            "desc": "Melee. Vulnerable to Radiant damage, Restored by Necrotic Damage, and Immune to the Bleeding, Poisoned, and Frightened conditions."
+          }
+        ],
+        "action": [
+          {
+            "name": "1-2",
+            "desc": "**Earthquake Slam**: The Spirit Bear slams its massive paws into the ground, causing a tremor that forces all characters in the same Combat Zone to pass an Agility check or suffer D8+2 Bludgeoning damage."
+          },
+          {
+            "name": "3-4",
+            "desc": "**Nature's Fury**: The Spirit Bear unleashes the fury of the forest, causing trees and rocks to come to life and attack its target. The target must pass an Agility check or suffer D6+1 Bludgeoning damage and become Restrained for 2 rounds by roots and vines."
+          },
+          {
+            "name": "5",
+            "desc": "**Spirit Step**: The Spirit Bear phases through trees and rocks, reappearing behind its target to deliver a powerful swipe with its claws. makes a Combat Skill check with +10, dealing D10+3 Slashing damage on a hit."
+          },
+          {
+            "name": "6",
+            "desc": "**Ancestral Form**: The Spirit Bear transforms into a huge, hulking bear, gaining 10 temporary Health."
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Dark Dwellers (RB)",
+      {
+        "name": "Dark Dwellers (RB)",
+        "layout": "Riftbreakers_2E",
+        "description": "*Creatures that have adapted to life in the dark, with heightened senses and razor-sharp claws. Their sinuous bodies hold a ferocity that is often surprising, considering their relatively small size.*",
+        "actions": "1",
+        "agility": "70",
+        "athletics": "20",
+        "cs": "40",
+        "endurance": "40",
+        "evasion": "20",
+        "hp": "10",
+        "move": "1",
+        "number": "3♟",
+        "parry": "0",
+        "perception": "80",
+        "protection": "D3",
+        "tenacity": "40",
+        "type": "Beast",
+        "traits": [
+          {
+            "name": "Traits:",
+            "desc": "Melee, Stalker, Pack"
+          }
+        ],
+        "action": [
+          {
+            "name": "1-2",
+            "desc": "**Serrated Claws**: The Dark Dweller makes a Combat Skill check and slashes at its target with its razor-sharp claws, dealing 2D6 Slashing damage."
+          },
+          {
+            "name": "3-4",
+            "desc": "**Blinding Gloom**: The Dark Dweller emits a blast of dark energy that blinds all creatures within the same Combat Zone. Affected creatures must succeed on an Endurance check or be Blinded for 2 rounds."
+          },
+          {
+            "name": "5",
+            "desc": "**Paralyzing Venom**: The Dark Dweller secretes a venom over, coating its claws with it. For the rest of combat, all creatures damaged by the Dark Dweller must pass an Endurance check or be Paralyzed (2). If the Dark Dweller has already used this Action, it makes a basic attack."
+          },
+          {
+            "name": "6",
+            "desc": "**Shadow Form**: The Dark Dweller transforms into a shadowy mist, becoming Immune to all damage for 2 rounds."
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ],
+    [
+      "Bog Snake (RB)",
+      {
+        "name": "Bog Snake (RB)",
+        "layout": "Riftbreakers_2E",
+        "description": "*These large serpents blend perfectly with their habitat, posing an ever-present threat to those who dare cross the glades and marshes of Kaethor.*",
+        "actions": "1♟",
+        "agility": "40",
+        "athletics": "30",
+        "cs": "70",
+        "endurance": "60",
+        "evasion": "10",
+        "hp": "18♟",
+        "move": "1",
+        "number": "1",
+        "parry": "0",
+        "perception": "70",
+        "protection": "D6",
+        "tenacity": "30",
+        "type": "Beast",
+        "traits": [
+          {
+            "name": "Traits:",
+            "desc": "Melee, Vicious (*The creature deals an additional +D4 damage to targets below 50% Health.*)"
+          }
+        ],
+        "action": [
+          {
+            "name": "1-2",
+            "desc": "**Ambush Strike**: The Bog Snake lashes out from the water or underbrush with startling speed. It makes a Combat Skill check against its target, dealing 2D6 Piercing damage on a hit. If the target was unaware of the Bog Snake at the start of this turn, the attack has Advantage, and the target must pass a Tenacity check or be Dazed (1)."
+          },
+          {
+            "name": "3-4",
+            "desc": "**Constricting Coil**: The Bog Snake attempts to wrap its massive body around its target. The target must succeed on an Athletics check or become Restrained. While Restrained, the target takes D6 Bludgeoning damage at the start of each of their turns."
+          },
+          {
+            "name": "5",
+            "desc": "**Venomous Fang**: The Bog Snake bites at a target, making a Combat Skill check. On a hit, it deals D8+2 Piercing damage and injects venom. The target must pass an Endurance check or become Poisoned (1)."
+          },
+          {
+            "name": "6",
+            "desc": "**Camouflage**: The Bog Snake becomes Concealed."
+          }
+        ],
+        "source": "Homebrew"
+      }
+    ]
+  ],
+  "defaultLayouts": {},
+  "layouts": [
+    {
+      "blocks": [
+        {
+          "type": "group",
+          "id": "99293949a878",
+          "properties": [],
+          "nested": [
+            {
+              "type": "inline",
+              "id": "5ae9bbd85bda",
+              "properties": [],
+              "hasRule": false,
+              "nested": [
+                {
+                  "type": "group",
+                  "id": "b8d989194829",
+                  "properties": [],
+                  "nested": [
+                    {
+                      "type": "heading",
+                      "id": "6a4818784999",
+                      "properties": [
+                        "name"
+                      ],
+                      "fallback": "-",
+                      "conditioned": true,
+                      "size": 1
+                    },
+                    {
+                      "type": "subheading",
+                      "id": "19788b1b8a4b",
+                      "properties": [
+                        "race",
+                        "subtype",
+                        "class",
+                        "alignment"
+                      ],
+                      "conditioned": true
+                    },
+                    {
+                      "type": "property",
+                      "id": "c9f81beaa978",
+                      "properties": [],
+                      "fallback": "-",
+                      "callback": "let output = \"\";\nlet icons = {\n\t\"ac\": 0x26E8,\n\t\"hp\": 0x1F5A4,\n\t\"speed\": 0x1F97E,\n\t\"Perception\": 0x1F440,\n\t\"Investigation\": 0x1F50E,\n\t\"Insight\": 0x1F4A1,\n}\nlet statWithIcon = (targetStat, substat) => {\n\tif (targetStat == undefined || targetStat in monster === false) {\n\t\treturn \"\";\n\t}\n\t\n\tlet stat = monster[targetStat];\n\tlet icon = icons[targetStat];\n\tif ( substat !== undefined && substat in stat ){\n\t\tstat = stat[substat];\n\t\ticon = icons[substat];\n\t}\n\treturn `${String.fromCodePoint(icon)}${stat} `;\n}\noutput += statWithIcon(\"ac\");\noutput += statWithIcon(\"hp\");\noutput += statWithIcon(\"speed\");\noutput += statWithIcon(\"passives\", \"Perception\");\noutput += statWithIcon(\"passives\", \"Investigation\");\noutput += statWithIcon(\"passives\", \"Insight\");\nreturn output.trim();",
+                      "display": " "
+                    }
+                  ]
+                },
+                {
+                  "type": "image",
+                  "id": "3bba8b8b0849",
+                  "properties": [
+                    "image"
+                  ],
+                  "fallback": "-",
+                  "conditioned": true
+                }
+              ]
+            },
+            {
+              "type": "property",
+              "id": "eb590b794afa",
+              "properties": [
+                ""
+              ],
+              "fallback": "-",
+              "callback": "let getMod = (statVal) => {\n  let mod = Math.floor(((statVal ?? 10) - 10) / 2);\n  return `${mod > 0 ? \"+\" : mod < 0 ? \"-\" : \"\"}${Math.abs(mod)}`;\n}\n\nlet output = \"\";\nlet labels = [\"Str\",\"Dex\",\"Con\",\"Int\",\"Wis\",\"Cha\"];\nif (\"stats\" in monster) {\n  let stats = monster.stats;\n  for ( let x = 0; x < stats.length; x++){\n    let stat = stats[x];\n    let label = labels[x];\n    let mod = getMod(stat);\n    output += `${label}: ${stat} (${mod}) `;\n  }\n  return output.trim();\n}\nreturn \"\";",
+              "conditioned": false,
+              "display": " ",
+              "markdown": false,
+              "dice": false
+            }
+          ]
+        },
+        {
+          "type": "inline",
+          "id": "28dbfa9a199b",
+          "properties": [],
+          "nested": [
+            {
+              "type": "saves",
+              "id": "684a1878690a",
+              "properties": [
+                "saves"
+              ],
+              "fallback": "-",
+              "conditioned": true
+            },
+            {
+              "type": "property",
+              "id": "e81b68d87929",
+              "properties": [
+                "damage_immunities"
+              ],
+              "fallback": "-",
+              "display": "Immun",
+              "conditioned": true
+            },
+            {
+              "type": "property",
+              "id": "799a6b18598a",
+              "properties": [
+                "condition_immunities"
+              ],
+              "fallback": "-",
+              "display": " ",
+              "conditioned": true
+            },
+            {
+              "type": "property",
+              "id": "6b4a1b2af8d9",
+              "properties": [
+                "damage_resistances"
+              ],
+              "fallback": "-",
+              "display": "Resist",
+              "conditioned": true
+            },
+            {
+              "type": "property",
+              "id": "49eab86929fb",
+              "properties": [
+                "damage_vulnerabilities"
+              ],
+              "fallback": "-",
+              "display": "Vuln",
+              "conditioned": true
+            }
+          ]
+        },
+        {
+          "type": "inline",
+          "id": "696aea68d918",
+          "properties": [],
+          "nested": [
+            {
+              "type": "property",
+              "id": "5ba93b3bdbdb",
+              "properties": [
+                "languages"
+              ],
+              "fallback": "-",
+              "display": "Languages",
+              "conditioned": true
+            },
+            {
+              "type": "property",
+              "id": "5b0a98581ae9",
+              "properties": [
+                "senses"
+              ],
+              "fallback": "-",
+              "display": "Senses",
+              "conditioned": true
+            }
+          ]
+        }
+      ],
+      "name": "Compact",
+      "diceParsing": [],
+      "id": "8899cbeb6b88",
+      "cssProperties": {
+        "backgroundColor": "#f2f2f2",
+        "ruleColor": "#514d4d"
+      }
+    },
+    {
+      "name": "Riftbreakers",
+      "blocks": [
+        {
+          "type": "group",
+          "id": "db28d9c82a09",
+          "properties": [],
+          "nested": [
+            {
+              "type": "heading",
+              "id": "6b7ab8d8b9cb",
+              "properties": [
+                "name"
+              ],
+              "size": 1,
+              "fallback": "-"
+            },
+            {
+              "type": "inline",
+              "id": "097b1a78b8cb",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "text",
+                  "id": "b8cbcaabb8c9",
+                  "properties": [
+                    "description"
+                  ],
+                  "text": null,
+                  "fallback": "-",
+                  "heading": ""
+                }
+              ]
+            }
+          ],
+          "hasRule": true
+        },
+        {
+          "type": "group",
+          "id": "4bc928780889",
+          "properties": [],
+          "nested": [
+            {
+              "type": "inline",
+              "id": "095aaad8ba0a",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "property",
+                  "id": "cb192a69d9b8",
+                  "properties": [
+                    "Type"
+                  ],
+                  "fallback": "-",
+                  "display": "Type:"
+                },
+                {
+                  "type": "property",
+                  "id": "3b18b8486bdb",
+                  "properties": [
+                    "Size"
+                  ],
+                  "fallback": "-",
+                  "display": "Size:"
+                }
+              ]
+            },
+            {
+              "type": "inline",
+              "id": "88293adb0a8b",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "property",
+                  "id": "d97868f929d8",
+                  "properties": [
+                    "Tenacity"
+                  ],
+                  "fallback": "-",
+                  "display": "Tenacity:"
+                },
+                {
+                  "type": "property",
+                  "id": "49fb68c88b98",
+                  "properties": [
+                    "Coordination"
+                  ],
+                  "fallback": "-",
+                  "display": "Coordination:"
+                },
+                {
+                  "type": "property",
+                  "id": "db6be9fb0b1b",
+                  "properties": [
+                    "Intellect"
+                  ],
+                  "fallback": "-",
+                  "display": "Intellect:"
+                },
+                {
+                  "type": "property",
+                  "id": "2afa0adbba68",
+                  "properties": [
+                    "Vitality"
+                  ],
+                  "fallback": "-",
+                  "display": "Vitality:"
+                }
+              ],
+              "hasRule": false
+            },
+            {
+              "type": "inline",
+              "id": "688b4be98a7a",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "property",
+                  "id": "eb3b7b18fb6a",
+                  "properties": [
+                    "Armor"
+                  ],
+                  "fallback": "-",
+                  "display": "Armor:",
+                  "conditioned": true
+                },
+                {
+                  "type": "property",
+                  "id": "eb6829489af9",
+                  "properties": [
+                    "Speed"
+                  ],
+                  "fallback": "-",
+                  "display": "Speed:"
+                },
+                {
+                  "type": "property",
+                  "id": "8bfac96beba8",
+                  "properties": [
+                    "Perception"
+                  ],
+                  "fallback": "-",
+                  "display": "Perception:"
+                }
+              ]
+            },
+            {
+              "type": "inline",
+              "id": "a9ab291ae8a8",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "property",
+                  "id": "8ab919fa49aa",
+                  "properties": [
+                    "Health"
+                  ],
+                  "fallback": "-",
+                  "display": "HP:"
+                },
+                {
+                  "type": "property",
+                  "id": "4a4a7a78196a",
+                  "properties": [
+                    "Combat Skill"
+                  ],
+                  "fallback": "-",
+                  "display": "CS:"
+                },
+                {
+                  "type": "property",
+                  "id": "3ad9c8bad84a",
+                  "properties": [
+                    "Number"
+                  ],
+                  "fallback": "-",
+                  "display": "Number:"
+                }
+              ]
+            }
+          ],
+          "hasRule": true
+        },
+        {
+          "type": "group",
+          "id": "f91ac92ada99",
+          "properties": [],
+          "nested": [
+            {
+              "type": "traits",
+              "id": "e8fa8a099998",
+              "properties": [
+                "traits"
+              ],
+              "fallback": "-"
+            }
+          ],
+          "hasRule": true
+        },
+        {
+          "type": "group",
+          "id": "c91aea48887b",
+          "properties": [],
+          "nested": [
+            {
+              "type": "traits",
+              "id": "3b4b19bb68ea",
+              "properties": [
+                "actions"
+              ],
+              "fallback": "-",
+              "heading": "Actions",
+              "hasRule": false
+            }
+          ],
+          "hasRule": true
+        },
+        {
+          "type": "group",
+          "id": "9949a839686b",
+          "properties": [],
+          "nested": [
+            {
+              "type": "traits",
+              "id": "5beaa918f83a",
+              "properties": [
+                "loot"
+              ],
+              "fallback": "-",
+              "heading": "Loot"
+            }
+          ]
+        }
+      ],
+      "id": "98288bbaba29",
+      "cssProperties": {
+        "backgroundColor": "#f8f8f2",
+        "ruleColor": "#500001",
+        "primaryColor": "#000000",
+        "barColor": "#500001",
+        "propertyNameFontWeight": "bold",
+        "contentFont": "\"Alegreya\", \"Duvall\", \"Arial Black\"",
+        "headingFont": "\"Berry Rotunda\", \"Arial MT\", Calibri, Helvetica, Arial",
+        "headingFontSize": "32px",
+        "contentFontSize": "18px",
+        "fontWeight": "500",
+        "sectionHeadingFont": "\"KelmscottRoman\", \"Noto Sans\", \"Myriad Pro\", Calibri, Helvetica, Arial, sans-serif",
+        "traitsFont": "contentFont",
+        "traitsNameFont": "\"KelmscottRoman\", \"Noto Sans\", \"Myriad Pro\", Calibri, Helvetica, Arial, sans-serif",
+        "traitsFontStyle": "",
+        "traitsFontWeight": "500",
+        "headingFontWeight": "500",
+        "subheadingFont": "\"KelmscottRoman\", \"Noto Sans\", \"Myriad Pro\", Calibri, Helvetica, Arial, sans-serif",
+        "sectionHeadingFontWeight": "600",
+        "subheadingFontStyle": "regular",
+        "traitsNameFontStyle": "regular",
+        "traitsFontSize": "18px",
+        "propertyFontVariant": "regular",
+        "propertyFontWeight": "fontWeight",
+        "propertyNameFont": "sectionHeadingFont"
+      }
+    },
+    {
+      "blocks": [
+        {
+          "type": "group",
+          "id": "99293949a878",
+          "properties": [],
+          "nested": [
+            {
+              "type": "inline",
+              "id": "5ae9bbd85bda",
+              "properties": [],
+              "hasRule": false,
+              "nested": [
+                {
+                  "type": "heading",
+                  "id": "b8b948d9d869",
+                  "properties": [
+                    "name"
+                  ],
+                  "size": 2,
+                  "fallback": "-"
+                },
+                {
+                  "type": "property",
+                  "id": "8bbb2b9a0ba9",
+                  "properties": [
+                    "number"
+                  ],
+                  "fallback": "-",
+                  "display": "Number:",
+                  "conditioned": true
+                }
+              ]
+            },
+            {
+              "type": "inline",
+              "id": "1a8b68d9a9f8",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "property",
+                  "id": "d98838d85b89",
+                  "properties": [
+                    "type"
+                  ],
+                  "fallback": "-",
+                  "display": "Type:"
+                },
+                {
+                  "type": "property",
+                  "id": "ca890b4b098a",
+                  "properties": [
+                    "loot"
+                  ],
+                  "fallback": "-",
+                  "display": "Loot:"
+                }
+              ]
+            },
+            {
+              "type": "table",
+              "id": "3a2a0b29996a",
+              "properties": [
+                "stats"
+              ],
+              "headers": [
+                "STR",
+                "DEX",
+                "CON",
+                "WIL",
+                "INT",
+                "CHA"
+              ],
+              "calculate": false,
+              "fallback": "-",
+              "dice": false,
+              "hasRule": true
+            },
+            {
+              "type": "inline",
+              "id": "59b87a1a5b48",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "property",
+                  "id": "1a8a39486b5a",
+                  "properties": [
+                    "DEF"
+                  ],
+                  "fallback": "-",
+                  "display": "DEF:"
+                },
+                {
+                  "type": "property",
+                  "id": "4aea7859496b",
+                  "properties": [
+                    "OFF"
+                  ],
+                  "fallback": "-",
+                  "display": "OFF:"
+                },
+                {
+                  "type": "property",
+                  "id": "bb7a3bea9828",
+                  "properties": [
+                    "damage"
+                  ],
+                  "fallback": "-",
+                  "display": "Damage:"
+                }
+              ]
+            },
+            {
+              "type": "inline",
+              "id": "7b4ba96b4808",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "property",
+                  "id": "4b5adb4a697a",
+                  "properties": [
+                    "hp"
+                  ],
+                  "fallback": "-",
+                  "display": "HP:"
+                },
+                {
+                  "type": "property",
+                  "id": "0a08e838ea79",
+                  "properties": [
+                    "awareness"
+                  ],
+                  "fallback": "-",
+                  "display": "Awareness:"
+                },
+                {
+                  "type": "property",
+                  "id": "982a3b7a0a49",
+                  "properties": [
+                    "initiative"
+                  ],
+                  "fallback": "-",
+                  "display": "Initiative:"
+                }
+              ],
+              "hasRule": true
+            },
+            {
+              "type": "group",
+              "id": "09daa95aaa1b",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "property",
+                  "id": "aa3aaa79ebbb",
+                  "properties": [
+                    "gear"
+                  ],
+                  "fallback": "-",
+                  "display": "Gear:",
+                  "conditioned": true
+                },
+                {
+                  "type": "property",
+                  "id": "3a092a5a6a09",
+                  "properties": [
+                    "skills"
+                  ],
+                  "fallback": "-",
+                  "display": "Skills:",
+                  "hasRule": true,
+                  "conditioned": true
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "id": "8b781a799848",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "traits",
+                  "id": "489b5bc829ea",
+                  "properties": [
+                    "traits"
+                  ],
+                  "fallback": "-",
+                  "conditioned": false,
+                  "hasRule": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "08ababba1ab9",
+          "properties": [
+            "description"
+          ],
+          "text": null,
+          "fallback": "-",
+          "hasRule": false
+        }
+      ],
+      "name": "DBS",
+      "id": "5869881a396a",
+      "cssProperties": {
+        "backgroundColor": "#ededed",
+        "primaryColor": "#000000",
+        "ruleColor": "#404040",
+        "barColor": "#5c5c5c",
+        "headingFont": "\"Booter Five Zero \", \"Roman Antique\", \"Duvall\", \"Arial Black\"",
+        "contentFont": "\"Arial MT\", Calibri, Helvetica, Arial",
+        "subheadingFontWeight": "bold",
+        "sectionHeadingFont": "\"Arial Black\"",
+        "headingFontWeight": "900",
+        "propertyNameFontWeight": "800",
+        "fontWeight": "500",
+        "contentFontSize": "14px",
+        "headingFontVariant": "small-caps",
+        "headingFontSize": "27px",
+        "propertyNameFont": "contentFont",
+        "propertyFontWeight": "fontWeight",
+        "propertyFontVariant": "normal",
+        "traitsFontStyle": "normal",
+        "propertyNameFontVariant": "",
+        "propertyFontSize": "contentFontSize",
+        "traitsFontWeight": ""
+      }
+    },
+    {
+      "blocks": [
+        {
+          "type": "group",
+          "id": "99293949a878",
+          "properties": [],
+          "nested": [
+            {
+              "type": "inline",
+              "id": "5ae9bbd85bda",
+              "properties": [],
+              "hasRule": true,
+              "nested": [
+                {
+                  "type": "heading",
+                  "id": "b8b948d9d869",
+                  "properties": [
+                    "name"
+                  ],
+                  "size": 2,
+                  "fallback": "-",
+                  "hasRule": true
+                },
+                {
+                  "type": "property",
+                  "id": "8bbb2b9a0ba9",
+                  "properties": [
+                    "number"
+                  ],
+                  "fallback": "-",
+                  "display": "Number:",
+                  "conditioned": true
+                }
+              ]
+            },
+            {
+              "type": "inline",
+              "id": "1a8b68d9a9f8",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "property",
+                  "id": "ca890b4b098a",
+                  "properties": [
+                    "loot"
+                  ],
+                  "fallback": "-",
+                  "display": "Loot:"
+                },
+                {
+                  "type": "property",
+                  "id": "d98838d85b89",
+                  "properties": [
+                    "type"
+                  ],
+                  "fallback": "-",
+                  "display": "Type:"
+                }
+              ]
+            },
+            {
+              "type": "table",
+              "id": "3a2a0b29996a",
+              "properties": [
+                "stats"
+              ],
+              "headers": [
+                "STR",
+                "DEX",
+                "CON",
+                "WIL",
+                "INT",
+                "CHA"
+              ],
+              "calculate": false,
+              "fallback": "-",
+              "dice": false,
+              "hasRule": true
+            },
+            {
+              "type": "inline",
+              "id": "59b87a1a5b48",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "property",
+                  "id": "4b5adb4a697a",
+                  "properties": [
+                    "hp"
+                  ],
+                  "fallback": "-",
+                  "display": "HP:"
+                },
+                {
+                  "type": "property",
+                  "id": "0a08e838ea79",
+                  "properties": [
+                    "armor"
+                  ],
+                  "fallback": "-",
+                  "display": "Armor:",
+                  "conditioned": true
+                },
+                {
+                  "type": "property",
+                  "id": "982a3b7a0a49",
+                  "properties": [
+                    "dodge"
+                  ],
+                  "fallback": "-",
+                  "display": "Dodge:"
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "id": "09daa95aaa1b",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "inline",
+                  "id": "7b4ba96b4808",
+                  "properties": [],
+                  "nested": [
+                    {
+                      "type": "property",
+                      "id": "4aea7859496b",
+                      "properties": [
+                        "perception"
+                      ],
+                      "fallback": "-",
+                      "display": "Perception:"
+                    },
+                    {
+                      "type": "property",
+                      "id": "1a8a39486b5a",
+                      "properties": [
+                        "parry"
+                      ],
+                      "fallback": "-",
+                      "display": "Parry?:"
+                    }
+                  ]
+                }
+              ],
+              "hasRule": true
+            },
+            {
+              "type": "group",
+              "id": "8b781a799848",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "traits",
+                  "id": "489b5bc829ea",
+                  "properties": [
+                    "traits"
+                  ],
+                  "fallback": "-",
+                  "conditioned": false,
+                  "hasRule": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "08ababba1ab9",
+          "properties": [
+            "description"
+          ],
+          "text": null,
+          "fallback": "-",
+          "hasRule": false
+        }
+      ],
+      "name": "Broken_Shores",
+      "id": "68ea2858ea48",
+      "cssProperties": {
+        "backgroundColor": "#f0f0f0",
+        "primaryColor": "#000000",
+        "ruleColor": "#383838",
+        "barColor": "#1f227f",
+        "contentFont": "\"SF Pro Text\", \"ArialMT\", Calibri, Helvetica, Arial",
+        "headingFont": "\"Cambria\", \"RochesterSerial black\", \"Duvall\"",
+        "propertyNameFontWeight": "700",
+        "headingFontWeight": "900",
+        "headingFontVariant": "small-caps",
+        "propertyNameFontVariant": "regular",
+        "propertyNameFont": "contentFont",
+        "fontWeight": "500",
+        "contentFontSize": "14px",
+        "propertyFontWeight": "500",
+        "headingFontSize": "24px",
+        "traitsNameFontWeight": "700",
+        "sectionHeadingFont": "\"Cambria\", \"RochesterSerial black\", \"Duvall\"",
+        "traitsFontStyle": "medium",
+        "traitsFontWeight": "500",
+        "traitsNameFontStyle": "regular",
+        "subheadingFontSize": "14px",
+        "propertyNameFontSize": "contentFontSize",
+        "propertyFontVariant": "medium",
+        "sectionHeadingFontWeight": "700",
+        "subheadingFontWeight": "500",
+        "traitsNameFontSize": "contentFontSize"
+      }
+    },
+    {
+      "blocks": [
+        {
+          "type": "group",
+          "id": "99293949a878",
+          "properties": [],
+          "nested": [
+            {
+              "type": "heading",
+              "id": "b8b948d9d869",
+              "properties": [
+                "name"
+              ],
+              "size": 2,
+              "fallback": "-",
+              "hasRule": true
+            },
+            {
+              "type": "inline",
+              "id": "5ae9bbd85bda",
+              "properties": [],
+              "hasRule": false,
+              "nested": [
+                {
+                  "type": "property",
+                  "id": "d98838d85b89",
+                  "properties": [
+                    "type"
+                  ],
+                  "fallback": "-",
+                  "display": "Type:"
+                },
+                {
+                  "type": "property",
+                  "id": "8bbb2b9a0ba9",
+                  "properties": [
+                    "number"
+                  ],
+                  "fallback": "-",
+                  "display": "Number:",
+                  "conditioned": true
+                }
+              ]
+            },
+            {
+              "type": "inline",
+              "id": "59b87a1a5b48",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "property",
+                  "id": "0a08e838ea79",
+                  "properties": [
+                    "armor"
+                  ],
+                  "fallback": "-",
+                  "display": "Armor:",
+                  "conditioned": true
+                },
+                {
+                  "type": "property",
+                  "id": "4b5adb4a697a",
+                  "properties": [
+                    "hp"
+                  ],
+                  "fallback": "-",
+                  "display": "HP:"
+                }
+              ],
+              "hasRule": true
+            },
+            {
+              "type": "table",
+              "id": "3a2a0b29996a",
+              "properties": [
+                "stats"
+              ],
+              "headers": [
+                "STR",
+                "DEX",
+                "CON",
+                "INT",
+                "WIS",
+                "CHA"
+              ],
+              "calculate": true,
+              "fallback": "-",
+              "dice": false,
+              "hasRule": true,
+              "modifier": "return Math.floor((stat - 10)/3)"
+            },
+            {
+              "type": "group",
+              "id": "8b781a799848",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "traits",
+                  "id": "489b5bc829ea",
+                  "properties": [
+                    "traits"
+                  ],
+                  "fallback": "-",
+                  "conditioned": false,
+                  "hasRule": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "08ababba1ab9",
+          "properties": [
+            "description"
+          ],
+          "text": null,
+          "fallback": "-",
+          "hasRule": false
+        }
+      ],
+      "name": "PathAram",
+      "id": "f9eb5a389a8a",
+      "cssProperties": {
+        "headingFont": "\"Tobacco Road\", \"Tobacco Road NF\", \"Noto Sans\", \"Myriad Pro\", Calibri, Helvetica, Arial, sans-serif",
+        "primaryColor": "#000000",
+        "ruleColor": "#000000",
+        "backgroundColor": "#ffffff",
+        "barColor": "#007002",
+        "contentFont": " \"Constantia\", \"Arial MT\", Calibri, Helvetica, Arial",
+        "fontWeight": "500",
+        "contentFontSize": "17px",
+        "headingFontSize": "21px",
+        "headingFontWeight": "subheadingFontWeight",
+        "propertyFontWeight": "500",
+        "sectionHeadingFont": "\"KelmscottRoman\", \"Noto Sans\", \"Myriad Pro\", Calibri, Helvetica, Arial, sans-serif",
+        "traitsFontWeight": "500",
+        "traitsNameFontStyle": "",
+        "propertyFontVariant": "Regular",
+        "propertyNameFontWeight": "700",
+        "subheadingFontWeight": "600",
+        "traitsNameFontWeight": "800",
+        "traitsFont": "contentFont",
+        "traitsFontSize": "17px",
+        "propertyNameFont": "\"KelmscottRoman\", \"Noto Sans\", \"Myriad Pro\", Calibri, Helvetica, Arial, sans-serif",
+        "traitsNameFont": "\"KelmscottRoman\", \"Noto Sans\", \"Myriad Pro\", Calibri, Helvetica, Arial, sans-serif",
+        "propertyNameFontSize": "17px",
+        "traitsNameFontSize": "17px",
+        "propertyFont": "contentFont",
+        "subheadingFont": "contentFont",
+        "traitsFontStyle": "Regular"
+      }
+    },
+    {
+      "blocks": [
+        {
+          "type": "group",
+          "id": "99293949a878",
+          "properties": [],
+          "nested": [
+            {
+              "type": "inline",
+              "id": "5ae9bbd85bda",
+              "properties": [],
+              "hasRule": false,
+              "nested": [
+                {
+                  "type": "heading",
+                  "id": "b8b948d9d869",
+                  "properties": [
+                    "name"
+                  ],
+                  "size": 2,
+                  "fallback": "-",
+                  "hasRule": true
+                }
+              ]
+            },
+            {
+              "type": "inline",
+              "id": "1a8b68d9a9f8",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "text",
+                  "id": "08ababba1ab9",
+                  "properties": [
+                    "description"
+                  ],
+                  "text": null,
+                  "fallback": "-",
+                  "hasRule": false
+                }
+              ],
+              "hasRule": true
+            },
+            {
+              "type": "inline",
+              "id": "baeada08698a",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "property",
+                  "id": "4b5adb4a697a",
+                  "properties": [
+                    "hp"
+                  ],
+                  "fallback": "-",
+                  "display": "Hp:"
+                },
+                {
+                  "type": "property",
+                  "id": "bb7a3bea9828",
+                  "properties": [
+                    "attack"
+                  ],
+                  "fallback": "-",
+                  "display": "Attack:"
+                },
+                {
+                  "type": "property",
+                  "id": "1a8a39486b5a",
+                  "properties": [
+                    "dr"
+                  ],
+                  "fallback": "-",
+                  "display": "Dr:"
+                },
+                {
+                  "type": "property",
+                  "id": "982a3b7a0a49",
+                  "properties": [
+                    "initiative"
+                  ],
+                  "fallback": "-",
+                  "display": "Initiative:"
+                }
+              ],
+              "hasRule": true
+            },
+            {
+              "type": "inline",
+              "id": "7b4ba96b4808",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "property",
+                  "id": "18080a5bcb18",
+                  "properties": [
+                    "constitution"
+                  ],
+                  "fallback": "-",
+                  "display": "Con:"
+                },
+                {
+                  "type": "property",
+                  "id": "796ab8794b09",
+                  "properties": [
+                    "strength"
+                  ],
+                  "fallback": "-",
+                  "display": "Str:"
+                },
+                {
+                  "type": "property",
+                  "id": "7b494a989bc9",
+                  "properties": [
+                    "willpower"
+                  ],
+                  "fallback": "-",
+                  "display": "Will:"
+                },
+                {
+                  "type": "property",
+                  "id": "981bc8ebc98b",
+                  "properties": [
+                    "dexterity"
+                  ],
+                  "fallback": "-",
+                  "display": "Dex:"
+                }
+              ],
+              "hasRule": true
+            },
+            {
+              "type": "inline",
+              "id": "59b87a1a5b48",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "property",
+                  "id": "8bbb2b9a0ba9",
+                  "properties": [
+                    "number"
+                  ],
+                  "fallback": "-",
+                  "display": "Number:",
+                  "conditioned": false
+                },
+                {
+                  "type": "property",
+                  "id": "4aea7859496b",
+                  "properties": [
+                    "xp"
+                  ],
+                  "fallback": "-",
+                  "display": "XP Granted:"
+                },
+                {
+                  "type": "property",
+                  "id": "d98838d85b89",
+                  "properties": [
+                    "type"
+                  ],
+                  "fallback": "-",
+                  "display": "Type:"
+                },
+                {
+                  "type": "property",
+                  "id": "aa3aaa79ebbb",
+                  "properties": [
+                    "preception"
+                  ],
+                  "fallback": "-",
+                  "display": "Preception:",
+                  "conditioned": false
+                }
+              ],
+              "hasRule": true
+            },
+            {
+              "type": "group",
+              "id": "8b781a799848",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "traits",
+                  "id": "489b5bc829ea",
+                  "properties": [
+                    "traits"
+                  ],
+                  "fallback": "-",
+                  "conditioned": false,
+                  "hasRule": false
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "name": "Machine_Gods",
+      "id": "d9a8280acbc9",
+      "cssProperties": {
+        "backgroundColor": "#ebe5db",
+        "primaryColor": "#000000",
+        "ruleColor": "#000000",
+        "barColor": "#8900f2",
+        "headingFont": "\"Coalition\", \"Lora\", \"Calisto MT\", \"Bookman Old Style\", Bookman, \"Goudy Old Style\", Garamond, \"Hoefler Text\", \"Bitstream Charter\", Georgia, serif",
+        "headingFontSize": "26px",
+        "headingFontVariant": "regular",
+        "headingFontWeight": "500",
+        "contentFont": "\"Lora\", \"Arial MT\", Calibri, Helvetica, Arial",
+        "contentFontSize": "16px",
+        "fontWeight": "traitsFontWeight",
+        "propertyNameFontWeight": "900",
+        "traitsNameFontStyle": "small-caps",
+        "propertyNameFont": "\"Lora\", \"Calibri\", Helvetica, Arial",
+        "traitsNameFont": "\"Lora\", \"Calibri\", Helvetica, Arial",
+        "propertyFontVariant": "regular",
+        "propertyFontWeight": "500",
+        "traitsFontStyle": "regular",
+        "traitsFontWeight": "500",
+        "propertyNameFontVariant": "small-caps",
+        "traitsNameFontWeight": "900",
+        "traitsFontSize": "16px",
+        "traitsNameFontSize": "17px",
+        "propertyNameFontSize": "17px"
+      }
+    },
+    {
+      "blocks": [
+        {
+          "type": "group",
+          "id": "99293949a878",
+          "properties": [],
+          "nested": [
+            {
+              "type": "inline",
+              "id": "5ae9bbd85bda",
+              "properties": [],
+              "hasRule": false,
+              "nested": [
+                {
+                  "type": "heading",
+                  "id": "b8b948d9d869",
+                  "properties": [
+                    "name"
+                  ],
+                  "size": 2,
+                  "fallback": "-",
+                  "hasRule": true
+                }
+              ]
+            },
+            {
+              "type": "inline",
+              "id": "1a8b68d9a9f8",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "text",
+                  "id": "08ababba1ab9",
+                  "properties": [
+                    "description"
+                  ],
+                  "text": null,
+                  "fallback": "-",
+                  "hasRule": false
+                }
+              ],
+              "hasRule": true
+            },
+            {
+              "type": "inline",
+              "id": "baeada08698a",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "property",
+                  "id": "bb7a3bea9828",
+                  "properties": [
+                    "hp"
+                  ],
+                  "fallback": "-",
+                  "display": "HP:"
+                },
+                {
+                  "type": "property",
+                  "id": "4b5adb4a697a",
+                  "properties": [
+                    "actions"
+                  ],
+                  "fallback": "-",
+                  "display": "Actions:"
+                },
+                {
+                  "type": "property",
+                  "id": "982a3b7a0a49",
+                  "properties": [
+                    "cs"
+                  ],
+                  "fallback": "-",
+                  "display": "Combat Skill:"
+                },
+                {
+                  "type": "property",
+                  "id": "1a8a39486b5a",
+                  "properties": [
+                    "athletics"
+                  ],
+                  "fallback": "-",
+                  "display": "Athletics:"
+                },
+                {
+                  "type": "property",
+                  "id": "d96abb7b1bc8",
+                  "properties": [
+                    "endurance"
+                  ],
+                  "fallback": "-",
+                  "display": "Endurance:"
+                }
+              ],
+              "hasRule": true
+            },
+            {
+              "type": "inline",
+              "id": "7b4ba96b4808",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "property",
+                  "id": "18080a5bcb18",
+                  "properties": [
+                    "evasion"
+                  ],
+                  "fallback": "-",
+                  "display": "Evasion:"
+                },
+                {
+                  "type": "property",
+                  "id": "796ab8794b09",
+                  "properties": [
+                    "agility"
+                  ],
+                  "fallback": "-",
+                  "display": "Agility:"
+                },
+                {
+                  "type": "property",
+                  "id": "7b494a989bc9",
+                  "properties": [
+                    "move"
+                  ],
+                  "fallback": "-",
+                  "display": "Move:"
+                },
+                {
+                  "type": "property",
+                  "id": "981bc8ebc98b",
+                  "properties": [
+                    "number"
+                  ],
+                  "fallback": "-",
+                  "display": "Number:"
+                },
+                {
+                  "type": "property",
+                  "id": "38e849ab1b4a",
+                  "properties": [
+                    "type"
+                  ],
+                  "fallback": "-",
+                  "display": "Type:"
+                }
+              ],
+              "hasRule": true
+            },
+            {
+              "type": "inline",
+              "id": "59b87a1a5b48",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "property",
+                  "id": "8bbb2b9a0ba9",
+                  "properties": [
+                    "parry"
+                  ],
+                  "fallback": "-",
+                  "display": "Parry:",
+                  "conditioned": false
+                },
+                {
+                  "type": "property",
+                  "id": "4aea7859496b",
+                  "properties": [
+                    "perception"
+                  ],
+                  "fallback": "-",
+                  "display": "Perception:"
+                },
+                {
+                  "type": "property",
+                  "id": "d98838d85b89",
+                  "properties": [
+                    "protection"
+                  ],
+                  "fallback": "-",
+                  "display": "Protection:"
+                },
+                {
+                  "type": "property",
+                  "id": "aa3aaa79ebbb",
+                  "properties": [
+                    "tenacity"
+                  ],
+                  "fallback": "-",
+                  "display": "Tenacity:",
+                  "conditioned": false
+                }
+              ],
+              "hasRule": true
+            },
+            {
+              "type": "group",
+              "id": "8b781a799848",
+              "properties": [],
+              "nested": [
+                {
+                  "type": "traits",
+                  "id": "489b5bc829ea",
+                  "properties": [
+                    "traits"
+                  ],
+                  "fallback": "-",
+                  "conditioned": false,
+                  "hasRule": false
+                }
+              ]
+            },
+            {
+              "type": "traits",
+              "id": "798999ab8a18",
+              "properties": [
+                "action"
+              ],
+              "fallback": "-",
+              "heading": ""
+            }
+          ]
+        }
+      ],
+      "name": "Riftbreakers_2E",
+      "id": "1a482bcb4b48",
+      "cssProperties": {
+        "headingFont": "\"Chapbook\", \"Roman Antique\", \"Duvall\", \"Arial Black\"",
+        "headingFontWeight": "600",
+        "headingFontSize": "38px",
+        "contentFont": "\"Alegreya\", \"Duvall\", \"Arial Black\"",
+        "contentFontSize": "18px",
+        "sectionHeadingFont": "\"KelmscottRoman\", \"Noto Sans\", \"Myriad Pro\", Calibri, Helvetica, Arial, sans-serif",
+        "subheadingFont": "\"KelmscottRoman\", \"Noto Sans\", \"Myriad Pro\", Calibri, Helvetica, Arial, sans-serif",
+        "traitsNameFont": "\"KelmscottRoman\", \"Noto Sans\", \"Myriad Pro\", Calibri, Helvetica, Arial, sans-serif",
+        "propertyNameFont": "sectionHeadingFont",
+        "propertyNameFontWeight": "bold",
+        "backgroundColor": "#f8f8f2",
+        "primaryColor": "#000000",
+        "ruleColor": "#191731",
+        "propertyFontWeight": "500",
+        "traitsFontWeight": "500",
+        "headingFontVariant": "regular",
+        "traitsFontSize": "18px",
+        "traitsFontStyle": "regular",
+        "barColor": "#0a69c2",
+        "obsidian": {
+          "backgroundColor": "#f8f8f2",
+          "primaryColor": "#000000",
+          "borderColor": "#090a34"
+        },
+        "borderColor": "#000000"
+      }
+    }
+  ],
+  "default": "1a482bcb4b48",
+  "useDice": true,
+  "renderDice": true,
+  "export": true,
+  "showAdvanced": true,
+  "version": {
+    "major": 4,
+    "minor": 9,
+    "patch": 1
+  },
+  "paths": [
+    "_Bestiaries"
+  ],
+  "autoParse": false,
+  "disableSRD": true,
+  "tryToRenderLinks": true,
+  "debug": false,
+  "notifiedOfFantasy": false,
+  "hideConditionHelp": false,
+  "alwaysImport": false,
+  "defaultLayoutsIntegrated": true,
+  "atomicWrite": false
+}

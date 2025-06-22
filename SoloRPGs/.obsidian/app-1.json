@@ -1,0 +1,13 @@
+{
+  "attachmentFolderPath": "SoloRPGs/_ Assets",
+  "alwaysUpdateLinks": true,
+  "readableLineLength": true,
+  "propertiesInDocument": "visible",
+  "promptDelete": false,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}

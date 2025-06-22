@@ -1,0 +1,405 @@
+{
+  "main": {
+    "id": "57f836d5a7f9d903",
+    "type": "split",
+    "children": [
+      {
+        "id": "f4b94943e144f358",
+        "type": "tabs",
+        "dimension": 53.092369477911646,
+        "children": [
+          {
+            "id": "9aa9184a85170983",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SoloRPGs/Riftbreakers - Second Edition/Aurielle Journal.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Aurielle Journal"
+            }
+          },
+          {
+            "id": "2b4f3eae5d4ef522",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SoloRPGs/_Templates/Colour Pallette.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Colour Pallette"
+            }
+          }
+        ]
+      },
+      {
+        "id": "67b7a810c4e5f737",
+        "type": "tabs",
+        "dimension": 46.907630522088354,
+        "children": [
+          {
+            "id": "b466fe65d045f1f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SoloRPGs/Riftbreakers - Second Edition/PCs/Azel.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Azel"
+            }
+          },
+          {
+            "id": "3a799ccdc3882209",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SoloRPGs/Riftbreakers - Second Edition/PCs/Serayr.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Serayr"
+            }
+          },
+          {
+            "id": "b0a5dcd1de9df8ca",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map Dark Mode.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Combat Zones Map Dark Mode"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "22c5631fb453ce7c",
+    "type": "split",
+    "children": [
+      {
+        "id": "b8640c7f6ac3b7d6",
+        "type": "tabs",
+        "dimension": 44.57308248914617,
+        "children": [
+          {
+            "id": "fe32ac9541879a4c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d618470ee7818072",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "afa861af1f57cd66",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "3ffb19236c0a5617",
+        "type": "tabs",
+        "dimension": 55.42691751085383,
+        "children": [
+          {
+            "id": "d2c3dc2f1a55fb84",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "dices",
+              "title": "Dice Tray"
+            }
+          },
+          {
+            "id": "5b71c12e7c5fe65f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SoloRPGs/Riftbreakers - Second Edition/Tables/Riftbreakers Tables Rolls.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Riftbreakers Tables Rolls"
+            }
+          },
+          {
+            "id": "96b4d9ea857e7ecb",
+            "type": "leaf",
+            "state": {
+              "type": "MAIN_VIEW",
+              "state": {},
+              "icon": "srt-ribbon",
+              "title": "Solo RPG Toolkit"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 486.51103591918945
+  },
+  "right": {
+    "id": "41ee323e71ace92d",
+    "type": "split",
+    "children": [
+      {
+        "id": "9069df57700a3564",
+        "type": "tabs",
+        "dimension": 44.83960948396095,
+        "children": [
+          {
+            "id": "30ad3195d21516b7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "SoloRPGs/Broken Shores/PCs/Krystyna.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Krystyna"
+            }
+          },
+          {
+            "id": "d5aa5d73d32b6f15",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "SoloRPGs/Broken Shores/PCs/Krystyna.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Krystyna"
+            }
+          },
+          {
+            "id": "94f12ad5439f584e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "60a312994f2ecd3d",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {},
+              "icon": "initiative-tracker",
+              "title": "Initiative Tracker"
+            }
+          },
+          {
+            "id": "6884b8d2ba19ff42",
+            "type": "leaf",
+            "state": {
+              "type": "CALENDARIUM",
+              "state": {
+                "calendar": "ID_2b6aebe9dbab",
+                "ephemeral": {
+                  "viewing": null,
+                  "viewState": 1,
+                  "displaying": {
+                    "day": 1,
+                    "month": 3,
+                    "year": 998
+                  },
+                  "displayDayNumber": false,
+                  "displaySeasonColors": true,
+                  "interpolateColors": true,
+                  "displayMoons": true,
+                  "displayWeather": true
+                },
+                "id": "ID_a968e9f99b8a"
+              },
+              "icon": "CALENDARIUM",
+              "title": "Calendarium"
+            }
+          },
+          {
+            "id": "fb8af4c8b4714ccc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map Dark Mode.md",
+                "followCursor": true,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Combat Zones Map Dark Mode"
+            }
+          },
+          {
+            "id": "fe74df69c6024a9f",
+            "type": "leaf",
+            "state": {
+              "type": "initiative-tracker-view",
+              "state": {},
+              "icon": "initiative-tracker",
+              "title": "Initiative Tracker"
+            }
+          }
+        ],
+        "currentTab": 6
+      },
+      {
+        "id": "0e6a14a15862aa6f",
+        "type": "tabs",
+        "dimension": 55.16039051603905,
+        "children": [
+          {
+            "id": "5f19566dca329471",
+            "type": "leaf",
+            "state": {
+              "type": "fantasy-statblocks-creature-pane",
+              "state": {},
+              "icon": "skull",
+              "title": "Combatant"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 500
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
+      "pexels-banner:🚩 Pixel Banner Menu": false,
+      "obsidian-5e-statblocks:Open Creature pane": false,
+      "markdown-importer:Open format converter": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "initiative-tracker:Initiative Tracker Encounter Builder": false,
+      "templater-obsidian:Templater": false,
+      "calendarium:Open Calendarium": false,
+      "solo-rpg-toolkit:Solo RPG Toolkit": false
+    }
+  },
+  "active": "9aa9184a85170983",
+  "lastOpenFiles": [
+    "SoloRPGs/Riftbreakers - Second Edition/PCs/Azel.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map Dark Mode.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Aurielle Journal.md",
+    "SoloRPGs/Riftbreakers - Second Edition/PCs/Serayr.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Tables/Riftbreakers Tables Rolls.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Maps/Overworld Maps/Keathor Overworld Map.md",
+    "SoloRPGs/_Tokens/VTT Battle Tokens/Large Snake 04.webp",
+    "SoloRPGs/Riftbreakers - Second Edition/PCs/Aurielle's Large Spatial Bag.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Might Heart/Two-Handed Weapon Master.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Death Heart/Chill of Death.md",
+    "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/PCs/Azel/GoblinGirl_Token.webp",
+    "SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map.md",
+    "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/PCs/Azel",
+    "SoloRPGs/_Templates/Snippets.md",
+    "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Ancient Ent.md",
+    "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Bog Snake.md",
+    "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Dark Dwellers.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Rules Reference/Riftbreakers House Rules.md",
+    "SoloRPGs/_Templates/Colour Pallette.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Maps/Rift Maps/Primordial Forest Rift 1.md",
+    "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Rift Maps/Primordial Forest Rift 1/IMG-20250611230412476.webp",
+    "SoloRPGs/_Tokens/VTT Battle Tokens/Toad - Giant - 0105 1.webp",
+    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Might Heart/Unbound Fury.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Weapon Strikes & Non-Heart Abilities/Weapon Strike (Two-Handed).md",
+    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Restoration Heart/Holy Weapon.md",
+    "SoloRPGs/_Tokens/VTT Battle Tokens/Giant - Storm - 0101.webp",
+    "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map/IMG-20250531165008094.webp",
+    "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map Dark Mode/IMG-20250602223656096.webp",
+    "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map Dark Mode/IMG-20250618173237295.webp",
+    "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map Dark Mode/IMG-20250602223656363.webp",
+    "SoloRPGs/_Tokens/VTT Battle Tokens/Animal - Spirit Bear.webp",
+    "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Spirit Bear.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Tables/Rift Tables.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Tables/Loot Table.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Tables/General Tables.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Death Heart/Drain Lifeforce.md",
+    "SoloRPGs/_Decks/Riftbreakers Current Ability Loadout",
+    "SoloRPGs/_Decks/Riftbreakers Ability Cards",
+    "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Rift Maps/Primordial Forest Rift 1",
+    "SoloRPGs/_Tokens/Riftbreaker/Rift Maps",
+    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Companion Loadout Abilities",
+    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Weapon Strikes & Non-Heart Abilities",
+    "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map Dark Mode",
+    "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map D",
+    "Untitled.canvas",
+    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Devastation Heart",
+    "SoloRPGs/Path of the Aram Thyr/Overworld Maps/Untitled.canvas",
+    "SoloRPGs/Riftbreakers/Trippin' the Rift Beautiful Edition.canvas",
+    "_Remote/Riftbreakers/Trippin' the Rift Beautiful Edition.canvas",
+    "Remote-SoloRPGs/Disciples of Bone and Shadow/Disciples of Bone & Shadow Canvas.canvas",
+    "Remote-SoloRPGs/Riftbreakers/Trippin' the Rift Beautiful Edition.canvas"
+  ]
+}

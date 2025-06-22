@@ -1,0 +1,67 @@
+{
+  "items": [
+    {
+      "name": "Markdown"
+    },
+    {
+      "name": "Markdown (Hugo)"
+    },
+    {
+      "name": "Html"
+    },
+    {
+      "name": "TextBundle"
+    },
+    {
+      "name": "Typst"
+    },
+    {
+      "name": "PDF"
+    },
+    {
+      "name": "Word (.docx)"
+    },
+    {
+      "name": "OpenOffice"
+    },
+    {
+      "name": "RTF"
+    },
+    {
+      "name": "Epub"
+    },
+    {
+      "name": "Latex"
+    },
+    {
+      "name": "Media Wiki"
+    },
+    {
+      "name": "reStructuredText"
+    },
+    {
+      "name": "Textile"
+    },
+    {
+      "name": "OPML"
+    },
+    {
+      "name": "Bibliography"
+    }
+  ],
+  "pandocPath": {
+    "win32": "C:\\ProgramData\\chocolatey\\bin\\pandoc.exe"
+  },
+  "defaultExportDirectoryMode": "Custom",
+  "openExportedFile": true,
+  "env": {},
+  "showExportProgressBar": true,
+  "openExportedFileLocation": true,
+  "customDefaultExportDirectory": {
+    "win32": "K:\\Documents"
+  },
+  "lastExportDirectory": {
+    "win32": "K:\\Documents"
+  },
+  "lastExportType": "Word (.docx)"
+}
