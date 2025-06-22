@@ -39,6 +39,7 @@
     "Art": "text",
     "a-N": "number",
     "HeartAbRange": "number",
-    "HeartAbCost": "number"
+    "HeartAbCost": "number",
+    "Description": "text"
   }
 }

@@ -13,32 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoloRPGs/Just One Torch/JustOneTorch CS.md",
+                "file": "SoloRPGs/4-Templates/Just One Torch/JustOneTorch CS.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "JustOneTorch CS"
-            }
-          }
-        ]
-      },
-      {
-        "id": "5a3561a1fafa1f59",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "9a23085ec3000917",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SoloRPGs/4-Templates/Azel.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Azel"
             }
           }
         ]
@@ -306,17 +286,37 @@
       "templater-obsidian:Templater": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "pexels-banner:🚩 Pixel Banner Menu": false,
+      "calendarium:Open Calendarium": false,
       "solo-rpg-toolkit:Solo RPG Toolkit": false
     }
   },
   "active": "29733cb9d8c186f8",
   "lastOpenFiles": [
-    "SoloRPGs/4-Templates/Colour Pallette.md",
-    "SoloRPGs/Just One Torch/JustOneTorch CS.md",
+    "SoloRPGs/Just One Torch/JustOneTorch PC.md",
+    "SoloRPGs/4-Templates/Just One Torch/JustOneTorch CS.md",
+    "SoloRPGs/4-Templates/Broken Shores/BS Character Sheet.md",
     "SoloRPGs/4-Templates/Azel.md",
+    "SoloRPGs/4-Templates/Disciples of Bone and Shadow/DBS Character Sheet V2.md",
+    "SoloRPGs/4-Templates/Ker Nethalas - Into the Midnight Throne/Ker Nethalas Character Sheet.md",
+    "SoloRPGs/Just One Torch/Abilities/Aim.md",
+    "SoloRPGs/4-Templates/Just One Torch/Ability Template.md",
+    "SoloRPGs/4-Templates/Just One Torch",
+    "SoloRPGs/4-Templates/Across A Thousand Dead Worlds/ATDW PC Character Sheet.md",
+    "SoloRPGs/5-Tokens/Hexes/Cave 1.webp",
+    "SoloRPGs/Just One Torch/Abilities",
+    "SoloRPGs/Just One Torch/Untitled.md",
+    "SoloRPGs/4-Templates/Path of the Aram Thyr/Path PC Character Sheet.md",
+    "SoloRPGs/4-Templates/Riftbreakers/The Controller Companion Sheet.md",
+    "SoloRPGs/4-Templates/Riftbreakers/Hearts & Skills.md",
+    "SoloRPGs/4-Templates/Disciples of Bone and Shadow/DoBS Character Sheet.md",
+    "SoloRPGs/4-Templates/Disciples of Bone and Shadow/Encounter.md",
+    "SoloRPGs/4-Templates/Disciples of Bone and Shadow/Monster Template.md",
+    "SoloRPGs/4-Templates/Disciples of Bone and Shadow/Alchemy Sheet.md",
+    "SoloRPGs/5-Tokens/Hexes/Dwarven City 2.webp",
+    "SoloRPGs/5-Tokens/Hexes/Desert_Hex_2.webp",
+    "SoloRPGs/4-Templates/Colour Pallette.md",
     "SoloRPGs/4-Templates/Riftbreakers/Character Sheet PC Second Edition.md",
     "SoloRPGs/4-Templates/Aurielle's Large Spatial Bag.md",
-    "SoloRPGs/4-Templates/Disciples of Bone and Shadow/DBS Character Sheet V2.md",
     "SoloRPGs/Just One Torch/Tables",
     "SoloRPGs/Just One Torch/PC",
     "SoloRPGs/4-Templates/Snippets.md",
@@ -328,35 +328,16 @@
     "SoloRPGs/Riftbreakers - Second Edition/Aurielle Journal.md",
     "SoloRPGs/Riftbreakers - Second Edition/PCs/Serayr.md",
     "SoloRPGs/Riftbreakers - Second Edition/Tables/Riftbreakers Tables Rolls.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Maps/Overworld Maps/Keathor Overworld Map.md",
     "SoloRPGs/_Tokens/VTT Battle Tokens/Large Snake 04.webp",
-    "SoloRPGs/Riftbreakers - Second Edition/PCs/Aurielle's Large Spatial Bag.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Might Heart/Two-Handed Weapon Master.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Death Heart/Chill of Death.md",
     "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/PCs/Azel/GoblinGirl_Token.webp",
-    "SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map.md",
     "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/PCs/Azel",
-    "SoloRPGs/_Templates/Snippets.md",
-    "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Ancient Ent.md",
-    "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Bog Snake.md",
-    "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Dark Dwellers.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Rules Reference/Riftbreakers House Rules.md",
-    "SoloRPGs/_Templates/Colour Pallette.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Maps/Rift Maps/Primordial Forest Rift 1.md",
     "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Rift Maps/Primordial Forest Rift 1/IMG-20250611230412476.webp",
     "SoloRPGs/_Tokens/VTT Battle Tokens/Toad - Giant - 0105 1.webp",
-    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Might Heart/Unbound Fury.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Weapon Strikes & Non-Heart Abilities/Weapon Strike (Two-Handed).md",
     "SoloRPGs/_Tokens/VTT Battle Tokens/Giant - Storm - 0101.webp",
     "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map/IMG-20250531165008094.webp",
-    "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map Dark Mode/IMG-20250602223656096.webp",
-    "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map Dark Mode/IMG-20250618173237295.webp",
-    "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map Dark Mode/IMG-20250602223656363.webp",
     "SoloRPGs/_Decks/Riftbreakers Current Ability Loadout",
     "SoloRPGs/_Decks/Riftbreakers Ability Cards",
     "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Rift Maps/Primordial Forest Rift 1",
-    "SoloRPGs/_Tokens/Riftbreaker/Rift Maps",
-    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Companion Loadout Abilities",
     "Untitled.canvas",
     "SoloRPGs/Path of the Aram Thyr/Overworld Maps/Untitled.canvas",
     "SoloRPGs/Riftbreakers/Trippin' the Rift Beautiful Edition.canvas",
