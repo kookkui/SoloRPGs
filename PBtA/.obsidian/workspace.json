@@ -11,12 +11,14 @@
             "id": "aad8088787ff2439",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "SoloRPGs/Just One Torch/Hex Map/Drawing 2025-06-22 23.07.07.excalidraw.md"
+                "file": "SoloRPGs/Just One Torch/Vozz Ichorfoot.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-06-22 23.07.07.excalidraw"
+              "icon": "lucide-file",
+              "title": "Vozz Ichorfoot"
             }
           }
         ]
@@ -341,9 +343,18 @@
   },
   "active": "aad8088787ff2439",
   "lastOpenFiles": [
-    "SoloRPGs/Just One Torch/Hex Map/Hex Map Key.md",
-    "SoloRPGs/Just One Torch/Hex Map/Drawing 2025-06-22 23.07.07.excalidraw.md",
+    "SoloRPGs/Just One Torch/Spells & Sorcery/Rebuke Sorcery.md",
+    "SoloRPGs/Just One Torch/Vozz Ichorfoot.md",
+    "SoloRPGs/5-Tokens/Portraits/CutieGoblinNerd.webp",
     "SoloRPGs/Just One Torch/PC Journal.md",
+    "SoloRPGs/Just One Torch/Hex Map/Drawing 2025-06-22 23.07.07.excalidraw.md",
+    "SoloRPGs/1-Assets/SoloRPGs/Just One Torch/Vozz Ichorfoot",
+    "SoloRPGs/1-Assets/SoloRPGs/Just One Torch",
+    "SoloRPGs/1-Assets/SoloRPGs",
+    "SoloRPGs/5-Tokens/Hexes/Cave 1.webp",
+    "SoloRPGs/5-Tokens/VTT Battle Tokens/Aboleth - 0101.webp",
+    "SoloRPGs/5-Tokens/Portraits",
+    "SoloRPGs/Just One Torch/Hex Map/Hex Map Key.md",
     "SoloRPGs/5-Tokens/Hexes/Mountains_Hex_2.webp",
     "SoloRPGs/5-Tokens/Hexes/Mountains_Hex_1.webp",
     "SoloRPGs/5-Tokens/Hexes/Keep.webp",
@@ -351,16 +362,11 @@
     "SoloRPGs/5-Tokens/Hexes/Ruined_Temple_01.png",
     "SoloRPGs/5-Tokens/Hexes/Gold_temple.png",
     "SoloRPGs/5-Tokens/Hexes/Human Town 2.png",
-    "SoloRPGs/5-Tokens/Hexes/Human Tower 3.webp",
-    "SoloRPGs/5-Tokens/Hexes/Human Building 11.webp",
-    "SoloRPGs/5-Tokens/Hexes/Human Capital 2.png",
     "SoloRPGs/Just One Torch/Hex Map",
     "SoloRPGs/4-Templates/Maps",
     "SoloRPGs/4-Templates/Maps.md",
-    "SoloRPGs/Just One Torch/JustOneTorch PC.md",
     "SoloRPGs/4-Templates/Just One Torch/JustOneTorch CS.md",
     "SoloRPGs/Just One Torch/Spells & Sorcery/Scorn the Unwelcome.md",
-    "SoloRPGs/Just One Torch/Spells & Sorcery/Rebuke Sorcery.md",
     "SoloRPGs/Just One Torch/Spells & Sorcery/Rebuke the Undead.md",
     "SoloRPGs/Just One Torch/Tables/Loot Tables.md",
     "SoloRPGs/4-Templates/Just One Torch/Spell Template.md",
@@ -382,10 +388,6 @@
     "SoloRPGs/4-Templates/Disciples of Bone and Shadow/DoBS Character Sheet.md",
     "SoloRPGs/4-Templates/Disciples of Bone and Shadow/Encounter.md",
     "SoloRPGs/Just One Torch/Tables",
-    "SoloRPGs/Just One Torch/PC",
-    "SoloRPGs/Just One Torch",
-    "SoloRPGs/1-Assets",
-    "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/PCs/Azel",
     "Untitled.canvas",
     "SoloRPGs/Path of the Aram Thyr/Overworld Maps/Untitled.canvas",
     "SoloRPGs/Riftbreakers/Trippin' the Rift Beautiful Edition.canvas",

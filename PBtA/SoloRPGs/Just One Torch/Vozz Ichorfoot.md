@@ -1,5 +1,5 @@
 ---
-Art: ""
+Art: "![[CutieGoblinNerd.webp]]"
 Level: 1
 STR: 16
 INT: 14
