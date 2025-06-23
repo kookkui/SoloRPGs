@@ -49,12 +49,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoloRPGs/Riftbreakers - Second Edition/PCs/Azel.md",
-                "mode": "preview",
+                "file": "SoloRPGs/Disciples of Bone and Shadow/DBS Roll Tables.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Azel"
+              "title": "DBS Roll Tables"
             }
           },
           {
@@ -174,8 +174,8 @@
             "state": {
               "type": "MAIN_VIEW",
               "state": {},
-              "icon": "srt-ribbon",
-              "title": "Solo RPG Toolkit"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
@@ -344,14 +344,15 @@
       "obsidian-excalidraw-plugin:New drawing": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "templater-obsidian:Templater": false,
-      "calendarium:Open Calendarium": false,
-      "solo-rpg-toolkit:Solo RPG Toolkit": false
+      "calendarium:Open Calendarium": false
     }
   },
   "active": "b466fe65d045f1f9",
   "lastOpenFiles": [
-    "SoloRPGs/Riftbreakers - Second Edition/Aurielle Journal.md",
+    "SoloRPGs/Disciples of Bone and Shadow/Tables/DBS Encounter Tables.md",
+    "SoloRPGs/Disciples of Bone and Shadow/DBS Roll Tables.md",
     "SoloRPGs/Riftbreakers - Second Edition/PCs/Azel.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Aurielle Journal.md",
     "SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map Dark Mode.md",
     "SoloRPGs/Riftbreakers - Second Edition/PCs/Serayr.md",
     "SoloRPGs/Riftbreakers - Second Edition/Tables/Riftbreakers Tables Rolls.md",
@@ -385,7 +386,6 @@
     "SoloRPGs/Riftbreakers - Second Edition/Tables/Rift Tables.md",
     "SoloRPGs/Riftbreakers - Second Edition/Tables/Loot Table.md",
     "SoloRPGs/Riftbreakers - Second Edition/Tables/General Tables.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Death Heart/Drain Lifeforce.md",
     "SoloRPGs/_Decks/Riftbreakers Current Ability Loadout",
     "SoloRPGs/_Decks/Riftbreakers Ability Cards",
     "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Rift Maps/Primordial Forest Rift 1",

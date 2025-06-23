@@ -2,25 +2,25 @@
 Art: ""
 Level: 1
 STR: 16
-INT: 16
-WIS: 16
-DEX: 14
+INT: 14
+WIS: 14
+DEX: 15
 CON: 15
-CHA: 9
+CHA: 11
 BodySav: "`=floor((this.STR - 10)/3) + floor((this.CON - 10)/3)`"
 MindSav: "`=floor((this.INT - 10)/3) + floor((this.CHA - 10)/3)`"
 ReflexSav: "`=floor((this.DEX - 10)/3) + floor((this.WIS - 10)/3)`"
-AtkBonus: 1
-SavBonus: 2
+AtkBonus: 0
+SavBonus: 0
 xp: 0
-healingrate: D8
-MaxHP: 18
-Fatigue: 20
+LevelXP: "`=(this.Level*10)`"
+MaxHP: 7
+Fatigue: "`=this.CON`"
 axp: 0
-background: Town Watchman
-Weapon1: Battle Axe
-Weapon1dmg: (D8+2)+2
-Weapon1notes: Slashing, Versatile (D10)
+background: Beast Hunter
+Weapon1: Shortsword
+Weapon1dmg: D6+2
+Weapon1notes: Piercing / Slashing
 Weapon2: 
 Weapon2dmg: 
 Weapon2notes: 
@@ -31,14 +31,21 @@ Armor1notes:
 Armor2: 
 Armor2rate: 0
 Armor2notes: 
-Shield: 
-Shieldrate: 
-Shieldnotes: 
-torch1: D12
+torch1: D8
 Lampoil: None
-CurrentFatigue: 14
+CurrentFatigue: 0
 CurrentHP: 24
-Ability1: "[[Aim]]"
+Ability1: "[[Witchcraft]]"
+Ability2: Diabolic Language
+Spell1: "[[Rebuke Sorcery]]"
+Spell2: "[[Scorn the Unwelcome]]"
+Spell3: "[[Rebuke the Undead]]"
+title1: Torch
+title2: Bandages x3
+title3: Bedroll (Recover Fatigue in the wilds)
+title4: "Thieves Tools, Simple "
+title5: "Travel Rations "
+title6: "Travel Rations "
 ---
 
 >[!dice] %%FAKE TITLE HERE%%
@@ -46,18 +53,20 @@ Ability1: "[[Aim]]"
 >> # `=this.file.name`
 >> `=this.Art`
 >>```meta-bind
->>INPUT[progressBar(class(green-progress-bar), maxValue(24), title(HP)):CurrentHP]
+>>INPUT[progressBar(class(green-progress-bar), maxValue(7), title(HP)):CurrentHP]
 >>```
 >>```meta-bind
->>INPUT[progressBar(class(pink-progress-bar), maxValue(10), title(Fatigue)):CurrentFatigue]
+>>INPUT[progressBar(class(pink-progress-bar), maxValue(15), title(Fatigue)):CurrentFatigue]
 >>```
 >> ##### Stats 
 >>|     |     |
 >> |:---: | :---: |
 >>|**Level**|`=this.Level`|
->>|**Max HP:** | `=this.MaxHP`|
->> |**Max Fatigue:** |  `=this.Fatigue`|
+>>|**Max HP:** |`=this.MaxHP`|
+>> |**Max Fatigue:** |`=this.Fatigue`|
+>> |**Max Inv Slots:** |`=this.STR`|
 >> |**XP** | `VIEW[{xp}][text]`|
+>> |**XP Needed:** | `=this.LevelXP`|
 >>|**ADD XP**| `INPUT[number:axp]` `BUTTON[exp]`|
 >>&nbsp;
 >>
@@ -73,12 +82,13 @@ Ability1: "[[Aim]]"
 >>
 >>&nbsp;
 >>
->> ##### Saves
->>|     |  Save | Save Bonus |
+>> ##### Saves vs Target 16
+>>|    |  Save | Save Bonus |
 >> |:---: | :---: | :---: |
 >> |**Body Save**| `=this.BodySav` |+`=this.SavBonus`| 
 >> |**Mind Save**| `=this.MindSav` |+`=this.SavBonus`|
 >> |**Reflex Save**| `=this.ReflexSav` |+`=this.SavBonus`|
+>>
 >>
 >>&nbsp;
 >>
@@ -89,23 +99,22 @@ Ability1: "[[Aim]]"
 >>|**Ranged**|+`=floor((this.DEX - 10)/3)`|+`=this.AtkBonus`|
 >> || |
 
-
 >[!rng] %%FAKE TITLE HERE%%
 >> [!rng] %%FAKE TITLE HERE%%
 >> ##### Weapons
->>| **Weapons** | **Damage** | **Notes** |
->>| ---------------------- | --------------- | ------------- |
->>| `=this.Weapon1` | `=this.Weapon1dmg` | `=this.Weapon1notes` |
->>| `=this.Weapon2` | `=this.Weapon2dmg` | `=this.Weapon2notes` |
+>>| **Weapons** | **Damage** | **Quality** | **Notes** |
+>>| --------- | :---: | :---: |-----|
+>>| `=this.Weapon1` | `=this.Weapon1dmg` | `3` |`=this.Weapon1notes` |
+>>| `=this.Weapon2` | `=this.Weapon2dmg` |`0`| `=this.Weapon2notes` |
 >>
 >>
 >>&nbsp;
 >>
 >> ##### Armor
->>| **Armor** | **Body** | **Reflex** | **Notes** |
->>| ---------------------- | --------------- | ------------- | ------------- |
->>| `=this.Armor1` | `=this.Armor1Bod`|`=this.Armor1Ref` | `=this.Armor1notes` |
->>| `=this.Armor2` |  `=this.Armor1Bod`|`=this.Armor1Ref` | | `=this.Armor2notes` |
+>>| **Armor** | **Body** | **Reflex** |**Quality** | **Notes**|
+>>| ----------- | :---: | :---: | ------ |------ |
+>>| `=this.Armor1` | `=this.Armor1Bod`|`=this.Armor1Ref` |`0` | `=this.Armor1notes` |
+>>| `=this.Armor2` |  `=this.Armor1Bod`|`=this.Armor1Ref` |`0`| `=this.Armor2notes` |
 >>
 >>
 >>&nbsp;
@@ -113,10 +122,10 @@ Ability1: "[[Aim]]"
 >> ##### Supplies
 >>  | |
 >>---|---|
->>**Silver Pieces (sp)**|`=this.spcoin` |
->>**Bronze Pieces (bp)**|`=this.bpcoin` | 
->>**Iron Pieces (ip)**|`=this.ipcoin` |
->>**Rations**|`5` |
+>>**Silver Pieces (sp)**|`5` |
+>>**Gold Pieces (gp)**|`0` |
+>>**Bronze Pieces (bp)**|`0` | 
+>>**Rations**|`6` |
 >>**Torches**| `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):torch1]` |
 >>**Lamp Oil**|`INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):Lampoil]` |
 
@@ -130,13 +139,13 @@ Ability1: "[[Aim]]"
 >>|**Athletics** | `0` | **Medicine** | `0` |
 >>| **Architecture**  | `0` | **Perform**  | `0` |
 >>| **Awareness** | `0` |**Persuade** | `0` |
->>|**Beast Lore ** |`0` |**Ride** | `0`|
+>>|**Beast Lore ** |`1` |**Ride** | `0`|
 >>|**Bluff**|`0`| **Stealth** | `0` |
 >>|**Bushcraft** | `0` | **Streetwise** | `0`|
 >>|**Craft** | `0` | **Seamanship** | `0` |
 >>|**Customs**  | `0` | **Spot Hidden**  | `0` |
 >>|**Foraging** | `0` |**Swim** | `0` |
->>|**Hunt & Fish** |`0` |**Thievery** | `0`|
+>>|**Hunt & Fish** |`1` |**Thievery** | `1`|
 >>|**Insight**  | `0` | **Trade**  | `0` |
 >>|**Languages** | `0` |**Witchery** | `0` |
 >>|**Religious Lore** |`0` | **Background** |`=this.background` |
@@ -146,7 +155,7 @@ Ability1: "[[Aim]]"
 
 >[!table_time] %%FAKE TITLE HERE%%
 >>[!table_time] %%FAKE TITLE HERE%%
->>### Abilities
+>>### Abilities & Languages
 >> | | |
 >>|:-:| --- |
 >>| `=this.Ability1` | `=this.Ability2` |
@@ -154,8 +163,6 @@ Ability1: "[[Aim]]"
 >>| `=this.Ability5` | `=this.Ability6` |
 >>| `=this.Ability7` | `=this.Ability8` |
 >>
->>
-
 
 >[!table] %%FAKE TITLE HERE%%
 >>[!table] %%FAKE TITLE HERE%%
@@ -172,6 +179,7 @@ Ability1: "[[Aim]]"
 >>|8|`INPUT[text:title8]`|18|`INPUT[text:title18]`|
 >>|9|`INPUT[text:title9]`|19|`INPUT[text:title19]`|
 >>|10|`INPUT[text:title10]`|20|`INPUT[text:title20]`|
+
 
 >[!crafting] %%FAKE TITLE HERE%%
 >>[!crafting] %%FAKE TITLE HERE%%
@@ -201,20 +209,19 @@ Ability1: "[[Aim]]"
 >[!table_time] %%FAKE TITLE HERE%%
 >>[!table_time] %%FAKE TITLE HERE%%
 >>### Spells
->>| Slot | Spell  |
+>>| Slot | Spell |
 >>| ---------- | -------- |
->>| 1          | [[Weapon Strike (Two-Handed)]]     |
->>| 2          | [[Weapon Strike (Two-Handed)]]      |
->>| 3          | [[Weapon Strike (Two-Handed)]]    |
->>| 4          | [[Summon Companion]]     |
->>| 5          | [[Unbound Fury]]   |
->>| 6          | [[Chill of Death]] |
->>| 7          | [[Chill of Death]]  |
->>| 8          | [[Two-Handed Weapon Master]]  |
->>| 9          | [[Two-Handed Weapon Master]]   |
->>| 10         | [[Two-Handed Weapon Master]]  |
->>| 11         | [[Divine Shield]]   |
->>| 12         | [[Holy Weapon]]  |
+>>| 1 | `=this.Spell1` |
+>>| 2 | `=this.Spell2` |
+>>| 3 | `=this.Spell3` |
+>>| 4 | `=this.Spell4` |
+>>| 5 | `=this.Spell5` |
+>>| 6 | `=this.Spell6` |
+>>| 7 | `=this.Spell7`|
+>>| 8 | `=this.Spell8`|
+>>| 9 | `=this.Spell9`|
+>>| 10 |`=this.Spell10`|
+
 
 
 ```meta-bind-button

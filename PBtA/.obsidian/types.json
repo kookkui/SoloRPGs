@@ -40,6 +40,7 @@
     "a-N": "number",
     "HeartAbRange": "number",
     "HeartAbCost": "number",
-    "Description": "text"
+    "Description": "text",
+    "Fatigue": "text"
   }
 }
