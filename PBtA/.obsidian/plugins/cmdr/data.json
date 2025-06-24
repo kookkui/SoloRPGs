@@ -22,21 +22,15 @@
       "mode": "any"
     },
     {
-      "id": "obsidian-text-format:custom-replace:32bac40f-1c3f-424d-9988-d2bfdd597e23",
-      "icon": "a-large-small",
-      "name": "Text Format: Custom Replace - Remove / and replace with New Line",
-      "mode": "any"
-    },
-    {
       "id": "obsidian-text-format:title-case",
       "icon": "case-sensitive",
       "name": "Text Format: Title-case",
       "mode": "any"
     },
     {
-      "id": "obsidian-text-format:custom-replace:9462c160-3c86-4d65-b9d1-963caf47df99",
-      "icon": "a-large-small",
-      "name": "Text Format: Custom Replace - Turn Blank Space into Comma Space",
+      "id": "text-extractor:extract-to-clipboard",
+      "icon": "lucide-clipboard",
+      "name": "Text Extractor: Extract text to clipboard",
       "mode": "any"
     }
   ],

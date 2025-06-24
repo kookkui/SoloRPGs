@@ -1,1 +1,22 @@
-{}
+{
+  "editor:delete-paragraph": [],
+  "obsidian-excalidraw-plugin:save": [],
+  "obsidian-text-format:merge-line": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "D"
+    }
+  ],
+  "text-extractor:extract-to-clipboard": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "V"
+    }
+  ],
+  "obsidian-auto-link-title:auto-link-title-normal-paste": []
+}

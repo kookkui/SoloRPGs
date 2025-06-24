@@ -9,12 +9,12 @@
   "dateFormat": "YYYYMMDDHHmmssSSS",
   "excludeExtensionPattern": "",
   "autoRenameAttachment": true,
-  "excludedPaths": "SoloRPGs;_Decks",
+  "excludedPaths": "SoloRPGs/3-Decks; SoloRPGs/4-Templates",
   "excludePathsArray": [
-    "SoloRPGs",
-    "_Decks"
+    "SoloRPGs/3-Decks",
+    "SoloRPGs/4-Templates"
   ],
-  "excludeSubpaths": false,
+  "excludeSubpaths": true,
   "originalNameStorage": [],
   "overridePath": {},
   "disableNotification": false

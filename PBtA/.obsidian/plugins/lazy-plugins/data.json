@@ -137,6 +137,9 @@
       },
       "pexels-banner": {
         "startupType": "instant"
+      },
+      "omnisearch": {
+        "startupType": "instant"
       }
     },
     "loadOrder": []

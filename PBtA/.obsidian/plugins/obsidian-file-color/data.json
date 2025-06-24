@@ -161,6 +161,11 @@
       "id": "Iy-QkYGdIUvu4py4hO8eG",
       "name": "Neon Yellow",
       "value": "#fff200"
+    },
+    {
+      "id": "DDCm3eACKlby640WGTsTN",
+      "name": "Neon Red",
+      "value": "#ff073a"
     }
   ],
   "fileColors": [
@@ -601,8 +606,8 @@
       "color": "yvtjG5SaZvMt9A_M5MVyQ"
     },
     {
-      "path": "SoloRPGs/Just One Torch",
-      "color": "qFjF3HNl1ByVLjOhkoH7B"
+      "path": "SoloRPGs/Just One Sword",
+      "color": "rLOc6yV_O6S6HFVqmgU9g"
     },
     {
       "path": "SoloRPGs/1-Assets",
@@ -623,6 +628,34 @@
     {
       "path": "SoloRPGs/5-Tokens",
       "color": "K5kMrPV45S_p-gsDXYx_V"
+    },
+    {
+      "path": "SoloRPGs/Just One Sword/PC Journal.md",
+      "color": "UmVtOfxqzdsQurxhAX0BA"
+    },
+    {
+      "path": "SoloRPGs/Just One Sword/World Building",
+      "color": "4_vEmCvFDG2xa-RYIOJ3R"
+    },
+    {
+      "path": "SoloRPGs/Just One Sword/Tables",
+      "color": "kmf0tZAAlEbxjHLxDKfht"
+    },
+    {
+      "path": "SoloRPGs/Just One Sword/Spells & Sorcery",
+      "color": "x24JgSjNb4AWqWDgGNXSG"
+    },
+    {
+      "path": "SoloRPGs/Just One Sword/PC",
+      "color": "HZFG4bZLp90SUEPF_flTK"
+    },
+    {
+      "path": "SoloRPGs/Just One Sword/Hex Map",
+      "color": "0auoW_nA8Che9PxJzMRJK"
+    },
+    {
+      "path": "SoloRPGs/Just One Sword/Abilities",
+      "color": "VvRC_rOmMM_1Htw13dJDd"
     }
   ]
 }

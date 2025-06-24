@@ -1,47 +1,13 @@
 {
   "players": [
     {
-      "note": "Hema",
-      "path": "SoloRPGs/Disciples of Bone and Shadow/PCs/Hema.md",
-      "name": "Hema",
-      "player": true,
-      "ac": "3",
-      "hp": 30,
-      "modifier": 0
-    },
-    {
-      "note": "Téa'lad Kylha",
-      "path": "SoloRPGs/Path of the Aram Thyr/PCs/Téa'lad Kylha.md",
-      "name": "Téa'lad Kylha",
-      "player": true,
-      "ac": "14",
-      "hp": 18,
-      "modifier": 2,
-      "level": 1
-    },
-    {
-      "note": "Gwynn",
-      "path": "SoloRPGs/Machine Gods of the Noxian Expanse/PCs/Gwynn.md",
-      "name": "Gwynn",
-      "player": true
-    },
-    {
-      "note": "Azel",
-      "path": "SoloRPGs/Riftbreakers - Second Edition/PCs/Azel.md",
-      "name": "Aurielle",
-      "player": true,
-      "hp": 31,
-      "modifier": 0,
-      "ac": "6"
-    },
-    {
-      "note": "Serayr",
-      "path": "SoloRPGs/Riftbreakers - Second Edition/PCs/Serayr.md",
-      "name": "Serayr",
-      "ac": "1",
-      "hp": 20,
+      "note": "Vozz Ichorfoot",
+      "path": "SoloRPGs/Just One Torch/PC/Vozz Ichorfoot.md",
+      "name": "Vozz Ichorfoot",
+      "ac": "12",
+      "hp": 7,
       "level": 1,
-      "modifier": 0,
+      "modifier": 1,
       "player": true
     }
   ],

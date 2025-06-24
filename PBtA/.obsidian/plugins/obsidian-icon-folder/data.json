@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "RaGears",
-      "RaTorch",
-      "TiBooks",
-      "RaDeathSkull",
-      "RaSkullTrophy"
+      "RaArcher",
+      "TiHexagons",
+      "RaBroadsword",
+      "RaBook",
+      "FasDiceD20"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -149,5 +149,12 @@
   "SoloRPGs/Riftbreakers - Second Edition/PCs/Serayr.md": "RaGlassHeart",
   "SoloRPGs/Riftbreakers - Second Edition/Rules Reference": "TiBooks",
   "SoloRPGs/Riftbreakers - Second Edition/PCs/Azel.md": "FasCrown",
-  "SoloRPGs/Just One Torch": "RaTorch"
+  "SoloRPGs/Just One Sword": "RaBroadsword",
+  "SoloRPGs/Just One Sword/PC": "RaBroadsword",
+  "SoloRPGs/Just One Sword/Spells & Sorcery": "RaBook",
+  "SoloRPGs/Just One Sword/PC Journal.md": "RaScrollUnfurled",
+  "SoloRPGs/Just One Sword/Tables": "FasDiceD20",
+  "SoloRPGs/Just One Sword/World Building": "TiWorld",
+  "SoloRPGs/Just One Sword/Hex Map": "TiHexagons",
+  "SoloRPGs/Just One Sword/Abilities": "RaArcher"
 }

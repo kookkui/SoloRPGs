@@ -50,7 +50,7 @@ title6: "Travel Rations "
 
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%
->> # `=this.file.name`
+>> ## `=this.file.name`
 >> `=this.Art`
 >>```meta-bind
 >>INPUT[progressBar(class(green-progress-bar), maxValue(7), title(HP)):CurrentHP]
