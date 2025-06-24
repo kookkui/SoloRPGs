@@ -42,9 +42,58 @@ Base Strength: 2
 Danger: Average x1.00
 Total Encounter Level (TEL): 2
 
+```statblock
+creature: CENTIPEDE
+```
+
+```statblock
+creature: FIRE BEETLE
+```
 
 
 
+```encounter
+players:
+  - Vozz Ichorfoot
+creatures:
+  - CENTIPEDE , 4, 11, 0
+  - FIRE BEETLE , 4, 16, 0
+ 
+```
 
+I will try and sneak up and surprise them.
 
++DEX(+1) Sneak Check 2d6=`d6 = 10` 
+
+Full Success!
+
+I am able to sneak up and surprise the creatures!
+
+Combat Start!
+
+PC Turn
+
+Attacking with Melee  Giant Centipede (AC 11) `d20 = 12` Hit!
+
+Damage = 2+2 = 4 Damage to Centipede (Dead)
+
+Fire Beetle is still dazed as to what is happening
+
+Next Round 
+
+PC Turn
+
+Attacking Fire Beetle (AC 16) `d20 = 7` Miss!
+
+Fire Beetle Turn
+
+BLOCK: `d20 = 14` + 3 + 1 = 17 vs (11) Success! Blocked.
+
+PC Turn
+
+Attacking with Melee Fire Beetle (AC 16) `d20 = 19` Hit!
+
+Damage = 2+2 = 4 Damage to Fire Beetle (Dead)
+
+<font color="#ff00cc">Victory!</font>
 

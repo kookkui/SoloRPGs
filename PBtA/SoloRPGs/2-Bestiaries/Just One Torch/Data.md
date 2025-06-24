@@ -394,7 +394,7 @@ DMG: 1d6/1d6 claws + 1d10 bite, MOVE: Far,
 MORALE: 8, SPECIAL: Kick: the hippogriff turns and kicks with its powerful legs, inﬂicting -1 Quality on a hit and dealing 2d8 damage 
 
 MANTICORE 
-A lion's body with a cruel, barbed tail that it uses like a ﬂail, the manticore is a terrifying enemy. When hunting, it ﬂies on powerful, fur covered wings, and then diving down to attack. 
+A lion's body with a cruel, barbed tail that it uses like a flail, the manticore is a terrifying enemy. When hunting, it flies on powerful, fur covered wings, and then diving down to attack. 
 LVL: 6, HP: 21, AC: 18 AS: 14 
 DMG: 1d4/1d4 claws + 2d4 bite, MOVE: Far, 
 MORALE: 9, SPECIAL: Tail Spikes: lashing out with its spiked tail, dealing 1d6 piercing damage. 

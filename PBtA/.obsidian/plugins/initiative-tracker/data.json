@@ -109,7 +109,30 @@
   "playerMarker": "default",
   "monsterMarker": "default",
   "state": {
-    "creatures": [],
+    "creatures": [
+      {
+        "name": "Vozz Ichorfoot",
+        "initiative": 16,
+        "static": false,
+        "modifier": 1,
+        "hp": 7,
+        "currentMaxHP": 7,
+        "ac": "12",
+        "currentAC": "12",
+        "note": "Vozz Ichorfoot",
+        "path": "SoloRPGs/Just One Torch/PC/Vozz Ichorfoot.md",
+        "id": "ID_284b9b1b4908",
+        "currentHP": 7,
+        "tempHP": 0,
+        "status": [],
+        "enabled": true,
+        "level": 1,
+        "player": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false
+      }
+    ],
     "state": false,
     "name": null,
     "round": 1,

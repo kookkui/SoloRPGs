@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RaTrail",
       "RaArcher",
       "TiHexagons",
       "RaBroadsword",
-      "RaBook",
-      "FasDiceD20"
+      "RaBook"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -155,6 +155,6 @@
   "SoloRPGs/Just One Sword/PC Journal.md": "RaScrollUnfurled",
   "SoloRPGs/Just One Sword/Tables": "FasDiceD20",
   "SoloRPGs/Just One Sword/World Building": "TiWorld",
-  "SoloRPGs/Just One Sword/Hex Map": "TiHexagons",
-  "SoloRPGs/Just One Sword/Abilities": "RaArcher"
+  "SoloRPGs/Just One Sword/Abilities": "RaArcher",
+  "SoloRPGs/Just One Sword/Maps": "RaTrail"
 }
