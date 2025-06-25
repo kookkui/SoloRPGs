@@ -545,7 +545,7 @@ special: "Ambush: 2d6 to unaware enemies."
 description: "A spotted jungle cat known for hiding in high branches and leaping out onto unsuspecting prey."
 
 ```
-;;;
+
 ```statblock
 
 name: "LION"
@@ -624,7 +624,7 @@ description: "A species of deer even larger than an Elk. It lives in cold climat
 
 ```statblock
 
-name: "RAT GIANT"
+name: "GIANT RAT"
 
 layout: JustOneTorch
 
@@ -699,6 +699,8 @@ special: "Submerge: grabs target and submerges. REFLEX save or take 2d8 damage"
 description: "A long eel-like snake that lives beneath the ocean. Its large eyes see much and its spinal ﬁns are sometimes the only evidence of its approach."
 
 ```
+
+STOPADGE
 
 ```statblock
 

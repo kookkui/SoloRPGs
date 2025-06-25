@@ -27,3 +27,12 @@
 |20|Dragon|
 
 ^c78231
+
+|`dice:d6`|Danger Level|
+|---|---|
+|1-3|Unsafe|
+|4-5|Dangerous|
+|6|Deadly|
+
+^4cca73
+

@@ -73,7 +73,7 @@ Combat Start!
 
 PC Turn
 
-Attacking with Melee  Giant Centipede (AC 11) `d20 = 12` Hit!
+Attacking with Melee Giant Centipede (AC 11) `d20 = 12` Hit!
 
 Damage = 2+2 = 4 Damage to Centipede (Dead)
 
@@ -96,4 +96,10 @@ Attacking with Melee Fire Beetle (AC 16) `d20 = 19` Hit!
 Damage = 2+2 = 4 Damage to Fire Beetle (Dead)
 
 <font color="#ff00cc">Victory!</font>
++1 XP
+### Second Watch
+
+Traveling through the swampy bog is rough, it might take a while to get to the other side.
+
+ Danger Level: Dangerous
 

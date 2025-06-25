@@ -1,3 +1,4 @@
+### Combat Tables
 > [!rng] Combat Tables
 > ##### Enemy Attacks Non-Mage
 >`dice:[[Combat Tables#^0f7a37]]`
@@ -11,8 +12,11 @@
 >
 >
 
-
+### Travel Tables
 > [!travel] Travel Tables
+>#####  Danger Level
+>`dice:[[Travel Tables#^4cca73]]`
+>
 > ##### Terrain
 >`dice:[[Travel Tables#^fdf524]]`
 >
@@ -26,6 +30,7 @@
 >
 >
 
+### Loot Tables
 > [!dice] Loot Tables
 > ##### Scrolls
 >`dice:[[Loot Tables#^07da49]]`

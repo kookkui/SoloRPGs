@@ -12,11 +12,11 @@ MindSav: "`=floor((this.INT - 10)/3) + floor((this.CHA - 10)/3)`"
 ReflexSav: "`=floor((this.DEX - 10)/3) + floor((this.WIS - 10)/3)`"
 AtkBonus: 0
 SavBonus: 0
-xp: 0
+xp: 1
 LevelXP: "`=(this.Level*10)`"
 MaxHP: 7
 Fatigue: "`=this.CON`"
-axp: 0
+axp: 
 background: Beast Hunter
 Weapon1: Shortsword
 Weapon1dmg: D6+2
@@ -34,7 +34,7 @@ Armor2notes:
 torch1: D8
 Lampoil: None
 CurrentFatigue: 0
-CurrentHP: 24
+CurrentHP: 7
 Ability1: "[[Witchcraft]]"
 Ability2: Diabolic Language
 Spell1: "[[Rebuke Sorcery]]"
@@ -128,6 +128,21 @@ title6: "Travel Rations "
 >>**Rations**|`6` |
 >>**Torches**| `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):torch1]` |
 >>**Lamp Oil**|`INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):Lampoil]` |
+
+
+>[!crafting] %%FAKE TITLE HERE%%
+>> [!crafting] %%FAKE TITLE HERE%%
+>> ##### Timers & Counters
+>>  | |
+>>---|---|
+>>**Watchs**| `clock,yellow: 2/4` |
+>>**Goal Timer**|`clock,cyan: 0/6`|
+>>**Encounter Penalties**|`circles,pink: 0/10`|
+>>**Progress Track**|`circles,green: 0/10` | 
+>>**Countdown Track**|`circles,red: 0/4` |
+
+
+
 
 >[!travel] %%FAKE TITLE HERE%%
 >>[!thing] %%FAKE TITLE HERE%%
