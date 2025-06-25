@@ -37,7 +37,7 @@
               "state": {
                 "file": "SoloRPGs/Just One Sword/PC/Vozz Ichorfoot.md",
                 "mode": "preview",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "Vozz Ichorfoot"
@@ -258,13 +258,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoloRPGs/Just One Sword/PC/Vozz Ichorfoot.md",
+                "file": "SoloRPGs/Just One Sword/PC Journal.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Vozz Ichorfoot"
+              "title": "Outline of PC Journal"
             }
           },
           {
@@ -298,7 +298,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 500
+    "width": 500,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -321,15 +322,26 @@
       "solo-rpg-toolkit:Solo RPG Toolkit": false
     }
   },
-  "active": "d946c9283b8a8aac",
+  "active": "e162a0cc21153427",
   "lastOpenFiles": [
-    "SoloRPGs/Just One Sword/PC Journal.md",
     "SoloRPGs/Just One Sword/PC/Vozz Ichorfoot.md",
+    "SoloRPGs/4-Templates/Maps/cliffs_road_trees.webp",
+    "SoloRPGs/4-Templates/Maps/AnimalDen_forest_day_30x45.webp",
+    "SoloRPGs/4-Templates/Maps/Drawing 2025-06-25 10.40.55.excalidraw.md",
+    "SoloRPGs/4-Templates/Maps/TheRockyRavine_day_30x30.webp",
+    "SoloRPGs/4-Templates/Maps/stream.webp",
+    "SoloRPGs/4-Templates/Maps/CaravanOfFun_day_park.webp",
+    "SoloRPGs/4-Templates/Maps/WoodlandPath_day_stream.webp",
+    "SoloRPGs/4-Templates/Maps/VillageGraveyard_day_30x30.webp",
+    "SoloRPGs/4-Templates/Maps/FeyVale_day_grassland_30x45.webp",
+    "SoloRPGs/4-Templates/Maps/River_of_the_Death_Knight_A_grid.webp",
+    "SoloRPGs/4-Templates/Maps/River_of_the_Death_Knight_C_grid.webp",
+    "SoloRPGs/4-Templates/Maps/River_of_the_Death_Knight_A_grid.webm",
+    "SoloRPGs/Just One Sword/PC Journal.md",
     "SoloRPGs/Just One Sword/Tables/Roll Tables.md",
     "SoloRPGs/Just One Sword/Tables/Travel Tables.md",
     "SoloRPGs/2-Bestiaries/Just One Torch/RIDING DOG.md",
     "SoloRPGs/Just One Sword/Maps/Battle Maps/Plains Battle Map Grided.md",
-    "SoloRPGs/5-Tokens/VTT Battle Tokens/Animal - Beetle - Giant - 0201 - Tier2.webp",
     "SoloRPGs/Just One Sword/World Building/Monster Data.md",
     "SoloRPGs/2-Bestiaries/Just One Torch/RIDING HORSE.md",
     "SoloRPGs/2-Bestiaries/Just One Torch/SEA SERPENT.md",
@@ -349,26 +361,14 @@
     "SoloRPGs/2-Bestiaries/Just One Torch/MOUNTAIN GOAT.md",
     "SoloRPGs/2-Bestiaries/Just One Torch/HAWK.md",
     "SoloRPGs/2-Bestiaries/Just One Torch/GRIZZLY BEAR.md",
-    "SoloRPGs/2-Bestiaries/Just One Torch/GIANT EAGLE.md",
-    "SoloRPGs/2-Bestiaries/Just One Torch/GIANT BAT.md",
-    "SoloRPGs/5-Tokens/VTT Battle Tokens/Animal - Beetle - Giant - 0204.webp",
-    "SoloRPGs/5-Tokens/VTT Battle Tokens/Animal - Centipede - Giant - 0109.webp",
-    "SoloRPGs/5-Tokens/Portraits/CuteGoblinGIrlNerd.webp",
-    "SoloRPGs/1-Assets/SoloRPGs/Just One Sword/Maps/Battle Maps/Plains Battle Map Grided/IMG-20250624182319130.webp",
     "SoloRPGs/1-Assets/SoloRPGs/Just One Sword/Maps/Battle Maps/Plains Battle Map Grided",
     "SoloRPGs/1-Assets/SoloRPGs/Just One Sword/Maps/Battle Maps",
     "SoloRPGs/Just One Sword/Maps/Battle Maps",
     "SoloRPGs/1-Assets/SoloRPGs/Just One Sword/Maps/Map of Mistveil",
     "SoloRPGs/1-Assets/SoloRPGs/Just One Sword/Maps",
-    "SoloRPGs/1-Assets/SoloRPGs/Just One Sword/PC/Vozz Ichorfoot/IMG-20250624112724526.webp",
-    "SoloRPGs/1-Assets/SoloRPGs/Just One Sword/World Building/Duskveil/IMG-20250624112724549.webp",
-    "SoloRPGs/5-Tokens/Portraits/CutieGoblinNerd.webp",
     "SoloRPGs/1-Assets/SoloRPGs/Just One Sword/World Building/Duskveil",
     "SoloRPGs/1-Assets/SoloRPGs/Just One Sword/World Building",
     "SoloRPGs/1-Assets/SoloRPGs/Just One Sword/PC/Vozz Ichorfoot",
-    "SoloRPGs/1-Assets/SoloRPGs/Just One Sword/PC",
-    "SoloRPGs/5-Tokens/Hexes/Water_Hex_1.webp",
-    "SoloRPGs/3-Decks/Business Card Dungeon/Dungeon2.webp",
     "Untitled.canvas",
     "SoloRPGs/Path of the Aram Thyr/Overworld Maps/Untitled.canvas",
     "SoloRPGs/Riftbreakers/Trippin' the Rift Beautiful Edition.canvas",
