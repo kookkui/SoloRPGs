@@ -54,7 +54,7 @@ description: "A small winged rodent that inhabits caves and darkened places."
 
 ```statblock
 
-name: "BAT GIANT"
+name:  "GIANT BAT"
 
 layout: JustOneTorch
 
@@ -80,7 +80,7 @@ description: "A large cousin of the small bat this beast is the size of a housec
 
 ```statblock
 
-name: "BEAR BLACK"
+name: "BLACK BEAR"
 
 layout: JustOneTorch
 
@@ -106,7 +106,7 @@ description: "A large beast that spends its time hunting for grubs berries and r
 
 ```statblock
 
-name: "BEAR CAVE"
+name: "CAVE BEAR"
 
 layout: JustOneTorch
 
@@ -314,7 +314,7 @@ description: "An equine beast of burden infamous for its stubborn nature."
 
 ```statblock
 
-name: "EAGLE GIANT"
+name: "GIANT EAGLE"
 
 layout: JustOneTorch
 
@@ -366,7 +366,7 @@ description: "A type of deer but larger and with a more dangerous rack of antler
 
 ```statblock
 
-name: "GOAT MOUNTAIN"
+name: "MOUNTAIN GOAT"
 
 layout: JustOneTorch
 
@@ -418,7 +418,7 @@ description: "A small raptor that is known for being an excellent hunting compan
 
 ```statblock
 
-name: "HAWK GIANT"
+name: "GIANT HAWK"
 
 layout: JustOneTorch
 
@@ -444,7 +444,7 @@ description: "A hunting dog sized cousin of the hawk. It is known to be much mor
 
 ```statblock
 
-name: "HORSE DRAFT"
+name: "DRAFT HORSE"
 
 layout: JustOneTorch
 
@@ -470,7 +470,7 @@ description: "A large stout horse used for pulling carts and carriages."
 
 ```statblock
 
-name: "HORSE RIDING"
+name: "RIDING HORSE"
 
 layout: JustOneTorch
 
@@ -496,7 +496,7 @@ description: "A sleeker but still heavily muscled horse bred for distance riding
 
 ```statblock
 
-name: "HORSE WAR"
+name: "WAR HORSE"
 
 layout: JustOneTorch
 
@@ -545,7 +545,7 @@ special: "Ambush: 2d6 to unaware enemies."
 description: "A spotted jungle cat known for hiding in high branches and leaping out onto unsuspecting prey."
 
 ```
-
+;;;
 ```statblock
 
 name: "LION"
