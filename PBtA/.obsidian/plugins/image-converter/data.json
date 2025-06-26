@@ -300,6 +300,7 @@
   "imageAlignment_cacheLocation": "plugin",
   "isDragResizeEnabled": true,
   "isScrollResizeEnabled": true,
+  "isDragAspectRatioLocked": false,
   "isResizeInReadingModeEnabled": false,
   "resizeSensitivity": 0.1,
   "scrollwheelModifier": "Shift",

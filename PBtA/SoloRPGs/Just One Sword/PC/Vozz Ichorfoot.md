@@ -46,6 +46,7 @@ title3: Bedroll (Recover Fatigue in the wilds)
 title4: "Thieves Tools, Simple "
 title5: "Travel Rations "
 title6: "Travel Rations "
+title7: Gem(400)
 ---
 
 >[!dice] %%FAKE TITLE HERE%%
@@ -99,6 +100,7 @@ title6: "Travel Rations "
 >>|**Ranged**|+`=floor((this.DEX - 10)/3)`|+`=this.AtkBonus`|
 >> || |
 
+### Weapons & Supplies
 >[!rng] %%FAKE TITLE HERE%%
 >> [!rng] %%FAKE TITLE HERE%%
 >> ##### Weapons
@@ -125,25 +127,24 @@ title6: "Travel Rations "
 >>**Silver Pieces (sp)**|`5` |
 >>**Gold Pieces (gp)**|`0` |
 >>**Bronze Pieces (bp)**|`0` | 
->>**Rations**|`6` |
+>>**Rations**|`5` |
 >>**Torches**| `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):torch1]` |
 >>**Lamp Oil**|`INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):Lampoil]` |
 
 
+### Timers & Counters
 >[!crafting] %%FAKE TITLE HERE%%
 >> [!crafting] %%FAKE TITLE HERE%%
 >> ##### Timers & Counters
 >>  | |
 >>---|---|
->>**Watchs**| `clock,yellow: 2/4` |
->>**Goal Timer**|`clock,cyan: 0/6`|
->>**Encounter Penalties**|`circles,pink: 0/10`|
+>>**Watchs**| `clock,yellow: 0/4` |
+>>**Goal Timer**|`circles,yellow: 0/12`|
+>>**Encounter Penalties**|`circles,pink: 2/10`|
 >>**Progress Track**|`circles,green: 0/10` | 
 >>**Countdown Track**|`circles,red: 0/4` |
 
-
-
-
+### Skills
 >[!travel] %%FAKE TITLE HERE%%
 >>[!thing] %%FAKE TITLE HERE%%
 >> ### Skills
@@ -168,6 +169,7 @@ title6: "Travel Rations "
 >>&nbsp;
 >>
 
+### Abilities & Languages
 >[!table_time] %%FAKE TITLE HERE%%
 >>[!table_time] %%FAKE TITLE HERE%%
 >>### Abilities & Languages
@@ -179,6 +181,7 @@ title6: "Travel Rations "
 >>| `=this.Ability7` | `=this.Ability8` |
 >>
 
+### Inventory
 >[!table] %%FAKE TITLE HERE%%
 >>[!table] %%FAKE TITLE HERE%%
 >>#### Backpack
@@ -220,7 +223,7 @@ title6: "Travel Rations "
 >>|5|`INPUT[text:Pouch5]` |5|`INPUT[text:Sack5]` |
 >>|6|`INPUT[text:Pouch6]` |6|`INPUT[text:Sack6]` |
 
-
+### Spells
 >[!table_time] %%FAKE TITLE HERE%%
 >>[!table_time] %%FAKE TITLE HERE%%
 >>### Spells

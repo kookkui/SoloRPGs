@@ -34,7 +34,7 @@
   "anuppuccin-theme-settings@@anp-card-shadows": true,
   "anuppuccin-theme-settings@@anp-card-layout-actions": false,
   "anuppuccin-theme-settings@@anp-card-layout-filebrowser": true,
-  "anuppuccin-theme-settings@@anp-editor-font-rv": "Lato Regular",
+  "anuppuccin-theme-settings@@anp-editor-font-rv": "SN Pro",
   "anuppuccin-theme-settings@@anp-header-color-toggle": true,
   "anuppuccin-theme-settings@@anp-header-divider-color-toggle": true,
   "anuppuccin-theme-settings@@anp-h3-color-custom": "anp-h3-blue",
@@ -89,10 +89,9 @@
   "sanctum@@color-accent-rgb-d": "236, 90, 118",
   "royal-velvet@@inline-document-title-color": "doc-title-h4",
   "anuppuccin-theme-settings@@anuppuccin-theme-light": "ctp-rosepine-light",
-  "anuppuccin-theme-settings@@bold-weight": "900",
   "anuppuccin-theme-settings@@anp-font-live-preview-wt": "400",
   "anuppuccin-theme-settings@@anp-font-preview-wt": "400",
   "anuppuccin-theme-settings@@h1-weight": 700,
   "anuppuccin-theme-settings@@h2-weight": 600,
-  "anuppuccin-theme-settings@@anp-editor-font-lp": "Lato Regular"
+  "anuppuccin-theme-settings@@anp-editor-font-lp": "SN Pro"
 }
