@@ -137,6 +137,12 @@
       },
       "pexels-banner": {
         "startupType": "instant"
+      },
+      "code-styler": {
+        "startupType": "instant"
+      },
+      "obsidian-linter": {
+        "startupType": "disabled"
       }
     },
     "loadOrder": []

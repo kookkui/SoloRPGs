@@ -12,7 +12,7 @@ MindSav: "`=floor((this.INT - 10)/3) + floor((this.CHA - 10)/3)`"
 ReflexSav: "`=floor((this.DEX - 10)/3) + floor((this.WIS - 10)/3)`"
 AtkBonus: 0
 SavBonus: 0
-xp: 1
+xp: 3
 LevelXP: "`=(this.Level*10)`"
 MaxHP: 7
 Fatigue: "`=this.CON`"
@@ -47,6 +47,8 @@ title4: "Thieves Tools, Simple "
 title5: "Travel Rations "
 title6: "Travel Rations "
 title7: Gem(400)
+title8: Bandage (Halts Bleeding and heals 1d4 HP on successful +INT  check. +1 Fatigue.)
+title9: Gem (100)
 ---
 
 >[!dice] %%FAKE TITLE HERE%%
@@ -124,7 +126,7 @@ title7: Gem(400)
 >> ##### Supplies
 >>  | |
 >>---|---|
->>**Silver Pieces (sp)**|`5` |
+>>**Silver Pieces (sp)**|`70` |
 >>**Gold Pieces (gp)**|`0` |
 >>**Bronze Pieces (bp)**|`0` | 
 >>**Rations**|`5` |
@@ -139,8 +141,8 @@ title7: Gem(400)
 >>  | |
 >>---|---|
 >>**Watchs**| `clock,yellow: 0/4` |
->>**Goal Timer**|`circles,yellow: 0/12`|
->>**Encounter Penalties**|`circles,pink: 2/10`|
+>>**Goal Timer**|`circles,yellow: 4/12`|
+>>**Encounter Penalties**|`circles,pink: 0/10`|
 >>**Progress Track**|`circles,green: 0/10` | 
 >>**Countdown Track**|`circles,red: 0/4` |
 

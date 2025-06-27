@@ -4,53 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1e2bf1c10b818456",
+        "id": "0b1c12f13618632c",
         "type": "tabs",
         "children": [
           {
-            "id": "c38a459642b1a7ff",
+            "id": "9be3233a65865b61",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SoloRPGs/2-Bestiaries/Just One Torch/SCORPION.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "SCORPION"
-            }
-          }
-        ]
-      },
-      {
-        "id": "ab84405ac440e5fc",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d946c9283b8a8aac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SoloRPGs/Just One Sword/PC/Vozz Ichorfoot.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Vozz Ichorfoot"
-            }
-          },
-          {
-            "id": "dd625546c9a51aea",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "SoloRPGs/Just One Sword/Maps/Caves of the Infernal.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Caves of the Infernal"
+              "title": "New tab"
             }
           }
         ]
@@ -144,12 +108,12 @@
             "state": {
               "type": "MAIN_VIEW",
               "state": {},
-              "icon": "srt-ribbon",
-              "title": "Solo RPG Toolkit"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -219,11 +183,10 @@
               "state": {
                 "calendar": "ID_2b6aebe9dbab",
                 "ephemeral": {
-                  "viewing": null,
                   "viewState": 1,
                   "displaying": {
                     "day": 1,
-                    "month": 4,
+                    "month": 0,
                     "year": 998
                   },
                   "displayDayNumber": false,
@@ -236,16 +199,6 @@
               },
               "icon": "CALENDARIUM",
               "title": "Calendarium"
-            }
-          },
-          {
-            "id": "5f19566dca329471",
-            "type": "leaf",
-            "state": {
-              "type": "fantasy-statblocks-creature-pane",
-              "state": {},
-              "icon": "skull",
-              "title": "Combatant"
             }
           },
           {
@@ -294,7 +247,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 500
+    "width": 489
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -317,54 +270,54 @@
       "solo-rpg-toolkit:Solo RPG Toolkit": false
     }
   },
-  "active": "c38a459642b1a7ff",
+  "active": "9be3233a65865b61",
   "lastOpenFiles": [
-    "SoloRPGs/2-Bestiaries/Just One Torch/BASILISK.md",
-    "SoloRPGs/2-Bestiaries/Just One Torch/ANT.md",
+    "SoloRPGs/Just One Sword/Vozz Ichorfoot Journal.md",
+    "SoloRPGs/Just One Sword/Tables/Roll Tables.md",
     "SoloRPGs/Just One Sword/PC/Vozz Ichorfoot.md",
-    "SoloRPGs/Just One Sword/World Building/Monster Data.md",
-    "SoloRPGs/2-Bestiaries/Just One Torch/GARGOYLE.md",
-    "SoloRPGs/2-Bestiaries/Just One Torch/COCKATRICE.md",
-    "SoloRPGs/2-Bestiaries/Just One Torch/CHIMERA.md",
-    "SoloRPGs/2-Bestiaries/Just One Torch/SPIDER.md",
-    "SoloRPGs/2-Bestiaries/Just One Torch/SCORPION.md",
-    "SoloRPGs/2-Bestiaries/Just One Torch/WOOD GOLEM.md",
-    "SoloRPGs/2-Bestiaries/Just One Torch/STONE GOLEM.md",
-    "SoloRPGs/2-Bestiaries/Just One Torch/FLESH GOLEM.md",
-    "SoloRPGs/2-Bestiaries/Just One Torch/CLAY GOLEM.md",
-    "SoloRPGs/2-Bestiaries/Just One Torch/STONE GIANT.md",
-    "SoloRPGs/2-Bestiaries/Just One Torch/MOUNTAIN GIANT.md",
-    "SoloRPGs/2-Bestiaries/Just One Torch/FOREST GIANT.md",
-    "SoloRPGs/2-Bestiaries/Just One Torch/CYCLOPS.md",
-    "SoloRPGs/2-Bestiaries/Just One Torch/WHITE DRAGON.md",
-    "SoloRPGs/2-Bestiaries/Just One Torch/RED DRAGON.md",
-    "SoloRPGs/2-Bestiaries/Just One Torch/GREEN DRAGON.md",
-    "SoloRPGs/2-Bestiaries/Just One Torch/BLACK DRAGON.md",
-    "SoloRPGs/2-Bestiaries/Just One Torch/APE.md",
+    "SoloRPGs/Just One Sword/Maps/Battle Maps/Cave Battle Map Grided.md",
+    "SoloRPGs/Just One Sword/Maps/Map of Mistveil.md",
+    "SoloRPGs/Just One Sword/Maps/Caves of the Infernal.md",
     "SoloRPGs/4-Templates/Colour Pallette.md",
-    "SoloRPGs/2-Bestiaries/Just One Torch/RAT-MEN.md",
-    "SoloRPGs/2-Bestiaries/Just One Torch/HAWK.md",
-    "SoloRPGs/2-Bestiaries/Just One Torch/GRIZZLY BEAR.md",
-    "SoloRPGs/4-Templates/Maps/RuinPointCrawl.webp",
-    "SoloRPGs/1-Assets/SoloRPGs/Just One Sword/Maps/Battle Maps/Grassland Battle Map Grided/FeyVale_day_grassland_30x45.webp",
-    "SoloRPGs/1-Assets/SoloRPGs/Just One Sword/Maps/Battle Maps/Grassland Battle Map Grided/IMG-20250625111933806.webp",
+    "SoloRPGs/1-Assets/SoloRPGs/Just One Sword/Vozz Ichorfoot Journal",
+    "SoloRPGs/1-Assets/SoloRPGs/Just One Sword/Vozz Ichorfoot Journal/IMG-20250626150152411.webp",
+    "pixel-banner-images",
+    "SoloRPGs/1-Assets/SoloRPGs/fortress_by_alynspiller_d7va2z0-pre-gigapixel-art-scale-2_00x.webp",
+    "SoloRPGs/1-Assets/SoloRPGs/ridge_by_alynspiller_d5chptc-pre-gigapixel-art-scale-2_00x.webp",
+    "SoloRPGs/1-Assets/SoloRPGs/jatack_cratercity08-gigapixel-art-scale-2_00x.webp",
+    "SoloRPGs/1-Assets/SoloRPGs/wallpaperflare.com_wallpaper-gigapixel-art-scale-2_00x.webp",
+    "SoloRPGs/Riftbreakers - Second Edition/PCs/Serayr.md",
+    "SoloRPGs/Riftbreakers - Second Edition/PCs/Aurielle's Large Spatial Bag.md",
+    "SoloRPGs/Riftbreakers - Second Edition/PCs/Azel.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Tables/Loot Table.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Aurielle Journal.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Monster Data.md",
+    "SoloRPGs/4-Templates/Riftbreakers_2e_-_BETA_6_219.pdf",
+    "SoloRPGs/4-Templates/Snippets.md",
+    "SoloRPGs/4-Templates/Maps/Riftbreakers_2e_-_BETA_6_219.pdf",
+    "Riftbreakers_2e_-_BETA_6_219.md",
+    "SoloRPGs/Just One Sword/Tables/Travel Tables.md",
+    "SoloRPGs/Just One Sword/Tables/Rules Reference.md",
+    "SoloRPGs/5-Tokens/VTT Battle Tokens/Zombie - Human - 0303.webp",
+    "SoloRPGs/5-Tokens/VTT Battle Tokens/Ghoul - 0101.webp",
+    "SoloRPGs/5-Tokens/VTT Battle Tokens/Mummy - 01041 1.webp",
+    "SoloRPGs/5-Tokens/VTT Battle Tokens/Zombie - Human - 0304.webp",
+    "SoloRPGs/5-Tokens/VTT Battle Tokens/Reaper - 0102.webp",
+    "SoloRPGs/Just One Sword/World Building/Monster Data.md",
+    "SoloRPGs/Just One Sword/Maps/Battle Maps/Grassland Battle Map Grided.md",
+    "SoloRPGs/2-Bestiaries/Just One Torch/ZOMBIE.md",
+    "SoloRPGs/2-Bestiaries/Just One Torch/GHOUL.md",
+    "SoloRPGs/2-Bestiaries/Just One Torch/APE.md",
+    "SoloRPGs/2-Bestiaries/Just One Torch/WAR HORSE.md",
+    "SoloRPGs/2-Bestiaries/Just One Torch/SHADOW DEMON.md",
+    "SoloRPGs/2-Bestiaries/Just One Torch/BISON.md",
+    "SoloRPGs/2-Bestiaries/Just One Torch/RED DRAGON.md",
     "SoloRPGs/1-Assets/SoloRPGs/Just One Sword/Maps/Battle Maps/Grassland Battle Map Grided",
-    "Excalidraw/Scripts/Downloaded/Fixed vertical distance between centers.svg",
-    "Excalidraw/Scripts/Downloaded/Fixed horizontal distance between centers.svg",
-    "SoloRPGs/4-Templates/Maps/WoodlandPath_day_stream.webp",
-    "SoloRPGs/4-Templates/Maps/VillageGraveyard_day_30x30.webp",
-    "SoloRPGs/4-Templates/Maps/TheRockyRavine_day_30x30.webp",
-    "SoloRPGs/4-Templates/Maps/AnimalDen_forest_day_30x45.webp",
-    "SoloRPGs/4-Templates/Maps/CaravanOfFun_day_park.webp",
     "SoloRPGs/4-Templates/Maps/River_of_the_Death_Knight_A_grid.webm",
     "SoloRPGs/!-Temp_Storage",
     "SoloRPGs/1-Assets/SoloRPGs/Just One Sword/Maps/Battle Maps/Plains Battle Map Grided",
     "SoloRPGs/1-Assets/SoloRPGs/Just One Sword/Maps/Battle Maps",
     "SoloRPGs/Just One Sword/Maps/Battle Maps",
-    "SoloRPGs/1-Assets/SoloRPGs/Just One Sword/Maps/Map of Mistveil",
-    "SoloRPGs/1-Assets/SoloRPGs/Just One Sword/Maps",
-    "SoloRPGs/1-Assets/SoloRPGs/Just One Sword/World Building/Duskveil",
-    "SoloRPGs/1-Assets/SoloRPGs/Just One Sword/World Building",
     "Untitled.canvas",
     "SoloRPGs/Path of the Aram Thyr/Overworld Maps/Untitled.canvas",
     "SoloRPGs/Riftbreakers/Trippin' the Rift Beautiful Edition.canvas",

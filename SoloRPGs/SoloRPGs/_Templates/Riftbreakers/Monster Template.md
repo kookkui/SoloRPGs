@@ -1,5 +1,5 @@
 ```statblock
-name: "Monster (RB)"
+name: "Monster Name"
 layout: Riftbreakers_2E
 description: "description"
 
