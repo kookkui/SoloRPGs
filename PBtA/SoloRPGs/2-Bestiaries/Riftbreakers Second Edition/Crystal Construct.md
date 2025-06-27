@@ -1,3 +1,6 @@
+---
+statblock: inline
+---
 ```statblock
 name: "Crystal Construct"
 layout: Riftbreakers_2E

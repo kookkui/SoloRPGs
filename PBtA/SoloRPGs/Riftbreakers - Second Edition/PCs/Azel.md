@@ -118,7 +118,7 @@ heart8: true
 heart9: true
 reputation_rank: Initiate
 gear3: Rope
-CurrentAether: 4
+CurrentAether: 10
 skill6: true
 hp: 31
 modifier: 0
@@ -154,7 +154,7 @@ Pskills1: The Liar's Eyes Coin (grants +5 to  Perception but whispers lies at ni
 >> ---|---|
 >>**Title** |`=this.Title` |
 >> **Current Achievement Path** |`INPUT[suggester(option(Path of Slaughter), option(Path of Shadows), option(Path of the Arcane), option(Path of the Explorer), option(Path of the Diplomat)):achievement_path]` |
->>  **Achievement in Progress** |`=this.achievement_prog` `circles,pink: 1/5` |
+>>  **Achievement in Progress** |`=this.achievement_prog` `circles,pink,16: 1/5` |
 >> **Ability Pool** | Used: `7` **Max:** `21` |
 >> **Reputation** | `2` `INPUT[suggester(option(Initiate), option(Journeyman), option(Vanguard), option(Champion), option(High Warden)):reputation_rank]` |
 >> **HP** | **Current:**`31` **Max:** `31`
@@ -269,14 +269,14 @@ Pskills1: The Liar's Eyes Coin (grants +5 to  Perception but whispers lies at ni
 >>### Quests
 >>|**Quest Description** |**Completed** | **Timer/Counter**|
 >> |:---: | --- | :---------: |
->>| `=this.quest1` | `INPUT[toggle:quest1t]` | `boxes: 1/16`
->> |`=this.quest2` |`INPUT[toggle:quest2t]` |  `boxes: 0/19`
->>| `=this.quest3` | `INPUT[toggle:quest3t]` | `boxes: 0/10`
->> |`=this.quest4` |`INPUT[toggle:quest4t]` | `boxes: 0/19`
->>| `=this.quest5` | `INPUT[toggle:quest5t]` | `boxes: 0/16`
+>>| `=this.quest1` | `INPUT[toggle:quest1t]` | `circles,16: 1/16`
+>> |`=this.quest2` |`INPUT[toggle:quest2t]` |  `circles,16: 0/19`
+>>| `=this.quest3` | `INPUT[toggle:quest3t]` | `circles,16: 0/10`
+>> |`=this.quest4` |`INPUT[toggle:quest4t]` | `circles,16: 0/19`
+>>| `=this.quest5` | `INPUT[toggle:quest5t]` | `circles,16: 0/16`
 >> |`=this.quest6` |`INPUT[toggle:quest6t]` | `1`
 >>| `=this.quest7` | `INPUT[toggle:ques71t]` | `0`
->> |`=this.quest8` |`INPUT[toggle:quest8t]` | `boxes: 0/25`
+>> |`=this.quest8` |`INPUT[toggle:quest8t]` | `circles,16: 0/25`
 >>| `=this.quest9` | `INPUT[toggle:ques91t]` | `0`
 >> |`=this.quest10` |`INPUT[toggle:quest10t]` |
 
@@ -296,7 +296,7 @@ Pskills1: The Liar's Eyes Coin (grants +5 to  Perception but whispers lies at ni
 >>|6|`INPUT[text:gear6]` |
 >>|7|`INPUT[text:gear7]` |
 >>|9|`INPUT[text:gear9]` |
->>|10|`INPUT[text:gear10]` || [[Aurielle's Large Spatial Bag]]|
+>>|10|`INPUT[text:gear10]` || [[Azel's Large Spatial Bag]]|
 >>
 >>
 >>### Backpack 

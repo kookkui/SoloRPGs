@@ -1,3 +1,6 @@
+---
+statblock: inline
+---
 ```statblock
 name: "Poisonous Frog (RB)"
 layout: Riftbreakers_2E

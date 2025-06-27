@@ -1,3 +1,6 @@
+---
+statblock: inline
+---
 ```statblock
 name: "Storm Giant (RB)"
 layout: Riftbreakers_2E

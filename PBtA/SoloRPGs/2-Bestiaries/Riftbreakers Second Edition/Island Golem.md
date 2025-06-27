@@ -1,3 +1,6 @@
+---
+statblock: inline
+---
 ```statblock
 name: "Island Golem"
 layout: Riftbreakers_2E

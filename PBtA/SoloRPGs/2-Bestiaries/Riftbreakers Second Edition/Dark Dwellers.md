@@ -1,3 +1,6 @@
+---
+statblock: inline
+---
 ```statblock
 name: "Dark Dwellers (RB)"
 layout: Riftbreakers_2E

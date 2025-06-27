@@ -1,3 +1,6 @@
+---
+statblock: inline
+---
 ```statblock
 name: "Bandits"
 layout: Riftbreakers 2E

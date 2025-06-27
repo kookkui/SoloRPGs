@@ -1,3 +1,6 @@
+---
+statblock: inline
+---
 ```statblock
 name: "Ancient Ent (RB)"
 layout: Riftbreakers_2E

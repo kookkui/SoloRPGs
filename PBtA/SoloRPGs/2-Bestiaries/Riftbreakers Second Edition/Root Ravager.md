@@ -1,3 +1,6 @@
+---
+statblock: inline
+---
 ```statblock
 name: "Root Ravager (RB)"
 layout: Riftbreakers_2E

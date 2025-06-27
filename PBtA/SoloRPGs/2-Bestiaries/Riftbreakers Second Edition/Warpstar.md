@@ -1,3 +1,6 @@
+---
+statblock: inline
+---
 ```statblock
 name: "Warpstar (RB)"
 layout: Riftbreakers_2E

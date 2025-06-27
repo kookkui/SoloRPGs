@@ -1,3 +1,6 @@
+---
+statblock: inline
+---
 ```statblock
 name: "Thunderbird (RB)"
 layout: Riftbreakers_2E

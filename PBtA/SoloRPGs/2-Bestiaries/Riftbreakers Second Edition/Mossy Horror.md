@@ -1,3 +1,6 @@
+---
+statblock: inline
+---
 ```statblock
 name: "Mossy Horror (RB)"
 layout: Riftbreakers_2E

@@ -1,3 +1,6 @@
+---
+statblock: inline
+---
 ```statblock
 name: "Luminous Lizard (RB)"
 layout: Riftbreakers_2E

@@ -1,3 +1,7 @@
+---
+statblock: inline
+---
+
 ```statblock
 name: "Bog Snake (RB)"
 layout: Riftbreakers_2E

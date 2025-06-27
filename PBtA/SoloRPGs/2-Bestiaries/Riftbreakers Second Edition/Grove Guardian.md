@@ -1,3 +1,6 @@
+---
+statblock: inline
+---
 ```statblock
 name: "Grove Guardian (RB)"
 layout: Riftbreakers_2E

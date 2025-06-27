@@ -1,3 +1,7 @@
+---
+statblock: inline
+---
+
 ```statblock
 name: "Monster Name"
 layout: Riftbreakers_2E
