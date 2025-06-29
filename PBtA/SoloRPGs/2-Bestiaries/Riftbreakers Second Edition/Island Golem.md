@@ -2,7 +2,7 @@
 statblock: inline
 ---
 ```statblock
-name: "Island Golem"
+name: "Island Golem (RB)"
 layout: Riftbreakers_2E
 description: "*A towering humanoid creature made of stone and clay that can smash through anything in its way.*"
 

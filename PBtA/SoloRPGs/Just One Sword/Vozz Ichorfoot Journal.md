@@ -1,7 +1,7 @@
 ---
-banner: "![[pixel-banner-images/LowFantasyAdventure.webp]]"
-banner-x: 41
-banner-y: 54
+banner: "![[pixel-banner-images/fortress_by_alynspiller_d7va2z0-pre-gigapixel-art-scale-2_00x.webp]]"
+banner-x: 34
+banner-y: 70
 content-start: 341
 banner-height: 420
 ---

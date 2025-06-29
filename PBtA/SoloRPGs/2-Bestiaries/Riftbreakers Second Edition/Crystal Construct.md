@@ -2,7 +2,7 @@
 statblock: inline
 ---
 ```statblock
-name: "Crystal Construct"
+name: "Crystal Construct (RB)"
 layout: Riftbreakers_2E
 description: "*A creature made entirely of crystal, that can shoot sharp crystal shards and use its tough, armor-like body to compensate for its slow movement.*"
 

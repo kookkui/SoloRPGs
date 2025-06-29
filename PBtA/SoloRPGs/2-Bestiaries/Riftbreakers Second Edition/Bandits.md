@@ -2,8 +2,8 @@
 statblock: inline
 ---
 ```statblock
-name: "Bandits"
-layout: Riftbreakers 2E
+name: "Bandits (RB)"
+layout: Riftbreakers_2E
 description: "*Ruthless men and women who profit from assaulting the trade caravans and lone travelers in the area, They are skilled in both ranged and melee combat, and are not afraid to resort to dirty tactics to gain the upper hand.*"
 actions: "1"
 agility: "60"

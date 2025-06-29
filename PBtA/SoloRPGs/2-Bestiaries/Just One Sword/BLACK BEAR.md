@@ -25,5 +25,4 @@ morale: "7"
 special: "Hug: wraps arms around victim dealing 2d6 dmg"
 
 description: "A large beast that spends its time hunting for grubs berries and rodents."
-
-	``` 
+``` 
