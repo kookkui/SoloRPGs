@@ -6,18 +6,101 @@
       {
         "id": "00e2bff1606531f2",
         "type": "tabs",
+        "dimension": 49.596774193548384,
         "children": [
           {
             "id": "2819cbf441675755",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "SoloRPGs/4-Templates/Disciples of Bone & Shadow - Broken Shores Edition/Character Sheet.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Character Sheet"
+            }
+          },
+          {
+            "id": "6bc8444f158a8bb8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SoloRPGs/!-Temp_Storage/Broken Shores/BS Character Sheet.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "BS Character Sheet"
             }
           }
         ]
+      },
+      {
+        "id": "f6c64f3890e255bf",
+        "type": "tabs",
+        "dimension": 50.403225806451616,
+        "children": [
+          {
+            "id": "f200951dcc057421",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SoloRPGs/!-Temp_Storage/Disciples of Bone and Shadow/DBS Character Sheet V2.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "DBS Character Sheet V2"
+            }
+          },
+          {
+            "id": "108be97342c43ed3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Changes & Conversions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Changes & Conversions"
+            }
+          },
+          {
+            "id": "c888d41b835a1cf1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SoloRPGs/!-Temp_Storage/Azel.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Azel"
+            }
+          },
+          {
+            "id": "9d751b4f74e5c80b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SoloRPGs/Just One Sword/PC/Vozz Ichorfoot.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Vozz Ichorfoot"
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -280,10 +363,18 @@
       "solo-rpg-toolkit:Solo RPG Toolkit": false
     }
   },
-  "active": "fe32ac9541879a4c",
+  "active": "2819cbf441675755",
   "lastOpenFiles": [
-    "SoloRPGs/Untitled.md",
+    "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Changes & Conversions.md",
+    "SoloRPGs/4-Templates/Disciples of Bone & Shadow - Broken Shores Edition/Character Sheet.md",
     "SoloRPGs/Just One Sword/PC/Vozz Ichorfoot.md",
+    "SoloRPGs/!-Temp_Storage/Azel.md",
+    "SoloRPGs/!-Temp_Storage/Disciples of Bone and Shadow/DBS Character Sheet V2.md",
+    "SoloRPGs/!-Temp_Storage/Broken Shores/BS Character Sheet.md",
+    "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/PC.md",
+    "SoloRPGs/4-Templates/Disciples of Bone & Shadow - Broken Shores Edition",
+    "SoloRPGs/Untitled.md",
+    "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition",
     "SoloRPGs/2-Bestiaries/Just One Sword/RIDING HORSE.md",
     "SoloRPGs/2-Bestiaries/Just One Sword/RAT-MEN.md",
     "SoloRPGs/2-Bestiaries/Just One Sword/MOUNTAIN LION.md",
@@ -302,12 +393,6 @@
     "SoloRPGs/2-Bestiaries/Just One Sword/CLAY GOLEM.md",
     "SoloRPGs/2-Bestiaries/Just One Sword/CHIMERA.md",
     "SoloRPGs/2-Bestiaries/Just One Sword/BOAR.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/CAVE BEAR.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/BLOOD DEMON.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/BLACK DRAGON.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/BLACK BEAR.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/BISON.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/BAT.md",
     "pixel-banner-images/fortress_by_alynspiller_d7va2z0-pre-gigapixel-art-scale-2_00x.webp",
     "SoloRPGs/1-Assets/SoloRPGs/Just One Sword/World Building/Duskveil/IMG-20250624112724549.webp",
     "SoloRPGs/1-Assets/SoloRPGs/Just One Sword/Maps/Battle Maps/Grassland Battle Map Grided/IMG-20250625111933806.webp",
@@ -326,8 +411,6 @@
     "SoloRPGs/1-Assets/SoloRPGs/Just One Sword/Maps/Battle Maps/Grassland Battle Map Grided",
     "SoloRPGs/4-Templates/Maps/River_of_the_Death_Knight_A_grid.webm",
     "SoloRPGs/!-Temp_Storage",
-    "SoloRPGs/1-Assets/SoloRPGs/Just One Sword/Maps/Battle Maps/Plains Battle Map Grided",
-    "SoloRPGs/1-Assets/SoloRPGs/Just One Sword/Maps/Battle Maps",
     "Untitled.canvas",
     "SoloRPGs/Path of the Aram Thyr/Overworld Maps/Untitled.canvas",
     "SoloRPGs/Riftbreakers/Trippin' the Rift Beautiful Edition.canvas",

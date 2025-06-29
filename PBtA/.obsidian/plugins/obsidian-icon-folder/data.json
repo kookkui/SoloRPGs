@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RaRuneStone",
       "RaTrail",
       "RaArcher",
       "TiHexagons",
-      "RaBroadsword",
-      "RaBook"
+      "RaBroadsword"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -156,5 +156,6 @@
   "SoloRPGs/Just One Sword/Abilities": "RaArcher",
   "SoloRPGs/Just One Sword/Maps": "RaTrail",
   "SoloRPGs/Just One Sword/Vozz Ichorfoot Journal.md": "RaScrollUnfurled",
-  "SoloRPGs/Riftbreakers - Second Edition/PCs/Azel's Large Spatial Bag.md": "TiNut"
+  "SoloRPGs/Riftbreakers - Second Edition/PCs/Azel's Large Spatial Bag.md": "TiNut",
+  "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition": "RaRuneStone"
 }

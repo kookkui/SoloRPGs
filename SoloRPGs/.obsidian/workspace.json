@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f4b94943e144f358",
+        "id": "da4b20ccea914b56",
         "type": "tabs",
         "children": [
           {
-            "id": "72e97e634b5040f9",
+            "id": "c161804c035183e3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoloRPGs/Riftbreakers - Second Edition/Monster Data.md",
-                "mode": "preview",
+                "file": "SoloRPGs/Disciples of Bone and Shadow/PCs/Hema.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Monster Data"
+              "title": "Hema"
             }
           }
         ]
@@ -286,12 +286,14 @@
       "solo-rpg-toolkit:Solo RPG Toolkit": false
     }
   },
-  "active": "fe32ac9541879a4c",
+  "active": "c161804c035183e3",
   "lastOpenFiles": [
+    "SoloRPGs/Disciples of Bone and Shadow/DoBS Rules Reference/Character Advancement.md",
+    "SoloRPGs/Disciples of Bone and Shadow/PCs/Hema.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Monster Data.md",
     "SoloRPGs/_Templates/Riftbreakers/AI Template.md",
     "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Bandits.md",
     "SoloRPGs/_Templates/Riftbreakers/Monster Template.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Monster Data.md",
     "SoloRPGs/_Templates/Colour Pallette.md",
     "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Ancient Ent.md",
     "SoloRPGs/Riftbreakers - Second Edition/Aurielle Journal.md",
@@ -317,8 +319,6 @@
     "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Rift Maps/Primordial Forest Rift 1/IMG-20250611230412476.webp",
     "SoloRPGs/_Tokens/VTT Battle Tokens/Toad - Giant - 0105 1.webp",
     "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Might Heart/Unbound Fury.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Weapon Strikes & Non-Heart Abilities/Weapon Strike (Two-Handed).md",
-    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Restoration Heart/Holy Weapon.md",
     "SoloRPGs/_Tokens/VTT Battle Tokens/Giant - Storm - 0101.webp",
     "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map/IMG-20250531165008094.webp",
     "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map Dark Mode/IMG-20250602223656096.webp",
