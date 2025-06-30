@@ -24,33 +24,31 @@ Tyrants are unquestionably the most feared creatures in the whole of the Fractur
 | D6  |                                                                                           Tyrant Spell Table                                                                                            |
 | :-: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |  1  |                                                                        Regeneration: The Tyrant begins to heal D10 HP per turn.                                                                         |
-|  2  |                                                                 Hellfire: This spell deals D50 damage to the characters, split evenly.                                                                  |
+|  2  |                                                                 Hellfire: This spell deals D20 damage to the characters, split evenly.                                                                  |
 |  3  | Enthrall: A random character must succeed a WILL Test or become enthralled by the Tyrant. An enthralled character will fight against their comrades until the Tyrant dies, or until the character dies. |
 |  4  |     Enfeeblement: A random character suffers -10 Attack and -10 Defense for the rest of the combat. The effects of this spell may stack with others, including if the spell is cast several times.      |
 |  5  |                                                             Poisonous Mist: Characters must roll a CON Test or gain the Poisoned condition.                                                             |
 |  6  |                                      Elemental Fury: The characters must perform a WILL Test successfully or suffer from both the Burning and Chilled conditions.                                       |
-
-
-
-
 ### Supplemental Weapons
-| Weapon                 | Cost | Damage | Weight (GS) | Parry? | Notes                                  |
-| ---------------------- | ---- | ------ | ----------- | ------ | -------------------------------------- |
-| Bone Battleaxe              | 250  | 3D6    | 2           | Yes    | Two-handed                             |
-| Femur Flail                  | 300  | D10+1  | 1           | No     | Difficult (50)                         |
-| Glaive                 | 140  | D10    | 2           | Yes    | Two-handed                             |
-| Wooden Greatsword             | 200  | 2D8    | 2           | Yes    | Two-handed                             |
-| Whale Bone Lance                  | 120  | D8+1   | 1           | No     | Two-handed                             |
-| Bone Longsword              | 140  | D8+1   | 1           | Yes    | Versatile (D10)                        |
-| Maul                   | 300  | D10+3  | 2           | No     | Two-handed, Difficult (50)             |
-| Morningstar            | 250  | D10    | 1           | No     |                                        |
-| Scimitar               | 220  | D8+1   | 1           | Yes    | +10 Parry                              |
-| Quartz Shortsword             | 110  | D6+1   | 1           | Yes    | +10 Parry                              |
-| Trident                | 120  | D6+2   | 1           | No     |                                        |
-| Whip                   | 100  | D6+1   | 1           | No     | Difficult (60), Fast                   |
-| Flint Tipped Spear                  | 100  | D6+1   | 1           | No     | Versatile (D8+1)                       |
-| Quarterstaff           | 100  | D8     | 1           | Yes    | Two-handed                             |
-| Obsidian Dagger                 | 100  | D4     | 1           | Yes    | +1 to Initiative, -10 Parry            |
-| One-Handed Iron Weapon | +500 |        | +2           |        | +1 damage, never breaks while parrying |
+| Weapon                 | Cost            | Damage            | Weight (GS) | Parry? | Notes                                  |
+| ---------------------- | --------------- | ----------------- | ----------- | ------ | -------------------------------------- |
+| Bone Battleaxe         | 250             | 3D6 Slashing      | 2           | Yes    | Two-handed                             |
+| Femur Flail            | 300             | D10+1 Bludgeoning | 1           | No     | Difficult (50)                         |
+| Glaive                 | 140             | D10 Slashing      | 2           | Yes    | Two-handed                             |
+| Wooden Greatsword      | 200             | 2D8 Slashing      | 2           | Yes    | Two-handed                             |
+| Whale Bone Lance       | 120             | D8+1 Piercing     | 1           | No     | Two-handed                             |
+| Bone Longsword         | 140             | D8+1 Slashing     | 1           | Yes    | Versatile (D10)                        |
+| Bone Maul              | 300             | D10+3 Bludgeoning | 2           | No     | Two-handed, Difficult (50)             |
+| Skull Morningstar      | 250             | D10 Bludgeoning   | 1           | No     |                                        |
+| Scimitar               | 220             | D8+1 Slashing     | 1           | Yes    | +10 Parry                              |
+| Quartz Shortsword      | 110             | D6+1 Slashing     | 1           | Yes    | +10 Parry                              |
+| Shark tooth Trident    | 120             | D6+2 Piercing     | 1           | No     |                                        |
+| Whip                   | 100             | D6+1 Slashing     | 1           | No     | Difficult (60), Fast                   |
+| Flint Tipped Spear     | 100             | D6+1 Piercing     | 1           | No     | Versatile (D8+1)                       |
+| Quarterstaff           | 100             | D8 Bludgeoning    | 1           | Yes    | Two-handed                             |
+| Obsidian Dagger        | 100             | D4 Piercing       | 1           | Yes    | +1 to Initiative, -10 Parry            |
+| One-Handed Iron Weapon | +500            |                   | +2          |        | +1 damage, never breaks while parrying |
+| Bow                    | 150             | D6+1 Piercing     | 1           | NA     | Range 320' Two-handed                  |
+| Dart                   | 10 per <br>+1UD | D4+1 Piercing     | Light       | NA     | Range 60' Fast                         |
 
 

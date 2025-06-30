@@ -25,18 +25,14 @@
             "id": "7e22e4a57c5cdbe2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SoloRPGs/4-Templates/Disciples of Bone & Shadow - Broken Shores Edition/Character Sheet.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Character Sheet"
+              "title": "New tab"
             }
           },
           {
-            "id": "a81c31a386ed90d8",
+            "id": "eb9288fa1d205a56",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -50,7 +46,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -313,10 +309,13 @@
       "solo-rpg-toolkit:Solo RPG Toolkit": false
     }
   },
-  "active": "a81c31a386ed90d8",
+  "active": "7e22e4a57c5cdbe2",
   "lastOpenFiles": [
-    "SoloRPGs/4-Templates/Disciples of Bone & Shadow - Broken Shores Edition/Character Sheet.md",
+    "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Disciples of Bone and Shadow Reference Board.md",
+    "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Character Advancement.md",
     "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Changes & Conversions.md",
+    "SoloRPGs/4-Templates/Disciples of Bone & Shadow - Broken Shores Edition/Character Sheet.md",
+    "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/DoBS House Rules.md",
     "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/PC.md",
     "SoloRPGs/Just One Sword/Maps/Caves of the Infernal.md",
     "SoloRPGs/Just One Sword/Vozz Ichorfoot Journal.md",
@@ -340,9 +339,6 @@
     "SoloRPGs/2-Bestiaries/Just One Sword/GHOUL.md",
     "SoloRPGs/2-Bestiaries/Just One Sword/GARGOYLE.md",
     "SoloRPGs/2-Bestiaries/Just One Sword/FOREST GIANT.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/FLESH GOLEM.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/CRAB GIANT.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/COLOSSAL SQUID.md",
     "pixel-banner-images/fortress_by_alynspiller_d7va2z0-pre-gigapixel-art-scale-2_00x.webp",
     "SoloRPGs/1-Assets/SoloRPGs/Just One Sword/World Building/Duskveil/IMG-20250624112724549.webp",
     "SoloRPGs/1-Assets/SoloRPGs/Just One Sword/Maps/Battle Maps/Grassland Battle Map Grided/IMG-20250625111933806.webp",
