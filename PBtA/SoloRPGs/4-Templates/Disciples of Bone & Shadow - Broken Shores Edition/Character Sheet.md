@@ -50,6 +50,7 @@ CurrentHP: 20
 >> ##### Stats
 >>|     |     |
 >> |--- | --- |
+>>|**Level** | **`=this.Level`**|
 >>|**Max HP** | **`=this.CONST*2`**|
 >>|**Max Power Points** | **`=this.WIL`**|
 >>|**Corruption** |  **Current:** `0` **Max:** `10`|

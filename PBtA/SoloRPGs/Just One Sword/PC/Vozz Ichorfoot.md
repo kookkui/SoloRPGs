@@ -46,9 +46,11 @@ title3: Bedroll (Recover Fatigue in the wilds)
 title4: "Thieves Tools, Simple "
 title5: "Travel Rations "
 title6: "Travel Rations "
-title7: Gem(400)
+title7: Gem(400sp)
 title8: Bandage (Halts Bleeding and heals 1d4 HP on successful +INT  check. +1 Fatigue.)
-title9: Gem (100)
+title9: Gem (100sp)
+title10: Religious Trappings (300 sp)
+title11: Alcohol (250 sp)
 ---
 
 >[!dice] %%FAKE TITLE HERE%%
@@ -142,7 +144,7 @@ title9: Gem (100)
 >>---|---|
 >>**Watchs**| `clock,yellow: 0/4` |
 >>**Goal Timer**|`circles,yellow: 4/12`|
->>**Encounter Penalties**|`circles,pink: 0/10`|
+>>**Encounter Penalties**|`circles,pink: 1/10`|
 >>**Progress Track**|`circles,green: 0/10` | 
 >>**Countdown Track**|`circles,red: 0/4` |
 

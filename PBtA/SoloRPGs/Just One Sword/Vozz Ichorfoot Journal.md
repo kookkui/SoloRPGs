@@ -234,7 +234,7 @@ Searched:  <font color="#1E90FF">Gem</font> (100)
 
 ### Room 4
 Exits: 1
-Twisted  Slaughterhouse
+Twisted Slaughterhouse
 Dressing: Clothes / Robes, Scrolls / Parchment
 Light Check: 4
 
@@ -286,9 +286,22 @@ Attacking Spider (15) `d20 = 21` Hit!
 
 <font color="#ff00cc">Victory!</font>
 
+Scavenge Check: Trap!
 
+Looks like if triggered it will shoot a blast of fire. Thankfully I haven't set it off yet.
 
+I will try and Disarm the track (+1 Encounter Chance)
 
++DEX 10+2 = 12 Full Success!
 
+I was able disarm the trap without problem. 
 
+Searching the Room (Encounter Chance by +1)
+
++WIS 9+2 = 11 Full Success!
+
+Treasure Roll
+
+Religious Trappings (300 sp)
+Alcohol (250 sp)
 
