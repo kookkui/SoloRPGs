@@ -130,16 +130,15 @@ CurrentHP: 20
 >>| **Forbidden Lore** | `0` |`INPUT[toggle:skill24]`|
 >>| **Insight** (WIL `=this.WIL`) | `10` |`INPUT[toggle:skill7]`|
 >>| **Literacy** (INT `=this.INT`) | `10` |`INPUT[toggle:skill8]`|
->>|**Manipulation** (CHA `=this.CHA`) | `10` | `INPUT[toggle:skill9]`|
->>| **Martial Weapons** (STR `=this.STR`) | `10` |`INPUT[toggle:skill10]`
+>>| **Manipulation** (CHA `=this.CHA`) | `10` | `INPUT[toggle:skill9]`|
+>>| **Melee Weapons** (STR `=this.STR`) | `10` |`INPUT[toggle:skill10]`
 >>| **Medicine** (INT `=this.INT`) | `10` |`INPUT[toggle:skill11]`
->>|**Nature** (INT `=this.INT`) | `10` |`INPUT[toggle:skill12]`
+>>| **Nature** (INT `=this.INT`) | `10` |`INPUT[toggle:skill12]`
 >>| **Perception** (WIL `=this.WIL`) | `10` |`INPUT[toggle:skill13]`
 >>| **Performance** (CHA `=this.CHA`) | `10` |`INPUT[toggle:skill14]`
 >>| **Ranged Weapons** (DEX `=this.DEX` ) | `10` |`INPUT[toggle:skill15]`
 >>| **Sailing** (DEX `=this.DEX`) | `10` |`INPUT[toggle:skill16]`
 >>| **Siege Weapons** (DEX `=this.DEX`) | `10` |`INPUT[toggle:skill17]`
->>| **Simple Melee Weapons** (STR `=this.STR`) | `10` |`INPUT[toggle:skill18]`
 >>| **Sleight of Hand** (DEX `=this.DEX` ) | `10` |`INPUT[toggle:skill19]`
 >>| **Stealth** (DEX `=this.DEX`) | `10` |`INPUT[toggle:skill20]`
 >>| **Survival** (INT `=this.INT` ) | `10` |`INPUT[toggle:skill21]`

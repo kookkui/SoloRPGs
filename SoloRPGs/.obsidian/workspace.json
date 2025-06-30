@@ -277,8 +277,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
-      "templater-obsidian:Templater": false,
-      "calendarium:Open Calendarium": false
+      "templater-obsidian:Templater": false
     }
   },
   "active": "73c7f4e40356ab0b",

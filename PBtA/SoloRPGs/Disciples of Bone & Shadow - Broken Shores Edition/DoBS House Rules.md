@@ -49,6 +49,6 @@ Tyrants are unquestionably the most feared creatures in the whole of the Fractur
 | Obsidian Dagger        | 100             | D4 Piercing       | 1           | Yes    | +1 to Initiative, -10 Parry            |
 | One-Handed Iron Weapon | +500            |                   | +2          |        | +1 damage, never breaks while parrying |
 | Bow                    | 150             | D6+1 Piercing     | 1           | NA     | Range 320' Two-handed                  |
-| Dart                   | 10 per <br>+1UD | D4+1 Piercing     | Light       | NA     | Range 60' Fast                         |
+| Dart                   | 10 per +1UD | D4+1 Piercing     | Light       | NA     | Range 60' Fast                         |
 
 

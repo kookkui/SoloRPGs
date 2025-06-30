@@ -4,49 +4,58 @@
     "type": "split",
     "children": [
       {
-        "id": "4b3577f65871b878",
+        "id": "89be356cc2c51889",
         "type": "tabs",
         "children": [
           {
-            "id": "9eabc205fc673f27",
+            "id": "65ec3df3085c472b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SoloRPGs/2-Bestiaries/Disciples of Bone & Shadow - Broken Shores Edition/Skeba.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Skeba"
+            }
+          },
+          {
+            "id": "33acd363b6742e11",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Changes & Conversions.md",
-                "mode": "source",
-                "source": false
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
               "title": "Changes & Conversions"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "119638e5447a0399",
+        "type": "tabs",
+        "children": [
           {
-            "id": "7e22e4a57c5cdbe2",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "eb9288fa1d205a56",
+            "id": "aaf12e886d4724f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/DoBS House Rules.md",
+                "file": "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/PC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DoBS House Rules"
+              "title": "PC"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,17 +127,17 @@
             }
           },
           {
-            "id": "9d900f5a4298eeeb",
+            "id": "e5b9ff4ab3123bd3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoloRPGs/Just One Sword/Tables/Roll Tables.md",
+                "file": "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Tables/BS Table Rolls.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Roll Tables"
+              "title": "BS Table Rolls"
             }
           },
           {
@@ -246,13 +255,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoloRPGs/Just One Sword/Vozz Ichorfoot Journal.md",
+                "file": "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Tables/BS Table Rolls.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Vozz Ichorfoot Journal"
+              "title": "Outline of BS Table Rolls"
             }
           },
           {
@@ -309,36 +318,37 @@
       "solo-rpg-toolkit:Solo RPG Toolkit": false
     }
   },
-  "active": "7e22e4a57c5cdbe2",
+  "active": "65ec3df3085c472b",
   "lastOpenFiles": [
-    "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Disciples of Bone and Shadow Reference Board.md",
-    "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Character Advancement.md",
-    "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Changes & Conversions.md",
-    "SoloRPGs/4-Templates/Disciples of Bone & Shadow - Broken Shores Edition/Character Sheet.md",
-    "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/DoBS House Rules.md",
-    "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/PC.md",
-    "SoloRPGs/Just One Sword/Maps/Caves of the Infernal.md",
-    "SoloRPGs/Just One Sword/Vozz Ichorfoot Journal.md",
-    "SoloRPGs/Just One Sword/PC/Vozz Ichorfoot.md",
-    "SoloRPGs/Just One Sword/Abilities/Witchcraft.md",
-    "SoloRPGs/Just One Sword/Tables/Roll Tables.md",
-    "SoloRPGs/!-Temp_Storage/Azel.md",
-    "SoloRPGs/!-Temp_Storage/Disciples of Bone and Shadow/DBS Character Sheet V2.md",
-    "SoloRPGs/!-Temp_Storage/Broken Shores/BS Character Sheet.md",
+    "SoloRPGs/2-Bestiaries/Disciples of Bone & Shadow - Broken Shores Edition/Skeleton.md",
+    "SoloRPGs/2-Bestiaries/Disciples of Bone & Shadow - Broken Shores Edition/Spawnlings of Vhol'est.md",
+    "SoloRPGs/2-Bestiaries/Disciples of Bone & Shadow - Broken Shores Edition/Stone Warden.md",
+    "SoloRPGs/2-Bestiaries/Disciples of Bone & Shadow - Broken Shores Edition/Tundra Rats.md",
+    "SoloRPGs/2-Bestiaries/Disciples of Bone & Shadow - Broken Shores Edition/Shadow Hound.md",
+    "SoloRPGs/2-Bestiaries/Disciples of Bone & Shadow - Broken Shores Edition/Skeba.md",
+    "SoloRPGs/2-Bestiaries/Disciples of Bone & Shadow - Broken Shores Edition/Sabershadow.md",
+    "SoloRPGs/2-Bestiaries/Disciples of Bone & Shadow - Broken Shores Edition/Rotting Amalgamation.md",
+    "SoloRPGs/2-Bestiaries/Disciples of Bone & Shadow - Broken Shores Edition/Predatory Vine.md",
+    "SoloRPGs/2-Bestiaries/Disciples of Bone & Shadow - Broken Shores Edition/Pale Ghar.md",
+    "SoloRPGs/2-Bestiaries/Disciples of Bone & Shadow - Broken Shores Edition/Night Beetles.md",
+    "SoloRPGs/2-Bestiaries/Disciples of Bone & Shadow - Broken Shores Edition/Madari Rats.md",
+    "SoloRPGs/2-Bestiaries/Disciples of Bone & Shadow - Broken Shores Edition/Ice Leeches.md",
+    "SoloRPGs/2-Bestiaries/Disciples of Bone & Shadow - Broken Shores Edition/Glacial Bear.md",
+    "SoloRPGs/2-Bestiaries/Disciples of Bone & Shadow - Broken Shores Edition/Giant Spider.md",
+    "SoloRPGs/2-Bestiaries/Disciples of Bone & Shadow - Broken Shores Edition/Nomad.md",
+    "SoloRPGs/2-Bestiaries/Disciples of Bone & Shadow - Broken Shores Edition/Rotting Dead.md",
+    "SoloRPGs/2-Bestiaries/Disciples of Bone & Shadow - Broken Shores Edition/Risen (Drowned One).md",
+    "SoloRPGs/2-Bestiaries/Disciples of Bone & Shadow - Broken Shores Edition/Possessed.md",
+    "SoloRPGs/2-Bestiaries/Disciples of Bone & Shadow - Broken Shores Edition/Monstrous Frog.md",
+    "SoloRPGs/2-Bestiaries/Disciples of Bone & Shadow - Broken Shores Edition/Giant Mosquitoes.md",
+    "SoloRPGs/2-Bestiaries/Disciples of Bone & Shadow - Broken Shores Edition/Giant Lamprey.md",
+    "SoloRPGs/2-Bestiaries/Disciples of Bone & Shadow - Broken Shores Edition/Giant Jellyfish.md",
+    "SoloRPGs/2-Bestiaries/Disciples of Bone & Shadow - Broken Shores Edition/Demon.md",
+    "SoloRPGs/2-Bestiaries/Disciples of Bone & Shadow - Broken Shores Edition/Ghast.md",
+    "SoloRPGs/2-Bestiaries/Disciples of Bone & Shadow - Broken Shores Edition/Fire Elemental.md",
+    "SoloRPGs/!-Temp_Storage/Disciples of Bone and Shadow Beastiary",
     "SoloRPGs/4-Templates/Disciples of Bone & Shadow - Broken Shores Edition",
-    "SoloRPGs/Untitled.md",
     "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition",
-    "SoloRPGs/2-Bestiaries/Just One Sword/RIDING HORSE.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/RAT-MEN.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/MOUNTAIN LION.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/GIANT RAT.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/GOAT-MEN.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/GIANT EAGLE.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/GIANT HAWK.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/GIANT BAT.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/GHOUL.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/GARGOYLE.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/FOREST GIANT.md",
     "pixel-banner-images/fortress_by_alynspiller_d7va2z0-pre-gigapixel-art-scale-2_00x.webp",
     "SoloRPGs/1-Assets/SoloRPGs/Just One Sword/World Building/Duskveil/IMG-20250624112724549.webp",
     "SoloRPGs/1-Assets/SoloRPGs/Just One Sword/Maps/Battle Maps/Grassland Battle Map Grided/IMG-20250625111933806.webp",
@@ -356,7 +366,6 @@
     "SoloRPGs/4-Templates/Maps/Riftbreakers_2e_-_BETA_6_219.pdf",
     "SoloRPGs/1-Assets/SoloRPGs/Just One Sword/Maps/Battle Maps/Grassland Battle Map Grided",
     "SoloRPGs/4-Templates/Maps/River_of_the_Death_Knight_A_grid.webm",
-    "SoloRPGs/!-Temp_Storage",
     "Untitled.canvas",
     "SoloRPGs/Path of the Aram Thyr/Overworld Maps/Untitled.canvas",
     "SoloRPGs/Riftbreakers/Trippin' the Rift Beautiful Edition.canvas",
