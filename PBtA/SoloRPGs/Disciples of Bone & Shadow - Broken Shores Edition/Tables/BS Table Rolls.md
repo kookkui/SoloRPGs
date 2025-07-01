@@ -7,40 +7,34 @@
 >##### Status - Fatigue
 >`dice:[[Broken Shores General Tables#^0847a3]]`
 >
->##### Scurvy Effect
->`dice:[[Broken Shores General Tables#^1a236a]]`
+>##### Taint Types
+>`dice:[[DBS GM Emulation#^4216c3]]`
 >
 >##### Demonic Corruption
 >`dice:[[Broken Shores General Tables#^ac5027]]`
 >
 >##### GM Emulation - What is the NPC doing?
 >`dice:[[Broken Shores General Tables#^56fa55]]`
+>
+>#####  NPC Combat Maneuver
+>`dice:[[DBS Tables#^6e0cdd]]`
 
-### Ocean Exploration Tables
-> [!travel] Ocean Exploration Tables
-> ##### Hex Type
->`dice:[[BS Exploration Tables#^3b0677]]`
+### Regional Tables
+> [!crafting] Regional Tables
+>#####  Everscar Highlands Hex Exploration
+>`dice:[[DBS Exploration Tables#^af3bd8]]`
 >
->##### Wind Strength
->`dice:[[BS Exploration Tables#^ab6451]]`
+>#####  Everscar Highlands Encounters
+>`dice:[[DBS Exploration Tables#^09c6f9]]`
 >
->##### Findings
->`dice:[[BS Exploration Tables#^f50f30]]`
+>#####  Akkar Strand Hex Exploration
+>`dice:[[DBS Exploration Tables#^a00248]]`
 >
->##### Encounter Check
->`dice:[[BS Exploration Tables#^5b02fa]]`
->
->##### Encounters
->`dice:[[BS Exploration Tables#^d4f804]]`
->
->##### Combat Encounters
->`dice:[[BS Exploration Tables#^1cdfed]]`
->
->##### Complication
->`dice:[[BS Exploration Tables#^009dc2]]]`
+>#####  Madari Hex Exploration
+>`dice:[[DBS Exploration Tables#^f7274d]]`
 
-### Island Exploration Tables
-> [!done] Island Exploration Tables
+### Exploration Tables
+> [!done] Exploration Tables
 > ##### Encounters
 >`dice:[[BS Exploration Tables#^d9ff13]]`
 >
@@ -50,7 +44,7 @@
 >##### Combat Encounters
 >`dice:[[BS Exploration Tables#^0b18e6]]`
 >
->##### Island Weather
+>##### Weather
 >`dice:[[BS Exploration Tables#^528012]]`
 >
 >##### Traveling Mishaps
@@ -117,6 +111,20 @@
 >
 >##### Ruins Peculiarity
 >`dice:[[BS Exploration Tables#^c51290]]`
+>
+>##### Random Ruins Name
+>`dice:[[DBS Exploration Tables#^8d01b2]]` `dice:[[DBS Exploration Tables#^7fc11e]]`
+
+### Caves
+> [!gather] Caves
+>##### Cave Exploration
+>`dice:[[DBS Exploration Tables#^9d5567]]`
+>
+>##### Cave Encounters
+>`dice:[[DBS Exploration Tables#^2a3c84]]`
+>
+>##### Cave Name
+>`dice:[[DBS Exploration Tables#^59e10f]]` `dice:[[DBS Exploration Tables#^fd6892]]`
 
 ### Combat Tables
 > [!crafting] Combat Tables
@@ -143,6 +151,9 @@
 >
 > ##### Demonic Powers
 >`dice:[[Threat Tables#^67bc7c]]`
+>
+>##### Hostile Human Encounter
+>`dice:[[DBS Encounter Tables#^2aea04]]`
 
 ### Critical Hit Tables
 > [!missing] Critical Hit Tables
@@ -233,6 +244,35 @@
 >
 > ##### Merchant - Types of Wares
 >`dice:[[HomeBrewing#^d1b3bb]]`
+
+### Mission Generation
+>[!crafting] Mission Generation
+>
+>##### Type of Mission
+>`dice:[[DBS GM Emulation#^7f69cf]]`
+>
+>##### How Far Is the Mission Objective?
+>`dice:[[DBS GM Emulation#^497882]]`
+>
+>##### Location Missions
+>`dice:[[DBS GM Emulation#^e909b5]]`  `dice:[[DBS GM Emulation#^747d2d]]`
+>
+>##### Item Missions
+>`dice:[[DBS GM Emulation#^78bbcd]]`  `dice:[[DBS GM Emulation#^e90345]]`
+>
+>##### Individual Missions
+>`dice:[[DBS GM Emulation#^e63a4f]]` `dice:[[DBS GM Emulation#^e90345]]`
+>
+>##### Event Missions
+>`dice:[[DBS GM Emulation#^9d95d9]]`  `dice:[[DBS GM Emulation#^3b8729]]`
+>
+>##### Mission Complications
+>`dice:[[DBS GM Emulation#^97af5a]]` 
+>
+>##### Patrons & Targets
+>
+>`dice:[[DBS GM Emulation#^89815a]]`
+
 
 ## [[Sorcery]]
 

@@ -1,0 +1,1 @@
+Akkar Strand

@@ -2,7 +2,7 @@
 statblock: inline
 ---
 ```statblock
-name: "Skeleton"
+name: "Skeleton (BS)"
 layout: Broken_Shores
 type: "Undead Humanoid"
 loot: "40% Valuable Loot Drop"

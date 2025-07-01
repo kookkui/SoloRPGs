@@ -3,7 +3,7 @@ statblock: inline
 ---
 
 ```statblock
-name: "Rotting Dead"
+name: "Rotting Dead (BS)"
 layout: Broken_Shores
 type: "Undead Humanoid"
 loot: "50% Mundane Loot Drop"

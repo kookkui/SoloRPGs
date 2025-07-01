@@ -3,7 +3,7 @@ statblock: inline
 ---
 
 ```statblock
-name: "Stone Warden"
+name: "Stone Warden (BS)"
 layout: Broken_Shores
 type: "Undead"
 loot: "40% Valuable Loot Drop"

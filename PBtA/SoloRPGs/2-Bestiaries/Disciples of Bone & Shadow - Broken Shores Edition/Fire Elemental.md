@@ -2,7 +2,7 @@
 statblock: inline
 ---
 ```statblock
-name: "Fire Elemental"
+name: "Fire Elemental (BS)"
 layout: Broken_Shores
 type: "Elemental"
 loot: "10% Fire Elemental Essence Loot Drop"

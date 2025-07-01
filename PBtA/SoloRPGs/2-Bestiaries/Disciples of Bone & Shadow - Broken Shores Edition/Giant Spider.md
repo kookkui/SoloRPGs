@@ -2,7 +2,7 @@
 statblock: inline
 ---
 ```statblock
-name: "Giant Spider"
+name: "Giant Spider (BS)"
 layout: Broken_Shores
 type: "Animal"
 loot: "40% Valuable Loot Drop"

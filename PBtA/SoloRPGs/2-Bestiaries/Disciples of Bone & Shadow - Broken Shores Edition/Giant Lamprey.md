@@ -2,7 +2,7 @@
 statblock: inline
 ---
 ```statblock
-name: "Giant Lamprey"
+name: "Giant Lamprey (BS)"
 layout: Broken_Shores
 type: "Animal"
 loot: "Can be Harvested"

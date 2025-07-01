@@ -2,7 +2,7 @@
 statblock: inline
 ---
 ```statblock
-name: "Giant Jellyfish"
+name: "Giant Jellyfish (BS)"
 layout: Broken_Shores
 type: "Animal"
 loot: "Can be harvested"

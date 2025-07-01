@@ -2,7 +2,7 @@
 statblock: inline
 ---
 ```statblock
-name: "Monstrous Frog"
+name: "Monstrous Frog (BS)"
 layout: Broken_Shores
 type: "Animal"
 loot: "50% Mundane Loot Drop"

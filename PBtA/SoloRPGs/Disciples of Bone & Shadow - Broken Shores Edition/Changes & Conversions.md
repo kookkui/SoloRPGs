@@ -5,23 +5,24 @@
 - **Freezing**: Afflicted has -20 to all skills and acts last during combat. The only way to remove this condition is by warming up thanks to a source of heat. Freezing for more than 2 hours will cause the character to become hypothermic, making them lose any sense of reality and suffer -80 to all actions.
 - **Bleeding (X)**: A Bleeding character loses an amount of Health determined by the effect’s intensity until the condition is removed. A successful Medicine check combined with a bandage will remove this condition. This is a cumulative condition.
 
-## Skills
-
-- **Alchemy** (INT): This skill allows a character to craft potions, poisons, and other useful concoctions, provided they have access to the right equipment and ingredients.
-- **Forbidden Lore**: Knowledge of the Primordial Ones, their servants, and their powers. Sometimes you'll need to understand the motivations and machinations of the Sunken Powers to be able to resist them... or become one with them.
-- **Traditional Lore** (20): This skill allows a character to know about a place's history and customs, or to have a general idea of Uzrun's history.
-
-## Corruption
-
-- Corruption rules will remain mostly the same all of this will carry over. 
-- Max Corruption determines how many Corruption Points (CP) you can accumulate before your character is lost to the Primordial Ones. A character is considered dead when their Corruption equals their Max Corruption. We will talk in detail about corruption in the section of this book dedicated to magic and spells. **New characters start with a Max Corruption of 10.**
-
 ## Magic
 
 - When converting Disciples of Bone & Shadow spells to Broken Shores CL becomes the cost to cast the spell in PP. i.e. CL7 = PP 7
 - Spell check is done the same as in Broken Shores, which is a tenacity check.
 - The process is a character must first spend the necessary Power Points (*the PP cost of a spell is detailed on its description*) and then pass a Tenacity check. If the check fails, the PP is still lost and the PC gains 1 point of Corruption.
 -  If the Tenacity check is passed, a *Spell Effect check* must be made next, unless a character is spending a shard to ensure the spell works as intended. Some places, talents or gear can modify this roll in positive or negative ways.
+
+### Corruption
+
+- Corruption rules will remain mostly the same all of this will carry over. 
+- Max Corruption determines how many Corruption Points (CP) you can accumulate before your character is lost to the Primordial Ones. A character is considered dead when their Corruption equals their Max Corruption. We will talk in detail about corruption in the section of this book dedicated to magic and spells. **New characters start with a Max Corruption of 10.**
+
+## Skills
+
+- **Alchemy** (INT): This skill allows a character to craft potions, poisons, and other useful concoctions, provided they have access to the right equipment and ingredients.
+- **Forbidden Lore**: Knowledge of the Primordial Ones, their servants, and their powers. Sometimes you'll need to understand the motivations and machinations of the Sunken Powers to be able to resist them... or become one with them.
+- **Traditional Lore** (20): This skill allows a character to know about a place's history and customs, or to have a general idea of Uzrun's history.
+
 
 ## Talents
 
@@ -101,7 +102,7 @@
 |Well Coordinated |When performing a Coordination Test, roll with advantage.|
 
 
-### Tyrants
+## Tyrants
 
 <p>Tyrants are unquestionably the most feared creatures in the whole of the Fractured Dominion. According to legend, it was them who brought the world to its knees, nearly destroying it in the process. Bearing unrivaled power, they rule the land and although revolutions against them and their agents are frequent, very few change anything at all.</p> It is only through the machinations of rival Tyrants that change happens, as they place a puppet in place of their defeated rival. Although semi-benign Tyrants do exist, the majority act without concern for anybody or anything. <p>When your characters encounter a Tyrant, roll on the Elite Enemy Table. The Tyrant will have the stats and abilities of the resulting creature with some additional abilities unique to Tyrants. On each of the Tyrant's turns, roll a D10. On a 1-3 it will cast one of the following spells instead of performing a normal attack.</p> 
 
@@ -115,7 +116,7 @@
 |  5  | **Poisonous Mist**: Characters must roll a CON Test or gain the Poisoned condition.                                                             |
 |  6  | **Elemental Fury**: The characters must perform a WILL Test successfully or suffer from both the Burning and Chilled conditions.                                       |
 
-### Supplemental Weapons
+## Supplemental Weapons
 | Weapon                 | Cost            | Damage            | Weight (GS) | Parry? | Notes                                  |
 | ---------------------- | --------------- | ----------------- | ----------- | ------ | -------------------------------------- |
 | Bone Battleaxe         | 250             | 3D6 Slashing      | 2           | Yes    | Two-handed                             |
@@ -136,3 +137,4 @@
 | One-Handed Iron Weapon | +500            |                   | +2          |        | +1 damage, never breaks while parrying |
 | Bow                    | 150             | D6+1 Piercing     | 1           | NA     | Range 320' Two-handed                  |
 | Dart                   | 10 per +1UD | D4+1 Piercing     | Light       | NA     | Range 60' Fast                         |
+

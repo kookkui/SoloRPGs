@@ -3,7 +3,7 @@ statblock: inline
 ---
 
 ```statblock
-name: "Possessed"
+name: "Possessed (BS)"
 layout: Broken_Shores
 type: "Humanoid Aberration"
 loot: "40% Valuable Loot Drop"
