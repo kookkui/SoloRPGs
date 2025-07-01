@@ -90,22 +90,22 @@
 ### Precious Loot
 | `dice:d20` | Loot - Precious Loot                                                                                    |
 | ---------- | ------------------------------------------------------------------------------------------------------- |
-| 1-5 | Coins `dice:8D100` |
-| 6 | Roll twice on Gems & Jewelry |
-| 7 | Roll twice on Potions |
-| 8 | Darkness Well: May be used to “pour” D4 CP into it |
-| 9 | D4 Tears of the Mother: Remove all Conditions |
-| 10 | Havak Key: Allows the holder to automatically pass a Vitality check. Becomes a normal key after 1 use |
-| 11 | Arnak Ring: Heals 1 HP. Becomes a regular ring after 20 uses |
-| 12 | Grimoire with D4 random spells |
-| 13 | Healing Tincture 300 jats |
-| 14 | One-Handed Iron Weapon |
-| 15 | Two-Handed Iron Weapon |
-| 16 | Scroll with a random spell |
-| 17 | Suth Marble: Can store 1 spell, to be instantly cast afterward. The Marble is destroyed in the process. |
-| 18 |`dice:[[BS Loot Table#^edbd7f]]` |
-| 19 | One-Handed Shalvan Wood Weapon (1,500 jats) |
-| 20 | `dice:[[BS Loot Table#^19af82]]` |
+| 1-5        | Coins `dice:8D100`                                                                                      |
+| 6          | Roll twice on Gems & Jewelry                                                                            |
+| 7          | Roll twice on Potions                                                                                   |
+| 8          | Darkness Well: May be used to “pour” D4 CP into it                                                      |
+| 9          | D4 Tears of the Mother: Remove all Conditions                                                           |
+| 10         | Havak Key: Allows the holder to automatically pass a Vitality check. Becomes a normal key after 1 use   |
+| 11         | Arnak Ring: Heals 1 HP. Becomes a regular ring after 20 uses                                            |
+| 12         | Grimoire with D4 random Primordial Magic spells                                                         |
+| 13         | Healing Tincture 300 jats                                                                               |
+| 14         | One-Handed Iron Weapon                                                                                  |
+| 15         | Two-Handed Iron Weapon                                                                                  |
+| 16         | Grimoire with D4 random Death Magic spells                                                              |
+| 17         | Suth Marble: Can store 1 spell, to be instantly cast afterward. The Marble is destroyed in the process. |
+| 18         | `dice:[[BS Loot Table#^edbd7f]]`                                                                        |
+| 19         | One-Handed Shalvan Wood Weapon (1,500 jats)                                                             |
+| 20         | `dice:[[BS Loot Table#^19af82]]`                                                                        |
 
 ^48ee33
 
