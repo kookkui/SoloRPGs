@@ -4,7 +4,7 @@ statblock: inline
 ```statblock
 name: "Giant Spider (BS)"
 layout: Broken_Shores
-type: "Animal"
+type: "Beast"
 loot: "40% Valuable Loot Drop"
 stats: [14, 16, 14, 10, 10, 3]
 hp: "20"

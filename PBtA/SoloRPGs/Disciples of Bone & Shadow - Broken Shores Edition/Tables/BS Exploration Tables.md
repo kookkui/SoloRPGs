@@ -513,15 +513,15 @@
 
 ### Pervious Hexes
 
-| Swamp          | Jungle         | Hill           | Mountain       | Thicket        | Ancient Debris | Desert         |     | --- | --- | --- | --- | --- | --- | --- |
+| Swamp          | Jungle         | Hill           | Mountain       | Grasslands     | Ancient Debris | Desert         |     | --- | --- | --- | --- | --- | --- | --- |
 | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | -------------- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Swamp          | Jungle         | Hill           | Mountain       | Thicket        | Ancient Debris | Desert         |     |     |     |     |     |     |     |     |
 | Jungle         | Swamp          | Mountain       | Hill           | Jungle         | Hill           | Thicket        |     |     |     |     |     |     |     |     |
-| Hill           | Hill           | Jungle         | Jungle         | Swamp          | Thicket        | Swamp          |     |     |     |     |     |     |     |     |
-| Thicket        | Thicket        | Thicket        | Thicket        | Hill           | Mountain       | Jungle         |     |     |     |     |     |     |     |     |
+| Hill           | Hill           | Jungle         | Jungle         | Swamp          | Grasslands     | Swamp          |     |     |     |     |     |     |     |     |
+| Grasslands     | Grasslands     | Grasslands     | Grasslands     | Hill           | Mountain       | Jungle         |     |     |     |     |     |     |     |     |
 | Mountain       | Mountain       | Swamp          | Swamp          | Mountain       | Jungle         | Hill           |     |     |     |     |     |     |     |     |
 | Desert         | Desert         | Desert         | Desert         | Desert         | Swamp          | Mountain       |     |     |     |     |     |     |     |     |
-| Ancient Debris | Ancient Debris | Ancient Debris | Ancient Debris | Ancient Debris | Desert         | Ancient Debris |     |     |     |     |     |     |     |     |
+
 
 ^80f35c
 

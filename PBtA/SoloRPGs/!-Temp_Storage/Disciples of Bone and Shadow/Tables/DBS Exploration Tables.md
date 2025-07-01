@@ -209,26 +209,26 @@
 
 | `dice:d20` | Ruin Encounters                    |
 | ---------- | ---------------------------------- |
-| 1          | Insect: Giant Mosquitoes (Vermin)  |
-| 2          | Beast: Madari rats (Vermin)        |
-| 3          | Beast: Fire Bats (Vermin)          |
-| 4          | Insect: Centipede (Vermin)         |
-| 5          | Beast: Wolf (Common)               |
-| 6          | Abomination: Grey Ooze (Common)    |
-| 7          | Beast: Sabershadow (Common)        |
-| 8          | Beast: Crawler (Common)            |
-| 9          | Beast: Pale Ghar (Common)          |
-| 10         | Undead: Risen (Common)             |
-| 11         | Undead: Skeleton (Common)          |
-| 12         | Undead: Ghast (Common)             |
+| 1          | Insect: Giant Mosquitoes           |
+| 2          | Beast: Monstrous Frog                |
+| 3          | Beast: Fire Bats                   |
+| 4          | Insect: Centipede                  |
+| 5          | Possessed                        |
+| 6          | Abomination: Grey Ooze   |
+| 7          | Beast: Sabershadow        |
+| 8          | Beast: Crawler             |
+| 9          | Beast: Pale Ghar          |
+| 10         | Undead: Risen            |
+| 11         | Undead: Skeleton          |
+| 12         | Undead: Ghast           |
 | 13         | Human                              |
-| 14         | Beast: Giant Snake (Elite)         |
-| 15         | Beast: Giant Spider (Elite)        |
-| 16         | Abomination: Crog (Elite)          |
-| 17         | Humanoid: White Hag (Elite)        |
-| 18         | Abomination: Crystal Ghoul (Elite) |
-| 19         | Beast: White Stalker (Elite)       |
-| 20         | Abomination: Demon (Elite)         |
+| 14         | Beast: Giant Snake        |
+| 15         | Beast: Giant Spider       |
+| 16         | Abomination: Crog          |
+| 17         | Humanoid: White Hag       |
+| 18         | Abomination: Crystal Ghoul |
+| 19         | Beast: White Stalker       |
+| 20         | Abomination: Demon        |
 
 ^be082e
 
@@ -239,7 +239,7 @@
 
 | `dice:d20` | Ruin Exploration                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1-5        | `dice:[[DBS Encounter Tables#^d12cea]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| 1-5        | `dice:[[DBS Exploration Tables#^be082e]]`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | 6-7        | Nothing of interest. This section of the ruins is empty and has nothing of interest                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | 8          | Some strange herbs grow from the corner of this dilapidated room. Make a Herb Lore check to see if you can gather any useful herbs.                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | 9          | **Mysterious Figure.** As you progress through the ruins you can't help but feel observed. It's a nagging sensation in the back of your head that you can't get rid of. Your suspicions come to life though when you catch a glimpse of a hooded shadow several feet behind you, simply staring at you. Immediately after realizing it's been made though it quickly runs away. Any attempts at finding it again are completely futile; there's no trace of it to be found                                                                                                                            |

@@ -138,3 +138,34 @@
 | Bow                    | 150             | D6+1 Piercing     | 1           | NA     | Range 320' Two-handed                  |
 | Dart                   | 10 per +1UD | D4+1 Piercing     | Light       | NA     | Range 60' Fast                         |
 
+## Travel
+
+### Watches
+WATCH: There are 4 watches in a day: morning, afternoon, evening, and night.
+### Travel Time
+Crossing a hex takes, at a minimum, 1 day of travel or 2 watches. Hexes are 12 miles wide meaning you can travel 6 miles per watch. Terrain and the Route may add additional time.  Each Watch you must do a encounter check. 
+### Terrain
+<font color="#00b050">Easy</font>: Open, River, Coast, Grasslands 
+*Encounter Check on d10*
+
+Tough: Forest, Hills, Desert, Swamps, Plateaus (+1 Watch)
+*Encounter Check on d8*
+
+<font color="#c00000">Perilous</font>: Jungle, Swamp, Mountains (+2 Watches)
+*Encounter Check on d6*
+### Navigate
+
+- At the start of each travel day you must roll a **Survival Check**. 
+- On a success you manage to travel with minimal difﬁculty.
+- On a failure you must roll on the Traveling Mishaps table.
+
+### Encounter Check
+
+Each watch, make an Encounter Check by rolling the relevant die. If you roll a 1 or 2 then you run across a random encounter.
+
+### Exhaustion
+
+You must rest for 1 watch, or make a Vitality check every watch until you do. On a failure of Vitality check +1 Fatigue to PC. 
+
+
+

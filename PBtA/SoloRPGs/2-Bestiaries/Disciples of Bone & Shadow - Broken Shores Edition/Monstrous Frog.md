@@ -4,7 +4,7 @@ statblock: inline
 ```statblock
 name: "Monstrous Frog (BS)"
 layout: Broken_Shores
-type: "Animal"
+type: "Beast"
 loot: "50% Mundane Loot Drop"
 stats: [14, 14, 10, 7, 8, 1]
 hp: "15"

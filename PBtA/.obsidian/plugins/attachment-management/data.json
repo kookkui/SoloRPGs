@@ -8,7 +8,7 @@
   },
   "dateFormat": "YYYYMMDDHHmmssSSS",
   "excludeExtensionPattern": "",
-  "autoRenameAttachment": true,
+  "autoRenameAttachment": false,
   "excludedPaths": "SoloRPGs/3-Decks; SoloRPGs/4-Templates",
   "excludePathsArray": [
     "SoloRPGs/3-Decks",

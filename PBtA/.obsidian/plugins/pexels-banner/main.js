@@ -29180,9 +29180,24 @@ var init_pixelBannerStoreModal = __esm({
               });
             }
             const details = card.createDiv({ cls: "pixel-banner-store-image-details" });
+            const promptWrapper = details.createDiv({ cls: "pixel-banner-store-prompt-wrapper" });
             const promptText = image.prompt || image.description || image.title || "No description";
             const truncatedPrompt = promptText.length > 85 ? promptText.slice(0, 85) + "..." : promptText;
-            details.createEl("p", { text: truncatedPrompt, cls: "pixel-banner-store-prompt" });
+            promptWrapper.createEl("p", { text: truncatedPrompt, cls: "pixel-banner-store-prompt" });
+            if (image.filesize) {
+              promptWrapper.createEl("div", {
+                text: image.filesize,
+                cls: "pixel-banner-store-filesize",
+                attr: {
+                  style: `
+                                color: var(--text-muted);
+                                font-size: 10px;
+                                margin: 2px 0 0 0;
+                                text-align: left;
+                            `
+                }
+              });
+            }
             const metaDetails = details.createEl("div", { cls: "pixel-banner-store-meta-details" });
             const costText = imageCost === 0 ? "FREE" : `\u{1FA99} ${decimalToFractionString(imageCost)}`;
             const costEl = metaDetails.createEl("div", {
@@ -30475,7 +30490,7 @@ module.exports = __toCommonJS(main_exports);
 var import_obsidian30 = require("obsidian");
 
 // virtual-module:virtual:release-notes
-var releaseNotes = '<a href="https://www.youtube.com/watch?v=tfNqEAQuhXs">\n  <img src="https://pixel-banner.online/img/pixel-banner-v3.6.jpg" alt="Pixel Banner" style="max-width: 400px;">\n</a>\n\n<h2>\u{1F389} What&#39;s New</h2>\n<h3>v3.6.0 - 2025-06-29</h3>\n<h4>\u2728 Added</h4>\n<ul>\n<li>Support for \u{1F3AC} Video Banners!<ul>\n<li>Upload and choose Video files as banners from your vault</li>\n<li>Downloadable \u{1F3AC} Video Banners from the <code>Pixel Banner Plus Collection</code></li>\n</ul>\n</li>\n<li>Added paging controls to the <code>Pixel Banner Plus Collection</code></li>\n<li>New global <code>Banner Max Width</code> setting to control the default max width for all banners</li>\n</ul>\n<h4>\u{1F4E6} Updated</h4>\n<ul>\n<li>Moved <code>Default Saved Banners Folder</code> setting to the <code>General</code> tab</li>\n<li>Renamed <code>Pixel Banner Plus Store</code> to <code>Pixel Banner Plus Collection</code> as many items are free</li>\n</ul>\n<h3>v3.6.1 - 2025-06-30</h3>\n<h4>\u{1F41B} Fixed</h4>\n<ul>\n<li>Icon Image selection modal now properly handles file objects and strings</li>\n</ul>\n<h3>v3.6.2 - 2025-06-30</h3>\n<h4>\u{1F4E6} Updated</h4>\n<ul>\n<li>Improved debounce logic to prevent multiple banner reloads when opening a note</li>\n</ul>\n<a href="https://www.youtube.com/watch?v=pJFsMfrWak4">\n  <img src="https://pixel-banner.online/img/pixel-banner-transparent-bg.png" alt="Pixel Banner" style="max-width: 400px;">\n</a>\n';
+var releaseNotes = '<a href="https://www.youtube.com/watch?v=tfNqEAQuhXs">\n  <img src="https://pixel-banner.online/img/pixel-banner-v3.6.jpg" alt="Pixel Banner" style="max-width: 400px;">\n</a>\n\n<h2>\u{1F389} What&#39;s New</h2>\n<h3>v3.6.0 - 2025-06-29</h3>\n<h4>\u2728 Added</h4>\n<ul>\n<li>Support for \u{1F3AC} Video Banners!<ul>\n<li>Upload and choose Video files as banners from your vault</li>\n<li>Downloadable \u{1F3AC} Video Banners from the <code>Pixel Banner Plus Collection</code></li>\n</ul>\n</li>\n<li>Added paging controls to the <code>Pixel Banner Plus Collection</code></li>\n<li>New global <code>Banner Max Width</code> setting to control the default max width for all banners</li>\n</ul>\n<h4>\u{1F4E6} Updated</h4>\n<ul>\n<li>Moved <code>Default Saved Banners Folder</code> setting to the <code>General</code> tab</li>\n<li>Renamed <code>Pixel Banner Plus Store</code> to <code>Pixel Banner Plus Collection</code> as many items are free</li>\n</ul>\n<h3>v3.6.1 - 2025-06-30</h3>\n<h4>\u{1F41B} Fixed</h4>\n<ul>\n<li>Resolved issue with Icon Image selection modal not setting the selected icon image</li>\n</ul>\n<h3>v3.6.2 - 2025-06-30</h3>\n<h4>\u{1F4E6} Updated</h4>\n<ul>\n<li>Improved debounce logic to prevent multiple banner reloads when opening a note</li>\n</ul>\n<h3>v3.6.3 - 2025-06-30</h3>\n<h4>\u2728 Added</h4>\n<ul>\n<li>Added <code>filesize</code> display to the store modal</li>\n</ul>\n<a href="https://www.youtube.com/watch?v=pJFsMfrWak4">\n  <img src="https://pixel-banner.online/img/pixel-banner-transparent-bg.png" alt="Pixel Banner" style="max-width: 400px;">\n</a>\n';
 
 // src/settings/settings.js
 var import_obsidian6 = require("obsidian");
@@ -32901,7 +32916,7 @@ function getCacheEntriesForFile(filePath) {
   return Array.from(this.bannerStateCache.entries()).filter(([key]) => key.startsWith(`${encodedPath}-`));
 }
 function cleanupCache(force = false) {
-  var _a, _b, _c, _d;
+  var _a, _b;
   const now = Date.now();
   for (const [key, entry] of this.bannerStateCache) {
     const maxAge = entry.isShuffled ? this.SHUFFLE_CACHE_AGE : this.MAX_CACHE_AGE;
@@ -32919,7 +32934,7 @@ function cleanupCache(force = false) {
           });
         }
       }
-      if ((_b = (_a = entry.state) == null ? void 0 : _a.imageUrl) == null ? void 0 : _b.startsWith("blob:")) {
+      if (((_a = entry.state) == null ? void 0 : _a.imageUrl) && typeof entry.state.imageUrl === "string" && entry.state.imageUrl.startsWith("blob:")) {
         URL.revokeObjectURL(entry.state.imageUrl);
       }
       this.bannerStateCache.delete(key);
@@ -32942,7 +32957,7 @@ function cleanupCache(force = false) {
           });
         }
       }
-      if ((_d = (_c = entry.state) == null ? void 0 : _c.imageUrl) == null ? void 0 : _d.startsWith("blob:")) {
+      if (((_b = entry.state) == null ? void 0 : _b.imageUrl) && typeof entry.state.imageUrl === "string" && entry.state.imageUrl.startsWith("blob:")) {
         URL.revokeObjectURL(entry.state.imageUrl);
       }
       this.bannerStateCache.delete(key);
@@ -32950,9 +32965,9 @@ function cleanupCache(force = false) {
   }
 }
 function invalidateLeafCache(leafId) {
-  var _a, _b;
+  var _a;
   for (const [key, entry] of this.bannerStateCache) {
-    if (key.includes(`-${leafId}`)) {
+    if (key && typeof key === "string" && key.includes(`-${leafId}`)) {
       const leaf = this.app.workspace.getLeafById(leafId);
       if ((leaf == null ? void 0 : leaf.view) instanceof import_obsidian24.MarkdownView) {
         const contentEl = leaf.view.contentEl;
@@ -32964,7 +32979,7 @@ function invalidateLeafCache(leafId) {
           }
         });
       }
-      if ((_b = (_a = entry.state) == null ? void 0 : _a.imageUrl) == null ? void 0 : _b.startsWith("blob:")) {
+      if (((_a = entry.state) == null ? void 0 : _a.imageUrl) && typeof entry.state.imageUrl === "string" && entry.state.imageUrl.startsWith("blob:")) {
         URL.revokeObjectURL(entry.state.imageUrl);
       }
       this.bannerStateCache.delete(key);
@@ -34675,13 +34690,13 @@ async function handleActiveLeafChange(leaf) {
   }
 }
 function handleLayoutChange() {
-  var _a, _b;
+  var _a;
   const currentLeafIds = new Set(
     this.app.workspace.getLeavesOfType("markdown").map((leaf) => leaf.id)
   );
   for (const [key, entry] of this.bannerStateCache) {
     if (entry.leafId && !currentLeafIds.has(entry.leafId)) {
-      if ((_b = (_a = entry.state) == null ? void 0 : _a.imageUrl) == null ? void 0 : _b.startsWith("blob:")) {
+      if (((_a = entry.state) == null ? void 0 : _a.imageUrl) && typeof entry.state.imageUrl === "string" && entry.state.imageUrl.startsWith("blob:")) {
         URL.revokeObjectURL(entry.state.imageUrl);
       }
       this.bannerStateCache.delete(key);
@@ -34931,7 +34946,7 @@ function cleanupPreviousLeaf(previousLeaf) {
         previousBanner.style.display = "none";
         if (previousLeaf.view.file) {
           const existingUrl = this.loadedImages.get(previousLeaf.view.file.path);
-          if (existingUrl == null ? void 0 : existingUrl.startsWith("blob:")) {
+          if (existingUrl && typeof existingUrl === "string" && existingUrl.startsWith("blob:")) {
             URL.revokeObjectURL(existingUrl);
           }
           this.loadedImages.delete(previousLeaf.view.file.path);

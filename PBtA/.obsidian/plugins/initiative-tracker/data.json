@@ -9,6 +9,12 @@
       "level": 1,
       "modifier": 1,
       "player": true
+    },
+    {
+      "note": "Eka",
+      "path": "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/PCs/Eka.md",
+      "name": "Eka",
+      "player": true
     }
   ],
   "parties": [],
@@ -111,18 +117,18 @@
   "state": {
     "creatures": [
       {
-        "name": "Vozz Ichorfoot",
-        "initiative": 20,
+        "name": "Eka",
+        "initiative": 25,
         "static": false,
-        "modifier": 1,
-        "hp": 7,
-        "currentMaxHP": 7,
-        "ac": "12",
-        "currentAC": "12",
-        "note": "Vozz Ichorfoot",
-        "path": "SoloRPGs/Just One Torch/PC/Vozz Ichorfoot.md",
-        "id": "ID_3be86a2ac91a",
-        "currentHP": 7,
+        "modifier": 12,
+        "hp": 28,
+        "currentMaxHP": 28,
+        "ac": "3",
+        "currentAC": "3",
+        "note": "Eka",
+        "path": "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/PCs/Eka.md",
+        "id": "ID_ead8bb0abae8",
+        "currentHP": 22,
         "tempHP": 0,
         "status": [],
         "enabled": true,

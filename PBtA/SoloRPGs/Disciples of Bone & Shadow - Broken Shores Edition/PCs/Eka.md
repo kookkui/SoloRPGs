@@ -1,5 +1,5 @@
 ---
-Art: "![[Character Image Placholder]]"
+Art: "![[amazon_archer_gigapixel.webp]]"
 Level: 1
 Corruption: 0
 HP: 0
@@ -48,6 +48,8 @@ title5: Bandage D8
 title6: Tent (+10 Camp Check)
 Torches: D12
 Oil: None
+title7: 10 precious gemstones(50 jats each)
+title8: Ancient Ghaln Drinking Horn (250 jats)
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  
@@ -145,7 +147,7 @@ Oil: None
 >>| **Manipulation** (CHA `=this.CHA`) | `10`| `0`  | `INPUT[toggle:skill9]`|
 >>| **Melee Weapons** (STR `=this.STR`) | `78` | `0` |`INPUT[toggle:skill10]`
 >>| **Medicine** (INT `=this.INT`) | `14` | `0` |`INPUT[toggle:skill11]`
->>| **Nature** (INT `=this.INT`) | `34` | `0` |`INPUT[toggle:skill12]`
+>>| **Nature** (INT `=this.INT`) | `14` | `0` |`INPUT[toggle:skill12]`
 >>| **Perception** (WIL `=this.WIL`) | `56` | `0` |`INPUT[toggle:skill13]`
 >>| **Performance** (CHA `=this.CHA`) | `10` | `0` |`INPUT[toggle:skill14]`
 >>| **Ranged Weapons** (DEX `=this.DEX` ) | `12`| `0`  |`INPUT[toggle:skill15]`
@@ -153,7 +155,7 @@ Oil: None
 >>| **Siege Weapons** (DEX `=this.DEX`) | `12` | `0` |`INPUT[toggle:skill17]`
 >>| **Sleight of Hand** (DEX `=this.DEX` ) | `32` | `30` |`INPUT[toggle:skill19]`
 >>| **Stealth** (DEX `=this.DEX`) | `32` | `0` |`INPUT[toggle:skill20]`
->>| **Survival** (INT `=this.INT` ) | `14` | `0` |`INPUT[toggle:skill21]`
+>>| **Survival** (INT `=this.INT` ) | `34` | `0` |`INPUT[toggle:skill21]`
 >>|**Traditional Lore** (20) | `20` | `0` |`INPUT[toggle:skill25]`
 >>| **Unarmed** (STR `=this.STR`) | `18` | `0` |`INPUT[toggle:skill22]`
 >>

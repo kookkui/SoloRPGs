@@ -68,11 +68,8 @@
 > ##### Previous Hex Mountain
 `dice:[[BS Exploration Tables#^80f35c]]|Mountain`
 >
-> ##### Previous Hex Thicket
-`dice:[[BS Exploration Tables#^80f35c]]|Thicket`
->
-> ##### Previous Hex Ancient Debris
-`dice:[[BS Exploration Tables#^80f35c]]|Ancient Debris`
+> ##### Previous Hex Grasslands
+`dice:[[BS Exploration Tables#^80f35c]]|Grasslands`
 >
 > ##### Previous Hex Desert
 `dice:[[BS Exploration Tables#^80f35c]]|Desert`
@@ -80,10 +77,10 @@
 ### Ruin Exploration Tables
 > [!dice] Ruin Exploration Tables
 > ##### Encounter/Event Check
->`dice:[[BS Exploration Tables#^ff3dcc]]`
+>`dice:[[DBS Exploration Tables#^985a68]]`
 >
 >##### Combat Encounters
->`dice:[[BS Exploration Tables#^6c2cff]]`
+>`dice:[[DBS Exploration Tables#^be082e]]`
 >
 >##### Is there a Door?
 >`dice:[[BS Exploration Tables#^80f35d]]`
