@@ -1,5 +1,19 @@
 ---
 statblock: inline
+name: "Stone Giant"
+layout: JustOneTorch
+lvl: "19"
+hp: "67"
+ac: "16"
+as: "20"
+dmg: "6d6 weapon"
+move: "Close"
+morale: "10"
+special: "Smash: bringing both fists over its head it slams them down with terrible power 10d6.
+monster_type:
+  - Giants 
+
+
 ---
 ```statblock
 name: "Stone Giant"

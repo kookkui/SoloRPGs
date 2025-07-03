@@ -1,5 +1,18 @@
 ---
 statblock: inline
+monster_type:
+  - Giant Insects
+name: "Scorpion"
+layout: JustOneTorch
+lvl: "4"
+hp: "15"
+ac: "15"
+as: "13"
+dmg: "1d10/1d10 claws"
+move: "Far"
+morale: "11"
+special: "Stinger: 1d6 tail. BODY save or take 1d6 poison."
+
 ---
 
 ```statblock

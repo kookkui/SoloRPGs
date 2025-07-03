@@ -1,5 +1,16 @@
 ---
 statblock: inline
+name: "Sorcerer"
+layout: "JustOneTorch"
+lvl: "10"
+hp: "35"
+ac: "12"
+as: "16"
+dmg: "1d6 knife"
+move: "Near"
+morale: "8"
+monster_type:
+  - Mankind
 
 ---
 

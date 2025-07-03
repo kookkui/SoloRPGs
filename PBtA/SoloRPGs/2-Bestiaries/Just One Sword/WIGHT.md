@@ -1,6 +1,17 @@
 ---
 statblock: inline
-
+monster_type:
+  - Undead
+name: "Wight"
+layout: "JustOneTorch"
+lvl: "3"
+hp: "11"
+ac: "15"
+as: "12"
+dmg: "1d8 weapon"
+move: "Near"
+morale: "12"
+special: "Drain Energy: MIND save. +2 Fatigue on failure."
 ---
 
 ```statblock

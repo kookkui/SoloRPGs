@@ -1,5 +1,18 @@
 ---
 statblock: inline
+monster_type:
+  - Animals
+name: "Sea Serpent"
+layout: JustOneTorch
+lvl: "6"
+hp: "25"
+ac: "17"
+as: "14"
+dmg: "2d6 bite"
+move: "Far"
+morale: "8"
+special: "Submerge: grabs target and submerges. REFLEX save or take 2d8 damage"
+
 ---
 ```statblock
 name: "Sea Serpent"

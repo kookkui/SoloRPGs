@@ -1,5 +1,18 @@
 ---
 statblock: inline
+name: "Mountain Giant"
+layout: JustOneTorch
+lvl: "13"
+hp: "45"
+ac: "15"
+as: "17"
+dmg: "3d8 club"
+move: "Close"
+morale: "6"
+special: "Hurl Stone: throws a rock for 3d6. REFLEX to avoid."
+monster_type:
+  - Giants
+
 ---
 ```statblock
 name: "Mountain Giant"

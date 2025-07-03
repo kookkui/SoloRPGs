@@ -1,9 +1,18 @@
 ---
 statblock: inline
-
+monster_type:
+  - Animals
+layout: JustOneTorch
+lvl: "1"
+hp: "4"
+ac: "12"
+as: "11"
+dmg: "1d6 charge"
+move: "Far"
+morale: "5"
+special: "Headbutt: 2d4 dmg. REFLEX or fall prone."
 ---
 ```statblock
-name: "Mountain Goat"
 layout: JustOneTorch
 lvl: "1"
 hp: "4"

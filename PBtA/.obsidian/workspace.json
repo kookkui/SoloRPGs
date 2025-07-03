@@ -9,17 +9,31 @@
         "dimension": 50,
         "children": [
           {
-            "id": "64d92d09d663364e",
+            "id": "baa2eb8ade13f3f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoloRPGs/Just One Sword/Vozz Ichorfoot Journal.md",
+                "file": "SoloRPGs/2-Bestiaries/Just One Sword/RAT-MEN.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Vozz Ichorfoot Journal"
+              "title": "RAT-MEN"
+            }
+          },
+          {
+            "id": "bdc52f0b4d99283f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SoloRPGs/2-Bestiaries/Just One Sword/ASSASSIN.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "ASSASSIN"
             }
           },
           {
@@ -36,7 +50,8 @@
               "title": "Colour Pallette"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "119638e5447a0399",
@@ -69,8 +84,7 @@
               "title": "Vozz Ichorfoot"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -272,13 +286,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoloRPGs/Just One Sword/Vozz Ichorfoot Journal.md",
+                "file": "SoloRPGs/2-Bestiaries/Just One Sword/ASSASSIN.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Vozz Ichorfoot Journal"
+              "title": "Outline of ASSASSIN"
             }
           },
           {
@@ -292,7 +306,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       },
       {
         "id": "0e6a14a15862aa6f",
@@ -336,21 +350,11 @@
       "solo-rpg-toolkit:Solo RPG Toolkit": false
     }
   },
-  "active": "64d92d09d663364e",
+  "active": "bdc52f0b4d99283f",
   "lastOpenFiles": [
-    "SoloRPGs/Just One Sword/PC/Vozz Ichorfoot.md",
-    "SoloRPGs/Just One Sword/Abilities & Skills/Languages.md",
-    "SoloRPGs/Just One Sword/Abilities & Skills/Leadership.md",
-    "SoloRPGs/Just One Sword/Abilities & Skills/Witchery.md",
-    "SoloRPGs/Just One Sword/Abilities & Skills/Spot Hidden.md",
-    "SoloRPGs/Just One Sword/Abilities & Skills/Seamanship.md",
-    "SoloRPGs/Just One Sword/Abilities & Skills/Streetwise.md",
-    "SoloRPGs/Just One Sword/Abilities & Skills/Athletics.md",
-    "SoloRPGs/Just One Sword/Vozz Ichorfoot Journal.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/BAT.md",
-    "SoloRPGs/Just One Sword/Maps/Caves of the Infernal.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/WOOD GOLEM.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/APE.md",
     "SoloRPGs/2-Bestiaries/Just One Sword/ZOMBIE.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/WOOD GOLEM.md",
     "SoloRPGs/2-Bestiaries/Just One Sword/WOLF-MEN.md",
     "SoloRPGs/2-Bestiaries/Just One Sword/WOLF.md",
     "SoloRPGs/2-Bestiaries/Just One Sword/WITCH.md",
@@ -364,6 +368,16 @@
     "SoloRPGs/2-Bestiaries/Just One Sword/STONE GOLEM.md",
     "SoloRPGs/2-Bestiaries/Just One Sword/STONE GIANT.md",
     "SoloRPGs/2-Bestiaries/Just One Sword/SPIDER.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/SORCERER.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/SKELETON.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/SHARK.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/SHADOW DEMON.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/SERPENT DEMON.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/SEA SERPENT.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/SCORPION.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/RIDING HORSE.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/RIDING DOG.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/RED DRAGON.md",
     "SoloRPGs/1-Assets/Mine_44x55.webp",
     "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Maps/Interior Maps",
     "SoloRPGs/5-Tokens/Hexes/Cave 1.webp",

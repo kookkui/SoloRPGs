@@ -50,11 +50,11 @@ Danger: Average x1.00
 Total Encounter Level (TEL): 2
 
 ```statblock
-creature: CENTIPEDE
+creature: Centipede
 ```
 
 ```statblock
-creature: FIRE BEETLE
+creature: Fire Beetle
 ```
 
 
@@ -168,18 +168,18 @@ Encounter Check: Undead
 Total Encounter Level (TEL): 4
 
 ```statblock
-creature: GHOUL
+creature: Ghoul
 ```
 
 ```statblock
-creature: ZOMBIE
+creature: Zombie
 ```
 
 
 ```encounter
 creatures:
   - Ghoul , 8, 14, 0
-  - ZOMBIE , 7, 12, 0
+  - Zombie , 7, 12, 0
 ```
 
 Encounter Detection +WIS 8+2=10 Full Success
@@ -344,12 +344,12 @@ Looks like the reason for all the signs of violence and other unpleasantries in 
 Encounter Check +5: Encounter!
 
 ```statblock
-creature: BONE LIZARD-MAN
+creature: Bone Lizard-Man
 ```
 
 
 ```statblock
-creature: SKELETON
+creature: Skeleton
 ```
 
 Seems I lingered too long and all the noise got the attention of some undead that are patrolling around.
@@ -411,4 +411,5 @@ Attacking Skeleton (13) `d20 = 14` + 2  = 16 Hit!
 <font color="#ff00cc">Victory!</font>
 
 Scavenge Check: 8 silver (80 sp)
+
 

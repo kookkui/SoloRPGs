@@ -1,5 +1,16 @@
 ---
 statblock: inline
+monster_type:
+  - Lizard-Men
+name: "Lizard-Man Sorcerer"
+layout: "JustOneTorch"
+lvl: "10"
+hp: "45"
+ac: "14"
+as: "16"
+dmg: "1d6 knife"
+move: "Near"
+morale: "11"
 
 ---
 

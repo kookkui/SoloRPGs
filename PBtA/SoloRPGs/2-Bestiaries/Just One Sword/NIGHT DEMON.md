@@ -1,5 +1,18 @@
 ---
 statblock: inline
+name: "Night Demon"
+layout: JustOneTorch
+lvl: "8"
+hp: "30"
+ac: "19"
+as: "15"
+dmg: "2d8+Fire"
+move: "Near"
+morale: "10"
+special: "Bite: demon leans in to savagely bite for 2d4."
+monster_type:
+  - Demons
+
 ---
 ```statblock
 name: "Night Demon"
