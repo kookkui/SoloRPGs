@@ -56,20 +56,6 @@
             }
           },
           {
-            "id": "c4a6eff4cde2fddb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SoloRPGs/Just One Sword/Abilities & Skills/Witchcraft.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Witchcraft"
-            }
-          },
-          {
             "id": "7382c2ee1260401e",
             "type": "leaf",
             "state": {
@@ -352,6 +338,17 @@
   },
   "active": "64d92d09d663364e",
   "lastOpenFiles": [
+    "SoloRPGs/Just One Sword/PC/Vozz Ichorfoot.md",
+    "SoloRPGs/Just One Sword/Abilities & Skills/Languages.md",
+    "SoloRPGs/Just One Sword/Abilities & Skills/Leadership.md",
+    "SoloRPGs/Just One Sword/Abilities & Skills/Witchery.md",
+    "SoloRPGs/Just One Sword/Abilities & Skills/Spot Hidden.md",
+    "SoloRPGs/Just One Sword/Abilities & Skills/Seamanship.md",
+    "SoloRPGs/Just One Sword/Abilities & Skills/Streetwise.md",
+    "SoloRPGs/Just One Sword/Abilities & Skills/Athletics.md",
+    "SoloRPGs/Just One Sword/Vozz Ichorfoot Journal.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/BAT.md",
+    "SoloRPGs/Just One Sword/Maps/Caves of the Infernal.md",
     "SoloRPGs/2-Bestiaries/Just One Sword/WOOD GOLEM.md",
     "SoloRPGs/2-Bestiaries/Just One Sword/ZOMBIE.md",
     "SoloRPGs/2-Bestiaries/Just One Sword/WOLF-MEN.md",
@@ -367,17 +364,6 @@
     "SoloRPGs/2-Bestiaries/Just One Sword/STONE GOLEM.md",
     "SoloRPGs/2-Bestiaries/Just One Sword/STONE GIANT.md",
     "SoloRPGs/2-Bestiaries/Just One Sword/SPIDER.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/SORCERER.md",
-    "SoloRPGs/Just One Sword/Abilities & Skills/Witchcraft.md",
-    "SoloRPGs/Just One Sword/Maps/Caves of the Infernal.md",
-    "SoloRPGs/Just One Sword/World Building/Monster Data.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/LIZARD-MAN SORCERER.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/LIZARD-MAN ACOLYTE, BLACK.md",
-    "SoloRPGs/4-Templates/Colour Pallette.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/SKELETON.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/SHARK.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/SHADOW DEMON.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/SERPENT DEMON.md",
     "SoloRPGs/1-Assets/Mine_44x55.webp",
     "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Maps/Interior Maps",
     "SoloRPGs/5-Tokens/Hexes/Cave 1.webp",
