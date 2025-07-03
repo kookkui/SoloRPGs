@@ -97,8 +97,6 @@
 
 ### Ruin Generation
 > [!table] Ruin Generation
->##### Events
->`dice:[[BS Exploration Tables#^4a129e]]`
 >
 >##### Ruins Size
 >`dice:[[BS Exploration Tables#^fadf23]]`
@@ -214,6 +212,16 @@
 >
 >##### Spell idiosyncrasy
 >`dice:[[BS Loot Table#^92382b]]`
+>
+>##### Primordial Spell
+>`dice:[[DBS Loot Tables#^9eb60f]]`
+>
+>##### Death Spells
+>`dice:[[DBS Loot Tables#^28bf1d]]`
+>
+>##### Alchemy Brew Effect 
+>`dice:[[DBS Loot Tables#^36f035]]`
+>
 
 ### GM Emulation
 > [!crafting] GM Emulation

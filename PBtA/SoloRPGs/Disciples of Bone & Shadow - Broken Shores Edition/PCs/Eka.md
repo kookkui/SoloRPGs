@@ -50,6 +50,8 @@ Torches: D12
 Oil: None
 title7: 10 precious gemstones(50 jats each)
 title8: Ancient Ghaln Drinking Horn (250 jats)
+title9: 2 Pearls 19 jats each
+ExplorationDie: D8
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%  
@@ -107,6 +109,16 @@ title8: Ancient Ghaln Drinking Horn (250 jats)
 >>
 >>&nbsp;
 >>
+
+## Timers & Counters
+>[!gear] %%FAKE TITLE HERE%%
+>> [!note] %%FAKE TITLE HERE%%  
+>> ### Timers & Counters
+>>  | |
+>>---|---|
+>>**Watchs**| `clock,yellow: 0/4` |
+>>**Exploration Turns**|`boxes,pink: 3/10`|
+>>**Exploration Die**|`INPUT[inlineSelect(option(D20),option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):ExplorationDie]`|
 
 ## Stats
 >[!thing] %%FAKE TITLE HERE%%
@@ -180,38 +192,45 @@ title8: Ancient Ghaln Drinking Horn (250 jats)
 >>### Inventory
 >>| Slot | Encumbering Items | Slot | Encumbering Items 
 >>| :-: | :---------------- |--------|--------|
->>|1|`INPUT[text:title1]` |21|`INPUT[text:title21]`|
->>|2|`INPUT[text:title2]`|22|`INPUT[text:title22]`|
->>|3|`INPUT[text:title3]`|23|`INPUT[text:title23]`|
->>|4|`INPUT[text:title4]`|24|`INPUT[text:title24]`|
->>|5|`INPUT[text:title5]`|25|`INPUT[text:title25]`|
->>|6|`INPUT[text:title6]`|26|`INPUT[text:title26]`|
->>|7|`INPUT[text:title7]`|27|`INPUT[text:title27]`|
->>|8|`INPUT[text:title8]`|28|`INPUT[text:title28]`|
->>|9|`INPUT[text:title9]`|29|`INPUT[text:title29]`
->>|10|`INPUT[text:title10]`|30|`INPUT[text:title30]`|
->>|11|`INPUT[text:title11]`|31|`INPUT[text:title31]`|
->>|12|`INPUT[text:title12]`|32|`INPUT[text:title32]`|
->>|13|`INPUT[text:title13]`|33|`INPUT[text:title33]`|
->>|14|`INPUT[text:title14]`|34|`INPUT[text:title34]`|
->>|15|`INPUT[text:title15]`|35|`INPUT[text:title35]`|
->>|16|`INPUT[text:title16]`|36|`INPUT[text:title36]`|
->>|17|`INPUT[text:title17]`|37|`INPUT[text:title37]`|
->>|18|`INPUT[text:title18]`|38|`INPUT[text:title38]`|
->>|19|`INPUT[text:title19]`|39|`INPUT[text:title39]`|
->>|20|`INPUT[text:title20]`|40|`INPUT[text:title40]`|
+>>|1|`INPUT[text:title1]` |16|`INPUT[text:title16]`|
+>>|2|`INPUT[text:title2]`|17|`INPUT[text:title17]`|
+>>|3|`INPUT[text:title3]`|18|`INPUT[text:title18]`|
+>>|4|`INPUT[text:title4]`|19|`INPUT[text:title19]`|
+>>|5|`INPUT[text:title5]`|20|`INPUT[text:title20]`|
+>>|6|`INPUT[text:title6]`|21|`INPUT[text:title26]`|
+>>|7|`INPUT[text:title7]`|22|`INPUT[text:title27]`|
+>>|8|`INPUT[text:title8]`|23|`INPUT[text:title28]`|
+>>|9|`INPUT[text:title9]`|24|`INPUT[text:title29]`|
+>>|10|`INPUT[text:title10]`|25|`INPUT[text:title25]`|
+>>|11|`INPUT[text:title11]`|26|`INPUT[text:title26]`|
+>>|12|`INPUT[text:title12]`|27|`INPUT[text:title27]`|
+>>|13|`INPUT[text:title13]`|28|`INPUT[text:title28]`|
+>>|14|`INPUT[text:title14]`|29|`INPUT[text:title29]`|
+>>|15|`INPUT[text:title15]`|30|`INPUT[text:title30]`|
 >>
->> ### Non-Incumbering Items
->> |Slot| Item |Slot| Item 
->>| :-: | :---------------------------- |:-: | :---------------------------- |
->>| 1 | `INPUT[text:Pskills69]` | 9 | `INPUT[text:Pskills8]` |
->>| 2 | `INPUT[text:Pskills1]` | 10 | `INPUT[text:Pskills9]` |
->>| 3 | `INPUT[text:Pskills2]` |11 | `INPUT[text:Pskills10]` |
->>| 4 | `INPUT[text:Pskills3]` | 12 | `INPUT[text:Pskills11]` |
->>| 5 | `INPUT[text:Pskills4]` |13 | `INPUT[text:Pskills12]` |
->>| 6 |`INPUT[text:Pskills5]` |14 | `INPUT[text:Pskills13]` |
->>| 7 | `INPUT[text:Pskills6]` | 15 | `INPUT[text:Pskills14]` |
->>| 8 | `INPUT[text:Pskills7]` |16 | `INPUT[text:Pskills15]` |
+>> &nbsp;
+>>
+>> #### Non-Incumbering Items
+>>| Slot | Item |  Slot | Item |
+>>| :-: | :---------------- |--------|--------|
+>>|1|`INPUT[text:lightitem1]` |6|`INPUT[text:lightitem6]`|
+>>|2|`INPUT[text:lightitem2]`|7|`INPUT[text:lightitem7]`|
+>>|3|`INPUT[text:lightitem3]`|8|`INPUT[text:lightitem8]`|
+>>|4|`INPUT[text:lightitem4]`|9|`INPUT[text:lightitem9]`|
+>>|5|`INPUT[text:lightitem5]`|10|`INPUT[text:lightitem10]`|
+
+## Alchemy Components
+>[!crafting] %%FAKE TITLE HERE%%
+>>[!crafting] %%FAKE TITLE HERE%%
+>> #### Component Pouch & Sack
+>>| Slot | Component Pouch | Slot| Component Pouch
+>>| :-: | ---------------- |:-: | ---------------- |
+>>|1|`INPUT[text:Pouch1]` |6|`INPUT[text:Pouch6]` | 
+>>|2|`INPUT[text:Pouch2]` |7|`INPUT[text:Pouch7]` | 
+>>|3|`INPUT[text:Pouch3]` |8|`INPUT[text:Pouch8]` | 
+>>|4|`INPUT[text:Pouch4]` |9|`INPUT[text:Pouch9]` | 
+>>|5|`INPUT[text:Pouch5]` |10|`INPUT[text:Pouch10]` |
+
 
 ## Sorcery
  

@@ -230,3 +230,31 @@
 |20|Guarded Treasure|
 
 ^6287f1
+
+
+### Dungeon Type
+| `dice:d10` | Dungeon Type                                                                                                                                                                                                                                                     |
+| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1          | **Ruins**: Castle remains, ruined border wall, decrepit outpost.                                                                                                                                                                                                 |
+| 2          | **Mine**: Low ceilings, narrow passageways, easy to find mining equipment (rope, pickax, iron spikes, lanterns)                                                                                                                                                  |
+| 3          | **Keep**: Occupied stronghold. The dungeon is below the keep.                                                                                                                                                                                                    |
+| 4          | **Cavern**: Intelligent or non-intelligent monsters roam the passageways as shelter or as a hunting ground. 50% each corridor and room is difficult to navigate (1/2 movement speed).                                                                            |
+| 5          | **Monster Lair**:  Natural cave system occupied by any combination of NPCs and Monsters.                                                                                                                                                                         |
+| 6          | **Religious/Cult**: Cathedral, ruined church, pagan standing stones, hidden house of worship.                                                                                                                                                                    |
+| 7          | **Crypt**: This dungeon can be considered any subterranean burial structure such as Catacombs, burial tombs, barrows, etc. Flavor the corridors and rooms to reflect this, such as skulls filling a wall or the walls are lined with alcoves for the dead.       |
+| 8          | **Demi-Human fortress**: A hidden base of operation for a demi-hu- man faction. Halflings have labyrinthian warren holes that weave through the hills, dwarves have sturdy carved out habitats, and elves occupy thick forest havens and the root network below. |
+| 9          | **Wizard/Fun-house**: There is a 50% chance that each room will have a Special Condition. Use the Special Conditions table to determine what is found.                                                                                                                        |
+| 10         | **Unique**: Roll twice and combine the two different dungeon types                                                                                                                                                                                               |
+
+
+### Special Condition
+|`dice:d8`|Special Condition|
+|---|---|
+|1|Cursed: You feel unwelcome here, and can hear the dead cursing your name. -1 to all actions|
+|2|Hallowed: A sense of calmness invites you here, helping you concentrate. +1 to all checks|
+|3|Overgrown Vegetation: This place is full of plant life, which makes it difficult to see or find anything. Searching a room takes twice as long.|
+|4|Tyrannical: Foes have 50% more health.|
+|5|Toxic Blood: When slain, fiends and foes splash the player characters with toxic blood. Pass a Body Save or lose 1 HP per enemy killed.|
+|6|Fearless: Enemies encountered here will never flee due to low numbers.|
+|7|Empowered: All enemies deal an extra 1 damage per attack.|
+|7|Armored: All enemies here have suffered a mutation that covers them in armored plates, which grants them +1 to AC.|

@@ -219,7 +219,7 @@ Full Success!
 
 Treasure:  <font color="#FB5607">60 silver</font> (70)
 
-### Room 3
+#### Room 3
 Exits: 3
 Collapsing Pit / Excavation
 Dressing: Herbs / Ingredients
@@ -232,7 +232,7 @@ Searching the room +1 Encounters
 
 Searched:  <font color="#1E90FF">Gem</font> (100)
 
-### Room 4
+#### Room 4
 Exits: 1
 Twisted Slaughterhouse
 Dressing: Clothes / Robes, Scrolls / Parchment
@@ -300,8 +300,47 @@ Searching the Room (Encounter Chance by +1)
 
 +WIS 9+2 = 11 Full Success!
 
-Treasure Roll
+Treasure Roll:
+<font color="#e36c09">Religious Trappings (300 sp)</font>
+<font color="#e36c09">Alcohol (250 sp)</font>
 
-Religious Trappings (300 sp)
-Alcohol (250 sp)
+Quickly check out the area and Scavenge: Trail Ration 
+
+Searching +WIS 8 + 2 = 10 Full Success
+
+<font color="#00b0f0">Gem</font> (100 sp)
+<font color="#00b0f0">Gem</font> (50 sp)
+
+#### Room 5
+Collapsing Chamber
+Unusual odor, Oil / Incense, Dung / Urine
+Light Check: 6
+Encounter check:  No encounter.
+
+The room smells horrible and seems to be crumbling around me. Whatever happened here was violent and... messy. I will quickly see if there is anything worth of a value and make haste out of this horrible stench.
+
+Scavenge: Trap!
+Trap: Summon / Attack, Weapon / Projectile
+There are some holes in the wall that shoot arrows out that are coated with the Gods know what.
+
+Thankfully I haven't set it off I must be very careful.
+
+Attempting to disarm it, +DEX 6 + 2 = 8 Partial Success
+
+I wasn't able to completely disarm it only half the arrows went off. Oh no they might hit me!
+
+REFLEX Save: 3 + 11 = 14 Failed. 4 Damage to Vozz (3)
+
+Ouch, those are pretty deep let me try and clean and wrap these holes up.
+
++INT 9 + 1 = 10 Full Success! +3 HP (6)
+
+Searching +WIS 7 + 2 = 9 Partial Success
+
+<font color="#00b050">Goal Clue: Add +1 each time you check to ﬁnd your goal.</font>
+
+Looks like the reason for all the signs of violence and other unpleasantries in this room are because of the **Demon**. At least I know I am on the right track.
+
+Encounter Check +5: Encounter!
+
 

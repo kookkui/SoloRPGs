@@ -34,23 +34,25 @@ Armor2notes:
 torch1: D8
 Lampoil: None
 CurrentFatigue: 0
-CurrentHP: 7
+CurrentHP: 6
 Ability1: "[[Witchcraft]]"
 Ability2: Diabolic Language
 Spell1: "[[Rebuke Sorcery]]"
 Spell2: "[[Scorn the Unwelcome]]"
 Spell3: "[[Rebuke the Undead]]"
 title1: Torch
-title2: Bandages x3
+title2: Bandages x2
 title3: Bedroll (Recover Fatigue in the wilds)
 title4: "Thieves Tools, Simple "
 title5: "Travel Rations "
 title6: "Travel Rations "
-title7: Gem(400sp)
+title7: Gem (400sp)
 title8: Bandage (Halts Bleeding and heals 1d4 HP on successful +INT  check. +1 Fatigue.)
-title9: Gem (100sp)
+title9: Gems (100 sp) x2
 title10: Religious Trappings (300 sp)
 title11: Alcohol (250 sp)
+title12: Gem (50 sp)
+lightitem1: ""
 ---
 
 >[!dice] %%FAKE TITLE HERE%%
@@ -131,7 +133,7 @@ title11: Alcohol (250 sp)
 >>**Silver Pieces (sp)**|`70` |
 >>**Gold Pieces (gp)**|`0` |
 >>**Bronze Pieces (bp)**|`0` | 
->>**Rations**|`5` |
+>>**Rations**|`6` |
 >>**Torches**| `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):torch1]` |
 >>**Lamp Oil**|`INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):Lampoil]` |
 
@@ -142,9 +144,9 @@ title11: Alcohol (250 sp)
 >> ##### Timers & Counters
 >>  | |
 >>---|---|
->>**Watchs**| `clock,yellow: 0/4` |
->>**Goal Timer**|`circles,yellow: 4/12`|
->>**Encounter Penalties**|`circles,pink: 1/10`|
+>>**Watches**| `clock,yellow: 0/4` |
+>>**Encounter Penalties**|`circles,pink: 4/10`|
+>>**Goal Timer**|`circles,yellow: 5/12`|
 >>**Progress Track**|`circles,green: 0/10` | 
 >>**Countdown Track**|`circles,red: 0/4` |
 
@@ -213,7 +215,6 @@ title11: Alcohol (250 sp)
 >>|3|`INPUT[text:lightitem3]`|8|`INPUT[text:lightitem8]`|
 >>|4|`INPUT[text:lightitem4]`|9|`INPUT[text:lightitem9]`|
 >>|5|`INPUT[text:lightitem5]`|10|`INPUT[text:lightitem10]`|
->>
 >>
 >> &nbsp;
 >>

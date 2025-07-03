@@ -35,6 +35,8 @@ I have arrived at the Mystical Mines, this is where the Ancient Relic was said t
 ## Mystical Mines
 
 Hallowed. A sense of calmness invites you here, helping you concentrate. +10 to all checks
+
+Medium (D8)
 ### Room 1
 
 Encounter! 
@@ -124,4 +126,17 @@ Hag Dodge (50) `d100 = 93`
 Loot Check (70) `d100 = 37` Eka found something!
 
 Loots: <font color="#e36c09">Ancient Ghaln Drinking Horn 250 jats</font>
+
+Room Check: 8
+
+Searching Room 
+
+Perception check (56) `d100 = 54` Success
+
+2 Pearls 19 jats each
+### Room 2
+
+Encounter Check: 4
+
+
 

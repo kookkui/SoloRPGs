@@ -1169,7 +1169,7 @@ description: "Someone who has studied magics and herbalism."
 ```
 
 ```statblock
-name: "BONE LIZARD-MEN"
+name: "BONE LIZARD-MAN"
 layout: "JustOneTorch"
 lvl: "3"
 hp: "14"

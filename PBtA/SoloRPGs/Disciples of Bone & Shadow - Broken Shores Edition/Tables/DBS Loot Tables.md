@@ -171,7 +171,7 @@
 
 ^19703a
 
-
+### Random Primordial Spell
 |`dice:d12`|Random Primordial Spell|
 |---|---|
 |1-6|`dice:[[DBS Loot Tables#^1e19b5]]]`|
@@ -180,7 +180,7 @@
 ^9eb60f
 
 
-
+### Primordial Spells - I
 |`dice:d12`|Primordial Spells - I|
 |---|---|
 |1|Inner Flame of X'rn|
@@ -199,7 +199,7 @@
 ^1e19b5
 
 
-
+### Primordial Spells - II
 |`dice:d12`|Primordial Spells - II|
 |---|---|
 |1|Bind Death|
@@ -218,7 +218,7 @@
 ^2a88db
 
 
-
+### Death Spells
 | `dice:d12` | Death Spells            |
 | ---------- | ----------------------- |
 | 1          | Decay                   |
@@ -234,9 +234,11 @@
 | 11         | Dispel Primordial Magic |
 | 12         | Life Stealing           |
 
+^28bf1d
 
-^2e6b44
 
+
+### Brew Effect 
 | `dice:1d88%` | Brew Effect                                                                                                                                                |
 | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 11-36        | No Effect. This combination produces no results                                                                                                            |
@@ -246,7 +248,7 @@
 | 42           | Effects:  Poison. Tenacity Check -10 Irritant. -10 to all actions for D10 turns                                                                            |
 | 43           | Poison. Tenacity Check +10 Effects: Anticoagulant. Thins the blood, causing internal bleeding. The victim loses 1 HP each turn for D10+20 turns            |
 | 44           | Poison. Tenacity Check 0 Effects: Corrosive. The victim loses D10 HP                                                                                       |
-| 45           | Poison. Tenacity Check +10 Effects:  Causes  the  victim  to  become  extremely  aggressive,  attacking anything or anyone in sight                        |
+| 45           | Poison. Tenacity Check +10 Effects: Causes the victim to become extremely aggressive, attacking anything or anyone in sight                          |
 | 46           | Poison. Tenacity Check -10 Effects: Causes the victim to fall asleep                                                                                       |
 | 47           | Poison. Tenacity Check 0 Effects: The victim loses 1 CON permanently                                                                                       |
 | 48           | Poison. Tenacity Check 0 Effects: The victim loses 1 STR permanently                                                                                       |
@@ -256,12 +258,12 @@
 | 54           | Poison. Tenacity Check -10 Effects: The victim is stricken with *Fear* for the next D10 turns.                                                             |
 | 55           | Poison. Tenacity Check 0 Effects: The victim is *Blinded* with for the next D10 turns.                                                                     |
 | 56           | Narcotic. Effects: Euphoria, reduced fatigue, confidence. -1 WILL for the next 20 hours                                                                    |
-| 57           | Narcotic. Effects: Pleasure, relaxation, well-being. -1 CON for the next 20 hours                                                                          |
-| 58           | Narcotic. Effects: Sense of belonging. -1 DEX for the next 20 hours                                                                                        |
-| 61           | Narcotic. Effects: Excitement, reduced fatigue. -1 STR for the next 20 hours                                                                               |
-| 62           | Narcotic. Effects: Modified state of consciousness. -1 WIL for the next 20 hours                                                                           |
-| 63           | Narcotic. Effects: Strong hallucinations. Impaired speech for the next 12 hours                                                                            |
-| 64           | Narcotic.  Effects:  Laughter, alteration of perception. Strong sensitivity for the next 20 hours                                                          |
+| 57           | When consumed makes the character completely invisible until they attack or take damage.                                                                   |
+| 58           | Elemental Immunity. Effects: You are immune to the effects Fire damage for the next 20 hours.                                                              |
+| 61           | Elemental Immunity. Effects: You are immune to the effects Air damage for the next 20 hours.                                                               |
+| 62           | Elemental Immunity. Effects: You are immune to the effects Water damage for the next 20 hours.                                                             |
+| 63           | Elemental Immunity. Effects: You are immune to the effects Earth damage for the next 20 hours.                                                             |
+| 64           | Enhances the character's sense of sight, all ranged attacks are rolled with Advantage for the next 12 hours.                                               |
 | 65           | Antidote. Counters the effects of a poison                                                                                                                 |
 | 66           | Caps the amount of Corruption that may be earned at 5/day                                                                                                  |
 | 67           | Grants Armor (1) as natural armor for the next 20 hours                                                                                                    |

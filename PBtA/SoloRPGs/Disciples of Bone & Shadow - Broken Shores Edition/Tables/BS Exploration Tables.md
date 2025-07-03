@@ -448,18 +448,18 @@
 
 ### Ruin - Feature Effect
 
-| `dice:d10` | Ruin - Feature Effect                                                               |
-| ---------- | ----------------------------------------------------------------------------------- |
-| 1          | Anti-magic                                                                          |
-| 2          | Bestows Knowledge/Secret                                                            |
-| 3          | Conceals/Reveals                                                                    |
-| 4          | Divines (prophetic images or words)                                                 |
-| 5          | Enrages (+10 Offense/-10 Defense to the PCs during the next combat)                 |
-| 6          | Greed-causing (the PCs are exclusively motivated by greed during the next 24 hours) |
-| 7          | Grants/takes 10 points from a random skill                                          |
-| 8          | Heals D20 HP (only once)                                                            |
-| 9          | Restores all PP lost (only once)                                                    |
-| 10         | Raises/lowers a random attribute score by D4 points for D20 hours                   |
+| `dice:d10` | Ruin - Feature Effect                                               |
+| ---------- | ------------------------------------------------------------------- |
+| 1          | Anti-magic                                                          |
+| 2          | Bestows Knowledge/Secret                                            |
+| 3          | Conceals/Reveals                                                    |
+| 4          | Divines (prophetic images or words)                                 |
+| 5          | Enrages (+10 Offense/-10 Defense to the PCs during the next combat) |
+| 6          | Grants/takes 1 point from a Corruption                              |
+| 7          | Grants/takes 10 points from a random skill                          |
+| 8          | Heals D20 HP (only once)                                            |
+| 9          | Restores all PP lost (only once)                                    |
+| 10         | Raises/lowers a random attribute score by D4 points for D20 hours   |
 
 ^ef4944
 
@@ -503,11 +503,11 @@
 
 | `dice:d20` | Exploration - Is there a Door?   |
 | ---------- | -------------------------------- |
-| 1-4        | Yes                              |
-| 5-8        | Yes, and it's Locked             |
+| 1-6        | Yes                              |
+| 7-8        | Yes, and it's Locked             |
 | 9-10       | Yes, and it’s trapped            |
-| 11-12      | Yes, and it’s locked and trapped |
-| 13-20      | No                               |
+| 11         | Yes, and it’s locked and trapped |
+| 12-20      | No                               |
 
 ^80f35d
 
