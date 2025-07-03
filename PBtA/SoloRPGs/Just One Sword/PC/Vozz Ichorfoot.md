@@ -130,7 +130,7 @@ lightitem1: ""
 >> ##### Supplies
 >>  | |
 >>---|---|
->>**Silver Pieces (sp)**|`70` |
+>>**Silver Pieces (sp)**|`80` |
 >>**Gold Pieces (gp)**|`0` |
 >>**Bronze Pieces (bp)**|`0` | 
 >>**Rations**|`6` |
@@ -145,7 +145,7 @@ lightitem1: ""
 >>  | |
 >>---|---|
 >>**Watches**| `clock,yellow: 0/4` |
->>**Encounter Penalties**|`circles,pink: 4/10`|
+>>**Encounter Penalties**|`circles,pink: 0/10`|
 >>**Goal Timer**|`circles,yellow: 5/12`|
 >>**Progress Track**|`circles,green: 0/10` | 
 >>**Countdown Track**|`circles,red: 0/4` |

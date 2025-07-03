@@ -344,5 +344,71 @@ Looks like the reason for all the signs of violence and other unpleasantries in 
 Encounter Check +5: Encounter!
 
 ```statblock
+creature: BONE LIZARD-MAN
+```
+
+
+```statblock
 creature: SKELETON
 ```
+
+Seems I lingered too long and all the noise got the attention of some undead that are patrolling around.
+
+```encounter
+players:
+  - Vozz Ichorfoot
+creatures:
+  - BONE LIZARD-MAN , 14, 15, 0
+  - SKELETON , 4, 13, 0
+```
+
+Combat Start!
+
+Vozz Turn
+
+Moving to Bone Lizardman
+
+Attacking Lizardman (15) `d20 = 20` Hit!
+
+6 Damage to the Lizardman (8)
+
+Bone Lizardman Turn
+
+Lizardman Attacking Vozz 
+
+BLOCK: `d20 = 23`  + 3 + 1 = 23 Blocked!
+
+Skeleton Turn
+
+Attacking Vozz
+
+DODGE: `d20 = 8`  + 2 + 1 = 11 Dodged!
+
+Vozz Turn
+
+Attacking Lizardman (15) `d20 = 23` Hit!
+
+3 Damage to the Lizardman (5)
+
+Attacking Lizardman (15) `d20 = 17` Hit!
+
+5 Damage to the Lizardman (Deads)
+
+Skeleton Turn
+
+Attacking Vozz
+
+BLOCK: `d20 = 3`  + 3 + 1 = 7 Hit
+
+1 Damage to Vozz (5)
+
+Vozz Turn
+
+Attacking Skeleton (13) `d20 = 14` + 2  = 16 Hit!
+
+8 Damage to Skeleton (Dead)
+
+<font color="#ff00cc">Victory!</font>
+
+Scavenge Check: 8 silver (80 sp)
+
