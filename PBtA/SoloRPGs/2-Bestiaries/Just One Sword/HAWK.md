@@ -2,7 +2,7 @@
 statblock: inline
 ---
 ```statblock
-name: "HAWK"
+name: "Hawk"
 layout: JustOneTorch
 lvl: "1"
 hp: "4"
@@ -11,10 +11,8 @@ as: "11"
 dmg: "1d2/1d2 claws + 1d4 bite"
 move: "V. Far"
 morale: "7"
-
 special: "Bite: 1d4"
-
-description: "A small raptor that is known for being an excellent hunting companion. Wild ones are known for easily picking off rabbits."
+description: "*A small raptor that is known for being an excellent hunting companion. Wild ones are known for easily picking off rabbits.*"
 
 ```
 

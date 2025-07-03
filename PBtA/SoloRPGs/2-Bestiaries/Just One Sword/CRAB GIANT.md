@@ -3,27 +3,15 @@ statblock: inline
 
 ---
 ```statblock
-
-name: "CRAB GIANT"
-
+name: "Crab Giant"
 layout: JustOneTorch
-
 lvl: "3"
-
 hp: "11"
-
 ac: "18"
-
 as: "12"
-
 dmg: "2d6 pincer"
-
 move: "Close"
-
 morale: "7"
-
 special: "Rend: Grabs with both claws and pulls apart. 2d8 dmg"
-
-description: "A horse-sized well armored crab with two giant pincers."
-
+description: "*A horse-sized well armored crab with two giant pincers.*"
 ```

@@ -9,7 +9,7 @@
         "dimension": 50,
         "children": [
           {
-            "id": "c4a6eff4cde2fddb",
+            "id": "64d92d09d663364e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -56,7 +56,21 @@
             }
           },
           {
-            "id": "64d92d09d663364e",
+            "id": "c4a6eff4cde2fddb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SoloRPGs/Just One Sword/Abilities & Skills/Witchcraft.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Witchcraft"
+            }
+          },
+          {
+            "id": "7382c2ee1260401e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,7 +83,8 @@
               "title": "Vozz Ichorfoot"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -335,34 +350,34 @@
       "solo-rpg-toolkit:Solo RPG Toolkit": false
     }
   },
-  "active": "c4a6eff4cde2fddb",
+  "active": "64d92d09d663364e",
   "lastOpenFiles": [
-    "SoloRPGs/Just One Sword/Maps/Caves of the Infernal.md",
-    "SoloRPGs/Just One Sword/Vozz Ichorfoot Journal.md",
-    "SoloRPGs/Just One Sword/PC/Vozz Ichorfoot.md",
-    "SoloRPGs/Just One Sword/Tables/Roll Tables.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/BONE LIZARD-MAN.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/SKELETON.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/SHADOW DEMON.md",
-    "SoloRPGs/Just One Sword/World Building/Monster Data.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/Untitled 1.md",
     "SoloRPGs/Just One Sword/Tables/Rules Reference.md",
-    "SoloRPGs/Just One Sword/Tables/Combat Tables.md",
-    "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Tables/BS Table Rolls.md",
+    "SoloRPGs/Just One Sword/Vozz Ichorfoot Journal.md",
     "SoloRPGs/Just One Sword/Spells & Sorcery/Scorn the Unwelcome.md",
-    "SoloRPGs/Just One Sword/Spells & Sorcery/Rebuke the Undead.md",
+    "SoloRPGs/Just One Sword/Abilities & Skills/Thievery.md",
+    "SoloRPGs/Just One Sword/PC/Vozz Ichorfoot.md",
+    "SoloRPGs/Just One Sword/Abilities & Skills/Witchery.md",
     "SoloRPGs/Just One Sword/Spells & Sorcery/Rebuke Sorcery.md",
+    "SoloRPGs/Just One Sword/Abilities & Skills/Witchcraft.md",
+    "SoloRPGs/Just One Sword/Abilities & Skills/Aim.md",
     "SoloRPGs/4-Templates/Colour Pallette.md",
+    "SoloRPGs/4-Templates/Just One Torch/JustOneTorch CS.md",
+    "SoloRPGs/Just One Sword/Abilities & Skills/Acrobatics.md",
+    "SoloRPGs/Just One Sword/Abilities & Skills/Sorcerous Lore.md",
+    "SoloRPGs/Just One Sword/Abilities & Skills/Swim.md",
+    "SoloRPGs/Just One Sword/Abilities & Skills/Bluff.md",
+    "SoloRPGs/Just One Sword/Tables/Roll Tables.md",
     "SoloRPGs/Just One Sword/Tables/Travel Tables.md",
-    "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Maps/Interior Maps/Mystical Mines.md",
-    "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Eka's Journal.md",
-    "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/PCs/Eka.md",
-    "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Tables/BS Exploration Tables.md",
-    "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Tables/BS Loot Table.md",
-    "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Tables/DBS Exploration Tables.md",
-    "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Tables/DBS Loot Tables.md",
-    "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/BS Rules Reference & House Rules/Alchemy Table.md",
-    "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/BS Rules Reference & House Rules/Changes & Conversions.md",
+    "SoloRPGs/Just One Sword/Abilities & Skills/Athletics.md",
+    "SoloRPGs/Just One Sword/Abilities & Skills/Trade.md",
+    "SoloRPGs/Just One Sword/Abilities & Skills/Seamanship.md",
+    "SoloRPGs/Just One Sword/Abilities & Skills/Architecture.md",
+    "SoloRPGs/Just One Sword/Abilities & Skills/Streetwise.md",
+    "SoloRPGs/Just One Sword/Abilities & Skills/Spot Hidden.md",
+    "SoloRPGs/Just One Sword/Abilities & Skills/Stealth.md",
+    "SoloRPGs/Just One Sword/Abilities & Skills/Ride.md",
+    "SoloRPGs/Just One Sword/Abilities & Skills/Persuade.md",
     "SoloRPGs/1-Assets/Mine_44x55.webp",
     "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Maps/Interior Maps",
     "SoloRPGs/5-Tokens/Hexes/Cave 1.webp",

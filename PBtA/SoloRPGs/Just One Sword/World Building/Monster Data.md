@@ -869,7 +869,6 @@ special: "Charge: lunges forward its horns extended dealing 1d8 piercing damage.
 description: "Frequently confused with a Stone Golem a gargoyle is a demonic statue given unnatural life."
 ```
 
-STOPAGE
 
 ```statblock
 name: "GRIFFON"

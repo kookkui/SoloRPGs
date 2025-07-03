@@ -1620,7 +1620,7 @@
                     "lvl"
                   ],
                   "fallback": "-",
-                  "display": "LEVEL:",
+                  "display": "Level:",
                   "conditioned": false
                 },
                 {
@@ -1658,7 +1658,7 @@
                     "morale"
                   ],
                   "fallback": "-",
-                  "display": "MORALE:"
+                  "display": "Morale:"
                 }
               ]
             },
@@ -1674,7 +1674,7 @@
                     "dmg"
                   ],
                   "fallback": "-",
-                  "display": "DMG:"
+                  "display": "Dmg:"
                 },
                 {
                   "type": "property",
@@ -1683,7 +1683,7 @@
                     "special"
                   ],
                   "fallback": "-",
-                  "display": "SPECIAL:"
+                  "display": "Special:"
                 }
               ],
               "hasRule": true
@@ -1704,7 +1704,7 @@
       "name": "Just One Torch",
       "id": "5a19d96ad83a",
       "cssProperties": {
-        "headingFont": "\"Montserrat\", \"Lora\", \"Calisto MT\", \"Bookman Old Style\", Bookman, \"Goudy Old Style\", Garamond, \"Hoefler Text\", \"Bitstream Charter\", Georgia, serif",
+        "headingFont": "\"Montserrat\", \"Lato\", \"Calisto MT\", \"Bookman Old Style\", Bookman, \"Goudy Old Style\", Garamond, \"Hoefler Text\", \"Bitstream Charter\", Georgia, serif",
         "propertyNameFont": "headingFont",
         "propertyNameFontVariant": "small-caps",
         "propertyNameFontWeight": "700",
@@ -1712,14 +1712,14 @@
         "ruleColor": "#000000",
         "backgroundColor": "#ebebeb",
         "barColor": "#1e00b3",
-        "contentFontSize": "16px",
-        "contentFont": "\"Operator Mono Book\", \"Gill Sans Nova bold\", \"Arial MT\", Helvetica, Arial",
+        "contentFontSize": "17px",
+        "contentFont": "\"DM Sans 14pt medium\", \"Operator Mono Book\", \"Gill Sans Nova bold\", \"Arial MT\", Helvetica, Arial",
         "headingFontWeight": "700",
-        "fontWeight": "500",
+        "fontWeight": "600",
         "propertyFontVariant": "Regular",
         "propertyFontWeight": "500",
-        "headingFontSize": "28px",
-        "propertyNameFontSize": "17px"
+        "headingFontSize": "30px",
+        "propertyNameFontSize": "18px"
       }
     }
   ],

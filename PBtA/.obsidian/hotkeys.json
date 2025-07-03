@@ -18,5 +18,15 @@
       "key": "V"
     }
   ],
-  "obsidian-auto-link-title:auto-link-title-normal-paste": []
+  "obsidian-auto-link-title:auto-link-title-normal-paste": [],
+  "editor:save-file": [],
+  "obsidian-text-format:title-case": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "G"
+    }
+  ],
+  "graph:open": []
 }

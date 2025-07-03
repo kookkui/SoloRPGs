@@ -2,7 +2,7 @@
 statblock: inline
 ---
 ```statblock
-name: "CLAY GOLEM"
+name: "Clay Golem"
 layout: JustOneTorch
 lvl: "11"
 hp: "40"
@@ -12,6 +12,6 @@ dmg: "3d10 ﬁst"
 move: "Close"
 morale: "12"
 special: "Swipe: sweeps its arm for 2d10 knocking any struck prone."
-description: "Their hardened clay body is covered in magical runes and their eyes glow with a terrible blue fire."
+description: "*Their hardened clay body is covered in magical runes and their eyes glow with a terrible blue fire.*"
 ```
 

@@ -1,5 +1,7 @@
 ---
 Description: If you spend a combat round aiming your ranged weapon, add +2 and deal +1 damage on a hit.
+tags:
+  - Category/Ability
 ---
 
 >[!table_time]  %%FAKE TITLE HERE%%

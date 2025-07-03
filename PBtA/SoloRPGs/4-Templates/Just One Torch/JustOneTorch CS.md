@@ -38,19 +38,12 @@ torch1: D8
 Lampoil: None
 CurrentFatigue: 0
 CurrentHP: 24
-Ability1: "[[Aim]]"
-Ability2: Diabolic Language
-title1: Torch
-title2: Bandages x3
-title3: Bedroll (Recover Fatigue in the wilds)
-title4: "Thieves Tools, Simple "
-title5: "Travel Rations "
-title6: "Travel Rations "
+
 ---
 
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%
->> # `=this.file.name`
+>> ## `=this.file.name`
 >> `=this.Art`
 >>```meta-bind
 >>INPUT[progressBar(class(green-progress-bar), maxValue(7), title(HP)):CurrentHP]
@@ -67,6 +60,7 @@ title6: "Travel Rations "
 >> |**Max Inv Slots:** |`=this.STR`|
 >> |**XP** | `VIEW[{xp}][text]`|
 >> |**XP Needed:** | `=this.LevelXP`|
+>> | **Background** |`=this.background` |
 >>|**ADD XP**| `INPUT[number:axp]` `BUTTON[exp]`|
 >>&nbsp;
 >>
@@ -99,6 +93,7 @@ title6: "Travel Rations "
 >>|**Ranged**|+`=floor((this.DEX - 10)/3)`|+`=this.AtkBonus`|
 >> || |
 
+### Weapons & Supplies
 >[!rng] %%FAKE TITLE HERE%%
 >> [!rng] %%FAKE TITLE HERE%%
 >> ##### Weapons
@@ -122,48 +117,70 @@ title6: "Travel Rations "
 >> ##### Supplies
 >>  | |
 >>---|---|
->>**Silver Pieces (sp)**|`5` |
+>>**Silver Pieces (sp)**|`80` |
 >>**Gold Pieces (gp)**|`0` |
 >>**Bronze Pieces (bp)**|`0` | 
 >>**Rations**|`6` |
 >>**Torches**| `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):torch1]` |
 >>**Lamp Oil**|`INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):Lampoil]` |
 
+
+### Timers & Counters
+>[!crafting] %%FAKE TITLE HERE%%
+>> [!crafting] %%FAKE TITLE HERE%%
+>> ##### Timers & Counters
+>>  | |
+>>---|---|
+>>**Watches**| `clock,yellow: 0/4` |
+>>**Encounter Penalties**|`circles,pink: 0/10`|
+>>**Goal Timer**|`circles,yellow: 0/12`|
+>>**Progress Track**|`circles,green: 0/10` | 
+>>**Countdown Track**|`circles,red: 0/4` |
+
+### Skills
 >[!travel] %%FAKE TITLE HERE%%
 >>[!thing] %%FAKE TITLE HERE%%
 >> ### Skills
 >>| **Skill Name** | **Skill Level** | **Skill Name** | **Skill Level** |
->>| :-----: | :-: |:------: | :-: |
->>|**Acrobatics**|`0`| **Sorcerous Lore** | `0` |
->>| **Acrobatics** | `0` | **Local Lore** | `0`|
->>|**Athletics** | `0` | **Medicine** | `0` |
->>| **Architecture**  | `0` | **Perform**  | `0` |
->>| **Awareness** | `0` |**Persuade** | `0` |
->>|**Beast Lore ** |`0` |**Ride** | `0`|
->>|**Bluff**|`0`| **Stealth** | `0` |
->>|**Bushcraft** | `0` | **Streetwise** | `0`|
->>|**Craft** | `0` | **Seamanship** | `0` |
->>|**Customs**  | `0` | **Spot Hidden**  | `0` |
->>|**Foraging** | `0` |**Swim** | `0` |
->>|**Hunt & Fish** |`0` |**Thievery** | `0`|
->>|**Insight**  | `0` | **Trade**  | `0` |
->>|**Languages** | `0` |**Witchery** | `0` |
->>|**Religious Lore** |`0` | **Background** |`=this.background` |
+>>| ----- | :-: |------ | :-: |
+>>| [[Acrobatics]] | `0` | [[Sorcerous Lore]] | `0` |
+>>|[[Athletics]] | `0` | [[Local Lore]] | `0`|
+>>| [[Architecture]]  | `0` | [[Medicine]] | `0` |
+>>| [[Awareness]] | `0` |[[Perform]]  | `0` |
+>>|[[Beast Lore]]  |`0` |[[Persuade]] | `0` |
+>>|[[Bluff]]|`0`| [[Ride]] | `0`|
+>>|[[Bushcraft]] | `0` |[[Stealth]] | `0` |
+>>|[[Craft]] | `0` |  [[Streetwise]] | `0`|
+>>|[[Customs]]  | `0` | [[Seamanship]] | `0` |
+>>|[[Foraging]] | `0` |[[Spot Hidden]]  | `0` |
+>>|[[Hunt & Fish]] |`1` |[[Swim]] | `0` |
+>>|[[Insight]]  | `0` |[[Thievery]] | `0`|
+>>|[[Languages]] | `0` | [[Trade]]  | `0` |
+>>|[[Leadership]] |`0` |[[Witchery]] | `0` |
+>>|[[Religious Lore]] |`0`| |  |
 >>
 >>&nbsp;
 >>
 
+### Abilities & Languages
 >[!table_time] %%FAKE TITLE HERE%%
 >>[!table_time] %%FAKE TITLE HERE%%
->>### Abilities & Languages
+>>### Abilities
 >> | | |
 >>|:-:| --- |
->>| `=this.Ability1` | `=this.Ability2` |
->>| `=this.Ability3`| `=this.Ability4` |
->>| `=this.Ability5` | `=this.Ability6` |
->>| `=this.Ability7` | `=this.Ability8` |
+>>| `INPUT[suggester(optionQuery(#Category/Ability)):Ability1]` | `INPUT[suggester(optionQuery(#Category/Ability)):Ability2]` |
+>>| `INPUT[suggester(optionQuery(#Category/Ability)):Ability3]`| `INPUT[suggester(optionQuery(#Category/Ability)):Ability4]` |
 >>
+>> &nbsp;
+>>
+>>### Languages
+>> | | |
+>>|:-:| --- |
+>>| `INPUT[inlineSelect(option(Ancient),option(Beast), option(Diabolic), option(Draconic), option(Giant), option(Nathric), option(None)):Language1]` | `INPUT[inlineSelect(option(Ancient),option(Beast), option(Diabolic), option(Draconic), option(Giant), option(Nathric), option(None)):Language2]` |
+>>| `INPUT[inlineSelect(option(Ancient),option(Beast), option(Diabolic), option(Draconic), option(Giant), option(Nathric), option(None)):Language3]`| `INPUT[inlineSelect(option(Ancient),option(Beast), option(Diabolic), option(Draconic), option(Giant), option(Nathric), option(None)):Language4]` |
 
+
+### Inventory
 >[!table] %%FAKE TITLE HERE%%
 >>[!table] %%FAKE TITLE HERE%%
 >>#### Backpack
@@ -192,7 +209,6 @@ title6: "Travel Rations "
 >>|4|`INPUT[text:lightitem4]`|9|`INPUT[text:lightitem9]`|
 >>|5|`INPUT[text:lightitem5]`|10|`INPUT[text:lightitem10]`|
 >>
->>
 >> &nbsp;
 >>
 >> #### Component Pouch & Sack
@@ -205,60 +221,22 @@ title6: "Travel Rations "
 >>|5|`INPUT[text:Pouch5]` |5|`INPUT[text:Sack5]` |
 >>|6|`INPUT[text:Pouch6]` |6|`INPUT[text:Sack6]` |
 
-
+### Spells
 >[!table_time] %%FAKE TITLE HERE%%
 >>[!table_time] %%FAKE TITLE HERE%%
 >>### Spells
 >>| Slot | Spell |
 >>| ---------- | -------- |
->>| 1 | `=this.Spell1` |
->>| 2 | `=this.Spell2` |
->>| 3 | `=this.Spell3` |
->>| 4 | `=this.Spell4` |
->>| 5 | `=this.Spell5` |
->>| 6 | `=this.Spell6` |
->>| 7 | `=this.Spell7`|
->>| 8 | `=this.Spell8`|
->>| 9 | `=this.Spell9`|
->>| 10 |`=this.Spell10`|
-
-
-```meta-bind-button
-label: Add
-icon: ""
-style: primary
-class: ""
-cssStyle: ""
-backgroundImage: ""
-tooltip: ""
-id: exp
-hidden: True
-actions:
-- type: updateMetadata
-  bindTarget: xp
-  evaluate: True
-  value: getMetadata('xp') + getMetadata('axp')
-
-```
-
-```meta-bind-button
-label: Add Jats
-icon: ""
-style: primary
-class: ""
-cssStyle: ""
-backgroundImage: ""
-tooltip: ""
-id: pjats
-hidden: True
-actions:
-- type: updateMetadata
-  bindTarget: currency
-  evaluate: True
-  value: getMetadata('ajats') * '0.6' + getMetadata('currency')
-
-```
-
+>>| 1 | `INPUT[suggester(optionQuery(#Category/Spell)):Spell1]` |
+>>| 2 | `INPUT[suggester(optionQuery(#Category/Spell)):Spell2]` |
+>>| 3 | `INPUT[suggester(optionQuery(#Category/Spell)):Spell3]` |
+>>| 4 | `INPUT[suggester(optionQuery(#Category/Spell)):Spell4]` |
+>>| 5 | `INPUT[suggester(optionQuery(#Category/Spell)):Spell5]` |
+>>| 6 | `INPUT[suggester(optionQuery(#Category/Spell)):Spell6]` |
+>>| 7 | `INPUT[suggester(optionQuery(#Category/Spell)):Spell7]`|
+>>| 8 | `INPUT[suggester(optionQuery(#Category/Spell)):Spell8]`|
+>>| 9 | `INPUT[suggester(optionQuery(#Category/Spell)):Spell9]`|
+>>| 10 |`INPUT[suggester(optionQuery(#Category/Spell)):Spell10]`|
 
 
 

@@ -36,10 +36,9 @@ Lampoil: None
 CurrentFatigue: 0
 CurrentHP: 6
 Ability1: "[[Witchcraft]]"
-Ability2: Diabolic Language
 Spell1: "[[Rebuke Sorcery]]"
-Spell2: "[[Scorn the Unwelcome]]"
-Spell3: "[[Rebuke the Undead]]"
+Spell2: "[[SoloRPGs/Just One Sword/Spells & Sorcery/Rebuke the Undead.md|Rebuke the Undead]]"
+Spell3: "[[SoloRPGs/Just One Sword/Spells & Sorcery/Scorn the Unwelcome.md|Scorn the Unwelcome]]"
 title1: Torch
 title2: Bandages x2
 title3: Bedroll (Recover Fatigue in the wilds)
@@ -53,6 +52,7 @@ title10: Religious Trappings (300 sp)
 title11: Alcohol (250 sp)
 title12: Gem (50 sp)
 lightitem1: ""
+Language1: Diabolic
 ---
 
 >[!dice] %%FAKE TITLE HERE%%
@@ -74,6 +74,7 @@ lightitem1: ""
 >> |**Max Inv Slots:** |`=this.STR`|
 >> |**XP** | `VIEW[{xp}][text]`|
 >> |**XP Needed:** | `=this.LevelXP`|
+>> | **Background** |`=this.background` |
 >>|**ADD XP**| `INPUT[number:axp]` `BUTTON[exp]`|
 >>&nbsp;
 >>
@@ -155,22 +156,22 @@ lightitem1: ""
 >>[!thing] %%FAKE TITLE HERE%%
 >> ### Skills
 >>| **Skill Name** | **Skill Level** | **Skill Name** | **Skill Level** |
->>| :-----: | :-: |:------: | :-: |
->>|**Acrobatics**|`0`| **Sorcerous Lore** | `0` |
->>| **Acrobatics** | `0` | **Local Lore** | `0`|
->>|**Athletics** | `0` | **Medicine** | `0` |
->>| **Architecture**  | `0` | **Perform**  | `0` |
->>| **Awareness** | `0` |**Persuade** | `0` |
->>|**Beast Lore ** |`1` |**Ride** | `0`|
->>|**Bluff**|`0`| **Stealth** | `0` |
->>|**Bushcraft** | `0` | **Streetwise** | `0`|
->>|**Craft** | `0` | **Seamanship** | `0` |
->>|**Customs**  | `0` | **Spot Hidden**  | `0` |
->>|**Foraging** | `0` |**Swim** | `0` |
->>|**Hunt & Fish** |`1` |**Thievery** | `1`|
->>|**Insight**  | `0` | **Trade**  | `0` |
->>|**Languages** | `0` |**Witchery** | `0` |
->>|**Religious Lore** |`0` | **Background** |`=this.background` |
+>>| ----- | :-: |------ | :-: |
+>>| [[Acrobatics]] | `0` | [[Sorcerous Lore]] | `0` |
+>>|[[Athletics]] | `0` | [[Local Lore]] | `0`|
+>>| [[Architecture]]  | `0` | [[Medicine]] | `0` |
+>>| [[Awareness]] | `0` |[[Perform]]  | `0` |
+>>|[[Beast Lore]]  |`1` |[[Persuade]] | `0` |
+>>|[[Bluff]]|`0`| [[Ride]] | `0`|
+>>|[[Bushcraft]] | `0` |[[Stealth]] | `0` |
+>>|[[Craft]] | `0` |  [[Streetwise]] | `0`|
+>>|[[Customs]]  | `0` | [[Seamanship]] | `0` |
+>>|[[Foraging]] | `0` |[[Spot Hidden]]  | `0` |
+>>|[[Hunt & Fish]] |`1` |[[Swim]] | `0` |
+>>|[[Insight]]  | `0` |[[Thievery]] | `1`|
+>>|[[Languages]] | `0` | [[Trade]]  | `0` |
+>>|[[Leadership]] |`0` |[[Witchery]] | `0` |
+>>|[[Religious Lore]] |`0`| |  |
 >>
 >>&nbsp;
 >>
@@ -178,14 +179,20 @@ lightitem1: ""
 ### Abilities & Languages
 >[!table_time] %%FAKE TITLE HERE%%
 >>[!table_time] %%FAKE TITLE HERE%%
->>### Abilities & Languages
+>>### Abilities
 >> | | |
 >>|:-:| --- |
->>| `=this.Ability1` | `=this.Ability2` |
->>| `=this.Ability3`| `=this.Ability4` |
->>| `=this.Ability5` | `=this.Ability6` |
->>| `=this.Ability7` | `=this.Ability8` |
+>>| `INPUT[suggester(optionQuery(#Category/Ability)):Ability1]` | `INPUT[suggester(optionQuery(#Category/Ability)):Ability2]` |
+>>| `INPUT[suggester(optionQuery(#Category/Ability)):Ability3]`| `INPUT[suggester(optionQuery(#Category/Ability)):Ability4]` |
 >>
+>> &nbsp;
+>>
+>>### Languages
+>> | | |
+>>|:-:| --- |
+>>| `INPUT[inlineSelect(option(Ancient),option(Beast), option(Diabolic), option(Draconic), option(Giant), option(Nathric), option(None)):Language1]` | `INPUT[inlineSelect(option(Ancient),option(Beast), option(Diabolic), option(Draconic), option(Giant), option(Nathric), option(None)):Language2]` |
+>>| `INPUT[inlineSelect(option(Ancient),option(Beast), option(Diabolic), option(Draconic), option(Giant), option(Nathric), option(None)):Language3]`| `INPUT[inlineSelect(option(Ancient),option(Beast), option(Diabolic), option(Draconic), option(Giant), option(Nathric), option(None)):Language4]` |
+
 
 ### Inventory
 >[!table] %%FAKE TITLE HERE%%
@@ -234,55 +241,15 @@ lightitem1: ""
 >>### Spells
 >>| Slot | Spell |
 >>| ---------- | -------- |
->>| 1 | `=this.Spell1` |
->>| 2 | `=this.Spell2` |
->>| 3 | `=this.Spell3` |
->>| 4 | `=this.Spell4` |
->>| 5 | `=this.Spell5` |
->>| 6 | `=this.Spell6` |
->>| 7 | `=this.Spell7`|
->>| 8 | `=this.Spell8`|
->>| 9 | `=this.Spell9`|
->>| 10 |`=this.Spell10`|
-
-
-
-```meta-bind-button
-label: Add
-icon: ""
-style: primary
-class: ""
-cssStyle: ""
-backgroundImage: ""
-tooltip: ""
-id: exp
-hidden: True
-actions:
-- type: updateMetadata
-  bindTarget: xp
-  evaluate: True
-  value: getMetadata('xp') + getMetadata('axp')
-
-```
-
-```meta-bind-button
-label: Add Jats
-icon: ""
-style: primary
-class: ""
-cssStyle: ""
-backgroundImage: ""
-tooltip: ""
-id: pjats
-hidden: True
-actions:
-- type: updateMetadata
-  bindTarget: currency
-  evaluate: True
-  value: getMetadata('ajats') * '0.6' + getMetadata('currency')
-
-```
-
-
+>>| 1 | `INPUT[suggester(optionQuery(#Category/Spell)):Spell1]` |
+>>| 2 | `INPUT[suggester(optionQuery(#Category/Spell)):Spell2]` |
+>>| 3 | `INPUT[suggester(optionQuery(#Category/Spell)):Spell3]` |
+>>| 4 | `INPUT[suggester(optionQuery(#Category/Spell)):Spell4]` |
+>>| 5 | `INPUT[suggester(optionQuery(#Category/Spell)):Spell5]` |
+>>| 6 | `INPUT[suggester(optionQuery(#Category/Spell)):Spell6]` |
+>>| 7 | `INPUT[suggester(optionQuery(#Category/Spell)):Spell7]`|
+>>| 8 | `INPUT[suggester(optionQuery(#Category/Spell)):Spell8]`|
+>>| 9 | `INPUT[suggester(optionQuery(#Category/Spell)):Spell9]`|
+>>| 10 |`INPUT[suggester(optionQuery(#Category/Spell)):Spell10]`|
 
 
