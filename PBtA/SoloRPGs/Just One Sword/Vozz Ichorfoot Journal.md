@@ -343,4 +343,6 @@ Looks like the reason for all the signs of violence and other unpleasantries in 
 
 Encounter Check +5: Encounter!
 
-
+```statblock
+creature: SKELETON
+```

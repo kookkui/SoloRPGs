@@ -1,3 +1,6 @@
+---
+statblock: inline
+---
 ```statblock
 name: "SKELETON"
 layout: "JustOneTorch"
