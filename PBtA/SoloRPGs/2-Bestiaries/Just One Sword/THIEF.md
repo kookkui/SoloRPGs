@@ -4,7 +4,7 @@ statblock: inline
 ---
 
 ```statblock
-name: "THIEF"
+name: "Thief"
 layout: "JustOneTorch"
 lvl: "3"
 hp: "10"

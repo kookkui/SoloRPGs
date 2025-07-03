@@ -3,7 +3,7 @@ statblock: inline
 ---
 
 ```statblock
-name: "SPIDER"
+name: "Spider"
 layout: JustOneTorch
 lvl: "4"
 hp: "14"
@@ -14,6 +14,6 @@ move: "Far"
 morale: "8"
 special: "Web: sprays out a sticky web entangling any who come in contact with it for 1d3 rounds. BODY required to escape."
 
-description: "Dwarfing its cousins the giant spider builds its home in tunnels and ruins. It is large enough to easily consider human-sized creatures as prey."
+description: "*Dwarfing its cousins the giant spider builds its home in tunnels and ruins. It is large enough to easily consider human-sized creatures as prey.*"
 ```
 

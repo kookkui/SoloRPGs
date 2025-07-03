@@ -84,7 +84,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -175,8 +175,8 @@
             "state": {
               "type": "MAIN_VIEW",
               "state": {},
-              "icon": "srt-ribbon",
-              "title": "Solo RPG Toolkit"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
@@ -352,32 +352,32 @@
   },
   "active": "64d92d09d663364e",
   "lastOpenFiles": [
-    "SoloRPGs/Just One Sword/Tables/Rules Reference.md",
-    "SoloRPGs/Just One Sword/Vozz Ichorfoot Journal.md",
-    "SoloRPGs/Just One Sword/Spells & Sorcery/Scorn the Unwelcome.md",
-    "SoloRPGs/Just One Sword/Abilities & Skills/Thievery.md",
-    "SoloRPGs/Just One Sword/PC/Vozz Ichorfoot.md",
-    "SoloRPGs/Just One Sword/Abilities & Skills/Witchery.md",
-    "SoloRPGs/Just One Sword/Spells & Sorcery/Rebuke Sorcery.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/WOOD GOLEM.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/ZOMBIE.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/WOLF-MEN.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/WOLF.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/WITCH.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/WIGHT.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/WHITE DRAGON.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/WAR HORSE.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/VAMPIRE.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/UNICORN.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/THUG.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/THIEF.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/STONE GOLEM.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/STONE GIANT.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/SPIDER.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/SORCERER.md",
     "SoloRPGs/Just One Sword/Abilities & Skills/Witchcraft.md",
-    "SoloRPGs/Just One Sword/Abilities & Skills/Aim.md",
+    "SoloRPGs/Just One Sword/Maps/Caves of the Infernal.md",
+    "SoloRPGs/Just One Sword/World Building/Monster Data.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/LIZARD-MAN SORCERER.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/LIZARD-MAN ACOLYTE, BLACK.md",
     "SoloRPGs/4-Templates/Colour Pallette.md",
-    "SoloRPGs/4-Templates/Just One Torch/JustOneTorch CS.md",
-    "SoloRPGs/Just One Sword/Abilities & Skills/Acrobatics.md",
-    "SoloRPGs/Just One Sword/Abilities & Skills/Sorcerous Lore.md",
-    "SoloRPGs/Just One Sword/Abilities & Skills/Swim.md",
-    "SoloRPGs/Just One Sword/Abilities & Skills/Bluff.md",
-    "SoloRPGs/Just One Sword/Tables/Roll Tables.md",
-    "SoloRPGs/Just One Sword/Tables/Travel Tables.md",
-    "SoloRPGs/Just One Sword/Abilities & Skills/Athletics.md",
-    "SoloRPGs/Just One Sword/Abilities & Skills/Trade.md",
-    "SoloRPGs/Just One Sword/Abilities & Skills/Seamanship.md",
-    "SoloRPGs/Just One Sword/Abilities & Skills/Architecture.md",
-    "SoloRPGs/Just One Sword/Abilities & Skills/Streetwise.md",
-    "SoloRPGs/Just One Sword/Abilities & Skills/Spot Hidden.md",
-    "SoloRPGs/Just One Sword/Abilities & Skills/Stealth.md",
-    "SoloRPGs/Just One Sword/Abilities & Skills/Ride.md",
-    "SoloRPGs/Just One Sword/Abilities & Skills/Persuade.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/SKELETON.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/SHARK.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/SHADOW DEMON.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/SERPENT DEMON.md",
     "SoloRPGs/1-Assets/Mine_44x55.webp",
     "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Maps/Interior Maps",
     "SoloRPGs/5-Tokens/Hexes/Cave 1.webp",
