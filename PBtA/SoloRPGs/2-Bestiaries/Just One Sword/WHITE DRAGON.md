@@ -10,6 +10,8 @@ dmg: "1d4/1d4 claw + 2d8 bite or 1d4 tail"
 move: "Far"
 morale: "8"
 special: "Ice breath: 6d6 dmg. BODY save or move at ½ movement for 6 rounds. Cold Immunity."
+monster_type:
+  - Dragons 
 
 ---
 
