@@ -9,8 +9,8 @@
 >#####  Encounter Sparks
 >`dice:[[Combat Tables#^9eb97c]]`  `dice:[[Combat Tables#^08dc61]]`
 >
-> ##### Cave of the Internals'
->`dice:[[Combat Tables#^f97394]]`
+> ##### Encounter Placement
+>`dice:[[Combat Tables#^cafe15]]`
 >
 
 ### Travel Tables
@@ -67,9 +67,21 @@
 >`dice:[[Travel Tables#^c78231]]`
 >
 >
+
+### GM Emulation
+>[!NPC] GM Emulation
 >
+>##### GM Emulation - Actions
+>`dice:[[DBS GM Emulation#^35c59e]]`
+>
+>##### GM Emulation - Themes
+>`dice:[[DBS GM Emulation#^416b0d]]`
+>
+>##### GM Emulation - NPC Motivations
+>`dice:[[DBS GM Emulation#^1dbade]]`
 
 
+### Reference
 [[Rules Reference#]]
 
 [[Travel Tables#Monster Type]]

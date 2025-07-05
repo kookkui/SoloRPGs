@@ -77,13 +77,12 @@
 
 ^08dc61
 
-|`dice:d6`|Cave of the Internals'|
+|`dice:d6`|Encounter Placement|
 |---|---|
-|1|Undead|
-|2|Undead|
-|3|Undead|
-|4|Heraldic|
-|5|Giant Insect|
-|6|Demon|
+|1|**CLOSE**|
+|2|**NEAR**|
+|3-4|**FAR**|
+|5|**VERY FAR**|
+|6|**DISTANT**|
 
-^f97394
+^cafe15

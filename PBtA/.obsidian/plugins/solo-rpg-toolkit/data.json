@@ -17,10 +17,10 @@
   "standardOracleBias": false,
   "standardOracleEvents": false,
   "oracleLanguage": "en",
-  "wordTab": "Quick table...",
+  "wordTab": "Prompts",
   "oracleTab": "default",
-  "deckTab": "Business Card Dungeon",
+  "deckTab": "GameMaster's Apprentice 2E Cards",
   "mythicFactor": 5,
-  "wordQuickValue": "SKELETON\nGHOUL\nZOMBIE\nBONE LIZARD-MAN\nWIGHT\nVAMPIRE\nGHOST",
-  "wordQuickHeight": 80
+  "wordQuickValue": "",
+  "wordQuickHeight": 0
 }

@@ -4,7 +4,7 @@ Level: 1
 STR: 16
 INT: 14
 WIS: 14
-DEX: 15
+DEX: 16
 CON: 15
 CHA: 11
 BodySav: "`=floor((this.STR - 10)/3) + floor((this.CON - 10)/3)`"
@@ -12,18 +12,18 @@ MindSav: "`=floor((this.INT - 10)/3) + floor((this.CHA - 10)/3)`"
 ReflexSav: "`=floor((this.DEX - 10)/3) + floor((this.WIS - 10)/3)`"
 AtkBonus: 0
 SavBonus: 0
-xp: 3
+xp: 10
 LevelXP: "`=(this.Level*10)`"
 MaxHP: 7
 Fatigue: "`=this.CON`"
 axp: 
 background: Beast Hunter
 Weapon1: Shortsword
-Weapon1dmg: D6+2
+Weapon1dmg: D6
 Weapon1notes: Piercing / Slashing
-Weapon2: 
-Weapon2dmg: 
-Weapon2notes: 
+Weapon2: Short bow
+Weapon2dmg: D6
+Weapon2notes: Piercing, Range 120'(VF)
 Armor1: Leather Armor
 Armor1Bod: 1
 Armor1Ref: 0
@@ -34,24 +34,24 @@ Armor2notes:
 torch1: D8
 Lampoil: None
 CurrentFatigue: 0
-CurrentHP: 6
+CurrentHP: 7
 Ability1: "[[Witchcraft]]"
-Spell1: "[[Rebuke Sorcery]]"
-Spell2: "[[SoloRPGs/Just One Sword/Spells & Sorcery/Rebuke the Undead.md|Rebuke the Undead]]"
-Spell3: "[[SoloRPGs/Just One Sword/Spells & Sorcery/Scorn the Unwelcome.md|Scorn the Unwelcome]]"
+Spell1: "[[SoloRPGs/Just One Sword/Spells & Sorcery/Scorn the Mind.md|Scorn the Mind]]"
+Spell2: "[[SoloRPGs/Just One Sword/Spells & Sorcery/Dull the Mind.md|Dull the Mind]]"
+Spell3: "[[SoloRPGs/Just One Sword/Spells & Sorcery/Disperse the Sickness.md|Disperse the Sickness]]"
 title1: Torch
-title2: Bandages x2
+title2: Bandages x3
 title3: Bedroll (Recover Fatigue in the wilds)
 title4: "Thieves Tools, Simple "
 title5: "Travel Rations "
 title6: "Travel Rations "
-title7: Gem (400sp)
-title8: Bandage (Halts Bleeding and heals 1d4 HP on successful +INT  check. +1 Fatigue.)
-title9: Gems (100 sp) x2
-title10: Religious Trappings (300 sp)
-title11: Alcohol (250 sp)
-title12: Gem (50 sp)
-lightitem1: ""
+title7: Arrows (20)
+title8: ""
+title9: ""
+title10: ""
+title11: ""
+title12: ""
+lightitem1: Arm band of Giant Strength (+1 Attribute Bonus to Strength)
 Language1: Diabolic
 ---
 
@@ -111,10 +111,10 @@ Language1: Diabolic
 >[!rng] %%FAKE TITLE HERE%%
 >> [!rng] %%FAKE TITLE HERE%%
 >> ##### Weapons
->>| **Weapons** | **Damage** | **Quality** | **Notes** |
+>>| **Weapons** | **Damage** | **Damage Mod**| **Quality** | **Notes** |
 >>| --------- | :---: | :---: |-----|
->>| `=this.Weapon1` | `=this.Weapon1dmg` | `3` |`=this.Weapon1notes` |
->>| `=this.Weapon2` | `=this.Weapon2dmg` |`0`| `=this.Weapon2notes` |
+>>| `=this.Weapon1` | `=this.Weapon1dmg` |+`=floor((this.STR - 10)/3)`| `3` |`=this.Weapon1notes` |
+>>| `=this.Weapon2` | `=this.Weapon2dmg` |+`=floor((this.DEX - 10)/3)`|`0`| `=this.Weapon2notes` |
 >>
 >>
 >>&nbsp;
@@ -131,9 +131,10 @@ Language1: Diabolic
 >> ##### Supplies
 >>  | |
 >>---|---|
->>**Silver Pieces (sp)**|`80` |
+>>**Silver Pieces (sp)**|`5` |
 >>**Gold Pieces (gp)**|`0` |
 >>**Bronze Pieces (bp)**|`0` | 
+>>**Arrows**|`13` |
 >>**Rations**|`6` |
 >>**Torches**| `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):torch1]` |
 >>**Lamp Oil**|`INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):Lampoil]` |
@@ -145,9 +146,9 @@ Language1: Diabolic
 >> ##### Timers & Counters
 >>  | |
 >>---|---|
->>**Watches**| `clock,yellow: 0/4` |
->>**Encounter Penalties**|`circles,pink: 0/10`|
->>**Goal Timer**|`circles,yellow: 5/12`|
+>>**Watches**| `clock,yellow: 3/4` |
+>>**Encounter Penalties**|`circles,pink: 2/10`|
+>>**Goal Timer**|`circles,yellow: 0/12`|
 >>**Progress Track**|`circles,green: 0/10` | 
 >>**Countdown Track**|`circles,red: 0/4` |
 
@@ -161,9 +162,9 @@ Language1: Diabolic
 >>|[[Athletics]] | `0` | [[Local Lore]] | `0`|
 >>| [[Architecture]]  | `0` | [[Medicine]] | `0` |
 >>| [[Awareness]] | `0` |[[Perform]]  | `0` |
->>|[[Beast Lore]]  |`1` |[[Persuade]] | `0` |
+>>|[[Beast Lore]]  |`0` |[[Persuade]] | `0` |
 >>|[[Bluff]]|`0`| [[Ride]] | `0`|
->>|[[Bushcraft]] | `0` |[[Stealth]] | `0` |
+>>|[[Bushcraft]] | `1` |[[Stealth]] | `0` |
 >>|[[Craft]] | `0` |  [[Streetwise]] | `0`|
 >>|[[Customs]]  | `0` | [[Seamanship]] | `0` |
 >>|[[Foraging]] | `0` |[[Spot Hidden]]  | `0` |

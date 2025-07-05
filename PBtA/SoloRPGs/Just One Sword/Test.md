@@ -1,5 +1,5 @@
 ```dataview
-TABLE WITHOUT ID link(file.name) AS "Name", monster_type AS "Type", as AS "Attack Score", lvl AS "Level"
+TABLE WITHOUT ID link(file.name) AS "Name", monster_type AS "Type", as AS "Attack Score", lvl AS "Level", hp AS "Hit Points"
 FROM "SoloRPGs/2-Bestiaries/Just One Sword"
 WHERE contains(layout, "JustOneTorch")
 SORT as ASC

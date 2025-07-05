@@ -2,22 +2,20 @@
 statblock: inline
 monster_type:
   - Lizard-Men
-name: "LIZARD-MAN WAR CHIEF"
-layout: "JustOneTorch"
+name: Lizard-Man War Chief
+layout: JustOneTorch
 lvl: "6"
 hp: "27"
 ac: "17"
 as: "14"
-dmg: "2d6 mace"
-move: "Close"
+dmg: 2d6 mace
+move: Close
 morale: "11"
 special: "Shatter: 2d8 damage and -1 quality to armor."
-description: "Clad in black plate and wielding a large mace, these war chiefs are commanders and ofﬁcers who proved their worth in combat."
-
 ---
 
 ```statblock
-name: "LIZARD-MAN WAR CHIEF"
+name: "Lizard-Man War Chief"
 layout: "JustOneTorch"
 lvl: "6"
 hp: "27"
@@ -27,5 +25,5 @@ dmg: "2d6 mace"
 move: "Close"
 morale: "11"
 special: "Shatter: 2d8 damage and -1 quality to armor."
-description: "Clad in black plate and wielding a large mace, these war chiefs are commanders and ofﬁcers who proved their worth in combat."
+description: "*Clad in black plate and wielding a large mace, these war chiefs are commanders and officers who proved their worth in combat.*"
 ```
