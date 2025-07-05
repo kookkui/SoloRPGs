@@ -151,4 +151,88 @@ I will keep on moving with haste.
 
 ### Third Watch
 
-Encounter Check +2: 
+Encounter Check +2: `d8 = 3` Encounter!
+
+```statblock
+creature: Blood Demon
+```
+
+Demon, Aggression, Fighting, Illness
+
+Detect Encounter +WIS 7 + 1 = 8 Partial Success
+
+I see two Blood Demons, that looks like they just got done fighting something or someone. Both have minor injuries and seem very agitated.
+
+Reaction Check: Hostile / Threatening
+
+They are coming my way I better act fast
+
++DEX 7 + 2 = 9 Partial Success
+
+```encounter
+creatures:
+  - 2:Blood Demon, 8, 12, 0
+```
+
+Combat Start!
+
+PC Turn
+
+Shooting Blood Demon 1 (12) `d20 = 10` + 2 = 12 Hit!
+
+7 Damage to Blood Demon 1 (1)
+
+PC Turn
+
+Shooting Blood Demon 1 (12) `d20 = 8` + 2 = 10 Miss
+
+Blood Demon 1 Turn
+
+Morale Check(8): 6
+
+Move
+
+Blood Demon 1 is too far to attack
+
+Blood Demon 2 Turn
+
+Move
+
+Blood Demon 1 is too far to attack
+
+PC Turn
+
+Shooting Blood Demon 1 (12) `d20 = 11` + 2 = 13 Hit!
+
+8 Damage to Blood Demon 1 (Dead)
+
+7 Damage cleaves to Blood Demon 2 (1) 
+
+Shooting Blood Demon 2 (12) `d20 = 4` + 2 = 6 Miss
+
+Blood Demon 2 Turn
+
+Morale Check(8): 7
+
+Move
+
+Attacking Vozz (12)
+
+BLOCK: `d20 = 15` + 3 + 1 = 19 Blocked
+
+Attacking Vozz (12)
+
+DODGE: `d20 = 17` + 3 + 0 = 20 Dodged
+
+PC Turn
+
+Melee Attack to Blood Demon 2 (12)  `d20 = 15` + 2 = 17 Hit!
+
+6 Damage to Blood Demon 2 (Deads)
+
+<span style="color:rgb(241, 91, 181)">Victory!</span>
+
+
+
+
+

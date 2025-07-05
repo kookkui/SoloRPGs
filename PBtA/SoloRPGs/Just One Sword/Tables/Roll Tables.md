@@ -6,8 +6,11 @@
 > ##### Enemy Attacks Mage
 >`dice:[[Combat Tables#^b573ca]]`
 >  
->#####  Encounter Sparks
+>##### Encounter Sparks
 >`dice:[[Combat Tables#^9eb97c]]`  `dice:[[Combat Tables#^08dc61]]`
+>
+>##### Build the Narrative
+>`dice:[[Combat Tables#^c1865e]]`  `dice:[[Combat Tables#^4dc5b7]]`
 >
 > ##### Encounter Placement
 >`dice:[[Combat Tables#^cafe15]]`

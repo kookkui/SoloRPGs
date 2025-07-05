@@ -1,16 +1,9 @@
-```dataview
-TABLE WITHOUT ID link(file.name) AS "Name", monster_type AS "Type", as AS "Attack Score", lvl AS "Level", hp AS "Hit Points"
-FROM "SoloRPGs/2-Bestiaries/Just One Sword"
-WHERE contains(layout, "JustOneTorch")
-SORT as ASC
-```
-
-## Mankind
+## By Monster Type
 ```dataview
 TABLE WITHOUT ID link(file.name) AS "Name", monster_type AS "Type", lvl AS "Level"
 FROM "SoloRPGs/2-Bestiaries/Just One Sword"
 WHERE contains(layout, "JustOneTorch")
-WHERE contains(monster_type, "Mankind")
+WHERE contains(monster_type, "Demons")
 SORT lvl ASC
 ```
 
@@ -64,4 +57,13 @@ dv.table(
     p.lvl ?? "—"                  // frontmatter field (falls back to “—” if missing)
   ])
 );
+```
+
+
+## All Monsters
+```dataview
+TABLE WITHOUT ID link(file.name) AS "Name", monster_type AS "Type", as AS "Attack Score", lvl AS "Level", hp AS "Hit Points"
+FROM "SoloRPGs/2-Bestiaries/Just One Sword"
+WHERE contains(layout, "JustOneTorch")
+SORT as ASC
 ```

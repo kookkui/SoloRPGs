@@ -134,14 +134,58 @@
         "enabled": true,
         "level": 1,
         "player": true,
-        "active": false,
+        "active": true,
         "hidden": false,
         "friendly": false
+      },
+      {
+        "name": "Blood Demon",
+        "initiative": 10,
+        "static": false,
+        "modifier": 0,
+        "hp": 8,
+        "currentMaxHP": 8,
+        "ac": 12,
+        "currentAC": 12,
+        "path": "SoloRPGs/2-Bestiaries/Just One Sword/BLOOD DEMON.md",
+        "id": "ID_dad8cbeaf879",
+        "currentHP": 0,
+        "tempHP": 0,
+        "status": [
+          "Unconscious"
+        ],
+        "enabled": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false,
+        "rollHP": false
+      },
+      {
+        "name": "Blood Demon",
+        "initiative": 10,
+        "static": false,
+        "modifier": 0,
+        "hp": 8,
+        "currentMaxHP": 8,
+        "ac": 12,
+        "currentAC": 12,
+        "path": "SoloRPGs/2-Bestiaries/Just One Sword/BLOOD DEMON.md",
+        "id": "ID_7ad8ea5b1839",
+        "currentHP": 0,
+        "tempHP": 0,
+        "status": [
+          "Unconscious"
+        ],
+        "enabled": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false,
+        "rollHP": false
       }
     ],
     "state": false,
     "name": null,
-    "round": 1,
+    "round": 3,
     "logFile": "",
     "rollHP": false
   },

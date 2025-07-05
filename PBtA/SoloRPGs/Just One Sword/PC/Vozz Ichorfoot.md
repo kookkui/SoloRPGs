@@ -114,7 +114,7 @@ Language1: Diabolic
 >>| **Weapons** | **Damage** | **Damage Mod**| **Quality** | **Notes** |
 >>| --------- | :---: | :---: |-----|
 >>| `=this.Weapon1` | `=this.Weapon1dmg` |+`=floor((this.STR - 10)/3)`| `3` |`=this.Weapon1notes` |
->>| `=this.Weapon2` | `=this.Weapon2dmg` |+`=floor((this.DEX - 10)/3)`|`0`| `=this.Weapon2notes` |
+>>| `=this.Weapon2` | `=this.Weapon2dmg` |+`=floor((this.DEX - 10)/3)`|`3`| `=this.Weapon2notes` |
 >>
 >>
 >>&nbsp;
@@ -122,7 +122,7 @@ Language1: Diabolic
 >> ##### Armor
 >>| **Armor** | **Body** | **Reflex** |**Quality** | **Notes**|
 >>| ----------- | :---: | :---: | ------ |------ |
->>| `=this.Armor1` | `=this.Armor1Bod`|`=this.Armor1Ref` |`0` | `=this.Armor1notes` |
+>>| `=this.Armor1` | `=this.Armor1Bod`|`=this.Armor1Ref` |`3` | `=this.Armor1notes` |
 >>| `=this.Armor2` |  `=this.Armor1Bod`|`=this.Armor1Ref` |`0`| `=this.Armor2notes` |
 >>
 >>
@@ -134,7 +134,7 @@ Language1: Diabolic
 >>**Silver Pieces (sp)**|`5` |
 >>**Gold Pieces (gp)**|`0` |
 >>**Bronze Pieces (bp)**|`0` | 
->>**Arrows**|`13` |
+>>**Arrows**|`12` |
 >>**Rations**|`6` |
 >>**Torches**| `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):torch1]` |
 >>**Lamp Oil**|`INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):Lampoil]` |
@@ -147,7 +147,7 @@ Language1: Diabolic
 >>  | |
 >>---|---|
 >>**Watches**| `clock,yellow: 3/4` |
->>**Encounter Penalties**|`circles,pink: 2/10`|
+>>**Encounter Penalties**|`circles,pink: 1/10`|
 >>**Goal Timer**|`circles,yellow: 0/12`|
 >>**Progress Track**|`circles,green: 0/10` | 
 >>**Countdown Track**|`circles,red: 0/4` |

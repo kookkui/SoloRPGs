@@ -86,3 +86,58 @@
 |6|**DISTANT**|
 
 ^cafe15
+
+
+
+### Build the Narrative (Activity)
+|`dice:d20`|Build the Narrative (Activity)|
+|---|---|
+|1|Hunting|
+|2|Scavenging|
+|3|Patrolling|
+|4|Robbing|
+|5|Searching|
+|6|Obeying|
+|7|Returning|
+|8|Socializing|
+|9|Stalking|
+|10|Guarding|
+|11|Trapping|
+|12|Digging|
+|13|Hauling|
+|14|Resting|
+|15|Looting|
+|16|Fighting|
+|17|Building|
+|18|Destroying|
+|19|Eating|
+|20|Guiding|
+
+^c1865e
+
+
+### Build the Narrative (Trouble)
+|`dice:d20`|Build the Narrative (Trouble)|
+|---|---|
+|1|Illness|
+|2|Injury|
+|3|Irritation|
+|4|Exhaustion|
+|5|Broken Gear|
+|6|Leaderless|
+|7|Hungry|
+|8|Lacking Gear|
+|9|Assaulted|
+|10|Aimless|
+|11|Failing health|
+|12|Understaffed|
+|13|Hated leader|
+|14|Pursued|
+|15|Hunted|
+|16|Poisoned|
+|17|Arrested|
+|18|Cursed|
+|19|Defeated|
+|20|Trapped|
+
+^4dc5b7

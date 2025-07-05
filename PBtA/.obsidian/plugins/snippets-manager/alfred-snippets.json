@@ -118,6 +118,27 @@
       "subtitle": "00 Damage - 00 Armor = 00 Damage to Enemy (00)",
       "arg": "00 Damage - 00 Armor = 00 Damage to Enemy (00)",
       "key": "Riftbreakers Damage Formula"
+    },
+    {
+      "uid": 18,
+      "title": "JustOneSword BLOCK",
+      "subtitle": "BLOCK: `d20 = ` + BODY + Armor Bonus / Penalty =",
+      "arg": "BLOCK: `d20 = ` + BODY + Armor Bonus / Penalty =",
+      "key": "JustOneSword BLOCK"
+    },
+    {
+      "uid": 19,
+      "title": "JustOneSword DODGE",
+      "subtitle": "DODGE: `d20 = ` + REFLEX + Armor Bonus / Penalty =",
+      "arg": "DODGE: `d20 = ` + REFLEX + Armor Bonus / Penalty =",
+      "key": "JustOneSword DODGE"
+    },
+    {
+      "uid": 20,
+      "title": "JustOneSword vs MAGIC",
+      "subtitle": "vs MAGIC: `d20 = ` + MIND + Bonus / Penalty =",
+      "arg": "vs MAGIC: `d20 = ` + MIND + Bonus / Penalty =",
+      "key": "JustOneSword vs MAGIC"
     }
   ]
 }
