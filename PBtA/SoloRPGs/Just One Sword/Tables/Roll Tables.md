@@ -54,6 +54,9 @@
 > ##### Dungeon Danger
 >`dice:[[Travel Tables#^6287f1]]`
 >
+> ##### Barrow of the Desecrated Encounters
+>`dice:[[Combat Tables#^67814c]]`
+>
 
 ### Loot Tables
 > [!dice] Loot Tables

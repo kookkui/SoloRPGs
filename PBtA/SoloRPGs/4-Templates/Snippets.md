@@ -23,7 +23,7 @@
 **Perception Check**
 
 ### Victory!
-<span style="color:rgb(241, 91, 181)">Victory!</span> 
+<span style="color:#FF29B8">Victory!</span>
 
 ### Riftbreakers Perception
 PC Perception (44) `d100 = 10` 

@@ -58,6 +58,18 @@
         "dimension": 50,
         "children": [
           {
+            "id": "19da868b4080630f",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "SoloRPGs/Just One Sword/Maps/Barrow of the Desecrated.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Barrow of the Desecrated"
+            }
+          },
+          {
             "id": "7382c2ee1260401e",
             "type": "leaf",
             "state": {
@@ -71,7 +83,8 @@
               "title": "Vozz Ichorfoot"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -293,7 +306,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       },
       {
         "id": "0e6a14a15862aa6f",
@@ -339,11 +352,20 @@
   },
   "active": "bdc52f0b4d99283f",
   "lastOpenFiles": [
-    "SoloRPGs/Just One Sword/PC/Vozz Ichorfoot.md",
-    "SoloRPGs/Just One Sword/Maps/Battle Maps/Cliffs Road Battle Map Grided.md",
-    "SoloRPGs/Just One Sword/Vozz Ichorfoot Journal.md",
-    "SoloRPGs/4-Templates/Snippets.md",
     "SoloRPGs/Just One Sword/Tables/Roll Tables.md",
+    "SoloRPGs/Just One Sword/Vozz Ichorfoot Journal.md",
+    "SoloRPGs/Just One Sword/PC/Vozz Ichorfoot.md",
+    "SoloRPGs/Just One Sword/Maps/Barrow of the Desecrated.md",
+    "SoloRPGs/1-Assets/MarkerPins vector fix_2.webp",
+    "SoloRPGs/1-Assets/Barrow of the Desecrated_43x55.webp",
+    "SoloRPGs/Just One Sword/Tables/Combat Tables.md",
+    "SoloRPGs/4-Templates/Colour Pallette.md",
+    "SoloRPGs/Just One Sword/Maps/Hex Map Key.md",
+    "SoloRPGs/Just One Sword/Tables/Rules Reference.md",
+    "SoloRPGs/Just One Sword/World Building/Duskveil.md",
+    "SoloRPGs/Just One Sword/Maps/Map of Mistvale.md",
+    "SoloRPGs/4-Templates/Snippets.md",
+    "SoloRPGs/Just One Sword/Maps/Battle Maps/Cliffs Road Battle Map Grided.md",
     "SoloRPGs/5-Tokens/VTT Battle Tokens/Blood Demon - 0201.webp",
     "SoloRPGs/Just One Sword/Maps/Battle Maps/Grassland Battle Map Grided.md",
     "SoloRPGs/5-Tokens/VTT Battle Tokens/Abyssal Chicken - 0201.webp",
@@ -354,27 +376,17 @@
     "SoloRPGs/4-Templates/Maps/TheRockyRavine_day_30x30.webp",
     "SoloRPGs/4-Templates/Maps/VillageGraveyard_day_30x30.webp",
     "SoloRPGs/4-Templates/Maps/CaravanOfFun_day_park.webp",
-    "SoloRPGs/4-Templates/Maps/AnimalDen_forest_day_30x45.webp",
-    "SoloRPGs/Just One Sword/Maps/Map of Mistvale.md",
     "SoloRPGs/Just One Sword/Bestiary Data.md",
     "SoloRPGs/Just One Sword/Abilities & Skills/Thievery.md",
     "SoloRPGs/Just One Sword/Abilities & Skills/Awareness.md",
     "SoloRPGs/Just One Sword/Abilities & Skills/Architecture.md",
     "SoloRPGs/Just One Sword/Abilities & Skills/Hunt & Fish.md",
     "SoloRPGs/Just One Sword/Abilities & Skills/Bushcraft.md",
-    "SoloRPGs/Just One Sword/Tables/Combat Tables.md",
     "SoloRPGs/2-Bestiaries/Just One Sword/ASSASSIN.md",
     "SoloRPGs/2-Bestiaries/Just One Sword/BLOOD DEMON.md",
     "SoloRPGs/2-Bestiaries/Just One Sword/SHADOW DEMON.md",
-    "SoloRPGs/Just One Sword/World Building/Duskveil.md",
-    "SoloRPGs/Just One Sword/Maps/Hex Map Key.md",
-    "SoloRPGs/5-Tokens/VTT Battle Tokens/Lizardfolk - 01 - 01.webp",
-    "SoloRPGs/4-Templates/Colour Pallette.md",
     "SoloRPGs/2-Bestiaries/Just One Sword/LIZARD-MAN SORCERER.md",
     "SoloRPGs/2-Bestiaries/Just One Sword/LIZARD-MAN WAR CHIEF.md",
-    "SoloRPGs/Just One Sword/Tables/Rules Reference.md",
-    "SoloRPGs/Just One Sword/Abilities & Skills/Languages.md",
-    "SoloRPGs/!-Temp_Storage/Disciples of Bone and Shadow/Tables/DBS Roll Tables.md",
     "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Maps/Interior Maps",
     "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Maps",
     "SoloRPGs/1-Assets/SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Eka",

@@ -118,7 +118,7 @@
     "creatures": [
       {
         "name": "Vozz Ichorfoot",
-        "initiative": 11,
+        "initiative": 17,
         "static": false,
         "modifier": 1,
         "hp": 7,
@@ -127,65 +127,21 @@
         "currentAC": "12",
         "note": "Vozz Ichorfoot",
         "path": "SoloRPGs/Just One Torch/PC/Vozz Ichorfoot.md",
-        "id": "ID_1bb919ebba2a",
+        "id": "ID_9b5b1bc9eaf9",
         "currentHP": 7,
         "tempHP": 0,
         "status": [],
         "enabled": true,
         "level": 1,
         "player": true,
-        "active": true,
+        "active": false,
         "hidden": false,
         "friendly": false
-      },
-      {
-        "name": "Blood Demon",
-        "initiative": 10,
-        "static": false,
-        "modifier": 0,
-        "hp": 8,
-        "currentMaxHP": 8,
-        "ac": 12,
-        "currentAC": 12,
-        "path": "SoloRPGs/2-Bestiaries/Just One Sword/BLOOD DEMON.md",
-        "id": "ID_dad8cbeaf879",
-        "currentHP": 0,
-        "tempHP": 0,
-        "status": [
-          "Unconscious"
-        ],
-        "enabled": true,
-        "active": false,
-        "hidden": false,
-        "friendly": false,
-        "rollHP": false
-      },
-      {
-        "name": "Blood Demon",
-        "initiative": 10,
-        "static": false,
-        "modifier": 0,
-        "hp": 8,
-        "currentMaxHP": 8,
-        "ac": 12,
-        "currentAC": 12,
-        "path": "SoloRPGs/2-Bestiaries/Just One Sword/BLOOD DEMON.md",
-        "id": "ID_7ad8ea5b1839",
-        "currentHP": 0,
-        "tempHP": 0,
-        "status": [
-          "Unconscious"
-        ],
-        "enabled": true,
-        "active": false,
-        "hidden": false,
-        "friendly": false,
-        "rollHP": false
       }
     ],
     "state": false,
     "name": null,
-    "round": 3,
+    "round": 1,
     "logFile": "",
     "rollHP": false
   },

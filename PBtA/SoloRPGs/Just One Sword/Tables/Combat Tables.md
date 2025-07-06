@@ -141,3 +141,15 @@
 |20|Trapped|
 
 ^4dc5b7
+
+| `dice:d6` | Barrow of the Desecrated |
+| --------- | ------------------------ |
+| 1         | Night Kin                |
+| 2         | Night Kin                |
+| 3         | Night Kin                |
+| 4         | Giant Insects            |
+| 5         | Giant Insects            |
+| 6         | Random                   |
+
+^67814c
+

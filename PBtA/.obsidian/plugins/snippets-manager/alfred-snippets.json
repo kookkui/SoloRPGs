@@ -65,76 +65,41 @@
     },
     {
       "uid": 10,
-      "title": "Morning",
-      "subtitle": "<span style=\"color:rgb(249, 132, 74)\">Morning</span>",
-      "arg": "<span style=\"color:rgb(249, 132, 74)\">Morning</span>",
-      "key": "Morning"
-    },
-    {
-      "uid": 11,
-      "title": "Afternoon",
-      "subtitle": "<span style=\"color:rgb(255, 255, 184)\">Afternoon</span>",
-      "arg": "<span style=\"color:rgb(255, 255, 184)\">Afternoon</span>",
-      "key": "Afternoon"
-    },
-    {
-      "uid": 12,
-      "title": "Evening",
-      "subtitle": "<span style=\"color:rgb(155, 93, 229)\">Evening</span>",
-      "arg": "<span style=\"color:rgb(155, 93, 229)\">Evening</span>",
-      "key": "Evening"
-    },
-    {
-      "uid": 13,
-      "title": "Oida Beast",
-      "subtitle": "- Domain:\n- Weshan Type:\n- Ara Pool: 20\n- <font color=\"#ff00cc\">+50% XP</font>\nWeshan:",
-      "arg": "- Domain:\n- Weshan Type:\n- Ara Pool: 20\n- <font color=\"#ff00cc\">+50% XP</font>\nWeshan:",
-      "key": "Oida Beast"
-    },
-    {
-      "uid": 14,
-      "title": "Dire Beast",
-      "subtitle": "- Domain:\n- Weshan Type:\n- Ara Pool: 10\n- <font color=\"#ff00cc\">+50% XP</font>\n- Attack skill and damage dealt increased by +2 per Spirit Stage.\nWeshan:",
-      "arg": "- Domain:\n- Weshan Type:\n- Ara Pool: 10\n- <font color=\"#ff00cc\">+50% XP</font>\n- Attack skill and damage dealt increased by +2 per Spirit Stage.\nWeshan:",
-      "key": "Dire Beast"
-    },
-    {
-      "uid": 15,
       "title": "Riftbreakers Perception",
       "subtitle": "PC Perception (44) `d100 = 10` \nvs\nEnemy Perception (50) `d100 = 10`",
       "arg": "PC Perception (44) `d100 = 10` \nvs\nEnemy Perception (50) `d100 = 10`",
       "key": "Riftbreakers Perception"
     },
     {
-      "uid": 16,
+      "uid": 11,
       "title": "Riftbreakers Companion",
       "subtitle": "Summon Companion -8 MP\n\nName has entered the fray!",
       "arg": "Summon Companion -8 MP\n\nName has entered the fray!",
       "key": "Riftbreakers Companion"
     },
     {
-      "uid": 17,
+      "uid": 12,
       "title": "Riftbreakers Damage Formula",
       "subtitle": "00 Damage - 00 Armor = 00 Damage to Enemy (00)",
       "arg": "00 Damage - 00 Armor = 00 Damage to Enemy (00)",
       "key": "Riftbreakers Damage Formula"
     },
     {
-      "uid": 18,
+      "uid": 13,
       "title": "JustOneSword BLOCK",
       "subtitle": "BLOCK: `d20 = ` + BODY + Armor Bonus / Penalty =",
       "arg": "BLOCK: `d20 = ` + BODY + Armor Bonus / Penalty =",
       "key": "JustOneSword BLOCK"
     },
     {
-      "uid": 19,
+      "uid": 14,
       "title": "JustOneSword DODGE",
       "subtitle": "DODGE: `d20 = ` + REFLEX + Armor Bonus / Penalty =",
       "arg": "DODGE: `d20 = ` + REFLEX + Armor Bonus / Penalty =",
       "key": "JustOneSword DODGE"
     },
     {
-      "uid": 20,
+      "uid": 15,
       "title": "JustOneSword vs MAGIC",
       "subtitle": "vs MAGIC: `d20 = ` + MIND + Bonus / Penalty =",
       "arg": "vs MAGIC: `d20 = ` + MIND + Bonus / Penalty =",

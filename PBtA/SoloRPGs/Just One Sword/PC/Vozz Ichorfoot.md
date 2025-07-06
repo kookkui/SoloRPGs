@@ -135,7 +135,7 @@ Language1: Diabolic
 >>**Gold Pieces (gp)**|`0` |
 >>**Bronze Pieces (bp)**|`0` | 
 >>**Arrows**|`12` |
->>**Rations**|`6` |
+>>**Rations**|`5` |
 >>**Torches**| `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):torch1]` |
 >>**Lamp Oil**|`INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):Lampoil]` |
 
@@ -146,9 +146,9 @@ Language1: Diabolic
 >> ##### Timers & Counters
 >>  | |
 >>---|---|
->>**Watches**| `clock,yellow: 3/4` |
+>>**Watches**| `clock,yellow: 0/4` |
 >>**Encounter Penalties**|`circles,pink: 1/10`|
->>**Goal Timer**|`circles,yellow: 0/12`|
+>>**Goal Timer**|`circles,yellow: 8/12`|
 >>**Progress Track**|`circles,green: 0/10` | 
 >>**Countdown Track**|`circles,red: 0/4` |
 

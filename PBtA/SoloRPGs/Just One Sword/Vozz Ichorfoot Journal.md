@@ -148,7 +148,6 @@ I came across a Lake that seems more like a bog, the fish are dead and rotting. 
 
 I will keep on moving with haste.
 
-
 ### Third Watch
 
 Encounter Check +2: `d8 = 3` Encounter!
@@ -230,9 +229,52 @@ Melee Attack to Blood Demon 2 (12)  `d20 = 15` + 2 = 17 Hit!
 
 6 Damage to Blood Demon 2 (Deads)
 
-<span style="color:rgb(241, 91, 181)">Victory!</span>
+<span style="color:#FF29B8">Victory!</span>
 
+### Forth Watch
 
+Encounter Check +1: `d8 = 1` Encounter!
 
+Witch, Oppression, Scavenging, Hungry
 
+I notice a Witch, grumbling to herself and searching around in the near-by brush. I call out and wave at showing no hostility.
+
+Reaction: Neutral / Indifferent 
+
+I offer the Witch a ration and she gladly accepts. 
+
+Seeing as I only have 5 silver to my name I decided it would be easier to just be on my way rather than barter with the Witch. 
+
+I found a Hidden Homestead, I wonder if anyone is living here? 
+
+Seems it is abandoned, I will just rest here for the night.
+
+-1 Ration 
+
+## 998-06-06
+
+Temperature: cooler than normal
+Weather: Raining
+
+### First Watch
+
+I have found the Barrow of the Desecrated entrance. 
+
+#### Barrow of the Desecrated
+
+**Size:** 8
+**Danger Level:** Unsafe 
+**Danger Die:** d10 
+**Traps:** 1d6
+Factions: Two Factions, <font color="#8624FF">Night Kin</font> and <font color="#00b050">Giant Insects</font>
+Faction relationship: Peaceful / Cooperative
+Built by a Secret Society as a Meeting Place.
+The place was abandoned because of curses that were created within and possibly backfired.
+##### Room 1
+
+Confusing Shrine / Chapel
+The first room I set foot in is already a shrine of some grotesque manner. I have no clue what or whom they were built.
+
+Danger: Locked door 
+Encounter Check: 3 No encounter.
 
