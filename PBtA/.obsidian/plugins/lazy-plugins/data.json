@@ -140,6 +140,9 @@
       },
       "omnisearch": {
         "startupType": "instant"
+      },
+      "custom-font-loader": {
+        "startupType": "instant"
       }
     },
     "loadOrder": []

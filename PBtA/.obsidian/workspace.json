@@ -50,7 +50,8 @@
               "title": "Colour Pallette"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "119638e5447a0399",
@@ -75,16 +76,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoloRPGs/Just One Sword/PC/Vozz Ichorfoot.md",
-                "mode": "preview",
-                "source": false
+                "file": "SoloRPGs/Untitled.md",
+                "mode": "source",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Vozz Ichorfoot"
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "86da6ae63bd4700c",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "SoloRPGs/Just One Sword/Maps/Map of Mistvale.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Map of Mistvale"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -175,8 +188,8 @@
             "state": {
               "type": "MAIN_VIEW",
               "state": {},
-              "icon": "srt-ribbon",
-              "title": "Solo RPG Toolkit"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
@@ -286,13 +299,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoloRPGs/Just One Sword/Vozz Ichorfoot Journal.md",
+                "file": "SoloRPGs/Just One Sword/Maps/Hex Map Key.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Vozz Ichorfoot Journal"
+              "title": "Outline of Hex Map Key"
             }
           },
           {
@@ -350,20 +363,22 @@
       "solo-rpg-toolkit:Solo RPG Toolkit": false
     }
   },
-  "active": "bdc52f0b4d99283f",
+  "active": "f40eaee63e9d33e9",
   "lastOpenFiles": [
-    "SoloRPGs/Just One Sword/Tables/Roll Tables.md",
+    "SoloRPGs/Just One Sword/Maps/Map of Mistvale.md",
+    "SoloRPGs/Untitled.md",
+    "SoloRPGs/1-Assets/Mistvale_JustOneTorch.webp",
+    "SoloRPGs/Just One Sword/Maps/Hex Map Key.md",
+    "SoloRPGs/Just One Sword/Maps/Barrow of the Desecrated.md",
     "SoloRPGs/Just One Sword/Vozz Ichorfoot Journal.md",
     "SoloRPGs/Just One Sword/PC/Vozz Ichorfoot.md",
-    "SoloRPGs/Just One Sword/Maps/Barrow of the Desecrated.md",
+    "SoloRPGs/Just One Sword/World Building/Duskveil.md",
+    "SoloRPGs/Just One Sword/Tables/Roll Tables.md",
     "SoloRPGs/1-Assets/MarkerPins vector fix_2.webp",
     "SoloRPGs/1-Assets/Barrow of the Desecrated_43x55.webp",
     "SoloRPGs/Just One Sword/Tables/Combat Tables.md",
     "SoloRPGs/4-Templates/Colour Pallette.md",
-    "SoloRPGs/Just One Sword/Maps/Hex Map Key.md",
     "SoloRPGs/Just One Sword/Tables/Rules Reference.md",
-    "SoloRPGs/Just One Sword/World Building/Duskveil.md",
-    "SoloRPGs/Just One Sword/Maps/Map of Mistvale.md",
     "SoloRPGs/4-Templates/Snippets.md",
     "SoloRPGs/Just One Sword/Maps/Battle Maps/Cliffs Road Battle Map Grided.md",
     "SoloRPGs/5-Tokens/VTT Battle Tokens/Blood Demon - 0201.webp",
@@ -375,7 +390,6 @@
     "SoloRPGs/4-Templates/Maps/WoodlandPath_day_stream.webp",
     "SoloRPGs/4-Templates/Maps/TheRockyRavine_day_30x30.webp",
     "SoloRPGs/4-Templates/Maps/VillageGraveyard_day_30x30.webp",
-    "SoloRPGs/4-Templates/Maps/CaravanOfFun_day_park.webp",
     "SoloRPGs/Just One Sword/Bestiary Data.md",
     "SoloRPGs/Just One Sword/Abilities & Skills/Thievery.md",
     "SoloRPGs/Just One Sword/Abilities & Skills/Awareness.md",
@@ -386,7 +400,6 @@
     "SoloRPGs/2-Bestiaries/Just One Sword/BLOOD DEMON.md",
     "SoloRPGs/2-Bestiaries/Just One Sword/SHADOW DEMON.md",
     "SoloRPGs/2-Bestiaries/Just One Sword/LIZARD-MAN SORCERER.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/LIZARD-MAN WAR CHIEF.md",
     "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Maps/Interior Maps",
     "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Maps",
     "SoloRPGs/1-Assets/SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Eka",

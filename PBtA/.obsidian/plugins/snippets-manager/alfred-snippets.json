@@ -59,8 +59,8 @@
     {
       "uid": 9,
       "title": "Victory!",
-      "subtitle": "<span style=\"color:rgb(241, 91, 181)\">Victory!</span>",
-      "arg": "<span style=\"color:rgb(241, 91, 181)\">Victory!</span>",
+      "subtitle": "<span style=\"color:#FF29B8\">Victory!</span>",
+      "arg": "<span style=\"color:#FF29B8\">Victory!</span>",
       "key": "Victory!"
     },
     {
