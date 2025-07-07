@@ -6,7 +6,7 @@
       {
         "id": "70ee01fb01225238",
         "type": "tabs",
-        "dimension": 50,
+        "dimension": 49.435938759065266,
         "children": [
           {
             "id": "bdc52f0b4d99283f",
@@ -23,17 +23,17 @@
             }
           },
           {
-            "id": "f40eaee63e9d33e9",
+            "id": "788ddfea6c686fd2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoloRPGs/Just One Sword/Maps/Hex Map Key.md",
+                "file": "SoloRPGs/Just One Sword/Bestiary Data.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hex Map Key"
+              "title": "Bestiary Data"
             }
           },
           {
@@ -50,14 +50,55 @@
               "title": "Colour Pallette"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "119638e5447a0399",
         "type": "tabs",
-        "dimension": 50,
+        "dimension": 50.564061240934734,
         "children": [
+          {
+            "id": "46eb76b9c089b15b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SoloRPGs/Just One Sword/PC/Vozz Ichorfoot.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Vozz Ichorfoot"
+            }
+          },
+          {
+            "id": "418083ebb8ee18ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SoloRPGs/2-Bestiaries/Just One Sword/NIGHT-KIN DRONE (Minion).md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "NIGHT-KIN DRONE (Minion)"
+            }
+          },
+          {
+            "id": "2a190dd02e813708",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SoloRPGs/2-Bestiaries/Just One Sword/SCORPION.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SCORPION"
+            }
+          },
           {
             "id": "19da868b4080630f",
             "type": "leaf",
@@ -71,33 +112,21 @@
             }
           },
           {
-            "id": "7382c2ee1260401e",
+            "id": "f40eaee63e9d33e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoloRPGs/Untitled.md",
+                "file": "SoloRPGs/4-Templates/Dicier Font.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Untitled"
-            }
-          },
-          {
-            "id": "86da6ae63bd4700c",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "SoloRPGs/Just One Sword/Maps/Map of Mistvale.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Map of Mistvale"
+              "title": "Dicier Font"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,7 +235,7 @@
       {
         "id": "9069df57700a3564",
         "type": "tabs",
-        "dimension": 54.25383542538354,
+        "dimension": 50.697350069735,
         "children": [
           {
             "id": "30ad3195d21516b7",
@@ -299,13 +328,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoloRPGs/Just One Sword/Maps/Hex Map Key.md",
+                "file": "SoloRPGs/Just One Sword/Vozz Ichorfoot Journal.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Hex Map Key"
+              "title": "Outline of Vozz Ichorfoot Journal"
             }
           },
           {
@@ -319,12 +348,12 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "0e6a14a15862aa6f",
         "type": "tabs",
-        "dimension": 45.74616457461646,
+        "dimension": 49.30264993026499,
         "children": [
           {
             "id": "60a312994f2ecd3d",
@@ -363,43 +392,44 @@
       "solo-rpg-toolkit:Solo RPG Toolkit": false
     }
   },
-  "active": "f40eaee63e9d33e9",
+  "active": "bdc52f0b4d99283f",
   "lastOpenFiles": [
-    "SoloRPGs/Just One Sword/Maps/Map of Mistvale.md",
-    "SoloRPGs/Untitled.md",
-    "SoloRPGs/1-Assets/Mistvale_JustOneTorch.webp",
-    "SoloRPGs/Just One Sword/Maps/Hex Map Key.md",
-    "SoloRPGs/Just One Sword/Maps/Barrow of the Desecrated.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/NIGHT-KIN DRONE (Minion).md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/SCORPION.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/SPIDER.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/VAMPIRE.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/NIGHT DEMON.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/MANTICORE.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/COCKATRICE.md",
     "SoloRPGs/Just One Sword/Vozz Ichorfoot Journal.md",
-    "SoloRPGs/Just One Sword/PC/Vozz Ichorfoot.md",
-    "SoloRPGs/Just One Sword/World Building/Duskveil.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/BANDIT.md",
+    "SoloRPGs/Just One Sword/Bestiary Data.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/WAR HORSE.md",
     "SoloRPGs/Just One Sword/Tables/Roll Tables.md",
+    "SoloRPGs/Just One Sword/PC/Vozz Ichorfoot.md",
+    "SoloRPGs/Just One Sword/Tables/Travel Tables.md",
+    "SoloRPGs/Just One Sword/Maps/Barrow of the Desecrated.md",
+    "SoloRPGs/Just One Sword/Abilities & Skills/Spot Hidden.md",
+    "SoloRPGs/4-Templates/Dicier Font.md",
+    "SoloRPGs/4-Templates/Snippets.md",
+    "SoloRPGs/4-Templates/Colour Pallette.md",
+    "SoloRPGs/Just One Sword/Abilities & Skills/Thievery.md",
+    "SoloRPGs/Just One Sword/Maps/Map of Mistvale.md",
+    "SoloRPGs/Just One Sword/Maps/Hex Map Key.md",
+    "SoloRPGs/Untitled 1.md",
+    "SoloRPGs/1-Assets/Mistvale_JustOneTorch.webp",
+    "SoloRPGs/Just One Sword/World Building/Duskveil.md",
     "SoloRPGs/1-Assets/MarkerPins vector fix_2.webp",
     "SoloRPGs/1-Assets/Barrow of the Desecrated_43x55.webp",
     "SoloRPGs/Just One Sword/Tables/Combat Tables.md",
-    "SoloRPGs/4-Templates/Colour Pallette.md",
     "SoloRPGs/Just One Sword/Tables/Rules Reference.md",
-    "SoloRPGs/4-Templates/Snippets.md",
-    "SoloRPGs/Just One Sword/Maps/Battle Maps/Cliffs Road Battle Map Grided.md",
     "SoloRPGs/5-Tokens/VTT Battle Tokens/Blood Demon - 0201.webp",
-    "SoloRPGs/Just One Sword/Maps/Battle Maps/Grassland Battle Map Grided.md",
     "SoloRPGs/5-Tokens/VTT Battle Tokens/Abyssal Chicken - 0201.webp",
     "SoloRPGs/4-Templates/Maps/cliffs_road_trees.webp",
-    "SoloRPGs/Just One Sword/Maps/Battle Maps/Cave Battle Map Grided.md",
     "SoloRPGs/5-Tokens/VTT Battle Tokens/Animal - Spider - Giant - 0101 - Tier1.webp",
     "SoloRPGs/4-Templates/Maps/WoodlandPath_day_stream.webp",
     "SoloRPGs/4-Templates/Maps/TheRockyRavine_day_30x30.webp",
     "SoloRPGs/4-Templates/Maps/VillageGraveyard_day_30x30.webp",
-    "SoloRPGs/Just One Sword/Bestiary Data.md",
-    "SoloRPGs/Just One Sword/Abilities & Skills/Thievery.md",
-    "SoloRPGs/Just One Sword/Abilities & Skills/Awareness.md",
-    "SoloRPGs/Just One Sword/Abilities & Skills/Architecture.md",
-    "SoloRPGs/Just One Sword/Abilities & Skills/Hunt & Fish.md",
-    "SoloRPGs/Just One Sword/Abilities & Skills/Bushcraft.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/ASSASSIN.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/BLOOD DEMON.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/SHADOW DEMON.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/LIZARD-MAN SORCERER.md",
     "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Maps/Interior Maps",
     "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Maps",
     "SoloRPGs/1-Assets/SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Eka",

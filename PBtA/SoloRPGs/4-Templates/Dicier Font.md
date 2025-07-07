@@ -1,0 +1,537 @@
+### Numbered Dice
+<p style="font-family: DicierFH Regular; font-size: 36px;">
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+</p>
+
+### Dice Shapes
+<p style="font-family: DicierFH Regular; font-size: 36px;">
+D2
+D4
+D6
+D8
+D10
+D12
+D20
+BARREL
+H_BARREL
+</p>
+
+### Dice Results
+<p style="font-family: DicierFH Regular; font-size: 36px;">
+0_ON_D6
+1_ON_D6
+2_ON_D6
+3_ON_D6
+4_ON_D6
+5_ON_D6
+6_ON_D6
+7_ON_D6
+8_ON_D6
+9_ON_D6
+ANY_ON_D6
+0_ON_D2
+1_ON_D2
+2_ON_D2
+3_ON_D2
+4_ON_D2
+ANY_ON_D2
+0_ON_D4
+1_ON_D4
+2_ON_D4
+3_ON_D4
+4_ON_D4
+ANY_ON_D4
+0_ON_D8
+1_ON_D8
+2_ON_D8
+3_ON_D8
+4_ON_D8
+5_ON_D8
+6_ON_D8
+7_ON_D8
+8_ON_D8
+ANY_ON_D8
+0_ON_D10
+1_ON_D10
+2_ON_D10
+3_ON_D10
+4_ON_D10
+5_ON_D10
+6_ON_D10
+7_ON_D10
+8_ON_D10
+9_ON_D10
+10_ON_D10
+ANY_ON_D10
+0_ON_D12
+1_ON_D12
+2_ON_D12
+3_ON_D12
+4_ON_D12
+5_ON_D12
+6_ON_D12
+7_ON_D12
+8_ON_D12
+9_ON_D12
+10_ON_D12
+11_ON_D12
+12_ON_D12
+ANY_ON_D12
+0_ON_D20
+1_ON_D20
+2_ON_D20
+3_ON_D20
+4_ON_D20
+5_ON_D20
+6_ON_D20
+7_ON_D20
+8_ON_D20
+9_ON_D20
+10_ON_D20
+11_ON_D20
+12_ON_D20
+13_ON_D20
+14_ON_D20
+15_ON_D20
+16_ON_D20
+17_ON_D20
+18_ON_D20
+19_ON_D20
+20_ON_D20
+ANY_ON_D20
+</p>
+
+### Yes/and/no/but... Dice
+<p style="font-family: DicierFH Regular; font-size: 36px;">
+YES
+NO
+AND
+BUT
+YES_AND
+YES_BUT
+NO_AND
+NO_BUT
+</p>
+
+### Fudge Dice
+<p style="font-family: DicierFH Regular; font-size: 36px;">
+PLUS
+MINUS
+BLANK
+</p>
+
+### Taoist Trigram Dice
+<p style="font-family: DicierFH Regular; font-size: 36px;">
+HEAVEN
+LAKE
+MARSH
+FIRE
+THUNDER
+WIND
+WATER
+MOUNTAIN
+EARTH
+GROUND
+</p>
+
+### Other Symbol Dice
+<p style="font-family: DicierFH Regular; font-size: 36px;">
+EXCLAIM
+QUESTION
+SLASH
+NOUGHT
+CIRCLE
+RING
+CROSS
+CHECK
+TICK
+ANY
+</p>
+
+### Even and Odd Dice
+<p style="font-family: DicierFH Regular; font-size: 36px;">
+EVEN
+ODD
+</p>
+
+### Backgammon Doubling Cube
+<p style="font-family: DicierFH Regular; font-size: 36px;">
+2
+4
+8
+16
+32
+64
+</p>
+
+Generic Domino
+<p style="font-family: DicierFH Regular; font-size: 36px;">
+DOMINO
+</p>
+
+### Numbered Dominoes
+<p style="font-family: DicierFH Regular; font-size: 36px;">
+0_0
+0_1
+0_2
+0_3
+0_4
+0_5
+0_6
+0_7
+0_8
+0_9
+1_0
+1_1
+1_2
+1_3
+1_4
+1_5
+1_6
+1_7
+1_8
+1_9
+2_0
+2_1
+2_2
+2_3
+2_4
+2_5
+2_6
+2_7
+2_8
+2_9
+3_0
+3_1
+3_2
+3_3
+3_4
+3_5
+3_6
+3_7
+3_8
+3_9
+4_0
+4_1
+4_2
+4_3
+4_4
+4_5
+4_6
+4_7
+4_8
+4_9
+5_0
+5_1
+5_2
+5_3
+5_4
+5_5
+5_6
+5_7
+5_8
+5_9
+6_0
+6_1
+6_2
+6_3
+6_4
+6_5
+6_6
+6_7
+6_8
+6_9
+7_0
+7_1
+7_2
+7_3
+7_4
+7_5
+7_6
+7_7
+7_8
+7_9
+8_0
+8_1
+8_2
+8_3
+8_4
+8_5
+8_6
+8_7
+8_8
+8_9
+9_0
+9_1
+9_2
+9_3
+9_4
+9_5
+9_6
+9_7
+9_8
+9_9
+</p>
+wildcard dominoes:
+<p style="font-family: DicierFH Regular; font-size: 36px;">
+ANY_0
+ANY_1
+ANY_2
+ANY_3
+ANY_4
+ANY_5
+ANY_6
+ANY_7
+ANY_8
+ANY_9
+0_ANY
+1_ANY
+2_ANY
+3_ANY
+4_ANY
+5_ANY
+6_ANY
+7_ANY
+8_ANY
+9_ANY
+ANY_ANY
+ANY_DOM
+</p>
+
+### Card Values
+<p style="font-family: DicierFH Regular; font-size: 36px;">
+ACE
+TWO
+THREE
+FOUR
+FIVE
+SIX
+SEVEN
+EIGHT
+NINE
+TEN
+JACK
+QUEEN
+KING
+</p>
+
+### Card Suits
+<p style="font-family: DicierFH Regular; font-size: 36px;">
+HEARTS
+DIAMONDS
+CLUBS
+SPADES
+
+### Jokers
+<p style="font-family: DicierFH Regular; font-size: 36px;">
+JOKER
+RED_JOKER
+BLACK_JOKER
+
+### Card Value and Suit Combinations
+<p style="font-family: DicierFH Regular; font-size: 36px;">
+ACE_HEARTS
+TWO_HEARTS
+THREE_HEARTS
+FOUR_HEARTS
+FIVE_HEARTS
+SIX_HEARTS
+SEVEN_HEARTS
+EIGHT_HEARTS
+NINE_HEARTS
+TEN_HEARTS
+JACK_HEARTS
+QUEEN_HEARTS
+KING_HEARTS
+ACE_DIAMONDS
+TWO_DIAMONDS
+THREE_DIAMONDS
+FOUR_DIAMONDS
+FIVE_DIAMONDS
+SIX_DIAMONDS
+SEVEN_DIAMONDS
+EIGHT_DIAMONDS
+NINE_DIAMONDS
+TEN_DIAMONDS
+JACK_DIAMONDS
+QUEEN_DIAMONDS
+KING_DIAMONDS
+ACE_CLUBS
+TWO_CLUBS
+THREE_CLUBS
+FOUR_CLUBS
+FIVE_CLUBS
+SIX_CLUBS
+SEVEN_CLUBS
+EIGHT_CLUBS
+NINE_CLUBS
+TEN_CLUBS
+JACK_CLUBS
+QUEEN_CLUBS
+KING_CLUBS
+ACE_SPADES
+TWO_SPADES
+THREE_SPADES
+FOUR_SPADES
+FIVE_SPADES
+SIX_SPADES
+SEVEN_SPADES
+EIGHT_SPADES
+NINE_SPADES
+TEN_SPADES
+JACK_SPADES
+QUEEN_SPADES
+KING_SPADES
+</p>
+
+### Season Suits
+<p style="font-family: DicierFH Regular; font-size: 36px;">
+SPRINGS
+SPRING
+SUMMERS
+SUMMER
+AUTUMNS
+AUTUMN
+FALLS
+FALL
+WINTERS
+WINTER
+</p>
+
+### uncommon historical suits
+<p style="font-family: DicierFH Regular; font-size: 36px;">
+BULLETS
+CROSSES
+STARS
+CROWNS
+ANCHORS
+CASTLES
+LEAVES
+EAGLES
+</p>
+
+### Crown and Anchor Symbols
+<p style="font-family: DicierFH Regular; font-size: 36px;">
+CROWN
+ANCHOR
+</p>
+
+### Tarot Minor Arcana Values
+<p style="font-family: DicierFH Regular; font-size: 36px;">
+DAMSEL
+MAID
+PAGE
+KNAVE
+KNIGHT
+</p>
+
+### Tarot Minor Arcana Suits
+<p style="font-family: DicierFH Regular; font-size: 36px;">
+WANDS
+RODS
+STAVES
+STAFFS
+BATONS
+PENTACLE
+COINS
+DISKS
+RINGS
+CUPS
+GOBLETS
+CHALICES
+VESSELS
+SWORDS
+BLADES
+</p>
+
+### Heckadeck Values
+<p style="font-family: DicierFH Regular; font-size: 36px;">
+ZERO
+ELEVEN
+BEAST
+HUNTER
+TRAVEL
+</p>
+
+### Heckadeck Suits
+<p style="font-family: DicierFH Regular; font-size: 36px;">
+ACORNS
+PLANETS
+CLOUDS
+KNIVES
+</p>
+
+### Heckadeck 2-Suit Face Card Combinations
+<p style="font-family: DicierFH Regular; font-size: 36px;">
+HUNTER_ACORNS_CLUBS
+HUNTER_PLANETS_SPADES
+HUNTER_CLOUDS_HEARTS
+HUNTER_KNIVES_DIAMONDS
+TRAVEL_ACORNS_CLUBS
+TRAVEL_PLANETS_SPADES
+TRAVEL_CLOUDS_HEARTS
+TRAVEL_KNIVES_DIAMONDS
+</p>
+
+### Heckadeck Extras
+<p style="font-family: DicierFH Regular; font-size: 36px;">
+CRONE
+WATCHER
+OMNIHEDRON
+DARKNESS
+GREEN_JOKER
+BLUE_JOKER
+ARROW
+RED_ARROW
+BLACK_ARROW
+GREEN_ARROW
+BLUE_ARROW
+TALISMAN
+RED_TALIS
+BLACK_TALIS
+GREEN_TALIS
+BLUE_TALIS
+</p>
+
+### Coins
+<p style="font-family: DicierFH Regular; font-size: 36px;">
+COIN
+HEADS
+TAILS
+ANY_FLIP
+ON_EDGE
+IN_SOFA
+IN_COUCH
+</p>
+
+### Zener Cards
+<p style="font-family: DicierFH Regular; font-size: 36px;">
+Z_CIRCLE
+Z_PLUS
+Z_WAVES
+Z_SQUARE
+Z_STAR
+</p>
+
+### Dreidel
+<p style="font-family: DicierFH Regular; font-size: 36px;">
+DREIDEL
+NUN
+GIMEL
+HE
+SHIN
+ANY_SIDE
+נ‎
+ג
+ה
+ש
+</p>

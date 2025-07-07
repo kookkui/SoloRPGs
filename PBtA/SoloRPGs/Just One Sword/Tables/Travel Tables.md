@@ -258,3 +258,30 @@
 |6|Fearless: Enemies encountered here will never flee due to low numbers.|
 |7|Empowered: All enemies deal an extra 1 damage per attack.|
 |7|Armored: All enemies here have suffered a mutation that covers them in armored plates, which grants them +1 to AC.|
+
+
+### Dungeon Theme
+|`dice:d20`|Dungeon Theme|
+|---|---|
+|1|Blasphemy|
+|2|Cruelty|
+|3|Survival|
+|4|Secrets|
+|5|Knowledge|
+|6|Growth|
+|7|Infestation|
+|8|Transformation|
+|9|Destruction|
+|10|Creation|
+|11|Treachery|
+|12|Curses|
+|13|Occult|
+|14|Undead|
+|15|Power|
+|16|Corruption|
+|17|Horrors|
+|18|Conﬂict|
+|19|Fury|
+|20|Arcane|
+
+^f124c1

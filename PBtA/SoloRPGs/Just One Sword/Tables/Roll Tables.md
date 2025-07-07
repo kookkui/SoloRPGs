@@ -42,9 +42,6 @@
 >#####  Dungeon Features
 >`dice:[[Travel Tables#^2b15c9]]`
 >
-> ##### Exits
->`dice:[[Travel Tables#^645b75]]`
->
 >#####  Dungeon Dressing
 >`dice:[[Travel Tables#^0050c6]]`
 >
@@ -54,9 +51,14 @@
 > ##### Dungeon Danger
 >`dice:[[Travel Tables#^6287f1]]`
 >
+> ##### Dungeon Theme
+>`dice:[[Travel Tables#^f124c1]]`
+>
 > ##### Barrow of the Desecrated Encounters
 >`dice:[[Combat Tables#^67814c]]`
 >
+> ##### Exits
+>`dice:[[Travel Tables#^645b75]]`
 
 ### Loot Tables
 > [!dice] Loot Tables

@@ -275,6 +275,38 @@ The place was abandoned because of curses that were created within and possibly 
 Confusing Shrine / Chapel
 The first room I set foot in is already a shrine of some grotesque manner. I have no clue what or whom they were built.
 
-Danger: Locked door 
-Encounter Check: 3 No encounter.
+Danger: <font color="#F94144">Locked door </font>
+Encounter Check: <span style="font-family: DicierFH Regular; font-size: 30px;">3_ON_D8</span> No encounter.
+
+I will attempt to pick the lock. +1 Encounters
++DEX <span style="font-family: DicierFH Regular; font-size: 30px;">16</span> + 2 + 1 = 10 <font color="#00b050">Full Success</font>
+
+Scavenge check: <font color="#FB5607">6 silver</font>
+
+Searching +1 Encounters
++WIS <span style="font-family: DicierFH Regular; font-size: 30px;">36</span> + 1 + 0 = 10 <font color="#00b050">Full Success</font>
+
+Loots: <font color="#fb5607">Tapestry (250 SP)</font>
+##### Room 2
+
+Light Check:  <span style="font-family: DicierFH Regular; font-size: 30px;">7_ON_D8</span>
+Theme: Fury
+Danger: Fungal spores
+Danger: Slick / Slippery ﬂoor
+Environment: Signs of Erosion
+Claustrophobic Chamber
+
+This room has a very low ceiling and just feels like it is closing in on me.
+And the floor is slimy and slick because of what looks like mold growing EVERYWHERE.
+
+DEX check to be able to make it across the floor.
+
++DEX <span style="font-family: DicierFH Regular; font-size: 30px;">65</span> + 2 + 0 = 13 Full Success!
+
+Encounter Check: <span style="font-family: DicierFH Regular; font-size: 30px;">1_ON_D8</span> Encounter!
+
+TEL = 4
+
+Minion Reptilian Horns / Tusks Toxic spores 
+
 

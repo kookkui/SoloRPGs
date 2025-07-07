@@ -51,6 +51,25 @@
           "value": "getMetadata('ajats') * '0.6' + getMetadata('currency')"
         }
       ]
+    },
+    {
+      "label": "Add SP",
+      "icon": "",
+      "style": "primary",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "psilver",
+      "hidden": true,
+      "actions": [
+        {
+          "type": "updateMetadata",
+          "bindTarget": "currency",
+          "evaluate": true,
+          "value": "getMetadata('asilver') + getMetadata('currency')"
+        }
+      ]
     }
   ],
   "excludedFolders": [

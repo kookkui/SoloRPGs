@@ -47,3 +47,8 @@ DODGE: `d20 = ` + REFLEX + Armor Bonus / Penalty =
 
 ### JustOneSword vs MAGIC
 vs MAGIC: `d20 = ` + MIND + Bonus / Penalty =
+
+### JustOneSword vs +Check
++2d6  + ATRBonus + SKILL =
+### Dicier
+ <span style="font-family: DicierFH Regular; font-size: 30px;">20_ON_D20</span>

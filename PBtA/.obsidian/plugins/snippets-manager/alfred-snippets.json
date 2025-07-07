@@ -104,6 +104,20 @@
       "subtitle": "vs MAGIC: `d20 = ` + MIND + Bonus / Penalty =",
       "arg": "vs MAGIC: `d20 = ` + MIND + Bonus / Penalty =",
       "key": "JustOneSword vs MAGIC"
+    },
+    {
+      "uid": 16,
+      "title": "Dicier",
+      "subtitle": "<span style=\"font-family: DicierFH Regular; font-size: 30px;\">20_ON_D20</span>",
+      "arg": "<span style=\"font-family: DicierFH Regular; font-size: 30px;\">20_ON_D20</span>",
+      "key": "Dicier"
+    },
+    {
+      "uid": 17,
+      "title": "JustOneSword vs +Check",
+      "subtitle": "+2d6  + ATRBonus + SKILL =",
+      "arg": "+2d6  + ATRBonus + SKILL =",
+      "key": "JustOneSword vs +Check"
     }
   ]
 }
