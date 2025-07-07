@@ -87,37 +87,37 @@
     {
       "uid": 13,
       "title": "JustOneSword BLOCK",
-      "subtitle": "BLOCK: `d20 = ` + BODY + Armor Bonus / Penalty =",
-      "arg": "BLOCK: `d20 = ` + BODY + Armor Bonus / Penalty =",
+      "subtitle": "BLOCK:   + BODY + Armor Bonus / Penalty =",
+      "arg": "BLOCK:   + BODY + Armor Bonus / Penalty =",
       "key": "JustOneSword BLOCK"
     },
     {
       "uid": 14,
       "title": "JustOneSword DODGE",
-      "subtitle": "DODGE: `d20 = ` + REFLEX + Armor Bonus / Penalty =",
-      "arg": "DODGE: `d20 = ` + REFLEX + Armor Bonus / Penalty =",
+      "subtitle": "DODGE:   + REFLEX + Armor Bonus / Penalty =",
+      "arg": "DODGE:   + REFLEX + Armor Bonus / Penalty =",
       "key": "JustOneSword DODGE"
     },
     {
       "uid": 15,
       "title": "JustOneSword vs MAGIC",
-      "subtitle": "vs MAGIC: `d20 = ` + MIND + Bonus / Penalty =",
-      "arg": "vs MAGIC: `d20 = ` + MIND + Bonus / Penalty =",
+      "subtitle": "vs MAGIC:   + MIND + Bonus / Penalty =",
+      "arg": "vs MAGIC:   + MIND + Bonus / Penalty =",
       "key": "JustOneSword vs MAGIC"
     },
     {
       "uid": 16,
-      "title": "Dicier",
-      "subtitle": "<span style=\"font-family: DicierFH Regular; font-size: 30px;\">20_ON_D20</span>",
-      "arg": "<span style=\"font-family: DicierFH Regular; font-size: 30px;\">20_ON_D20</span>",
-      "key": "Dicier"
-    },
-    {
-      "uid": 17,
       "title": "JustOneSword vs +Check",
       "subtitle": "+2d6  + ATRBonus + SKILL =",
       "arg": "+2d6  + ATRBonus + SKILL =",
       "key": "JustOneSword vs +Check"
+    },
+    {
+      "uid": 17,
+      "title": "Dicier",
+      "subtitle": "<span style=\"font-family: DicierFH Regular; font-size: 30px;\">20_ON_D20</span>",
+      "arg": "<span style=\"font-family: DicierFH Regular; font-size: 30px;\">20_ON_D20</span>",
+      "key": "Dicier"
     }
   ]
 }

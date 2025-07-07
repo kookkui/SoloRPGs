@@ -303,10 +303,113 @@ DEX check to be able to make it across the floor.
 
 +DEX <span style="font-family: DicierFH Regular; font-size: 30px;">65</span> + 2 + 0 = 13 Full Success!
 
-Encounter Check: <span style="font-family: DicierFH Regular; font-size: 30px;">1_ON_D8</span> Encounter!
+Encounter Check: <span style="font-family: DicierFH Regular; font-size: 30px;">1_ON_D8</span> Encounter! 
+Reaction: Hostile
 
-TEL = 4
+```statblock
+creature: Night-Kin Drone (Minion)
+```
 
-Minion Reptilian Horns / Tusks Toxic spores 
+```encounter
+players:
+  - Vozz Ichorfoot
+creatures:
+  - 4:Night-Kin Drone (Minion), 4, 10, 0
+```
+
+Combat Start!
+
+PC Turn
+
+Shooting Night-Kin Drone 1 (10) <span style="font-family: DicierFH Regular; font-size: 30px;">15_ON_D20</span> + 2 = 17 Hit!
+
+<span style="font-family: DicierFH Regular; font-size: 30px;">6</span> + 2 = 8 Damage to Night-Kin Drone 1 (Deads)
+Remaining 4 Damage to the Night-Kin Drone 2 (Deads) standing right behind him.
+
+Night-Kin Drone 3 Turn
+
+Move NEAR
+
+Attacking Vozz (13) BLOCK: <span style="font-family: DicierFH Regular; font-size: 30px;">8_ON_D20</span> + 3 + 1 = 12 Hit
+
+<span style="font-family: DicierFH Regular; font-size: 30px;">5_ON_D8</span> - Plot Armor = 2 Damage to Vozz (5)
+
+Night-Kin Drone 4 Turn
+
+Move NEAR
+
+Attacking Vozz (13) DODGE: <span style="font-family: DicierFH Regular; font-size: 30px;">10_ON_D20</span> + 3 + 0 = 13 Dodged!
+
+PC Turn
+
+Melee Attack Night-Kin Drone 3 (10) <span style="font-family: DicierFH Regular; font-size: 30px;">9_ON_D20</span> + 2 = 12 Hit!
+
+<span style="font-family: DicierFH Regular; font-size: 30px;">6</span> + 2 = 8 Damage to Night-Kin Drone 3 (Deads)
+Remaining 4 Damage to the Night-Kin Drone 4 (Deads) standing right behind him.
+
+<span style="color:#FF29B8">Victory!</span>
+
+Scavenge Check: <font color="#fb5607">80 Silver</font>
+
+Searching +1 Encounters
++WIS <span style="font-family: DicierFH Regular; font-size: 30px;">35</span> + 1 + 0 = 9 Partial Success
+
+Loots: <font color="#fb5607">Gem (100 SP)</font>
+
+Encounter Check: <span style="font-family: DicierFH Regular; font-size: 30px;">2_ON_D8</span>
+
+There is a rumbling coming from the wall that is mostly wet dirt from the slime. Suddenly a Grizzly Bear breaks through the wall!
+
+Reaction: Hostile
+
+TEL: 5
+
+```statblock
+creature: Grizzly Bear
+```
+
+
+```encounter
+players:
+  - Vozz Ichorfoot
+creatures:
+  - Grizzly Bear, 18, 14, 0
+```
+
+Combat Start!
+
+Bear Turn
+
+Move NEAR
+
+Attacking Vozz (13) 
+
+BLOCK:  <span style="font-family: DicierFH Regular; font-size: 30px;">10_ON_D20 </span>+ 3 + 1 = 14 Blocked!
+
+PC Turn
+
+Melee Attack Grizzly Bear (14) <span style="font-family: DicierFH Regular; font-size: 30px;">19_ON_D20</span> + 2 = 22 Hit!
+
+<span style="font-family: DicierFH Regular; font-size: 30px;">5</span> + 2 =7 Damage to Grizzly Bear (11) 
+
+PC second attack
+
+Melee Attack Grizzly Bear (14) <span style="font-family: DicierFH Regular; font-size: 30px;">15_ON_D20</span> + 2 = 17 Hit!
+
+<span style="font-family: DicierFH Regular; font-size: 30px;">6</span> + 2 = 8 Damage to Grizzly Bear (3) 
+
+Round 2
+
+PC Turn
+
+Melee Attack Grizzly Bear (14) <span style="font-family: DicierFH Regular; font-size: 30px;">13_ON_D20</span> + 2 = 15 Hit!
+
+<span style="font-family: DicierFH Regular; font-size: 30px;">2</span> + 2 = 4 Damage to Grizzly Bear (Deads) 
+
+<span style="color:#FF29B8">Victory!</span>
+
+Scavenge Check: Nothing
+
+
 
 

@@ -40,13 +40,13 @@ Name has entered the fray!
 00 Damage - 00 Armor = 00 Damage to Enemy (00)
 
 ### JustOneSword BLOCK
-BLOCK: `d20 = ` + BODY + Armor Bonus / Penalty =
+BLOCK:   + BODY + Armor Bonus / Penalty =
 
 ### JustOneSword DODGE
-DODGE: `d20 = ` + REFLEX + Armor Bonus / Penalty =
+DODGE:   + REFLEX + Armor Bonus / Penalty =
 
 ### JustOneSword vs MAGIC
-vs MAGIC: `d20 = ` + MIND + Bonus / Penalty =
+vs MAGIC:   + MIND + Bonus / Penalty =
 
 ### JustOneSword vs +Check
 +2d6  + ATRBonus + SKILL =

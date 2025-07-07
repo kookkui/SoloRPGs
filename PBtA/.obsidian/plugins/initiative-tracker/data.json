@@ -118,7 +118,7 @@
     "creatures": [
       {
         "name": "Vozz Ichorfoot",
-        "initiative": 17,
+        "initiative": 18,
         "static": false,
         "modifier": 1,
         "hp": 7,
@@ -127,8 +127,8 @@
         "currentAC": "12",
         "note": "Vozz Ichorfoot",
         "path": "SoloRPGs/Just One Torch/PC/Vozz Ichorfoot.md",
-        "id": "ID_79fbe9b928a9",
-        "currentHP": 7,
+        "id": "ID_6818382ba94b",
+        "currentHP": 5,
         "tempHP": 0,
         "status": [],
         "enabled": true,

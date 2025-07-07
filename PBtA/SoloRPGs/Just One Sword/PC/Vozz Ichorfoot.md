@@ -18,7 +18,7 @@ MaxHP: 7
 Fatigue: "`=this.CON`"
 axp: 
 background: Beast Hunter
-currency: 11
+currency: 91
 Weapon1: Shortsword
 Weapon1dmg: D6
 Weapon1notes: Piercing / Slashing
@@ -48,7 +48,7 @@ title5: "Travel Rations "
 title6: "Travel Rations "
 title7: Arrows (20)
 title8: Tapestry (250 SP)
-title9: ""
+title9: Gem (100 SP)
 title10: ""
 title11: ""
 title12: ""
@@ -136,7 +136,7 @@ asilver:
 >>**Silver Pieces (sp)**|`=this.currency` |
 >>**Gold Pieces (gp)**|`0` |
 >>**Bronze Pieces (bp)**|`0` | 
->>**Arrows**|`12` |
+>>**Arrows**|`11` |
 >>**Rations**|`5` |
 >>**Torches**| `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):torch1]` |
 >>**Lamp Oil**|`INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):Lampoil]` |
@@ -150,7 +150,7 @@ asilver:
 >>  | |
 >>---|---|
 >>**Watches**| `clock,yellow: 0/4` |
->>**Encounter Penalties**|`circles,pink: 4/10`|
+>>**Encounter Penalties**|`circles,pink: 2/10`|
 >>**Goal Timer**|`circles,yellow: 7/12`|
 >>**Progress Track**|`circles,green: 0/10` | 
 >>**Countdown Track**|`circles,red: 0/4` |

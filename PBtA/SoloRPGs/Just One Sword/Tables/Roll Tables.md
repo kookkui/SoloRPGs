@@ -1,5 +1,5 @@
-### Combat Tables
-> [!rng] Combat Tables
+### Encounter Tables
+> [!rng] Encounter Tables
 > ##### Enemy Attacks Non-Mage
 >`dice:[[Combat Tables#^0f7a37]]`
 >

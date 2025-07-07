@@ -3,7 +3,7 @@
 TABLE WITHOUT ID link(file.name) AS "Name", monster_type AS "Type", lvl AS "Level"
 FROM "SoloRPGs/2-Bestiaries/Just One Sword"
 WHERE contains(layout, "JustOneTorch")
-WHERE contains(monster_type, "Demons")
+WHERE contains(monster_type, "Animals")
 SORT lvl ASC
 ```
 
