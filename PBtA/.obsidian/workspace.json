@@ -23,6 +23,18 @@
             }
           },
           {
+            "id": "57915433a6452652",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "SoloRPGs/5-Tokens/Hexes/Wuggy's Hex Tiles Buildings/WT-Castle3.webp"
+              },
+              "icon": "lucide-image",
+              "title": "WT-Castle3"
+            }
+          },
+          {
             "id": "788ddfea6c686fd2",
             "type": "leaf",
             "state": {
@@ -50,7 +62,8 @@
               "title": "Colour Pallette"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "119638e5447a0399",
@@ -363,10 +376,15 @@
       "solo-rpg-toolkit:Solo RPG Toolkit": false
     }
   },
-  "active": "bdc52f0b4d99283f",
+  "active": "57915433a6452652",
   "lastOpenFiles": [
-    "SoloRPGs/Just One Sword/PC/Vozz Ichorfoot.md",
+    "SoloRPGs/5-Tokens/Hexes/Wuggy's Hex Tiles Buildings/WT-Castle2.webp",
+    "SoloRPGs/5-Tokens/Hexes/Wuggy's Hex Tiles Buildings/WT-Castle1.webp",
     "SoloRPGs/Just One Sword/Vozz Ichorfoot Journal.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/CENTIPEDE.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/GIANT ANT.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/APE.md",
+    "SoloRPGs/Just One Sword/PC/Vozz Ichorfoot.md",
     "SoloRPGs/Just One Sword/Tables/Roll Tables.md",
     "SoloRPGs/Just One Sword/Tables/Rules Reference.md",
     "SoloRPGs/Just One Sword/Tables/Travel Tables.md",
@@ -395,13 +413,8 @@
     "SoloRPGs/5-Tokens/VTT Battle Tokens/Animal - Boar - 0101.webp",
     "SoloRPGs/5-Tokens/VTT Battle Tokens/Aboleth - 0101.webp",
     "SoloRPGs/1-Assets/Deep Dungeon Furnished-standard.webp",
-    "SoloRPGs/2-Bestiaries/Just One Sword/NIGHT-KIN DRONE (Minion).md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/SCORPION.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/SPIDER.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/VAMPIRE.md",
     "SoloRPGs/1-Assets/Mistvale_JustOneTorch.webp",
     "SoloRPGs/1-Assets/MarkerPins vector fix_2.webp",
-    "SoloRPGs/1-Assets/Barrow of the Desecrated_43x55.webp",
     "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Maps/Interior Maps",
     "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Maps",
     "SoloRPGs/1-Assets/SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Eka",
