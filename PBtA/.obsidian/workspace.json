@@ -299,13 +299,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SoloRPGs/Just One Sword/PC/Vozz Ichorfoot.md",
+                "file": "SoloRPGs/Just One Sword/Vozz Ichorfoot Journal.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Vozz Ichorfoot"
+              "title": "Outline of Vozz Ichorfoot Journal"
             }
           },
           {
@@ -363,13 +363,15 @@
       "solo-rpg-toolkit:Solo RPG Toolkit": false
     }
   },
-  "active": "46eb76b9c089b15b",
+  "active": "bdc52f0b4d99283f",
   "lastOpenFiles": [
-    "SoloRPGs/4-Templates/Snippets.md",
-    "SoloRPGs/Just One Sword/Vozz Ichorfoot Journal.md",
     "SoloRPGs/Just One Sword/PC/Vozz Ichorfoot.md",
-    "SoloRPGs/Just One Sword/Bestiary Data.md",
+    "SoloRPGs/Just One Sword/Vozz Ichorfoot Journal.md",
     "SoloRPGs/Just One Sword/Tables/Roll Tables.md",
+    "SoloRPGs/Just One Sword/Tables/Rules Reference.md",
+    "SoloRPGs/Just One Sword/Tables/Travel Tables.md",
+    "SoloRPGs/4-Templates/Snippets.md",
+    "SoloRPGs/Just One Sword/Bestiary Data.md",
     "SoloRPGs/Just One Sword/Maps/Battle Maps/Crypt Battle Map.md",
     "SoloRPGs/4-Templates/Dicier Font.md",
     "SoloRPGs/5-Tokens/VTT Battle Tokens/Animal - Beetle - Giant - 0201 - Tier2.webp",
@@ -385,7 +387,6 @@
     "JUST ONE SWORD - Dungeon Dressing.md",
     "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Tables/BS Exploration Tables.md",
     "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Tables/Broken Shores General Tables.md",
-    "SoloRPGs/Just One Sword/Tables/Travel Tables.md",
     "SoloRPGs/Just One Sword/Maps/Hex Map Key.md",
     "SoloRPGs/Just One Sword/Maps/Map of Mistvale.md",
     "SoloRPGs/2-Bestiaries/Just One Sword/GRIZZLY BEAR.md",

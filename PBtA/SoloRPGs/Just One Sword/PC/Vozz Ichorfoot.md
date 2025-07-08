@@ -50,7 +50,7 @@ title7: Arrows (20)
 title8: Tapestry (250 SP)
 title9: Gem (100 SP)
 title10: Bracelet (1,500 SP)
-title11: ""
+title11: Fine Silk (250 SP)
 title12: ""
 lightitem1: Arm band of Giant Strength (+1 Attribute Bonus to Strength)
 Language1: Diabolic
@@ -150,7 +150,7 @@ asilver:
 >>  | |
 >>---|---|
 >>**Watches**| `clock,yellow: 0/4` |
->>**Encounter Penalties**|`circles,pink: 3/10`|
+>>**Encounter Penalties**|`circles,pink: 2/10`|
 >>**Goal Timer**|`circles,yellow: 6/12`|
 >>**Progress Track**|`circles,green: 0/10` | 
 >>**Countdown Track**|`circles,red: 0/4` |

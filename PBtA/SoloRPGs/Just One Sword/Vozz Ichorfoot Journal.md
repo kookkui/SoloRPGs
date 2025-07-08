@@ -489,3 +489,9 @@ Melee Attack Giant Ant (17) <span style="font-family: DicierRH Regular; font-siz
 
 Scavenge Check: <font color="#ff00cc">4 silver</font>
 
+Searching, Encounter +1 
++WIS <span style="font-family: DicierRH Regular; font-size: 34px;">25</span> + 1 + 0 = 8 Partial Success
+
+Loots: <font color="#fb5607">Fine Silk (250 SP)</font>
+
+
