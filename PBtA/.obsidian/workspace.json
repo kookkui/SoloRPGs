@@ -188,8 +188,8 @@
             "state": {
               "type": "MAIN_VIEW",
               "state": {},
-              "icon": "srt-ribbon",
-              "title": "Solo RPG Toolkit"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
