@@ -118,7 +118,7 @@
     "creatures": [
       {
         "name": "Vozz Ichorfoot",
-        "initiative": 18,
+        "initiative": 20,
         "static": false,
         "modifier": 1,
         "hp": 7,
@@ -127,21 +127,65 @@
         "currentAC": "12",
         "note": "Vozz Ichorfoot",
         "path": "SoloRPGs/Just One Torch/PC/Vozz Ichorfoot.md",
-        "id": "ID_6818382ba94b",
+        "id": "ID_dbd9391b68da",
         "currentHP": 5,
         "tempHP": 0,
         "status": [],
         "enabled": true,
         "level": 1,
         "player": true,
-        "active": false,
+        "active": true,
         "hidden": false,
         "friendly": false
+      },
+      {
+        "name": "Ant",
+        "initiative": 20,
+        "static": false,
+        "modifier": 0,
+        "hp": 14,
+        "currentMaxHP": 14,
+        "ac": 17,
+        "currentAC": 17,
+        "path": "SoloRPGs/2-Bestiaries/Just One Sword/ANT.md",
+        "id": "ID_09ea0b79dac9",
+        "currentHP": 0,
+        "tempHP": 0,
+        "status": [
+          "Unconscious"
+        ],
+        "enabled": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false,
+        "rollHP": false
+      },
+      {
+        "name": "Fire Beetle",
+        "initiative": 6,
+        "static": false,
+        "modifier": 0,
+        "hp": 4,
+        "currentMaxHP": 4,
+        "ac": 16,
+        "currentAC": 16,
+        "path": "SoloRPGs/2-Bestiaries/Just One Sword/FIRE BEETLE.md",
+        "id": "ID_aa699afaa8a9",
+        "currentHP": 0,
+        "tempHP": 0,
+        "status": [
+          "Unconscious"
+        ],
+        "enabled": true,
+        "active": false,
+        "hidden": false,
+        "friendly": false,
+        "rollHP": false
       }
     ],
     "state": false,
     "name": null,
-    "round": 1,
+    "round": 3,
     "logFile": "",
     "rollHP": false
   },

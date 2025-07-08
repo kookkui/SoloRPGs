@@ -87,22 +87,22 @@
     {
       "uid": 13,
       "title": "JustOneSword BLOCK",
-      "subtitle": "BLOCK:   + BODY + Armor Bonus / Penalty =",
-      "arg": "BLOCK:   + BODY + Armor Bonus / Penalty =",
+      "subtitle": "BLOCK: <span style=\"font-family: DicierFH Regular; font-size: 30px;\">20_ON_D20</span> + BODY + Armor Bonus / Penalty =",
+      "arg": "BLOCK: <span style=\"font-family: DicierFH Regular; font-size: 30px;\">20_ON_D20</span> + BODY + Armor Bonus / Penalty =",
       "key": "JustOneSword BLOCK"
     },
     {
       "uid": 14,
       "title": "JustOneSword DODGE",
-      "subtitle": "DODGE:   + REFLEX + Armor Bonus / Penalty =",
-      "arg": "DODGE:   + REFLEX + Armor Bonus / Penalty =",
+      "subtitle": "DODGE: <span style=\"font-family: DicierFH Regular; font-size: 30px;\">20_ON_D20</span> + REFLEX + Armor Bonus / Penalty =",
+      "arg": "DODGE: <span style=\"font-family: DicierFH Regular; font-size: 30px;\">20_ON_D20</span> + REFLEX + Armor Bonus / Penalty =",
       "key": "JustOneSword DODGE"
     },
     {
       "uid": 15,
       "title": "JustOneSword vs MAGIC",
-      "subtitle": "vs MAGIC:   + MIND + Bonus / Penalty =",
-      "arg": "vs MAGIC:   + MIND + Bonus / Penalty =",
+      "subtitle": "vs MAGIC: <span style=\"font-family: DicierFH Regular; font-size: 30px;\">20_ON_D20</span> + MIND + Bonus / Penalty =",
+      "arg": "vs MAGIC: <span style=\"font-family: DicierFH Regular; font-size: 30px;\">20_ON_D20</span> + MIND + Bonus / Penalty =",
       "key": "JustOneSword vs MAGIC"
     },
     {
@@ -115,8 +115,8 @@
     {
       "uid": 17,
       "title": "Dicier",
-      "subtitle": "<span style=\"font-family: DicierFH Regular; font-size: 30px;\">20_ON_D20</span>",
-      "arg": "<span style=\"font-family: DicierFH Regular; font-size: 30px;\">20_ON_D20</span>",
+      "subtitle": "<span style=\"font-family: DicierRH Regular; font-size: 34px;\">20_ON_D20</span>",
+      "arg": "<span style=\"font-family: DicierRH Regular; font-size: 34px;\">20_ON_D20</span>",
       "key": "Dicier"
     }
   ]

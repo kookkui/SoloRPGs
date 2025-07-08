@@ -1,5 +1,5 @@
 ### Numbered Dice
-<p style="font-family: DicierFH Regular; font-size: 36px;">
+<p style="font-family: DicierRH Regular; font-size: 36px;">
 0
 1
 2
@@ -13,7 +13,7 @@
 </p>
 
 ### Dice Shapes
-<p style="font-family: DicierFH Regular; font-size: 36px;">
+<p style="font-family: DicierRH Regular; font-size: 36px;">
 D2
 D4
 D6
@@ -26,7 +26,7 @@ H_BARREL
 </p>
 
 ### Dice Results
-<p style="font-family: DicierFH Regular; font-size: 36px;">
+<p style="font-family: DicierRH Regular; font-size: 36px;">
 0_ON_D6
 1_ON_D6
 2_ON_D6
@@ -111,7 +111,7 @@ ANY_ON_D20
 </p>
 
 ### Yes/and/no/but... Dice
-<p style="font-family: DicierFH Regular; font-size: 36px;">
+<p style="font-family: DicierRH Regular; font-size: 36px;">
 YES
 NO
 AND
@@ -123,14 +123,14 @@ NO_BUT
 </p>
 
 ### Fudge Dice
-<p style="font-family: DicierFH Regular; font-size: 36px;">
+<p style="font-family: DicierRH Regular; font-size: 36px;">
 PLUS
 MINUS
 BLANK
 </p>
 
 ### Taoist Trigram Dice
-<p style="font-family: DicierFH Regular; font-size: 36px;">
+<p style="font-family: DicierRH Regular; font-size: 36px;">
 HEAVEN
 LAKE
 MARSH
@@ -144,7 +144,7 @@ GROUND
 </p>
 
 ### Other Symbol Dice
-<p style="font-family: DicierFH Regular; font-size: 36px;">
+<p style="font-family: DicierRH Regular; font-size: 36px;">
 EXCLAIM
 QUESTION
 SLASH
@@ -158,13 +158,13 @@ ANY
 </p>
 
 ### Even and Odd Dice
-<p style="font-family: DicierFH Regular; font-size: 36px;">
+<p style="font-family: DicierRH Regular; font-size: 36px;">
 EVEN
 ODD
 </p>
 
 ### Backgammon Doubling Cube
-<p style="font-family: DicierFH Regular; font-size: 36px;">
+<p style="font-family: DicierRH Regular; font-size: 36px;">
 2
 4
 8
@@ -174,12 +174,12 @@ ODD
 </p>
 
 Generic Domino
-<p style="font-family: DicierFH Regular; font-size: 36px;">
+<p style="font-family: DicierRH Regular; font-size: 36px;">
 DOMINO
 </p>
 
 ### Numbered Dominoes
-<p style="font-family: DicierFH Regular; font-size: 36px;">
+<p style="font-family: DicierRH Regular; font-size: 36px;">
 0_0
 0_1
 0_2
@@ -282,7 +282,7 @@ DOMINO
 9_9
 </p>
 wildcard dominoes:
-<p style="font-family: DicierFH Regular; font-size: 36px;">
+<p style="font-family: DicierRH Regular; font-size: 36px;">
 ANY_0
 ANY_1
 ANY_2
@@ -308,7 +308,7 @@ ANY_DOM
 </p>
 
 ### Card Values
-<p style="font-family: DicierFH Regular; font-size: 36px;">
+<p style="font-family: DicierRH Regular; font-size: 36px;">
 ACE
 TWO
 THREE
@@ -325,20 +325,20 @@ KING
 </p>
 
 ### Card Suits
-<p style="font-family: DicierFH Regular; font-size: 36px;">
+<p style="font-family: DicierRH Regular; font-size: 36px;">
 HEARTS
 DIAMONDS
 CLUBS
 SPADES
 
 ### Jokers
-<p style="font-family: DicierFH Regular; font-size: 36px;">
+<p style="font-family: DicierRH Regular; font-size: 36px;">
 JOKER
 RED_JOKER
 BLACK_JOKER
 
 ### Card Value and Suit Combinations
-<p style="font-family: DicierFH Regular; font-size: 36px;">
+<p style="font-family: DicierRH Regular; font-size: 36px;">
 ACE_HEARTS
 TWO_HEARTS
 THREE_HEARTS
@@ -394,7 +394,7 @@ KING_SPADES
 </p>
 
 ### Season Suits
-<p style="font-family: DicierFH Regular; font-size: 36px;">
+<p style="font-family: DicierRH Regular; font-size: 36px;">
 SPRINGS
 SPRING
 SUMMERS
@@ -408,7 +408,7 @@ WINTER
 </p>
 
 ### uncommon historical suits
-<p style="font-family: DicierFH Regular; font-size: 36px;">
+<p style="font-family: DicierRH Regular; font-size: 36px;">
 BULLETS
 CROSSES
 STARS
@@ -420,13 +420,13 @@ EAGLES
 </p>
 
 ### Crown and Anchor Symbols
-<p style="font-family: DicierFH Regular; font-size: 36px;">
+<p style="font-family: DicierRH Regular; font-size: 36px;">
 CROWN
 ANCHOR
 </p>
 
 ### Tarot Minor Arcana Values
-<p style="font-family: DicierFH Regular; font-size: 36px;">
+<p style="font-family: DicierRH Regular; font-size: 36px;">
 DAMSEL
 MAID
 PAGE
@@ -435,7 +435,7 @@ KNIGHT
 </p>
 
 ### Tarot Minor Arcana Suits
-<p style="font-family: DicierFH Regular; font-size: 36px;">
+<p style="font-family: DicierRH Regular; font-size: 36px;">
 WANDS
 RODS
 STAVES
@@ -454,7 +454,7 @@ BLADES
 </p>
 
 ### Heckadeck Values
-<p style="font-family: DicierFH Regular; font-size: 36px;">
+<p style="font-family: DicierRH Regular; font-size: 36px;">
 ZERO
 ELEVEN
 BEAST
@@ -463,7 +463,7 @@ TRAVEL
 </p>
 
 ### Heckadeck Suits
-<p style="font-family: DicierFH Regular; font-size: 36px;">
+<p style="font-family: DicierRH Regular; font-size: 36px;">
 ACORNS
 PLANETS
 CLOUDS
@@ -471,7 +471,7 @@ KNIVES
 </p>
 
 ### Heckadeck 2-Suit Face Card Combinations
-<p style="font-family: DicierFH Regular; font-size: 36px;">
+<p style="font-family: DicierRH Regular; font-size: 36px;">
 HUNTER_ACORNS_CLUBS
 HUNTER_PLANETS_SPADES
 HUNTER_CLOUDS_HEARTS
@@ -483,7 +483,7 @@ TRAVEL_KNIVES_DIAMONDS
 </p>
 
 ### Heckadeck Extras
-<p style="font-family: DicierFH Regular; font-size: 36px;">
+<p style="font-family: DicierRH Regular; font-size: 36px;">
 CRONE
 WATCHER
 OMNIHEDRON
@@ -503,7 +503,7 @@ BLUE_TALIS
 </p>
 
 ### Coins
-<p style="font-family: DicierFH Regular; font-size: 36px;">
+<p style="font-family: DicierRH Regular; font-size: 36px;">
 COIN
 HEADS
 TAILS
@@ -514,7 +514,7 @@ IN_COUCH
 </p>
 
 ### Zener Cards
-<p style="font-family: DicierFH Regular; font-size: 36px;">
+<p style="font-family: DicierRH Regular; font-size: 36px;">
 Z_CIRCLE
 Z_PLUS
 Z_WAVES
@@ -523,7 +523,7 @@ Z_STAR
 </p>
 
 ### Dreidel
-<p style="font-family: DicierFH Regular; font-size: 36px;">
+<p style="font-family: DicierRH Regular; font-size: 36px;">
 DREIDEL
 NUN
 GIMEL
@@ -535,3 +535,18 @@ ANY_SIDE
 ה
 ש
 </p>
+
+
+
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+{ .dicier }
+

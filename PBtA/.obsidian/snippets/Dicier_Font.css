@@ -1,0 +1,9 @@
+@font-face { 
+font-family: Dicier;
+src: url('D:\MyScripts\Dicier v1_5_4\woff2\Dicier-Round-Heavy.woff2');
+}
+
+.dicier {
+font-family: Dicier, sans-serif;
+font-feature-settings: “liga” 1, “kern” 1, “calt” 1;
+}

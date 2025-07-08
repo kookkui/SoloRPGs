@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "647319159b537b29",
+        "id": "ffe2f9336c65268f",
         "type": "tabs",
         "children": [
           {
-            "id": "73c7f4e40356ab0b",
+            "id": "9c5105c99e8fbd6e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "SoloRPGs/Broken Shores/BS Table Rolls.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "BS Table Rolls"
             }
           }
         ]
@@ -108,12 +112,12 @@
             "state": {
               "type": "MAIN_VIEW",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "srt-ribbon",
+              "title": "Solo RPG Toolkit"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -277,11 +281,28 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "calendarium:Open Calendarium": false,
+      "solo-rpg-toolkit:Solo RPG Toolkit": false
     }
   },
-  "active": "73c7f4e40356ab0b",
+  "active": "9c5105c99e8fbd6e",
   "lastOpenFiles": [
+    "SoloRPGs/Broken Shores/Tables/Broken Shores General Tables.md",
+    "SoloRPGs/Broken Shores/Tables/BS Exploration Tables.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Tables/Riftbreakers Tables Rolls.md",
+    "SoloRPGs/Broken Shores/BS Table Rolls.md",
+    "SoloRPGs/Broken Shores/Tables/Threat Tables.md",
+    "SoloRPGs/Broken Shores/Tables/BS Loot Table.md",
+    "SoloRPGs/Machine Gods of the Noxian Expanse/Tables/Machine Gods Roll Table.md",
+    "SoloRPGs/_ Assets/Machine Gods Dynamic TNs.png",
+    "SoloRPGs/Machine Gods of the Noxian Expanse/Rules Reference/Table Reference MG.md",
+    "SoloRPGs/Machine Gods of the Noxian Expanse/Tables/Voidspire Territories Tables.md",
+    "SoloRPGs/Machine Gods of the Noxian Expanse/Tables/Faction Roll Table MG.md",
+    "SoloRPGs/Machine Gods of the Noxian Expanse/Tables/Loot Tables MG.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Tables/Rift Tables.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Tables/Loot Table.md",
+    "SoloRPGs/Path of the Aram Thyr/Tables/Aram Thyr Roll Tables.md",
     "SoloRPGs/Disciples of Bone and Shadow/PCs/Hema.md",
     "SoloRPGs/Disciples of Bone and Shadow/DoBS Rules Reference/Character Advancement.md",
     "SoloRPGs/Riftbreakers - Second Edition/Monster Data.md",
@@ -294,31 +315,16 @@
     "SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map Dark Mode.md",
     "SoloRPGs/Disciples of Bone and Shadow/DBS Roll Tables.md",
     "SoloRPGs/Disciples of Bone and Shadow/Tables/DBS Encounter Tables.md",
-    "SoloRPGs/Riftbreakers - Second Edition/PCs/Azel.md",
-    "SoloRPGs/Riftbreakers - Second Edition/PCs/Serayr.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Tables/Riftbreakers Tables Rolls.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Maps/Overworld Maps/Keathor Overworld Map.md",
     "SoloRPGs/_Tokens/VTT Battle Tokens/Large Snake 04.webp",
-    "SoloRPGs/Riftbreakers - Second Edition/PCs/Aurielle's Large Spatial Bag.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Might Heart/Two-Handed Weapon Master.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Death Heart/Chill of Death.md",
     "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/PCs/Azel/GoblinGirl_Token.webp",
-    "SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map.md",
     "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/PCs/Azel",
-    "SoloRPGs/_Templates/Snippets.md",
-    "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Bog Snake.md",
-    "SoloRPGs/_Bestiaries/Riftbreakers Second Edition/Dark Dwellers.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Rules Reference/Riftbreakers House Rules.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Maps/Rift Maps/Primordial Forest Rift 1.md",
     "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Rift Maps/Primordial Forest Rift 1/IMG-20250611230412476.webp",
     "SoloRPGs/_Tokens/VTT Battle Tokens/Toad - Giant - 0105 1.webp",
-    "SoloRPGs/Riftbreakers - Second Edition/Heart Abilities/Might Heart/Unbound Fury.md",
     "SoloRPGs/_Tokens/VTT Battle Tokens/Giant - Storm - 0101.webp",
     "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map/IMG-20250531165008094.webp",
     "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map Dark Mode/IMG-20250602223656096.webp",
     "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map Dark Mode/IMG-20250618173237295.webp",
     "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Battle Map/Combat Zones Map Dark Mode/IMG-20250602223656363.webp",
-    "SoloRPGs/_Tokens/VTT Battle Tokens/Animal - Spirit Bear.webp",
     "SoloRPGs/_Decks/Riftbreakers Current Ability Loadout",
     "SoloRPGs/_Decks/Riftbreakers Ability Cards",
     "SoloRPGs/_ Assets/SoloRPGs/Riftbreakers - Second Edition/Maps/Rift Maps/Primordial Forest Rift 1",

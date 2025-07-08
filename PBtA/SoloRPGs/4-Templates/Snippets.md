@@ -40,15 +40,19 @@ Name has entered the fray!
 00 Damage - 00 Armor = 00 Damage to Enemy (00)
 
 ### JustOneSword BLOCK
-BLOCK:   + BODY + Armor Bonus / Penalty =
+BLOCK: <span style="font-family: DicierFH Regular; font-size: 30px;">20_ON_D20</span> + BODY + Armor Bonus / Penalty =
 
 ### JustOneSword DODGE
-DODGE:   + REFLEX + Armor Bonus / Penalty =
+DODGE: <span style="font-family: DicierFH Regular; font-size: 30px;">20_ON_D20</span> + REFLEX + Armor Bonus / Penalty =
 
 ### JustOneSword vs MAGIC
-vs MAGIC:   + MIND + Bonus / Penalty =
+vs MAGIC: <span style="font-family: DicierFH Regular; font-size: 30px;">20_ON_D20</span> + MIND + Bonus / Penalty =
 
 ### JustOneSword vs +Check
 +2d6  + ATRBonus + SKILL =
 ### Dicier
- <span style="font-family: DicierFH Regular; font-size: 30px;">20_ON_D20</span>
+ <span style="font-family: DicierRH Regular; font-size: 34px;">20_ON_D20</span>
+
+### JustOneSword SEARCH
+Searching, Encounter +1 
++WIS <span style="font-family: DicierRH Regular; font-size: 34px;">56</span> + 1 + 0 = 12 <font color="#00b050">Full Success!</font>

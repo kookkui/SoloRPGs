@@ -276,20 +276,20 @@ Confusing Shrine / Chapel
 The first room I set foot in is already a shrine of some grotesque manner. I have no clue what or whom they were built.
 
 Danger: <font color="#F94144">Locked door </font>
-Encounter Check: <span style="font-family: DicierFH Regular; font-size: 30px;">3_ON_D8</span> No encounter.
+Encounter Check: <span style="font-family: DicierRH Regular; font-size: 34px;">3_ON_D8</span> No encounter.
 
 I will attempt to pick the lock. +1 Encounters
-+DEX <span style="font-family: DicierFH Regular; font-size: 30px;">16</span> + 2 + 1 = 10 <font color="#00b050">Full Success</font>
++DEX <span style="font-family: DicierRH Regular; font-size: 34px;">16</span> + 2 + 1 = 10 <font color="#00b050">Full Success</font>
 
 Scavenge check: <font color="#FB5607">6 silver</font>
 
 Searching +1 Encounters
-+WIS <span style="font-family: DicierFH Regular; font-size: 30px;">36</span> + 1 + 0 = 10 <font color="#00b050">Full Success</font>
++WIS <span style="font-family: DicierRH Regular; font-size: 34px;">36</span> + 1 + 0 = 10 <font color="#00b050">Full Success</font>
 
 Loots: <font color="#fb5607">Tapestry (250 SP)</font>
 ##### Room 2
 
-Light Check:  <span style="font-family: DicierFH Regular; font-size: 30px;">7_ON_D8</span>
+Light Check:  <span style="font-family: DicierRH Regular; font-size: 34px;">7_ON_D8</span>
 Theme: Fury
 Danger: Fungal spores
 Danger: Slick / Slippery ﬂoor
@@ -301,9 +301,9 @@ And the floor is slimy and slick because of what looks like mold growing EVERYWH
 
 DEX check to be able to make it across the floor.
 
-+DEX <span style="font-family: DicierFH Regular; font-size: 30px;">65</span> + 2 + 0 = 13 Full Success!
++DEX <span style="font-family: DicierRH Regular; font-size: 34px;">65</span> + 2 + 0 = 13 Full Success!
 
-Encounter Check: <span style="font-family: DicierFH Regular; font-size: 30px;">1_ON_D8</span> Encounter! 
+Encounter Check: <span style="font-family: DicierRH Regular; font-size: 34px;">1_ON_D8</span> Encounter! 
 Reaction: Hostile
 
 ```statblock
@@ -321,30 +321,30 @@ Combat Start!
 
 PC Turn
 
-Shooting Night-Kin Drone 1 (10) <span style="font-family: DicierFH Regular; font-size: 30px;">15_ON_D20</span> + 2 = 17 Hit!
+Shooting Night-Kin Drone 1 (10) <span style="font-family: DicierRH Regular; font-size: 34px;">15_ON_D20</span> + 2 = 17 Hit!
 
-<span style="font-family: DicierFH Regular; font-size: 30px;">6</span> + 2 = 8 Damage to Night-Kin Drone 1 (Deads)
+<span style="font-family: DicierRH Regular; font-size: 34px;">6</span> + 2 = 8 Damage to Night-Kin Drone 1 (Deads)
 Remaining 4 Damage to the Night-Kin Drone 2 (Deads) standing right behind him.
 
 Night-Kin Drone 3 Turn
 
 Move NEAR
 
-Attacking Vozz (13) BLOCK: <span style="font-family: DicierFH Regular; font-size: 30px;">8_ON_D20</span> + 3 + 1 = 12 Hit
+Attacking Vozz (13) BLOCK: <span style="font-family: DicierRH Regular; font-size: 34px;">8_ON_D20</span> + 3 + 1 = 12 Hit
 
-<span style="font-family: DicierFH Regular; font-size: 30px;">5_ON_D8</span> - Plot Armor = 2 Damage to Vozz (5)
+<span style="font-family: DicierRH Regular; font-size: 34px;">5_ON_D8</span> - Plot Armor = 2 Damage to Vozz (5)
 
 Night-Kin Drone 4 Turn
 
 Move NEAR
 
-Attacking Vozz (13) DODGE: <span style="font-family: DicierFH Regular; font-size: 30px;">10_ON_D20</span> + 3 + 0 = 13 Dodged!
+Attacking Vozz (13) DODGE: <span style="font-family: DicierRH Regular; font-size: 34px;">10_ON_D20</span> + 3 + 0 = 13 Dodged!
 
 PC Turn
 
-Melee Attack Night-Kin Drone 3 (10) <span style="font-family: DicierFH Regular; font-size: 30px;">9_ON_D20</span> + 2 = 12 Hit!
+Melee Attack Night-Kin Drone 3 (10) <span style="font-family: DicierRH Regular; font-size: 34px;">9_ON_D20</span> + 2 = 12 Hit!
 
-<span style="font-family: DicierFH Regular; font-size: 30px;">6</span> + 2 = 8 Damage to Night-Kin Drone 3 (Deads)
+<span style="font-family: DicierRH Regular; font-size: 34px;">6</span> + 2 = 8 Damage to Night-Kin Drone 3 (Deads)
 Remaining 4 Damage to the Night-Kin Drone 4 (Deads) standing right behind him.
 
 <span style="color:#FF29B8">Victory!</span>
@@ -352,11 +352,11 @@ Remaining 4 Damage to the Night-Kin Drone 4 (Deads) standing right behind him.
 Scavenge Check: <font color="#fb5607">80 Silver</font>
 
 Searching +1 Encounters
-+WIS <span style="font-family: DicierFH Regular; font-size: 30px;">35</span> + 1 + 0 = 9 Partial Success
++WIS <span style="font-family: DicierRH Regular; font-size: 34px;">35</span> + 1 + 0 = 9 Partial Success
 
 Loots: <font color="#fb5607">Gem (100 SP)</font>
 
-Encounter Check: <span style="font-family: DicierFH Regular; font-size: 30px;">2_ON_D8</span>
+Encounter Check: <span style="font-family: DicierRH Regular; font-size: 34px;">2_ON_D8</span>
 
 There is a rumbling coming from the wall that is mostly wet dirt from the slime. Suddenly a Grizzly Bear breaks through the wall!
 
@@ -384,32 +384,108 @@ Move NEAR
 
 Attacking Vozz (13) 
 
-BLOCK:  <span style="font-family: DicierFH Regular; font-size: 30px;">10_ON_D20 </span>+ 3 + 1 = 14 Blocked!
+BLOCK:  <span style="font-family: DicierRH Regular; font-size: 34px;">10_ON_D20 </span>+ 3 + 1 = 14 Blocked!
 
 PC Turn
 
-Melee Attack Grizzly Bear (14) <span style="font-family: DicierFH Regular; font-size: 30px;">19_ON_D20</span> + 2 = 22 Hit!
+Melee Attack Grizzly Bear (14) <span style="font-family: DicierRH Regular; font-size: 34px;">19_ON_D20</span> + 2 = 22 Hit!
 
-<span style="font-family: DicierFH Regular; font-size: 30px;">5</span> + 2 =7 Damage to Grizzly Bear (11) 
+<span style="font-family: DicierRH Regular; font-size: 34px;">5</span> + 2 =7 Damage to Grizzly Bear (11) 
 
 PC second attack
 
-Melee Attack Grizzly Bear (14) <span style="font-family: DicierFH Regular; font-size: 30px;">15_ON_D20</span> + 2 = 17 Hit!
+Melee Attack Grizzly Bear (14) <span style="font-family: DicierRH Regular; font-size: 34px;">15_ON_D20</span> + 2 = 17 Hit!
 
-<span style="font-family: DicierFH Regular; font-size: 30px;">6</span> + 2 = 8 Damage to Grizzly Bear (3) 
+<span style="font-family: DicierRH Regular; font-size: 34px;">6</span> + 2 = 8 Damage to Grizzly Bear (3) 
 
 Round 2
 
 PC Turn
 
-Melee Attack Grizzly Bear (14) <span style="font-family: DicierFH Regular; font-size: 30px;">13_ON_D20</span> + 2 = 15 Hit!
+Melee Attack Grizzly Bear (14) <span style="font-family: DicierRH Regular; font-size: 34px;">13_ON_D20</span> + 2 = 15 Hit!
 
-<span style="font-family: DicierFH Regular; font-size: 30px;">2</span> + 2 = 4 Damage to Grizzly Bear (Deads) 
+<span style="font-family: DicierRH Regular; font-size: 34px;">2</span> + 2 = 4 Damage to Grizzly Bear (Deads) 
 
 <span style="color:#FF29B8">Victory!</span>
 
 Scavenge Check: Nothing
 
+Searching, Encounter +1 
++WIS <span style="font-family: DicierRH Regular; font-size: 34px;">56</span> + 1 + 0 = 12 <font color="#00b050">Full Success!</font>
 
+Loots: <font color="#ffff00">Bracelet (1,500 SP)</font>
+### Room 3
+Light Check:  <span style="font-family: DicierRH Regular; font-size: 34px;">7_ON_D8</span>
+Theme: Conﬂict
+Danger: Light Hazard 
+Recent Kitchen
 
+This room is a disgusting looking kitchen of some sort, looks more like someone or something was butchered against its will.
+
+Encounter Check +3:  <span style="font-family: DicierFH Regular; font-size: 30px;">2_ON_D8</span> Encounter!
+TEL: 5
+Giant Insects, Returning ,Assaulted
+
+```statblock
+creature: Fire Beetle
+```
+```statblock
+creature: Ant
+```
+
+```encounter
+players:
+  - Vozz Ichorfoot
+creatures:
+  - Fire Beetle, 4, 16, 0
+  - Ant, 14, 17, 0
+```
+
+PC Turn
+
+Move NEAR
+
+Ranged Attack on Fire Beetle (16) <span style="font-family: DicierRH Regular; font-size: 34px;">19_ON_D20</span> + 2 = 21 Hit!
+<span style="font-family: DicierFH Regular; font-size: 30px;">6</span> + 2 = 8 Damage on Fire Beetle(Deads) 4 Kills it remaining 4 hit Giant Ant (10)
+
+Second Attack 
+Ranged Attack on Giant Ant (17) <span style="font-family: DicierRH Regular; font-size: 34px;">8_ON_D20</span> + 2 = 11 Missed!
+
+Giant Ant Turn
+
+Special: Wall Climb: the ant climbs up atop the walls and drops down dealing 1d10 (13)
+
+BLOCK: <span style="font-family: DicierFH Regular; font-size: 30px;">16_ON_D20</span> + 3 + 1 = 20 Blocked!
+
+Round 2
+
+PC Turn
+
+Move NEAR
+
+Melee Attack Giant Ant (17) <span style="font-family: DicierRH Regular; font-size: 34px;">12_ON_D20</span> + 2 = 14 Missed
+
+Ant Turn
+
+Attacking Vozz (13) 
+
+BLOCK: <span style="font-family: DicierFH Regular; font-size: 30px;">11_ON_D20</span> + 3 + 1 = 15 Blocked!
+
+PC Turn
+
+Melee Attack Giant Ant (17) <span style="font-family: DicierRH Regular; font-size: 34px;">16_ON_D20</span> + 2 = 18 Hit!
+
+<span style="font-family: DicierFH Regular; font-size: 30px;">6</span> + 2 = 8 Damage on Giant Ant (2)
+
+Round 3
+
+PC Turn
+
+Melee Attack Giant Ant (17) <span style="font-family: DicierRH Regular; font-size: 34px;">19_ON_D20</span> + 2 = 21 Hit!
+
+<span style="font-family: DicierFH Regular; font-size: 30px;">5</span> + 2 = 7 Damage on Giant Ant (Deads)
+
+<span style="color:#FF29B8">Victory!</span>
+
+Scavenge Check: <font color="#ff00cc">4 silver</font>
 

@@ -42,9 +42,6 @@
 >#####  Dungeon Features
 >`dice:[[Travel Tables#^2b15c9]]`
 >
->#####  Dungeon Dressing
->`dice:[[Travel Tables#^0050c6]]`
->
 >#####  Dungeon Environment
 >`dice:[[Travel Tables#^1a4ed8]]`
 >
@@ -59,6 +56,72 @@
 >
 > ##### Exits
 >`dice:[[Travel Tables#^645b75]]`
+
+### Dungeon Dressing 1
+> [!gaming] Dungeon Dressing 1
+>#####  Altar
+>`dice:[[dungeon Dressing#^b06b58]]|Altar`
+>
+>#####  Archive
+>`dice:[[dungeon Dressing#^b06b58]]|Archive`
+>
+>#####  Arena
+>`dice:[[dungeon Dressing#^b06b58]]|Arena`
+>
+>#####  Containment Area
+>`dice:[[dungeon Dressing#^b06b58]]|Containment Area`
+>
+> ##### Divine Focus
+>`dice:[[dungeon Dressing#^b06b58]]|Divine Focus`
+>
+> ##### Foothold
+>`dice:[[dungeon Dressing#^44c8e9]]|Foothold`
+>
+> ##### Knowledge Base
+>`dice:[[dungeon Dressing#^44c8e9]]|Knowledge Base`
+>
+> ##### Laboratory
+>`dice:[[dungeon Dressing#^44c8e9]]|Laboratory`
+>
+> ##### Meeting Place
+>`dice:[[dungeon Dressing#^44c8e9]]|Meeting Place`
+>
+> ##### Mine
+>`dice:[[dungeon Dressing#^44c8e9]]|Mine`
+>
+
+### Dungeon Dressing 2
+> [!crafting] Dungeon Dressing 2
+>#####  Observatory
+>`dice:[[dungeon Dressing#^bfae8b]]|Observatory`
+>
+>#####  Occult Focus
+>`dice:[[dungeon Dressing#^bfae8b]]|Occult Focus`
+>
+>#####  Prison
+>`dice:[[dungeon Dressing#^bfae8b]]|Prison`
+>
+>#####  Refuge
+>`dice:[[dungeon Dressing#^bfae8b]]|Refuge`
+>
+>#####  Rendezvous
+>`dice:[[dungeon Dressing#^bfae8b]]|Rendezvous`
+>
+> ##### Stronghold
+>`dice:[[dungeon Dressing#^816930]]|Stronghold`
+>
+> ##### Temple
+>`dice:[[dungeon Dressing#^816930]]|Temple`
+>
+> ##### Tomb
+>`dice:[[dungeon Dressing#^816930]]|Tomb`
+>
+> ##### Vault
+>`dice:[[dungeon Dressing#^816930]]|Vault`
+>
+> ##### Workshop
+>`dice:[[dungeon Dressing#^816930]]|Workshop`
+>
 
 ### Loot Tables
 > [!dice] Loot Tables
