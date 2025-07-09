@@ -7,7 +7,7 @@ banner-height: 420
 ---
 ## 998-06-05
 
-Arrived in the Town of Duskveil
+Arrived in the Town of Longwatch
 
 - Town Center: Pawn Shop, Healer, Shrine, Clerk 
 - Slums:  Street Market, Public House, Gambling Den
@@ -261,7 +261,6 @@ Weather: Raining
 I have found the Barrow of the Desecrated entrance. 
 
 #### Barrow of the Desecrated
-
 **Size:** 8
 **Danger Level:** Unsafe 
 **Danger Die:** d10 
@@ -495,7 +494,6 @@ Searching, Encounter +1
 Loots: <font color="#fb5607">Fine Silk (250 SP)</font>
 
 Encounter Check +2: <span style="font-family: DicierFH Regular; font-size: 30px;">3_ON_D8</span> No encounter.
-
 ##### Room 4
 
 Light Check:  <span style="font-family: DicierRH Regular; font-size: 34px;">8_ON_D8</span>
@@ -524,9 +522,18 @@ Looks like there is a trap here that if triggered will drop a wall that will tra
 Trigger Check: <span style="font-family: DicierFH Regular; font-size: 30px;">5</span> Still hasn't been triggered. I will try and disarm it. 
 
 Searching, Encounter +1 
-+DEX <span style="font-family: DicierRH Regular; font-size: 34px;">52</span> + 2 + 1 = 10 <font color="#25A244">Full Success </font>
++DEX <span style="font-family: DicierRH Regular; font-size: 34px;">52</span> + 2 + 1 = 10 <font color="#11FF00">Full Success </font>
 
 2 Treasure Rolls
 
 Loots: <font color="#ff00cc">Gems x 2 (100 SP)</font> <font color="#FB5607">Gem (50 SP)</font>
+
+##### Room 5
+Room Check: <span style="font-family: DicierFH Regular; font-size: 30px;">2_ON_D8 </span>
+Light Check:  <span style="font-family: DicierRH Regular; font-size: 34px;">7_ON_D8</span>
+Precarious Habitation
+Dressing: Barrels
+Theme: Destruction
+
+I walked into some kind of makeshift sleeping quarters that also was used as some kind of storage area.
 

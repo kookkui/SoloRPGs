@@ -145,7 +145,7 @@
         "startupType": "instant"
       },
       "markdown-attributes": {
-        "startupType": "disabled"
+        "startupType": "instant"
       }
     },
     "loadOrder": []

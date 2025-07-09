@@ -1,7 +1,6 @@
 [
   "obsidian-admonition",
   "table-editor-obsidian",
-  "attachment-management",
   "obsidian-auto-link-title",
   "obsidian-bulk-rename-plugin",
   "color-palette",
@@ -30,5 +29,8 @@
   "open-gate",
   "pexels-banner",
   "obsidian-git",
-  "omnisearch"
+  "omnisearch",
+  "markdown-attributes",
+  "obsidian-view-mode-by-frontmatter",
+  "obsidian-excel-to-markdown-table"
 ]
