@@ -138,10 +138,22 @@
       "pexels-banner": {
         "startupType": "instant"
       },
-      "code-styler": {
+      "omnisearch": {
         "startupType": "instant"
       },
-      "obsidian-linter": {
+      "custom-font-loader": {
+        "startupType": "instant"
+      },
+      "markdown-attributes": {
+        "startupType": "instant"
+      },
+      "obsidian-excel-to-markdown-table": {
+        "startupType": "instant"
+      },
+      "obsidian-view-mode-by-frontmatter": {
+        "startupType": "instant"
+      },
+      "obsidian-table-to-csv-exporter": {
         "startupType": "disabled"
       }
     },

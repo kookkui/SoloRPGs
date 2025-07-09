@@ -1,7 +1,7 @@
 {
   "defaultView": "deck",
   "customTableRoot": "Tables",
-  "customDeckRoot": "SoloRPGs/_Decks",
+  "customDeckRoot": "SoloRPGs/3-Decks",
   "disableDefaultWords": false,
   "deckJokers": false,
   "deckFlip": true,
@@ -19,7 +19,7 @@
   "oracleLanguage": "en",
   "wordTab": "Prompts",
   "oracleTab": "default",
-  "deckTab": "Riftbreakers Current Ability Loadout",
+  "deckTab": "GameMaster's Apprentice 2E Cards",
   "mythicFactor": 5,
   "wordQuickValue": "",
   "wordQuickHeight": 0

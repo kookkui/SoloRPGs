@@ -59,7 +59,6 @@ lightitem2: Bracelet (1,500 SP)
 lightitem6: Gems x 3 (100 SP)
 lightitem7: Gem (50 SP)
 ---
-
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%
 >> ## `=this.file.name`

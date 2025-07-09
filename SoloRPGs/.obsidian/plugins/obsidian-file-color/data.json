@@ -161,6 +161,11 @@
       "id": "Iy-QkYGdIUvu4py4hO8eG",
       "name": "Neon Yellow",
       "value": "#fff200"
+    },
+    {
+      "id": "DDCm3eACKlby640WGTsTN",
+      "name": "Neon Red",
+      "value": "#ff073a"
     }
   ],
   "fileColors": [
@@ -593,12 +598,84 @@
       "color": "e6mqIiJo0Bg9BlEVarX5d"
     },
     {
-      "path": "SoloRPGs/Riftbreakers - Second Edition/PCs/Aurielle's Large Spatial Bag.md",
+      "path": "SoloRPGs/Riftbreakers - Second Edition/PCs/Azel's Large Spatial Bag.md",
       "color": "PUdtIij3CJ8Cij1VADjI9"
     },
     {
       "path": "SoloRPGs/Riftbreakers - Second Edition/Rules Reference",
       "color": "yvtjG5SaZvMt9A_M5MVyQ"
+    },
+    {
+      "path": "SoloRPGs/Just One Sword",
+      "color": "rLOc6yV_O6S6HFVqmgU9g"
+    },
+    {
+      "path": "SoloRPGs/1-Assets",
+      "color": "1OoZmSTRNoCtkm3TX80Az"
+    },
+    {
+      "path": "SoloRPGs/2-Bestiaries",
+      "color": "nx0DLBWpw5GPYwqqq3D6p"
+    },
+    {
+      "path": "SoloRPGs/3-Decks",
+      "color": "cKjisgJPb38E_p10IXkjU"
+    },
+    {
+      "path": "SoloRPGs/4-Templates",
+      "color": "HZFG4bZLp90SUEPF_flTK"
+    },
+    {
+      "path": "SoloRPGs/5-Tokens",
+      "color": "ZKjDKZTd9AbGk4tysDpD3"
+    },
+    {
+      "path": "SoloRPGs/Just One Sword/Vozz Ichorfoot Journal.md",
+      "color": "UmVtOfxqzdsQurxhAX0BA"
+    },
+    {
+      "path": "SoloRPGs/Just One Sword/World Building",
+      "color": "4_vEmCvFDG2xa-RYIOJ3R"
+    },
+    {
+      "path": "SoloRPGs/Just One Sword/Tables",
+      "color": "kmf0tZAAlEbxjHLxDKfht"
+    },
+    {
+      "path": "SoloRPGs/Just One Sword/Spells & Sorcery",
+      "color": "x24JgSjNb4AWqWDgGNXSG"
+    },
+    {
+      "path": "SoloRPGs/Just One Sword/PC",
+      "color": "HZFG4bZLp90SUEPF_flTK"
+    },
+    {
+      "path": "SoloRPGs/Just One Sword/Maps",
+      "color": "0auoW_nA8Che9PxJzMRJK"
+    },
+    {
+      "path": "SoloRPGs/Just One Sword/Abilities & Skills",
+      "color": "VvRC_rOmMM_1Htw13dJDd"
+    },
+    {
+      "path": "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition",
+      "color": "OF88jR0-B3HwVFkSaWDJM"
+    },
+    {
+      "path": "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/PCs",
+      "color": "HZFG4bZLp90SUEPF_flTK"
+    },
+    {
+      "path": "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Tables",
+      "color": "1OoZmSTRNoCtkm3TX80Az"
+    },
+    {
+      "path": "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Maps",
+      "color": "PUdtIij3CJ8Cij1VADjI9"
+    },
+    {
+      "path": "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/BS Rules Reference & House Rules",
+      "color": "0auoW_nA8Che9PxJzMRJK"
     }
   ]
 }

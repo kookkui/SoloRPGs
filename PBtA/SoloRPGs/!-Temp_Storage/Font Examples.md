@@ -225,3 +225,174 @@ abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ
 abcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ
 { .Abyssal }
 
+
+.aetherian {
+    font-family: Aetherian;
+    font-style: normal;
+    font-weight: 400;
+}
+.aetherianHylian {
+    font-family: "Ancient Hylian - English";
+    font-style: normal;
+    font-weight: 400;
+}
+.baroom{
+    font-family: Baroom;
+}
+.bookSanity{
+  font-family: BookSanity;
+}
+.daedra {
+    font-family: "Daedra";
+}
+.daisyRoots {
+  font-family: "Daisy Roots";
+}
+.demonic {
+    font-family: Demonic;
+}
+.demonicRunes {
+    font-family: DemonicRunes;
+}
+.dethek {
+    font-family: Dethek;
+}
+.dragonscript {
+    font-family: "Elder Scrolls Dragon";
+}
+.enchantedLand {
+  font-family: "Enchanted Land";
+}
+.espruar {
+    font-family: Espruar;
+}
+.exocet {
+  font-family: "Exocet";
+}
+.FontAwesome {
+  font-family: "FontAwesome";
+}
+.galach {
+    font-family: galach;
+}
+.gozerian{
+    font-family: gozerian
+}
+.heavySpace {
+  font-family: "Heavy Space";
+}
+.itcSouvenirDemi {
+     font-family: "ITC Souvenir Demi";
+}
+.kingTutToo {
+     font-family: "KingTut-Too";
+}
+.korinnaBold {
+  font-family: "Korinna-Bold";
+}
+.locust {
+    font-family: Locust;
+}
+.lovecraftsDiary {
+    font-family: "Lovecrafts Diary";
+}
+.misstral {
+  font-family: "Misstral";
+}
+.mrJeeves  {
+  font-family: "MrJeeves";
+}
+.naga {
+    font-family: "Naga";
+}
+.predator {
+     font-family: "Predator";
+}
+.pulsian {
+    font-family: pulsian;
+}
+.rlyehRunesV1{
+  font-family: "RlyehRunes";
+}
+.rpg-cuthulu {
+  font-family: "RPG - Cthulhu";
+}
+.samedi {
+     font-family: "Samedi Demo";
+}
+.scalySans {
+  font-family: ScalySans;
+}
+.scalySansSmallCaps {
+  font-family: "ScalySansSmallCaps";
+}
+.solberry {
+  font-family: "Solberry";
+}
+.srilermorna {
+  font-family: "Srilermorna";
+}
+.startGateSG1 {
+     font-family: "RPG - Stargate SG-1";
+}
+.wspHethmarkn {
+  font-family: "WSP Hethmarkn";
+}
+.wspOsarian {
+  font-family: "WSP Osarian";
+}
+.zoran {
+    font-family: "Zoran";
+}
+.rpgIcons {
+   font-family: "RPG Icons";
+   font-size: 24px;
+}
+.MagicSchool {
+font-family: "magic_school_oneregular";
+font-size: 24px;
+}
+.Dwarvish {
+font-family: "davekregular";
+font-size: 24px;
+}
+.Giant {
+font-family: "davekregular";
+font-size: 24px;
+}
+.Gnomish {
+font-family: "davekregular";
+font-size: 24px;
+}
+.Orc {
+font-family: "davekregular";
+font-size: 24px;
+}
+.Primordial {
+font-family: "davekregular";
+font-size: 24px;
+}
+.Draconic {
+font-family: "iokharicregular";
+font-size: 24px;
+}
+.Elvish {
+font-family: "rellanicregular";
+font-size: 24px;
+}
+.Sylvan {
+font-family: "rellanicregular";
+font-size: 24px;
+}
+.Undercommon {
+font-family: "rellanicregular";
+font-size: 24px;
+}
+.Abyssal {
+font-family: "barazhadregular";
+font-size: 24px;
+}
+.Infernal {
+font-family: "barazhadregular";
+font-size: 24px;
+}

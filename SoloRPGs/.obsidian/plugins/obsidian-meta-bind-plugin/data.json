@@ -8,15 +8,73 @@
     "shortName": "Mo"
   },
   "syncInterval": 200,
-  "minSyncInterval": 50,
-  "maxSyncInterval": 1000,
   "enableJs": true,
   "viewFieldDisplayNullAsEmpty": false,
   "enableSyntaxHighlighting": true,
   "enableEditorRightClickMenu": true,
   "inputFieldTemplates": [],
-  "buttonTemplates": [],
+  "buttonTemplates": [
+    {
+      "label": "Add",
+      "icon": "",
+      "style": "primary",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "exp",
+      "hidden": true,
+      "actions": [
+        {
+          "type": "updateMetadata",
+          "bindTarget": "xp",
+          "evaluate": true,
+          "value": "getMetadata('xp') + getMetadata('axp')"
+        }
+      ]
+    },
+    {
+      "label": "Add Jats",
+      "icon": "",
+      "style": "primary",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "pjats",
+      "hidden": true,
+      "actions": [
+        {
+          "type": "updateMetadata",
+          "bindTarget": "currency",
+          "evaluate": true,
+          "value": "getMetadata('ajats') * '0.6' + getMetadata('currency')"
+        }
+      ]
+    },
+    {
+      "label": "Add SP",
+      "icon": "",
+      "style": "primary",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "",
+      "id": "psilver",
+      "hidden": true,
+      "actions": [
+        {
+          "type": "updateMetadata",
+          "bindTarget": "currency",
+          "evaluate": true,
+          "value": "getMetadata('asilver') + getMetadata('currency')"
+        }
+      ]
+    }
+  ],
   "excludedFolders": [
     "templates"
-  ]
+  ],
+  "minSyncInterval": 50,
+  "maxSyncInterval": 1000
 }

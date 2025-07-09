@@ -31,6 +31,7 @@
   "obsidian-git",
   "omnisearch",
   "markdown-attributes",
-  "obsidian-view-mode-by-frontmatter",
-  "obsidian-excel-to-markdown-table"
+  "obsidian-excel-to-markdown-table",
+  "attachment-management",
+  "obsidian-view-mode-by-frontmatter"
 ]

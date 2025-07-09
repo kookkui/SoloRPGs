@@ -146,6 +146,15 @@
       },
       "markdown-attributes": {
         "startupType": "instant"
+      },
+      "obsidian-excel-to-markdown-table": {
+        "startupType": "instant"
+      },
+      "obsidian-view-mode-by-frontmatter": {
+        "startupType": "instant"
+      },
+      "obsidian-table-to-csv-exporter": {
+        "startupType": "disabled"
       }
     },
     "loadOrder": []

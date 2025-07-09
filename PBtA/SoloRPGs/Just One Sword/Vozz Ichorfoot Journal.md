@@ -535,5 +535,4 @@ Precarious Habitation
 Dressing: Barrels
 Theme: Destruction
 
-I walked into some kind of makeshift sleeping quarters that also was used as some kind of storage area.
 
