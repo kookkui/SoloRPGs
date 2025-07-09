@@ -18,7 +18,7 @@ MaxHP: 7
 Fatigue: "`=this.CON`"
 axp: 
 background: Beast Hunter
-currency: 95
+currency: 106
 Weapon1: Shortsword
 Weapon1dmg: D6
 Weapon1notes: Piercing / Slashing
@@ -44,17 +44,20 @@ title1: Torch
 title2: Bandages x3
 title3: Bedroll (Recover Fatigue in the wilds)
 title4: "Thieves Tools, Simple "
-title5: "Travel Rations "
+title5: Travel Rations
 title6: "Travel Rations "
-title7: Arrows (20)
-title8: Tapestry (250 SP)
-title9: Gem (100 SP)
-title10: Bracelet (1,500 SP)
-title11: Fine Silk (250 SP)
+title7: Arrows
+title8: Silver Coins
+title9: Tapestry (250 SP)
+title10: Fine Silk (250 SP)
+title11: ""
 title12: ""
 lightitem1: Arm band of Giant Strength (+1 Attribute Bonus to Strength)
 Language1: Diabolic
 asilver: 
+lightitem2: Bracelet (1,500 SP)
+lightitem6: Gems x 3 (100 SP)
+lightitem7: Gem (50 SP)
 ---
 
 >[!dice] %%FAKE TITLE HERE%%
@@ -150,7 +153,7 @@ asilver:
 >>  | |
 >>---|---|
 >>**Watches**| `clock,yellow: 0/4` |
->>**Encounter Penalties**|`circles,pink: 2/10`|
+>>**Encounter Penalties**|`circles,pink: 4/10`|
 >>**Goal Timer**|`circles,yellow: 6/12`|
 >>**Progress Track**|`circles,green: 0/10` | 
 >>**Countdown Track**|`circles,red: 0/4` |

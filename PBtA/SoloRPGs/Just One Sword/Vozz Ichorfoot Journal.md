@@ -414,7 +414,7 @@ Searching, Encounter +1
 +WIS <span style="font-family: DicierRH Regular; font-size: 34px;">56</span> + 1 + 0 = 12 <font color="#00b050">Full Success!</font>
 
 Loots: <font color="#ffff00">Bracelet (1,500 SP)</font>
-### Room 3
+##### Room 3
 Light Check:  <span style="font-family: DicierRH Regular; font-size: 34px;">7_ON_D8</span>
 Theme: Conﬂict
 Danger: Light Hazard 
@@ -430,7 +430,7 @@ Giant Insects, Returning ,Assaulted
 creature: Fire Beetle
 ```
 ```statblock
-creature: Ant
+creature: Giant Ant
 ```
 
 ```encounter
@@ -438,7 +438,7 @@ players:
   - Vozz Ichorfoot
 creatures:
   - Fire Beetle, 4, 16, 0
-  - Ant, 14, 17, 0
+  - Giant Ant, 14, 17, 0
 ```
 
 PC Turn
@@ -490,8 +490,43 @@ Melee Attack Giant Ant (17) <span style="font-family: DicierRH Regular; font-siz
 Scavenge Check: <font color="#ff00cc">4 silver</font>
 
 Searching, Encounter +1 
-+WIS <span style="font-family: DicierRH Regular; font-size: 34px;">25</span> + 1 + 0 = 8 Partial Success
++WIS <span style="font-family: DicierRH Regular; font-size: 34px;">25</span> + 1 + 0 = 8 Partial Success (Encounter Check)
 
 Loots: <font color="#fb5607">Fine Silk (250 SP)</font>
 
+Encounter Check +2: <span style="font-family: DicierFH Regular; font-size: 30px;">3_ON_D8</span> No encounter.
+
+##### Room 4
+
+Light Check:  <span style="font-family: DicierRH Regular; font-size: 34px;">8_ON_D8</span>
+Repulsive Undercroft / Crypt
+Environment: Stagnant Water
+Danger: Drowning Hazard
+Theme: Treachery
+
+The next room is a horrible crypt that seems to have flooded with years of rain water seeping in causing a large sink hole. The sides are very slippery and oh no I am sliding in!
+
+DODGE: <span style="font-family: DicierFH Regular; font-size: 30px;">16_ON_D20</span> + 3 + 0 = 19
+
+I was able to quickly grab ahold to a root that is hanging and pull myself to safety on the side of the room that isn't flooded.
+
+Encounter Check +2: <span style="font-family: DicierRH Regular; font-size: 34px;">6_ON_D8</span>
+
+Scavenge: <font color="#fb5607">11 silver</font>
+
+Searching, Encounter +1 
++WIS <span style="font-family: DicierRH Regular; font-size: 34px;">34</span> + 1 + 0 = 8 Partial Success (Encounter Check)
+
+Trap: If you manage to disarm it, *roll again ignoring this result*.
+
+Looks like there is a trap here that if triggered will drop a wall that will trap me in the room. 
+
+Trigger Check: <span style="font-family: DicierFH Regular; font-size: 30px;">5</span> Still hasn't been triggered. I will try and disarm it. 
+
+Searching, Encounter +1 
++DEX <span style="font-family: DicierRH Regular; font-size: 34px;">52</span> + 2 + 1 = 10 <font color="#25A244">Full Success </font>
+
+2 Treasure Rolls
+
+Loots: <font color="#ff00cc">Gems x 2 (100 SP)</font> <font color="#FB5607">Gem (50 SP)</font>
 

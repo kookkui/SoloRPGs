@@ -23,18 +23,6 @@
             }
           },
           {
-            "id": "57915433a6452652",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "SoloRPGs/5-Tokens/Hexes/Wuggy's Hex Tiles Buildings/WT-Castle3.webp"
-              },
-              "icon": "lucide-image",
-              "title": "WT-Castle3"
-            }
-          },
-          {
             "id": "788ddfea6c686fd2",
             "type": "leaf",
             "state": {
@@ -62,8 +50,7 @@
               "title": "Colour Pallette"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "119638e5447a0399",
@@ -85,15 +72,15 @@
             }
           },
           {
-            "id": "caf39fe75fdd8c69",
+            "id": "b52d93021c5d49d0",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "SoloRPGs/Just One Sword/Maps/Battle Maps/Crypt Battle Map.md"
+                "file": "SoloRPGs/Just One Sword/Maps/Barrow of the Desecrated.md"
               },
               "icon": "excalidraw-icon",
-              "title": "Crypt Battle Map"
+              "title": "Barrow of the Desecrated"
             }
           },
           {
@@ -332,7 +319,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "0e6a14a15862aa6f",
@@ -376,28 +363,30 @@
       "solo-rpg-toolkit:Solo RPG Toolkit": false
     }
   },
-  "active": "57915433a6452652",
+  "active": "bdc52f0b4d99283f",
   "lastOpenFiles": [
+    "SoloRPGs/4-Templates/Colour Pallette.md",
+    "SoloRPGs/Just One Sword/Vozz Ichorfoot Journal.md",
+    "SoloRPGs/Just One Sword/Bestiary Data.md",
+    "SoloRPGs/Just One Sword/PC/Vozz Ichorfoot.md",
+    "SoloRPGs/Just One Sword/Tables/Roll Tables.md",
+    "SoloRPGs/Just One Sword/Maps/Barrow of the Desecrated.md",
+    "SoloRPGs/Just One Sword/Maps/Hex Map Key.md",
+    "SoloRPGs/Just One Sword/Maps/Battle Maps/Crypt Battle Map.md",
+    "SoloRPGs/5-Tokens/VTT Battle Tokens/Animal - Beetle - Giant - 0201 - Tier2.webp",
+    "SoloRPGs/5-Tokens/Hexes/Wuggy's Hex Tiles Buildings/WT-Castle3.webp",
     "SoloRPGs/5-Tokens/Hexes/Wuggy's Hex Tiles Buildings/WT-Castle2.webp",
     "SoloRPGs/5-Tokens/Hexes/Wuggy's Hex Tiles Buildings/WT-Castle1.webp",
-    "SoloRPGs/Just One Sword/Vozz Ichorfoot Journal.md",
     "SoloRPGs/2-Bestiaries/Just One Sword/CENTIPEDE.md",
     "SoloRPGs/2-Bestiaries/Just One Sword/GIANT ANT.md",
     "SoloRPGs/2-Bestiaries/Just One Sword/APE.md",
-    "SoloRPGs/Just One Sword/PC/Vozz Ichorfoot.md",
-    "SoloRPGs/Just One Sword/Tables/Roll Tables.md",
     "SoloRPGs/Just One Sword/Tables/Rules Reference.md",
     "SoloRPGs/Just One Sword/Tables/Travel Tables.md",
     "SoloRPGs/4-Templates/Snippets.md",
-    "SoloRPGs/Just One Sword/Bestiary Data.md",
-    "SoloRPGs/Just One Sword/Maps/Battle Maps/Crypt Battle Map.md",
     "SoloRPGs/4-Templates/Dicier Font.md",
-    "SoloRPGs/5-Tokens/VTT Battle Tokens/Animal - Beetle - Giant - 0201 - Tier2.webp",
     "SoloRPGs/Just One Sword/Maps/Battle Maps/Deep Dungeon Battle Map.md",
     "SoloRPGs/Just One Sword/Maps/Battle Maps/Cliffs Road Battle Map Grided.md",
-    "SoloRPGs/4-Templates/Colour Pallette.md",
     "SoloRPGs/1-Assets/222496-SvCCr Crypt 6 17x12-gigapixel-standard-scale-2_00x.webp",
-    "SoloRPGs/Just One Sword/Maps/Barrow of the Desecrated.md",
     "SoloRPGs/Just One Sword/Tables/Dungeon Dressing.md",
     "SoloRPGs/Riftbreakers - Second Edition/Tables/Rift Tables.md",
     "SoloRPGs/Riftbreakers - Second Edition/Tables/Riftbreakers Tables Rolls.md",
@@ -405,7 +394,6 @@
     "JUST ONE SWORD - Dungeon Dressing.md",
     "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Tables/BS Exploration Tables.md",
     "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Tables/Broken Shores General Tables.md",
-    "SoloRPGs/Just One Sword/Maps/Hex Map Key.md",
     "SoloRPGs/Just One Sword/Maps/Map of Mistvale.md",
     "SoloRPGs/2-Bestiaries/Just One Sword/GRIZZLY BEAR.md",
     "SoloRPGs/5-Tokens/VTT Battle Tokens/Demon - Quasit - 0204.webp",
@@ -413,8 +401,6 @@
     "SoloRPGs/5-Tokens/VTT Battle Tokens/Animal - Boar - 0101.webp",
     "SoloRPGs/5-Tokens/VTT Battle Tokens/Aboleth - 0101.webp",
     "SoloRPGs/1-Assets/Deep Dungeon Furnished-standard.webp",
-    "SoloRPGs/1-Assets/Mistvale_JustOneTorch.webp",
-    "SoloRPGs/1-Assets/MarkerPins vector fix_2.webp",
     "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Maps/Interior Maps",
     "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Maps",
     "SoloRPGs/1-Assets/SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Eka",
