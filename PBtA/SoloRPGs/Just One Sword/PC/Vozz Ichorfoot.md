@@ -152,7 +152,7 @@ lightitem7: Gem (50 SP)
 >>  | |
 >>---|---|
 >>**Watches**| `clock,yellow: 0/4` |
->>**Encounter Penalties**|**`4`**|
+>>**Encounter Penalties**|**`2`**|
 >>**Goal Timer**|`5/8`|
 >>**Progress Track**|`circles,green: 0/10` | 
 >>**Countdown Track**|`circles,red: 0/4` |

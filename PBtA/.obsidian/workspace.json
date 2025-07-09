@@ -97,7 +97,8 @@
               "title": "Dicier Font"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,8 +189,8 @@
             "state": {
               "type": "MAIN_VIEW",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "srt-ribbon",
+              "title": "Solo RPG Toolkit"
             }
           }
         ],
@@ -319,7 +320,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       },
       {
         "id": "0e6a14a15862aa6f",
@@ -365,10 +366,12 @@
   },
   "active": "bdc52f0b4d99283f",
   "lastOpenFiles": [
+    "SoloRPGs/Just One Sword/Maps/Barrow of the Desecrated.md",
     "SoloRPGs/Just One Sword/PC/Vozz Ichorfoot.md",
-    "SoloRPGs/Just One Sword/Bestiary Data.md",
     "SoloRPGs/Just One Sword/Vozz Ichorfoot Journal.md",
+    "SoloRPGs/Just One Sword/Bestiary Data.md",
     "SoloRPGs/Just One Sword/Tables/Roll Tables.md",
+    "SoloRPGs/Just One Sword/World Building/Longwatch.md",
     "SoloRPGs/Just One Sword/Maps/Battle Maps/Deep Dungeon Battle Map.md",
     "SoloRPGs/5-Tokens/VTT Battle Tokens/Imp - 0101_Red.webp",
     "SoloRPGs/2-Bestiaries/Just One Sword/NIGHT-KIN IMP.md",
@@ -384,10 +387,8 @@
     "SoloRPGs/Just One Sword/Tables/Loot Tables.md",
     "SoloRPGs/4-Templates/Dicier Font.md",
     "SoloRPGs/!-Temp_Storage/Obsidian Markdown Formatting.md",
-    "SoloRPGs/Just One Sword/Maps/Barrow of the Desecrated.md",
     "SoloRPGs/Just One Sword/Maps/Hex Map Key.md",
     "SoloRPGs/4-Templates/Colour Pallette.md",
-    "SoloRPGs/Just One Sword/World Building/Longwatch.md",
     "SoloRPGs/Just One Sword/Maps/Map of Mistvale.md",
     "SoloRPGs/Just One Sword/Maps/Battle Maps/Crypt Battle Map.md",
     "SoloRPGs/5-Tokens/VTT Battle Tokens/Animal - Beetle - Giant - 0201 - Tier2.webp",

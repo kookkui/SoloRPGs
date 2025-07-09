@@ -306,14 +306,14 @@ Encounter Check: <span style="font-family: DicierRH Regular; font-size: 34px;">1
 Reaction: Hostile
 
 ```statblock
-creature: Night-Kin Drone (Minion)
+creature: Night-Kin Drone
 ```
 
 ```encounter
 players:
   - Vozz Ichorfoot
 creatures:
-  - 4:Night-Kin Drone (Minion), 4, 10, 0
+  - 4:Night-Kin Drone, 4, 10, 0
 ```
 
 Combat Start!
@@ -521,7 +521,7 @@ Looks like there is a trap here that if triggered will drop a wall that will tra
 
 Trigger Check: <span style="font-family: DicierFH Regular; font-size: 30px;">5</span> Still hasn't been triggered. I will try and disarm it. 
 
-Searching, Encounter +1 
+Disarming, Encounter +1 
 +DEX <span style="font-family: DicierRH Regular; font-size: 34px;">52</span> + 2 + 1 = 10 <font color="#11FF00">Full Success </font>
 
 2 Treasure Rolls
@@ -563,4 +563,23 @@ Ranged Attack on Night-Kin Imp (13) <span style="font-family: DicierRH Regular; 
 <span style="color:#FF29B8">Victory!</span>
 
  Scavenge: <font color="#fb5607">11 silver</font>
- 
+##### Room 6
+Room Check: <span style="font-family: DicierFH Regular; font-size: 30px;">1_ON_D8 </span> Not Goal
+Light Check:  <span style="font-family: DicierRH Regular; font-size: 34px;">8_ON_D8</span> 
+Repulsive Room
+Danger: Fresh blood
+Theme: Fury
+
+Oracle: "Is the blood caused by a trap?" "Yes"
+
+Crush / Break Path
+
+There is a large rock that falls from the ceiling when triggered but luckily it is still set. I will attempt to disarm it.
+
+Disarming, Encounter +1 
++DEX <span style="font-family: DicierRH Regular; font-size: 34px;">65</span> + 2 + 1 = 14 <font color="#11FF00">Full Success </font>
+
+Encounter Check: <span style="font-family: DicierRH Regular; font-size: 34px;">4_ON_D8</span>  No encounter.
+
+
+
