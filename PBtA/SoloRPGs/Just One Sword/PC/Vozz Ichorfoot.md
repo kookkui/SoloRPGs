@@ -18,7 +18,7 @@ MaxHP: 7
 Fatigue: "`=this.CON`"
 axp: 
 background: Beast Hunter
-currency: 106
+currency: 117
 Weapon1: Shortsword
 Weapon1dmg: D6
 Weapon1notes: Piercing / Slashing
@@ -138,7 +138,7 @@ lightitem7: Gem (50 SP)
 >>**Silver Pieces (sp)**|`=this.currency` |
 >>**Gold Pieces (gp)**|`0` |
 >>**Bronze Pieces (bp)**|`0` | 
->>**Arrows**|`9` |
+>>**Arrows**|`8` |
 >>**Rations**|`5` |
 >>**Torches**| `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):torch1]` |
 >>**Lamp Oil**|`INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):Lampoil]` |
@@ -152,7 +152,7 @@ lightitem7: Gem (50 SP)
 >>  | |
 >>---|---|
 >>**Watches**| `clock,yellow: 0/4` |
->>**Encounter Penalties**|`4`|
+>>**Encounter Penalties**|**`4`**|
 >>**Goal Timer**|`5/8`|
 >>**Progress Track**|`circles,green: 0/10` | 
 >>**Countdown Track**|`circles,red: 0/4` |

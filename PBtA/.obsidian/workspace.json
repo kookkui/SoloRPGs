@@ -6,7 +6,7 @@
       {
         "id": "70ee01fb01225238",
         "type": "tabs",
-        "dimension": 55.77929923479662,
+        "dimension": 50.52377115229654,
         "children": [
           {
             "id": "bdc52f0b4d99283f",
@@ -55,7 +55,7 @@
       {
         "id": "119638e5447a0399",
         "type": "tabs",
-        "dimension": 44.22070076520338,
+        "dimension": 49.47622884770346,
         "children": [
           {
             "id": "46eb76b9c089b15b",
@@ -176,7 +176,7 @@
               "state": {
                 "file": "SoloRPGs/Just One Sword/Tables/Roll Tables.md",
                 "mode": "preview",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "Roll Tables"
@@ -242,6 +242,16 @@
             }
           },
           {
+            "id": "1ce879cfa912813a",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "dices",
+              "title": "Dice Tray"
+            }
+          },
+          {
             "id": "94f12ad5439f584e",
             "type": "leaf",
             "state": {
@@ -257,13 +267,18 @@
             }
           },
           {
-            "id": "bce6acd48a1f60db",
+            "id": "fb8af4c8b4714ccc",
             "type": "leaf",
             "state": {
-              "type": "fantasy-statblocks-creature-pane",
-              "state": {},
-              "icon": "skull",
-              "title": "Combatant"
+              "type": "outline",
+              "state": {
+                "file": "SoloRPGs/Just One Sword/Vozz Ichorfoot Journal.md",
+                "followCursor": true,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Vozz Ichorfoot Journal"
             }
           },
           {
@@ -294,32 +309,17 @@
             }
           },
           {
-            "id": "fb8af4c8b4714ccc",
+            "id": "bce6acd48a1f60db",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "file": "SoloRPGs/!-Temp_Storage/Font Examples.md",
-                "followCursor": true,
-                "showSearch": true,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Font Examples"
-            }
-          },
-          {
-            "id": "1ce879cfa912813a",
-            "type": "leaf",
-            "state": {
-              "type": "DICE_ROLLER_VIEW",
+              "type": "fantasy-statblocks-creature-pane",
               "state": {},
-              "icon": "dices",
-              "title": "Dice Tray"
+              "icon": "skull",
+              "title": "Combatant"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       },
       {
         "id": "0e6a14a15862aa6f",
@@ -366,16 +366,26 @@
   "active": "bdc52f0b4d99283f",
   "lastOpenFiles": [
     "SoloRPGs/Just One Sword/PC/Vozz Ichorfoot.md",
-    "SoloRPGs/Just One Sword/Vozz Ichorfoot Journal.md",
-    "SoloRPGs/!-Temp_Storage/Font Examples.md",
     "SoloRPGs/Just One Sword/Bestiary Data.md",
+    "SoloRPGs/Just One Sword/Vozz Ichorfoot Journal.md",
+    "SoloRPGs/Just One Sword/Tables/Roll Tables.md",
+    "SoloRPGs/Just One Sword/Maps/Battle Maps/Deep Dungeon Battle Map.md",
+    "SoloRPGs/5-Tokens/VTT Battle Tokens/Imp - 0101_Red.webp",
+    "SoloRPGs/2-Bestiaries/Just One Sword/NIGHT-KIN IMP.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/NIGHT-KIN DRONE.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/BANDIT.md",
+    "SoloRPGs/5-Tokens/VTT Battle Tokens/Drake - White - 0101.webp",
+    "SoloRPGs/5-Tokens/VTT Battle Tokens/Imp - 0104_Purple.webp",
+    "SoloRPGs/5-Tokens/VTT Battle Tokens/Imp - 0102_green.webp",
+    "SoloRPGs/2-Bestiaries/Just One Sword/SHARK.md",
+    "SoloRPGs/2-Bestiaries/Just One Sword/WAR HORSE.md",
+    "SoloRPGs/!-Temp_Storage/Font Examples.md",
     "SoloRPGs/4-Templates/Snippets.md",
     "SoloRPGs/Just One Sword/Tables/Loot Tables.md",
     "SoloRPGs/4-Templates/Dicier Font.md",
     "SoloRPGs/!-Temp_Storage/Obsidian Markdown Formatting.md",
     "SoloRPGs/Just One Sword/Maps/Barrow of the Desecrated.md",
     "SoloRPGs/Just One Sword/Maps/Hex Map Key.md",
-    "SoloRPGs/Just One Sword/Tables/Roll Tables.md",
     "SoloRPGs/4-Templates/Colour Pallette.md",
     "SoloRPGs/Just One Sword/World Building/Longwatch.md",
     "SoloRPGs/Just One Sword/Maps/Map of Mistvale.md",
@@ -388,20 +398,9 @@
     "SoloRPGs/2-Bestiaries/Just One Sword/GIANT ANT.md",
     "SoloRPGs/2-Bestiaries/Just One Sword/APE.md",
     "SoloRPGs/Just One Sword/Tables/Rules Reference.md",
-    "SoloRPGs/Just One Sword/Tables/Travel Tables.md",
-    "SoloRPGs/Just One Sword/Maps/Battle Maps/Deep Dungeon Battle Map.md",
-    "SoloRPGs/Just One Sword/Maps/Battle Maps/Cliffs Road Battle Map Grided.md",
     "SoloRPGs/1-Assets/222496-SvCCr Crypt 6 17x12-gigapixel-standard-scale-2_00x.webp",
-    "SoloRPGs/Just One Sword/Tables/Dungeon Dressing.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Tables/Rift Tables.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Tables/Riftbreakers Tables Rolls.md",
     "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Tables/JUST ONE SWORD - Dungeon Dressing.pdf",
-    "JUST ONE SWORD - Dungeon Dressing.md",
     "SoloRPGs/5-Tokens/VTT Battle Tokens/Demon - Quasit - 0204.webp",
-    "SoloRPGs/5-Tokens/VTT Battle Tokens/Drosera Constrictor - 0101.webp",
-    "SoloRPGs/5-Tokens/VTT Battle Tokens/Animal - Boar - 0101.webp",
-    "SoloRPGs/5-Tokens/VTT Battle Tokens/Aboleth - 0101.webp",
-    "SoloRPGs/1-Assets/Deep Dungeon Furnished-standard.webp",
     "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Maps/Interior Maps",
     "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Maps",
     "SoloRPGs/1-Assets/SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Eka",

@@ -535,4 +535,32 @@ Precarious Habitation
 Dressing: Barrels
 Theme: Destruction
 
+I walked into some sort of sleeping area with makeshift cots strewn about the floor. But by the barrels and boxes it seems like this was also used as some sort of storeroom, but all of it is in various stages of destruction.
 
+Encounter Check +4: <span style="font-family: DicierFH Regular; font-size: 30px;">1_ON_D8</span> Encounter!
+Reaction: Hostile / Threatening 
+TEL: 2
+
+```statblock
+creature: Night-Kin Imp
+```
+
+```encounter
+players:
+  - Vozz Ichorfoot
+creatures:
+  - Night-Kin Imp, 4, 13, 0
+```
+
+Combat Start!
+
+PC Turn
+
+Ranged Attack on Night-Kin Imp (13) <span style="font-family: DicierRH Regular; font-size: 34px;">18_ON_D20</span> + 2 = 20 Hit!
+
+5 Damage to Night-Kin Imp  (Deads)
+
+<span style="color:#FF29B8">Victory!</span>
+
+ Scavenge: <font color="#fb5607">11 silver</font>
+ 

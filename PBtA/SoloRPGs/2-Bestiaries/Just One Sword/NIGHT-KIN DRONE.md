@@ -1,8 +1,9 @@
 ---
 statblock: inline
 monster_type:
-  - NightKin
-name: "Night-Kin Drone (Minion)"
+  - NightKin 
+  - Minion
+name: "Night-Kin Drone"
 layout: JustOneTorch
 lvl: "1"
 hp: "4"
@@ -14,7 +15,7 @@ morale: "7"
 special: "Toxic Spores: BODY save or take 1d6 poison."
 ---
 ```statblock
-name: "Night-Kin Drone (Minion)"
+name: "Night-Kin Drone"
 layout: JustOneTorch
 lvl: "1"
 hp: "4"
