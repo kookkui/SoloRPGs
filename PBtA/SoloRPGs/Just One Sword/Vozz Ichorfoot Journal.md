@@ -581,5 +581,225 @@ Disarming, Encounter +1
 
 Encounter Check: <span style="font-family: DicierRH Regular; font-size: 34px;">4_ON_D8</span>  No encounter.
 
+Scavenge: <font color="#ff00cc">9 silver</font>
+
+##### Room 7
+Room Check: <span style="font-family: DicierFH Regular; font-size: 30px;">7_ON_D8 </span> Not Goal
+Light Check:  <span style="font-family: DicierRH Regular; font-size: 34px;">5_ON_D8</span> 
+Ruined Slaughterhouse
+Danger: Stuck Door
+Theme: Secrets
+
+I must be getting close to whatever is causing people to disappear, because there are multiple bodies that have been cut to pieces here.  
+
+Encounter Check +2: <span style="font-family: DicierRH Regular; font-size: 34px;">4_ON_D8</span>  No Encounter
+
+Scavenge: Nothing
+
+The door out is stuck, I will try and break it down.
+
+Forcing door, Encounter +1 
++DEX <span style="font-family: DicierRH Regular; font-size: 34px;">62</span> + 2 + 0 = 10 <font color="#11FF00">Full Success </font>
+
+The door opens finally...
+
+##### Room 8
+Room Check: <span style="font-family: DicierFH Regular; font-size: 30px;">7_ON_D8 </span> Not Goal
+Light Check:  <span style="font-family: DicierRH Regular; font-size: 34px;">2_ON_D8</span>  Torch burns down, I light a new one...(D6)
+Twisted Library / Study
+Environment: Cracks / Holes
+Theme: Knowledge, Arcane
+
+The room is musty and dank, it is filled with old scrolls and tomes as if someone spent a very long time researching something. Whoever was meeting up here was working on something and the writing on the scrolls is like nothing I have seen before.
+
+Oracle: "Is the writing in some sort of Demonic?" <font color="#1e90ff">Extreme yes</font>
+Oracle: "Were they trying to summon demons?" Yes, but
+
+From what I can gather they were trying to summon demons but it might have backfired on them in the end. 
+
+Encounter Check +3: <span style="font-family: DicierFH Regular; font-size: 30px;">3_ON_D8 </span> Encounter!
+Patrolling Hunted
+TEL: 2
+Heavy Demonic Stinger / Barb Ranged attack 
+
+```statblock
+creature: Night-Kin Reaver
+```
+
+```encounter
+players:
+  - Vozz Ichorfoot
+creatures:
+  - Night-Kin Reaver, 12, 13, 0
+```
+
+Combat Start!
+
+PC Turn
+
+Ranged Attack on Night-Kin Reaver (13) <span style="font-family: DicierRH Regular; font-size: 34px;">10_ON_D20</span> + 2 = 12 Miss!
+
+Second Ranged Attack on Night-Kin Reaver (13) <span style="font-family: DicierRH Regular; font-size: 34px;">18_ON_D20</span> + 2 = 20 Hit!
+<span style="font-family: DicierFH Regular; font-size: 30px;">4</span> + 2 = 6 Damage to Night-Kin Reaver (6)
+
+Night-Kin Reaver Turn
+
+Morale: <span style="font-family: DicierFH Regular; font-size: 30px;">51</span> 
+
+Move and Attack
+
+Night-Kin Reaver is out of range.
+
+Round 2 
+
+Night-Kin Reaver Turn
+
+Melee: Guard (+2 AC) Ranged: Aim (-2 REFLEX)
+
+PC Turn
+
+Moving NEAR
+
+Melee Attack on Night-Kin Reaver (15) <span style="font-family: DicierRH Regular; font-size: 34px;">9_ON_D20</span> + 2 = 11 Miss!
+
+Second Melee Attack on Night-Kin Reaver (15) <span style="font-family: DicierRH Regular; font-size: 34px;">10_ON_D20</span> + 2 = 12 Miss!
+
+Round 3
+
+Night-Kin Reaver Turn
+
+Attack 
+
+BLOCK: <span style="font-family: DicierFH Regular; font-size: 30px;">18_ON_D20</span> + 3 + 1 = 22 Blocked
+
+PC Turn
+Melee Attack on Night-Kin Reaver (15) <span style="font-family: DicierRH Regular; font-size: 34px;">20_ON_D20</span> + 2 = 22 Natural 20!
+
+SLASHING: 2 Bleed DMG for 4 Turns. 
+
+8 Damage to Night-Kin Reaver (Deads)
+
+<span style="color:#FF29B8">Victory!</span>
+
+Scavenge: 7 silver
+
+(Goal Reached)
+
+On the ground I find the sword the Night-Kin were using to terrorize the area. 
+
+Bastard Sword (**Betrayer:** On Natural 1, deal damage to yourself)
+
++INT Check to see if I notice anything magical about the sword.
+
++INT <span style="font-family: DicierFH Regular; font-size: 30px;">62</span> + 1 + 0 = 9 Partial Success. +1 Encounters but I am able to tell there is a something evil about the magic on this sword.
+
+Leaving this horrible place as fast as I can.
+
+Encounter Checks x 6 = No Encounters
+Light Checks x 6 = No losses.
+
+### Second Watch
+
+Glad to be back out in the clear air.
+
+Encounter Check:  <span style="font-family: DicierFH Regular; font-size: 30px;">3_ON_D8 </span> No Encounter
+
+Traveling back.
+
+### Third Watch
+
+Encounter Check:  <span style="font-family: DicierFH Regular; font-size: 30px;">1_ON_D8 </span>  Encounter!
+
++WIS <span style="font-family: DicierFH Regular; font-size: 30px;">54</span> + 1 + 1 = 11 <font color="#00b050">Full Success!</font>
+
+```statblock
+creature: Blood Demon
+```
+
+
+I notice a Blood Demon trying to steal the cursed sword from my pack!
+
+```encounter
+players:
+  - Vozz Ichorfoot
+creatures:
+  - Blood Demon, 8, 12, 0
+```
+
+Combat Start!
+
+Melee Attack on Blood Demon (12) <span style="font-family: DicierRH Regular; font-size: 34px;">13_ON_D20</span> + 2 = 15 Hit!
+
+<span style="font-family: DicierFH Regular; font-size: 30px;">5</span> + 2 = 7 Damage to the Blood Demon (1)
+
+Blood Demon Turn
+
+Morale: <span style="font-family: DicierFH Regular; font-size: 30px;">63</span> (8)
+
+The Blood Demon is fleeing
+
+Melee Attack on Blood Demon (12) <span style="font-family: DicierRH Regular; font-size: 34px;">14_ON_D20</span> + 2 = 16 Hit!
+
+3 Damage to the Blood Demon (Deads)
+
+<span style="color:#FF29B8">Victory!</span>
+
+Pushing on...
+
+### Forth Watch
+
+I found a Meadow and will try and make camp to rest up for the night.
+
++WIS <span style="font-family: DicierFH Regular; font-size: 30px;">16</span> + 1 + 1 = 9 Partial Success
+
++1 FP
++1 HP(6)
+
+-1 Ration(4)
+
+## 998-06-07
+ 
+Returned to [[Longwatch]] 
+
+Level up! 
+
++5 HP (12)
++1 ATK 
++1 SAVE
+
+I make my way to the market place and see if I can sell off this loot.
+
++CHA <span style="font-family: DicierFH Regular; font-size: 30px;">16</span> + 1 + 1 = 9 Partial Success
+Was able to negotiate 60% value.
+
+- Tapestry (250 SP)
+- Fine Silk (250 SP)
+- Bracelet (1,500 SP)
+- Gems x 3 (300 SP)
+- Gem (50 SP)
+- Shortsword (8 SP)
+- Short bow (10 SP)
+Total Sale:
+<font color="#fb5607">1410 SP</font>
+<font color="#ff00cc">+14 XP</font>
+
+**Buying**
+- Bastard Sword d8 (15 SP)
+- Silvering to Bastard Sword (150 SP)
+- Hunting Bow (15 SP)
+- Arrows (20) x 2 (10 SP)
+- Chain Armor (50 SP)
+- Shield (50 SP)
+- Repair Kit x 3 (30 SP)
+- Thieves Tools, Complex (50 SP)
+- Spyglass (100 SP)
+- Tent (25 SP)
+
+**Carousing**
+
+- 800 SP +2 Bonus
+<font color="#ff00cc">+5 XP</font>
+
+
 
 

@@ -1,6 +1,6 @@
 ---
 Art: "![[CutieGoblinNerd.webp|center]]"
-Level: 1
+Level: 2
 STR: 16
 INT: 14
 WIS: 14
@@ -10,61 +10,62 @@ CHA: 11
 BodySav: "`=floor((this.STR - 10)/3) + floor((this.CON - 10)/3)`"
 MindSav: "`=floor((this.INT - 10)/3) + floor((this.CHA - 10)/3)`"
 ReflexSav: "`=floor((this.DEX - 10)/3) + floor((this.WIS - 10)/3)`"
-AtkBonus: 0
-SavBonus: 0
-xp: 10
+AtkBonus: 1
+SavBonus: 1
+xp: 19
 LevelXP: "`=(this.Level*10)`"
-MaxHP: 7
+MaxHP: 12
 Fatigue: "`=this.CON`"
 axp: 
 background: Beast Hunter
-currency: 117
-Weapon1: Shortsword
-Weapon1dmg: D6
-Weapon1notes: Piercing / Slashing
-Weapon2: Short bow
-Weapon2dmg: D6
-Weapon2notes: Piercing, Range 120'(VF)
-Armor1: Leather Armor
-Armor1Bod: 1
-Armor1Ref: 0
-Armor1notes: 
-Armor2: 
-Armor2rate: 0
+currency: 248
+Weapon1: Silver Bastard Sword
+Weapon1dmg: D8
+Weapon1notes: Slashing
+Weapon2: Hunting Bow
+Weapon2dmg: D8
+Weapon2notes: Piercing, Range 240'(D)
+Armor1: Chain Mail
+Armor1Bod: 2
+Armor1Ref: -1
+Armor1notes: -1 Sneak
+Armor2: Shield
+Armor2Bod: 1
+Armor2Ref: 
 Armor2notes: 
-torch1: D8
+torch1: D6
 Lampoil: None
 CurrentFatigue: 0
-CurrentHP: 7
+CurrentHP: 12
 Ability1: "[[Witchcraft]]"
 Spell1: "[[SoloRPGs/Just One Sword/Spells & Sorcery/Scorn the Mind.md|Scorn the Mind]]"
 Spell2: "[[SoloRPGs/Just One Sword/Spells & Sorcery/Dull the Mind.md|Dull the Mind]]"
 Spell3: "[[SoloRPGs/Just One Sword/Spells & Sorcery/Disperse the Sickness.md|Disperse the Sickness]]"
 title1: Torch
 title2: Bandages x3
-title3: Bedroll (Recover Fatigue in the wilds)
-title4: "Thieves Tools, Simple "
+title3: Tent (Roll to MAKE CAMP with Advantage. Recover 2 Fatigue on a Full Success)
+title4: Thieves Tools, Complex
 title5: Travel Rations
 title6: "Travel Rations "
 title7: Arrows
 title8: Silver Coins
-title9: Tapestry (250 SP)
-title10: Fine Silk (250 SP)
-title11: ""
-title12: ""
+title9: Arrows
+title10: Repair Kit x 3
+title11: Bastard Sword (**Betrayer:** On Natural 1, deal damage to yourself)
+title12: Spyglass (Advantage on +WIS checks)
 lightitem1: Arm band of Giant Strength (+1 Attribute Bonus to Strength)
 Language1: Diabolic
 asilver: 
-lightitem2: Bracelet (1,500 SP)
-lightitem6: Gems x 3 (100 SP)
-lightitem7: Gem (50 SP)
+lightitem2: ""
+lightitem6: ""
+lightitem7: ""
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%
 >> ## `=this.file.name`
 >> `=this.Art`
 >>```meta-bind
->>INPUT[progressBar(class(green-progress-bar), maxValue(7), title(HP)):CurrentHP]
+>>INPUT[progressBar(class(green-progress-bar), maxValue(12), title(HP)):CurrentHP]
 >>```
 >>```meta-bind
 >>INPUT[progressBar(class(pink-progress-bar), maxValue(15), title(Fatigue)):CurrentFatigue]
@@ -115,10 +116,10 @@ lightitem7: Gem (50 SP)
 >[!rng] %%FAKE TITLE HERE%%
 >> [!rng] %%FAKE TITLE HERE%%
 >> ##### Weapons
->>| **Weapons** | **Damage** | **Damage Mod**| **Quality** | **Notes** |
->>| --------- | :---: | :---: |-----|
->>| `=this.Weapon1` | `=this.Weapon1dmg` |+`=floor((this.STR - 10)/3)`| `3` |`=this.Weapon1notes` |
->>| `=this.Weapon2` | `=this.Weapon2dmg` |+`=floor((this.DEX - 10)/3)`|`3`| `=this.Weapon2notes` |
+>>| **Weapons** | **Damage** | **Mod**| **Quality** | **Notes** |
+>>| --------- | :-: | :-: |:-:|-----|
+>>| `=this.Weapon1` | `=this.Weapon1dmg` |+`=floor((this.STR - 10)/3) + this.AtkBonus`| `3` |`=this.Weapon1notes` |
+>>| `=this.Weapon2` | `=this.Weapon2dmg` |+`=floor((this.DEX - 10)/3) + this.AtkBonus`|`3`| `=this.Weapon2notes` |
 >>
 >>
 >>&nbsp;
@@ -127,7 +128,7 @@ lightitem7: Gem (50 SP)
 >>| **Armor** | **Body** | **Reflex** |**Quality** | **Notes**|
 >>| ----------- | :---: | :---: | ------ |------ |
 >>| `=this.Armor1` | `=this.Armor1Bod`|`=this.Armor1Ref` |`3` | `=this.Armor1notes` |
->>| `=this.Armor2` |  `=this.Armor1Bod`|`=this.Armor1Ref` |`0`| `=this.Armor2notes` |
+>>| `=this.Armor2` |  `=this.Armor2Bod`|`=this.Armor2Ref` |`3`| `=this.Armor2notes` |
 >>
 >>
 >>&nbsp;
@@ -138,8 +139,8 @@ lightitem7: Gem (50 SP)
 >>**Silver Pieces (sp)**|`=this.currency` |
 >>**Gold Pieces (gp)**|`0` |
 >>**Bronze Pieces (bp)**|`0` | 
->>**Arrows**|`8` |
->>**Rations**|`5` |
+>>**Arrows**|`6` |
+>>**Rations**|`4` |
 >>**Torches**| `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):torch1]` |
 >>**Lamp Oil**|`INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):Lampoil]` |
 >>**ADD SP**| `INPUT[number:asilver]` `BUTTON[psilver]`|
@@ -152,8 +153,8 @@ lightitem7: Gem (50 SP)
 >>  | |
 >>---|---|
 >>**Watches**| `clock,yellow: 0/4` |
->>**Encounter Penalties**|**`2`**|
->>**Goal Timer**|`5/8`|
+>>**Encounter Penalties**|**`1`**|
+>>**Goal Timer**|`0`|
 >>**Progress Track**|`circles,green: 0/10` | 
 >>**Countdown Track**|`circles,red: 0/4` |
 

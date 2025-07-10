@@ -140,16 +140,19 @@
 >
 
 ### GM Emulation
->[!NPC] GM Emulation
+>[!table_time] GM Emulation
 >
->##### GM Emulation - Actions
->`dice:[[DBS GM Emulation#^35c59e]]`
+>##### GM Emulation - Aspect
+>`dice:[[JOS GM Emulation Tables#^0e3d18]]`
 >
 >##### GM Emulation - Themes
->`dice:[[DBS GM Emulation#^416b0d]]`
+>`dice:[[JOS GM Emulation Tables#^dffa35]]`
 >
->##### GM Emulation - NPC Motivations
->`dice:[[DBS GM Emulation#^1dbade]]`
+>##### GM Emulation - Descriptor
+>`dice:[[JOS GM Emulation Tables#^28520b]]`
+>
+>##### GM Emulation - Concept (Tarot)
+>`dice:[[JOS GM Emulation Tables#^749323]]`
 
 
 ### Reference
