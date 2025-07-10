@@ -1,18 +1,19 @@
 ---
 statblock: inline
 ---
+
 ```statblock
 name: "Mummy Guardian (RB)"
 layout: Riftbreakers_2E
 description: "*A reanimated mummy that guards the tombs of ancient kings, attacking any intruders with its cursed weapons.*"
 
-actions: "1♟"
 agility: "20"
 athletics: "40"
 cs: "60"
 endurance: "80"
 evasion: "0"
 hp: "16♟"
+actions: "1♟"
 
 move: "1"
 number: "1"

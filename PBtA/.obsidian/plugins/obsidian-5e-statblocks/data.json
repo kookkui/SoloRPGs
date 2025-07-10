@@ -1314,7 +1314,8 @@
                     "actions"
                   ],
                   "fallback": "-",
-                  "display": "Actions:"
+                  "display": "Actions:",
+                  "doNotAddClass": false
                 },
                 {
                   "type": "property",
@@ -1641,7 +1642,7 @@
   "useDice": true,
   "renderDice": true,
   "export": true,
-  "showAdvanced": true,
+  "showAdvanced": false,
   "version": {
     "major": 4,
     "minor": 9,

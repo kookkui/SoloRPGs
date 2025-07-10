@@ -6,14 +6,14 @@ name: "Ancient Golem (RB)"
 layout: Riftbreakers_2E
 description: "*A massive construct made of stone and metal that can smash anything in its path with its powerful fists.*"
 
-actions: "1♟"
+
 agility: "10"
 athletics: "80"
 cs: "60"
 endurance: "80"
 evasion: "0"
 hp: "20♟"
-
+actions: "1♟"
 move: "1"
 number: "1"
 parry: "0"
