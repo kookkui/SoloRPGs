@@ -6,7 +6,7 @@ name: "Storm Giant (RB)"
 layout: Riftbreakers_2E
 description: "*A towering humanoid creature that controls the weather, summoning thunderstorms and tornadoes with ease.*"
 
-actions: "1♟"
+numactions: "1♟"
 agility: "20"
 athletics: "80"
 cs: "60"

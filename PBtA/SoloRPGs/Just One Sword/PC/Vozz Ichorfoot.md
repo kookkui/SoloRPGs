@@ -1,6 +1,6 @@
 ---
 Art: "![[CutieGoblinNerd.webp|center]]"
-Level: 2
+Level: 3
 STR: 16
 INT: 14
 WIS: 14
@@ -11,14 +11,14 @@ BodySav: "`=floor((this.STR - 10)/3) + floor((this.CON - 10)/3)`"
 MindSav: "`=floor((this.INT - 10)/3) + floor((this.CHA - 10)/3)`"
 ReflexSav: "`=floor((this.DEX - 10)/3) + floor((this.WIS - 10)/3)`"
 AtkBonus: 1
-SavBonus: 1
-xp: 19
+SavBonus: 2
+xp: 9
 LevelXP: "`=(this.Level*10)`"
-MaxHP: 12
+MaxHP: 18
 Fatigue: "`=this.CON`"
 axp: 
 background: Beast Hunter
-currency: 248
+currency: 98
 Weapon1: Silver Bastard Sword
 Weapon1dmg: D8
 Weapon1notes: Slashing
@@ -33,15 +33,15 @@ Armor2: Shield
 Armor2Bod: 1
 Armor2Ref: 
 Armor2notes: 
-torch1: D6
-Lampoil: None
+torch1: D8
+Lampoil: D20
 CurrentFatigue: 0
-CurrentHP: 12
+CurrentHP: 18
 Ability1: "[[Witchcraft]]"
 Spell1: "[[SoloRPGs/Just One Sword/Spells & Sorcery/Scorn the Mind.md|Scorn the Mind]]"
 Spell2: "[[SoloRPGs/Just One Sword/Spells & Sorcery/Dull the Mind.md|Dull the Mind]]"
 Spell3: "[[SoloRPGs/Just One Sword/Spells & Sorcery/Disperse the Sickness.md|Disperse the Sickness]]"
-title1: Torch
+title1: Lantern
 title2: Bandages x3
 title3: Tent (Roll to MAKE CAMP with Advantage. Recover 2 Fatigue on a Full Success)
 title4: Thieves Tools, Complex
@@ -51,7 +51,7 @@ title7: Arrows
 title8: Silver Coins
 title9: Arrows
 title10: Repair Kit x 3
-title11: Bastard Sword (**Betrayer:** On Natural 1, deal damage to yourself)
+title11: Lantern Oil x 2
 title12: Spyglass (Advantage on +WIS checks)
 lightitem1: Arm band of Giant Strength (+1 Attribute Bonus to Strength)
 Language1: Diabolic
@@ -59,13 +59,14 @@ asilver:
 lightitem2: ""
 lightitem6: ""
 lightitem7: ""
+title13: ""
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%
 >> ## `=this.file.name`
 >> `=this.Art`
 >>```meta-bind
->>INPUT[progressBar(class(green-progress-bar), maxValue(12), title(HP)):CurrentHP]
+>>INPUT[progressBar(class(green-progress-bar), maxValue(18), title(HP)):CurrentHP]
 >>```
 >>```meta-bind
 >>INPUT[progressBar(class(pink-progress-bar), maxValue(15), title(Fatigue)):CurrentFatigue]
@@ -140,9 +141,9 @@ lightitem7: ""
 >>**Gold Pieces (gp)**|`0` |
 >>**Bronze Pieces (bp)**|`0` | 
 >>**Arrows**|`46` |
->>**Rations**|`4` |
->>**Torches**| `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):torch1]` |
->>**Lamp Oil**|`INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):Lampoil]` |
+>>**Rations**|`6` |
+>>**Torches**| `INPUT[inlineSelect(option(D8), option(D6), option(D4), option(None)):torch1]` |
+>>**Lamp Oil**|`INPUT[inlineSelect(option(D20), option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):Lampoil]` |
 >>**ADD SP**| `INPUT[number:asilver]` `BUTTON[psilver]`|
 
 
@@ -166,14 +167,14 @@ lightitem7: ""
 >>| ----- | :-: |------ | :-: |
 >>| [[Acrobatics]] | `0` | [[Sorcerous Lore]] | `0` |
 >>|[[Athletics]] | `0` | [[Local Lore]] | `0`|
->>| [[Architecture]]  | `0` | [[Medicine]] | `0` |
+>>| [[Architecture]]  | `0` | [[Medicine]] | `1` |
 >>| [[Awareness]] | `0` |[[Perform]]  | `0` |
 >>|[[Beast Lore]]  |`0` |[[Persuade]] | `0` |
 >>|[[Bluff]]|`0`| [[Ride]] | `0`|
 >>|[[Bushcraft]] | `1` |[[Stealth]] | `0` |
 >>|[[Craft]] | `0` |  [[Streetwise]] | `0`|
 >>|[[Customs]]  | `0` | [[Seamanship]] | `0` |
->>|[[Foraging]] | `0` |[[Spot Hidden]]  | `0` |
+>>|[[Foraging]] | `0` |[[Spot Hidden]]  | `1` |
 >>|[[Hunt & Fish]] |`1` |[[Swim]] | `0` |
 >>|[[Insight]]  | `0` |[[Thievery]] | `1`|
 >>|[[Languages]] | `0` | [[Trade]]  | `0` |

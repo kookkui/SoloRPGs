@@ -6,7 +6,7 @@ name: "Luminous Lizard (RB)"
 layout: Riftbreakers_2E
 description: "*A relatively small reptile that glows in the dark, and can shoot bursts of blinding light to disorient its prey.*"
 
-actions: "1"
+numactions: "1"
 agility: "40"
 athletics: "30"
 cs: "50"

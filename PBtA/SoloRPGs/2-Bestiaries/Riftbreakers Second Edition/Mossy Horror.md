@@ -6,7 +6,7 @@ name: "Mossy Horror (RB)"
 layout: Riftbreakers_2E
 description: "*A grotesque creature made entirely of moss and vines that help it blend into the surrounding foliage and ambush its prey.*"
 
-actions: "1♟"
+numactions: "1♟"
 agility: "40"
 athletics: "50"
 cs: "60"

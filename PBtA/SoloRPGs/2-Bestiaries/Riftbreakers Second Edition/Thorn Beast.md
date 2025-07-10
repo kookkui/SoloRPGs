@@ -6,7 +6,7 @@ name: "Thorn Beast (RB)"
 layout: Riftbreakers_2E
 description: "*A ferocious creature covered in razor-sharp thorns, that can charge through the underbrush and unexpectedly impale its prey.*"
 
-actions: "1♟"
+numactions: "1♟"
 agility: "60"
 athletics: "20"
 cs: "60"

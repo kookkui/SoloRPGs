@@ -6,7 +6,7 @@ name: "Dark Dwellers (RB)"
 layout: Riftbreakers_2E
 description: "*Creatures that have adapted to life in the dark, with heightened senses and razor-sharp claws. Their sinuous bodies hold a ferocity that is often surprising, considering their relatively small size.*"
 
-actions: "1"
+numactions: "1"
 agility: "70"
 athletics: "20"
 cs: "40"

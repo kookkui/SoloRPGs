@@ -6,7 +6,7 @@ name: "Root Ravager (RB)"
 layout: Riftbreakers_2E
 description: "*A humanoid creature with roots instead of legs, that can tunnel through the ground and burst forth to attack with its powerful arms.*"
 
-actions: "1♟"
+numactions: "1♟"
 agility: "39"
 athletics: "69"
 cs: "60"

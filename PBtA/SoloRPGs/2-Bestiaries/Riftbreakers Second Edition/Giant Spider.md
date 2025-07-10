@@ -3,7 +3,7 @@ name: "Giant Spider (RB)"
 layout: Riftbreakers_2E
 description: "*A venomous arachnid that weaves webs between the trees and hunts its prey with deadly precision.*"
 
-actions: "1♟"
+numactions: "1♟"
 agility: "60"
 athletics: "50"
 cs: "60"

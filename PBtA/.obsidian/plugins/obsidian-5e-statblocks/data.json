@@ -1311,7 +1311,7 @@
                   "type": "property",
                   "id": "4b5adb4a697a",
                   "properties": [
-                    "actions"
+                    "numactions"
                   ],
                   "fallback": "-",
                   "display": "Actions:",

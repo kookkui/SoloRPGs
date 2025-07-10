@@ -6,7 +6,7 @@ name: "Spirit Bear (RB)"
 layout: Riftbreakers_2E
 description: "*A powerful creature that retains some of the traits from its former life, and is said to embody the spirit of the Primordial Forest itself.*"
 
-actions: "1♟"
+numactions: "1♟"
 agility: "40"
 athletics: "60"
 cs: "60"

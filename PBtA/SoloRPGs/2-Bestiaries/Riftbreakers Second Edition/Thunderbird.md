@@ -6,7 +6,7 @@ name: "Thunderbird (RB)"
 layout: Riftbreakers_2E
 description: "*A giant bird with powerful wings that can create deafening thunderclaps and lightning strikes, making it a feared predator.*"
 
-actions: "1♟"
+numactions: "1♟"
 agility: "60"
 athletics: "80"
 cs: "60"

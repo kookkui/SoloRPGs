@@ -6,7 +6,7 @@ name: "Island Golem (RB)"
 layout: Riftbreakers_2E
 description: "*A towering humanoid creature made of stone and clay that can smash through anything in its way.*"
 
-actions: "1♟"
+numactions: "1♟"
 agility: "10"
 athletics: "80"
 cs: "60"

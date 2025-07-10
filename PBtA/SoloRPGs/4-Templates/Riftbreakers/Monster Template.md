@@ -7,7 +7,7 @@ name: "Monster Name"
 layout: Riftbreakers_2E
 description: "description"
 
-actions: "1♟"
+numactions: "1♟"
 agility: "10"
 athletics: "80"
 cs: "60"

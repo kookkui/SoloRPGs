@@ -761,8 +761,8 @@ I found a Meadow and will try and make camp to rest up for the night.
  
 Returned to [[Longwatch]] 
 
-Level up! 
-
+**Level up!** 
+Level 2
 +5 HP (12)
 +1 ATK 
 +1 SAVE
@@ -781,7 +781,7 @@ Was able to negotiate 60% value.
 - Short bow (10 SP)
 Total Sale:
 <font color="#fb5607">1410 SP</font>
-<font color="#ff00cc">+14 XP</font>
+<font color="#ff00cc">+23 XP</font>
 
 **Buying**
 - Bastard Sword d8 (15 SP)
@@ -794,12 +794,44 @@ Total Sale:
 - Thieves Tools, Complex (50 SP)
 - Spyglass (100 SP)
 - Tent (25 SP)
+- Lantern (50 SP)
+- Lamp Oil  x 2 (20 SP)
 
 **Carousing**
-
 - 800 SP +2 Bonus
 <font color="#ff00cc">+5 XP</font>
 
+**Level up!** 
+Level 3
++6 HP (18)
++1 SAVE
++1 SKILL(Spot Hidden)
 
+Going to speak with the Council about solving the Night-Kin issue.
 
+Quest Completed
+<font color="#ff00cc">+1 XP</font>
+Removed Bastard Sword (**Betrayer:** On Natural 1, deal damage to yourself)
+
+The Council will put the sword in a secret vault to keep it out of the reach of evil.
+
+Oracle: "Is there a reward?" Yes, but its random, roll on the Treasures
+
+Jewelry (200 SP) (Sold for 120 SP)
+
+Training on **Medicine Skill**
+
+-200 SP
+
+*One week of training goes by*
+## 998-06-13
+
+MIND Save: <span style="font-family: DicierFH Regular; font-size: 30px;">17_ON_D20</span> + 3 + 0 = 20 Successful Training
+**+1 Medicine Skill**
+
+Expose Map Tower of the Cursed Saint
+
+The Shopkeeper (Tho-Eh) wants me to map out the *Tower of the Cursed Saint*. I didn't ask too many questions but seems like there is a customer interested in this information.
+
+Before going out I will gather some herbs for the journey. 
 

@@ -6,7 +6,7 @@ name: "Poisonous Frog (RB)"
 layout: Riftbreakers_2E
 description: "*A large, brightly colored amphibian that secretes deadly toxins, and can jump vast distances to avoid danger.*"
 
-actions: "1♟"
+numactions: "1♟"
 agility: "80"
 athletics: "40"
 cs: "60"

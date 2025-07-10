@@ -7,7 +7,7 @@ name: "Bog Snake (RB)"
 layout: Riftbreakers_2E
 description: "*These large serpents blend perfectly with their habitat, posing an ever-present threat to those who dare cross the glades and marshes of Kaethor.*"
 
-actions: "1♟"
+numactions: "1♟"
 agility: "40"
 athletics: "30"
 cs: "70"

@@ -6,22 +6,8 @@
       {
         "id": "70ee01fb01225238",
         "type": "tabs",
-        "dimension": 53.64478453483689,
+        "dimension": 51.48026315789473,
         "children": [
-          {
-            "id": "788ddfea6c686fd2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SoloRPGs/Just One Sword/Bestiary Data.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Bestiary Data"
-            }
-          },
           {
             "id": "6544571f3793a8eb",
             "type": "leaf",
@@ -34,6 +20,20 @@
               },
               "icon": "lucide-file",
               "title": "Vozz Ichorfoot Journal"
+            }
+          },
+          {
+            "id": "788ddfea6c686fd2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SoloRPGs/Just One Sword/Bestiary Data.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Bestiary Data"
             }
           },
           {
@@ -50,26 +50,39 @@
               "title": "Colour Pallette"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "119638e5447a0399",
         "type": "tabs",
-        "dimension": 46.35521546516311,
+        "dimension": 48.51973684210527,
         "children": [
           {
-            "id": "937d5ea41af51b5b",
+            "id": "d2bfb68fd0566504",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoloRPGs/2-Bestiaries/Riftbreakers Second Edition/Ancient Golem.md",
-                "mode": "source",
+                "file": "SoloRPGs/Just One Sword/PC/Vozz Ichorfoot.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Ancient Golem"
+              "title": "Vozz Ichorfoot"
+            }
+          },
+          {
+            "id": "966ada79e8d81a0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SoloRPGs/Just One Sword/World Building/Longwatch.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Longwatch"
             }
           },
           {
@@ -84,7 +97,8 @@
               "title": "Map of Mistvale"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -175,12 +189,12 @@
             "state": {
               "type": "MAIN_VIEW",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "srt-ribbon",
+              "title": "Solo RPG Toolkit"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -193,7 +207,6 @@
       {
         "id": "9069df57700a3564",
         "type": "tabs",
-        "dimension": 50.697350069735,
         "children": [
           {
             "id": "30ad3195d21516b7",
@@ -280,7 +293,7 @@
                   "viewState": 1,
                   "displaying": {
                     "day": 1,
-                    "month": 8,
+                    "month": 5,
                     "year": 998
                   },
                   "displayDayNumber": false,
@@ -306,12 +319,11 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       },
       {
         "id": "0e6a14a15862aa6f",
         "type": "tabs",
-        "dimension": 49.30264993026499,
         "children": [
           {
             "id": "60a312994f2ecd3d",
@@ -350,45 +362,44 @@
       "solo-rpg-toolkit:Solo RPG Toolkit": false
     }
   },
-  "active": "937d5ea41af51b5b",
+  "active": "6544571f3793a8eb",
   "lastOpenFiles": [
-    "SoloRPGs/2-Bestiaries/Riftbreakers Second Edition/Mummy Guardian.md",
-    "SoloRPGs/Just One Sword/Vozz Ichorfoot Journal.md",
-    "SoloRPGs/Just One Sword/Bestiary Data.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Untitled.md",
-    "SoloRPGs/2-Bestiaries/Riftbreakers Second Edition/Ancient Golem.md",
-    "SoloRPGs/2-Bestiaries/Riftbreakers Second Edition/Poisonous Frog.md",
-    "SoloRPGs/2-Bestiaries/Riftbreakers Second Edition/Luminous Lizard.md",
     "SoloRPGs/Just One Sword/Maps/Map of Mistvale.md",
-    "SoloRPGs/4-Templates/Colour Pallette.md",
-    "SoloRPGs/2-Bestiaries/Riftbreakers Second Edition/Ancient Ent.md",
-    "SoloRPGs/2-Bestiaries/Riftbreakers Second Edition/Bandits.md",
+    "SoloRPGs/Just One Sword/Vozz Ichorfoot Journal.md",
+    "SoloRPGs/5-Tokens/Hexes/Wuggy's Hex Tiles Buildings/WT-Towers11.webp",
+    "SoloRPGs/5-Tokens/Hexes/Wuggy's Hex Tiles Buildings/WT-Ruin4.webp",
+    "SoloRPGs/5-Tokens/Hexes/Wuggy's Hex Tiles Buildings/WT-Towers14.webp",
+    "SoloRPGs/5-Tokens/Hexes/Wuggy's Hex Tiles Buildings/WT-Towers13.webp",
+    "SoloRPGs/5-Tokens/Hexes/Wuggy's Hex Tiles Buildings/WT-Towers12.webp",
+    "SoloRPGs/Just One Sword/Bestiary Data.md",
     "SoloRPGs/Just One Sword/PC/Vozz Ichorfoot.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Riftbreakers_2e_-_BETA_6_219.pdf",
-    "Riftbreakers_2e_-_BETA_6_219.md",
-    "SoloRPGs/Riftbreakers - Second Edition/Monster Data.md",
-    "SoloRPGs/Just One Sword/Spells & Sorcery/Scorn the Mind.md",
-    "SoloRPGs/Just One Sword/Abilities & Skills/Witchcraft.md",
-    "SoloRPGs/Just One Sword/Abilities & Skills/Beast Lore.md",
-    "SoloRPGs/Just One Sword/Abilities & Skills/Local Lore.md",
-    "SoloRPGs/Just One Sword/World Building/Monster Data.md",
+    "SoloRPGs/Just One Sword/Abilities & Skills/Craft.md",
+    "SoloRPGs/Just One Sword/Abilities & Skills/Medicine.md",
     "SoloRPGs/Just One Sword/World Building/Longwatch.md",
-    "SoloRPGs/Just One Sword/Abilities & Skills/Thievery.md",
-    "SoloRPGs/Just One Sword/Tables/Roll Tables.md",
-    "SoloRPGs/Just One Sword/Tables/Rules Reference.md",
-    "SoloRPGs/Just One Sword/Tables/Dungeon Dressing.md",
-    "SoloRPGs/Just One Sword/Maps/Barrow of the Desecrated.md",
-    "SoloRPGs/Just One Sword/Abilities & Skills/Customs.md",
+    "SoloRPGs/Just One Sword/Spells & Sorcery/Disperse the Sickness.md",
+    "SoloRPGs/Just One Sword/Abilities & Skills/Spot Hidden.md",
+    "SoloRPGs/Just One Sword/Abilities & Skills/Insight.md",
+    "SoloRPGs/Just One Sword/Abilities & Skills/Awareness.md",
+    "SoloRPGs/4-Templates/Riftbreakers/Monster Template.md",
+    "SoloRPGs/2-Bestiaries/Riftbreakers Second Edition/Warpstar.md",
+    "SoloRPGs/2-Bestiaries/Riftbreakers Second Edition/Thunderbird.md",
+    "SoloRPGs/2-Bestiaries/Riftbreakers Second Edition/Thorn Beast.md",
+    "SoloRPGs/2-Bestiaries/Riftbreakers Second Edition/Storm Giant.md",
+    "SoloRPGs/2-Bestiaries/Riftbreakers Second Edition/Spirit Bear.md",
+    "SoloRPGs/2-Bestiaries/Riftbreakers Second Edition/Root Ravager.md",
+    "SoloRPGs/2-Bestiaries/Riftbreakers Second Edition/Poisonous Frog.md",
+    "SoloRPGs/2-Bestiaries/Riftbreakers Second Edition/Mummy Guardian.md",
+    "SoloRPGs/2-Bestiaries/Riftbreakers Second Edition/Mossy Horror.md",
+    "SoloRPGs/2-Bestiaries/Riftbreakers Second Edition/Luminous Lizard.md",
+    "SoloRPGs/2-Bestiaries/Riftbreakers Second Edition/Island Golem.md",
+    "SoloRPGs/2-Bestiaries/Riftbreakers Second Edition/Grove Guardian.md",
+    "SoloRPGs/2-Bestiaries/Riftbreakers Second Edition/Giant Spider.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Riftbreakers_2e_-_BETA_6_219.pdf",
     "SoloRPGs/5-Tokens/VTT Battle Tokens/Spined Devil - 0101_Blue.webp",
     "SoloRPGs/5-Tokens/VTT Battle Tokens/Bone Devil - 0101_whiteRed.webp",
     "SoloRPGs/1-Assets/image.webp",
     "SoloRPGs/5-Tokens/VTT Battle Tokens/Imp - 0101_Red.webp",
     "SoloRPGs/5-Tokens/VTT Battle Tokens/Drake - White - 0101.webp",
-    "SoloRPGs/5-Tokens/VTT Battle Tokens/Imp - 0104_Purple.webp",
-    "SoloRPGs/5-Tokens/VTT Battle Tokens/Imp - 0102_green.webp",
-    "SoloRPGs/5-Tokens/VTT Battle Tokens/Animal - Beetle - Giant - 0201 - Tier2.webp",
-    "SoloRPGs/5-Tokens/Hexes/Wuggy's Hex Tiles Buildings/WT-Castle3.webp",
-    "SoloRPGs/5-Tokens/Hexes/Wuggy's Hex Tiles Buildings/WT-Castle2.webp",
     "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Tables/JUST ONE SWORD - Dungeon Dressing.pdf",
     "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Maps/Interior Maps",
     "SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition/Maps",

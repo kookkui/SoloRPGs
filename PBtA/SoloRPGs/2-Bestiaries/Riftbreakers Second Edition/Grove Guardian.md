@@ -6,7 +6,7 @@ name: "Grove Guardian (RB)"
 layout: Riftbreakers_2E
 description: "*A fierce creature that resembles a mix between a bear and a tree, that defends its territory with brute force.*"
 
-actions: "1♟"
+numactions: "1♟"
 agility: "30"
 athletics: "80"
 cs: "60"

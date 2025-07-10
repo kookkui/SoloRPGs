@@ -6,7 +6,7 @@ name: "Warpstar (RB)"
 layout: Riftbreakers_2E
 description: "*A humanoid being from the astral that appears as a black shroud containing a nebula within and a floating set of red eyes hidden under the hood.*"
 
-actions: "1♟"
+numactions: "1♟"
 agility: "40"
 athletics: "40"
 cs: "60"

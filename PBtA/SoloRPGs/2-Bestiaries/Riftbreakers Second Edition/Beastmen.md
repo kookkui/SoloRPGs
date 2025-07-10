@@ -6,7 +6,7 @@ name: "Beastman (RB)"
 layout: Riftbreakers_2E
 description: "*Humanoid creatures with the features of wild animals that have adapted to the dense underbrush of the forest. They hunt with primitive weapons and are extremely territorial and aggressive.*"
 
-actions: "1♟"
+numactions: "1♟"
 agility: "60"
 athletics: "60"
 cs: "50"

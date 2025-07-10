@@ -13,7 +13,7 @@ cs: "60"
 endurance: "80"
 evasion: "0"
 hp: "16♟"
-actions: "1♟"
+numactions: "1♟"
 
 move: "1"
 number: "1"
@@ -36,7 +36,7 @@ action:
   - name: '5'
     desc: '**Dust Storm**: The Mummy Guardian unleashes a powerful gust of cursed sand. All creatures within the same Combat Zone must pass an Agility check or suffer D6+2 Necrotic damage.'
   - name: '6'
-    desc: "**Guardian's Vengeance**: The Mummy Guardian channels the anger and power of the ancient kings it was tasked to protect, gaining a temporary boost in strength and speed. Until the end of its next turn, the mummy gains +20 to its attack checks and deals an additional D6 Necrotic damage with all its damaging actions."
+    desc: "**Guardian's Vengeance**: The Mummy Guardian channels the anger and power of the ancient kings it was tasked to protect, gaining a temporary boost in strength and speed. Until the end of its next turn, the mummy gains +20 to its attack checks and deals an additional D6 Necrotic damage with all its damaging numactions."
 
 ```
 
