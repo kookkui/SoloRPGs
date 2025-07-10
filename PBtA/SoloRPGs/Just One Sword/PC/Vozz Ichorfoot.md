@@ -139,7 +139,7 @@ lightitem7: ""
 >>**Silver Pieces (sp)**|`=this.currency` |
 >>**Gold Pieces (gp)**|`0` |
 >>**Bronze Pieces (bp)**|`0` | 
->>**Arrows**|`6` |
+>>**Arrows**|`46` |
 >>**Rations**|`4` |
 >>**Torches**| `INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):torch1]` |
 >>**Lamp Oil**|`INPUT[inlineSelect(option(D12), option(D10), option(D8), option(D6), option(D4), option(None)):Lampoil]` |

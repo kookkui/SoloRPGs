@@ -6,7 +6,7 @@
       {
         "id": "70ee01fb01225238",
         "type": "tabs",
-        "dimension": 49.91941982272361,
+        "dimension": 53.64478453483689,
         "children": [
           {
             "id": "bdc52f0b4d99283f",
@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoloRPGs/Just One Sword/Vozz Ichorfoot Journal.md",
+                "file": "SoloRPGs/Riftbreakers - Second Edition/Untitled.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Vozz Ichorfoot Journal"
+              "title": "Untitled"
             }
           },
           {
@@ -55,20 +55,20 @@
       {
         "id": "119638e5447a0399",
         "type": "tabs",
-        "dimension": 50.08058017727639,
+        "dimension": 46.355215465163106,
         "children": [
           {
-            "id": "46eb76b9c089b15b",
+            "id": "937d5ea41af51b5b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SoloRPGs/Just One Sword/PC/Vozz Ichorfoot.md",
+                "file": "SoloRPGs/2-Bestiaries/Riftbreakers Second Edition/Mummy Guardian.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Vozz Ichorfoot"
+              "title": "Mummy Guardian"
             }
           },
           {
@@ -351,35 +351,36 @@
   },
   "active": "bdc52f0b4d99283f",
   "lastOpenFiles": [
-    "SoloRPGs/Just One Sword/PC/Vozz Ichorfoot.md",
-    "SoloRPGs/Just One Sword/World Building/Monster Data.md",
-    "SoloRPGs/Just One Sword/Vozz Ichorfoot Journal.md",
-    "SoloRPGs/Just One Sword/World Building/Longwatch.md",
+    "SoloRPGs/2-Bestiaries/Riftbreakers Second Edition/Mummy Guardian.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Untitled.md",
+    "SoloRPGs/2-Bestiaries/Riftbreakers Second Edition/Ancient Golem.md",
+    "SoloRPGs/Just One Sword/Maps/Map of Mistvale.md",
     "SoloRPGs/Just One Sword/Bestiary Data.md",
+    "SoloRPGs/4-Templates/Colour Pallette.md",
+    "SoloRPGs/2-Bestiaries/Riftbreakers Second Edition/Ancient Ent.md",
+    "SoloRPGs/2-Bestiaries/Riftbreakers Second Edition/Bandits.md",
+    "SoloRPGs/Just One Sword/PC/Vozz Ichorfoot.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Riftbreakers_2e_-_BETA_6_219.pdf",
+    "Riftbreakers_2e_-_BETA_6_219.md",
+    "SoloRPGs/Riftbreakers - Second Edition/Monster Data.md",
+    "SoloRPGs/Just One Sword/Vozz Ichorfoot Journal.md",
+    "SoloRPGs/Just One Sword/Spells & Sorcery/Scorn the Mind.md",
+    "SoloRPGs/Just One Sword/Abilities & Skills/Witchcraft.md",
+    "SoloRPGs/Just One Sword/Abilities & Skills/Beast Lore.md",
+    "SoloRPGs/Just One Sword/Abilities & Skills/Local Lore.md",
+    "SoloRPGs/Just One Sword/World Building/Monster Data.md",
+    "SoloRPGs/Just One Sword/World Building/Longwatch.md",
     "SoloRPGs/Just One Sword/Abilities & Skills/Thievery.md",
     "SoloRPGs/Just One Sword/Tables/Roll Tables.md",
     "SoloRPGs/Just One Sword/Tables/Rules Reference.md",
-    "SoloRPGs/Just One Sword/Maps/Map of Mistvale.md",
     "SoloRPGs/Just One Sword/Tables/Dungeon Dressing.md",
     "SoloRPGs/Just One Sword/Maps/Barrow of the Desecrated.md",
-    "SoloRPGs/Just One Sword/Abilities & Skills/Beast Lore.md",
     "SoloRPGs/Just One Sword/Abilities & Skills/Customs.md",
     "SoloRPGs/Just One Sword/Abilities & Skills/Witchery.md",
     "SoloRPGs/Just One Sword/Abilities & Skills/Sorcerous Lore.md",
-    "SoloRPGs/Just One Sword/Abilities & Skills/Religious Lore.md",
-    "SoloRPGs/Just One Sword/Maps/Battle Maps/Crypt Battle Map.md",
-    "SoloRPGs/4-Templates/Dicier Font.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/NIGHT-KIN REAVER.md",
     "SoloRPGs/5-Tokens/VTT Battle Tokens/Spined Devil - 0101_Blue.webp",
     "SoloRPGs/5-Tokens/VTT Battle Tokens/Bone Devil - 0101_whiteRed.webp",
     "SoloRPGs/1-Assets/image.webp",
-    "SoloRPGs/2-Bestiaries/Just One Sword/MOUNTAIN LION.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/MOUNTAIN GIANT.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/MOUNTAIN GOAT.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/MANTICORE.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/RED DRAGON.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/NIGHT-KIN DRONE.md",
-    "SoloRPGs/2-Bestiaries/Just One Sword/NIGHT-KIN IMP.md",
     "SoloRPGs/5-Tokens/VTT Battle Tokens/Imp - 0101_Red.webp",
     "SoloRPGs/5-Tokens/VTT Battle Tokens/Drake - White - 0101.webp",
     "SoloRPGs/5-Tokens/VTT Battle Tokens/Imp - 0104_Purple.webp",
@@ -396,7 +397,6 @@
     "SoloRPGs/1-Assets/SoloRPGs/Disciples of Bone & Shadow - Broken Shores Edition",
     "SoloRPGs/!-Temp_Storage/Disciples of Bone and Shadow/Tables",
     "SoloRPGs/!-Temp_Storage/Disciples of Bone and Shadow Beastiary",
-    "SoloRPGs/4-Templates/Disciples of Bone & Shadow - Broken Shores Edition",
     "Untitled.canvas",
     "SoloRPGs/Path of the Aram Thyr/Overworld Maps/Untitled.canvas",
     "SoloRPGs/Riftbreakers/Trippin' the Rift Beautiful Edition.canvas",

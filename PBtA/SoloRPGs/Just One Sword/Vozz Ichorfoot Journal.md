@@ -681,7 +681,7 @@ SLASHING: 2 Bleed DMG for 4 Turns.
 
 <span style="color:#FF29B8">Victory!</span>
 
-Scavenge: 7 silver
+Scavenge: <font color="#fb5607">7 silver</font>
 
 (Goal Reached)
 
