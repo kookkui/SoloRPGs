@@ -4,9 +4,9 @@
   "rollLinksForTags": false,
   "copyContentButton": true,
   "customFormulas": [
-    "2d20kh",
     "d12+1",
-    "1d20+3"
+    "1d20+3",
+    "1d12kl"
   ],
   "displayFormulaForMod": true,
   "displayResultsInline": false,
@@ -80,5 +80,20 @@
   "diceModTemplateFolders": {},
   "replaceDiceModInLivePreview": true,
   "version": "11.4.2",
-  "viewResults": []
+  "viewResults": [
+    {
+      "result": "19",
+      "original": "1d20",
+      "resultText": "1d20\n[19]",
+      "timestamp": 1752386261244,
+      "id": "69vSRFVRReNg"
+    },
+    {
+      "result": "19",
+      "original": "1d20",
+      "resultText": "1d20\n[19]",
+      "timestamp": 1752386261247,
+      "id": "7cAazNQe_uFi"
+    }
+  ]
 }
