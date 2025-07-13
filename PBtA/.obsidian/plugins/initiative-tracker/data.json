@@ -127,8 +127,13 @@
         "currentAC": "12",
         "note": "Vozz Ichorfoot",
         "path": "SoloRPGs/Just One Torch/PC/Vozz Ichorfoot.md",
+<<<<<<< HEAD
         "id": "ID_693819f8fa9b",
         "currentHP": 18,
+=======
+        "id": "ID_7b8b7969e95b",
+        "currentHP": 6,
+>>>>>>> origin/main
         "tempHP": 0,
         "status": [],
         "enabled": true,
