@@ -165,8 +165,8 @@
             "state": {
               "type": "DICE_ROLLER_VIEW",
               "state": {},
-              "icon": "dices",
-              "title": "Dice Tray"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -247,8 +247,8 @@
             "state": {
               "type": "DICE_ROLLER_VIEW",
               "state": {},
-              "icon": "dices",
-              "title": "Dice Tray"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -314,12 +314,32 @@
             "state": {
               "type": "fantasy-statblocks-creature-pane",
               "state": {},
-              "icon": "skull",
-              "title": "Combatant"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "3384816ae4b7f239",
+            "type": "leaf",
+            "state": {
+              "type": "DICE_ROLLER_VIEW",
+              "state": {},
+              "icon": "dices",
+              "title": "Dice Tray"
+            }
+          },
+          {
+            "id": "ff10e9e999a30472",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 8
       },
       {
         "id": "0e6a14a15862aa6f",
@@ -343,7 +363,12 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-5e-statblocks:Open Creature pane": false,
+      "templater-obsidian:Templater": false,
+      "initiative-tracker:Initiative Tracker Encounter Builder": false,
+      "pexels-banner:🚩 Pixel Banner Menu": false,
       "obsidian-git:Open Git source control": false,
+      "omnisearch:Omnisearch": false,
       "markdown-importer:Open format converter": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -353,11 +378,6 @@
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-5e-statblocks:Open Creature pane": false,
-      "templater-obsidian:Templater": false,
-      "initiative-tracker:Initiative Tracker Encounter Builder": false,
-      "pexels-banner:🚩 Pixel Banner Menu": false,
-      "omnisearch:Omnisearch": false,
       "calendarium:Open Calendarium": false,
       "solo-rpg-toolkit:Solo RPG Toolkit": false
     }
