@@ -60,6 +60,10 @@ lightitem2: ""
 lightitem6: ""
 lightitem7: ""
 title13: ""
+Pouch1: Harehune x 2
+Pouch2: Harehune x 2
+Pouch3: Banwyrt x 2
+Pouch4: Banwyrt x 2
 ---
 >[!dice] %%FAKE TITLE HERE%%
 >> [!dice] %%FAKE TITLE HERE%%
@@ -153,8 +157,8 @@ title13: ""
 >> ##### Timers & Counters
 >>  | |
 >>---|---|
->>**Watches**| `clock,yellow: 0/4` |
->>**Encounter Penalties**|**`1`**|
+>>**Watches**| `clock,yellow: 1/4` |
+>>**Encounter Penalties**|**`2`**|
 >>**Goal Timer**|`0`|
 >>**Progress Track**|`circles,green: 0/10` | 
 >>**Countdown Track**|`circles,red: 0/4` |

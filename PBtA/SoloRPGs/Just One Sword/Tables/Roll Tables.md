@@ -51,9 +51,6 @@
 > ##### Dungeon Theme
 >`dice:[[Travel Tables#^f124c1]]`
 >
-> ##### Barrow of the Desecrated Encounters
->`dice:[[Combat Tables#^67814c]]`
->
 > ##### Exits
 >`dice:[[Travel Tables#^645b75]]`
 

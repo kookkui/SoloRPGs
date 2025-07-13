@@ -833,5 +833,67 @@ Expose Map Tower of the Cursed Saint
 
 The Shopkeeper (Tho-Eh) wants me to map out the *Tower of the Cursed Saint*. I didn't ask too many questions but seems like there is a customer interested in this information.
 
-Before going out I will gather some herbs for the journey. 
+Oracle: "Is there a trail heading to the tower?" Yes
+
+Trail: +1 Watch
+Danger Level: **Dangerous** (d8)
+Terrain: Grasslands (Easy) +0 , Swamp (Perilous) +2
+### First Watch
+
+Temperature: Average
+Weather: Clear Skies 
+
++INT <span style="font-family: DicierFH Regular; font-size: 30px;">45</span> + 1 + 1 = 11 <font color="#00b050">Full Success!</font> (+1 to Gathering and Encounter detection)
+
+Encounter Check+1: <span style="font-family: DicierFH Regular; font-size: 30px;">2_ON_D8</span> No Encounter.
+
+I will try and gather herbs...
+
++1 Encounter Penalty
++INT <span style="font-family: DicierFH Regular; font-size: 30px;">63</span> + 1 + 1 = 11 <font color="#00b050">Full Success!</font> 
+
+Harehune x 4
+Banwyrt x 4
+
+### Second Watch
+
+Encounter Check +2: <span style="font-family: DicierFH Regular; font-size: 30px;">2_ON_D8</span>  Encounter!
+Animal Avert Digging 
+TEL: 8
+
+```statblock
+creature: Dire Wolf
+```
+
++WIS <span style="font-family: DicierFH Regular; font-size: 30px;">66</span> + 1 + 0 = 13 <font color="#00b050">Full Success!</font>
+
+I see two Dire Wolves digging around and looking for food most likely. I will try and sneak up on them to get the jump on them.
+
++DEX <span style="font-family: DicierFH Regular; font-size: 30px;">43</span> + 2 + 0 = 9 Partial Success 
+One of the Wolves notices me
+
+```encounter
+players:
+  - Vozz Ichorfoot
+creatures:
+  - 2:Dire Wolf, 14, 14, 0
+```
+
+Combat Start!
+
+PC Turn
+
+Melee Attack on  Dire Wolf 1 (14) <span style="font-family: DicierRH Regular; font-size: 30px;">15_ON_D20</span> + 3 = 18 Hit!
+
+7 Damage to Dire Wolf 1 (7)
+
+PC Second Attack
+
+Melee Attack on  Dire Wolf 1 (14) <span style="font-family: DicierRH Regular; font-size: 30px;">16_ON_D20</span> + 3 = 19 Hit!
+
+5 Damage to Dire Wolf 1 (2) 
+
+Dire Wolf 1 Turn
+
+Morale: <span style="font-family: DicierFH Regular; font-size: 30px;">52</span>
 
