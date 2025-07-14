@@ -17,6 +17,15 @@
     "FantasyFonts"
   ],
   "baseFontSizeAction": true,
+<<<<<<< HEAD
   "baseFontSize": 24,
+=======
+<<<<<<< HEAD
+  "baseFontSize": 21,
+  "textFontFamily": "iMWritingQuat Nerd Font,SN Pro,Atkinson Hyperlegible,JetBrainsMono NF"
+=======
+  "baseFontSize": 22,
+>>>>>>> origin/main
   "textFontFamily": "SN Pro,iMWritingQuat Nerd Font,Atkinson Hyperlegible,JetBrainsMono NF"
+>>>>>>> origin/main
 }

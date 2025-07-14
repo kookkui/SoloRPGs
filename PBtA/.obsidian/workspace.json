@@ -22,6 +22,20 @@
             }
           },
           {
+            "id": "143e639ce98102c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
+          },
+          {
             "id": "966ada79e8d81a0d",
             "type": "leaf",
             "state": {
@@ -47,7 +61,8 @@
               "title": "Map of Mistvale"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -322,10 +337,11 @@
       "solo-rpg-toolkit:Solo RPG Toolkit": false
     }
   },
-  "active": "d2bfb68fd0566504",
+  "active": "143e639ce98102c6",
   "lastOpenFiles": [
-    "SoloRPGs/4-Templates/Colour Pallette.md",
     "SoloRPGs/Just One Sword/PC/Vozz Ichorfoot.md",
+    "conflict-files-obsidian-git.md",
+    "SoloRPGs/4-Templates/Colour Pallette.md",
     "SoloRPGs/Untitled.md",
     "SoloRPGs/Just One Sword/World Building/Longwatch.md",
     "SoloRPGs/Just One Sword/Maps/Map of Mistvale.md",
@@ -354,7 +370,6 @@
     "SoloRPGs/2-Bestiaries/Riftbreakers Second Edition/Root Ravager.md",
     "SoloRPGs/2-Bestiaries/Riftbreakers Second Edition/Poisonous Frog.md",
     "SoloRPGs/2-Bestiaries/Riftbreakers Second Edition/Mummy Guardian.md",
-    "SoloRPGs/2-Bestiaries/Riftbreakers Second Edition/Mossy Horror.md",
     "SoloRPGs/Riftbreakers - Second Edition/Riftbreakers_2e_-_BETA_6_219.pdf",
     "SoloRPGs/5-Tokens/VTT Battle Tokens/Spined Devil - 0101_Blue.webp",
     "SoloRPGs/5-Tokens/VTT Battle Tokens/Bone Devil - 0101_whiteRed.webp",

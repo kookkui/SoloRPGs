@@ -51,7 +51,15 @@ vs MAGIC: <span style="font-family: DicierFH Regular; font-size: 30px;">20_ON_D2
 ### JustOneSword vs +Check
 +2d6  + ATRBonus + SKILL =
 ### Dicier
- <span style="font-family: DicierRH Regular; font-size: 34px;">20_ON_D20</span>
+ <span style="font-family: DicierRH Regular; font-size: 30px;">20_ON_D20</span>
 ### JustOneSword SEARCH
 Searching, Encounter +1 
 +WIS <span style="font-family: DicierRH Regular; font-size: 34px;">56</span> + 1 + 0 = 12 <font color="#00b050">Full Success!</font>
+
+### JustOneSword Encounter
+```encounter
+players:
+  - PC
+creatures:
+  - 4:Monster, 5, 10, 1
+```
