@@ -4,3 +4,7 @@
 # Add below lines to exclude OS settings and caches
 .trash/
 .DS_Stor
+/home/kookkui/Documents/Obsidian/PBtA/.obsidian/
+/home/kookkui/Documents/Obsidian/SoloRPGs/.obsidian/
+PBtA/.obsidian/
+SoloRPGs/.obsidian/

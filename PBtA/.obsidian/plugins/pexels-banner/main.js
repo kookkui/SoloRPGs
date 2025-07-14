@@ -30490,7 +30490,7 @@ module.exports = __toCommonJS(main_exports);
 var import_obsidian30 = require("obsidian");
 
 // virtual-module:virtual:release-notes
-var releaseNotes = '<a href="https://www.youtube.com/watch?v=tfNqEAQuhXs">\n  <img src="https://pixel-banner.online/img/pixel-banner-v3.6.jpg" alt="Pixel Banner" style="max-width: 400px;">\n</a>\n\n<h2>\u{1F389} What&#39;s New</h2>\n<h3>v3.6.0 - 2025-06-29</h3>\n<h4>\u2728 Added</h4>\n<ul>\n<li>Support for \u{1F3AC} Video Banners!<ul>\n<li>Upload and choose Video files as banners from your vault</li>\n<li>Downloadable \u{1F3AC} Video Banners from the <code>Pixel Banner Plus Collection</code></li>\n</ul>\n</li>\n<li>Added paging controls to the <code>Pixel Banner Plus Collection</code></li>\n<li>New global <code>Banner Max Width</code> setting to control the default max width for all banners</li>\n</ul>\n<h4>\u{1F4E6} Updated</h4>\n<ul>\n<li>Moved <code>Default Saved Banners Folder</code> setting to the <code>General</code> tab</li>\n<li>Renamed <code>Pixel Banner Plus Store</code> to <code>Pixel Banner Plus Collection</code> as many items are free</li>\n</ul>\n<h3>v3.6.1 - 2025-06-30</h3>\n<h4>\u{1F41B} Fixed</h4>\n<ul>\n<li>Resolved issue with Icon Image selection modal not setting the selected icon image</li>\n</ul>\n<h3>v3.6.2 - 2025-06-30</h3>\n<h4>\u{1F4E6} Updated</h4>\n<ul>\n<li>Improved debounce logic to prevent multiple banner reloads when opening a note</li>\n</ul>\n<h3>v3.6.3 - 2025-06-30</h3>\n<h4>\u2728 Added</h4>\n<ul>\n<li>Added <code>filesize</code> display to the store modal</li>\n</ul>\n<a href="https://www.youtube.com/watch?v=pJFsMfrWak4">\n  <img src="https://pixel-banner.online/img/pixel-banner-transparent-bg.png" alt="Pixel Banner" style="max-width: 400px;">\n</a>\n';
+var releaseNotes = '<a href="https://www.youtube.com/watch?v=tfNqEAQuhXs">\n  <img src="https://pixel-banner.online/img/pixel-banner-v3.6.jpg" alt="Pixel Banner" style="max-width: 400px;">\n</a>\n\n<h2>\u{1F389} What&#39;s New</h2>\n<h3>v3.6.0 - 2025-06-29</h3>\n<h4>\u2728 Added</h4>\n<ul>\n<li>Support for \u{1F3AC} Video Banners!<ul>\n<li>Upload and choose Video files as banners from your vault</li>\n<li>Downloadable \u{1F3AC} Video Banners from the <code>Pixel Banner Plus Collection</code></li>\n</ul>\n</li>\n<li>Added paging controls to the <code>Pixel Banner Plus Collection</code></li>\n<li>New global <code>Banner Max Width</code> setting to control the default max width for all banners</li>\n</ul>\n<h4>\u{1F4E6} Updated</h4>\n<ul>\n<li>Moved <code>Default Saved Banners Folder</code> setting to the <code>General</code> tab</li>\n<li>Renamed <code>Pixel Banner Plus Store</code> to <code>Pixel Banner Plus Collection</code> as many items are free</li>\n</ul>\n<h3>v3.6.1 - 2025-06-30</h3>\n<h4>\u{1F41B} Fixed</h4>\n<ul>\n<li>Resolved issue with Icon Image selection modal not setting the selected icon image</li>\n</ul>\n<h3>v3.6.2 - 2025-06-30</h3>\n<h4>\u{1F4E6} Updated</h4>\n<ul>\n<li>Improved debounce logic to prevent multiple banner reloads when opening a note</li>\n</ul>\n<h3>v3.6.3 - 2025-06-30</h3>\n<h4>\u2728 Added</h4>\n<ul>\n<li>Added <code>filesize</code> display to the store modal</li>\n</ul>\n<h3>v3.6.4 - 2025-07-12</h3>\n<h4>\u2728 Added</h4>\n<ul>\n<li>Banner images now support local <code>file</code> protocol for images outside of your vault (e.g. <code>file:///C:\\path\\banner.jpg</code>)</li>\n</ul>\n<h4>\u{1F4E6} Updated</h4>\n<ul>\n<li>Allow commas in banner filenames</li>\n</ul>\n<h4>\u{1F41B} Fixed</h4>\n<ul>\n<li>Ensure pinned banner is the currently displayed image when saving API banners</li>\n<li>Ensure banner icons are only rendered when a main banner image is present</li>\n<li>Banner Icon Image not always rendered until the note was clicked/focused</li>\n</ul>\n<a href="https://www.youtube.com/watch?v=pJFsMfrWak4">\n  <img src="https://pixel-banner.online/img/pixel-banner-transparent-bg.png" alt="Pixel Banner" style="max-width: 400px;">\n</a>\n';
 
 // src/settings/settings.js
 var import_obsidian6 = require("obsidian");
@@ -33533,7 +33533,7 @@ async function addPixelBanner(plugin, el, ctx) {
       if (bannerElement == null ? void 0 : bannerElement._isPersistentBanner) {
         children.unshift(bannerElement);
       }
-      if (bannerIconOverlay) {
+      if (bannerIconOverlay == null ? void 0 : bannerIconOverlay._isPersistentBannerIcon) {
         children.push(bannerIconOverlay);
       }
       if (selectImageElement == null ? void 0 : selectImageElement._isPersistentSelectImage) {
@@ -33674,7 +33674,14 @@ async function addPixelBanner(plugin, el, ctx) {
         pinIcon._isPersistentPin = true;
         pinIcon.onclick = async () => {
           try {
-            await handlePinIconClick(imageUrl, plugin);
+            const currentImage = plugin.loadedImages.get(file.path);
+            if (!currentImage) {
+              new import_obsidian26.Notice("Could not find the current image URL to pin.");
+              console.error("Error pinning image: currentImage is null or undefined for file.path:", file.path);
+              return;
+            }
+            const imageUrlToPin = typeof currentImage === "object" && currentImage.url ? currentImage.url : currentImage;
+            await handlePinIconClick(imageUrlToPin, plugin);
           } catch (error) {
             console.error("Error pinning image:", error);
             new import_obsidian26.Notice("Failed to pin the image.");
@@ -33859,12 +33866,14 @@ async function updateBanner(plugin, view, isContentChange, updateMode = plugin.U
       bannerImage = bannerImage.flat()[0];
       bannerImage = `[[${bannerImage}]]`;
     }
-    if (typeof bannerImage === "string" && (!bannerImage.startsWith("[[") || !bannerImage.startsWith("![["))) {
-      const bannerValues = bannerImage.includes(",") ? bannerImage.split(",").map((v) => v.trim()).filter((v) => v.length > 0).filter(Boolean) : [bannerImage];
-      if (bannerValues.length > 0) {
-        bannerImage = bannerValues[Math.floor(Math.random() * bannerValues.length)];
-      } else {
-        bannerImage = null;
+    if (typeof bannerImage === "string" && !bannerImage.startsWith("[[") && !bannerImage.startsWith("![[") && !bannerImage.startsWith("http")) {
+      if (bannerImage.includes(", ")) {
+        const bannerValues = bannerImage.split(", ").map((v) => v.trim()).filter((v) => v.length > 0);
+        if (bannerValues.length > 0) {
+          bannerImage = bannerValues[Math.floor(Math.random() * bannerValues.length)];
+        } else {
+          bannerImage = null;
+        }
       }
     }
     if (bannerImage && (!bannerImage.startsWith("[[") || !bannerImage.startsWith("![[")) && !bannerImage.startsWith("http")) {
@@ -33906,7 +33915,9 @@ async function updateBanner(plugin, view, isContentChange, updateMode = plugin.U
   if (!isEmbedded) {
     const embeddedNotes = contentEl.querySelectorAll(".internal-embed.markdown-embed");
     for (const embed of embeddedNotes) {
-      const embedFile = plugin.app.metadataCache.getFirstLinkpathDest(embed.getAttribute("src"), "");
+      const embedSrc = embed.getAttribute("src");
+      if (!embedSrc) continue;
+      const embedFile = plugin.app.metadataCache.getFirstLinkpathDest(embedSrc, view.file.path);
       if (embedFile) {
         const embedView = {
           file: embedFile,
@@ -34010,7 +34021,7 @@ async function updateBanner(plugin, view, isContentChange, updateMode = plugin.U
     const cacheKey = plugin.generateCacheKey(view.file.path, plugin.app.workspace.activeLeaf.id);
     const cachedState = plugin.bannerStateCache.get(cacheKey);
     const cachedIconState = (_n = cachedState == null ? void 0 : cachedState.state) == null ? void 0 : _n.iconState;
-    const createOrUpdateIconOverlay = (banner, viewType) => {
+    const createOrUpdateIconOverlay = async (banner, viewType) => {
       var _a2, _b2;
       if (!banner) {
         return;
@@ -34075,18 +34086,16 @@ async function updateBanner(plugin, view, isContentChange, updateMode = plugin.U
               if (file) {
                 imagePath = plugin.loadedImages.get(file.path);
                 if (!imagePath) {
-                  plugin.getVaultImageUrl(file.path).then((url) => {
-                    if (url) plugin.loadedImages.set(file.path, url);
-                  });
+                  imagePath = await plugin.getVaultImageUrl(file.path);
+                  if (imagePath) plugin.loadedImages.set(file.path, imagePath);
                 }
               }
               break;
             case "vaultPath":
               imagePath = plugin.loadedImages.get(bannerIconImage);
               if (!imagePath) {
-                plugin.getVaultImageUrl(bannerIconImage).then((url) => {
-                  if (url) plugin.loadedImages.set(bannerIconImage, url);
-                });
+                imagePath = await plugin.getVaultImageUrl(bannerIconImage);
+                if (imagePath) plugin.loadedImages.set(bannerIconImage, imagePath);
               }
               break;
             case "url":
@@ -34130,17 +34139,17 @@ async function updateBanner(plugin, view, isContentChange, updateMode = plugin.U
     if (isEmbedded) {
       const embedContainer = contentEl.querySelector(".markdown-preview-sizer") || contentEl.querySelector(".markdown-embed-content") || contentEl;
       const previewBanner = embedContainer.querySelector(":scope > .pixel-banner-image");
-      createOrUpdateIconOverlay(previewBanner, "preview");
+      await createOrUpdateIconOverlay(previewBanner, "preview");
     } else {
       const previewContainer = contentEl.querySelector("div.markdown-preview-sizer");
       const sourceContainer = contentEl.querySelector("div.cm-sizer");
       if (previewContainer) {
         const previewBanner = previewContainer.querySelector(":scope > .pixel-banner-image");
-        if (previewBanner) createOrUpdateIconOverlay(previewBanner, "preview");
+        await createOrUpdateIconOverlay(previewBanner, "preview");
       }
       if (sourceContainer) {
         const sourceBanner = sourceContainer.querySelector(":scope > .pixel-banner-image");
-        if (sourceBanner) createOrUpdateIconOverlay(sourceBanner, "source");
+        await createOrUpdateIconOverlay(sourceBanner, "source");
       }
     }
   }
@@ -34375,7 +34384,11 @@ function getInputType(input) {
   if (typeof input !== "string") {
     return "invalid";
   }
-  input = input.trim().replace(/^["'](.*)["']$/, "$1");
+  let cleanedInput = input.trim().replace(/^["'](.*)["']$/, "$1");
+  cleanedInput = cleanedInput.replace(/^!\[\[(.*)\]\]$/, "$1").replace(/^\[\[(.*)\]\]$/, "$1");
+  if (cleanedInput.includes("file:///")) {
+    return "fileUrl";
+  }
   if (input.match(/^\[{2}.*\]{2}$/) || input.match(/^"?!?\[{2}.*\]{2}"?$/)) {
     return "obsidianLink";
   }
@@ -35460,6 +35473,31 @@ var PixelBannerPlugin = class extends import_obsidian30.Plugin {
     if (type === "url" || type === "path") {
       return input;
     }
+    if (type === "fileUrl") {
+      try {
+        const fs = require("fs");
+        const path = require("path");
+        let filePath = decodeURIComponent(input.substring(process.platform === "win32" ? 8 : 7));
+        filePath = filePath.replace('"', "").replace("![[", "").replace("[[", "").replace("]]", "").replace("//", "");
+        if (process.platform === "win32" && /^[a-zA-Z]:/.test(filePath)) {
+        } else if (process.platform === "win32" && filePath.startsWith("/")) {
+          filePath = filePath.substring(1);
+        }
+        if (!fs.existsSync(filePath)) {
+          console.error(`Pixel Banner: File not found at path: ${filePath}`);
+          new import_obsidian30.Notice(`Pixel Banner: File not found at path: ${filePath}`);
+          return null;
+        }
+        const data = fs.readFileSync(filePath);
+        const base64 = Buffer.from(data).toString("base64");
+        const mimeType = "image/" + path.extname(filePath).substring(1);
+        return `data:${mimeType};base64,${base64}`;
+      } catch (err) {
+        console.error("Pixel Banner: Error reading local file:", err);
+        new import_obsidian30.Notice("Pixel Banner: Error reading local file. Check console for details.");
+        return null;
+      }
+    }
     if (type === "obsidianLink") {
       const file = this.getPathFromObsidianLink(input);
       if (file) {
@@ -35515,20 +35553,30 @@ var PixelBannerPlugin = class extends import_obsidian30.Plugin {
   // --------------------
   async postProcessor(el, ctx) {
     const frontmatter = ctx.frontmatter;
-    if (frontmatter && frontmatter[this.settings.customBannerField]) {
+    let bannerImageValue = null;
+    if (frontmatter) {
+      for (const field of this.settings.customBannerField) {
+        if (frontmatter[field]) {
+          bannerImageValue = frontmatter[field];
+          break;
+        }
+      }
+    }
+    if (bannerImageValue) {
       await this.addPixelBanner(el, {
         frontmatter,
         file: ctx.sourcePath,
         isContentChange: false,
-        yPosition: frontmatter[this.settings.customYPositionField] || this.settings.yPosition,
-        contentStartPosition: frontmatter[this.settings.customContentStartField] || this.settings.contentStartPosition,
+        yPosition: getFrontmatterValue(frontmatter, this.settings.customYPositionField) || this.settings.yPosition,
+        contentStartPosition: getFrontmatterValue(frontmatter, this.settings.customContentStartField) || this.settings.contentStartPosition,
         customBannerField: this.settings.customBannerField,
         customYPositionField: this.settings.customYPositionField,
+        customXPositionField: this.settings.customXPositionField,
         customContentStartField: this.settings.customContentStartField,
         customImageDisplayField: this.settings.customImageDisplayField,
         customImageRepeatField: this.settings.customImageRepeatField,
         customBannerMaxWidthField: this.settings.customBannerMaxWidthField,
-        bannerImage: frontmatter[this.settings.customBannerField]
+        bannerImage: bannerImageValue
       });
       if (this.settings.hidePixelBannerFields) {
         const frontmatterEl = el.querySelector(".frontmatter");

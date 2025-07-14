@@ -1,5 +1,5 @@
 {
-  "cssTheme": "",
+  "cssTheme": "AnuPpuccin",
   "theme": "obsidian",
   "accentColor": "#8624ff",
   "monospaceFontFamily": "JetBrainsMono NF,GeistMono Nerd Font,IosevkaTerm Nerd Font Mono",
@@ -17,6 +17,6 @@
     "FantasyFonts"
   ],
   "baseFontSizeAction": true,
-  "baseFontSize": 22,
+  "baseFontSize": 24,
   "textFontFamily": "SN Pro,iMWritingQuat Nerd Font,Atkinson Hyperlegible,JetBrainsMono NF"
 }

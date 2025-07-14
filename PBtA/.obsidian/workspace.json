@@ -298,7 +298,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 539
+    "width": 539,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -323,6 +324,9 @@
   },
   "active": "d2bfb68fd0566504",
   "lastOpenFiles": [
+    "SoloRPGs/4-Templates/Colour Pallette.md",
+    "SoloRPGs/Just One Sword/PC/Vozz Ichorfoot.md",
+    "SoloRPGs/Untitled.md",
     "SoloRPGs/Just One Sword/World Building/Longwatch.md",
     "SoloRPGs/Just One Sword/Maps/Map of Mistvale.md",
     "SoloRPGs/Just One Sword/Tables/Roll Tables.md",
@@ -335,7 +339,6 @@
     "SoloRPGs/5-Tokens/Hexes/Wuggy's Hex Tiles Buildings/WT-Towers13.webp",
     "SoloRPGs/5-Tokens/Hexes/Wuggy's Hex Tiles Buildings/WT-Towers12.webp",
     "SoloRPGs/Just One Sword/Bestiary Data.md",
-    "SoloRPGs/Just One Sword/PC/Vozz Ichorfoot.md",
     "SoloRPGs/Just One Sword/Abilities & Skills/Craft.md",
     "SoloRPGs/Just One Sword/Abilities & Skills/Medicine.md",
     "SoloRPGs/Just One Sword/Spells & Sorcery/Disperse the Sickness.md",
@@ -352,8 +355,6 @@
     "SoloRPGs/2-Bestiaries/Riftbreakers Second Edition/Poisonous Frog.md",
     "SoloRPGs/2-Bestiaries/Riftbreakers Second Edition/Mummy Guardian.md",
     "SoloRPGs/2-Bestiaries/Riftbreakers Second Edition/Mossy Horror.md",
-    "SoloRPGs/2-Bestiaries/Riftbreakers Second Edition/Luminous Lizard.md",
-    "SoloRPGs/2-Bestiaries/Riftbreakers Second Edition/Island Golem.md",
     "SoloRPGs/Riftbreakers - Second Edition/Riftbreakers_2e_-_BETA_6_219.pdf",
     "SoloRPGs/5-Tokens/VTT Battle Tokens/Spined Devil - 0101_Blue.webp",
     "SoloRPGs/5-Tokens/VTT Battle Tokens/Bone Devil - 0101_whiteRed.webp",
